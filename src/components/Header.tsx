@@ -13,7 +13,7 @@ export default function Header() {
           {/* 로고 */}
           <Link href="/" className="flex items-center gap-2 group">
             <span className="text-2xl">🏘️</span>
-            <span className="text-lg font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent group-hover:from-blue-500 group-hover:to-indigo-500 transition-all">
+            <span className="text-lg font-bold bg-gradient-to-r from-orange-600 to-rose-600 bg-clip-text text-transparent group-hover:from-orange-500 group-hover:to-rose-500 transition-all">
               우리 동네 생활 정보
             </span>
           </Link>
@@ -103,7 +103,7 @@ function NavLink({
   return (
     <Link
       href={href}
-      className="px-4 py-2 rounded-lg text-sm font-medium text-gray-600 hover:text-blue-600 hover:bg-blue-50 transition-all"
+      className="px-4 py-2 rounded-lg text-sm font-medium text-gray-600 hover:text-orange-600 hover:bg-orange-50 transition-all"
     >
       {children}
     </Link>
@@ -123,7 +123,7 @@ function MobileNavLink({
     <Link
       href={href}
       onClick={onClick}
-      className="px-4 py-3 rounded-lg text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all"
+      className="px-4 py-3 rounded-lg text-base font-medium text-gray-700 hover:text-orange-600 hover:bg-orange-50 transition-all"
     >
       {children}
     </Link>

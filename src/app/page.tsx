@@ -118,13 +118,13 @@ export default async function Home() {
                   </div>
                 </div>
                 
-                <a
-                  href={event.url}
+                <Link
+                  href="/blog"
                   className="inline-flex w-full items-center justify-center text-sm font-semibold text-orange-600 bg-orange-50 hover:bg-orange-100 px-4 py-2.5 rounded-xl transition-colors"
                 >
                   자세히 보기
                   <svg className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
-                </a>
+                </Link>
               </div>
             </div>
           ))}
@@ -172,13 +172,13 @@ export default async function Home() {
                     {benefit.summary}
                   </p>
                   
-                  <a
-                    href={benefit.url}
+                  <Link
+                    href="/blog"
                     className="inline-flex items-center text-sm font-semibold text-amber-600 hover:text-amber-700"
                   >
-                    신청 방법 알아보기
-                    <span className="ml-1 px-1.5 py-0.5 bg-amber-100 text-amber-700 rounded-full text-[10px] ml-2 group-hover:bg-amber-600 group-hover:text-white transition-colors">공식 사이트</span>
-                  </a>
+                    자세히 보기
+                    <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+                  </Link>
                 </div>
                 
                 {/* 하단 강조 선 */}
