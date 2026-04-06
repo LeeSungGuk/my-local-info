@@ -55,14 +55,14 @@ export default async function Home() {
               🏘️ 살기 좋은 우리 동네
             </span>
             <h1 className="text-3xl sm:text-5xl font-extrabold leading-tight mb-6 tracking-tight">
-              성남시 생활 정보,
+              서울시티,
               <br />
               <span className="text-amber-100">한눈에 확인하세요</span>
             </h1>
             <p className="text-lg sm:text-xl text-orange-50 max-w-2xl mx-auto leading-relaxed">
               행사, 축제부터 꼭 필요한 지원금 혜택까지!
               <br />
-              성남시민을 위한 최신 정보를 매일 모아드립니다.
+              서울 시민을 위한 생활 정보를 한곳에 모아드립니다.
             </p>
           </div>
         </div>
@@ -79,7 +79,7 @@ export default async function Home() {
               <span className="text-3xl">🎉</span> 이번 달 행사/축제
             </h2>
             <p className="mt-2 text-gray-500">
-              성남시에서 열리는 즐거운 행사들을 만나보세요
+              서울 곳곳에서 열리는 행사와 프로그램을 살펴보세요
             </p>
           </div>
         </div>
@@ -119,7 +119,7 @@ export default async function Home() {
                 </div>
                 
                 <Link
-                  href="/blog"
+                  href={`/events/${event.id}`}
                   className="inline-flex w-full items-center justify-center text-sm font-semibold text-orange-600 bg-orange-50 hover:bg-orange-100 px-4 py-2.5 rounded-xl transition-colors"
                 >
                   자세히 보기
@@ -136,12 +136,12 @@ export default async function Home() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-16 sm:py-20">
           <div className="flex items-center justify-between mb-8 sm:mb-10">
             <div>
-              <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 flex items-center gap-2">
-                <span className="text-3xl">💰</span> 놓치면 아쉬운 혜택
-              </h2>
-              <p className="mt-2 text-gray-500">
-                나에게 딱 맞는 지원금 정보를 확인하세요
-              </p>
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 flex items-center gap-2">
+              <span className="text-3xl">💰</span> 놓치면 아쉬운 혜택
+            </h2>
+            <p className="mt-2 text-gray-500">
+              서울 생활에 도움이 되는 지원 정보를 확인하세요
+            </p>
             </div>
           </div>
           
@@ -173,7 +173,7 @@ export default async function Home() {
                   </p>
                   
                   <Link
-                    href="/blog"
+                    href={`/benefits/${benefit.id}`}
                     className="inline-flex items-center text-sm font-semibold text-amber-600 hover:text-amber-700"
                   >
                     자세히 보기

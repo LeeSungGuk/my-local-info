@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 const fs = require("fs");
 const path = require("path");
 
@@ -5,6 +6,7 @@ const PUBLIC_DATA_API_KEY = process.env.PUBLIC_DATA_API_KEY;
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
 const LOCAL_INFO_PATH = path.join(__dirname, "..", "public", "data", "local-info.json");
+const SEOUL_KEYWORDS = ["서울", "서울특별시"];
 
 // ─── 1단계: 공공데이터포털 API에서 데이터 가져오기 ───
 async function fetchPublicData() {
@@ -25,27 +27,21 @@ async function fetchPublicData() {
   const items = json.data || [];
   console.log(`✅ ${items.length}건의 데이터를 가져왔습니다.`);
 
-  // 필터링: 성남 → 경기 → 전체
+  // 필터링: 서울 관련 데이터만 사용
   const searchFields = ["서비스명", "서비스목적요약", "지원대상", "소관기관명"];
 
-  const seongnamItems = items.filter((item) =>
-    searchFields.some((field) => item[field] && item[field].includes("성남"))
+  const seoulItems = items.filter((item) =>
+    searchFields.some((field) =>
+      SEOUL_KEYWORDS.some((keyword) => item[field] && item[field].includes(keyword))
+    )
   );
-  if (seongnamItems.length > 0) {
-    console.log(`🔍 '성남' 관련 데이터 ${seongnamItems.length}건 발견`);
-    return seongnamItems;
+  if (seoulItems.length > 0) {
+    console.log(`🔍 '서울' 관련 데이터 ${seoulItems.length}건 발견`);
+    return seoulItems;
   }
 
-  const gyeonggiItems = items.filter((item) =>
-    searchFields.some((field) => item[field] && item[field].includes("경기"))
-  );
-  if (gyeonggiItems.length > 0) {
-    console.log(`🔍 '경기' 관련 데이터 ${gyeonggiItems.length}건 발견`);
-    return gyeonggiItems;
-  }
-
-  console.log("🔍 지역 필터 없이 전체 데이터 사용");
-  return items;
+  console.log("⚠️ 서울 관련 데이터를 찾지 못했습니다.");
+  return [];
 }
 
 // ─── 2단계: 기존 데이터와 비교 ───

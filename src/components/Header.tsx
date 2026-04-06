@@ -14,7 +14,7 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-2 group">
             <span className="text-2xl">🏘️</span>
             <span className="text-lg font-bold bg-gradient-to-r from-orange-600 to-rose-600 bg-clip-text text-transparent group-hover:from-orange-500 group-hover:to-rose-500 transition-all">
-              우리 동네 생활 정보
+              서울시티
             </span>
           </Link>
 

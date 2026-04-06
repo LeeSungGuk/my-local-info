@@ -3,18 +3,18 @@ import { getAllPosts } from "@/lib/posts";
 
 export const metadata = {
   title: "생생 생활 정보 블로그 | 우리 동네 이야기",
-  description: "성남시민을 위한 실생활 꿀팁부터 최신 소식까지, 풍성한 정보를 블로그를 통해 만나보세요.",
+  description: "서울 시민을 위한 실생활 꿀팁부터 최신 소식까지, 풍성한 정보를 블로그를 통해 만나보세요.",
 };
 
 export default function BlogListPage() {
   const posts = getAllPosts();
-
+  console.log("posts: ", posts)
   return (
     <div className="bg-gradient-to-b from-amber-50 to-white min-h-screen pt-24 pb-16">
       <div className="max-w-4xl mx-auto px-4">
         <header className="mb-12 text-center">
           <h1 className="text-4xl font-bold text-orange-900 mb-4 drop-shadow-sm">블로그</h1>
-          <p className="text-lg text-orange-700">성남시의 유용한 생활 정보와 꿀팁을 전해드려요.</p>
+          <p className="text-lg text-orange-700">서울 생활에 도움이 되는 정보와 꿀팁을 전해드려요.</p>
         </header>
 
         {posts.length === 0 ? (

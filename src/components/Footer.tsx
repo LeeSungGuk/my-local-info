@@ -10,12 +10,12 @@ export default function Footer() {
             <div className="flex items-center gap-2 mb-4">
               <span className="text-2xl">🏘️</span>
               <span className="text-lg font-bold text-white">
-                우리 동네 생활 정보
+                서울시티
               </span>
             </div>
             <p className="text-sm text-gray-400 leading-relaxed">
-              공공데이터를 활용하여 우리 동네의 행사, 축제, 지원금, 혜택 정보를
-              자동으로 수집하여 전달해드립니다.
+              공공데이터를 활용하여 서울 곳곳의 행사, 축제, 지원금, 혜택 정보를
+              자동으로 수집해 전달합니다.
             </p>
           </div>
 
@@ -63,7 +63,7 @@ export default function Footer() {
         {/* 하단 저작권 */}
         <div className="mt-10 pt-8 border-t border-gray-800 text-center">
           <p className="text-sm text-gray-500">
-            © 2026 우리 동네 생활 정보. 공공데이터를 활용한 서비스입니다.
+            © 2026 서울시티. 공공데이터를 활용한 서비스입니다.
           </p>
         </div>
       </div>

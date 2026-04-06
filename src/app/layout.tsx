@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "우리 동네 생활 정보 | 행사·축제·지원금 한눈에",
+  title: "서울시티 | 행사·축제·지원금 한눈에",
   description:
-    "우리 동네의 행사, 축제, 지원금, 혜택 정보를 한눈에 확인하세요. 공공데이터를 활용한 지역 생활 정보 서비스입니다.",
+    "서울 곳곳의 행사, 축제, 지원금, 혜택 정보를 한눈에 확인하세요. 공공데이터를 활용한 서울시티 서비스입니다.",
 };
 
 export default function RootLayout({

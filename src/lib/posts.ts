@@ -3,6 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 
 const postsDirectory = path.join(process.cwd(), "src/content/posts");
+console.log("postsDirectory: ", postsDirectory)
 
 export interface Post {
   slug: string;
@@ -73,7 +74,7 @@ export function getPostBySlug(slug: string): Post | null {
       tags: Array.isArray(data.tags) ? data.tags : [],
       content,
     };
-  } catch (error) {
+  } catch {
     return null;
   }
 }
