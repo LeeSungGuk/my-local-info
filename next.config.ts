@@ -4,6 +4,12 @@ const nextConfig: NextConfig = {
   output: "export",
   images: {
     unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "culture.seoul.go.kr",
+      },
+    ],
   },
   trailingSlash: true,
 };

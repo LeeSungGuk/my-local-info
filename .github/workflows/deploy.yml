@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 22 * * *'  # 매일 UTC 22시 = 한국시간 아침 7시
+    - cron: '30 22 * * *'  # 매일 UTC 22:30 = 한국시간 오전 7:30
   workflow_dispatch:
 
 permissions:
@@ -29,6 +29,13 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Fetch Seoul events
+        run: npm run fetch:seoul-events
+        env:
+          SEOUL_OPEN_DATA_API_KEY: ${{ secrets.SEOUL_OPEN_DATA_API_KEY }}
+          PUBLIC_DATA_API_KEY: ${{ secrets.PUBLIC_DATA_API_KEY }}
+          EVENTS_START_DATE: "2026-04-01"
 
       - name: Fetch public data
         run: node scripts/fetch-public-data.js

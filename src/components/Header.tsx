@@ -21,7 +21,7 @@ export default function Header() {
           {/* 데스크톱 네비게이션 */}
           <nav className="hidden md:flex items-center gap-1">
             <NavLink href="/">홈</NavLink>
-            <NavLink href="/events/1">행사/축제</NavLink>
+            <NavLink href="/events">행사/축제</NavLink>
             <NavLink href="/benefits/1">지원금/혜택</NavLink>
             <NavLink href="/blog">블로그</NavLink>
           </nav>
@@ -68,7 +68,7 @@ export default function Header() {
                 🏠 홈
               </MobileNavLink>
               <MobileNavLink
-                href="/events/1"
+                href="/events"
                 onClick={() => setIsMenuOpen(false)}
               >
                 🎉 행사/축제
