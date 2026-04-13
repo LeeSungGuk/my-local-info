@@ -1,7 +1,8 @@
 import { promises as fs } from "fs";
 import path from "path";
 import Link from "next/link";
-import { formatEventPeriod, getFeaturedEvents, getEventsIndex } from "@/lib/seoul-events";
+import HomeEventsSection from "@/components/HomeEventsSection";
+import { getAllEvents, getEventsIndex } from "@/lib/seoul-events";
 
 interface LocalBenefitsData {
   benefits: Array<{
@@ -25,9 +26,9 @@ async function getLocalBenefitsData(): Promise<LocalBenefitsData> {
 }
 
 export default async function Home() {
-  const [localData, featuredEvents, eventsIndex] = await Promise.all([
+  const [localData, allEvents, eventsIndex] = await Promise.all([
     getLocalBenefitsData(),
-    getFeaturedEvents(6),
+    getAllEvents(),
     getEventsIndex(),
   ]);
 
@@ -78,70 +79,7 @@ export default async function Home() {
           </Link>
         </div>
 
-        {featuredEvents.length === 0 ? (
-          <div className="rounded-3xl border border-dashed border-orange-200 bg-white p-10 text-center">
-            <p className="text-lg font-semibold text-gray-900">행사 데이터가 아직 없습니다.</p>
-            <p className="mt-2 text-sm text-gray-600">
-              서울시 문화행사 데이터를 수집하면 이 영역에 자동으로 반영됩니다.
-            </p>
-          </div>
-        ) : (
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {featuredEvents.map((event, index) => (
-              <div
-                key={event.id}
-                className="group overflow-hidden rounded-2xl border border-orange-100/50 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
-                style={{ animationDelay: `${index * 0.1}s` }}
-              >
-                <div className="h-1.5 bg-gradient-to-r from-orange-400 to-rose-400" />
-
-                <div className="p-6">
-                  <div className="flex flex-wrap items-center gap-2">
-                    <span className="inline-flex items-center rounded-md bg-orange-50 px-2.5 py-1 text-xs font-semibold text-orange-600">
-                      {event.category}
-                    </span>
-                    <span className="inline-flex items-center rounded-md bg-gray-100 px-2.5 py-1 text-xs font-semibold text-gray-600">
-                      {event.district}
-                    </span>
-                  </div>
-
-                  <h3 className="mb-3 mt-4 text-xl font-bold text-gray-900 transition-colors group-hover:text-orange-600">
-                    {event.title}
-                  </h3>
-
-                  <p className="mb-5 line-clamp-2 text-sm leading-relaxed text-gray-600">
-                    {event.summary}
-                  </p>
-
-                  <div className="mb-6 space-y-2 rounded-xl bg-gray-50/50 p-3">
-                    <div className="flex items-center gap-2 text-sm text-gray-600">
-                      <span className="text-orange-400">📅</span>
-                      <span className="font-medium">{formatEventPeriod(event)}</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-sm text-gray-600">
-                      <span className="text-orange-400">📍</span>
-                      <span className="truncate">{event.venue}</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-sm text-gray-600">
-                      <span className="text-orange-400">💸</span>
-                      <span>{event.isFree ? "무료" : event.fee}</span>
-                    </div>
-                  </div>
-
-                  <Link
-                    href={`/events/${event.id}`}
-                    className="inline-flex w-full items-center justify-center rounded-xl bg-orange-50 px-4 py-2.5 text-sm font-semibold text-orange-600 transition-colors hover:bg-orange-100"
-                  >
-                    자세히 보기
-                    <svg className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </Link>
-                </div>
-              </div>
-            ))}
-          </div>
-        )}
+        <HomeEventsSection events={allEvents} />
 
         <div className="mt-6 sm:hidden">
           <Link

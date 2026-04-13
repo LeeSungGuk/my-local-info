@@ -1,5 +1,6 @@
 import { promises as fs } from "fs";
 import path from "path";
+import { filterVisibleEvents, getTodayInSeoul, sortEventsByStartDate } from "@/lib/event-visibility";
 
 export interface SeoulEventsSource {
   provider: string;
@@ -92,8 +93,13 @@ export async function getAllEvents(): Promise<SeoulEventSummary[]> {
   return index.items;
 }
 
-export async function getFeaturedEvents(limit = 6): Promise<SeoulEventSummary[]> {
+export async function getVisibleEvents(today = getTodayInSeoul()): Promise<SeoulEventSummary[]> {
   const events = await getAllEvents();
+  return sortEventsByStartDate(filterVisibleEvents(events, today));
+}
+
+export async function getFeaturedEvents(limit = 6): Promise<SeoulEventSummary[]> {
+  const events = await getVisibleEvents();
   return events.slice(0, limit);
 }
 

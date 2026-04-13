@@ -192,10 +192,26 @@ function normalizeEvent(row, collectedAt) {
 }
 
 function sortEvents(a, b) {
-  const byStartDate = a.startDate.localeCompare(b.startDate);
+  const byStartDate = (a.startDate || a.endDate || "9999-12-31").localeCompare(
+    b.startDate || b.endDate || "9999-12-31"
+  );
 
   if (byStartDate !== 0) {
     return byStartDate;
+  }
+
+  const byEndDate = (a.endDate || a.startDate || "9999-12-31").localeCompare(
+    b.endDate || b.startDate || "9999-12-31"
+  );
+
+  if (byEndDate !== 0) {
+    return byEndDate;
+  }
+
+  const byRegisteredAt = (b.registeredAt || "").localeCompare(a.registeredAt || "");
+
+  if (byRegisteredAt !== 0) {
+    return byRegisteredAt;
   }
 
   const byDistrict = a.district.localeCompare(b.district, "ko");
