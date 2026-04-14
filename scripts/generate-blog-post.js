@@ -40,6 +40,8 @@ function loadEnvFile(filePath) {
 
 loadEnvFile(ENV_FILE_PATH);
 
+const BLOG_GENERATION_MODEL = process.env.GEMINI_BLOG_MODEL || "gemini-3-flash-preview";
+
 function getTodayInSeoul() {
   return new Intl.DateTimeFormat("en-CA", {
     timeZone: "Asia/Seoul",
@@ -139,9 +141,9 @@ ${imageFrontmatter}---
 
 마지막 줄에 FILENAME: ${today}-keyword 형식으로 파일명도 출력해줘. 키워드는 영문 소문자와 하이픈만 사용해줘.`;
 
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${process.env.GEMINI_API_KEY}`;
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${BLOG_GENERATION_MODEL}:generateContent?key=${process.env.GEMINI_API_KEY}`;
 
-  console.log(`🤖 Gemini AI로 서울 정보글 생성 중... (${topic.id})`);
+  console.log(`🤖 Gemini AI로 서울 정보글 생성 중... (${topic.id}, ${BLOG_GENERATION_MODEL})`);
   const res = await fetch(url, {
     method: "POST",
     headers: { "Content-Type": "application/json" },

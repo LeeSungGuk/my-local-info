@@ -10,28 +10,28 @@ export const metadata = {
 export default function BlogListPage() {
   const posts = getAllPosts();
   return (
-    <div className="bg-gradient-to-b from-amber-50 to-white min-h-screen pt-24 pb-16">
-      <div className="max-w-4xl mx-auto px-4">
+    <div className="min-h-screen bg-gradient-to-b from-sky-50 to-white pb-16 pt-24">
+      <div className="mx-auto max-w-4xl px-4">
         <header className="mb-12 text-center">
-          <h1 className="text-4xl font-bold text-orange-900 mb-4 drop-shadow-sm">블로그</h1>
-          <p className="text-lg text-orange-700">서울에서 가볼만한 곳과 취향별 추천 코스를 정보글로 정리합니다.</p>
+          <h1 className="mb-4 text-4xl font-bold text-slate-900 drop-shadow-sm">블로그</h1>
+          <p className="text-lg text-sky-700">서울에서 가볼만한 곳과 취향별 추천 코스를 정보글로 정리합니다.</p>
         </header>
 
         {posts.length === 0 ? (
-          <div className="text-center py-20 bg-white/70 backdrop-blur-sm rounded-3xl shadow-soft p-12 border border-orange-100">
-            <p className="text-xl text-orange-400 font-medium mb-2">아직 공개된 서울 전용 정보글이 없습니다.</p>
-            <p className="text-orange-300">서울 장소 추천과 동네별 코스를 기준으로 순차적으로 채워집니다.</p>
+          <div className="rounded-3xl border border-sky-100 bg-white/70 p-12 py-20 text-center backdrop-blur-sm shadow-soft">
+            <p className="mb-2 text-xl font-medium text-sky-500">아직 공개된 서울 전용 정보글이 없습니다.</p>
+            <p className="text-sky-300">서울 장소 추천과 동네별 코스를 기준으로 순차적으로 채워집니다.</p>
           </div>
         ) : (
           <div className="grid gap-8">
             {posts.map((post) => (
               <article
                 key={post.slug}
-                className="group relative bg-white/80 backdrop-blur-sm rounded-3xl shadow-soft overflow-hidden hover:shadow-hover transition-all duration-300 border border-orange-50 transform hover:-translate-y-1"
+                className="group relative overflow-hidden rounded-3xl border border-sky-100 bg-white/80 shadow-soft backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_48px_rgba(56,189,248,0.14)]"
               >
                 <Link href={`/blog/${post.slug}`} className="block">
                   {post.coverImage ? (
-                    <div className="relative h-52 overflow-hidden border-b border-orange-100 bg-slate-950/90">
+                    <div className="relative h-52 overflow-hidden border-b border-sky-100 bg-slate-950/90">
                       <Image
                         src={post.coverImage}
                         alt={post.coverAlt || post.title}
@@ -43,31 +43,31 @@ export default function BlogListPage() {
                   ) : null}
                   <div className="p-8">
                   <div className="flex flex-col md:flex-row md:items-center justify-between mb-4 gap-2">
-                    <span className="inline-block px-3 py-1 bg-rose-100 text-rose-600 rounded-full text-xs font-bold uppercase tracking-wider">
+                    <span className="inline-block rounded-full bg-sky-100 px-3 py-1 text-xs font-bold uppercase tracking-wider text-sky-700">
                       {post.category}
                     </span>
-                    <time className="text-sm text-orange-400 font-medium">{post.date}</time>
+                    <time className="text-sm font-medium text-sky-500">{post.date}</time>
                   </div>
-                  <h2 className="text-2xl font-bold text-orange-900 mb-4 group-hover:text-orange-600 transition-colors">
+                  <h2 className="mb-4 text-2xl font-bold text-slate-900 transition-colors group-hover:text-sky-700">
                     {post.title}
                   </h2>
-                  <p className="text-orange-700 leading-relaxed mb-6 line-clamp-2">
+                  <p className="mb-6 line-clamp-2 leading-relaxed text-slate-600">
                     {post.summary}
                   </p>
                   <div className="flex flex-wrap gap-2 mb-6">
                     {post.tags.map((tag) => (
                       <span
                         key={tag}
-                        className="text-sm text-orange-500 bg-orange-50 px-2 py-0.5 rounded"
+                        className="rounded bg-sky-50 px-2 py-0.5 text-sm text-sky-600"
                       >
                         #{tag}
                       </span>
                     ))}
                   </div>
-                  <div className="flex items-center text-orange-500 font-bold group-hover:translate-x-1 transition-transform">
+                  <div className="flex items-center font-bold text-sky-600 transition-transform group-hover:translate-x-1">
                     자세히 읽기 
                     <svg
-                      className="w-5 h-5 ml-1 transition-transform"
+                      className="ml-1 h-5 w-5 transition-transform"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"

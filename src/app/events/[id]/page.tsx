@@ -25,11 +25,11 @@ export default async function EventDetailPage({
   const externalUrl = event.detailUrl || event.organizerUrl;
 
   return (
-    <div className="bg-gradient-to-b from-orange-50 via-white to-white min-h-screen">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+    <div className="min-h-screen bg-gradient-to-b from-sky-50 via-white to-white">
+      <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
         <Link
           href="/events"
-          className="inline-flex items-center gap-1 text-sm font-medium text-gray-500 transition-colors hover:text-orange-600"
+          className="inline-flex items-center gap-1 text-sm font-medium text-gray-500 transition-colors hover:text-sky-700"
         >
           <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -37,12 +37,12 @@ export default async function EventDetailPage({
           행사 목록으로 돌아가기
         </Link>
 
-        <article className="mt-8 overflow-hidden rounded-[2rem] border border-orange-100 bg-white shadow-sm">
-          <div className="h-2 bg-gradient-to-r from-orange-400 via-orange-500 to-rose-400" />
+        <article className="mt-8 overflow-hidden rounded-[1.75rem] border border-slate-200 bg-white shadow-[0_10px_30px_rgba(15,23,42,0.05)]">
+          <div className="h-2 bg-gradient-to-r from-sky-400 via-cyan-400 to-blue-400" />
 
           <div className="p-6 sm:p-10">
             <div className="flex flex-wrap items-center gap-2">
-              <span className="rounded-full bg-orange-100 px-3 py-1 text-sm font-semibold text-orange-700">
+              <span className="rounded-full bg-sky-100 px-3 py-1 text-sm font-semibold text-sky-700">
                 {event.category}
               </span>
               <span className="rounded-full bg-gray-100 px-3 py-1 text-sm font-semibold text-gray-600">
@@ -62,7 +62,7 @@ export default async function EventDetailPage({
             </p>
 
             {event.imageUrl ? (
-              <div className="mt-8 overflow-hidden rounded-[1.5rem] border border-orange-100 bg-orange-50">
+              <div className="mt-8 overflow-hidden rounded-[1.25rem] border border-slate-200 bg-slate-50">
                 <Image
                   src={event.imageUrl}
                   alt={event.title}
@@ -86,7 +86,7 @@ export default async function EventDetailPage({
             </div>
 
             <div className="mt-10 grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
-              <section className="rounded-[1.5rem] border border-gray-100 bg-gray-50 p-6">
+              <section className="rounded-[1.25rem] border border-slate-200 bg-slate-50 p-6">
                 <h2 className="text-xl font-bold text-gray-900">행사 안내</h2>
                 <p className="mt-4 whitespace-pre-line text-base leading-relaxed text-gray-700">
                   {event.description || "서울 열린데이터광장에서 별도 상세 설명을 제공하지 않아 공식 상세 페이지 확인이 필요합니다."}
@@ -111,11 +111,11 @@ export default async function EventDetailPage({
                 ) : null}
               </section>
 
-              <section className="rounded-[1.5rem] border border-orange-100 bg-orange-50 p-6">
+              <section className="rounded-[1.25rem] border border-slate-200 bg-white p-6">
                 <h2 className="text-xl font-bold text-gray-900">데이터 출처</h2>
                 <p className="mt-4 text-sm leading-relaxed text-gray-600">
                   서울 열린데이터광장{" "}
-                  <code className="rounded bg-white px-1.5 py-0.5 text-orange-700">서울시 문화행사 정보</code>
+                  <code className="rounded bg-white px-1.5 py-0.5 text-sky-700">서울시 문화행사 정보</code>
                   {" "}데이터를 기준으로 저장한 항목입니다.
                 </p>
 
@@ -139,7 +139,7 @@ export default async function EventDetailPage({
                     href={externalUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-gradient-to-r from-orange-500 to-rose-500 px-6 py-3 text-sm font-semibold text-white transition-all hover:from-orange-600 hover:to-rose-600"
+                    className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full border border-sky-200 bg-sky-50 px-6 py-3 text-sm font-semibold text-sky-800 transition-all hover:bg-sky-100"
                   >
                     공식 상세 페이지 보기
                     <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -166,9 +166,9 @@ function InfoCard({
   icon: string;
 }) {
   return (
-    <div className="rounded-2xl border border-orange-100 bg-white p-5">
+    <div className="rounded-xl border border-slate-200 bg-white p-5">
       <div className="flex items-start gap-3">
-        <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-orange-50 text-lg">
+        <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-sky-50 text-lg">
           {icon}
         </div>
         <div className="min-w-0">

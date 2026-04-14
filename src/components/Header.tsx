@@ -7,14 +7,21 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100 shadow-sm">
+    <header className="sticky top-0 z-50 border-b border-sky-100/80 bg-[linear-gradient(180deg,rgba(248,252,255,0.94),rgba(239,246,255,0.88))] backdrop-blur-xl shadow-[0_12px_32px_rgba(56,189,248,0.08)]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-16">
           {/* 로고 */}
-          <Link href="/" className="flex items-center gap-2 group">
-            <span className="text-2xl">🏘️</span>
-            <span className="text-lg font-bold bg-gradient-to-r from-orange-600 to-rose-600 bg-clip-text text-transparent group-hover:from-orange-500 group-hover:to-rose-500 transition-all">
-              서울시티
+          <Link href="/" className="flex items-center gap-3 group">
+            <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-[radial-gradient(circle_at_top,rgba(224,242,254,0.95),rgba(56,189,248,0.28)_55%,rgba(14,116,144,0.18))] ring-1 ring-cyan-200/60 shadow-[0_8px_22px_rgba(14,165,233,0.18)] transition-transform group-hover:-translate-y-0.5">
+              <BrandMark />
+            </span>
+            <span className="flex flex-col">
+              <span className="text-lg font-bold tracking-[-0.02em] bg-gradient-to-r from-sky-950 via-sky-700 to-cyan-500 bg-clip-text text-transparent">
+                서울시티
+              </span>
+              <span className="text-[11px] font-medium tracking-[0.18em] text-sky-500/80 uppercase">
+                Seoul Local Guide
+              </span>
             </span>
           </Link>
 
@@ -28,12 +35,12 @@ export default function Header() {
 
           {/* 모바일 메뉴 버튼 */}
           <button
-            className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
+            className="md:hidden rounded-xl p-2 text-slate-700 transition-colors hover:bg-sky-50"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="메뉴 열기"
           >
             <svg
-              className="w-6 h-6 text-gray-700"
+              className="h-6 w-6"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -59,7 +66,7 @@ export default function Header() {
 
         {/* 모바일 메뉴 */}
         {isMenuOpen && (
-          <nav className="md:hidden py-4 border-t border-gray-100 animate-fade-in">
+          <nav className="animate-fade-in border-t border-sky-100/80 py-4 md:hidden">
             <div className="flex flex-col gap-1">
               <MobileNavLink
                 href="/"
@@ -93,6 +100,26 @@ export default function Header() {
   );
 }
 
+function BrandMark() {
+  return (
+    <svg
+      aria-hidden="true"
+      className="h-6 w-6"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M12 4L13.8 7.5V15.5H10.2V7.5L12 4Z" fill="#082F49" />
+      <path d="M11.15 1.9H12.85V4.3H11.15V1.9Z" fill="#38BDF8" />
+      <path d="M9.4 15.2H14.6V18.5H9.4V15.2Z" fill="#0F172A" />
+      <path d="M8.3 18.3H15.7V20.2H8.3V18.3Z" fill="#1D4ED8" />
+      <path d="M6.1 20H17.9V21.8H6.1V20Z" fill="#7DD3FC" />
+      <circle cx="16.8" cy="6.5" r="1.1" fill="#BAE6FD" />
+      <circle cx="7.2" cy="9.2" r="0.8" fill="#E0F2FE" />
+    </svg>
+  );
+}
+
 function NavLink({
   href,
   children,
@@ -103,7 +130,7 @@ function NavLink({
   return (
     <Link
       href={href}
-      className="px-4 py-2 rounded-lg text-sm font-medium text-gray-600 hover:text-orange-600 hover:bg-orange-50 transition-all"
+      className="rounded-xl px-4 py-2 text-sm font-medium text-slate-600 transition-all hover:bg-sky-50 hover:text-sky-700"
     >
       {children}
     </Link>
@@ -123,7 +150,7 @@ function MobileNavLink({
     <Link
       href={href}
       onClick={onClick}
-      className="px-4 py-3 rounded-lg text-base font-medium text-gray-700 hover:text-orange-600 hover:bg-orange-50 transition-all"
+      className="rounded-xl px-4 py-3 text-base font-medium text-slate-700 transition-all hover:bg-sky-50 hover:text-sky-700"
     >
       {children}
     </Link>

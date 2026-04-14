@@ -27,15 +27,15 @@ export default async function BlogPostPage({ params }: PageProps) {
   }
 
   return (
-    <article className="bg-[#fff9f2] min-h-screen pt-32 pb-24">
-      <div className="max-w-3xl mx-auto px-6">
+    <article className="min-h-screen bg-[linear-gradient(180deg,#eff6ff_0%,#f8fbff_18%,#ffffff_48%)] pb-24 pt-32">
+      <div className="mx-auto max-w-3xl px-6">
         <div className="mb-12">
           <Link
             href="/blog"
-            className="group flex items-center text-orange-600 font-bold mb-8 hover:-translate-x-1 transition-transform"
+            className="group mb-8 flex items-center font-bold text-sky-700 transition-transform hover:-translate-x-1"
           >
             <svg
-              className="w-5 h-5 mr-1"
+              className="mr-1 h-5 w-5"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -51,16 +51,16 @@ export default async function BlogPostPage({ params }: PageProps) {
           </Link>
 
           <header className="mb-10 text-center md:text-left">
-            <span className="inline-block px-4 py-1.5 bg-rose-100 text-rose-600 rounded-full text-xs font-bold uppercase tracking-wider mb-6">
+            <span className="mb-6 inline-block rounded-full bg-sky-100 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-sky-700">
               {post.category}
             </span>
-            <h1 className="text-4xl md:text-5xl font-extrabold text-[#3a1d1d] mb-6 leading-tight">
+            <h1 className="mb-6 text-4xl font-extrabold leading-tight text-slate-900 md:text-5xl">
               {post.title}
             </h1>
-            <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 text-orange-500 font-medium">
+            <div className="flex flex-wrap items-center justify-center gap-4 font-medium text-sky-600 md:justify-start">
               <time className="flex items-center">
                 <svg
-                  className="w-4 h-4 mr-1.5"
+                  className="mr-1.5 h-4 w-4"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -78,7 +78,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                 {post.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="text-orange-400 bg-orange-50 px-2 py-0.5 rounded text-sm"
+                    className="rounded bg-sky-50 px-2 py-0.5 text-sm text-sky-600"
                   >
                     #{tag}
                   </span>
@@ -88,7 +88,7 @@ export default async function BlogPostPage({ params }: PageProps) {
           </header>
 
           {post.coverImage ? (
-            <div className="relative mb-10 overflow-hidden rounded-[2rem] border border-orange-100 bg-slate-950/90">
+            <div className="relative mb-10 overflow-hidden rounded-[2rem] border border-sky-100 bg-slate-950/90">
               <div className="relative aspect-[16/9] w-full">
                 <Image
                   src={post.coverImage}
@@ -102,16 +102,16 @@ export default async function BlogPostPage({ params }: PageProps) {
           ) : null}
           
           {/* 본문 콘텐츠 */}
-          <div className="prose prose-orange prose-lg max-w-none prose-headings:text-[#3a1d1d] prose-a:text-orange-600 hover:prose-a:text-orange-700 bg-white/90 backdrop-blur-sm rounded-[2rem] p-8 md:p-12 shadow-soft border border-orange-50">
+          <div className="prose prose-lg max-w-none rounded-[2rem] border border-sky-100 bg-white/90 p-8 shadow-soft backdrop-blur-sm prose-headings:text-slate-900 prose-a:text-sky-600 hover:prose-a:text-sky-700 md:p-12">
             <ReactMarkdown remarkPlugins={[remarkGfm]}>
               {post.content}
             </ReactMarkdown>
           </div>
           
-          <div className="mt-16 pt-10 border-t border-orange-100 text-center">
+          <div className="mt-16 border-t border-sky-100 pt-10 text-center">
              <Link
                 href="/blog"
-                className="inline-flex items-center px-8 py-3 bg-gradient-to-r from-orange-400 to-rose-400 text-white font-bold rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
+                className="inline-flex items-center rounded-full bg-gradient-to-r from-sky-500 via-cyan-500 to-blue-500 px-8 py-3 font-bold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl"
               >
                 다른 글 더보기
               </Link>

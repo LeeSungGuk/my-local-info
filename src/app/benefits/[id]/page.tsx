@@ -25,11 +25,11 @@ export default async function BenefitDetailPage({
   const externalUrl = benefit.onlineUrl || benefit.detailUrl;
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-amber-50 via-white to-white">
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 via-white to-white">
       <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
         <Link
           href="/benefits"
-          className="inline-flex items-center gap-1 text-sm font-medium text-gray-500 transition-colors hover:text-amber-600"
+          className="inline-flex items-center gap-1 text-sm font-medium text-gray-500 transition-colors hover:text-blue-700"
         >
           <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -37,12 +37,12 @@ export default async function BenefitDetailPage({
           혜택 목록으로 돌아가기
         </Link>
 
-        <article className="mt-8 overflow-hidden rounded-[2rem] border border-amber-100 bg-white shadow-sm">
-          <div className="h-2 bg-gradient-to-r from-amber-400 via-amber-500 to-orange-500" />
+        <article className="mt-8 overflow-hidden rounded-[1.75rem] border border-slate-200 bg-white shadow-[0_10px_30px_rgba(15,23,42,0.05)]">
+          <div className="h-2 bg-gradient-to-r from-blue-400 via-sky-400 to-indigo-400" />
 
           <div className="p-6 sm:p-10">
             <div className="flex flex-wrap items-center gap-2">
-              <span className="rounded-full bg-amber-100 px-3 py-1 text-sm font-semibold text-amber-700">
+              <span className="rounded-full bg-blue-100 px-3 py-1 text-sm font-semibold text-blue-700">
                 {benefit.field}
               </span>
               <span className="rounded-full bg-gray-100 px-3 py-1 text-sm font-semibold text-gray-600">
@@ -91,7 +91,7 @@ export default async function BenefitDetailPage({
             </div>
 
             <div className="mt-10 grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
-              <section className="rounded-[1.5rem] border border-gray-100 bg-gray-50 p-6">
+              <section className="rounded-[1.25rem] border border-slate-200 bg-slate-50 p-6">
                 <h2 className="text-xl font-bold text-gray-900">혜택 안내</h2>
                 <p className="mt-4 whitespace-pre-line text-base leading-relaxed text-gray-700">
                   {benefit.purpose || benefit.supportSummary || "상세 목적 정보 없음"}
@@ -134,11 +134,11 @@ export default async function BenefitDetailPage({
                 ) : null}
               </section>
 
-              <section className="rounded-[1.5rem] border border-amber-100 bg-amber-50 p-6">
+              <section className="rounded-[1.25rem] border border-slate-200 bg-white p-6">
                 <h2 className="text-xl font-bold text-gray-900">데이터 출처</h2>
                 <p className="mt-4 text-sm leading-relaxed text-gray-600">
                   공공데이터포털{" "}
-                  <code className="rounded bg-white px-1.5 py-0.5 text-amber-700">
+                  <code className="rounded bg-white px-1.5 py-0.5 text-blue-700">
                     대한민국 공공서비스(혜택) 정보
                   </code>
                   를 기준으로 저장한 항목입니다.
@@ -176,7 +176,7 @@ export default async function BenefitDetailPage({
                     href={externalUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-gradient-to-r from-amber-500 to-orange-500 px-6 py-3 text-sm font-semibold text-white transition-all hover:from-amber-600 hover:to-orange-600"
+                    className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-6 py-3 text-sm font-semibold text-blue-800 transition-all hover:bg-blue-100"
                   >
                     공식 상세 페이지 보기
                     <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -203,9 +203,9 @@ function InfoCard({
   icon: string;
 }) {
   return (
-    <div className="rounded-2xl border border-amber-100 bg-white p-5">
+    <div className="rounded-xl border border-slate-200 bg-white p-5">
       <div className="flex items-start gap-3">
-        <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-amber-50 text-lg">
+        <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-50 text-lg">
           {icon}
         </div>
         <div className="min-w-0">

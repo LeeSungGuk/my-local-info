@@ -11,29 +11,52 @@ export default async function Home() {
     getEventsIndex(),
     getBenefitsIndex(),
   ]);
+  const heroStars = [
+    "left-[12%] top-[18%] h-1 w-1 bg-white/70",
+    "left-[22%] top-[34%] h-1.5 w-1.5 bg-sky-100/70",
+    "left-[31%] top-[14%] h-1 w-1 bg-cyan-100/60",
+    "left-[44%] top-[28%] h-1 w-1 bg-white/60",
+    "left-[56%] top-[16%] h-1.5 w-1.5 bg-cyan-100/70",
+    "left-[66%] top-[36%] h-1 w-1 bg-white/60",
+    "left-[74%] top-[22%] h-1 w-1 bg-sky-100/60",
+    "left-[82%] top-[12%] h-1.5 w-1.5 bg-white/70",
+    "left-[18%] top-[56%] h-1 w-1 bg-cyan-100/60",
+    "left-[38%] top-[62%] h-1.5 w-1.5 bg-white/60",
+    "left-[59%] top-[54%] h-1 w-1 bg-sky-100/70",
+    "left-[79%] top-[60%] h-1 w-1 bg-white/60",
+  ];
 
   return (
     <div>
-      <section className="relative overflow-hidden bg-gradient-to-br from-amber-500 via-orange-500 to-rose-500 text-white">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute left-10 top-10 h-72 w-72 rounded-full bg-white blur-3xl animate-pulse" />
-          <div className="absolute bottom-10 right-10 h-96 w-96 rounded-full bg-white blur-3xl" />
+      <section className="relative overflow-hidden bg-[linear-gradient(135deg,#0f172a_0%,#1d4ed8_42%,#38bdf8_100%)] text-white">
+        <div className="absolute inset-0 opacity-30">
+          <div className="absolute left-10 top-10 h-72 w-72 rounded-full bg-cyan-200/60 blur-3xl animate-pulse" />
+          <div className="absolute bottom-10 right-10 h-96 w-96 rounded-full bg-sky-100/40 blur-3xl" />
+          <div className="absolute left-1/2 top-1/3 h-56 w-56 -translate-x-1/2 rounded-full bg-blue-300/20 blur-3xl" />
+        </div>
+        <div className="absolute inset-0 opacity-45">
+          {heroStars.map((starClassName, index) => (
+            <span
+              key={index}
+              className={`absolute rounded-full blur-[0.5px] ${starClassName}`}
+            />
+          ))}
         </div>
 
         <div className="relative mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-28">
           <div className="text-center">
-            <span className="mb-6 inline-block rounded-full border border-white/10 bg-white/20 px-4 py-1.5 text-sm font-medium shadow-sm backdrop-blur-sm">
-              🏙️ 서울시 생활 정보
+            <span className="mb-6 inline-block rounded-full border border-white/15 bg-white/10 px-4 py-1.5 text-sm font-medium shadow-sm backdrop-blur-sm">
+              🌙 서울 로컬 생활 가이드
             </span>
             <h1 className="mb-6 text-3xl font-extrabold leading-tight tracking-tight sm:text-5xl">
-              서울시 행사와 생활 정보를
+              서울의 행사와 생활 정보를
               <br />
-              <span className="text-amber-100">한눈에 확인하세요</span>
+              <span className="text-cyan-100">한눈에 확인하세요</span>
             </h1>
-            <p className="mx-auto max-w-2xl text-lg leading-relaxed text-orange-50 sm:text-xl">
-              서울 전역의 행사·축제와 생활 혜택을 나눠서 정리했습니다.
+            <p className="mx-auto max-w-2xl text-lg leading-relaxed text-sky-50 sm:text-xl">
+              오늘의 서울을 조금 더 가볍고 선명하게 만날 수 있도록,
               <br />
-              먼저 행사 데이터부터 서울 열린데이터광장 기준으로 연결했습니다.
+              일상에 닿는 행사와 혜택을 한곳에 담았습니다.
             </p>
           </div>
         </div>
@@ -53,7 +76,7 @@ export default async function Home() {
           </div>
           <Link
             href="/events"
-            className="hidden rounded-full border border-orange-200 bg-orange-50 px-4 py-2 text-sm font-semibold text-orange-700 transition-colors hover:bg-orange-100 sm:inline-flex"
+            className="hidden rounded-full border border-sky-200 bg-sky-50 px-4 py-2 text-sm font-semibold text-sky-700 transition-colors hover:bg-sky-100 sm:inline-flex"
           >
             전체 행사 보기
           </Link>
@@ -64,14 +87,14 @@ export default async function Home() {
         <div className="mt-6 sm:hidden">
           <Link
             href="/events"
-            className="inline-flex rounded-full border border-orange-200 bg-orange-50 px-4 py-2 text-sm font-semibold text-orange-700 transition-colors hover:bg-orange-100"
+            className="inline-flex rounded-full border border-sky-200 bg-sky-50 px-4 py-2 text-sm font-semibold text-sky-700 transition-colors hover:bg-sky-100"
           >
             전체 행사 보기
           </Link>
         </div>
       </section>
 
-      <section className="border-t border-orange-100/50 bg-orange-50/30">
+      <section className="border-t border-sky-100/70 bg-sky-50/30">
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
           <div className="mb-8 flex items-center justify-between sm:mb-10">
             <div>
@@ -89,7 +112,7 @@ export default async function Home() {
           <div className="mt-6">
             <Link
               href="/benefits"
-              className="inline-flex rounded-full border border-amber-200 bg-amber-50 px-4 py-2 text-sm font-semibold text-amber-700 transition-colors hover:bg-amber-100"
+              className="inline-flex rounded-full border border-cyan-200 bg-cyan-50 px-4 py-2 text-sm font-semibold text-cyan-700 transition-colors hover:bg-cyan-100"
             >
               전체 혜택 보기
             </Link>
@@ -101,9 +124,9 @@ export default async function Home() {
         <div className="mx-auto max-w-6xl px-4 text-center sm:px-6">
           <p className="mb-2 text-sm text-gray-500">
             행사 데이터는 서울 열린데이터광장{" "}
-            <code className="rounded bg-white px-1.5 py-0.5 text-orange-700">서울시 문화행사 정보</code>,
+            <code className="rounded bg-white px-1.5 py-0.5 text-sky-700">서울시 문화행사 정보</code>,
             혜택 데이터는 공공데이터포털{" "}
-            <code className="rounded bg-white px-1.5 py-0.5 text-amber-700">대한민국 공공서비스(혜택) 정보</code>
+            <code className="rounded bg-white px-1.5 py-0.5 text-cyan-700">대한민국 공공서비스(혜택) 정보</code>
             를 사용합니다.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-2">
@@ -112,7 +135,7 @@ export default async function Home() {
               행사 수집 시각: {eventsIndex.source.collectedAt || "아직 수집되지 않음"}
             </div>
             <div className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white px-3 py-1.5 text-xs font-medium text-gray-500 shadow-sm">
-              <span className="h-2 w-2 rounded-full bg-amber-500" />
+              <span className="h-2 w-2 rounded-full bg-cyan-500" />
               혜택 수집 시각: {benefitsIndex.source.collectedAt || "아직 수집되지 않음"}
             </div>
           </div>
