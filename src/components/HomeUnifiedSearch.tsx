@@ -74,7 +74,7 @@ export default function HomeUnifiedSearch() {
   }
 
   return (
-    <div className="relative z-30 mx-auto mt-10 max-w-3xl">
+    <div className="relative z-30 mx-auto max-w-3xl pb-6">
       <div className="rounded-[1.75rem] border border-white/15 bg-white/10 p-3 shadow-[0_18px_60px_rgba(15,23,42,0.18)] backdrop-blur-xl">
         <form
           onSubmit={(event) => {
@@ -96,7 +96,9 @@ export default function HomeUnifiedSearch() {
             </div>
 
             <input
-              type="search"
+              type="text"
+              inputMode="search"
+              autoComplete="off"
               value={query}
               onChange={(event) => setQuery(event.target.value)}
               onFocus={() => setIsOpen(true)}
@@ -107,6 +109,27 @@ export default function HomeUnifiedSearch() {
               className="w-full bg-transparent text-base outline-none placeholder:text-slate-400"
             />
 
+            {query ? (
+              <button
+                type="button"
+                onClick={() => {
+                  setQuery("");
+                  setIsOpen(false);
+                }}
+                className="inline-flex shrink-0 items-center justify-center rounded-full p-2 text-slate-500 transition-colors hover:bg-slate-100 hover:text-slate-700"
+                aria-label="검색어 지우기"
+              >
+                <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M6 6l12 12M18 6L6 18"
+                  />
+                </svg>
+              </button>
+            ) : null}
+
             <button
               type="submit"
               className="inline-flex shrink-0 items-center justify-center whitespace-nowrap rounded-full bg-sky-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-sky-700"
@@ -114,57 +137,57 @@ export default function HomeUnifiedSearch() {
               통합 검색
             </button>
           </div>
-
-          {isOpen && suggestions.length > 0 ? (
-            <div className="absolute left-0 right-0 top-[calc(100%+12px)] z-20 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-[0_20px_60px_rgba(15,23,42,0.12)]">
-              <div className="border-b border-slate-100 px-4 py-3 text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">
-                빠른 검색 결과
-              </div>
-              <div className="divide-y divide-slate-100">
-                {suggestions.map((item) => (
-                  <Link
-                    key={`${item.type}-${item.id}`}
-                    href={item.href}
-                    className="block px-4 py-3 transition-colors hover:bg-slate-50"
-                  >
-                    <div className="flex flex-col gap-2">
-                      <div className="flex items-start justify-between gap-3">
-                        <div className="flex min-w-0 flex-wrap items-center gap-2">
-                          <span className={`rounded-full px-2 py-0.5 text-[11px] font-semibold ${typeBadgeClassName(item.type)}`}>
-                            {item.typeLabel}
-                          </span>
-                          {item.district ? (
-                            <span className="rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-semibold text-slate-600">
-                              {item.district}
-                            </span>
-                          ) : null}
-                        </div>
-                        {item.dateLabel ? (
-                          <div className="shrink-0 pt-0.5 text-xs text-slate-400">
-                            {item.dateLabel}
-                          </div>
-                        ) : null}
-                      </div>
-                      <p className="w-full truncate text-left text-sm font-semibold text-slate-900">
-                        {item.title}
-                      </p>
-                      <p className="w-full truncate text-left text-xs text-slate-500">
-                        {item.summary}
-                      </p>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          ) : null}
         </form>
-
-        <div className="mt-3 flex flex-wrap items-center justify-center gap-2 px-1 text-xs text-sky-100">
-          <span className="rounded-full bg-white/10 px-3 py-1">행사 {index.counts.event}건</span>
-          <span className="rounded-full bg-white/10 px-3 py-1">혜택 {index.counts.benefit}건</span>
-          <span className="rounded-full bg-white/10 px-3 py-1">블로그 {index.counts.blog}건</span>
-        </div>
       </div>
+
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 flex flex-wrap items-center justify-center gap-2 px-4 text-xs text-sky-100">
+        <span className="rounded-full bg-white/10 px-3 py-1">행사 {index.counts.event}건</span>
+        <span className="rounded-full bg-white/10 px-3 py-1">혜택 {index.counts.benefit}건</span>
+        <span className="rounded-full bg-white/10 px-3 py-1">블로그 {index.counts.blog}건</span>
+      </div>
+
+      {isOpen && suggestions.length > 0 ? (
+        <div className="absolute left-0 right-0 top-[calc(100%-1.25rem)] z-40 mt-2 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-[0_20px_60px_rgba(15,23,42,0.16)]">
+          <div className="border-b border-slate-100 px-4 py-3 text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">
+            빠른 검색 결과
+          </div>
+          <div className="divide-y divide-slate-100">
+            {suggestions.map((item) => (
+              <Link
+                key={`${item.type}-${item.id}`}
+                href={item.href}
+                className="block px-4 py-3 transition-colors hover:bg-slate-50"
+              >
+                <div className="flex flex-col gap-2">
+                  <div className="flex items-start justify-between gap-3">
+                    <div className="flex min-w-0 flex-wrap items-center gap-2">
+                      <span className={`rounded-full px-2 py-0.5 text-[11px] font-semibold ${typeBadgeClassName(item.type)}`}>
+                        {item.typeLabel}
+                      </span>
+                      {item.district ? (
+                        <span className="rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-semibold text-slate-600">
+                          {item.district}
+                        </span>
+                      ) : null}
+                    </div>
+                    {item.dateLabel ? (
+                      <div className="shrink-0 pt-0.5 text-xs text-slate-400">
+                        {item.dateLabel}
+                      </div>
+                    ) : null}
+                  </div>
+                  <p className="w-full truncate text-left text-sm font-semibold text-slate-900">
+                    {item.title}
+                  </p>
+                  <p className="w-full truncate text-left text-xs text-slate-500">
+                    {item.summary}
+                  </p>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      ) : null}
     </div>
   );
 }

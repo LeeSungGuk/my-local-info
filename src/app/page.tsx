@@ -66,15 +66,17 @@ export default async function Home() {
               <br />
               일상에 닿는 행사와 혜택을 한곳에 담았습니다.
             </p>
-
-            <HomeUnifiedSearch />
           </div>
         </div>
       </section>
 
+      <section className="relative z-20 mx-auto -mt-12 max-w-6xl px-4 sm:-mt-16 sm:px-6">
+        <HomeUnifiedSearch />
+      </section>
+
       <HomeSeoulSummary summary={summary} />
 
-      <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:pt-24 sm:pb-20">
+      <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
         <div className="mb-8 flex items-end justify-between gap-4 sm:mb-10">
           <div>
             <h2 className="flex items-center gap-2 text-2xl font-bold text-gray-900 sm:text-3xl">

@@ -42,7 +42,7 @@ export default function HomeSeoulSummary({ summary }: HomeSeoulSummaryProps) {
   ];
 
   return (
-    <section className="relative z-20 mx-auto -mt-10 max-w-6xl px-4 sm:-mt-14 sm:px-6">
+    <section className="relative z-10 mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-10">
       <div className="overflow-hidden rounded-[2rem] border border-slate-200/80 bg-white/92 shadow-[0_24px_80px_rgba(15,23,42,0.12)] backdrop-blur-sm">
         <div className="border-b border-slate-100 px-6 py-5 sm:px-8">
           <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
