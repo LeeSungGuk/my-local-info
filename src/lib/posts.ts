@@ -8,6 +8,7 @@ export interface Post {
   slug: string;
   title: string;
   date: string;
+  updatedAt: string;
   summary: string;
   category: string;
   tags: string[];
@@ -42,6 +43,7 @@ function toPost(fileName: string): Post {
     slug,
     title: data.title || "",
     date: normalizeDate(data.date),
+    updatedAt: normalizeDate(data.updatedAt) || normalizeDate(data.date),
     summary: data.summary || "",
     category: data.category || "",
     tags: Array.isArray(data.tags) ? data.tags : [],

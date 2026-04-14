@@ -31,6 +31,7 @@ export default function Header() {
             <NavLink href="/events">행사/축제</NavLink>
             <NavLink href="/benefits">지원금/혜택</NavLink>
             <NavLink href="/blog">블로그</NavLink>
+            <NavLink href="/about">소개</NavLink>
           </nav>
 
           {/* 모바일 메뉴 버튼 */}
@@ -91,6 +92,12 @@ export default function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 📝 블로그
+              </MobileNavLink>
+              <MobileNavLink
+                href="/about"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                ℹ️ 소개
               </MobileNavLink>
             </div>
           </nav>

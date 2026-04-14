@@ -4,6 +4,15 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
+const siteUrl = "https://my-local-info-6ny.pages.dev";
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "서울시 생활 정보",
+  url: siteUrl,
+  description: "서울 시민을 위한 지역 행사, 축제, 지원금, 혜택 정보",
+};
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -15,9 +24,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "서울시티 | 행사·축제·지원금 한눈에",
+  metadataBase: new URL(siteUrl),
+  title: "성남시 생활 정보 | 행사·혜택·지원금 안내",
   description:
-    "서울 곳곳의 행사, 축제, 지원금, 혜택 정보를 한눈에 확인하세요. 공공데이터를 활용한 서울시티 서비스입니다.",
+    "성남시 주민을 위한 지역 행사, 축제, 지원금, 혜택 정보를 매일 업데이트합니다.",
+  openGraph: {
+    title: "성남시 생활 정보 | 행사·혜택·지원금 안내",
+    description:
+      "성남시 주민을 위한 지역 행사, 축제, 지원금, 혜택 정보를 매일 업데이트합니다.",
+    url: siteUrl,
+    siteName: "성남시 생활 정보",
+    locale: "ko_KR",
+    type: "website",
+  },
   icons: {
     icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
     shortcut: ["/favicon.svg"],
@@ -34,6 +53,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
         <Header />
         <main className="min-h-screen">{children}</main>
         <Footer />

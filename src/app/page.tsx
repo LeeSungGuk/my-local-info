@@ -6,6 +6,9 @@ import HomeUnifiedSearch from "@/components/HomeUnifiedSearch";
 import { getBenefitsIndex, getAllBenefits } from "@/lib/public-benefits";
 import { getAllEvents, getEventsIndex } from "@/lib/seoul-events";
 import { getHomeSummaryMetrics } from "@/lib/home-summary";
+import { filterVisibleEvents, getTodayInSeoul, sortEventsByStartDate } from "@/lib/event-visibility";
+
+const siteUrl = "https://my-local-info-6ny.pages.dev";
 
 export default async function Home() {
   const [allEvents, allBenefits, eventsIndex, benefitsIndex] = await Promise.all([
@@ -14,8 +17,44 @@ export default async function Home() {
     getEventsIndex(),
     getBenefitsIndex(),
   ]);
+  const featuredEvents = sortEventsByStartDate(
+    filterVisibleEvents(allEvents, getTodayInSeoul())
+  ).slice(0, 6);
   const featuredBenefits = allBenefits.slice(0, 4);
   const summary = getHomeSummaryMetrics(allEvents, allBenefits);
+  const homeStructuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      ...featuredEvents.map((event) => ({
+        "@type": "Event",
+        name: event.title,
+        startDate: event.startDate,
+        endDate: event.endDate || event.startDate,
+        description: event.summary,
+        url: `${siteUrl}/events/${event.id}`,
+        location: {
+          "@type": "Place",
+          name: event.venue,
+          address: {
+            "@type": "PostalAddress",
+            addressLocality: event.district,
+            addressRegion: "서울특별시",
+            addressCountry: "KR",
+          },
+        },
+      })),
+      ...featuredBenefits.map((benefit) => ({
+        "@type": "GovernmentService",
+        name: benefit.title,
+        description: benefit.summary,
+        url: `${siteUrl}/benefits/${benefit.id}`,
+        provider: {
+          "@type": "GovernmentOrganization",
+          name: benefit.provider,
+        },
+      })),
+    ],
+  };
   const heroStars = [
     "left-[12%] top-[18%] h-1 w-1 bg-white/70",
     "left-[22%] top-[34%] h-1.5 w-1.5 bg-sky-100/70",
@@ -33,6 +72,10 @@ export default async function Home() {
 
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeStructuredData) }}
+      />
       <section className="relative bg-[linear-gradient(135deg,#0f172a_0%,#1d4ed8_42%,#38bdf8_100%)] text-white">
         <div className="pointer-events-none absolute inset-0 overflow-hidden">
           <div className="absolute inset-0 opacity-30">
