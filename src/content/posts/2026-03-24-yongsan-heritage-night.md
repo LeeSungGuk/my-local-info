@@ -4,6 +4,10 @@ date: 2026-03-24
 summary: 효창공원에서 펼쳐지는 무료 역사문화 야간 축제! 독립운동의 성지에서 공연·체험·전시를 한번에 즐겨보세요.
 category: 정보
 tags: [축제, 용산, 야간행사, 무료, 국가유산]
+region: 서울
+sourceType: 행사
+sourceId: seoul-event-yongsan-heritage-night
+sourceUrl: https://www.yongsan.go.kr
 ---
 
 ## 서울 한복판에서 만나는 역사의 밤 🌙

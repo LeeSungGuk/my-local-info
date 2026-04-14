@@ -5,14 +5,14 @@ on:
     branches:
       - main
   schedule:
-    - cron: '30 22 * * *'  # 매일 UTC 22:30 = 한국시간 오전 7:30, 행사/혜택 동기화
+    - cron: '30 22 * * *'  # 매일 UTC 22:30 = 한국시간 오전 7:30, 행사/혜택 동기화 + 서울 정보글 1건 생성
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  # ─── 스케줄/수동 실행: 행사/혜택 수집 → 블로그 생성 → 커밋 → 빌드 → 배포 ───
+  # ─── 스케줄/수동 실행: 행사/혜택 수집 → 서울 정보글 생성 → 커밋 → 빌드 → 배포 ───
   update-and-deploy:
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest

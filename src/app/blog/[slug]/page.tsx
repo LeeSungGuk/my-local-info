@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { getPostBySlug, getAllPosts } from "@/lib/posts";
 import ReactMarkdown from "react-markdown";
@@ -85,6 +86,20 @@ export default async function BlogPostPage({ params }: PageProps) {
               </div>
             </div>
           </header>
+
+          {post.coverImage ? (
+            <div className="relative mb-10 overflow-hidden rounded-[2rem] border border-orange-100 bg-slate-950/90">
+              <div className="relative aspect-[16/9] w-full">
+                <Image
+                  src={post.coverImage}
+                  alt={post.coverAlt || post.title}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 768px"
+                />
+              </div>
+            </div>
+          ) : null}
           
           {/* 본문 콘텐츠 */}
           <div className="prose prose-orange prose-lg max-w-none prose-headings:text-[#3a1d1d] prose-a:text-orange-600 hover:prose-a:text-orange-700 bg-white/90 backdrop-blur-sm rounded-[2rem] p-8 md:p-12 shadow-soft border border-orange-50">
