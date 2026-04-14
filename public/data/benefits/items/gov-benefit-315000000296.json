@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-315000000296",
+  "sourceId": "315000000296",
+  "title": "생활체육프로그램 운영",
+  "field": "생활안정",
+  "provider": "서울특별시 강서구",
+  "providerType": "자치구",
+  "district": "강서구",
+  "userType": "개인",
+  "deadlineText": "프로그램별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "강서구민(종목별 대상 상이)",
+  "summary": "서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 생활체육에 대한 구민들의 관심 증대에 따라 다양한 생활체육교실 운영을 통하여 구민의 건강증진과 생활체육 활성화에 기여",
+  "supportType": "기타(교육)",
+  "supportSummary": "성인 대상: 생활체육교실 운영\n청소년 대상: 청소년방학교실, 어린이축구, 청소년풋살교실 운영\n여성 대상: 축구, 배구교실 운영",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000296",
+  "onlineUrl": "",
+  "inquiry": [
+    "강서구청 체육관광과/02-2600-6412"
+  ],
+  "updatedAt": "2026-02-02",
+  "registeredAt": "2025-12-12",
+  "viewCount": 56,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "생활체육에 대한 구민들의 관심 증대에 따라 다양한 생활체육교실 운영을 통하여 구민의 건강증진과 생활체육 활성화에 기여",
+  "target": "강서구민(종목별 대상 상이)",
+  "selectionCriteria": "",
+  "supportContent": "성인 대상: 생활체육교실 운영\n청소년 대상: 청소년방학교실, 어린이축구, 청소년풋살교실 운영\n여성 대상: 축구, 배구교실 운영",
+  "applicationMethod": "강서구공공체육시설 누리집 온라인 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "국민체육진흥법(제3조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "강서구청 체육관광과/02-2600-6412",
+  "ageMin": 0,
+  "ageMax": 120
+}

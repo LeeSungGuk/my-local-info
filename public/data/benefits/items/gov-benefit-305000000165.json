@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-305000000165",
+  "sourceId": "305000000165",
+  "title": "북한이탈주민 취업역량 강화 교육비 지원",
+  "field": "고용·창업",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "취업을 위하여 학원 수강을 희망하는 북한이탈주민",
+  "summary": "서울특별시 동대문구에서 제공하는 고용·창업 혜택입니다. 북한이탈주민의 취업역량 강화를 위하여 교육비를 지원해주는 사업",
+  "supportType": "기타(교육)",
+  "supportSummary": "북한이탈주민 취업역량 강화를 위한 교육비 지원사업으로 출석율 90% 이상 등 성실히 교육에 임하여야 하며, 90% 미만시 교육비 지원 금액 50% 본인환불의무가 있음\n-바리스타, 요양보호사, 컴퓨터, 메이크업, 요리, 미용 등",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000165",
+  "onlineUrl": "",
+  "inquiry": [
+    "동대문구청 자치행정과/02-2127-4057"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2022-10-28",
+  "viewCount": 371,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "북한이탈주민의 취업역량 강화를 위하여 교육비를 지원해주는 사업",
+  "target": "취업을 위하여 학원 수강을 희망하는 북한이탈주민",
+  "selectionCriteria": "",
+  "supportContent": "북한이탈주민 취업역량 강화를 위한 교육비 지원사업으로 출석율 90% 이상 등 성실히 교육에 임하여야 하며, 90% 미만시 교육비 지원 금액 50% 본인환불의무가 있음\n-바리스타, 요양보호사, 컴퓨터, 메이크업, 요리, 미용 등",
+  "applicationMethod": "동대문구청 자치행정과로 전화문의(02-2127-4057) 후 방문 신청",
+  "documents": "신분증",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 동대문구 북한이탈주민 정착 지원에 관한 조례",
+  "inquiryText": "동대문구청 자치행정과/02-2127-4057",
+  "ageMin": 0,
+  "ageMax": 120
+}

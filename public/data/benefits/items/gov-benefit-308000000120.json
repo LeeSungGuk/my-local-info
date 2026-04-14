@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-308000000120",
+  "sourceId": "308000000120",
+  "title": "저소득 주민 국민건강보험료 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 강북구",
+  "providerType": "자치구",
+  "district": "강북구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 소득인정액이 기준중위소득 50%이하 및 건강보험료(장기요양보험료 포함) 지역가입자의 부과액이 22,340원 이하",
+  "summary": "서울특별시 강북구에서 제공하는 보건·의료 혜택입니다. 저소득주민에게 건강보험료 지원",
+  "supportType": "현금(보험)",
+  "supportSummary": "○ 지원대상 : 건강보험 지역가입자의 월 보험료가 22,340원 이하인 가구 중 소득인정액이 기준중위소득 50% 이하인 가구\n\n○ 지원내용 : 건강보험료를 구에서 공단에 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/308000000120",
+  "onlineUrl": "",
+  "inquiry": [
+    "생활보장과/02-901-6625"
+  ],
+  "updatedAt": "2026-02-02",
+  "registeredAt": "2021-09-23",
+  "viewCount": 950,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "저소득주민에게 건강보험료 지원",
+  "target": "○ 소득인정액이 기준중위소득 50%이하 및 건강보험료(장기요양보험료 포함) 지역가입자의 부과액이 22,340원 이하",
+  "selectionCriteria": "",
+  "supportContent": "○ 지원대상 : 건강보험 지역가입자의 월 보험료가 22,340원 이하인 가구 중 소득인정액이 기준중위소득 50% 이하인 가구\n\n○ 지원내용 : 건강보험료를 구에서 공단에 지원",
+  "applicationMethod": "○ 방문 신청\n - 주민센터 : 관할 주민센터 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 강북구 저소득 주민 국민건강보험료 등 지원 조례",
+  "inquiryText": "생활보장과/02-901-6625",
+  "ageMin": 0,
+  "ageMax": 120
+}

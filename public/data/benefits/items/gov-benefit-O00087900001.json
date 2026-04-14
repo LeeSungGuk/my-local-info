@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00087900001",
+  "sourceId": "O00087900001",
+  "title": "꿈드림 장학금(저소득층)",
+  "field": "보육·교육",
+  "provider": "서울특별시 중구",
+  "providerType": "자치구",
+  "district": "중구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "관내 초중고학생 중 심의로 선정된 자",
+  "summary": "서울특별시 중구에서 제공하는 보육·교육 혜택입니다. 관내 초·중·고 학생에게 장학금(현금) 지급",
+  "supportType": "현금(장학금)",
+  "supportSummary": "관내 초중고학생에게 현금으로 장학금 지급",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00087900001",
+  "onlineUrl": "",
+  "inquiry": [
+    "서울시 중구 교육아동청소년과/02-3396-4662"
+  ],
+  "updatedAt": "2026-02-05",
+  "registeredAt": "2022-07-15",
+  "viewCount": 751,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "관내 초·중·고 학생에게 장학금(현금) 지급",
+  "target": "관내 초중고학생 중 심의로 선정된 자",
+  "selectionCriteria": "",
+  "supportContent": "관내 초중고학생에게 현금으로 장학금 지급",
+  "applicationMethod": "○ 기타\n - 별도 안내",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "서울시 중구 교육아동청소년과/02-3396-4662",
+  "ageMin": 0,
+  "ageMax": 120
+}

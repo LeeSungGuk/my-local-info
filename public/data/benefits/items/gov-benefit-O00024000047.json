@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00024000047",
+  "sourceId": "O00024000047",
+  "title": "용산꿈나무종합타운 프로그램 할인(경로)",
+  "field": "문화·환경",
+  "provider": "용산구시설관리공단",
+  "providerType": "자치구",
+  "district": "용산구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "신분증 및 경로우대증에 생년월일이  만65세 이상인 회원",
+  "summary": "용산구시설관리공단에서 제공하는 문화·환경 혜택입니다. 경로자에게 꿈나무종합타운 프로그램 이용요금 감면",
+  "supportType": "시설이용",
+  "supportSummary": "만65세 이상 회원 꿈나무종합타운(문화, 체육 ) 프로그램 이용시 20%할인",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00024000047",
+  "onlineUrl": "",
+  "inquiry": [
+    "용산꿈나무종합타운/02-707-0704"
+  ],
+  "updatedAt": "2026-02-06",
+  "registeredAt": "2022-11-02",
+  "viewCount": 502,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "경로자에게 꿈나무종합타운 프로그램 이용요금 감면",
+  "target": "신분증 및 경로우대증에 생년월일이  만65세 이상인 회원",
+  "selectionCriteria": "",
+  "supportContent": "만65세 이상 회원 꿈나무종합타운(문화, 체육 ) 프로그램 이용시 20%할인",
+  "applicationMethod": "○ 신청불필요\n - 용산청소년통합플랫폼 회원(본인인증) 가입시 자동으로 나이를 계산하여 할인 적용함",
+  "documents": "주민등록증 및 경로우대증",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "용산꿈나무종합타운/02-707-0704",
+  "ageMin": 65,
+  "ageMax": 120
+}

@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-B37003100005",
+  "sourceId": "B37003100005",
+  "title": "스포츠과학분야 견학 프로그램",
+  "field": "보육·교육",
+  "provider": "서울올림픽기념국민체육진흥공단",
+  "providerType": "서울 공공기관",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "자유학기제 및 체육분야 진로 탐색 학생(중,고,대학생)",
+  "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 보육·교육 혜택입니다. 학생 대상으로 스포츠과학분야 소개",
+  "supportType": "시설이용",
+  "supportSummary": "스포츠과학(운동역학, 운동생리학) 분야 소개 및 진로탐색 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100005",
+  "onlineUrl": "",
+  "inquiry": [
+    "스포츠과학연구실/02-970-9528"
+  ],
+  "updatedAt": "2026-01-30",
+  "registeredAt": "2022-07-15",
+  "viewCount": 1462,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "학생 대상으로 스포츠과학분야 소개",
+  "target": "자유학기제 및 체육분야 진로 탐색 학생(중,고,대학생)",
+  "selectionCriteria": "",
+  "supportContent": "스포츠과학(운동역학, 운동생리학) 분야 소개 및 진로탐색 지원",
+  "applicationMethod": "○ 유선 전화 신청(공문 필)\n - 한국스포츠과학원 02-970-9528\n\n* 5명 이상 신청가능(개인 불가), 견학은 매주 수요일만 (오전 또는 오후) 진행",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "스포츠과학연구실/02-970-9528",
+  "ageMin": 0,
+  "ageMax": 120
+}

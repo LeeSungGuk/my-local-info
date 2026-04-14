@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-307000000108",
+  "sourceId": "307000000108",
+  "title": "저소득 장애인 무료급식 지원",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 성북구",
+  "providerType": "자치구",
+  "district": "성북구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 성북구 거주 저소득 등록장애인",
+  "summary": "서울특별시 성북구에서 제공하는 보호·돌봄 혜택입니다. - 지역사회 저소득 장애인이 빈곤에서 벗어나 당당한 개인의 활동 도모\n- 원활한 사회활동 기회를 확대하여 장애인의 재활자립과 복지증진",
+  "supportType": "현물",
+  "supportSummary": "○ 저소득 또는 결식우려가 있는 장애인에게 중식 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000108",
+  "onlineUrl": "",
+  "inquiry": [
+    "어르신·장애인복지과/02-2241-2517"
+  ],
+  "updatedAt": "2026-02-04",
+  "registeredAt": "2021-09-23",
+  "viewCount": 688,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "- 지역사회 저소득 장애인이 빈곤에서 벗어나 당당한 개인의 활동 도모\n- 원활한 사회활동 기회를 확대하여 장애인의 재활자립과 복지증진",
+  "target": "○ 성북구 거주 저소득 등록장애인",
+  "selectionCriteria": "",
+  "supportContent": "○ 저소득 또는 결식우려가 있는 장애인에게 중식 지원",
+  "applicationMethod": "○ 방문 신청\n - 기타 : 서울시지체장애인협회 성북구지회, 성북구장애인단체연합회, 한국교통장애인협회 성북지회",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "장애인복지법(제63조)"
+  ],
+  "ordinance": "서울특별시 성북구 저소득주민의 생활안정 지원에 관한 조례(제2조)||서울특별시 성북구 저소득주민의 생활안정 지원에 관한 조례(제3조의1)",
+  "inquiryText": "어르신·장애인복지과/02-2241-2517",
+  "ageMin": 0,
+  "ageMax": 120
+}

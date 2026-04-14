@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-305000000107",
+  "sourceId": "305000000107",
+  "title": "동대문구 장학금 지원",
+  "field": "보육·교육",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 관련 기관(학교, 주민센터) 추천자 중 적격자 선정",
+  "summary": "서울특별시 동대문구에서 제공하는 보육·교육 혜택입니다. 성적우수 및 경제적 어려움이 있는 학생에게 장학금 지원",
+  "supportType": "현금(장학금)",
+  "supportSummary": "○ 성적이 우수한 학생 및 경제적 이유로 교육받기 곤란한 청소년들에게 장학금 지원\n\n○ 지원대상\n - 관내에 주소를 두고 추천일 현재 1년 이상 거주한 자로 다음 자격을 갖춘 자\n  ㆍ일반장학생 : 중위소득 이하의 가구로 학비 지원이 필요한 자녀\n  ㆍ성적우수장학생…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000107",
+  "onlineUrl": "",
+  "inquiry": [
+    "교육지원과/02-2127-4514"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1220,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "성적우수 및 경제적 어려움이 있는 학생에게 장학금 지원",
+  "target": "○ 관련 기관(학교, 주민센터) 추천자 중 적격자 선정",
+  "selectionCriteria": "",
+  "supportContent": "○ 성적이 우수한 학생 및 경제적 이유로 교육받기 곤란한 청소년들에게 장학금 지원\n\n○ 지원대상\n - 관내에 주소를 두고 추천일 현재 1년 이상 거주한 자로 다음 자격을 갖춘 자\n  ㆍ일반장학생 : 중위소득 이하의 가구로 학비 지원이 필요한 자녀\n  ㆍ성적우수장학생 : 관내 중학교 졸업 성적 상위  3% 이내인 관내 고교 입학자 \n  ㆍ지역사회봉사장학생 : 지역사회 봉사와 발전에 공이 있는 사람\n\n○ 지원절차 : 구 공문 시달 후 학교장 및 동장 추천에 의해 구 장학기금심의위원회에서 선정",
+  "applicationMethod": "○ 개인 신청절차 없음 \n - 구 공문 시달 후 학교장 및 동장 추천에 의해 구 장학기금 심의위원회에서 선정",
+  "documents": "○ 추천서 등",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 동대문구 장학기금 설치 및 운용조례",
+  "inquiryText": "교육지원과/02-2127-4514",
+  "ageMin": 0,
+  "ageMax": 120
+}

@@ -1,0 +1,48 @@
+{
+  "id": "gov-benefit-304000000177",
+  "sourceId": "304000000177",
+  "title": "장애인 치과진료",
+  "field": "보건·의료",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "광진구 구민으로서 장애인",
+  "summary": "서울특별시 광진구에서 제공하는 보건·의료 혜택입니다. 광진구 장애인 대상 구강검진 및 예방진료 시행하여 의료접근성 향상 및 구강관리 향상 위함",
+  "supportType": "서비스(의료)",
+  "supportSummary": "충치치료, 잇몸치료, 발치 등 일반 구강진료(예약제)\n  -  1,3주 목요일 오전(09:30 ~ 12:00)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청",
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000177",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 보건의료과/02-450-1949"
+  ],
+  "updatedAt": "2026-01-29",
+  "registeredAt": "2021-11-05",
+  "viewCount": 1020,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "광진구 장애인 대상 구강검진 및 예방진료 시행하여 의료접근성 향상 및 구강관리 향상 위함",
+  "target": "광진구 구민으로서 장애인",
+  "selectionCriteria": "",
+  "supportContent": "충치치료, 잇몸치료, 발치 등 일반 구강진료(예약제)\n  -  1,3주 목요일 오전(09:30 ~ 12:00)",
+  "applicationMethod": "○ 방문 or 전화예약 \n- (방문) 광진구보건소 2층 구강보건실 내원\n- (전화예약) 광진구보건소 구강보건실 전화예약 \n\n○ 신청인 제출서류\n - 장애인 복지카드\n - \n○ 공무원 확인가능 서류\n - 주민등록번호\n - phis, 행정정보공동이용 사전 동의 필요",
+  "documents": "장애인 복지카드",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "구강보건법",
+    "지역보건법",
+    "국민건강증진법"
+  ],
+  "ordinance": "",
+  "inquiryText": "광진구 보건의료과/02-450-1949",
+  "ageMin": 0,
+  "ageMax": 120
+}

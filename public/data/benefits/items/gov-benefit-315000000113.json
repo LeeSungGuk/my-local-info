@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-315000000113",
+  "sourceId": "315000000113",
+  "title": "학대피해아동 심리검사 및 의료비 지원",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 강서구",
+  "providerType": "자치구",
+  "district": "강서구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "만18세 미만의 학대피해아동",
+  "summary": "서울특별시 강서구에서 제공하는 보호·돌봄 혜택입니다. 학대피해아동에 대한 적극적인 조사 및 보호를 통해 아동의 안정적인 성장환경 조성 및 권리 증진 도모",
+  "supportType": "서비스(의료)",
+  "supportSummary": "학대피해아동에 대한 치료비용, 심리치료 및 검사비용",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000113",
+  "onlineUrl": "",
+  "inquiry": [
+    "아동청소년과/02-2600-5389"
+  ],
+  "updatedAt": "2026-01-29",
+  "registeredAt": "2021-09-23",
+  "viewCount": 733,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "학대피해아동에 대한 적극적인 조사 및 보호를 통해 아동의 안정적인 성장환경 조성 및 권리 증진 도모",
+  "target": "만18세 미만의 학대피해아동",
+  "selectionCriteria": "",
+  "supportContent": "학대피해아동에 대한 치료비용, 심리치료 및 검사비용",
+  "applicationMethod": "개인 신청절차 없음(시군구 내부회의를 통해 지원여부 결정)",
+  "documents": "별도 구비서류 없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 강서구 아동학대 예방 및 피해아동 보호에 관한 조례(제9조)",
+  "inquiryText": "아동청소년과/02-2600-5389",
+  "ageMin": 0,
+  "ageMax": 18
+}

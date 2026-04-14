@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-300000000142",
+  "sourceId": "300000000142",
+  "title": "보훈대상자 및 보훈단체 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 종로구",
+  "providerType": "자치구",
+  "district": "종로구",
+  "userType": "법인/시설/단체",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 기    간 : 2025.1.~12. \n○ 대    상 : 9개 보훈단체 종로구지회\n○ 지원사항\n    - 보훈단체 보훈‧안보 활동을 위한 단체 운영 보조금 지원 \n    - 안보 관련 전적지 순례, 호국영령 추모제 등 사업비 지원",
+  "summary": "서울특별시 종로구에서 제공하는 생활안정 혜택입니다. 종로구 보훈단체(9개) 보조금 지원",
+  "supportType": "기타",
+  "supportSummary": "종로구 보훈단체(9개) 보조금 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000142",
+  "onlineUrl": "",
+  "inquiry": [
+    "종로구 복지정책과/02-2148-2483"
+  ],
+  "updatedAt": "2026-01-27",
+  "registeredAt": "2022-10-27",
+  "viewCount": 528,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "종로구 보훈단체(9개) 보조금 지원",
+  "target": "○ 기    간 : 2025.1.~12. \n○ 대    상 : 9개 보훈단체 종로구지회\n○ 지원사항\n    - 보훈단체 보훈‧안보 활동을 위한 단체 운영 보조금 지원 \n    - 안보 관련 전적지 순례, 호국영령 추모제 등 사업비 지원",
+  "selectionCriteria": "",
+  "supportContent": "종로구 보훈단체(9개) 보조금 지원",
+  "applicationMethod": "방문신청",
+  "documents": "○ 보조사업자 교부신청서 및 사업계획서",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "국가유공자 등 단체 설립에 관한 법률(제13조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "종로구 복지정책과/02-2148-2483",
+  "ageMin": 0,
+  "ageMax": 0
+}

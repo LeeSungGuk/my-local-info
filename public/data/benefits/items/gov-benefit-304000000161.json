@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-304000000161",
+  "sourceId": "304000000161",
+  "title": "행복일자리사업",
+  "field": "고용·창업",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "상·하반기 각 1회 예정(5월, 11월)",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "만 18세 이상 근로능력 있는 광진구민",
+  "summary": "서울특별시 광진구에서 제공하는 고용·창업 혜택입니다. 행복일자리사업 운영을 통한 구민대상 공공일자리 제공",
+  "supportType": "서비스(일자리)",
+  "supportSummary": "광진구민 대상 공공일자리 제공\n  - 채용인원 : 340명(상반기 170명, 하반기 170명)\n  - 채용분야 : 지역사회 문제해결을 위한 공공서비스 확충 대응인력 지원\n  - 근무기간 : 상·하반기 각 4~5개월\n  - 근무조건 : 일 2 또는 4시간, 주 5일 근…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000161",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구청 일자리청년과/02-450-7056"
+  ],
+  "updatedAt": "2026-01-30",
+  "registeredAt": "2021-11-03",
+  "viewCount": 1574,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "행복일자리사업 운영을 통한 구민대상 공공일자리 제공",
+  "target": "만 18세 이상 근로능력 있는 광진구민",
+  "selectionCriteria": "",
+  "supportContent": "광진구민 대상 공공일자리 제공\n  - 채용인원 : 340명(상반기 170명, 하반기 170명)\n  - 채용분야 : 지역사회 문제해결을 위한 공공서비스 확충 대응인력 지원\n  - 근무기간 : 상·하반기 각 4~5개월\n  - 근무조건 : 일 2 또는 4시간, 주 5일 근무(사업별 근무조건 상이)\n  - 보수수준 : 최저임금 적용(2025년 시급 10,030원)",
+  "applicationMethod": "거주지 동주민센터 방문접수",
+  "documents": "응시원서, 이력서 및 자기소개서, 경력증명서, 자격증 등(세부사업별 필수요건 및 우대조건 상이)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "고용정책 기본법"
+  ],
+  "ordinance": "서울특별시 광진구 일자리 창출 및 고용촉진 지원 조례",
+  "inquiryText": "광진구청 일자리청년과/02-450-7056",
+  "ageMin": 19,
+  "ageMax": 64
+}

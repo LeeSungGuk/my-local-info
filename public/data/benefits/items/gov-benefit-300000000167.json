@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-300000000167",
+  "sourceId": "300000000167",
+  "title": "학대피해아동 의료비 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 종로구",
+  "providerType": "자치구",
+  "district": "종로구",
+  "userType": "개인",
+  "deadlineText": "신청불필요",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "아동학대사건 신고,접수된 피해아동",
+  "summary": "서울특별시 종로구에서 제공하는 보건·의료 혜택입니다. 학대피해아동 의료비  지원",
+  "supportType": "서비스(의료)",
+  "supportSummary": "학대피해아동 학대사건으로 인한 의료비, 진단비, 검사비 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000167",
+  "onlineUrl": "",
+  "inquiry": [
+    "아동보호팀/02-2148-2982"
+  ],
+  "updatedAt": "2026-01-27",
+  "registeredAt": "2022-11-02",
+  "viewCount": 383,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "학대피해아동 의료비  지원",
+  "target": "아동학대사건 신고,접수된 피해아동",
+  "selectionCriteria": "",
+  "supportContent": "학대피해아동 학대사건으로 인한 의료비, 진단비, 검사비 지원",
+  "applicationMethod": "아동학대 현장조사 및 학대판단회의를 통해 대상자 선정",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "아동복지법(제29조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "아동보호팀/02-2148-2982",
+  "ageMin": 0,
+  "ageMax": 120
+}

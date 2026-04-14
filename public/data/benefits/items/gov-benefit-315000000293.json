@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-315000000293",
+  "sourceId": "315000000293",
+  "title": "간이 라돈 측정기 대여 업무",
+  "field": "문화·환경",
+  "provider": "서울특별시 강서구",
+  "providerType": "자치구",
+  "district": "강서구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "강서구민",
+  "summary": "서울특별시 강서구에서 제공하는 문화·환경 혜택입니다. 라돈 간이 측정기 대여 서비스를 제공하여, 방사능으로 인한 구민들의 불안감 해소에 도움이 되고자 함",
+  "supportType": "기타",
+  "supportSummary": "- 대여 품목: 라돈아이(실내 라돈 농도 간이 측정기)\n- 대여 기간 및 대여료: 2박 3일, 1천원\n- 신청 방법: 구청 홈페이지 온라인 신청 또는 녹색환경과 유선 및 방문 신청\n- 수령 방법: 강서구 녹색환경과에 방문 수령",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000293",
+  "onlineUrl": "",
+  "inquiry": [
+    "녹색환경과/02-2600-4026"
+  ],
+  "updatedAt": "2026-02-02",
+  "registeredAt": "2025-12-11",
+  "viewCount": 79,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "라돈 간이 측정기 대여 서비스를 제공하여, 방사능으로 인한 구민들의 불안감 해소에 도움이 되고자 함",
+  "target": "강서구민",
+  "selectionCriteria": "",
+  "supportContent": "- 대여 품목: 라돈아이(실내 라돈 농도 간이 측정기)\n- 대여 기간 및 대여료: 2박 3일, 1천원\n- 신청 방법: 구청 홈페이지 온라인 신청 또는 녹색환경과 유선 및 방문 신청\n- 수령 방법: 강서구 녹색환경과에 방문 수령",
+  "applicationMethod": "강서구청 홈페이지 또는 녹색환경과 유선 및 방문",
+  "documents": "신분증",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 강서구 공유 촉진 조례(제2조)",
+  "inquiryText": "녹색환경과/02-2600-4026",
+  "ageMin": 18,
+  "ageMax": 120
+}

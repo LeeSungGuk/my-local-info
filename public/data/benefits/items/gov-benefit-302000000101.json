@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-302000000101",
+  "sourceId": "302000000101",
+  "title": "저소득 어르신 건강음료 서비스 제공",
+  "field": "생활안정",
+  "provider": "서울특별시 용산구",
+  "providerType": "자치구",
+  "district": "용산구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 생계 의료 수급자중 만 65세이상 홀몸 어르신(용산구 주민)",
+  "summary": "서울특별시 용산구에서 제공하는 생활안정 혜택입니다. 만 65세 이상 홀몸어르신에게 건강음료 제공",
+  "supportType": "현물",
+  "supportSummary": "○ 건강음료 주 3회 제공",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/302000000101",
+  "onlineUrl": "",
+  "inquiry": [
+    "어르신복지과/02-2199-4685"
+  ],
+  "updatedAt": "2026-02-06",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1005,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "만 65세 이상 홀몸어르신에게 건강음료 제공",
+  "target": "○ 생계 의료 수급자중 만 65세이상 홀몸 어르신(용산구 주민)",
+  "selectionCriteria": "",
+  "supportContent": "○ 건강음료 주 3회 제공",
+  "applicationMethod": "○ 방문 신청\n - 주민센터 : 동 주민센터 신청",
+  "documents": "○신청인 제출서류 \n서비스신청서\n개인정보제공동의서 \n\n○공무원 확인가능 서류 \n생계의료 수급자 증명서 \n가족관계증명서",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "노인복지법"
+  ],
+  "ordinance": "서울특별시 용산구 고령친화도시 구현을 위한 노인복지 증진 기본 조례(제19조)",
+  "inquiryText": "어르신복지과/02-2199-4685",
+  "ageMin": 65,
+  "ageMax": 120
+}

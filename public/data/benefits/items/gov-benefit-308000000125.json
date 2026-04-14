@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-308000000125",
+  "sourceId": "308000000125",
+  "title": "찾아가는 맞춤형 주거환경 개선 지원",
+  "field": "주거·자립",
+  "provider": "서울특별시 강북구",
+  "providerType": "자치구",
+  "district": "강북구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 강북구 내 주거취약 홀몸어르신",
+  "summary": "서울특별시 강북구에서 제공하는 주거·자립 혜택입니다. 주거취약 홀몸어르신에게 환경 개선 등 서비스 지원",
+  "supportType": "서비스(돌봄)",
+  "supportSummary": "○ 지역 내 주거취약계층 어르신의 생활환경 개선 및 지원\n - 정리정돈, 인식개선교육, 가정 내 시설물 교체 및  개보수 등\n\n○ 맞춤형 정리정돈 서비스 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/308000000125",
+  "onlineUrl": "",
+  "inquiry": [
+    "어르신·장애인과/02-901-6657"
+  ],
+  "updatedAt": "2026-02-02",
+  "registeredAt": "2021-09-23",
+  "viewCount": 835,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "주거취약 홀몸어르신에게 환경 개선 등 서비스 지원",
+  "target": "○ 강북구 내 주거취약 홀몸어르신",
+  "selectionCriteria": "",
+  "supportContent": "○ 지역 내 주거취약계층 어르신의 생활환경 개선 및 지원\n - 정리정돈, 인식개선교육, 가정 내 시설물 교체 및  개보수 등\n\n○ 맞춤형 정리정돈 서비스 지원",
+  "applicationMethod": "○ 방문 신청\n - 기타 : 시립강북노인종합복지관",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "저출산ㆍ고령사회기본법"
+  ],
+  "ordinance": "서울특별시 강북구 노인복지 기본 조례(제10조)||서울특별시 강북구 노인복지 기본 조례(제11조)",
+  "inquiryText": "어르신·장애인과/02-901-6657",
+  "ageMin": 65,
+  "ageMax": 120
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-300000000156",
+  "sourceId": "300000000156",
+  "title": "주민 정보화교육 지원",
+  "field": "보육·교육",
+  "provider": "서울특별시 종로구",
+  "providerType": "자치구",
+  "district": "종로구",
+  "userType": "개인",
+  "deadlineText": "셋째주 목요일/금요일~말일 (월별 상이)",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 정보화 취약계층\n - 고령자, 장애인, 농업인, 저소득층, 기초생활보장 수급자, 주부\n - 55세 이상 구민 및 전업주부 (종로구 재직자 신청 가능)",
+  "summary": "서울특별시 종로구에서 제공하는 보육·교육 혜택입니다. 디지털취약게층(어르신, 장애인 등)을 위한 스마트폰, pc 기초과정 중심의 디지털교육",
+  "supportType": "기타(교육)",
+  "supportSummary": "○ 주민 정보화교육 서비스\n - 정보화 취약계층을 대상으로 정보화 교육 실시하여 정보화 격차 해소를 목적으로 함\n - 정보화 능력 수준에 따라 초급, 활용과정으로 분류하여 정보화 교육실시",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000156",
+  "onlineUrl": "https://www.jongno.go.kr/edu/eduMain.do",
+  "inquiry": [
+    "스마트행정과/02-2148-1734",
+    "정보화교육 콜센터/02-2148-3947"
+  ],
+  "updatedAt": "2026-02-03",
+  "registeredAt": "2022-10-31",
+  "viewCount": 416,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "디지털취약게층(어르신, 장애인 등)을 위한 스마트폰, pc 기초과정 중심의 디지털교육",
+  "target": "○ 정보화 취약계층\n - 고령자, 장애인, 농업인, 저소득층, 기초생활보장 수급자, 주부\n - 55세 이상 구민 및 전업주부 (종로구 재직자 신청 가능)",
+  "selectionCriteria": "",
+  "supportContent": "○ 주민 정보화교육 서비스\n - 정보화 취약계층을 대상으로 정보화 교육 실시하여 정보화 격차 해소를 목적으로 함\n - 정보화 능력 수준에 따라 초급, 활용과정으로 분류하여 정보화 교육실시",
+  "applicationMethod": "○전화, 인터넷\n  - 종로구 정보화교육 사이트 접속(https://www.jongno.go.kr/edu/eduMain.do)\n  - 종로구 정보화교육 콜센터 문의 : 02-2148-3947",
+  "documents": "수강 첫날 신분증(본인 확인 용도)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "지능정보화 기본법(제50조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "스마트행정과/02-2148-1734||정보화교육 콜센터/02-2148-3947",
+  "ageMin": 0,
+  "ageMax": 120
+}

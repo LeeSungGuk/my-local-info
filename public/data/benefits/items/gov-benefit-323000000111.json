@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-323000000111",
+  "sourceId": "323000000111",
+  "title": "(송파구)저소득 한부모가족 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 송파구",
+  "providerType": "자치구",
+  "district": "송파구",
+  "userType": "가구",
+  "deadlineText": "신청불필요",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 관내 법정 저소득한부모 가구",
+  "summary": "서울특별시 송파구에서 제공하는 생활안정 혜택입니다. 저소득한부모 가구에 명절격려금 및 김치 지원",
+  "supportType": "현금||현물",
+  "supportSummary": "○ 관내 법정 저소득한부모가족에게 명절격려금 가구당 30,000원 지원\n\n○ 저소득 한부모 540세대 김치 한박스(15kg) 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/323000000111",
+  "onlineUrl": "",
+  "inquiry": [
+    "여성보육과/02-2147-2760"
+  ],
+  "updatedAt": "2026-02-06",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1953,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "저소득한부모 가구에 명절격려금 및 김치 지원",
+  "target": "○ 관내 법정 저소득한부모 가구",
+  "selectionCriteria": "",
+  "supportContent": "○ 관내 법정 저소득한부모가족에게 명절격려금 가구당 30,000원 지원\n\n○ 저소득 한부모 540세대 김치 한박스(15kg) 지원",
+  "applicationMethod": "○ 개인 신청절차 없음\n - 기타(지자체) 시군구에서 대상자 가구 선정 후 지원",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "한부모가족지원법"
+  ],
+  "ordinance": "서울특별시 송파구 저소득주민의 생활안정지원에 관한 조례",
+  "inquiryText": "여성보육과/02-2147-2760",
+  "ageMin": 0,
+  "ageMax": 120
+}

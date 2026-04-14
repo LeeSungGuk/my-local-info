@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-611000000161",
+  "sourceId": "611000000161",
+  "title": "생활보조수당",
+  "field": "생활안정",
+  "provider": "서울특별시",
+  "providerType": "서울시",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 아래 요건 모두 충족자\n - ① 국가유공자 본인 또는 선순위 유족\n - ② 서울특별시에 주민등록을 두고 1개월 이상 거주한 사람\n - ③ 국민기초생활보장법에 의한 수급권자 또는 차상위계층자",
+  "summary": "서울특별시에서 제공하는 생활안정 혜택입니다. 국가유공자 및 유족 중 저소득층에게 생활보조수당 지급",
+  "supportType": "현금",
+  "supportSummary": "○ 국가유공자 본인 및 선순위유족 중 기초생활수급자 또는 차상위계층 해당자에 생활보조수당 지급",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000161",
+  "onlineUrl": "",
+  "inquiry": [
+    "관할 주민센터/02-120"
+  ],
+  "updatedAt": "2026-01-23",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1765,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "국가유공자 및 유족 중 저소득층에게 생활보조수당 지급",
+  "target": "○ 아래 요건 모두 충족자\n - ① 국가유공자 본인 또는 선순위 유족\n - ② 서울특별시에 주민등록을 두고 1개월 이상 거주한 사람\n - ③ 국민기초생활보장법에 의한 수급권자 또는 차상위계층자",
+  "selectionCriteria": "",
+  "supportContent": "○ 국가유공자 본인 및 선순위유족 중 기초생활수급자 또는 차상위계층 해당자에 생활보조수당 지급",
+  "applicationMethod": "○ 방문 신청\n - 주민센터 : 주소지 관할 읍면동 주민센터에 방문 신청",
+  "documents": "○ 신청인 제출서류\n - 국가유공자(유족)임을 확인할 수 있는 증명서\n - 계좌번호가 기재된 통장 사본\n - 소득인정액 증빙자료(차상위계층 확인서 등)\n\n○ 공무원 확인서류\n - 주민등록등본(전입일 확인)\n - 국민기초생활보장법상 수급권자 또는 차상위계층 여부",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 국가보훈대상자 예우 및 지원에 관한 조례(제7조, 제3항)",
+  "inquiryText": "관할 주민센터/02-120",
+  "ageMin": 0,
+  "ageMax": 120
+}

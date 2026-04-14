@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-611000000173",
+  "sourceId": "611000000173",
+  "title": "사립 박물관, 미술관 활성화 사업",
+  "field": "문화·환경",
+  "provider": "서울특별시",
+  "providerType": "서울시",
+  "district": "서울특별시",
+  "userType": "법인/시설/단체",
+  "deadlineText": "매년 2월초",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "ㅇ 재정이 열악한 사립 박물관 및 미술관",
+  "summary": "서울특별시에서 제공하는 문화·환경 혜택입니다. 서울시 사립 박물관, 미술관 활성화를 위해 전시 사업비 및 학예 인력 지원비 지원",
+  "supportType": "기타",
+  "supportSummary": "ㅇ 서울시 사립 박물관, 미술관 활성화\n- 전시 사업비 및 학예 인력 지원비 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000173",
+  "onlineUrl": "",
+  "inquiry": [
+    "박물관과/02-2133-4237"
+  ],
+  "updatedAt": "2025-11-27",
+  "registeredAt": "2022-10-03",
+  "viewCount": 566,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "서울시 사립 박물관, 미술관 활성화를 위해 전시 사업비 및 학예 인력 지원비 지원",
+  "target": "ㅇ 재정이 열악한 사립 박물관 및 미술관",
+  "selectionCriteria": "",
+  "supportContent": "ㅇ 서울시 사립 박물관, 미술관 활성화\n- 전시 사업비 및 학예 인력 지원비 지원",
+  "applicationMethod": "ㅇ 방문, 및 담당자 문의",
+  "documents": "등록 박물관, 미술관 서류",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "박물관 및 미술관 진흥법(제24조, 제1항)"
+  ],
+  "ordinance": "",
+  "inquiryText": "박물관과/02-2133-4237",
+  "ageMin": 0,
+  "ageMax": 0
+}

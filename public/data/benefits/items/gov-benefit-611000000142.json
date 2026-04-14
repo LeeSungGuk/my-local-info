@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-611000000142",
+  "sourceId": "611000000142",
+  "title": "친환경 농산물 인증비 지원",
+  "field": "농림축산어업",
+  "provider": "서울특별시",
+  "providerType": "서울시",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 서울시에 주소지를 두고 서울시에 위치한 농지소재지에서 농업에 종사하면서 친환경농산물 인증을 받은 생산자(단체)",
+  "summary": "서울특별시에서 제공하는 농림축산어업 혜택입니다. 친환경농산물 인증 생산자에게 인증소요비용 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 친환경농산물 인증을 받은 생산자(단체)에게 60만원 이내 인증에 소요되는 비용 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000142",
+  "onlineUrl": "",
+  "inquiry": [
+    "관할 구청/02-120"
+  ],
+  "updatedAt": "2025-12-02",
+  "registeredAt": "2021-09-23",
+  "viewCount": 685,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "친환경농산물 인증 생산자에게 인증소요비용 지원",
+  "target": "○ 서울시에 주소지를 두고 서울시에 위치한 농지소재지에서 농업에 종사하면서 친환경농산물 인증을 받은 생산자(단체)",
+  "selectionCriteria": "",
+  "supportContent": "○ 친환경농산물 인증을 받은 생산자(단체)에게 60만원 이내 인증에 소요되는 비용 지원",
+  "applicationMethod": "○ 방문 신청\n - 시군구 : 농지소재 자치구에 방문 신청",
+  "documents": "◦ 신청서\n◦ 친환경농산물인증서 사본\n◦ 인증수수료 및 검사비 영수증(사본)\n◦ 검사증명서(사본)\n◦ 친환경인증사업자 의무교육이수확인서\n   (지급후 제출가능)\n◦ 통장(사본)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "농림축산식품부 소관 친환경농어업 육성 및 유기식품 등의 관리ㆍ지원에 관한 법률 시행규칙(제16조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "관할 구청/02-120",
+  "ageMin": 18,
+  "ageMax": 120
+}

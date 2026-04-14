@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-317000000116",
+  "sourceId": "317000000116",
+  "title": "장애인활동지원 구비추가(최중증독거장애인)",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 금천구",
+  "providerType": "자치구",
+  "district": "금천구",
+  "userType": "개인",
+  "deadlineText": "2026년 신규모집 계획 없음",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ X1점수 360점 이상(인정점수 400점 이상)인 최중증 독거장애인",
+  "summary": "서울특별시 금천구에서 제공하는 보호·돌봄 혜택입니다. 최중증 독거장애인에게 활동지원 서비스 추가시간 제공",
+  "supportType": "이용권",
+  "supportSummary": "○ 최중증 독거장애인(2명)에게 장애인활동지원 구비 추가시간(월 135시간) 제공",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/317000000116",
+  "onlineUrl": "",
+  "inquiry": [
+    "어르신장애인과/02-2627-1935"
+  ],
+  "updatedAt": "2026-02-06",
+  "registeredAt": "2021-09-23",
+  "viewCount": 823,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "최중증 독거장애인에게 활동지원 서비스 추가시간 제공",
+  "target": "○ X1점수 360점 이상(인정점수 400점 이상)인 최중증 독거장애인",
+  "selectionCriteria": "",
+  "supportContent": "○ 최중증 독거장애인(2명)에게 장애인활동지원 구비 추가시간(월 135시간) 제공",
+  "applicationMethod": "○ 개인 신청절차 없음\n - 장애인활동지원 제공기관 추천 및 내부심사로 지원 대상자 결정",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "장애인활동 지원에 관한 법률"
+  ],
+  "ordinance": "",
+  "inquiryText": "어르신장애인과/02-2627-1935",
+  "ageMin": 6,
+  "ageMax": 64
+}

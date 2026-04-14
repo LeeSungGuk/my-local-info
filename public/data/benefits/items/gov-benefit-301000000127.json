@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-301000000127",
+  "sourceId": "301000000127",
+  "title": "취약계층 주거환경 개선 지원",
+  "field": "주거·자립",
+  "provider": "서울특별시 중구",
+  "providerType": "자치구",
+  "district": "중구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 취약계층 : 수급자 ,차상위 계층",
+  "summary": "서울특별시 중구에서 제공하는 주거·자립 혜택입니다. 취약계층에 주거환경 개선 지원",
+  "supportType": "기타",
+  "supportSummary": "○ 주거환경개선\n저소득층의 열악한 주거환경에 대한 실태조사 실시후 개별가구의 특성에 맞는 주거환경개선을 통해 주거취약계층의 삶의 질 향상에 기여",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/301000000127",
+  "onlineUrl": "",
+  "inquiry": [
+    "생활보장과/02-3396-5392"
+  ],
+  "updatedAt": "2026-02-05",
+  "registeredAt": "2021-09-23",
+  "viewCount": 993,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "취약계층에 주거환경 개선 지원",
+  "target": "○ 취약계층 : 수급자 ,차상위 계층",
+  "selectionCriteria": "",
+  "supportContent": "○ 주거환경개선\n저소득층의 열악한 주거환경에 대한 실태조사 실시후 개별가구의 특성에 맞는 주거환경개선을 통해 주거취약계층의 삶의 질 향상에 기여",
+  "applicationMethod": "○ 방문신청\n \n    동주민센터 주거담당자와 상담 후 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 중구 주거복지 지원 조례(제1조)",
+  "inquiryText": "생활보장과/02-3396-5392",
+  "ageMin": 19,
+  "ageMax": 120
+}

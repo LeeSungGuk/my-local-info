@@ -1,0 +1,47 @@
+{
+  "id": "gov-benefit-B37003100012",
+  "sourceId": "B37003100012",
+  "title": "개발도상국 스포츠행정가 교육제공",
+  "field": "보육·교육",
+  "provider": "서울올림픽기념국민체육진흥공단",
+  "providerType": "서울 공공기관",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "홈페이지 내 공고 신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 개도국 스포츠행정 분야 재직, 경력자 또는 올림픽, 세계선수권대회 참가 유경험 선수경력자, NOC/NPC 선수경력자 중 국제스포츠기구, 자국 NOC/NPC/NF, 정부 추천을 받은 자\n - 개발도상국 기준 : OECD DAC(개발원조위원회) 선정 수원국\n - 학생…",
+  "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 보육·교육 혜택입니다. 개도국 차세대 스포츠행정가 양성을 통해 '스포츠를 통한 사회개발'이라는 국제사회의 요구에 부응하고 한국의 국제스포츠계 영향력을 강화",
+  "supportType": "기타(교육)",
+  "supportSummary": "○ 개도국 스포츠행정 분야 또는 국제대회 참가 경력자 중 적격자를 선발하여 국내 정규 대학원 석사학위과정 등 지원\n\n○ UN의 지속가능발전목표 이행을 위한 스포츠 국제개발협력에 적극 참여",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100012",
+  "onlineUrl": "dtm.snu.ac.kr",
+  "inquiry": [
+    "스포츠인재육성팀/02-410-1511"
+  ],
+  "updatedAt": "2026-01-30",
+  "registeredAt": "2022-07-15",
+  "viewCount": 857,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "개도국 차세대 스포츠행정가 양성을 통해 '스포츠를 통한 사회개발'이라는 국제사회의 요구에 부응하고 한국의 국제스포츠계 영향력을 강화",
+  "target": "○ 개도국 스포츠행정 분야 재직, 경력자 또는 올림픽, 세계선수권대회 참가 유경험 선수경력자, NOC/NPC 선수경력자 중 국제스포츠기구, 자국 NOC/NPC/NF, 정부 추천을 받은 자\n - 개발도상국 기준 : OECD DAC(개발원조위원회) 선정 수원국\n - 학생모집 현황에 따라 인정 추천기관 변동 가능",
+  "selectionCriteria": "",
+  "supportContent": "○ 개도국 스포츠행정 분야 또는 국제대회 참가 경력자 중 적격자를 선발하여 국내 정규 대학원 석사학위과정 등 지원\n\n○ UN의 지속가능발전목표 이행을 위한 스포츠 국제개발협력에 적극 참여",
+  "applicationMethod": "○ 온라인 신청\n - dtm.snu.ac.kr 홈페이지 : 안내사항에 따라 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "국민체육진흥법(제19조, 제1항)",
+    "국민체육진흥법(제22조, 제1항)",
+    "국민체육진흥법 시행령(제23조, 제1항)"
+  ],
+  "ordinance": "",
+  "inquiryText": "스포츠인재육성팀/02-410-1511",
+  "ageMin": 20,
+  "ageMax": 50
+}

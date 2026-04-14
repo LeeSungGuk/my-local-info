@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-304000000135",
+  "sourceId": "304000000135",
+  "title": "장애인 보장구 수리 지원",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "광진구에 주소를 둔 등록장애인 중 휠체어 및 전동 스쿠터 소유자",
+  "summary": "서울특별시 광진구에서 제공하는 보호·돌봄 혜택입니다. 장애인에게 수동휠체어, 전동휠체어 및 전동스쿠터 수리비용 지원",
+  "supportType": "이용권",
+  "supportSummary": "장애인에게 수동휠체어, 전동휠체어 및 전동스쿠터 수리비용 지원\n - 기초생활수급자 및 차상위 장애인 : 연간 30만원 이내 지원\n - 일반 장애인 : 수리비용의 2분의 1을 지원하되 연간 15만원 이내 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000135",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 사회복지장애인과/02-450-7563"
+  ],
+  "updatedAt": "2026-01-28",
+  "registeredAt": "2021-10-26",
+  "viewCount": 682,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "장애인에게 수동휠체어, 전동휠체어 및 전동스쿠터 수리비용 지원",
+  "target": "광진구에 주소를 둔 등록장애인 중 휠체어 및 전동 스쿠터 소유자",
+  "selectionCriteria": "",
+  "supportContent": "장애인에게 수동휠체어, 전동휠체어 및 전동스쿠터 수리비용 지원\n - 기초생활수급자 및 차상위 장애인 : 연간 30만원 이내 지원\n - 일반 장애인 : 수리비용의 2분의 1을 지원하되 연간 15만원 이내 지원",
+  "applicationMethod": "관할 동주민센터 방문신청",
+  "documents": "장애인 휠체어 서비스 신청서 및 수리의뢰서",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "장애인ㆍ노인 등을 위한 보조기기 지원 및 활용촉진에 관한 법률"
+  ],
+  "ordinance": "",
+  "inquiryText": "광진구 사회복지장애인과/02-450-7563",
+  "ageMin": 0,
+  "ageMax": 120
+}

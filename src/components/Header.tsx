@@ -22,7 +22,7 @@ export default function Header() {
           <nav className="hidden md:flex items-center gap-1">
             <NavLink href="/">홈</NavLink>
             <NavLink href="/events">행사/축제</NavLink>
-            <NavLink href="/benefits/1">지원금/혜택</NavLink>
+            <NavLink href="/benefits">지원금/혜택</NavLink>
             <NavLink href="/blog">블로그</NavLink>
           </nav>
 
@@ -74,7 +74,7 @@ export default function Header() {
                 🎉 행사/축제
               </MobileNavLink>
               <MobileNavLink
-                href="/benefits/1"
+                href="/benefits"
                 onClick={() => setIsMenuOpen(false)}
               >
                 💰 지원금/혜택

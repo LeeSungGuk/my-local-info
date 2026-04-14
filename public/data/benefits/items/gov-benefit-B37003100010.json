@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-B37003100010",
+  "sourceId": "B37003100010",
+  "title": "스포츠용품 해외인증획득 지원",
+  "field": "고용·창업",
+  "provider": "서울올림픽기념국민체육진흥공단",
+  "providerType": "서울 공공기관",
+  "district": "서울특별시",
+  "userType": "법인/시설/단체",
+  "deadlineText": "3월 중 공고 예정.",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "국내 중소 스포츠용품 생산 업체",
+  "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 고용·창업 혜택입니다. 스포츠용품 생산 업체에게 해외 인증 획득 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 국산 스포츠용품 대표 브랜드 육성과 해외 시장 진출 기반 제공을 위한 해외 인증 획득 지원\n\n○ 해외 인증 획득지원을 통한 무역 기술 장벽 해소 및 수출 경쟁력 제고",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100010",
+  "onlineUrl": "spobiz.kspo.or.kr",
+  "inquiry": [
+    "기술혁신팀/031-284-9568"
+  ],
+  "updatedAt": "2026-02-06",
+  "registeredAt": "2022-07-15",
+  "viewCount": 882,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "스포츠용품 생산 업체에게 해외 인증 획득 지원",
+  "target": "국내 중소 스포츠용품 생산 업체",
+  "selectionCriteria": "",
+  "supportContent": "○ 국산 스포츠용품 대표 브랜드 육성과 해외 시장 진출 기반 제공을 위한 해외 인증 획득 지원\n\n○ 해외 인증 획득지원을 통한 무역 기술 장벽 해소 및 수출 경쟁력 제고",
+  "applicationMethod": "○ 온라인 신청 \n - 스포츠산업지원 : spobiz.kspo.or.kr 가입 후 진행",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "기술혁신팀/031-284-9568",
+  "ageMin": 0,
+  "ageMax": 0
+}

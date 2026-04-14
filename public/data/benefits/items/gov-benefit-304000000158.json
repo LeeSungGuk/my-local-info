@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-304000000158",
+  "sourceId": "304000000158",
+  "title": "50+ 사회공헌 일자리 지원",
+  "field": "고용·창업",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "매년 3월경",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "광진구 50+세대(50세 ~ 64세)",
+  "summary": "서울특별시 광진구에서 제공하는 고용·창업 혜택입니다. 사회적경험과 전문성을 갖춘 장년층에게 일자리를 제공하여 \n지속적인 사회참여 기회와 안정된 노후생활 지원",
+  "supportType": "서비스(일자리)",
+  "supportSummary": "50+세대들에게 참신하고 유익한 일자리를 제공하여 지속적인 사회참여 기회를 제공\n - 인생이모작 프로그램, 자격증 취득반 연계 일자리 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000158",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 평생교육과/02-450-9742"
+  ],
+  "updatedAt": "2026-03-01",
+  "registeredAt": "2021-11-03",
+  "viewCount": 686,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "사회적경험과 전문성을 갖춘 장년층에게 일자리를 제공하여 \n지속적인 사회참여 기회와 안정된 노후생활 지원",
+  "target": "광진구 50+세대(50세 ~ 64세)",
+  "selectionCriteria": "",
+  "supportContent": "50+세대들에게 참신하고 유익한 일자리를 제공하여 지속적인 사회참여 기회를 제공\n - 인생이모작 프로그램, 자격증 취득반 연계 일자리 지원",
+  "applicationMethod": "- 신청방법: 장년층 사회공헌일자리 공모 선정 사업자에게 신청\n※ 공모 선정결과 확인 경로: 광진구청 홈페이지 > 행정정보 > 우리구 살림 > 살림규모 및 계획 > 지방보조금",
+  "documents": "<민간보조사업자에게 제출>\n○ 신청인 제출서류\n  - 참여신청서 \n  - 자기소개서\n  - 경력증명서 및  자격증 사본 등(해당자)\n - 개인정보 제공 동의서 \n \n○ 공무원 확인가능 서류(신청인 미제출 서류)\n  - 주민등록 등.초본",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 광진구 장년층의 인생이모작 지원에 관한 조례",
+  "inquiryText": "광진구 평생교육과/02-450-9742",
+  "ageMin": 50,
+  "ageMax": 64
+}

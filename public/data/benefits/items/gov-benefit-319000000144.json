@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-319000000144",
+  "sourceId": "319000000144",
+  "title": "교통약자 무료셔틀버스(동작복지카) 운영",
+  "field": "생활안정",
+  "provider": "서울특별시 동작구",
+  "providerType": "자치구",
+  "district": "동작구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "교통약자 : 어르신, 장애인, 임산부, 영유아 등",
+  "summary": "서울특별시 동작구에서 제공하는 생활안정 혜택입니다. 대중교통 사각지대에 거주하는 교통약자를 위해 복지, 행정기관 등의 이동 접근성 및 편의성 증진",
+  "supportType": "기타",
+  "supportSummary": "- 사업기간 : 연중\n- 사업대상 : 65세 이상 어르신, 장애인, 임산부 등 교통약자\n- 운행지역 : 상도2,4동 / 사당2,3동 / 사당4,5동 / 노량진1,흑석동\n- 운행차량 : 총 9대(5개 노선 : 4개 노선별 2대씩 운행 / 1개 노선 1대 운행)\n- 운행…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000144",
+  "onlineUrl": "",
+  "inquiry": [
+    "대한민국동작주식회사/02-3280-9919"
+  ],
+  "updatedAt": "2026-01-28",
+  "registeredAt": "2023-11-13",
+  "viewCount": 151,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "대중교통 사각지대에 거주하는 교통약자를 위해 복지, 행정기관 등의 이동 접근성 및 편의성 증진",
+  "target": "교통약자 : 어르신, 장애인, 임산부, 영유아 등",
+  "selectionCriteria": "",
+  "supportContent": "- 사업기간 : 연중\n- 사업대상 : 65세 이상 어르신, 장애인, 임산부 등 교통약자\n- 운행지역 : 상도2,4동 / 사당2,3동 / 사당4,5동 / 노량진1,흑석동\n- 운행차량 : 총 9대(5개 노선 : 4개 노선별 2대씩 운행 / 1개 노선 1대 운행)\n- 운행시간\n   * 1~3호차 : 평균 30분 간격, 일 16회(점심시간, 주말, 공휴일 제외)\n   * 4호차 : 평균 45분 간격, 일10회(점심시간, 주말, 공휴일 제외)\n   * 희망카 : 평균 20분 간격, 일 24회 운행(점심시간, 주말, 공휴일 제외)",
+  "applicationMethod": "해당 서비스는 신청없이 자격대상자에게 자동적으로 제공됩니다.",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "교통약자의 이동편의 증진법(제4조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "대한민국동작주식회사/02-3280-9919",
+  "ageMin": 0,
+  "ageMax": 120
+}

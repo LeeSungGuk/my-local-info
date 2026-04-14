@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-316000000113",
+  "sourceId": "316000000113",
+  "title": "장애인 활동지원(추가)",
+  "field": "생활안정",
+  "provider": "서울특별시 구로구",
+  "providerType": "자치구",
+  "district": "구로구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 성인발달장애인(지적,자폐성)중 인정점수 320점이상(1~2등급) /x1 점수 230점 이상\n  - 국고보조사업 x2, x3 추가점수 부여자 제외",
+  "summary": "서울특별시 구로구에서 제공하는 생활안정 혜택입니다. 성인발달장애인에게 활동지원 서비스 추가시간 제공",
+  "supportType": "이용권",
+  "supportSummary": "○ 활동지원 월 30시간의 구비 추가시간 제공",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/316000000113",
+  "onlineUrl": "",
+  "inquiry": [
+    "장애인복지과/02-860-2925"
+  ],
+  "updatedAt": "2026-02-03",
+  "registeredAt": "2021-09-23",
+  "viewCount": 989,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "성인발달장애인에게 활동지원 서비스 추가시간 제공",
+  "target": "○ 성인발달장애인(지적,자폐성)중 인정점수 320점이상(1~2등급) /x1 점수 230점 이상\n  - 국고보조사업 x2, x3 추가점수 부여자 제외",
+  "selectionCriteria": "",
+  "supportContent": "○ 활동지원 월 30시간의 구비 추가시간 제공",
+  "applicationMethod": "○ 방문·유선 신청\n - 주민센터 : 거주지 관할 주민센터에 방문·유선 신청",
+  "documents": "신청인 구비서류 없음 \n(공무원 전산을 통해 자격 여부 확인)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "장애인복지법"
+  ],
+  "ordinance": "",
+  "inquiryText": "장애인복지과/02-860-2925",
+  "ageMin": 6,
+  "ageMax": 64
+}

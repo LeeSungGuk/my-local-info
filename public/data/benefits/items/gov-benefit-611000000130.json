@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-611000000130",
+  "sourceId": "611000000130",
+  "title": "입양아동 교육비 지원",
+  "field": "보육·교육",
+  "provider": "서울특별시",
+  "providerType": "서울시",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 「입양특례법」상 허가된 입양기관에서 국내 입양된 만18세 미만의 아동 입양 가정의 고등학생(자사고 및 특목고 등)",
+  "summary": "서울특별시에서 제공하는 보육·교육 혜택입니다. 아동입양가족에 교육비 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 교육비(입학금, 수업료 등) 최대 200만원(분기별 50만원)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000130",
+  "onlineUrl": "",
+  "inquiry": [
+    "관할 주민센터/02-120"
+  ],
+  "updatedAt": "2025-11-27",
+  "registeredAt": "2021-09-23",
+  "viewCount": 803,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "아동입양가족에 교육비 지원",
+  "target": "○ 「입양특례법」상 허가된 입양기관에서 국내 입양된 만18세 미만의 아동 입양 가정의 고등학생(자사고 및 특목고 등)",
+  "selectionCriteria": "",
+  "supportContent": "○ 교육비(입학금, 수업료 등) 최대 200만원(분기별 50만원)",
+  "applicationMethod": "○ 방문 신청 \n  - 주민센터 : 주민센터 신청\n  - 시군구 : 자치구 신청",
+  "documents": "○ 신청인 제출 서류\n    - 교육비 신청서\n    - 고등학교 입학금, 수업료, 교재비 등 영수증\n    - 가족관계증명서\n\n○ 공무원 확인 서류\n    - 교육비 신청서\n    - 고등학교 입학금, 수업료, 교재비 등 영수증\n    - 가족관계증명서",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "입양특례법"
+  ],
+  "ordinance": "서울특별시 입양가정 지원에 관한 조례(제6조)",
+  "inquiryText": "관할 주민센터/02-120",
+  "ageMin": 0,
+  "ageMax": 17
+}

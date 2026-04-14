@@ -1,0 +1,47 @@
+{
+  "id": "gov-benefit-300000000162",
+  "sourceId": "300000000162",
+  "title": "청소년단체 지원",
+  "field": "문화·환경",
+  "provider": "서울특별시 종로구",
+  "providerType": "자치구",
+  "district": "종로구",
+  "userType": "법인/시설/단체",
+  "deadlineText": "별도 공고",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "청소년 활동, 청소년 복지, 청소년 보호에 관한 사업을 수행하는 청소년단체",
+  "summary": "서울특별시 종로구에서 제공하는 문화·환경 혜택입니다. 청소년 활동 및 복지 지원과 보호",
+  "supportType": "현금",
+  "supportSummary": "공모 선정 후 보조금 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청",
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000162",
+  "onlineUrl": "",
+  "inquiry": [
+    "종로구 아동복지과 아동청소년복지팀/02-2148-2963"
+  ],
+  "updatedAt": "2026-01-30",
+  "registeredAt": "2022-11-01",
+  "viewCount": 390,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "청소년 활동 및 복지 지원과 보호",
+  "target": "청소년 활동, 청소년 복지, 청소년 보호에 관한 사업을 수행하는 청소년단체",
+  "selectionCriteria": "",
+  "supportContent": "공모 선정 후 보조금 지원",
+  "applicationMethod": "방문신청 또는 이메일",
+  "documents": "온라인 신청(보탬e): 별도 구비서류 없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "청소년 기본법 시행령(제27조)",
+    "청소년 기본법(제29조, 제1항)"
+  ],
+  "ordinance": "",
+  "inquiryText": "종로구 아동복지과 아동청소년복지팀/02-2148-2963",
+  "ageMin": 0,
+  "ageMax": 0
+}

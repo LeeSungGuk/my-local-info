@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-305000000287",
+  "sourceId": "305000000287",
+  "title": "B형간염 유료 예방접종 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 항원항체검사 결과 음성인 자",
+  "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. B형간염 예방접종을 통한 지역사회 집단면역 증진",
+  "supportType": "서비스(의료)",
+  "supportSummary": "○ 항원항체검사 결과 음성인 접종희망자를 대상으로 유료 B형간염 예방접종 제공\n\n○ 접종방법:  0~1~6개월(총3회 접종)\n\n○ 수수료 : 회당 6,900원\n ※ 접종 수수료 변동 가능",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000287",
+  "onlineUrl": "",
+  "inquiry": [
+    "동대문구보건소 예방접종실/02-2127-4942"
+  ],
+  "updatedAt": "2026-02-09",
+  "registeredAt": "2025-12-10",
+  "viewCount": 72,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "B형간염 예방접종을 통한 지역사회 집단면역 증진",
+  "target": "○ 항원항체검사 결과 음성인 자",
+  "selectionCriteria": "",
+  "supportContent": "○ 항원항체검사 결과 음성인 접종희망자를 대상으로 유료 B형간염 예방접종 제공\n\n○ 접종방법:  0~1~6개월(총3회 접종)\n\n○ 수수료 : 회당 6,900원\n ※ 접종 수수료 변동 가능",
+  "applicationMethod": "방문 전 백신잔량 확인 후 보건소 방문 신청",
+  "documents": "신분증\n항원 · 항체검사결과지\n(최근 6개월이내 시행한 검사결과)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "감염병의 예방 및 관리에 관한 법률(제24조)",
+    "감염병의 예방 및 관리에 관한 법률(제25조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "동대문구보건소 예방접종실/02-2127-4942",
+  "ageMin": 0,
+  "ageMax": 120
+}

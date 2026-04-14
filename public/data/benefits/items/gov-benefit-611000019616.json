@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-611000019616",
+  "sourceId": "611000019616",
+  "title": "서울시 어린이 눈건강 지킴이",
+  "field": "보육·교육",
+  "provider": "서울특별시",
+  "providerType": "서울시",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "2, 5, 8, 11월(연 4회)",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "서울시 거주 초등학생 이하 어린이(만 12세 이하)",
+  "summary": "서울특별시에서 제공하는 보육·교육 혜택입니다. 디지털 기기 사용 증가로 인한 시력 저하 또는 눈건강 위험이 있는 아동에게 안경구입비(최대20%) 등을 지원하여 아동복지를 증진",
+  "supportType": "기타",
+  "supportSummary": "- 지원대상: 서울시 거주 초등학생 이하 어린이(만 12세 이하)\n- 지원내용: 안경 할인쿠폰(시력검사 포함) 제공\n  * 비행사품목 20% 할인/ 특판, 행사품목 기존 판매가격의 5% 할인\n- 지원시기 : 연 4회(2,5,8,11월)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000019616",
+  "onlineUrl": "https://yeyak.seoul.go.kr/",
+  "inquiry": [
+    "서울특별시 아동담당관/02-2133-5167"
+  ],
+  "updatedAt": "2026-02-25",
+  "registeredAt": "2025-07-01",
+  "viewCount": 436,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "디지털 기기 사용 증가로 인한 시력 저하 또는 눈건강 위험이 있는 아동에게 안경구입비(최대20%) 등을 지원하여 아동복지를 증진",
+  "target": "서울시 거주 초등학생 이하 어린이(만 12세 이하)",
+  "selectionCriteria": "",
+  "supportContent": "- 지원대상: 서울시 거주 초등학생 이하 어린이(만 12세 이하)\n- 지원내용: 안경 할인쿠폰(시력검사 포함) 제공\n  * 비행사품목 20% 할인/ 특판, 행사품목 기존 판매가격의 5% 할인\n- 지원시기 : 연 4회(2,5,8,11월)",
+  "applicationMethod": "[신청자] 서울시 공공서비스예약 홈페이지 통해 온라인 신청·접수(https://yeyak.seoul.go.kr)",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 아동친화도시 조성에 관한 조례(제4조)",
+  "inquiryText": "서울특별시 아동담당관/02-2133-5167",
+  "ageMin": 0,
+  "ageMax": 12
+}

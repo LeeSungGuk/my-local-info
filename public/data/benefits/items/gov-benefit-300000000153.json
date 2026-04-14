@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-300000000153",
+  "sourceId": "300000000153",
+  "title": "폭염대비 취약계층 에어컨 지원 사업",
+  "field": "생활안정",
+  "provider": "서울특별시 종로구",
+  "providerType": "자치구",
+  "district": "종로구",
+  "userType": "가구",
+  "deadlineText": "5~6월",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "국민기초생활수급자, 차상위계층 등 복지 대상자",
+  "summary": "서울특별시 종로구에서 제공하는 생활안정 혜택입니다. 폭염 대비하여 여름철 취약계층이 건강하고 안전한 여름을 보낼 수 있도록 에어컨 설치를 지원",
+  "supportType": "현물",
+  "supportSummary": "○ 폭염대비 취약계층 에어컨 지원 \n - 지원대상 : 주거 취약가구\n - 지원방법 : 동별 수요조사 후 대상자 선정(에어컨 설치 가능 여부, 중복 지원 여부 등)\n - 지원물품 : 벽걸이형 에어컨(6평형)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000153",
+  "onlineUrl": "",
+  "inquiry": [
+    "종로구청 복지정책과/02-2148-2514"
+  ],
+  "updatedAt": "2026-01-27",
+  "registeredAt": "2022-10-28",
+  "viewCount": 989,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "폭염 대비하여 여름철 취약계층이 건강하고 안전한 여름을 보낼 수 있도록 에어컨 설치를 지원",
+  "target": "국민기초생활수급자, 차상위계층 등 복지 대상자",
+  "selectionCriteria": "",
+  "supportContent": "○ 폭염대비 취약계층 에어컨 지원 \n - 지원대상 : 주거 취약가구\n - 지원방법 : 동별 수요조사 후 대상자 선정(에어컨 설치 가능 여부, 중복 지원 여부 등)\n - 지원물품 : 벽걸이형 에어컨(6평형)",
+  "applicationMethod": "해당 서비스는 신청없이 동 주민센터 담당자의 수요조사 후 지원 조건 부합 여부 등 파악하여 대상자가 선정됩니다.",
+  "documents": "○ 에어컨 설치 동의서",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "재난 및 안전관리 기본법(제4조, 제1항)"
+  ],
+  "ordinance": "",
+  "inquiryText": "종로구청 복지정책과/02-2148-2514",
+  "ageMin": 0,
+  "ageMax": 120
+}

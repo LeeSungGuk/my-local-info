@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-320000000102",
+  "sourceId": "320000000102",
+  "title": "으뜸관악 청년통장 지원",
+  "field": "고용·창업",
+  "provider": "서울특별시 관악구",
+  "providerType": "자치구",
+  "district": "관악구",
+  "userType": "개인",
+  "deadlineText": "2026.  6월 예정",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 만 18세~34세 근로 청년",
+  "summary": "서울특별시 관악구에서 제공하는 고용·창업 혜택입니다. 만 18~34세 근로 청년에게 청년통장 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 만 18세~34세 근로 청년을 대상으로 2년 또는 3년 본인적립금(15만원) 대비 근로장려금 100% 매칭 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000102",
+  "onlineUrl": "",
+  "inquiry": [
+    "청년정책과/02-879-5931"
+  ],
+  "updatedAt": "2026-01-29",
+  "registeredAt": "2021-09-23",
+  "viewCount": 9667,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "만 18~34세 근로 청년에게 청년통장 지원",
+  "target": "○ 만 18세~34세 근로 청년",
+  "selectionCriteria": "",
+  "supportContent": "○ 만 18세~34세 근로 청년을 대상으로 2년 또는 3년 본인적립금(15만원) 대비 근로장려금 100% 매칭 지원",
+  "applicationMethod": "○ 온라인:  http://account.welfare.seoul.kr",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 관악구 청년 지원 기본 조례",
+  "inquiryText": "청년정책과/02-879-5931",
+  "ageMin": 18,
+  "ageMax": 34
+}

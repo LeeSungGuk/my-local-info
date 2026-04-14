@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-304000000102",
+  "sourceId": "304000000102",
+  "title": "장애인가정 출산비용 지원(구비)",
+  "field": "임신·출산",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "신생아 출생일을 기준으로 1년 전부터 신청일 현재까지 계속하여 서울특별시 광진구에 주민등록을 두고 거주하는 장애인가정에 지원함.",
+  "summary": "서울특별시 광진구에서 제공하는 임신·출산 혜택입니다. 장애인 가구의 임신·출산에 대한 경제적 부담을 경감하여 출산 친화적인 문화 조성에 이바지하고자 함",
+  "supportType": "현금",
+  "supportSummary": "신생아 출생일 기준 신생아의 부 또는 모가 광진구에서 1년 이상 거주한 등록 장애인인 경우 신생아 1명당 50만원의 금액을 지원함.\n(국,시비 지원금 120만원과 중복 지급 가능하여 최대 170만원 지급)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "정부24온라인신청",
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000102",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 사회복지장애인과/02-450-7626"
+  ],
+  "updatedAt": "2026-01-28",
+  "registeredAt": "2021-09-23",
+  "viewCount": 772,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "장애인 가구의 임신·출산에 대한 경제적 부담을 경감하여 출산 친화적인 문화 조성에 이바지하고자 함",
+  "target": "신생아 출생일을 기준으로 1년 전부터 신청일 현재까지 계속하여 서울특별시 광진구에 주민등록을 두고 거주하는 장애인가정에 지원함.",
+  "selectionCriteria": "",
+  "supportContent": "신생아 출생일 기준 신생아의 부 또는 모가 광진구에서 1년 이상 거주한 등록 장애인인 경우 신생아 1명당 50만원의 금액을 지원함.\n(국,시비 지원금 120만원과 중복 지급 가능하여 최대 170만원 지급)",
+  "applicationMethod": "관할 동주민센터 방문신청",
+  "documents": "1. 신청서 2. 신청자 신분증 3. 통장사본 4. 출산확인서류(등본, 가족관계증명서, 출생증명서. 단, 개인정보 동의시 제출 불필요)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "장애인복지법"
+  ],
+  "ordinance": "서울특별시 광진구 장애인가정 출산지원금 지원 조례",
+  "inquiryText": "광진구 사회복지장애인과/02-450-7626",
+  "ageMin": 18,
+  "ageMax": 44
+}

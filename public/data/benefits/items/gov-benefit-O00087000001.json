@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00087000001",
+  "sourceId": "O00087000001",
+  "title": "송파구인재육성장학재단 장학금 지원",
+  "field": "보육·교육",
+  "provider": "서울특별시 송파구",
+  "providerType": "자치구",
+  "district": "송파구",
+  "userType": "개인",
+  "deadlineText": "상반기(4월~6월), 하반기(9월~11월) 예정",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 공고일 기준 송파구 연속 3년 이상 거주 중인 초, 중, 고, 대학생",
+  "summary": "서울특별시 송파구에서 제공하는 보육·교육 혜택입니다. 관내 저소득층, 특기생, 성적우수 학생 대상으로 장학금 지원",
+  "supportType": "현금(장학금)",
+  "supportSummary": "○ 저소득층: 기준 중위소득 100% 내외 가정의 고등학생(100만원), 대학생(200만원)\n○ 특기생: 문화예술/체육/수학과학 분야의 초등학생(30만원), 중학생(50만원), 고등학생(100만원) 특기생\n○ 성적우수: 학교 성적 전교 상위 10% 이내의 고등학생(1…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00087000001",
+  "onlineUrl": "",
+  "inquiry": [
+    "송파구 교육협력과/02-2147-2373"
+  ],
+  "updatedAt": "2026-01-30",
+  "registeredAt": "2022-07-15",
+  "viewCount": 1214,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "관내 저소득층, 특기생, 성적우수 학생 대상으로 장학금 지원",
+  "target": "○ 공고일 기준 송파구 연속 3년 이상 거주 중인 초, 중, 고, 대학생",
+  "selectionCriteria": "",
+  "supportContent": "○ 저소득층: 기준 중위소득 100% 내외 가정의 고등학생(100만원), 대학생(200만원)\n○ 특기생: 문화예술/체육/수학과학 분야의 초등학생(30만원), 중학생(50만원), 고등학생(100만원) 특기생\n○ 성적우수: 학교 성적 전교 상위 10% 이내의 고등학생(100만원)",
+  "applicationMethod": "- 주민센터 : 접수 기간 중 관할 주민센터 방문 신청\n- 재단 사무실: 접수 기간 중 재단 사무실 방문 신청 또는 우편 접수",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "송파구 교육협력과/02-2147-2373",
+  "ageMin": 0,
+  "ageMax": 120
+}

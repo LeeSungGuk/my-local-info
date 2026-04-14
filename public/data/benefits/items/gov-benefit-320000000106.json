@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-320000000106",
+  "sourceId": "320000000106",
+  "title": "장애인 활동지원(구비추가)",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 관악구",
+  "providerType": "자치구",
+  "district": "관악구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 활동지원 X1점수 300점이상 독거 중증장애인\n\n○ 활동지원 X1점수 248점이상 성인 발달장애인 \n\n○ 만13세이하 자녀 양육 부모장애인(주양육자 1인)\n\n○ 시설퇴소자(국고 특별지원급여 종료 후 신청가능)",
+  "summary": "서울특별시 관악구에서 제공하는 보호·돌봄 혜택입니다. 장애인에게 활동지원 서비스 구비 추가 지원",
+  "supportType": "이용권",
+  "supportSummary": "○ 활동지원서비스 바우처 월 20~40시간 구비로 추가 지원\n- 기능점수(x1) 300점 이상인 독거 중증 장애인: 30시간\n- 기능점수(x1) 248점 이상인 20세 이상 발달장애인: 35시간\n- 만13세 이하 자녀 양육 부모장애인(주양육자 1인): 40시간\n- 거…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000106",
+  "onlineUrl": "",
+  "inquiry": [
+    "장애인복지과/028796022"
+  ],
+  "updatedAt": "2026-01-29",
+  "registeredAt": "2021-09-23",
+  "viewCount": 759,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "장애인에게 활동지원 서비스 구비 추가 지원",
+  "target": "○ 활동지원 X1점수 300점이상 독거 중증장애인\n\n○ 활동지원 X1점수 248점이상 성인 발달장애인 \n\n○ 만13세이하 자녀 양육 부모장애인(주양육자 1인)\n\n○ 시설퇴소자(국고 특별지원급여 종료 후 신청가능)",
+  "selectionCriteria": "",
+  "supportContent": "○ 활동지원서비스 바우처 월 20~40시간 구비로 추가 지원\n- 기능점수(x1) 300점 이상인 독거 중증 장애인: 30시간\n- 기능점수(x1) 248점 이상인 20세 이상 발달장애인: 35시간\n- 만13세 이하 자녀 양육 부모장애인(주양육자 1인): 40시간\n- 거주시설 퇴소 장애인[특별지원급여 자립지원 종료 (예정)자]: 20시간 (최대 6개월간만 지원)",
+  "applicationMethod": "○ 방문 신청\n - 주민센터 : 동주민센터 방문신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 관악구 장애인 자립생활지원 조례(제11조)",
+  "inquiryText": "장애인복지과/028796022",
+  "ageMin": 6,
+  "ageMax": 64
+}

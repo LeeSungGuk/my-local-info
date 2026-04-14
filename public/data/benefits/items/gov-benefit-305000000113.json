@@ -1,0 +1,47 @@
+{
+  "id": "gov-benefit-305000000113",
+  "sourceId": "305000000113",
+  "title": "첫만남이용권",
+  "field": "임신·출산",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "'22. 1. 1. 이후 출생아로서 출생신고되어 정상적으로 주민등록번호를 부여받은 아동",
+  "summary": "서울특별시 동대문구에서 제공하는 임신·출산 혜택입니다. 출생아1인당 1회 200만원의 이용권 지원",
+  "supportType": "이용권",
+  "supportSummary": "'22. 1. 1. 이후 출생아로서 출생신고되어 정상적으로 주민등록번호를 부여받은 아동",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "정부24온라인신청",
+    "기타 온라인신청",
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000113",
+  "onlineUrl": "http://www.bokjiro.go.kr",
+  "inquiry": [
+    "가족정책과/02-2127-5082"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2022-02-08",
+  "viewCount": 3561,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "출생아1인당 1회 200만원의 이용권 지원",
+  "target": "'22. 1. 1. 이후 출생아로서 출생신고되어 정상적으로 주민등록번호를 부여받은 아동",
+  "selectionCriteria": "",
+  "supportContent": "'22. 1. 1. 이후 출생아로서 출생신고되어 정상적으로 주민등록번호를 부여받은 아동",
+  "applicationMethod": "- 방문신청: 거주지 동 주민센터(신분증 지참)\n- 온라인신청: 정부24(www.gov.kr) 또는 복지로(www.bokjiro.go.kr)",
+  "documents": "1. 신청서(사회보장급여 신청서 또는 출산서비스 통합처리신청서)\n2. 신분증(주민등록증, 자동차운전면허증, 여권, 장애인등록증, 청소년증 등)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "저출산ㆍ고령사회기본법 시행령(제1조의2)"
+  ],
+  "ordinance": "",
+  "inquiryText": "가족정책과/02-2127-5082",
+  "ageMin": 0,
+  "ageMax": 1
+}

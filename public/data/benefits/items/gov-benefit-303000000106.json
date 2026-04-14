@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-303000000106",
+  "sourceId": "303000000106",
+  "title": "저소득 주민 국민건강보험료 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 성동구",
+  "providerType": "자치구",
+  "district": "성동구",
+  "userType": "개인||가구",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○  저소득 차상위계층으로 2025년 건강보험료 기준 22,340원(장기요양보험 포함) 이하인 노인 또는 장애인 세대",
+  "summary": "서울특별시 성동구에서 제공하는 보건·의료 혜택입니다. 노령 및 장애로 경제적 어려움을 겪는 법정 차상위계층 가구의 건강보험료 지원",
+  "supportType": "현금(보험)",
+  "supportSummary": "○ 지원내용:  월 건강(장기요양) 보험료 전액 지원\n - 2025년도 기준 건강+장기요양 총 22,340원 이하",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000106",
+  "onlineUrl": "",
+  "inquiry": [
+    "기초복지과/02-2286-6703"
+  ],
+  "updatedAt": "2026-02-05",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1084,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "노령 및 장애로 경제적 어려움을 겪는 법정 차상위계층 가구의 건강보험료 지원",
+  "target": "○  저소득 차상위계층으로 2025년 건강보험료 기준 22,340원(장기요양보험 포함) 이하인 노인 또는 장애인 세대",
+  "selectionCriteria": "",
+  "supportContent": "○ 지원내용:  월 건강(장기요양) 보험료 전액 지원\n - 2025년도 기준 건강+장기요양 총 22,340원 이하",
+  "applicationMethod": "○ 주민센터 방문 신청\n - 주민등록상 주소지 동주민센터에 지원대상자 조건 확인 후 신청",
+  "documents": "1.신청서\n2.건강보험료 납부 증명서",
+  "officialDocuments": "-  성동구 거주 및 자격확인",
+  "identityDocuments": "-  주민등록 등초본등 확인서류 불필요",
+  "legalBasis": [],
+  "ordinance": "서울특별시 성동구 저소득주민 국민건강보험료 등의 지원에 관한 조례",
+  "inquiryText": "기초복지과/02-2286-6703",
+  "ageMin": 0,
+  "ageMax": 120
+}

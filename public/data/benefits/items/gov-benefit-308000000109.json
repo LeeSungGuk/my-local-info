@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-308000000109",
+  "sourceId": "308000000109",
+  "title": "장애인 활동지원(추가)",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 강북구",
+  "providerType": "자치구",
+  "district": "강북구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 장애인활동지원 종합조사로 자격을 취득하고 아래 조건에 부합하는 자\n - 성인발달장애인 : 종합점수 X1중 인지행동특성 70점이상인자(제외 : 시비추가지원대상)\n - 성인 최중증장애인 : 종합점수 X1 합계 360점이상 독거 또는 취약가구",
+  "summary": "서울특별시 강북구에서 제공하는 보호·돌봄 혜택입니다. ○ 중증장애인의 자립생활과 사회참여 지원",
+  "supportType": "이용권",
+  "supportSummary": "○ 장애인활동지원 이용자 중 일정 기준 충족자에 대해  바우처 월 40시간 추가 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/308000000109",
+  "onlineUrl": "",
+  "inquiry": [
+    "어르신·장애인과/02-901-6673"
+  ],
+  "updatedAt": "2026-01-27",
+  "registeredAt": "2021-09-23",
+  "viewCount": 723,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "○ 중증장애인의 자립생활과 사회참여 지원",
+  "target": "○ 장애인활동지원 종합조사로 자격을 취득하고 아래 조건에 부합하는 자\n - 성인발달장애인 : 종합점수 X1중 인지행동특성 70점이상인자(제외 : 시비추가지원대상)\n - 성인 최중증장애인 : 종합점수 X1 합계 360점이상 독거 또는 취약가구",
+  "selectionCriteria": "",
+  "supportContent": "○ 장애인활동지원 이용자 중 일정 기준 충족자에 대해  바우처 월 40시간 추가 지원",
+  "applicationMethod": "○ 방문 신청 \n - 주민센터 : 관할 동주민센터 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "장애인활동 지원에 관한 법률"
+  ],
+  "ordinance": "서울특별시 강북구 장애인 자립생활 지원 조례(제7조)||서울특별시 강북구 장애인 자립생활 지원 조례(제8조)",
+  "inquiryText": "어르신·장애인과/02-901-6673",
+  "ageMin": 0,
+  "ageMax": 120
+}

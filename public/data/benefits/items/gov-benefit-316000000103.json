@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-316000000103",
+  "sourceId": "316000000103",
+  "title": "저소득구민 쓰레기봉투 지원",
+  "field": "행정·안전",
+  "provider": "서울특별시 구로구",
+  "providerType": "자치구",
+  "district": "구로구",
+  "userType": "가구",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 기초생계급여, 의료급여 수급자, 타법의료급여를 갖고 있는 국가유공자",
+  "summary": "서울특별시 구로구에서 제공하는 행정·안전 혜택입니다. 기초생계급여수급자 등 저소득구민에게 쓰레기봉투 지원",
+  "supportType": "현물",
+  "supportSummary": "○ 기초생계∙의료급여수급자 및 저소득국가유공자 대상으로 분기 180리터 한도로 쓰레기봉투 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/316000000103",
+  "onlineUrl": "",
+  "inquiry": [
+    "생활보장과/02-860-2859"
+  ],
+  "updatedAt": "2026-02-26",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1088,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "기초생계급여수급자 등 저소득구민에게 쓰레기봉투 지원",
+  "target": "○ 기초생계급여, 의료급여 수급자, 타법의료급여를 갖고 있는 국가유공자",
+  "selectionCriteria": "",
+  "supportContent": "○ 기초생계∙의료급여수급자 및 저소득국가유공자 대상으로 분기 180리터 한도로 쓰레기봉투 지원",
+  "applicationMethod": "○신청 불필요",
+  "documents": "○ 신청인 제출서류\n-신분증",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 구로구 폐기물 관리 조례(제24조)",
+  "inquiryText": "생활보장과/02-860-2859",
+  "ageMin": 0,
+  "ageMax": 120
+}

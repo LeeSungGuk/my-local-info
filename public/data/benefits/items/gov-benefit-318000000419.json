@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-318000000419",
+  "sourceId": "318000000419",
+  "title": "무인민원발급기 증명서 발급 수수료 면제",
+  "field": "생활안정",
+  "provider": "서울특별시 영등포구",
+  "providerType": "자치구",
+  "district": "영등포구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "무인민원발급기 이용자",
+  "summary": "서울특별시 영등포구에서 제공하는 생활안정 혜택입니다. ? 사회 여러 분야의 비대면서비스 전환 추세에 따라 무인민원발급기      이용 활성화\n ? 구민의 수수료 경제적 부담을 덜어주는 다가가는 행정 서비스 제공",
+  "supportType": "현금(감면)",
+  "supportSummary": "무인민원발급기 등/초본 및 가족관계 제증명 발급 수수료 면제",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000419",
+  "onlineUrl": "",
+  "inquiry": [
+    "영등포구청 민원여권과/02-2670-3106"
+  ],
+  "updatedAt": "2026-01-27",
+  "registeredAt": "2025-11-26",
+  "viewCount": 44,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "? 사회 여러 분야의 비대면서비스 전환 추세에 따라 무인민원발급기      이용 활성화\n ? 구민의 수수료 경제적 부담을 덜어주는 다가가는 행정 서비스 제공",
+  "target": "무인민원발급기 이용자",
+  "selectionCriteria": "",
+  "supportContent": "무인민원발급기 등/초본 및 가족관계 제증명 발급 수수료 면제",
+  "applicationMethod": "해당 서비스는 신청없이 자격대상자에게 자동적으로 제공됩니다.",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "민원 처리에 관한 법률(제28조, 제2항)"
+  ],
+  "ordinance": "",
+  "inquiryText": "영등포구청 민원여권과/02-2670-3106",
+  "ageMin": 19,
+  "ageMax": 120
+}

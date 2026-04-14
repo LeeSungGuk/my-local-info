@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-314000000261",
+  "sourceId": "314000000261",
+  "title": "양천구 공항소음피해지역 주민 청력정밀검사 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 양천구",
+  "providerType": "자치구",
+  "district": "양천구",
+  "userType": "개인",
+  "deadlineText": "모집 공고 확인 후 신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○  양천구 공항소음대책지역(인근지역 포함) 3년 이상 거주 주민\n      -  제외대상 : 청각장애인 및 미취학아동, 응급치료 필요자, 전년도 동일사업 기수혜자",
+  "summary": "서울특별시 양천구에서 제공하는 보건·의료 혜택입니다. 김포공항 소음피해지역의 주민들을 대상으로 청력(정밀)검사를 실시하여 난청 실태를 파악하고 \n주민 피해에 대해 선제적으로 대응하는 효율적인 주민 지원을 통해 주민의 건강복지 향상에 기여",
+  "supportType": "서비스(의료)",
+  "supportSummary": "양천구 공항소음피해지역 3년 이상 거주 주민 청력(정밀)검사 지원\n(1차 기본검사 후 이상 소견 시 2차 정밀검사 시행)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000261",
+  "onlineUrl": "",
+  "inquiry": [
+    "양천구청 환경과/02-2084-5471"
+  ],
+  "updatedAt": "2026-01-29",
+  "registeredAt": "2025-11-03",
+  "viewCount": 63,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "김포공항 소음피해지역의 주민들을 대상으로 청력(정밀)검사를 실시하여 난청 실태를 파악하고 \n주민 피해에 대해 선제적으로 대응하는 효율적인 주민 지원을 통해 주민의 건강복지 향상에 기여",
+  "target": "○  양천구 공항소음대책지역(인근지역 포함) 3년 이상 거주 주민\n      -  제외대상 : 청각장애인 및 미취학아동, 응급치료 필요자, 전년도 동일사업 기수혜자",
+  "selectionCriteria": "",
+  "supportContent": "양천구 공항소음피해지역 3년 이상 거주 주민 청력(정밀)검사 지원\n(1차 기본검사 후 이상 소견 시 2차 정밀검사 시행)",
+  "applicationMethod": "방문신청(신청서 작성, 신분증 지참)",
+  "documents": "○ 신청서",
+  "officialDocuments": "○ 주민등록초본",
+  "identityDocuments": "○ 민원 처리에 관한 법률 제10조의2에 해당하는 서류 - 주민등록초본",
+  "legalBasis": [
+    "공항소음 방지 및 소음대책지역 지원에 관한 법률(제19조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "양천구청 환경과/02-2084-5471",
+  "ageMin": 6,
+  "ageMax": 120
+}

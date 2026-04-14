@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-307000000194",
+  "sourceId": "307000000194",
+  "title": "성북구 평생학습센터 수강료 감면(수급권자)",
+  "field": "보육·교육",
+  "provider": "서울특별시 성북구",
+  "providerType": "자치구",
+  "district": "성북구",
+  "userType": "개인",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "「국민기초생활 보장법」에 의한 수급자",
+  "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 성북구 평생학습센터 이용시 수급자 수강료 감면(100%)",
+  "supportType": "현금(감면)",
+  "supportSummary": "성북구 평생학습센터 이용시 수강료 감면\n- 대상 : 「국민기초생활 보장법」에 의한 수급자\n- 감면율 : 100%",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000194",
+  "onlineUrl": "",
+  "inquiry": [
+    "교육지원과/02-2241-2424"
+  ],
+  "updatedAt": "2026-03-18",
+  "registeredAt": "2025-12-17",
+  "viewCount": 44,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "성북구 평생학습센터 이용시 수급자 수강료 감면(100%)",
+  "target": "「국민기초생활 보장법」에 의한 수급자",
+  "selectionCriteria": "",
+  "supportContent": "성북구 평생학습센터 이용시 수강료 감면\n- 대상 : 「국민기초생활 보장법」에 의한 수급자\n- 감면율 : 100%",
+  "applicationMethod": "방문신청",
+  "documents": "서울특별시 성북구 평생학습진흥 조례 시행규칙 별지 제2호서식 감면신청서 및 증빙서류",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 성북구 평생학습진흥 조례 시행규칙||서울특별시 성북구 평생학습진흥 조례 시행규칙(제6조, 제3항)",
+  "inquiryText": "교육지원과/02-2241-2424",
+  "ageMin": 0,
+  "ageMax": 120
+}

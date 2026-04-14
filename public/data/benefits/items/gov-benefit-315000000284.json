@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-315000000284",
+  "sourceId": "315000000284",
+  "title": "생태전환교육 지원",
+  "field": "문화·환경",
+  "provider": "서울특별시 강서구",
+  "providerType": "자치구",
+  "district": "강서구",
+  "userType": "개인",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "강서구 관내 기관",
+  "summary": "서울특별시 강서구에서 제공하는 문화·환경 혜택입니다. 지역 기관으로 찾아가는 일일 클래스 운영을 통해 환경에 대한 관심 제고에 기여",
+  "supportType": "기타(교육)",
+  "supportSummary": "- 생물 다양성을 지켜줘 등 이론 및 실습으로 구성 \n- 환경단체 강사가 기관을 방문하여 환경교육 실시",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000284",
+  "onlineUrl": "",
+  "inquiry": [
+    "기후환경과/02-2600-4017"
+  ],
+  "updatedAt": "2026-01-27",
+  "registeredAt": "2025-12-08",
+  "viewCount": 55,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "지역 기관으로 찾아가는 일일 클래스 운영을 통해 환경에 대한 관심 제고에 기여",
+  "target": "강서구 관내 기관",
+  "selectionCriteria": "",
+  "supportContent": "- 생물 다양성을 지켜줘 등 이론 및 실습으로 구성 \n- 환경단체 강사가 기관을 방문하여 환경교육 실시",
+  "applicationMethod": "희망 기관 공문 신청",
+  "documents": "해당 없음",
+  "officialDocuments": "해당 없음",
+  "identityDocuments": "해당 없음",
+  "legalBasis": [
+    "환경교육의 활성화 및 지원에 관한 법률(제10조)"
+  ],
+  "ordinance": "서울특별시 강서구 환경교육 진흥 및 지원에 관한 조례(제6조)",
+  "inquiryText": "기후환경과/02-2600-4017",
+  "ageMin": 19,
+  "ageMax": 65
+}

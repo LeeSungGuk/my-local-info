@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-304000000151",
+  "sourceId": "304000000151",
+  "title": "체계적인 진학(대입,고입) 로드맵 제공",
+  "field": "보육·교육",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "수시(학사 일정과 연계)",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "초·중·고등학생 및 학부모",
+  "summary": "서울특별시 광진구에서 제공하는 보육·교육 혜택입니다. 대규모 특강과 소규모 맞춤형 교육을 통한 촘촘한 대입·고입 지원",
+  "supportType": "기타(교육)",
+  "supportSummary": "○ 대입 지원\n- 광진구 진학상담실 (1:1 맞춤형 대면 상담) \n- 온라인 대학생 1:1 진학 상담\n- 수시·정시 대비 특강 등 운영\n- 수시·정시 대비 1:1 컨설팅 등 운영\n- 대입 면접 프로그램 운영\n○ 고입 지원\n- 고입 설명회 개최 \n- 고교 학점제 연계…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000151",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 교육지원과/02-450-9750"
+  ],
+  "updatedAt": "2026-02-02",
+  "registeredAt": "2021-11-02",
+  "viewCount": 870,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "대규모 특강과 소규모 맞춤형 교육을 통한 촘촘한 대입·고입 지원",
+  "target": "초·중·고등학생 및 학부모",
+  "selectionCriteria": "",
+  "supportContent": "○ 대입 지원\n- 광진구 진학상담실 (1:1 맞춤형 대면 상담) \n- 온라인 대학생 1:1 진학 상담\n- 수시·정시 대비 특강 등 운영\n- 수시·정시 대비 1:1 컨설팅 등 운영\n- 대입 면접 프로그램 운영\n○ 고입 지원\n- 고입 설명회 개최 \n- 고교 학점제 연계 고교진학 캠프 \n- 대학교 캠퍼스 투어",
+  "applicationMethod": "온라인 신청(광진구청 홈페이지 등)",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 광진구 평생교육 진흥 조례",
+  "inquiryText": "광진구 교육지원과/02-450-9750",
+  "ageMin": 7,
+  "ageMax": 18
+}

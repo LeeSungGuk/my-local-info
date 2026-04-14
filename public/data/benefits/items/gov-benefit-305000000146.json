@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-305000000146",
+  "sourceId": "305000000146",
+  "title": "중소기업육성기금 융자",
+  "field": "생활안정",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "소상공인",
+  "deadlineText": "상하반기 1회 신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "동대문구 관내 소상공인 및 중소기업\n- 소상공인 : 최대3천만원\n- 중소기업 : 최대1억원",
+  "summary": "서울특별시 동대문구에서 제공하는 생활안정 혜택입니다. 동대문구 내에서 6개월 이상 사업한 소상공인 및 중소기업 융자",
+  "supportType": "현금(융자)",
+  "supportSummary": "동대문구 내에서 6개월 이상 사업한 소상공인 및 중소기업 융자\n- 소상공인 : 최대3천만원\n- 중소기업 : 최대1억원 \n- 상환조건 : 1년거치 4년균등분할상환\n- 금        리 : 1.5%",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000146",
+  "onlineUrl": "",
+  "inquiry": [
+    "경제진흥과/02-2127-4368"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2022-07-12",
+  "viewCount": 942,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "동대문구 내에서 6개월 이상 사업한 소상공인 및 중소기업 융자",
+  "target": "동대문구 관내 소상공인 및 중소기업\n- 소상공인 : 최대3천만원\n- 중소기업 : 최대1억원",
+  "selectionCriteria": "",
+  "supportContent": "동대문구 내에서 6개월 이상 사업한 소상공인 및 중소기업 융자\n- 소상공인 : 최대3천만원\n- 중소기업 : 최대1억원 \n- 상환조건 : 1년거치 4년균등분할상환\n- 금        리 : 1.5%",
+  "applicationMethod": "동대문구청 지하2층 소상공인 지원반 방문 신청",
+  "documents": "공고문에 명시",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 동대문구 중소기업육성기금 설치 및 운용 조례(제5조)",
+  "inquiryText": "경제진흥과/02-2127-4368",
+  "ageMin": 0,
+  "ageMax": 0
+}

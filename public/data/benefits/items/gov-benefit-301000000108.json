@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-301000000108",
+  "sourceId": "301000000108",
+  "title": "취약계층 여성암검진 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 중구",
+  "providerType": "자치구",
+  "district": "중구",
+  "userType": "개인",
+  "deadlineText": "- 1차 검진 수검자중 정밀검사 대상자 검진권 지급",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 의료급여 수급권자, 건강보험가입자 하위 50% 대상자중 2차 정밀검진(유방초음파검진)을 요하는 자\n    (건강검진시 개인정보동의활용에 동의해준 자에 한함)",
+  "summary": "서울특별시 중구에서 제공하는 보건·의료 혜택입니다. 취약계층 여성을 대상으로 유방암 정밀검진 지원",
+  "supportType": "서비스(의료)",
+  "supportSummary": "○ 의료급여 수급권자, 건강보험가입자 하위 50% 대상자 중 2차 정밀검진(유방초음파검진)을 요하는 자를 대상으로 유방암 정밀 검진을 실시하여 암을 조기에 발견하여 암의 치료율을 높이고 암사망률 감소에 기여",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/301000000108",
+  "onlineUrl": "",
+  "inquiry": [
+    "보건소 감염병관리과/02-3396-4859"
+  ],
+  "updatedAt": "2026-02-05",
+  "registeredAt": "2021-09-23",
+  "viewCount": 719,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "취약계층 여성을 대상으로 유방암 정밀검진 지원",
+  "target": "○ 의료급여 수급권자, 건강보험가입자 하위 50% 대상자중 2차 정밀검진(유방초음파검진)을 요하는 자\n    (건강검진시 개인정보동의활용에 동의해준 자에 한함)",
+  "selectionCriteria": "",
+  "supportContent": "○ 의료급여 수급권자, 건강보험가입자 하위 50% 대상자 중 2차 정밀검진(유방초음파검진)을 요하는 자를 대상으로 유방암 정밀 검진을 실시하여 암을 조기에 발견하여 암의 치료율을 높이고 암사망률 감소에 기여",
+  "applicationMethod": "○ 개인 신청절차 없음\n - 1차 검진 수검자중 정밀검사 대상자 검진권 지급",
+  "documents": "* 신청인 제출서류\n\n - 유방검진결과통보서(1차)\n - 유방초음파 무료검진권\n - 방사선 검진(1차) 영상(필름 또는 CD)\n - 신분증",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "암관리법"
+  ],
+  "ordinance": "",
+  "inquiryText": "보건소 감염병관리과/02-3396-4859",
+  "ageMin": 19,
+  "ageMax": 120
+}

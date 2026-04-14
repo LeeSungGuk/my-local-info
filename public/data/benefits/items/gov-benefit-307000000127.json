@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-307000000127",
+  "sourceId": "307000000127",
+  "title": "무더위 안전숙소 운영",
+  "field": "주거·자립",
+  "provider": "서울특별시 성북구",
+  "providerType": "자치구",
+  "district": "성북구",
+  "userType": "개인",
+  "deadlineText": "2026.07.01 ~ 2026.08.31",
+  "deadlineSortKey": "2026-08-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 만 65세 이상의 독거, 고령 부부 등 저소득 주거취약계층",
+  "summary": "서울특별시 성북구에서 제공하는 주거·자립 혜택입니다. 7월~8월 중 폭염 특보 발효 시 65세이상 폭염 취약계층을 위한 무더위 야간숙소 운영",
+  "supportType": "이용권",
+  "supportSummary": "○ 무더위 안전숙소 운영\n  - 운영기간 : 매년 7월 ~ 8월 중 폭염 특보 발효시\n  - 운영장소 : 성북구 관내 지정된 호텔 등 숙소\n  - 이용대상 : 만65세이상 저소득 어르신 등\n  - 이용방법 : 거주동 주민센터신청후 확인증을 지참하여 숙소 이용",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000127",
+  "onlineUrl": "",
+  "inquiry": [
+    "성북구 도시안전과/02-2241-3612"
+  ],
+  "updatedAt": "2026-02-26",
+  "registeredAt": "2022-07-06",
+  "viewCount": 632,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "7월~8월 중 폭염 특보 발효 시 65세이상 폭염 취약계층을 위한 무더위 야간숙소 운영",
+  "target": "○ 만 65세 이상의 독거, 고령 부부 등 저소득 주거취약계층",
+  "selectionCriteria": "",
+  "supportContent": "○ 무더위 안전숙소 운영\n  - 운영기간 : 매년 7월 ~ 8월 중 폭염 특보 발효시\n  - 운영장소 : 성북구 관내 지정된 호텔 등 숙소\n  - 이용대상 : 만65세이상 저소득 어르신 등\n  - 이용방법 : 거주동 주민센터신청후 확인증을 지참하여 숙소 이용",
+  "applicationMethod": "○ 주민등록상 주소지 동주민센터에 신분증을 지참하여 방문 신청\n - 매년 7월~8월 중 폭염특보 발효 시에만 신청 가능",
+  "documents": "신분증",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "재난 및 안전관리 기본법(제4조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "성북구 도시안전과/02-2241-3612",
+  "ageMin": 65,
+  "ageMax": 120
+}

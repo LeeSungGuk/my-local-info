@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-304000000133",
+  "sourceId": "304000000133",
+  "title": "고독사 예방 똑똑안부확인 서비스 지원",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "관내 고독사 위험군 및 사회적 고립 위험가구 \n - 1인가구를 우선적으로 고려하되, 위기 상황 대응이 어려워 사회적 고립이 우려되는 다인 가구 포함(노인, 장애인 돌봄 가구 등)",
+  "summary": "서울특별시 광진구에서 제공하는 보호·돌봄 혜택입니다. 관내 고독사 위험군 및 사회적 고립 위험가구 안부확인 서비스로 고독사 예방",
+  "supportType": "서비스(돌봄)",
+  "supportSummary": "관내 고독사 위험군 및 사회적 고립 위험가구 안부확인 서비스로 고독사 예방\n - 모바일 수ㆍ발신 이력 모니터링을 통한 대상자 안부확인\n - 일정기간(평균 3일) 이상 수ㆍ발신 이력이 없는 가구에 대해 안부콜(자동ARS) 발신을 통한 수신 확인 후 위험 대상자 조치",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000133",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 복지정책과/02-450-7305"
+  ],
+  "updatedAt": "2026-01-27",
+  "registeredAt": "2021-10-26",
+  "viewCount": 932,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "관내 고독사 위험군 및 사회적 고립 위험가구 안부확인 서비스로 고독사 예방",
+  "target": "관내 고독사 위험군 및 사회적 고립 위험가구 \n - 1인가구를 우선적으로 고려하되, 위기 상황 대응이 어려워 사회적 고립이 우려되는 다인 가구 포함(노인, 장애인 돌봄 가구 등)",
+  "selectionCriteria": "",
+  "supportContent": "관내 고독사 위험군 및 사회적 고립 위험가구 안부확인 서비스로 고독사 예방\n - 모바일 수ㆍ발신 이력 모니터링을 통한 대상자 안부확인\n - 일정기간(평균 3일) 이상 수ㆍ발신 이력이 없는 가구에 대해 안부콜(자동ARS) 발신을 통한 수신 확인 후 위험 대상자 조치",
+  "applicationMethod": "관할 동주민센터 및 구청 복지정책과 방문신청",
+  "documents": "서비스 신청서",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 광진구 1인가구 사회적 고립 및 고독사 예방 조례",
+  "inquiryText": "광진구 복지정책과/02-450-7305",
+  "ageMin": 0,
+  "ageMax": 120
+}

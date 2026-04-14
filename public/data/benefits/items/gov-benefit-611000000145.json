@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-611000000145",
+  "sourceId": "611000000145",
+  "title": "저소득어르신급식지원",
+  "field": "생활안정",
+  "provider": "서울특별시",
+  "providerType": "서울시",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 만 60세 이상 결식우려 기초생활수급자 및 저소득 어르신(경로식당)\n○ 만 65세 이상 결식우려 기초생활수급자 및 저소득 어르신(도시락배달, 밑반찬배달)",
+  "summary": "서울특별시에서 제공하는 생활안정 혜택입니다. 거동불편, 경제적 어려움 등으로 결식우려가 있는 어르신에게 무료급식을 지원하여 기본적인 영양 보장",
+  "supportType": "기타||현금(감면)",
+  "supportSummary": "○ 저소득 어르신 급식지원사업\n\n○ 지원대상 : 만 60세 이상 결식우려 기초생활수급자 및 저소득 어르신\n - 경로식당 만 60세 이상\n - 도시락∙밑반찬배달 만 65세 이상\n\n○ 지원내용 : 주중 경로식당 이용, 도시락배달, 밑반찬배달",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000145",
+  "onlineUrl": "",
+  "inquiry": [
+    "다산콜센터/02-120"
+  ],
+  "updatedAt": "2026-02-26",
+  "registeredAt": "2021-09-23",
+  "viewCount": 3714,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "거동불편, 경제적 어려움 등으로 결식우려가 있는 어르신에게 무료급식을 지원하여 기본적인 영양 보장",
+  "target": "○ 만 60세 이상 결식우려 기초생활수급자 및 저소득 어르신(경로식당)\n○ 만 65세 이상 결식우려 기초생활수급자 및 저소득 어르신(도시락배달, 밑반찬배달)",
+  "selectionCriteria": "",
+  "supportContent": "○ 저소득 어르신 급식지원사업\n\n○ 지원대상 : 만 60세 이상 결식우려 기초생활수급자 및 저소득 어르신\n - 경로식당 만 60세 이상\n - 도시락∙밑반찬배달 만 65세 이상\n\n○ 지원내용 : 주중 경로식당 이용, 도시락배달, 밑반찬배달",
+  "applicationMethod": "○ 방문 신청 \n - 주민센터 : 주소지 동주민센터 문의 후 신청\n - 시군구 : 구청 담당부서에 문의 후 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "노인복지법"
+  ],
+  "ordinance": "",
+  "inquiryText": "다산콜센터/02-120",
+  "ageMin": 60,
+  "ageMax": 120
+}

@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-307000000112",
+  "sourceId": "307000000112",
+  "title": "장애인환자 약제비 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 성북구",
+  "providerType": "자치구",
+  "district": "성북구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 성북구 보건소에서 처방을 받은 장애인 환자",
+  "summary": "서울특별시 성북구에서 제공하는 생활안정 혜택입니다. 성북구 보건소를 이용하는 장애인 환자의 약제비 지원 금액을 확대함으로써 경제적 부담을 경감하여 취약 계층의 구민 보건 향상과 사회복지 증진에 이바지하고자 함",
+  "supportType": "현금",
+  "supportSummary": "○ 성북구에 거주하는 등록 장애인이 보건소에서 처방 받을시에 장애 등급과 관계없이 약제비 총액에서 3,000원 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000112",
+  "onlineUrl": "",
+  "inquiry": [
+    "건강정책과/02-2241-5909"
+  ],
+  "updatedAt": "2026-02-04",
+  "registeredAt": "2021-09-23",
+  "viewCount": 887,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "성북구 보건소를 이용하는 장애인 환자의 약제비 지원 금액을 확대함으로써 경제적 부담을 경감하여 취약 계층의 구민 보건 향상과 사회복지 증진에 이바지하고자 함",
+  "target": "○ 성북구 보건소에서 처방을 받은 장애인 환자",
+  "selectionCriteria": "",
+  "supportContent": "○ 성북구에 거주하는 등록 장애인이 보건소에서 처방 받을시에 장애 등급과 관계없이 약제비 총액에서 3,000원 지원",
+  "applicationMethod": "○ 개인 신청절차 없음 \n - 신청절차없음",
+  "documents": "성북구보건소 원외처방전",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 성북구 보건소 수가 조례",
+  "inquiryText": "건강정책과/02-2241-5909",
+  "ageMin": 0,
+  "ageMax": 120
+}

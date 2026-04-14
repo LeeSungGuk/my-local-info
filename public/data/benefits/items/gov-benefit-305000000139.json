@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-305000000139",
+  "sourceId": "305000000139",
+  "title": "저소득 공영장례 지원",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "장제급여 대상 중 무연고 사망자\n※ 장제급여 대상: 국민기초생활보장 기초생계, 기초의료, 기초주거급여 수급자",
+  "summary": "서울특별시 동대문구에서 제공하는 보호·돌봄 혜택입니다. 장제급여 대상 무연고 사망자에 대하여 고인모심 및 공영 장례서비스 제공",
+  "supportType": "기타",
+  "supportSummary": "장제급여 대상 무연고 사망자 공영장례 지원 \n- 고인모심, 공영 장례서비스",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000139",
+  "onlineUrl": "",
+  "inquiry": [
+    "동대문구 사회복지과/02-2127-4568"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2022-07-05",
+  "viewCount": 840,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "장제급여 대상 무연고 사망자에 대하여 고인모심 및 공영 장례서비스 제공",
+  "target": "장제급여 대상 중 무연고 사망자\n※ 장제급여 대상: 국민기초생활보장 기초생계, 기초의료, 기초주거급여 수급자",
+  "selectionCriteria": "",
+  "supportContent": "장제급여 대상 무연고 사망자 공영장례 지원 \n- 고인모심, 공영 장례서비스",
+  "applicationMethod": "대상자 주민등록지 관할 동주민센터",
+  "documents": "- 사망진단서\n\n- 수급자증명서\n\n- 가족관계증명서\n\n- 혼인관게증명서\n\n- 제적등본",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "장사 등에 관한 법률(제12조)"
+  ],
+  "ordinance": "서울특별시 공영장례 조례",
+  "inquiryText": "동대문구 사회복지과/02-2127-4568",
+  "ageMin": 0,
+  "ageMax": 0
+}

@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-305000000112",
+  "sourceId": "305000000112",
+  "title": "저소득 장애인가정 위문품 지급",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 관내거주 저소득 장애인",
+  "summary": "서울특별시 동대문구에서 제공하는 보호·돌봄 혜택입니다. 저소득 장애인에게 명절맞이 온누리 상품권 지급",
+  "supportType": "이용권",
+  "supportSummary": "○ 설·추석 명절에 관내 저소득 장애인 500가구에 온누리 상품권 지급",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000112",
+  "onlineUrl": "",
+  "inquiry": [
+    "장애인복지과/02-2127-4468"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1482,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "저소득 장애인에게 명절맞이 온누리 상품권 지급",
+  "target": "○ 관내거주 저소득 장애인",
+  "selectionCriteria": "",
+  "supportContent": "○ 설·추석 명절에 관내 저소득 장애인 500가구에 온누리 상품권 지급",
+  "applicationMethod": "○ 개인 신청절차 없음  - 동주민센터 추천",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 동대문구 저소득주민의 생활안정 지원에 관한 조례",
+  "inquiryText": "장애인복지과/02-2127-4468",
+  "ageMin": 0,
+  "ageMax": 120
+}

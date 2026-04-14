@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-305000000291",
+  "sourceId": "305000000291",
+  "title": "보건소 한방진료 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "만15세 이상 전 구민",
+  "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 만 15세 이상 전 구민에게 한방진료 제공",
+  "supportType": "서비스(의료)",
+  "supportSummary": "ㅇ진료내용 : 한방건강상담 및 한방보험약제 처방 침, 부항 등 한방요법 진료\n  * 보험에 해당하지 않는 첩약 처방, 조제는 진료내용 범위에 포함되지 않음\nㅇ진료시간 : 매주 월요일 ~ 금요일(오전 9시~오후 6시)\nㅇ대상 : 만 15세이상 전 주민\nㅇ무료진료 : 만…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000291",
+  "onlineUrl": "",
+  "inquiry": [
+    "동대문구보건소 한방과/02-2127-5375"
+  ],
+  "updatedAt": "2026-02-09",
+  "registeredAt": "2025-12-10",
+  "viewCount": 61,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "만 15세 이상 전 구민에게 한방진료 제공",
+  "target": "만15세 이상 전 구민",
+  "selectionCriteria": "",
+  "supportContent": "ㅇ진료내용 : 한방건강상담 및 한방보험약제 처방 침, 부항 등 한방요법 진료\n  * 보험에 해당하지 않는 첩약 처방, 조제는 진료내용 범위에 포함되지 않음\nㅇ진료시간 : 매주 월요일 ~ 금요일(오전 9시~오후 6시)\nㅇ대상 : 만 15세이상 전 주민\nㅇ무료진료 : 만 65세 이상 서울시민 및 의료급여수급권자,장애인 1~3급, 국가유공자 본인 등.\nㅇ유료진료 : 65세 미만 주민 1,100원~ (약 처방 일수에 따라 추가)\nㅇ진료예약 : 방문 및 전화로 사전예약(신분증 및 관련서류 지참)",
+  "applicationMethod": "방문 및 전화로 사전예약(신분증 및 관련서류 지참)\n- 장소 : 동대문구청 2층 한방과(세무과와 다목적강당 사이)",
+  "documents": "신분증",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "한의약 육성법"
+  ],
+  "ordinance": "",
+  "inquiryText": "동대문구보건소 한방과/02-2127-5375",
+  "ageMin": 15,
+  "ageMax": 120
+}

@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-311000000131",
+  "sourceId": "311000000131",
+  "title": "청년 창업인의 집 운영",
+  "field": "고용·창업",
+  "provider": "서울특별시 은평구",
+  "providerType": "자치구",
+  "district": "은평구",
+  "userType": "개인",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "전년도 도시근로자 월평균 소득 70% 이하에 해당하는 만19세이상 만 39세 이하 청년",
+  "summary": "서울특별시 은평구에서 제공하는 고용·창업 혜택입니다. 청년 (예비)창업자들의 창업보육 및 주거시설 문제 해결을 위한 '청년 창업인의 집' 운영",
+  "supportType": "시설이용",
+  "supportSummary": "청년 창업인의 집 운영\n- (예비)창업인들의 주거공간 지원\n- 월평균 소득 등 심사를 통한 입주자 선정",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000131",
+  "onlineUrl": "",
+  "inquiry": [
+    "사회적경제과/02-351-6905"
+  ],
+  "updatedAt": "2026-02-26",
+  "registeredAt": "2022-10-25",
+  "viewCount": 647,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "청년 (예비)창업자들의 창업보육 및 주거시설 문제 해결을 위한 '청년 창업인의 집' 운영",
+  "target": "전년도 도시근로자 월평균 소득 70% 이하에 해당하는 만19세이상 만 39세 이하 청년",
+  "selectionCriteria": "",
+  "supportContent": "청년 창업인의 집 운영\n- (예비)창업인들의 주거공간 지원\n- 월평균 소득 등 심사를 통한 입주자 선정",
+  "applicationMethod": "모집공고(구) → 자격확인 및 선정(구) → 계약체결 및 입주결정(SH공사)",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 은평구 청년 기본 조례(제15조)",
+  "inquiryText": "사회적경제과/02-351-6905",
+  "ageMin": 19,
+  "ageMax": 39
+}

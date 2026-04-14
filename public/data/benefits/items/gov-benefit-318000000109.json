@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-318000000109",
+  "sourceId": "318000000109",
+  "title": "영등포사랑상품권",
+  "field": "행정·안전",
+  "provider": "서울특별시 영등포구",
+  "providerType": "자치구",
+  "district": "영등포구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○  본인명의 핸드폰 및 입출금계좌 보유한 누구든지 구매 가능",
+  "summary": "서울특별시 영등포구에서 제공하는 행정·안전 혜택입니다. 소비자에게 할인 및 소득공제 혜택, 가맹점에 수수료 절감 혜택 등 제공",
+  "supportType": "이용권",
+  "supportSummary": "○ 영등포사랑상품권 발행에 따른 혜택 지원\n\n○ 소비자 : 구매 시 구매금액의 5% 내외  할인, 연말정산 시 소득공제 혜택\n\n○ 가맹점 : 결제수수료 면제",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000109",
+  "onlineUrl": "",
+  "inquiry": [
+    "일자리경제과/02-2670-3425"
+  ],
+  "updatedAt": "2026-01-24",
+  "registeredAt": "2021-09-23",
+  "viewCount": 24348,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "소비자에게 할인 및 소득공제 혜택, 가맹점에 수수료 절감 혜택 등 제공",
+  "target": "○  본인명의 핸드폰 및 입출금계좌 보유한 누구든지 구매 가능",
+  "selectionCriteria": "",
+  "supportContent": "○ 영등포사랑상품권 발행에 따른 혜택 지원\n\n○ 소비자 : 구매 시 구매금액의 5% 내외  할인, 연말정산 시 소득공제 혜택\n\n○ 가맹점 : 결제수수료 면제",
+  "applicationMethod": "[사용자]\n\n○ 모바일상품권 어플리케이션 설치(서울Pay+) 후 회원가입 및 구매 계좌 등록\n\n○ 모바일상품권 구매 후 영등포사랑상품권 가맹점에서 사용\n\n[가맹점]\n\n○ 서울Pay+ 어플리케이션 또는 고객센터(1600-6120) 연락 후 가맹신청",
+  "documents": "없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 영등포구 영등포사랑상품권의 발행 및 운영에 관한 조례",
+  "inquiryText": "일자리경제과/02-2670-3425",
+  "ageMin": 19,
+  "ageMax": 120
+}

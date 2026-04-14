@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00022600022",
+  "sourceId": "O00022600022",
+  "title": "문화체육시설 이용요금 감면(5.18민주유공자)",
+  "field": "문화·환경",
+  "provider": "광진구시설관리공단",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 5.18 민주유공자\n\n○ 5.18 민주유공자(장해등급 1~3급)의 활동 보조자",
+  "summary": "광진구시설관리공단에서 제공하는 문화·환경 혜택입니다. 5.18 민주유공자에게 수강료 50%감면(특화강좌 제외)",
+  "supportType": "시설이용",
+  "supportSummary": "○ 문화체육시설 이용료 감면(50%)\n - 특화강좌 제외",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022600022",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구시설관리공단 문화사업부/02-2049-4570"
+  ],
+  "updatedAt": "2026-02-24",
+  "registeredAt": "2022-07-15",
+  "viewCount": 468,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "5.18 민주유공자에게 수강료 50%감면(특화강좌 제외)",
+  "target": "○ 5.18 민주유공자\n\n○ 5.18 민주유공자(장해등급 1~3급)의 활동 보조자",
+  "selectionCriteria": "",
+  "supportContent": "○ 문화체육시설 이용료 감면(50%)\n - 특화강좌 제외",
+  "applicationMethod": "○ 방문 신청\n - 5.18 민주유공가증 또는 5.18 민주유공자유족증 지참\n - 감면대상자와 동일한 프로그램 이용시 감면 가능\n - 접수 시 감면대상자와 활동 보조자는 동행하여 접수",
+  "documents": "○ 신청인 구비서류\n - 5.18 민주유공가증 또는 5.18 민주유공자유족증 지참",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "광진구시설관리공단 문화사업부/02-2049-4570",
+  "ageMin": 0,
+  "ageMax": 120
+}

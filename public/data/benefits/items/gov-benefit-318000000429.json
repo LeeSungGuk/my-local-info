@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-318000000429",
+  "sourceId": "318000000429",
+  "title": "복지등기우편서비스",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 영등포구",
+  "providerType": "자치구",
+  "district": "영등포구",
+  "userType": "개인",
+  "deadlineText": "해당없음",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "복지 사각지대 위기 의심가구",
+  "summary": "서울특별시 영등포구에서 제공하는 보호·돌봄 혜택입니다. 복지사각지대 발굴대상자 중 위기의심가구 발굴 및 복지정보 제공",
+  "supportType": "기타(상담)",
+  "supportSummary": "\" .사업기간 : 연중\n .사업대상 : 복지 사각지대 의심 가구\n .사업내용 : 복지사업 안내정보를 담은 등기우편을 집배원이 배달하면서 해당 가구의 상황을 파악해 지자체에 전달하는 서비스\n. 사업주관 : 영등포구청, 영등포우체국\"",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000429",
+  "onlineUrl": "",
+  "inquiry": [
+    "영등포구청 복지정책과/02-2670-3944"
+  ],
+  "updatedAt": "2026-01-22",
+  "registeredAt": "2025-12-03",
+  "viewCount": 52,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "복지사각지대 발굴대상자 중 위기의심가구 발굴 및 복지정보 제공",
+  "target": "복지 사각지대 위기 의심가구",
+  "selectionCriteria": "",
+  "supportContent": "\" .사업기간 : 연중\n .사업대상 : 복지 사각지대 의심 가구\n .사업내용 : 복지사업 안내정보를 담은 등기우편을 집배원이 배달하면서 해당 가구의 상황을 파악해 지자체에 전달하는 서비스\n. 사업주관 : 영등포구청, 영등포우체국\"",
+  "applicationMethod": "해당 서비스는 신청없이 자격대상자에게 자동적으로 제공됩니다.",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "사회보장급여의 이용ㆍ제공 및 수급권자 발굴에 관한 법률(제13조)",
+    "사회보장급여의 이용ㆍ제공 및 수급권자 발굴에 관한 법률(제14조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "영등포구청 복지정책과/02-2670-3944",
+  "ageMin": 0,
+  "ageMax": 120
+}

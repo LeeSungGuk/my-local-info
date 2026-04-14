@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-319000000114",
+  "sourceId": "319000000114",
+  "title": "지역화폐(동작사랑상품권)",
+  "field": "행정·안전",
+  "provider": "서울특별시 동작구",
+  "providerType": "자치구",
+  "district": "동작구",
+  "userType": "개인",
+  "deadlineText": "동작사랑상품권 발행시기에 따라 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 할인된 비용으로 상품권을 구매하는 간접 혜택",
+  "summary": "서울특별시 동작구에서 제공하는 행정·안전 혜택입니다. 동작사랑상품권 구매자에게  할인 혜택 지원",
+  "supportType": "이용권",
+  "supportSummary": "○ 할인판매된 동작사랑상품권의 할인비용 보전",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000114",
+  "onlineUrl": "",
+  "inquiry": [
+    "경제정책과/02-820-9335"
+  ],
+  "updatedAt": "2026-02-04",
+  "registeredAt": "2021-09-23",
+  "viewCount": 2414,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "동작사랑상품권 구매자에게  할인 혜택 지원",
+  "target": "○ 할인된 비용으로 상품권을 구매하는 간접 혜택",
+  "selectionCriteria": "",
+  "supportContent": "○ 할인판매된 동작사랑상품권의 할인비용 보전",
+  "applicationMethod": "○ 동작사랑상품권 구매 시 자동 연계되며, 개인별 별도 신청절차 없음\n     (신한컨소시엄 → 동작구청 경제정책과로 구매정보 전달, 주민 개별신청 없음)",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 동작구 동작사랑상품권의 발행 및 운영 등에 관한 조례",
+  "inquiryText": "경제정책과/02-820-9335",
+  "ageMin": 14,
+  "ageMax": 120
+}

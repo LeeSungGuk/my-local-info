@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-320000000107",
+  "sourceId": "320000000107",
+  "title": "저소득 재가 장애인 밑반찬 지원",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 관악구",
+  "providerType": "자치구",
+  "district": "관악구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 저소득 재가장애인 60명",
+  "summary": "서울특별시 관악구에서 제공하는 보호·돌봄 혜택입니다. 저소득 재가장애인에게 주 1회 밑반찬 구입할 수 있는 쿠폰 지원",
+  "supportType": "현물",
+  "supportSummary": "○ 저소득 재가장애인에게 주 1회 1인당 1만원 상당의 밑반찬 구입 쿠폰 지원\n- 관악구장애인종합복지관과 협약 체결된 밑반찬가게에 한정",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000107",
+  "onlineUrl": "",
+  "inquiry": [
+    "관악구장애인종합복지관/02-877-0750"
+  ],
+  "updatedAt": "2026-01-27",
+  "registeredAt": "2021-09-23",
+  "viewCount": 860,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "저소득 재가장애인에게 주 1회 밑반찬 구입할 수 있는 쿠폰 지원",
+  "target": "○ 저소득 재가장애인 60명",
+  "selectionCriteria": "",
+  "supportContent": "○ 저소득 재가장애인에게 주 1회 1인당 1만원 상당의 밑반찬 구입 쿠폰 지원\n- 관악구장애인종합복지관과 협약 체결된 밑반찬가게에 한정",
+  "applicationMethod": "○ 방문 신청\n - 기타 : 관악구장애인종합복지관",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 관악구 저소득주민의 생활안정 지원에 관한 조례",
+  "inquiryText": "관악구장애인종합복지관/02-877-0750",
+  "ageMin": 0,
+  "ageMax": 120
+}

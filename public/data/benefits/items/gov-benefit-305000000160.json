@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-305000000160",
+  "sourceId": "305000000160",
+  "title": "거리노숙인 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "폭염, 한파 등으로 지원이 필요한 거리노숙인",
+  "summary": "서울특별시 동대문구에서 제공하는 생활안정 혜택입니다. 거리노숙인 폭염, 한파 물품 등 지원",
+  "supportType": "현물",
+  "supportSummary": "거리노숙인 폭염, 한파 물품 등 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000160",
+  "onlineUrl": "",
+  "inquiry": [
+    "사회복지과/02-2127-5143"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2022-10-20",
+  "viewCount": 402,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "거리노숙인 폭염, 한파 물품 등 지원",
+  "target": "폭염, 한파 등으로 지원이 필요한 거리노숙인",
+  "selectionCriteria": "",
+  "supportContent": "거리노숙인 폭염, 한파 물품 등 지원",
+  "applicationMethod": "해당 서비스는 신청없이 자격대상자에게 자동적으로 제공됩니다.",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "노숙인 등의 복지 및 자립지원에 관한 법률"
+  ],
+  "ordinance": "",
+  "inquiryText": "사회복지과/02-2127-5143",
+  "ageMin": 0,
+  "ageMax": 120
+}

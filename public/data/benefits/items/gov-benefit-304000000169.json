@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-304000000169",
+  "sourceId": "304000000169",
+  "title": "1차진료 및 무료진료 서비스",
+  "field": "보건·의료",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "만15세 이상 주민",
+  "summary": "서울특별시 광진구에서 제공하는 보건·의료 혜택입니다. 1차진료 및 검사 지원",
+  "supportType": "서비스(의료)",
+  "supportSummary": "○ 진료내용\n  - 만성질환중심 1차 진료(고혈압, 당뇨, 이상지질혈증) 및 검사 \n  - 한방진료실(한방진료 상담, 침 등의 시술 및 한방과립제 투약)\n○ 진료시간 : 월 ~ 금 , 오전9시 ~ 오후6시 ※ 점심시간(12:00 ~ 13:00) 에는 진료, 검사가 불…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000169",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구보건소 내과진료실/02-450-1590",
+    "광진구 보건의료과/02-450-1567"
+  ],
+  "updatedAt": "2026-01-29",
+  "registeredAt": "2021-11-05",
+  "viewCount": 2473,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "1차진료 및 검사 지원",
+  "target": "만15세 이상 주민",
+  "selectionCriteria": "",
+  "supportContent": "○ 진료내용\n  - 만성질환중심 1차 진료(고혈압, 당뇨, 이상지질혈증) 및 검사 \n  - 한방진료실(한방진료 상담, 침 등의 시술 및 한방과립제 투약)\n○ 진료시간 : 월 ~ 금 , 오전9시 ~ 오후6시 ※ 점심시간(12:00 ~ 13:00) 에는 진료, 검사가 불가\n○ 본인부담금\n  - 의료급여 1·2종, 65세 이상 : 무료 \n  - 65세미만 :  원외처방 : 500원,  혈액검사: 기본 1,100원부터 진료내용에 따라 다르게 부과됩니다.(1,100~6,090원)\n  ※ 비급여 사항(빈혈검사/ 혈액형/ 말라리아 약처방 등)은 보험여부, 나이 관계없이 일반접수",
+  "applicationMethod": "○ 방문신청\n - 보건소 민원실 방문신청",
+  "documents": "신분증 지참",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "지역보건법"
+  ],
+  "ordinance": "",
+  "inquiryText": "광진구보건소 내과진료실/02-450-1590||광진구 보건의료과/02-450-1567",
+  "ageMin": 15,
+  "ageMax": 120
+}

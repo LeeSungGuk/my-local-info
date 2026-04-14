@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-304000000134",
+  "sourceId": "304000000134",
+  "title": "광진119주택 지원",
+  "field": "주거·자립",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인||가구",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "화재·재해 등으로 인한 긴급주거상실 저소득 가구",
+  "summary": "서울특별시 광진구에서 제공하는 주거·자립 혜택입니다. 화재·재해 등 긴급주거상실 저소득 가구에게 임시거소를 공급",
+  "supportType": "현물",
+  "supportSummary": "긴급주거상실(재해, 강제퇴거, 경매, 긴급피신 등) 저소득 가구에게 임시거소를 무상 공급(공과금 및 관리비는 입주민 부담)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000134",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 주택과/02-450-9754"
+  ],
+  "updatedAt": "2026-01-29",
+  "registeredAt": "2021-10-26",
+  "viewCount": 694,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "화재·재해 등 긴급주거상실 저소득 가구에게 임시거소를 공급",
+  "target": "화재·재해 등으로 인한 긴급주거상실 저소득 가구",
+  "selectionCriteria": "",
+  "supportContent": "긴급주거상실(재해, 강제퇴거, 경매, 긴급피신 등) 저소득 가구에게 임시거소를 무상 공급(공과금 및 관리비는 입주민 부담)",
+  "applicationMethod": "○ 방문신청\n  - 주민센터: 관할 동주민센터 신청",
+  "documents": "지원신청서, 개인정보제공 및 활용 동의서, 주민등록등본, 원초본, 가족관계등록부, 소득증빙서류(건강보험납입증명서, 재산세 납부 증명서 등), 수급자 증명서 등 기타 증빙서류",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 광진구 저소득주민의 생활안정 지원에 관한 조례",
+  "inquiryText": "광진구 주택과/02-450-9754",
+  "ageMin": 0,
+  "ageMax": 120
+}

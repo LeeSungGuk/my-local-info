@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-305000000286",
+  "sourceId": "305000000286",
+  "title": "임신부 백일해 예방접종 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "접종일 현재 동대문구에 주민등록을 두고 있는\n임신 27주 이상 36주 이내의 임신부 및\n임신기간에 접종하지 않은 분만 2주 이내 산모",
+  "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 임신부 대상 백일해 예방접종 지원을 통해 태어날 아기를 감염병으로부터 보호",
+  "supportType": "서비스(의료)",
+  "supportSummary": "접종일 현재 동대문구에 주민등록을 두고 있는\n임신 27주 이상 36주 이내의 임신부 및\n임신기간에 접종하지 않은 분만 2주 이내 산모에게 백일해 백신 접종",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000286",
+  "onlineUrl": "",
+  "inquiry": [
+    "동대문구보건소 예방접종실/02-2127-4942"
+  ],
+  "updatedAt": "2026-01-22",
+  "registeredAt": "2025-12-10",
+  "viewCount": 59,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "임신부 대상 백일해 예방접종 지원을 통해 태어날 아기를 감염병으로부터 보호",
+  "target": "접종일 현재 동대문구에 주민등록을 두고 있는\n임신 27주 이상 36주 이내의 임신부 및\n임신기간에 접종하지 않은 분만 2주 이내 산모",
+  "selectionCriteria": "",
+  "supportContent": "접종일 현재 동대문구에 주민등록을 두고 있는\n임신 27주 이상 36주 이내의 임신부 및\n임신기간에 접종하지 않은 분만 2주 이내 산모에게 백일해 백신 접종",
+  "applicationMethod": "방문 전 백신잔량 확인 후 방문",
+  "documents": "임신확인서\n출생증명서(분만 2주 이내 산모의 경우)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 동대문구 예방접종 지원 및 위탁에 관한 조례",
+  "inquiryText": "동대문구보건소 예방접종실/02-2127-4942",
+  "ageMin": 18,
+  "ageMax": 55
+}

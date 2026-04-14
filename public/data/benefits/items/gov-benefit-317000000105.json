@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-317000000105",
+  "sourceId": "317000000105",
+  "title": "가정위탁아동 생일축하금 지원",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 금천구",
+  "providerType": "자치구",
+  "district": "금천구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 가정위탁보호 책정 아동",
+  "summary": "서울특별시 금천구에서 제공하는 보호·돌봄 혜택입니다. 가정위탁보호아동이 가정적인 분위기에서 건전한 사회인으로 자랄 수 있도록 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 가정위탁보호 아동에게 본인 생일이 속한 달 5만원 현금 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/317000000105",
+  "onlineUrl": "",
+  "inquiry": [
+    "아동청소년과/02-2627-2252"
+  ],
+  "updatedAt": "2026-02-09",
+  "registeredAt": "2021-09-23",
+  "viewCount": 869,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "가정위탁보호아동이 가정적인 분위기에서 건전한 사회인으로 자랄 수 있도록 지원",
+  "target": "○ 가정위탁보호 책정 아동",
+  "selectionCriteria": "",
+  "supportContent": "○ 가정위탁보호 아동에게 본인 생일이 속한 달 5만원 현금 지원",
+  "applicationMethod": "○ 개인 신청절차 없음 \n - 별도신청절차 없음 : 담당자가 가정위탁보호 아동에게 직접 지급",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "아동복지법",
+    "아동복지법(제59조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "아동청소년과/02-2627-2252",
+  "ageMin": 0,
+  "ageMax": 17
+}

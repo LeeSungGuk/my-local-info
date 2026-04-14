@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-302000000106",
+  "sourceId": "302000000106",
+  "title": "지역화폐(용산사랑상품권)",
+  "field": "행정·안전",
+  "provider": "서울특별시 용산구",
+  "providerType": "자치구",
+  "district": "용산구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 만 14세 이상이면 누구든지 구매 가능",
+  "summary": "서울특별시 용산구에서 제공하는 행정·안전 혜택입니다. 소비자에게 할인 및 소득공제 혜택, 가맹점에 수수료 절감 혜택 등 제공",
+  "supportType": "이용권",
+  "supportSummary": "○ 소비자\n - 구입 시 5%~10%할인, 연말정산 시 소득공제 30%\n ※ 할인율은 발행시기에 따라 변동될 수 있음 \n\n○ 가맹점 \n - 가맹점 수수료 절감, 홍보 효과, 가맹점 매출 증대",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/302000000106",
+  "onlineUrl": "",
+  "inquiry": [
+    "지역경제과/02-2199-6785"
+  ],
+  "updatedAt": "2026-02-09",
+  "registeredAt": "2021-09-23",
+  "viewCount": 2129,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "소비자에게 할인 및 소득공제 혜택, 가맹점에 수수료 절감 혜택 등 제공",
+  "target": "○ 만 14세 이상이면 누구든지 구매 가능",
+  "selectionCriteria": "",
+  "supportContent": "○ 소비자\n - 구입 시 5%~10%할인, 연말정산 시 소득공제 30%\n ※ 할인율은 발행시기에 따라 변동될 수 있음 \n\n○ 가맹점 \n - 가맹점 수수료 절감, 홍보 효과, 가맹점 매출 증대",
+  "applicationMethod": "서울페이플러스 결제 앱",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "지역사랑상품권 이용 활성화에 관한 법률"
+  ],
+  "ordinance": "서울특별시 용산구 용산사랑상품권 이용 활성화에 관한 조례",
+  "inquiryText": "지역경제과/02-2199-6785",
+  "ageMin": 14,
+  "ageMax": 120
+}

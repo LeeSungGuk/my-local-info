@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-313000000109",
+  "sourceId": "313000000109",
+  "title": "저소득 어르신 보행보조차 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 마포구",
+  "providerType": "자치구",
+  "district": "마포구",
+  "userType": "개인",
+  "deadlineText": "8월~9월 경 접수 예정",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 65세 이상 거동불편 저소득 어르신\n1순위: 생계, 의료 수급자\n2순위: 주거급여, 차상위수급자\n3순위: 기초연금수급자",
+  "summary": "서울특별시 마포구에서 제공하는 생활안정 혜택입니다. 거동불편 저소득 어르신에게 보행보조차 지원(연1회, 8월~9월사이)",
+  "supportType": "현물",
+  "supportSummary": "○ 신체기능 악화로 보행에 불편을 겪고 있는 저소득 어르신들에게 보행보조차를 지원함으로써 보행의 편리함을 제공하고 활기찬 노후생활 증진에 기여하고자 함.",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000109",
+  "onlineUrl": "",
+  "inquiry": [
+    "어르신동행과/02-3153-8857"
+  ],
+  "updatedAt": "2026-02-02",
+  "registeredAt": "2021-09-23",
+  "viewCount": 910,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "거동불편 저소득 어르신에게 보행보조차 지원(연1회, 8월~9월사이)",
+  "target": "○ 65세 이상 거동불편 저소득 어르신\n1순위: 생계, 의료 수급자\n2순위: 주거급여, 차상위수급자\n3순위: 기초연금수급자",
+  "selectionCriteria": "",
+  "supportContent": "○ 신체기능 악화로 보행에 불편을 겪고 있는 저소득 어르신들에게 보행보조차를 지원함으로써 보행의 편리함을 제공하고 활기찬 노후생활 증진에 기여하고자 함.",
+  "applicationMethod": "○ 방문 신청 \n - 주민센터 : 동주민센터 신청\n\n○ 지원방법: 연1회(8월~9월사이), 동주민센터 통해 전달",
+  "documents": "수급자증명서, 차상위증명서 등",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "저출산ㆍ고령사회기본법(제13조)"
+  ],
+  "ordinance": "서울특별시 마포구 보행권 확보 및 보행환경 개선에 관한 조례||서울특별시 마포구 저소득 주민의 복지증진에 관한 조례(제3조)||서울특별시 마포구 노인복지증진에 관한 조례(제10조)",
+  "inquiryText": "어르신동행과/02-3153-8857",
+  "ageMin": 65,
+  "ageMax": 120
+}

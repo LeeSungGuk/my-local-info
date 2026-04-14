@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-312000000103",
+  "sourceId": "312000000103",
+  "title": "장애인 동료 상담 지원",
+  "field": "주거·자립",
+  "provider": "서울특별시 서대문구",
+  "providerType": "자치구",
+  "district": "서대문구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 등록장애인(서대문구 주민 우선)",
+  "summary": "서울특별시 서대문구에서 제공하는 주거·자립 혜택입니다. 장애인을 위한 동료 간 상담 지원",
+  "supportType": "기타(상담)",
+  "supportSummary": "○ 장애인 동료 간 상담을 진행함",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/312000000103",
+  "onlineUrl": "",
+  "inquiry": [
+    "사회복지과/02-330-1947"
+  ],
+  "updatedAt": "2026-01-23",
+  "registeredAt": "2021-09-23",
+  "viewCount": 809,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "장애인을 위한 동료 간 상담 지원",
+  "target": "○ 등록장애인(서대문구 주민 우선)",
+  "selectionCriteria": "",
+  "supportContent": "○ 장애인 동료 간 상담을 진행함",
+  "applicationMethod": "○ 방문 신청\n - 기타 : 서대문햇살아래장애인자립생활센터 신청 (02-720-6698)",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 서대문구 장애인 자립생활 지원 조례",
+  "inquiryText": "사회복지과/02-330-1947",
+  "ageMin": 0,
+  "ageMax": 120
+}

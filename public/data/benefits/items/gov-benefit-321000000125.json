@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-321000000125",
+  "sourceId": "321000000125",
+  "title": "요보호여성 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 서초구",
+  "providerType": "자치구",
+  "district": "서초구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 일본군 위안부 피해자 생활비 지원",
+  "summary": "서울특별시 서초구에서 제공하는 생활안정 혜택입니다. 일본군 위안부 피해자에게 생활비 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 관내 거주하는 일본군위안부피해자 생활비 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/321000000125",
+  "onlineUrl": "",
+  "inquiry": [
+    "여성보육과/02-2155-6693"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2021-09-23",
+  "viewCount": 688,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "일본군 위안부 피해자에게 생활비 지원",
+  "target": "○ 일본군 위안부 피해자 생활비 지원",
+  "selectionCriteria": "",
+  "supportContent": "○ 관내 거주하는 일본군위안부피해자 생활비 지원",
+  "applicationMethod": "○ 개인 신청절차 없음\n - 일본군위안부피해자 등록(여성가족부) 시 지원 가능\n - 신청없이 자동지원",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 서초구 여성폭력방지와 피해자보호 및 지원에 관한 조례",
+  "inquiryText": "여성보육과/02-2155-6693",
+  "ageMin": 80,
+  "ageMax": 120
+}

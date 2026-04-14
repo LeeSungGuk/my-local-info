@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00083200003",
+  "sourceId": "O00083200003",
+  "title": "예술창작지원 서비스",
+  "field": "문화·환경",
+  "provider": "서울문화재단",
+  "providerType": "서울 공공기관",
+  "district": "서울특별시",
+  "userType": "법인/시설/단체",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "창작자",
+  "summary": "서울문화재단에서 제공하는 문화·환경 혜택입니다. 예술 전 분야의 경력 단계별 예술인 및 단체 대상 창작활동 지원",
+  "supportType": "기타",
+  "supportSummary": "연극, 무용, 음악, 전통, 다원, 시각, 문학 분야 활동 예술인 및 단체의 예술창작활동 및 작품 제작/발표, 문학 분야의 경우 창작집 발간 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00083200003",
+  "onlineUrl": "scas.kr",
+  "inquiry": [
+    "예술지원1팀/02-3290-7461"
+  ],
+  "updatedAt": "2025-12-02",
+  "registeredAt": "2022-07-15",
+  "viewCount": 661,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "예술 전 분야의 경력 단계별 예술인 및 단체 대상 창작활동 지원",
+  "target": "창작자",
+  "selectionCriteria": "",
+  "supportContent": "연극, 무용, 음악, 전통, 다원, 시각, 문학 분야 활동 예술인 및 단체의 예술창작활동 및 작품 제작/발표, 문학 분야의 경우 창작집 발간 지원",
+  "applicationMethod": "○ 온라인 신청\n - 서울문화예술지원시스템(SCAS, scas.kr)를 통한 온라인 지원 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 재단법인 서울문화재단 설립 및 운영에 관한 조례",
+  "inquiryText": "예술지원1팀/02-3290-7461",
+  "ageMin": 0,
+  "ageMax": 0
+}

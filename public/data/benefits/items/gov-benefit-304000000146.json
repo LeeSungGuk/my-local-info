@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-304000000146",
+  "sourceId": "304000000146",
+  "title": "중개수수료 무료지원 서비스",
+  "field": "행정·안전",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "어려운 경제상황과 전ㆍ월세값 상승으로 생활에 어려움을 겪고 있는 저소득 주민\n - 기초생활수급자/ 의료급여 대상자/ 65세 이상 홀몸어르신/ 저소득 국가유공자/ 저소득 장애인/ 저소득 북한이탈주민 등\n - 관내 대학교 재학생\n - 1인가구\n - 다자녀가구",
+  "summary": "서울특별시 광진구에서 제공하는 행정·안전 혜택입니다. 중개수수료 무료 서비스",
+  "supportType": "현금(감면)",
+  "supportSummary": "1억원 이하의 주택 전·월세 임차 시 중개업소의 직업기부로 중개보수 무료 또는 감경",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000146",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 부동산정보과/02-450-7756"
+  ],
+  "updatedAt": "2026-02-02",
+  "registeredAt": "2021-10-27",
+  "viewCount": 3316,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "중개수수료 무료 서비스",
+  "target": "어려운 경제상황과 전ㆍ월세값 상승으로 생활에 어려움을 겪고 있는 저소득 주민\n - 기초생활수급자/ 의료급여 대상자/ 65세 이상 홀몸어르신/ 저소득 국가유공자/ 저소득 장애인/ 저소득 북한이탈주민 등\n - 관내 대학교 재학생\n - 1인가구\n - 다자녀가구",
+  "selectionCriteria": "",
+  "supportContent": "1억원 이하의 주택 전·월세 임차 시 중개업소의 직업기부로 중개보수 무료 또는 감경",
+  "applicationMethod": "○ 광진구청 홈페이지→ 통합검색 '착한중개사무소’ 또는 '광진구부동산정보포털' 사이트 접속 → 착한중개사무소 조회 \n○ 광진구청 홈페이지→ 광진소개→ 우리구 소개(광진통합지도서비스)→ 유형검색(부동산)→ 착한중개사무소 조회\n\n ▷ 해당 중개업소 방문 또는 문의 → 계약 전에 중개업자와 협의(재능기부)",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 광진구 재능기부 활성화 조례",
+  "inquiryText": "광진구 부동산정보과/02-450-7756",
+  "ageMin": 0,
+  "ageMax": 120
+}

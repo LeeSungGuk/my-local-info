@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-611000000114",
+  "sourceId": "611000000114",
+  "title": "독립유공생활지원수당",
+  "field": "생활안정",
+  "provider": "서울특별시",
+  "providerType": "서울시",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "직권지급",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 국가보훈부 생활지원금 수급 대상\n - 독립유공자 (손)자녀 중 기초생활수급자 및 중위소득 70%이하인 자 및 기초연금수급자",
+  "summary": "서울특별시에서 제공하는 생활안정 혜택입니다. 저소득 독립유공자 후손에게 생활지원수당 지급",
+  "supportType": "현금",
+  "supportSummary": "○ 저소득 독립유공자 후손에게 수당 지급",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000114",
+  "onlineUrl": "",
+  "inquiry": [
+    "관할 주민센터/02-120"
+  ],
+  "updatedAt": "2026-01-23",
+  "registeredAt": "2021-09-23",
+  "viewCount": 820,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "저소득 독립유공자 후손에게 생활지원수당 지급",
+  "target": "○ 국가보훈부 생활지원금 수급 대상\n - 독립유공자 (손)자녀 중 기초생활수급자 및 중위소득 70%이하인 자 및 기초연금수급자",
+  "selectionCriteria": "",
+  "supportContent": "○ 저소득 독립유공자 후손에게 수당 지급",
+  "applicationMethod": "○ 직권지급",
+  "documents": "○ 직권 지급으로 별도 구비서류 없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 독립유공자 예우 및 지원에 관한 조례",
+  "inquiryText": "관할 주민센터/02-120",
+  "ageMin": 0,
+  "ageMax": 120
+}

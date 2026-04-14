@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-307000000101",
+  "sourceId": "307000000101",
+  "title": "저소득층 국민건강보험료 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 성북구",
+  "providerType": "자치구",
+  "district": "성북구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 저소득층 취약계층 대상자 중 최저보험료가 22,340원(2025년) 미만 세대",
+  "summary": "서울특별시 성북구에서 제공하는 보건·의료 혜택입니다. 저소득층 취약계층 건강보험료 지원",
+  "supportType": "현금(보험)",
+  "supportSummary": "국민건강보험공단 서울특별시 성북구 지역가입자로서 보험료 부과금액이 최저보험료(「월별 건강보험료액의 상한과 하한에 관한 고시」에 따른 월별 보험료의 하한액과 이에 따른 노인장기요양보험료를 합한 보험료) 이하를 납부하는  65세 이상 노인가구, 등록장애인 가구, 기타 한…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000101",
+  "onlineUrl": "",
+  "inquiry": [
+    "생활보장과/02-2241-2499"
+  ],
+  "updatedAt": "2026-02-04",
+  "registeredAt": "2021-09-23",
+  "viewCount": 918,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "저소득층 취약계층 건강보험료 지원",
+  "target": "○ 저소득층 취약계층 대상자 중 최저보험료가 22,340원(2025년) 미만 세대",
+  "selectionCriteria": "",
+  "supportContent": "국민건강보험공단 서울특별시 성북구 지역가입자로서 보험료 부과금액이 최저보험료(「월별 건강보험료액의 상한과 하한에 관한 고시」에 따른 월별 보험료의 하한액과 이에 따른 노인장기요양보험료를 합한 보험료) 이하를 납부하는  65세 이상 노인가구, 등록장애인 가구, 기타 한부모 또는 조손가구, 만성질환자 가구 등에 국민건강보험료 및 노인장기요양보험료를 지원",
+  "applicationMethod": "○ 개인 신청절차 없음",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 성북구 저소득주민 국민건강보험료 등 지원에 관한 조례",
+  "inquiryText": "생활보장과/02-2241-2499",
+  "ageMin": 18,
+  "ageMax": 120
+}

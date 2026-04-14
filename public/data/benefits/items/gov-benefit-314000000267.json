@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-314000000267",
+  "sourceId": "314000000267",
+  "title": "청년 취업교육 프로그램 지원",
+  "field": "고용·창업",
+  "provider": "서울특별시 양천구",
+  "providerType": "자치구",
+  "district": "양천구",
+  "userType": "개인",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ (교육기관)직업능력개발훈련기관 등\n○ (교육참여자)양천구 거주 미취업 청년(19~39세)",
+  "summary": "서울특별시 양천구에서 제공하는 고용·창업 혜택입니다. 청년 취업 교육 프로그램 운영 및 취업 연계 지원\n직업 능력 개발 훈련을 통한 취업역량 강화",
+  "supportType": "기타(교육)",
+  "supportSummary": "- 사업대상 : 양천구 거주 미취업 청년(19~39세)\n- 지원내용  : 취업진입이 용이한 전문직업교육 프로그램 운영",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000267",
+  "onlineUrl": "http://www.losims.go.kr",
+  "inquiry": [
+    "양천구청 일자리경제과/02-2620-4829"
+  ],
+  "updatedAt": "2026-03-18",
+  "registeredAt": "2025-11-07",
+  "viewCount": 75,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "청년 취업 교육 프로그램 운영 및 취업 연계 지원\n직업 능력 개발 훈련을 통한 취업역량 강화",
+  "target": "○ (교육기관)직업능력개발훈련기관 등\n○ (교육참여자)양천구 거주 미취업 청년(19~39세)",
+  "selectionCriteria": "",
+  "supportContent": "- 사업대상 : 양천구 거주 미취업 청년(19~39세)\n- 지원내용  : 취업진입이 용이한 전문직업교육 프로그램 운영",
+  "applicationMethod": "○ (교육기관)지방보조금관리시스템을 통한 온라인 접수\n\n○ (교육참여자)교육기관별 온라인 또는 방문 접수",
+  "documents": "○ (교육기관)사업제안서, 요약서, 계획서, 예산운용계획서, 기타 증빙자료 등\n\n○ (교육참가자) 교육참여신청서, 주민등록초본, 고용보험 피보험 자격이력내역서, 개인정보동의서, 기타 참여자격 확인을 위해 교육기관이 요구하는 서류",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "국민 평생 직업능력 개발법(제12조)"
+  ],
+  "ordinance": "서울특별시 양천구 청년 기본 조례(제15조)",
+  "inquiryText": "양천구청 일자리경제과/02-2620-4829",
+  "ageMin": 19,
+  "ageMax": 39
+}

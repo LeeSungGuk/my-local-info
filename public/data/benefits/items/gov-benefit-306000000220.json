@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-306000000220",
+  "sourceId": "306000000220",
+  "title": "중랑구 공동육아방 서비스 이용 안내",
+  "field": "보육·교육",
+  "provider": "서울특별시 중랑구",
+  "providerType": "자치구",
+  "district": "중랑구",
+  "userType": "개인",
+  "deadlineText": "매주 월요일 오전 10시 다음 한 주간 예약 가능",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "만5세 이하 영유아 및 보호자",
+  "summary": "서울특별시 중랑구에서 제공하는 보육·교육 혜택입니다. 소규모 실내놀이터, 작은 도서관 등 공동육아를 위한 공간 조성하여, 가정의 육아부담 경감 및 건강한 육아문화 확산 도모",
+  "supportType": "서비스(돌봄)",
+  "supportSummary": "(1회차)10:00~12:00 (2회차)13:00~15:00 (3회차)15:30~17:30\n영역별 놀이교구 제공 및 다양한 놀이 프로그램 운영",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청",
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/306000000220",
+  "onlineUrl": "https://www.jccic.or.kr/2018/sub52.php",
+  "inquiry": [
+    "중랑구육아종합지원센터/02-495-0030"
+  ],
+  "updatedAt": "2026-03-09",
+  "registeredAt": "2025-08-27",
+  "viewCount": 95,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "소규모 실내놀이터, 작은 도서관 등 공동육아를 위한 공간 조성하여, 가정의 육아부담 경감 및 건강한 육아문화 확산 도모",
+  "target": "만5세 이하 영유아 및 보호자",
+  "selectionCriteria": "",
+  "supportContent": "(1회차)10:00~12:00 (2회차)13:00~15:00 (3회차)15:30~17:30\n영역별 놀이교구 제공 및 다양한 놀이 프로그램 운영",
+  "applicationMethod": "방문신청, 온라인 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "영유아보육법(제7조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "중랑구육아종합지원센터/02-495-0030",
+  "ageMin": 0,
+  "ageMax": 5
+}

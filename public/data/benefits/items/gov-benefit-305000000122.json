@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-305000000122",
+  "sourceId": "305000000122",
+  "title": "저소득층 초·중·고 학생 학습나눔사업",
+  "field": "보육·교육",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 아래의 자격 기준을 충족하는 관내 초‧중‧고 학생\n    - 국민기초생활보장법 상의 생계‧의료‧주거‧교육 수급자 \n    - 국민기초생활보장법 상의 법정 차상위계층\n    - 한부모가족지원법 제5조 및 제5조의2에 따른 한부모가정",
+  "summary": "서울특별시 동대문구에서 제공하는 보육·교육 혜택입니다. 관내 저소득층  초‧중‧고 학생을 대상으로 학원 무료 수강 제공",
+  "supportType": "기타(교육)",
+  "supportSummary": "○ 저소득층 초‧중‧고 학생 학원수강 지원\n    - 관내 저소득층  초‧중‧고 학생을 대상으로 학원 무료 수강 제공",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000122",
+  "onlineUrl": "",
+  "inquiry": [
+    "동대문구청 아동청소년과/02-2127-5638"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2022-04-29",
+  "viewCount": 804,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "관내 저소득층  초‧중‧고 학생을 대상으로 학원 무료 수강 제공",
+  "target": "○ 아래의 자격 기준을 충족하는 관내 초‧중‧고 학생\n    - 국민기초생활보장법 상의 생계‧의료‧주거‧교육 수급자 \n    - 국민기초생활보장법 상의 법정 차상위계층\n    - 한부모가족지원법 제5조 및 제5조의2에 따른 한부모가정",
+  "selectionCriteria": "",
+  "supportContent": "○ 저소득층 초‧중‧고 학생 학원수강 지원\n    - 관내 저소득층  초‧중‧고 학생을 대상으로 학원 무료 수강 제공",
+  "applicationMethod": "○ 신청방법 : 관할 동주민센터로 저소득층 학습나눔사업 신청",
+  "documents": "신분증",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "청소년 기본법(제8조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "동대문구청 아동청소년과/02-2127-5638",
+  "ageMin": 7,
+  "ageMax": 18
+}

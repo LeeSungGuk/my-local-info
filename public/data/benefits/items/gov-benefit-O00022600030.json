@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00022600030",
+  "sourceId": "O00022600030",
+  "title": "공영주차장 이용요금 감면(국가유공자)",
+  "field": "생활안정",
+  "provider": "광진구시설관리공단",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "국가유공자",
+  "summary": "광진구시설관리공단에서 제공하는 생활안정 혜택입니다. 국가유공자에게 공영주차장 이용요금 80%감면",
+  "supportType": "시설이용",
+  "supportSummary": "주차요금 감면(80%)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022600030",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구시설관리공단 주차사업부/02-2049-4540"
+  ],
+  "updatedAt": "2026-01-30",
+  "registeredAt": "2022-07-15",
+  "viewCount": 532,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "국가유공자에게 공영주차장 이용요금 80%감면",
+  "target": "국가유공자",
+  "selectionCriteria": "",
+  "supportContent": "주차요금 감면(80%)",
+  "applicationMethod": "○ 방문 신청",
+  "documents": "○ 신청인 구비서류\n - 국가보훈등록증",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "광진구시설관리공단 주차사업부/02-2049-4540",
+  "ageMin": 19,
+  "ageMax": 120
+}

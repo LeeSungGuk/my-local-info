@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-300000000111",
+  "sourceId": "300000000111",
+  "title": "가정위탁아동 및 입양가정 지원",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 종로구",
+  "providerType": "자치구",
+  "district": "종로구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 종로구 내 거주하는 가정위탁아동 및 입양가정",
+  "summary": "서울특별시 종로구에서 제공하는 보호·돌봄 혜택입니다. ○ 요보호아동의 가정보호 및 양육 유도\n○ 양육가정(가정위탁, 입양) 지원\n○ 보호아동의 건강한 성장 지원",
+  "supportType": "현금",
+  "supportSummary": "● 가정위탁\n ○ 가정위탁아동 졸업, 입학 격려품 지원\n ○ 가정위탁아동 명절, 연말 위문품 지원\n\n● 입양\n ○ 입양아동 입양장려금 지급\n ○ 입양아동 건강보험료 지원(셋째 이상 입양아동)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000111",
+  "onlineUrl": "",
+  "inquiry": [
+    "아동복지과/02-2148-2984"
+  ],
+  "updatedAt": "2026-01-27",
+  "registeredAt": "2021-09-23",
+  "viewCount": 809,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "○ 요보호아동의 가정보호 및 양육 유도\n○ 양육가정(가정위탁, 입양) 지원\n○ 보호아동의 건강한 성장 지원",
+  "target": "○ 종로구 내 거주하는 가정위탁아동 및 입양가정",
+  "selectionCriteria": "",
+  "supportContent": "● 가정위탁\n ○ 가정위탁아동 졸업, 입학 격려품 지원\n ○ 가정위탁아동 명절, 연말 위문품 지원\n\n● 입양\n ○ 입양아동 입양장려금 지급\n ○ 입양아동 건강보험료 지원(셋째 이상 입양아동)",
+  "applicationMethod": "○ 종로구청 아동복지과 방문 신청(입양장려금 및 입양아동 건강보험료)",
+  "documents": "○ 입양장려금 및 입양아동 건강보험료 : 지원신청서, 입양사실확인서, 가족관계증명서(상세), 주민등록등본, 통장 사본, 신분증 사본",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 종로구 입양가정 지원 조례||서울특별시 종로구 입양가정 지원 조례||서울특별시 종로구 입양가정 지원 조례(제5조)||서울특별시 종로구 입양가정 지원 조례(제6조)",
+  "inquiryText": "아동복지과/02-2148-2984",
+  "ageMin": 18,
+  "ageMax": 44
+}

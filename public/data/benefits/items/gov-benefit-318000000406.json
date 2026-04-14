@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-318000000406",
+  "sourceId": "318000000406",
+  "title": "안전취약가구 안전점검 및 정비지원",
+  "field": "생활안정",
+  "provider": "서울특별시 영등포구",
+  "providerType": "자치구",
+  "district": "영등포구",
+  "userType": "개인",
+  "deadlineText": "매년 상반기 (1월~3월)",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "기초수급자, 홀몸어르신, 장애인, 차상위계층 등 안전에 취약한 주",
+  "summary": "서울특별시 영등포구에서 제공하는 생활안정 혜택입니다. 기초생활수급자, 차상위계층, 장애인, 노인 등 안전 취약가구의 생활시설에 대한 안전점검 및 정비 실시로 사고를 예방하고자 함",
+  "supportType": "현물",
+  "supportSummary": "〇총5개분야\n -전기: 누전차단기, 콘센트 등 교체/정비\n -가스: 가스타이머 설치 등\n -보일러: 일산화탄소경보기 설치 등\n -소방: 화재경보기 및 소화기 설치 \n -기타: 안전물품지원(매년 변동 예정)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000406",
+  "onlineUrl": "",
+  "inquiry": [
+    "영등포구청 도시안전과/02-2670-3868"
+  ],
+  "updatedAt": "2026-03-09",
+  "registeredAt": "2025-11-18",
+  "viewCount": 59,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "기초생활수급자, 차상위계층, 장애인, 노인 등 안전 취약가구의 생활시설에 대한 안전점검 및 정비 실시로 사고를 예방하고자 함",
+  "target": "기초수급자, 홀몸어르신, 장애인, 차상위계층 등 안전에 취약한 주",
+  "selectionCriteria": "",
+  "supportContent": "〇총5개분야\n -전기: 누전차단기, 콘센트 등 교체/정비\n -가스: 가스타이머 설치 등\n -보일러: 일산화탄소경보기 설치 등\n -소방: 화재경보기 및 소화기 설치 \n -기타: 안전물품지원(매년 변동 예정)",
+  "applicationMethod": "관할 동주민센터 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "재난 및 안전관리 기본법(제25조의2)"
+  ],
+  "ordinance": "",
+  "inquiryText": "영등포구청 도시안전과/02-2670-3868",
+  "ageMin": 19,
+  "ageMax": 120
+}

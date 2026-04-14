@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00024000033",
+  "sourceId": "O00024000033",
+  "title": "꿈나무종합타운 프로그램 할인(기초수급자)",
+  "field": "문화·환경",
+  "provider": "용산구시설관리공단",
+  "providerType": "자치구",
+  "district": "용산구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "국민기초생활 보장법에 의한 수급자 또는 그 가족",
+  "summary": "용산구시설관리공단에서 제공하는 문화·환경 혜택입니다. 기초생활수급자에게 꿈나무종합타운 프로그램 이용요금 50%감면",
+  "supportType": "시설이용",
+  "supportSummary": "○ 문화체육 프로그램 감면\n - 기초생활수급자 : 이용료 50% 감면",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00024000033",
+  "onlineUrl": "",
+  "inquiry": [
+    "꿈나무종합타운/02-707-0704"
+  ],
+  "updatedAt": "2026-03-06",
+  "registeredAt": "2022-07-15",
+  "viewCount": 585,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "기초생활수급자에게 꿈나무종합타운 프로그램 이용요금 50%감면",
+  "target": "국민기초생활 보장법에 의한 수급자 또는 그 가족",
+  "selectionCriteria": "",
+  "supportContent": "○ 문화체육 프로그램 감면\n - 기초생활수급자 : 이용료 50% 감면",
+  "applicationMethod": "○ 방문 신청\n - 꿈나무종합타운 프로그램 등록 시 해당 서류(신분) 확인",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "꿈나무종합타운/02-707-0704",
+  "ageMin": 0,
+  "ageMax": 120
+}

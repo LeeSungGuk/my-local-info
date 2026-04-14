@@ -1,0 +1,48 @@
+{
+  "id": "gov-benefit-306000000233",
+  "sourceId": "306000000233",
+  "title": "중랑청년청 운영",
+  "field": "보육·교육",
+  "provider": "서울특별시 중랑구",
+  "providerType": "자치구",
+  "district": "중랑구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 중랑구 청년",
+  "summary": "서울특별시 중랑구에서 제공하는 보육·교육 혜택입니다. 청년 세대의 소통과 문화활동을 위한 청년 전용 공간 및  청년 특화 프로그램 운영",
+  "supportType": "시설이용",
+  "supportSummary": "ㅇ 청년 정책사업 연계를 위한 중랑청년청 공간 활용 증대 및 참여   욕구별 다양한 청년 활동 지원 프로그램 활성화\nㅇ 청년의 생활권 가까이, 청년과 지역사회를 연결하는 거점 역할 수행을 위하여 지역자원을 활용한 청년-지역 연결성 확대\nㅇ 지역내 다양한 커뮤니티 모임…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청",
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/306000000233",
+  "onlineUrl": "https://booking.naver.com/booking/10/bizes/1231939",
+  "inquiry": [
+    "중랑청년청/02-976-1939",
+    "지역경제과/02-2094-2272",
+    "지역경제과/02-2094-2273"
+  ],
+  "updatedAt": "2026-02-07",
+  "registeredAt": "2025-08-28",
+  "viewCount": 127,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "청년 세대의 소통과 문화활동을 위한 청년 전용 공간 및  청년 특화 프로그램 운영",
+  "target": "○ 중랑구 청년",
+  "selectionCriteria": "",
+  "supportContent": "ㅇ 청년 정책사업 연계를 위한 중랑청년청 공간 활용 증대 및 참여   욕구별 다양한 청년 활동 지원 프로그램 활성화\nㅇ 청년의 생활권 가까이, 청년과 지역사회를 연결하는 거점 역할 수행을 위하여 지역자원을 활용한 청년-지역 연결성 확대\nㅇ 지역내 다양한 커뮤니티 모임을 지원하고 공간을 제공하여 청년의 네트워킹 활동을 촉진하고 소통과 교류 증진",
+  "applicationMethod": "온라인 신청 및 전화 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "청년기본법(제4조)"
+  ],
+  "ordinance": "서울특별시 중랑구 청년 기본 조례(제10조)",
+  "inquiryText": "중랑청년청/02-976-1939||지역경제과/02-2094-2272||지역경제과/02-2094-2273",
+  "ageMin": 19,
+  "ageMax": 39
+}

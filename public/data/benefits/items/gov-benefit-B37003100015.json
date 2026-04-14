@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-B37003100015",
+  "sourceId": "B37003100015",
+  "title": "국제심판 양성 지원",
+  "field": "보육·교육",
+  "provider": "서울올림픽기념국민체육진흥공단",
+  "providerType": "서울 공공기관",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "세부과정별 상이(홈페이지 참고)",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "올림픽/아시안게임 정식종목 국내심판 및 국제심판",
+  "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 보육·교육 혜택입니다. 국제심판 양성을 위해 교육 및 자격취득 지원",
+  "supportType": "기타(교육)",
+  "supportSummary": "○ 국제심판 역량강화 교육과정\n - 심판으로서 필요역량 교육 및 외국어 교육\n \n○ 국제심판 자격취득 지원사업\n - 강습회 참가를 위한 항공료 및 체재비 지원\n \n○ 국제심판 특화 온라인 교육콘텐츠 제작\n - 시공간 구애없이 학습할 수 있는 심판 교육 콘텐츠 제공",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100015",
+  "onlineUrl": "edu.kspo.or.kr",
+  "inquiry": [
+    "스포츠인재육성팀/02-410-1503"
+  ],
+  "updatedAt": "2026-01-30",
+  "registeredAt": "2022-07-15",
+  "viewCount": 961,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "국제심판 양성을 위해 교육 및 자격취득 지원",
+  "target": "올림픽/아시안게임 정식종목 국내심판 및 국제심판",
+  "selectionCriteria": "",
+  "supportContent": "○ 국제심판 역량강화 교육과정\n - 심판으로서 필요역량 교육 및 외국어 교육\n \n○ 국제심판 자격취득 지원사업\n - 강습회 참가를 위한 항공료 및 체재비 지원\n \n○ 국제심판 특화 온라인 교육콘텐츠 제작\n - 시공간 구애없이 학습할 수 있는 심판 교육 콘텐츠 제공",
+  "applicationMethod": "○ 온라인 신청\n - K스포에듀 : edu.kspo.or.kr 가입 후 진행",
+  "documents": "세부과정별 상이(홈페이지 공고문 참고)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "스포츠인재육성팀/02-410-1503",
+  "ageMin": 20,
+  "ageMax": 35
+}

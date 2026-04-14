@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-320000000111",
+  "sourceId": "320000000111",
+  "title": "저소득주민 국민건강보험료 및 노인장기요양보험료 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 관악구",
+  "providerType": "자치구",
+  "district": "관악구",
+  "userType": "가구",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 소득 인정액이 기준 중위소득 100분의 50이하이면서 건강보험료 및 노인장기요양보험료 부과금액이 최저 보험료 이하인 관악구 지역가입자로서 65세 이상 노인, 등록장애인, 국가유공자, 만성질환자, 한부모가족, 55세 이상 단독세대 등 (* 의료급여 수급자 및 다른…",
+  "summary": "서울특별시 관악구에서 제공하는 보건·의료 혜택입니다. 국민건강보험료 및 노인장기요양보험료 지원",
+  "supportType": "현금(감면)",
+  "supportSummary": "○ 생활이 어려운 저소득주민에게 국민건강보험료 및 노인장기요양보험료 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000111",
+  "onlineUrl": "",
+  "inquiry": [
+    "생활복지과/02-879-5956"
+  ],
+  "updatedAt": "2026-01-27",
+  "registeredAt": "2021-09-23",
+  "viewCount": 2947,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "국민건강보험료 및 노인장기요양보험료 지원",
+  "target": "○ 소득 인정액이 기준 중위소득 100분의 50이하이면서 건강보험료 및 노인장기요양보험료 부과금액이 최저 보험료 이하인 관악구 지역가입자로서 65세 이상 노인, 등록장애인, 국가유공자, 만성질환자, 한부모가족, 55세 이상 단독세대 등 (* 의료급여 수급자 및 다른 법률에 의해 지원받는 가구 제외)",
+  "selectionCriteria": "",
+  "supportContent": "○ 생활이 어려운 저소득주민에게 국민건강보험료 및 노인장기요양보험료 지원",
+  "applicationMethod": "○ 방문 신청\n - 주민센터 : 주민센터에 방문 신청",
+  "documents": "건강보험료 고지서, 신분증, 진단서(만성질환자인 경우)\n *주거급여, 차상위 자격이 없을 시 자격 신청 필수",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 관악구 저소득주민 국민건강보험료 및 노인장기요양보험료 지원에 관한 조례",
+  "inquiryText": "생활복지과/02-879-5956",
+  "ageMin": 0,
+  "ageMax": 120
+}

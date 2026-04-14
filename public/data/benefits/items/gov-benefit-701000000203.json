@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-701000000203",
+  "sourceId": "701000000203",
+  "title": "저소득층 수익자부담경비 지원",
+  "field": "보육·교육",
+  "provider": "서울특별시교육청",
+  "providerType": "서울시",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 서울특별시교육청 관내 초·중·고등학교(특수학교 포함) 학생\n - 법정저소득 자격(국민기초생활수급자, 한부모가족보호대상자, 법정차상위대상자)소지자\n - 중위소득 60%이하\n - 기타 법무부장관이 추천하는 난민인정자, 특별기여자 또는 그 자녀",
+  "summary": "서울특별시교육청에서 제공하는 보육·교육 혜택입니다. 저소득층 가구 학생에 대한 교육의 기회균등 보장 및 실질적인 지원을 통한 교육복지 실현",
+  "supportType": "현금(감면)",
+  "supportSummary": "○ 초·중·고 학생 교육비 지원\n - 소규모테마형 교육여행비, 수련활동비 (1인당 50만원, 20만원 이내 실비) 지원(학년별 연 1회)\n - 사회통합전형실시 학교 대상 기숙사비 지원(전액지원), 앨범비 지원(전액지원)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청",
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/701000000203",
+  "onlineUrl": "https://www.bokjiro.go.kr",
+  "inquiry": [
+    "학생맞춤지원담당관/02-399-9020"
+  ],
+  "updatedAt": "2026-02-04",
+  "registeredAt": "2022-07-15",
+  "viewCount": 1419,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "저소득층 가구 학생에 대한 교육의 기회균등 보장 및 실질적인 지원을 통한 교육복지 실현",
+  "target": "○ 서울특별시교육청 관내 초·중·고등학교(특수학교 포함) 학생\n - 법정저소득 자격(국민기초생활수급자, 한부모가족보호대상자, 법정차상위대상자)소지자\n - 중위소득 60%이하\n - 기타 법무부장관이 추천하는 난민인정자, 특별기여자 또는 그 자녀",
+  "selectionCriteria": "",
+  "supportContent": "○ 초·중·고 학생 교육비 지원\n - 소규모테마형 교육여행비, 수련활동비 (1인당 50만원, 20만원 이내 실비) 지원(학년별 연 1회)\n - 사회통합전형실시 학교 대상 기숙사비 지원(전액지원), 앨범비 지원(전액지원)",
+  "applicationMethod": "○ 온라인 신청\n - 교육비 원클릭 신청시스템(https://oneclick.neis.go.kr) 가입 후 진행\n - 복지로(https://www.bokjiro.go.kr)에서 신청\n  \n○ 방문 신청\n - 주민센터 : 학부모 또는 학생 주민등록 관할 동 주민센터",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "초ㆍ중등교육법(제60조의5)"
+  ],
+  "ordinance": "",
+  "inquiryText": "학생맞춤지원담당관/02-399-9020",
+  "ageMin": 0,
+  "ageMax": 120
+}

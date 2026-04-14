@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-305000000166",
+  "sourceId": "305000000166",
+  "title": "재건축,재개발 정비사업 법률상담센터 운영",
+  "field": "생활안정",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 재개발, 재건축 관련 법률 상담을 필요로 하는 사람",
+  "summary": "서울특별시 동대문구에서 제공하는 생활안정 혜택입니다. 재건축,재개발 관련한 법률 상담",
+  "supportType": "기타(상담)",
+  "supportSummary": "○ 정비사업 관련 법률 상담\n\n○ 재건축,재개발과 관련한 분쟁 민원 상담\n\n○ 정비사업 소송서류 심사 및 법령해석, 제도개선 발굴 등 지원\n\n○ 주거정비과 재건축,재개발 업무지원(도시분쟁조정위원회 운영) 등",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000166",
+  "onlineUrl": "",
+  "inquiry": [
+    "주거정비과/02-2127-4672"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2022-10-31",
+  "viewCount": 95,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "재건축,재개발 관련한 법률 상담",
+  "target": "○ 재개발, 재건축 관련 법률 상담을 필요로 하는 사람",
+  "selectionCriteria": "",
+  "supportContent": "○ 정비사업 관련 법률 상담\n\n○ 재건축,재개발과 관련한 분쟁 민원 상담\n\n○ 정비사업 소송서류 심사 및 법령해석, 제도개선 발굴 등 지원\n\n○ 주거정비과 재건축,재개발 업무지원(도시분쟁조정위원회 운영) 등",
+  "applicationMethod": "○ 방문신청: 정비사업 법률상담센터",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "주거정비과/02-2127-4672",
+  "ageMin": 19,
+  "ageMax": 120
+}

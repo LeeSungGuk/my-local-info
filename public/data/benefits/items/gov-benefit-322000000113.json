@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-322000000113",
+  "sourceId": "322000000113",
+  "title": "입양 및 가정위탁아동 지원",
+  "field": "보육·교육",
+  "provider": "서울특별시 강남구",
+  "providerType": "자치구",
+  "district": "강남구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 입양아동 : 강남구 전입 후 1년이 지난 만18세 미만 아동(고등학교 졸업까지 포함)\n\n○ 위탁아동 : 강남구 전입 후 1년이 지난 만18세 미만의 아동(위탁보호 연장시 연장아동까지 포함)",
+  "summary": "서울특별시 강남구에서 제공하는 보육·교육 혜택입니다. 입양 및 가정위탁아동을 위해 양육수당, 의료비, 위문비 등을 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 입양아동양육수당(1인 10만원), 장애입양아동 양육보조금(1인 10만원), 장애입양아동 의료비(국시비 지원금 지급 후 추가지급 40만원) 지급\n\n○ 가정위탁아동 부가급여(1인 5만원), 문화활동비(1인 2만원), 명절(설, 추석) 및 어린이날 위문비(1인 10만원…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/322000000113",
+  "onlineUrl": "",
+  "inquiry": [
+    "가족정책과/02-3423-6977"
+  ],
+  "updatedAt": "2026-04-01",
+  "registeredAt": "2021-09-23",
+  "viewCount": 834,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "입양 및 가정위탁아동을 위해 양육수당, 의료비, 위문비 등을 지원",
+  "target": "○ 입양아동 : 강남구 전입 후 1년이 지난 만18세 미만 아동(고등학교 졸업까지 포함)\n\n○ 위탁아동 : 강남구 전입 후 1년이 지난 만18세 미만의 아동(위탁보호 연장시 연장아동까지 포함)",
+  "selectionCriteria": "",
+  "supportContent": "○ 입양아동양육수당(1인 10만원), 장애입양아동 양육보조금(1인 10만원), 장애입양아동 의료비(국시비 지원금 지급 후 추가지급 40만원) 지급\n\n○ 가정위탁아동 부가급여(1인 5만원), 문화활동비(1인 2만원), 명절(설, 추석) 및 어린이날 위문비(1인 10만원) 지급",
+  "applicationMethod": "○ 방문 신청\n - 주민센터 : 관할 주민센터 신청\n - 시군구 : 관할 시군구 담당자에게 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "입양특례법",
+    "아동복지법"
+  ],
+  "ordinance": "",
+  "inquiryText": "가족정책과/02-3423-6977",
+  "ageMin": 0,
+  "ageMax": 17
+}

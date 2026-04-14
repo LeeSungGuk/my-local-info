@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00021500002",
+  "sourceId": "O00021500002",
+  "title": "서울교통공사 조례시설물 우선 임대지원",
+  "field": "고용·창업",
+  "provider": "서울교통공사",
+  "providerType": "서울 공공기관",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "장애인, 65세이상 노인, 한부모가족의 모 또는 부, 독립．국가유공자 및 유가족, 북한이탈주민 중 국민기초생활보장법에 의한 수급자 및 미과세 대상자",
+  "summary": "서울교통공사에서 제공하는 고용·창업 혜택입니다. 1~8호선 역구내 조례대상시설물 임대차 계약 우선자격 부여",
+  "supportType": "기타",
+  "supportSummary": "『서울시 공공시설내의 매점 및 식음료용 자동판매기 설치 계약에 관한 조례』에 의거, 서울시에 주민등록되어 있는 장애인, 노인, 한부모가족의 모 또는 부, 독립, 국가유공자 및 유가족, 북한이탈주민 중 기초생활수급자 및 미과세 대상자에게 1~8호선 역구내 조례대상시설물…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00021500002",
+  "onlineUrl": "www.seoulmetro.co.kr",
+  "inquiry": [
+    "부대사업처/02-6311-9296"
+  ],
+  "updatedAt": "2026-01-22",
+  "registeredAt": "2022-07-15",
+  "viewCount": 867,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "1~8호선 역구내 조례대상시설물 임대차 계약 우선자격 부여",
+  "target": "장애인, 65세이상 노인, 한부모가족의 모 또는 부, 독립．국가유공자 및 유가족, 북한이탈주민 중 국민기초생활보장법에 의한 수급자 및 미과세 대상자",
+  "selectionCriteria": "",
+  "supportContent": "『서울시 공공시설내의 매점 및 식음료용 자동판매기 설치 계약에 관한 조례』에 의거, 서울시에 주민등록되어 있는 장애인, 노인, 한부모가족의 모 또는 부, 독립, 국가유공자 및 유가족, 북한이탈주민 중 기초생활수급자 및 미과세 대상자에게 1~8호선 역구내 조례대상시설물(매점, 음료자판기)의 운영자 모집에 신청 우선순위 자격 부여",
+  "applicationMethod": "○ 온라인 신청\n - 공사 홈페이지(www.seoulmetro.co.kr) 임차인 공개모집 신청시 신청접수 및 추첨프로그램에 의한 임차인 선정",
+  "documents": "주민등록등본, 신분증, 자격 증명 서류(장애인 등 증명서, 수급자증명서 등)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "부대사업처/02-6311-9296",
+  "ageMin": 0,
+  "ageMax": 120
+}

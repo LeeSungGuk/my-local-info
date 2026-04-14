@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00023800003",
+  "sourceId": "O00023800003",
+  "title": "전 직원 자원봉사단 제공",
+  "field": "보호·돌봄",
+  "provider": "양천구시설관리공단",
+  "providerType": "자치구",
+  "district": "양천구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "관내 어르신, 장애인, 외국인, 아동 등 취약계층",
+  "summary": "양천구시설관리공단에서 제공하는 보호·돌봄 혜택입니다. 관내 취약계층을 대상으로 밑반찬 전달, 시설점검 등 지원",
+  "supportType": "서비스(돌봄)",
+  "supportSummary": "○ 관내 복지협의체와의 연계를 통한 자원봉사활동\n - 취약계층 밑반찬 전달\n - 복지센터 시설물 점검\n - 복지협의체 행사 운영지원 등",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00023800003",
+  "onlineUrl": "",
+  "inquiry": [
+    "양천구시설관리공단/02-2061-3414"
+  ],
+  "updatedAt": "2026-02-03",
+  "registeredAt": "2022-07-15",
+  "viewCount": 453,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "관내 취약계층을 대상으로 밑반찬 전달, 시설점검 등 지원",
+  "target": "관내 어르신, 장애인, 외국인, 아동 등 취약계층",
+  "selectionCriteria": "",
+  "supportContent": "○ 관내 복지협의체와의 연계를 통한 자원봉사활동\n - 취약계층 밑반찬 전달\n - 복지센터 시설물 점검\n - 복지협의체 행사 운영지원 등",
+  "applicationMethod": "복지협의체와의 협의를 통한 자체 진행",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "양천구시설관리공단/02-2061-3414",
+  "ageMin": 0,
+  "ageMax": 120
+}

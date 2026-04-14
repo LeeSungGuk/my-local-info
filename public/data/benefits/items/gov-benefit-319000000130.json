@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-319000000130",
+  "sourceId": "319000000130",
+  "title": "첫만남이용권지원",
+  "field": "임신·출산",
+  "provider": "서울특별시 동작구",
+  "providerType": "자치구",
+  "district": "동작구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "'22.1.1.일 이후 출생아로서 출생신고되어 주민등록번호를 부여받은 아동",
+  "summary": "서울특별시 동작구에서 제공하는 임신·출산 혜택입니다. 주민등록번호를 부여받은 출생아에게 첫째아 200만원, 둘째아 이상 300만원 첫만남이용권",
+  "supportType": "기타",
+  "supportSummary": "- 지원대상 : '22.1.1.일 이후 출생아로서 출생신고되어 주민등록번호를 부여받은 아동\n- 신청권자 : 아동의 실질적 보호자 및 보호자의 대리인\n- 지원금액 및 방식 : 첫째아 200만원, 둘째아 이상 300만원의 바우처(국민행복카드로 지급)\n- 신청방법 : 아동…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청",
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000130",
+  "onlineUrl": "https://www.bokjiro.go.kr/ssis-teu/index.do",
+  "inquiry": [
+    "영유아보육과/02-820-9234"
+  ],
+  "updatedAt": "2026-01-30",
+  "registeredAt": "2022-02-09",
+  "viewCount": 1732,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "주민등록번호를 부여받은 출생아에게 첫째아 200만원, 둘째아 이상 300만원 첫만남이용권",
+  "target": "'22.1.1.일 이후 출생아로서 출생신고되어 주민등록번호를 부여받은 아동",
+  "selectionCriteria": "",
+  "supportContent": "- 지원대상 : '22.1.1.일 이후 출생아로서 출생신고되어 주민등록번호를 부여받은 아동\n- 신청권자 : 아동의 실질적 보호자 및 보호자의 대리인\n- 지원금액 및 방식 : 첫째아 200만원, 둘째아 이상 300만원의 바우처(국민행복카드로 지급)\n- 신청방법 : 아동의 주민등록 상 주소지 동 주민센터 방문신청 및 복지로 또는 정부24 온라인 신청\n- 지원기간 : 아동 출생일(주민등록일상 생년월일)로부터 1년까지 사용(단, 2024년 출생아부터 2년)",
+  "applicationMethod": "1. 아동의 주민등록 상 주소지 동 주민센터 방문신청\n2. 복지로 및 정부24 온라인 신청",
+  "documents": "사회보장급여(사회서비스이용권)신청서 또는 출산서비스통합처리 신청서, 개인정보동의서 등",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "저출산ㆍ고령사회기본법 시행령"
+  ],
+  "ordinance": "",
+  "inquiryText": "영유아보육과/02-820-9234",
+  "ageMin": 0,
+  "ageMax": 1
+}

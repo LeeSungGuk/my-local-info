@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00024000018",
+  "sourceId": "O00024000018",
+  "title": "체육시설 이용요금 감면(장애인)",
+  "field": "문화·환경",
+  "provider": "용산구시설관리공단",
+  "providerType": "자치구",
+  "district": "용산구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "장애인복지법 제2조",
+  "summary": "용산구시설관리공단에서 제공하는 문화·환경 혜택입니다. 장애인에게 체육시설 이용요금 50%감면",
+  "supportType": "시설이용",
+  "supportSummary": "체육시설 이용료 감면(50%)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00024000018",
+  "onlineUrl": "",
+  "inquiry": [
+    "체육공익사업팀/02-749-5314"
+  ],
+  "updatedAt": "2026-03-06",
+  "registeredAt": "2022-07-15",
+  "viewCount": 530,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "장애인에게 체육시설 이용요금 50%감면",
+  "target": "장애인복지법 제2조",
+  "selectionCriteria": "",
+  "supportContent": "체육시설 이용료 감면(50%)",
+  "applicationMethod": "○ 방문 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "체육공익사업팀/02-749-5314",
+  "ageMin": 0,
+  "ageMax": 120
+}

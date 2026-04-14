@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-305000000173",
+  "sourceId": "305000000173",
+  "title": "저소득층 아동 체험행사",
+  "field": "보육·교육",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "유선 문의",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○「국민기초생활보장법」에 의한 국민기초생활보장 수급자 및 차상위 계층 가정의 아동(만 6~18세 미만)\n\n○「한부모복지법」에 의한 저소득 한부모 가정의 아동(만 6~18세 미만)",
+  "summary": "서울특별시 동대문구에서 제공하는 보육·교육 혜택입니다. 관내 저소득층 아동을 대상으로 다양한 체험행사 실시",
+  "supportType": "기타",
+  "supportSummary": "○ 저소득층 아동 체험행사\n    - 관내 저소득층  아동을 대상으로 다양한 체험행사 실시",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000173",
+  "onlineUrl": "",
+  "inquiry": [
+    "동대문구청 아동청소년과/02-2127-4404"
+  ],
+  "updatedAt": "2026-02-26",
+  "registeredAt": "2023-02-13",
+  "viewCount": 331,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "관내 저소득층 아동을 대상으로 다양한 체험행사 실시",
+  "target": "○「국민기초생활보장법」에 의한 국민기초생활보장 수급자 및 차상위 계층 가정의 아동(만 6~18세 미만)\n\n○「한부모복지법」에 의한 저소득 한부모 가정의 아동(만 6~18세 미만)",
+  "selectionCriteria": "",
+  "supportContent": "○ 저소득층 아동 체험행사\n    - 관내 저소득층  아동을 대상으로 다양한 체험행사 실시",
+  "applicationMethod": "○ 유선 문의",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 동대문구 저소득주민의 생활안정 지원에 관한 조례(제3조)",
+  "inquiryText": "동대문구청 아동청소년과/02-2127-4404",
+  "ageMin": 6,
+  "ageMax": 18
+}

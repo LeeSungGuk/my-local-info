@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-304000000136",
+  "sourceId": "304000000136",
+  "title": "어르신복지카드 발급",
+  "field": "생활안정",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "생일도래 1개월 전부터",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 광진구에 거주하는 만 65세 이상 어르신",
+  "summary": "서울특별시 광진구에서 제공하는 생활안정 혜택입니다. 우리구 만65세이상 어르신에게 경로우대 할인서비스 제공\n노인복지 증진에 기여하고 경로우대 문화 활성화에 적극참여",
+  "supportType": "현금(감면)",
+  "supportSummary": "○ 만 65세 이상의 어르신에게 복지카드 발급 개인정보(성명, 주소, 사진)이 포함\n     - 응급시 필요한 연락처와 건강정보를 추가 기재 \n○ 광진구 내 사용지정 경로우대 업소별 이용요금 할인 등의 혜택\n - 생일도래 1개월 전부터 주소지 동주민센터에 신청가능",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000136",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 어르신복지과/02-450-7788"
+  ],
+  "updatedAt": "2026-02-02",
+  "registeredAt": "2021-10-26",
+  "viewCount": 5151,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "우리구 만65세이상 어르신에게 경로우대 할인서비스 제공\n노인복지 증진에 기여하고 경로우대 문화 활성화에 적극참여",
+  "target": "○ 광진구에 거주하는 만 65세 이상 어르신",
+  "selectionCriteria": "",
+  "supportContent": "○ 만 65세 이상의 어르신에게 복지카드 발급 개인정보(성명, 주소, 사진)이 포함\n     - 응급시 필요한 연락처와 건강정보를 추가 기재 \n○ 광진구 내 사용지정 경로우대 업소별 이용요금 할인 등의 혜택\n - 생일도래 1개월 전부터 주소지 동주민센터에 신청가능",
+  "applicationMethod": "○ 방문신청\n  - 주민센터:  관할 동주민센터 신청",
+  "documents": "신분증, 사진1매",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "노인복지법",
+    "노인복지법(제26조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "광진구 어르신복지과/02-450-7788",
+  "ageMin": 65,
+  "ageMax": 120
+}

@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-307000000163",
+  "sourceId": "307000000163",
+  "title": "청년 행정체험단",
+  "field": "고용·창업",
+  "provider": "서울특별시 성북구",
+  "providerType": "자치구",
+  "district": "성북구",
+  "userType": "개인",
+  "deadlineText": "매년 11월(겨울방학), 5월(여름방학) 중",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 일반선발 : 성북구에 주민등록 등재된 19세~29세 청년 \n○ 우선선발 : 성북구에 주민등록 등재된 19세 ~ 29세  청년 중 한부모,차상위,장애인 등\n- 성북구 청년 행정체험단(舊대학생 아르바이트 ) 아르바이트 직전 3회기 중 단 1회라도 참여한 자 제외…",
+  "summary": "서울특별시 성북구에서 제공하는 고용·창업 혜택입니다. 구정 업무 참여를 통한 청년의 실무경험 및 자립역량 강화 지원",
+  "supportType": "서비스(일자리)",
+  "supportSummary": "구정 업무 참여를 통한 청년의 실무경험 및 자립역량 강화 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000163",
+  "onlineUrl": "https://www.sb.go.kr",
+  "inquiry": [
+    "성북구청/02-2241-3994"
+  ],
+  "updatedAt": "2026-02-04",
+  "registeredAt": "2022-08-05",
+  "viewCount": 1031,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "구정 업무 참여를 통한 청년의 실무경험 및 자립역량 강화 지원",
+  "target": "○ 일반선발 : 성북구에 주민등록 등재된 19세~29세 청년 \n○ 우선선발 : 성북구에 주민등록 등재된 19세 ~ 29세  청년 중 한부모,차상위,장애인 등\n- 성북구 청년 행정체험단(舊대학생 아르바이트 ) 아르바이트 직전 3회기 중 단 1회라도 참여한 자 제외 \n\n○ 연 220명 모집",
+  "selectionCriteria": "",
+  "supportContent": "구정 업무 참여를 통한 청년의 실무경험 및 자립역량 강화 지원",
+  "applicationMethod": "성북통합예약포털 신청",
+  "documents": "주민등록초본, 신분증, 통장사본 등",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 성북구 청년 행정체험단 운영 조례",
+  "inquiryText": "성북구청/02-2241-3994",
+  "ageMin": 19,
+  "ageMax": 29
+}

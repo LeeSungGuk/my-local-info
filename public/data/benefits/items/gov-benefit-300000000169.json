@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-300000000169",
+  "sourceId": "300000000169",
+  "title": "구청장, 줌[zoom]으로 홀몸어르신 만나다 운영",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 종로구",
+  "providerType": "자치구",
+  "district": "종로구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "65세 이상 홀몸 어르신",
+  "summary": "서울특별시 종로구에서 제공하는 보호·돌봄 혜택입니다. 구청장이 줌(zoom)대화로 홀몸 어르신의 안부를 확인하며 소소한 생활불편 해소",
+  "supportType": "기타(상담)",
+  "supportSummary": "구청장이 줌(zoom)대화로 홀몸 어르신의 안부를 확인하며 소소한 생활불편 해소",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000169",
+  "onlineUrl": "",
+  "inquiry": [
+    "종로구 어르신복지과 어르신정책팀/02-2148-2203"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2022-11-06",
+  "viewCount": 385,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "구청장이 줌(zoom)대화로 홀몸 어르신의 안부를 확인하며 소소한 생활불편 해소",
+  "target": "65세 이상 홀몸 어르신",
+  "selectionCriteria": "",
+  "supportContent": "구청장이 줌(zoom)대화로 홀몸 어르신의 안부를 확인하며 소소한 생활불편 해소",
+  "applicationMethod": "주민등록거주지 동주민센터로 문의",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 종로구 고독사 예방 및 사회적 고립가구 지원에 관한 조례(제7조)",
+  "inquiryText": "종로구 어르신복지과 어르신정책팀/02-2148-2203",
+  "ageMin": 65,
+  "ageMax": 120
+}

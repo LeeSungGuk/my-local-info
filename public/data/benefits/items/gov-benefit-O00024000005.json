@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00024000005",
+  "sourceId": "O00024000005",
+  "title": "용산청소년센터 프로그램 할인(장애인)",
+  "field": "문화·환경",
+  "provider": "용산구시설관리공단",
+  "providerType": "자치구",
+  "district": "용산구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "장애인 복지카드 소지자",
+  "summary": "용산구시설관리공단에서 제공하는 문화·환경 혜택입니다. 장애인에게 문화체육센터 프로그램 이용요금 50%감면",
+  "supportType": "시설이용",
+  "supportSummary": "중증,경증 장애인 50% 할인 (중증장애인 보호자 1인 포함)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00024000005",
+  "onlineUrl": "",
+  "inquiry": [
+    "용산청소년센터/02-749-0102(519)"
+  ],
+  "updatedAt": "2026-03-05",
+  "registeredAt": "2022-07-15",
+  "viewCount": 473,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "장애인에게 문화체육센터 프로그램 이용요금 50%감면",
+  "target": "장애인 복지카드 소지자",
+  "selectionCriteria": "",
+  "supportContent": "중증,경증 장애인 50% 할인 (중증장애인 보호자 1인 포함)",
+  "applicationMethod": "○ 방문 신청\n - 용산청소년센터 직접 방문 후 해당 서류 제출",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "용산청소년센터/02-749-0102(519)",
+  "ageMin": 0,
+  "ageMax": 120
+}

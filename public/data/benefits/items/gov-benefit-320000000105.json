@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-320000000105",
+  "sourceId": "320000000105",
+  "title": "임산부 서비스 지원",
+  "field": "임신·출산",
+  "provider": "서울특별시 관악구",
+  "providerType": "자치구",
+  "district": "관악구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 관내 임신 가정 및 임산부",
+  "summary": "서울특별시 관악구에서 제공하는 임신·출산 혜택입니다. 임산부 건강관리 서비스 제공",
+  "supportType": "서비스(의료)",
+  "supportSummary": "○ 임산부 초기검사(~12주), 태아 기형아검사(10~18주)\n○ 엽산제 지원(~12주), 철분제 지원(16~40주)\n○ 유축기 대여(대여기간:40일)\n○ 임산부자동차 표지 발급(~분만후 6개월)\n○ 임신체험복 대여(1주일)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청",
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000105",
+  "onlineUrl": "https://www.gwanak.go.kr/site/health/reservationHealth/reservationHealthView.do?riIdx=RI000103",
+  "inquiry": [
+    "지역보건과/02-879-7156"
+  ],
+  "updatedAt": "2026-01-30",
+  "registeredAt": "2021-09-23",
+  "viewCount": 859,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "임산부 건강관리 서비스 제공",
+  "target": "○ 관내 임신 가정 및 임산부",
+  "selectionCriteria": "",
+  "supportContent": "○ 임산부 초기검사(~12주), 태아 기형아검사(10~18주)\n○ 엽산제 지원(~12주), 철분제 지원(16~40주)\n○ 유축기 대여(대여기간:40일)\n○ 임산부자동차 표지 발급(~분만후 6개월)\n○ 임신체험복 대여(1주일)",
+  "applicationMethod": "○ 임신초기검사, 태아 기형아검사 : 방문 신청(보건소 5층 모성실)\n\n○ 유축기 대여 : 관악구 보건소 홈페이지 > 온라인서비스 > 인터넷예약 > 모유수유 전동유축기 대여\n\n○ 엽산제, 철분제 지원 : 정부24(맘편한 임신) /  방문신청(보건소 5층 모성실)\n\n○ 임신 체험복 대여 : 방문신청(모성실 전화 예약 02-879-7161)\n\n○ 임산부 자동차 표지발급 : 방문신청(보건소 5층 모성실)",
+  "documents": "공통 구비서류 : 신분증\n○ 임신초기검사 : 임신확인서 또는 산모수첩\n○ 태아 기형아검사 : 검사 당일 시행한 초음파사진 지참(NT값, 초음파주수 표기)\n○ 임산부자동차 표지 발급(1대) : (본인소유)자동차등록증 / (배우자소유)자동차등록증, 가족관계증명서(또는 등본)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "모자보건법"
+  ],
+  "ordinance": "",
+  "inquiryText": "지역보건과/02-879-7156",
+  "ageMin": 18,
+  "ageMax": 44
+}

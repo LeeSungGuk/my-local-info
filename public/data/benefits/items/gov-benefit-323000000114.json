@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-323000000114",
+  "sourceId": "323000000114",
+  "title": "(송파구)공동주택 유지관리비용 일부지원",
+  "field": "행정·안전",
+  "provider": "서울특별시 송파구",
+  "providerType": "자치구",
+  "district": "송파구",
+  "userType": "법인/시설/단체",
+  "deadlineText": "공고문에 접수시기 안내(매년 1월~2월)",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "사용승인후 10년 경과된 공동주택(30세대 이상)",
+  "summary": "서울특별시 송파구에서 제공하는 행정·안전 혜택입니다. 준공 후 10년 이상 경과된 공동주택의 공동시설물 유지관리 비용을 지원하여, 관내 공동주택에 안전하고 쾌적한 생활환경을 조성하고자 함.",
+  "supportType": "현금",
+  "supportSummary": "사용승인 후 10년 경과된 공동주택을 대상으로 시설물 유지비용 일부 지원\n(어린이놀이터 보수: 5년이상, 옥외보안등전기료: 1년이상)\n - 지원항목 :  '송파구 공동주택 지원 조례'에 의거, 주도로 보수, 하수도 유지보수, 보안등 유지보수 등 지원\n - 지원기준 :…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/323000000114",
+  "onlineUrl": "",
+  "inquiry": [
+    "주택관리과/02-2147-2979"
+  ],
+  "updatedAt": "2026-01-27",
+  "registeredAt": "2021-09-23",
+  "viewCount": 821,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "준공 후 10년 이상 경과된 공동주택의 공동시설물 유지관리 비용을 지원하여, 관내 공동주택에 안전하고 쾌적한 생활환경을 조성하고자 함.",
+  "target": "사용승인후 10년 경과된 공동주택(30세대 이상)",
+  "selectionCriteria": "",
+  "supportContent": "사용승인 후 10년 경과된 공동주택을 대상으로 시설물 유지비용 일부 지원\n(어린이놀이터 보수: 5년이상, 옥외보안등전기료: 1년이상)\n - 지원항목 :  '송파구 공동주택 지원 조례'에 의거, 주도로 보수, 하수도 유지보수, 보안등 유지보수 등 지원\n - 지원기준 : 지원한도는 예산범위 5%이내, 격년제 지원\n - 지원금액 : '지원 조례' [별표]를 기준으로 총사업비 구간별로 지원비율이 달라지며, 매년 예산상황에 따라 지원비율을 증감하여 운영함.",
+  "applicationMethod": "관할 주민센터 방문신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 송파구 공동주택 지원 조례",
+  "inquiryText": "주택관리과/02-2147-2979",
+  "ageMin": 0,
+  "ageMax": 0
+}

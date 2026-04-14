@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-302000000103",
+  "sourceId": "302000000103",
+  "title": "보호대상아동 지원",
+  "field": "보육·교육",
+  "provider": "서울특별시 용산구",
+  "providerType": "자치구",
+  "district": "용산구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 가정위탁 보호아동, 아동복지시설 생활아동, 아동복지시설",
+  "summary": "서울특별시 용산구에서 제공하는 보육·교육 혜택입니다. 가정위탁보호 아동 등을 대상으로 양육비, 위문금 등 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 서비스내용\n - 가정위탁 보호아동 양육비\n - 아동복지시설 가정의 달 위문\n - 가정위탁 보호아동 생일 격려금\n - 가정위탁 보호아동 연말 위문금\n - 가정위탁 보호아동 졸업 축하금\n - 아동 양육시설 명절 위문(설·추석)\n - 가정위탁 보호아동 가정의 달 위문금…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/302000000103",
+  "onlineUrl": "",
+  "inquiry": [
+    "아동청소년과/02-2199-7033"
+  ],
+  "updatedAt": "2026-02-06",
+  "registeredAt": "2021-09-23",
+  "viewCount": 729,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "가정위탁보호 아동 등을 대상으로 양육비, 위문금 등 지원",
+  "target": "○ 가정위탁 보호아동, 아동복지시설 생활아동, 아동복지시설",
+  "selectionCriteria": "",
+  "supportContent": "○ 서비스내용\n - 가정위탁 보호아동 양육비\n - 아동복지시설 가정의 달 위문\n - 가정위탁 보호아동 생일 격려금\n - 가정위탁 보호아동 연말 위문금\n - 가정위탁 보호아동 졸업 축하금\n - 아동 양육시설 명절 위문(설·추석)\n - 가정위탁 보호아동 가정의 달 위문금\n - 가정위탁 보호아동 명절 위문금(설·추석)\n - 아동 양육시설 생활아동 명절위문(설·추석)\n - 가정위탁 보호아동 문화 체육활동 지원금(여름/겨울방학)",
+  "applicationMethod": "○ 개인 신청절차 없음\n - 신청 불요",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "아동복지법"
+  ],
+  "ordinance": "",
+  "inquiryText": "아동청소년과/02-2199-7033",
+  "ageMin": 0,
+  "ageMax": 17
+}

@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-304000000189",
+  "sourceId": "304000000189",
+  "title": "영세 봉제업자 작업환경개선 지원",
+  "field": "행정·안전",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "소상공인",
+  "deadlineText": "2026년 3월~4월 중 예정",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "광진구에 사업장을 둔 5대 제조업체(의류봉제·기계금속·인쇄·주얼리·수제화)로 상시 근로자 수가 10인 미만인 소공인",
+  "summary": "서울특별시 광진구에서 제공하는 행정·안전 혜택입니다. ㅇ 영세하고 노후화된 5대 제조업 현장 근무 위해요인 제거 및 안전한 환경 조성\nㅇ 작업능률향상을 위한 스마트 공정화 및 설비 지원으로 생산성 향상 도모",
+  "supportType": "현물",
+  "supportSummary": "안전과 직결되는 안전 필수설비 지원 (최대 900만원)\n  - 소화기, 화재감지기 등 안전 필수설비\n  -  흡음·방음 설비, 흡입기·집진기, 환풍기 등 위해요소 제거 및 근로환경 개선 물품\n  - 재단테이블, 작업의자 등 능률 향상을 위한 물품 등\n  ※ 지원액의…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000189",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 지역경제과/02-450-7376"
+  ],
+  "updatedAt": "2026-01-29",
+  "registeredAt": "2021-11-12",
+  "viewCount": 575,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "ㅇ 영세하고 노후화된 5대 제조업 현장 근무 위해요인 제거 및 안전한 환경 조성\nㅇ 작업능률향상을 위한 스마트 공정화 및 설비 지원으로 생산성 향상 도모",
+  "target": "광진구에 사업장을 둔 5대 제조업체(의류봉제·기계금속·인쇄·주얼리·수제화)로 상시 근로자 수가 10인 미만인 소공인",
+  "selectionCriteria": "",
+  "supportContent": "안전과 직결되는 안전 필수설비 지원 (최대 900만원)\n  - 소화기, 화재감지기 등 안전 필수설비\n  -  흡음·방음 설비, 흡입기·집진기, 환풍기 등 위해요소 제거 및 근로환경 개선 물품\n  - 재단테이블, 작업의자 등 능률 향상을 위한 물품 등\n  ※ 지원액의 10% 자부담",
+  "applicationMethod": "○ 방문신청\n - 시군구 : 광진구청 지역경제과 산업진흥팀 방문신청",
+  "documents": "전화문의 (☎ 02-450-7376) 또는 공고문 참조",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "도시형소공인 지원에 관한 특별법"
+  ],
+  "ordinance": "",
+  "inquiryText": "광진구 지역경제과/02-450-7376",
+  "ageMin": 19,
+  "ageMax": 120
+}

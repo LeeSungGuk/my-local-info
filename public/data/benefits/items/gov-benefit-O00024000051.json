@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00024000051",
+  "sourceId": "O00024000051",
+  "title": "용산청소년센터 프로그램 할인(국가유공자)",
+  "field": "문화·환경",
+  "provider": "용산구시설관리공단",
+  "providerType": "자치구",
+  "district": "용산구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "국가유공자등 예우 및 지원에 관한 법률에 의하여 등록된 국가유공자 또는 그 가족",
+  "summary": "용산구시설관리공단에서 제공하는 문화·환경 혜택입니다. 국가유공자에게 청소년센터 프로그램 이용요금 50%감면",
+  "supportType": "시설이용",
+  "supportSummary": "○ 문화체육 프로그램 감면\n - 국가유공자 : 이용료 50% 감면\n - 국가유공자 본인 및 배우자, 애국지사 및 상이등급 1급 해당자의 활동을 보조하는 자",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00024000051",
+  "onlineUrl": "",
+  "inquiry": [
+    "용산청소년센터/02-749-0102(519)"
+  ],
+  "updatedAt": "2026-03-05",
+  "registeredAt": "2024-02-14",
+  "viewCount": 153,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "국가유공자에게 청소년센터 프로그램 이용요금 50%감면",
+  "target": "국가유공자등 예우 및 지원에 관한 법률에 의하여 등록된 국가유공자 또는 그 가족",
+  "selectionCriteria": "",
+  "supportContent": "○ 문화체육 프로그램 감면\n - 국가유공자 : 이용료 50% 감면\n - 국가유공자 본인 및 배우자, 애국지사 및 상이등급 1급 해당자의 활동을 보조하는 자",
+  "applicationMethod": "방문신청\n용산청소년센터 프로그램 등록 시 해당 서류(신분) 확인",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "용산청소년센터/02-749-0102(519)",
+  "ageMin": 0,
+  "ageMax": 120
+}

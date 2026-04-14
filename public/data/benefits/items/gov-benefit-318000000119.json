@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-318000000119",
+  "sourceId": "318000000119",
+  "title": "장애인휠체어 등 수리비 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 영등포구",
+  "providerType": "자치구",
+  "district": "영등포구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 영등포구 등록장애인 중 저소득층 및 일반 장애인",
+  "summary": "서울특별시 영등포구에서 제공하는 보건·의료 혜택입니다. 장애로 인한 이동 불편을 최소화하고 휠체어의 원활한 사용을 지원하여 장애인의 일상생활 편의 증진과 자립적인 사회활동을 도모",
+  "supportType": "현금",
+  "supportSummary": "○ 영등포구 등록 장애인 중 전동휠체어, 전동스쿠터, 수동휠체어 수리비 지원\n - 기초생활수급자 및 차상위계층 장애인 : 연간 30만원\n - 일반장애인:  1회 수리비의 50% 연간 10만원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000119",
+  "onlineUrl": "",
+  "inquiry": [
+    "장애인복지과/02-2670-3404"
+  ],
+  "updatedAt": "2026-02-05",
+  "registeredAt": "2021-09-23",
+  "viewCount": 762,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "장애로 인한 이동 불편을 최소화하고 휠체어의 원활한 사용을 지원하여 장애인의 일상생활 편의 증진과 자립적인 사회활동을 도모",
+  "target": "○ 영등포구 등록장애인 중 저소득층 및 일반 장애인",
+  "selectionCriteria": "",
+  "supportContent": "○ 영등포구 등록 장애인 중 전동휠체어, 전동스쿠터, 수동휠체어 수리비 지원\n - 기초생활수급자 및 차상위계층 장애인 : 연간 30만원\n - 일반장애인:  1회 수리비의 50% 연간 10만원",
+  "applicationMethod": "○ 방문 신청\n\n - 주민센터 : 거주지 관할 읍면동 주민센터에 방문 신청\n \n   ※ 동주민센터에서 의뢰서 신청 접수, 지정 수리업체에 발송하여 휠체어 수리 진행.\n        관내 주민등록된 등록 장애인 여부 확인 등 주민센터의 의뢰서 신청 접수 필히 요구되어 정부24(혜택알리미)를 통한 온라인 신청에 어려움.",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "장애인ㆍ노인 등을 위한 보조기기 지원 및 활용촉진에 관한 법률"
+  ],
+  "ordinance": "서울특별시 영등포구 장애인휠체어 등 수리 지원에 관한 조례",
+  "inquiryText": "장애인복지과/02-2670-3404",
+  "ageMin": 0,
+  "ageMax": 120
+}

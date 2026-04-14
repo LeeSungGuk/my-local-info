@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-303000000307",
+  "sourceId": "303000000307",
+  "title": "미혼모.미혼부 냉난방비 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 성동구",
+  "providerType": "자치구",
+  "district": "성동구",
+  "userType": "가구",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "*당해년도 한부모가족 복지급여 지급기준에 적합한 성동구 거주 미혼모.미혼부 한부모가족",
+  "summary": "서울특별시 성동구에서 제공하는 생활안정 혜택입니다. 경제적 어려움을 겪고 있을 확률이 높은 미혼모부 한부모가족에게 냉난방비를 지원하여 생활안정을 도모하고자 함.",
+  "supportType": "현금",
+  "supportSummary": "*미혼모,미혼부 냉난방비 지원\n - 지원대상: 저소득 한부모가족 중 성동구에 6개월 이상 거주한 미혼모,미혼부 가구\n - 지원내용:  1월~2월, 7월~8월 / 월별 2만5천원 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000307",
+  "onlineUrl": "",
+  "inquiry": [
+    "성평등가족과/02-2286-6840"
+  ],
+  "updatedAt": "2026-02-02",
+  "registeredAt": "2023-12-05",
+  "viewCount": 784,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "경제적 어려움을 겪고 있을 확률이 높은 미혼모부 한부모가족에게 냉난방비를 지원하여 생활안정을 도모하고자 함.",
+  "target": "*당해년도 한부모가족 복지급여 지급기준에 적합한 성동구 거주 미혼모.미혼부 한부모가족",
+  "selectionCriteria": "",
+  "supportContent": "*미혼모,미혼부 냉난방비 지원\n - 지원대상: 저소득 한부모가족 중 성동구에 6개월 이상 거주한 미혼모,미혼부 가구\n - 지원내용:  1월~2월, 7월~8월 / 월별 2만5천원 지원",
+  "applicationMethod": "해당 서비스는 신청없이 자격대상자에게 자동적으로 제공되나, 관할 동주민센터에 신청하시면 지원이 가능합니다.",
+  "documents": "-",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 성동구 미혼모·미혼부 지원에 관한 조례(제5조, 제7항)",
+  "inquiryText": "성평등가족과/02-2286-6840",
+  "ageMin": 18,
+  "ageMax": 120
+}

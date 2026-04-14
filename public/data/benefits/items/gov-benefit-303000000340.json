@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-303000000340",
+  "sourceId": "303000000340",
+  "title": "거리노숙인 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 성동구",
+  "providerType": "자치구",
+  "district": "성동구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "폭염, 한파 등으로 지원이 필요한 거리노숙인",
+  "summary": "서울특별시 성동구에서 제공하는 생활안정 혜택입니다. 폭염, 한파 등에 취약한 거리노숙인 지원",
+  "supportType": "현물",
+  "supportSummary": "거리노숙인 폭염, 한파 구호물품 등 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000340",
+  "onlineUrl": "",
+  "inquiry": [
+    "기초복지과/02-2286-6712"
+  ],
+  "updatedAt": "2026-02-05",
+  "registeredAt": "2025-11-18",
+  "viewCount": 373,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "폭염, 한파 등에 취약한 거리노숙인 지원",
+  "target": "폭염, 한파 등으로 지원이 필요한 거리노숙인",
+  "selectionCriteria": "",
+  "supportContent": "거리노숙인 폭염, 한파 구호물품 등 지원",
+  "applicationMethod": "해당 서비스는 신청없이 자격대상자에게 자동적으로 제공됩니다.",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "노숙인 등의 복지 및 자립지원에 관한 법률"
+  ],
+  "ordinance": "",
+  "inquiryText": "기초복지과/02-2286-6712",
+  "ageMin": 18,
+  "ageMax": 120
+}

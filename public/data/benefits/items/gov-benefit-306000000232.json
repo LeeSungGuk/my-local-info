@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-306000000232",
+  "sourceId": "306000000232",
+  "title": "중랑구 환경교육센터 프로그램 신청",
+  "field": "보육·교육",
+  "provider": "서울특별시 중랑구",
+  "providerType": "자치구",
+  "district": "중랑구",
+  "userType": "개인",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "ㅇ 중랑구민 누구나\n  * 타구민의 경우 신청은 가능하나 중랑구민보다 후순위",
+  "summary": "서울특별시 중랑구에서 제공하는 보육·교육 혜택입니다. 중랑구 환경교육센터 홈페이지를 통해 중요한 환경 관련 정보와 센터에서 진행하는 프로그램 안내, 수강신청을 통해 주민들의 참여 독려 및 환경감수성 제고",
+  "supportType": "기타(교육)",
+  "supportSummary": "ㅇ 홈페이지를 통해 시기에 따라 다른 교육을 제공하며 개인 또는 단체의 개별 신청 \n   *월요일은 휴관으로 문의는 화~토요일만 가능\n\nㅇ 대상별 맞춤형 환경 교육 진행\n  - 생애주기별 환경교육 : 생애주기 맞춤형 환경교육 프로그램 설계 및 운영\n  - 전시체험교육…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/306000000232",
+  "onlineUrl": "https://www.jungnang.go.kr/ecoEdu/app/ecoEdu/list.do?programId=ecoEdu&amp;menuNo=360012",
+  "inquiry": [
+    "중랑구 환경교육센터/02-3423-2981"
+  ],
+  "updatedAt": "2026-03-09",
+  "registeredAt": "2025-08-28",
+  "viewCount": 111,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "중랑구 환경교육센터 홈페이지를 통해 중요한 환경 관련 정보와 센터에서 진행하는 프로그램 안내, 수강신청을 통해 주민들의 참여 독려 및 환경감수성 제고",
+  "target": "ㅇ 중랑구민 누구나\n  * 타구민의 경우 신청은 가능하나 중랑구민보다 후순위",
+  "selectionCriteria": "",
+  "supportContent": "ㅇ 홈페이지를 통해 시기에 따라 다른 교육을 제공하며 개인 또는 단체의 개별 신청 \n   *월요일은 휴관으로 문의는 화~토요일만 가능\n\nㅇ 대상별 맞춤형 환경 교육 진행\n  - 생애주기별 환경교육 : 생애주기 맞춤형 환경교육 프로그램 설계 및 운영\n  - 전시체험교육 : 실감미디어 바탕 상설기획 전시 운영, 전시 기반 게임형 체험교육 운영\n  - 학교환경교육 : 유아 ~ 고등학교 교과과정 및 학교 연계 환경교육 프로그램 운영\n  - 민·관 협력 환경교육 : 관내 기관ㆍ동 주민자치회 방문 및 행사·축제 현장 환경교육",
+  "applicationMethod": "ㅇ 중랑구 환경교육센터 홈페이지 방문 > 교육 프로그램 > 수강신청 > 수강을 원하는 수업 자세히 보기 후 수강신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "환경교육의 활성화 및 지원에 관한 법률"
+  ],
+  "ordinance": "서울특별시 중랑구 환경교육 활성화 및 지원 조례",
+  "inquiryText": "중랑구 환경교육센터/02-3423-2981",
+  "ageMin": 0,
+  "ageMax": 120
+}

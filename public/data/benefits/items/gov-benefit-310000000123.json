@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-310000000123",
+  "sourceId": "310000000123",
+  "title": "북한이탈주민 교육비 지원",
+  "field": "보육·교육",
+  "provider": "서울특별시 노원구",
+  "providerType": "자치구",
+  "district": "노원구",
+  "userType": "개인",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 노원구 거주 취약계층 북한이탈주민",
+  "summary": "서울특별시 노원구에서 제공하는 보육·교육 혜택입니다. 북한이탈주민의 지역사회 적응과 안정적인 정착을 위한 직업훈련 교육비 및 자녀 방문학습지 지원 사업을 추진하여\n균등한 교육 및 자립의 기회를 제공하고, 삶의 질 향상에 도움을 주고자 함.",
+  "supportType": "기타(교육)",
+  "supportSummary": "○ 직업훈련 교육비 지원\n  - 노원여성인력개발센터 : 요양보호사,ITQ, 정리수납과정, 바리스타교육 등  \n  - 북부기술교육원 : 조경기능사, 건축도장기능사, 자동차정비기능사, 도배기능사 등\n○ 자녀 벙문학습지 지원\n  - 국어, 영어, 수학, 숫자, 과학, 한자…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/310000000123",
+  "onlineUrl": "",
+  "inquiry": [
+    "복지정책과/02-2116-3646"
+  ],
+  "updatedAt": "2026-03-05",
+  "registeredAt": "2021-09-23",
+  "viewCount": 739,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "북한이탈주민의 지역사회 적응과 안정적인 정착을 위한 직업훈련 교육비 및 자녀 방문학습지 지원 사업을 추진하여\n균등한 교육 및 자립의 기회를 제공하고, 삶의 질 향상에 도움을 주고자 함.",
+  "target": "○ 노원구 거주 취약계층 북한이탈주민",
+  "selectionCriteria": "",
+  "supportContent": "○ 직업훈련 교육비 지원\n  - 노원여성인력개발센터 : 요양보호사,ITQ, 정리수납과정, 바리스타교육 등  \n  - 북부기술교육원 : 조경기능사, 건축도장기능사, 자동차정비기능사, 도배기능사 등\n○ 자녀 벙문학습지 지원\n  - 국어, 영어, 수학, 숫자, 과학, 한자, 독서 등",
+  "applicationMethod": "○ 방문 신청\n - 기타 : 서울북부하나센터(02-975-2465)",
+  "documents": "북한이탈주민등록확인서",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "북한이탈주민의 보호 및 정착지원에 관한 법률"
+  ],
+  "ordinance": "서울특별시 노원구 북한이탈주민의 정착지원에 관한 조례",
+  "inquiryText": "복지정책과/02-2116-3646",
+  "ageMin": 0,
+  "ageMax": 120
+}

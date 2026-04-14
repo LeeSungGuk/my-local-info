@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-318000000107",
+  "sourceId": "318000000107",
+  "title": "의료급여 수급권자 일반검진비 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 영등포구",
+  "providerType": "자치구",
+  "district": "영등포구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○일반건강검진: 영등포구 관내 의료급여 수급권자 중 해당년도 대상자(20세~64세)\n○의료급여생애전환기검진: 영등포구 관내 의료급여 수급권자 중 해당년도 대상자(66세 이상)",
+  "summary": "서울특별시 영등포구에서 제공하는 보건·의료 혜택입니다. 의료급여 수급권자에게 일반검진비 지원",
+  "supportType": "서비스(의료)",
+  "supportSummary": "○ 의료급여수급권자 일반건강검진 : 20~64세 의료급여수급자를 대상으로 2년마다 출생연도에 따라 실시 \n○ 의료급여 생애전환기 검진 안내 : 66세 이상 의료급여수급자를 대상으로 2년마다 출생연도에 따라 실시",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000107",
+  "onlineUrl": "",
+  "inquiry": [
+    "의약과/02-2670-4857"
+  ],
+  "updatedAt": "2026-02-06",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1125,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "의료급여 수급권자에게 일반검진비 지원",
+  "target": "○일반건강검진: 영등포구 관내 의료급여 수급권자 중 해당년도 대상자(20세~64세)\n○의료급여생애전환기검진: 영등포구 관내 의료급여 수급권자 중 해당년도 대상자(66세 이상)",
+  "selectionCriteria": "",
+  "supportContent": "○ 의료급여수급권자 일반건강검진 : 20~64세 의료급여수급자를 대상으로 2년마다 출생연도에 따라 실시 \n○ 의료급여 생애전환기 검진 안내 : 66세 이상 의료급여수급자를 대상으로 2년마다 출생연도에 따라 실시",
+  "applicationMethod": "○  건강검진 지정 의료기관에 방문신청",
+  "documents": "신분증",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "건강검진기본법(제5조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "의약과/02-2670-4857",
+  "ageMin": 20,
+  "ageMax": 120
+}

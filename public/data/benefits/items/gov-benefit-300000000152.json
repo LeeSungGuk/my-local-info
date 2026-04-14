@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-300000000152",
+  "sourceId": "300000000152",
+  "title": "경로당 취미교실 운영",
+  "field": "생활안정",
+  "provider": "서울특별시 종로구",
+  "providerType": "자치구",
+  "district": "종로구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 경로당 이용 어르신 중 희망자",
+  "summary": "서울특별시 종로구에서 제공하는 생활안정 혜택입니다. 경로당 취미교실(요가, 노래, 레크리에이션, 풍물, 장구, 한글서예)",
+  "supportType": "기타(교육)",
+  "supportSummary": "○ 경로당 이용 어르신 대상 취미교실\n - 운영대상: 희망 경로당 및 회원\n - 운영과목: 요가, 노래, 레크리에이션, 풍물, 장구, 한글서예\n - 운영시간: 주1회 90분",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000152",
+  "onlineUrl": "",
+  "inquiry": [
+    "어르신복지과/02-2148-2207"
+  ],
+  "updatedAt": "2026-01-29",
+  "registeredAt": "2022-10-28",
+  "viewCount": 575,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "경로당 취미교실(요가, 노래, 레크리에이션, 풍물, 장구, 한글서예)",
+  "target": "○ 경로당 이용 어르신 중 희망자",
+  "selectionCriteria": "",
+  "supportContent": "○ 경로당 이용 어르신 대상 취미교실\n - 운영대상: 희망 경로당 및 회원\n - 운영과목: 요가, 노래, 레크리에이션, 풍물, 장구, 한글서예\n - 운영시간: 주1회 90분",
+  "applicationMethod": "경로당에서 참여 가능",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 종로구 노인복지 증진 조례(제6조)",
+  "inquiryText": "어르신복지과/02-2148-2207",
+  "ageMin": 65,
+  "ageMax": 120
+}

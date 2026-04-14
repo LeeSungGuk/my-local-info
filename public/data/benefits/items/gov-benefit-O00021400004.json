@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00021400004",
+  "sourceId": "O00021400004",
+  "title": "장사시설 이용요금 면제",
+  "field": "생활안정",
+  "provider": "서울시설공단",
+  "providerType": "서울시",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "서울시 내 일원에서 발견된 무연고 행려사망자 및 유연고 행려 사망자 중 연고자가 사체 인수를 거부한 경우",
+  "summary": "서울시설공단에서 제공하는 생활안정 혜택입니다. 무연고 대상자에게 서울시 통합 장례 서비스 지원",
+  "supportType": "시설이용",
+  "supportSummary": "○ 장례 서비스 지원 \n - 「장사 등에 관한 법률」에 의한 무연고 대상자",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00021400004",
+  "onlineUrl": "",
+  "inquiry": [
+    "서울시설공단/031-960-0224"
+  ],
+  "updatedAt": "2026-01-23",
+  "registeredAt": "2022-07-15",
+  "viewCount": 657,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "무연고 대상자에게 서울시 통합 장례 서비스 지원",
+  "target": "서울시 내 일원에서 발견된 무연고 행려사망자 및 유연고 행려 사망자 중 연고자가 사체 인수를 거부한 경우",
+  "selectionCriteria": "",
+  "supportContent": "○ 장례 서비스 지원 \n - 「장사 등에 관한 법률」에 의한 무연고 대상자",
+  "applicationMethod": "○ 방문 신청\n - 주민센터 : 접수\n - 구청 : 접수",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "서울시설공단/031-960-0224",
+  "ageMin": 0,
+  "ageMax": 120
+}

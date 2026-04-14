@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-316000000131",
+  "sourceId": "316000000131",
+  "title": "다자녀 출생축하금 지원",
+  "field": "임신·출산",
+  "provider": "서울특별시 구로구",
+  "providerType": "자치구",
+  "district": "구로구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 구로구에 출생신고한 셋째 이상 신생아(24년 출생아부터)\n     * 출생일로부터 1년 이내 신청",
+  "summary": "서울특별시 구로구에서 제공하는 임신·출산 혜택입니다. 새로운 생명의 탄생을 축하하고 양육가정에 대한 경제적 부담을 경감시키고자 함.",
+  "supportType": "현금",
+  "supportSummary": "○ 신생아의 출생일을 기준으로 6개월 전부터 신청일 현재까지 계속하여 구로구에 주민등록을 두고 실제 거주하고 있는 보호자(신생아와 동일세대원)에게 출생축하금 지원\n - 셋째아: 60만원 지급\n - 넷째아 이상 : 200만원 지급",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/316000000131",
+  "onlineUrl": "",
+  "inquiry": [
+    "가족보육과/02-860-3013"
+  ],
+  "updatedAt": "2026-01-30",
+  "registeredAt": "2025-08-11",
+  "viewCount": 128,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "새로운 생명의 탄생을 축하하고 양육가정에 대한 경제적 부담을 경감시키고자 함.",
+  "target": "○ 구로구에 출생신고한 셋째 이상 신생아(24년 출생아부터)\n     * 출생일로부터 1년 이내 신청",
+  "selectionCriteria": "",
+  "supportContent": "○ 신생아의 출생일을 기준으로 6개월 전부터 신청일 현재까지 계속하여 구로구에 주민등록을 두고 실제 거주하고 있는 보호자(신생아와 동일세대원)에게 출생축하금 지원\n - 셋째아: 60만원 지급\n - 넷째아 이상 : 200만원 지급",
+  "applicationMethod": "○ 방문 신청\n - 주민센터 : 동주민센터 신청\n○ 온라인 신청\n - 정부24(혜택알리미) 서비스 신청(보완 요청 시, 방문 필요)",
+  "documents": "출생축하금 신청서, 통장사본",
+  "officialDocuments": "1. 가족관계증명서\n2. 주민등록초본(구로구 거주 기간)",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "저출산ㆍ고령사회기본법"
+  ],
+  "ordinance": "서울특별시 구로구 출산장려 및 다자녀 가정 지원에 관한 조례||서울특별시 구로구 출산장려 및 다자녀 가정 지원에 관한 조례",
+  "inquiryText": "가족보육과/02-860-3013",
+  "ageMin": 0,
+  "ageMax": 1
+}

@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-321000000126",
+  "sourceId": "321000000126",
+  "title": "임산부 영유아 등록관리 지원",
+  "field": "임신·출산",
+  "provider": "서울특별시 서초구",
+  "providerType": "자치구",
+  "district": "서초구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 모든 임산부(임산부 엠블럼, 영양제 등) \n\n      * 임산부검사, 모유수유클리닉, 유축기대여는 서초구 임산부만 가능",
+  "summary": "서울특별시 서초구에서 제공하는 임신·출산 혜택입니다. 안전한 임신ㆍ출산과 모성ㆍ영유아의 건강 유지 및 증진을 위한  지역사회 환경조성",
+  "supportType": "서비스(돌봄)",
+  "supportSummary": "임신초기검사, 기형아검사, 임신성 당뇨검사 등 임산부 산전관리\n임산부 영양제 지원\n모유수유 클리닉운영, 유축기 대여 지원사업 등 모유수유 권장환경 조성",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/321000000126",
+  "onlineUrl": "",
+  "inquiry": [
+    "건강관리과/02-2155-8067"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1261,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "안전한 임신ㆍ출산과 모성ㆍ영유아의 건강 유지 및 증진을 위한  지역사회 환경조성",
+  "target": "○ 모든 임산부(임산부 엠블럼, 영양제 등) \n\n      * 임산부검사, 모유수유클리닉, 유축기대여는 서초구 임산부만 가능",
+  "selectionCriteria": "",
+  "supportContent": "임신초기검사, 기형아검사, 임신성 당뇨검사 등 임산부 산전관리\n임산부 영양제 지원\n모유수유 클리닉운영, 유축기 대여 지원사업 등 모유수유 권장환경 조성",
+  "applicationMethod": "○ 방문 신청\n - 보건소 : 거주지 관할 보건소 방문\n\n○ 온라인 신청\n- 정부24 : 맘편한 임신서비스 지원",
+  "documents": "<공무원이 확인하는 서류>\n산모수첩 또는 임신확인서",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "모자보건법"
+  ],
+  "ordinance": "",
+  "inquiryText": "건강관리과/02-2155-8067",
+  "ageMin": 18,
+  "ageMax": 44
+}

@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-303000000341",
+  "sourceId": "303000000341",
+  "title": "구민 정보화교육",
+  "field": "보육·교육",
+  "provider": "서울특별시 성동구",
+  "providerType": "자치구",
+  "district": "성동구",
+  "userType": "개인",
+  "deadlineText": "전월 셋째주 월요일~금요일",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "성동구민 누구나 \n\n수강료 면제대상: 55세이상 구민, 국민기초생활수급자, 장애인, 새터민, 한부모가정, 결혼이민자 등",
+  "summary": "서울특별시 성동구에서 제공하는 보육·교육 혜택입니다. 디지털시대에 따른 구민의 삶의 질 향상과 정보 격차 해소 및 정보화 추진능력의 향상을 위해 기초부터 심화까지 수준별 정보화교육 제공",
+  "supportType": "기타(교육)",
+  "supportSummary": "[구민 정보화 교육]\n\n\n○ 교육대상: 성동구민(주민등록 기준)\n○ 접수기간: 전월 셋째주 월요일~금요일 ※ 상세 내용은 홈페이지 참고\n○ 교육내용: 스마트폰 기초 및 활용 과정, 컴퓨터 기초 및 엑셀 파워포인트, AI 활용 등\n○ 신청방법\n- 인터넷 접수 : 성동구…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000341",
+  "onlineUrl": "",
+  "inquiry": [
+    "정보통신과/02-2286-6380"
+  ],
+  "updatedAt": "2026-02-10",
+  "registeredAt": "2025-11-18",
+  "viewCount": 103,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "디지털시대에 따른 구민의 삶의 질 향상과 정보 격차 해소 및 정보화 추진능력의 향상을 위해 기초부터 심화까지 수준별 정보화교육 제공",
+  "target": "성동구민 누구나 \n\n수강료 면제대상: 55세이상 구민, 국민기초생활수급자, 장애인, 새터민, 한부모가정, 결혼이민자 등",
+  "selectionCriteria": "",
+  "supportContent": "[구민 정보화 교육]\n\n\n○ 교육대상: 성동구민(주민등록 기준)\n○ 접수기간: 전월 셋째주 월요일~금요일 ※ 상세 내용은 홈페이지 참고\n○ 교육내용: 스마트폰 기초 및 활용 과정, 컴퓨터 기초 및 엑셀 파워포인트, AI 활용 등\n○ 신청방법\n- 인터넷 접수 : 성동구청 홈페이지 구민 정보화교육 신청\n- 전화접수 : 02-2286-6024(콜센터)",
+  "applicationMethod": "○전화, 인터넷\n - 성동구 정보화교육 사이트 접속(https://www.sd.go.kr/booking/contents.do?key=4841)\n - 성동구 정보화교육 콜센터 문의 : 02-2286-6024",
+  "documents": "수강 첫날 신분증(본인 확인 용도)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "지능정보화 기본법(제50조)"
+  ],
+  "ordinance": "서울특별시 성동구 지능정보화 조례||서울특별시 성동구 지능정보화 조례",
+  "inquiryText": "정보통신과/02-2286-6380",
+  "ageMin": 0,
+  "ageMax": 120
+}

@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-302000000110",
+  "sourceId": "302000000110",
+  "title": "장애인 휠체어 수리 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 용산구",
+  "providerType": "자치구",
+  "district": "용산구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 용산구 거주 이동기구(수동휠체어, 전동휠체어, 스쿠터) 이용 장애인\n - 「국민기초생활 보장법」에 따른 수급자와 차상위계층에 해당하는 장애인 : 연간 30만원 이내\n - 일반 장애인 : 연간 20만원 이내",
+  "summary": "서울특별시 용산구에서 제공하는 생활안정 혜택입니다. 장애인을 대상으로 휠체어 수리 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 장애인을 대상으로 휠체어 수리 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/302000000110",
+  "onlineUrl": "",
+  "inquiry": [
+    "사회복지과/02-2199-7103"
+  ],
+  "updatedAt": "2026-02-09",
+  "registeredAt": "2021-09-23",
+  "viewCount": 844,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "장애인을 대상으로 휠체어 수리 지원",
+  "target": "○ 용산구 거주 이동기구(수동휠체어, 전동휠체어, 스쿠터) 이용 장애인\n - 「국민기초생활 보장법」에 따른 수급자와 차상위계층에 해당하는 장애인 : 연간 30만원 이내\n - 일반 장애인 : 연간 20만원 이내",
+  "selectionCriteria": "",
+  "supportContent": "○ 장애인을 대상으로 휠체어 수리 지원",
+  "applicationMethod": "○ 방문 신청\n - 기타 : 중증장애인독립생활연대",
+  "documents": "장애인 증명서(장애인복지카드 대체 가능), 수급자증명서(해당 시) or 차상위 증명서(해당 시)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 용산구 장애인 이동지원 보조기기 활용 촉진에 관한 조례",
+  "inquiryText": "사회복지과/02-2199-7103",
+  "ageMin": 0,
+  "ageMax": 120
+}

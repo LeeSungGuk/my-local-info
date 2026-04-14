@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-O00087800001",
+  "sourceId": "O00087800001",
+  "title": "청년창업센터 지원",
+  "field": "고용·창업",
+  "provider": "서울특별시 종로구",
+  "providerType": "자치구",
+  "district": "종로구",
+  "userType": "개인||법인/시설/단체",
+  "deadlineText": "비정기(모집공고 확인)",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 종로 청년창업센터 입주기업 \n - 입주조건 : 예비 또는 창업 7년 이내 청년기업(만 39세 이하)\n※홈페이지 모집공고 확인(비정기)",
+  "summary": "서울특별시 종로구에서 제공하는 고용·창업 혜택입니다. 청년창업지원",
+  "supportType": "서비스(일자리)",
+  "supportSummary": "○ 센터위치: 서울시 종로구 새문안로 41, 2~3층\n○ 입주대상: 예비 또는 창업 7년 이내 청년기업(39세 이하) \n○ 지원내용: 사무공간, 멘토링, 창업교육, 사업화자금 지원 등 초기창업 보육   \n\n※ (2024~2025년) 서울시 캠퍼스타운 공모사업 선정,…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00087800001",
+  "onlineUrl": "https://www.jongno.go.kr/portalMain.do",
+  "inquiry": [
+    "일자리정책과/02-2148-2314"
+  ],
+  "updatedAt": "2026-02-27",
+  "registeredAt": "2022-07-15",
+  "viewCount": 993,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "청년창업지원",
+  "target": "○ 종로 청년창업센터 입주기업 \n - 입주조건 : 예비 또는 창업 7년 이내 청년기업(만 39세 이하)\n※홈페이지 모집공고 확인(비정기)",
+  "selectionCriteria": "",
+  "supportContent": "○ 센터위치: 서울시 종로구 새문안로 41, 2~3층\n○ 입주대상: 예비 또는 창업 7년 이내 청년기업(39세 이하) \n○ 지원내용: 사무공간, 멘토링, 창업교육, 사업화자금 지원 등 초기창업 보육   \n\n※ (2024~2025년) 서울시 캠퍼스타운 공모사업 선정, 성균관대 캠퍼스타운사업과 연계 운영",
+  "applicationMethod": "종로구청 홈페이지 공고 확인",
+  "documents": "신청서, 사업계획서,  개인정보동의서 등(공고시 양식 안내)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "청년기본법(제18조)"
+  ],
+  "ordinance": "서울특별시 종로구 청년발전 및 지원 기본 조례(제10조)",
+  "inquiryText": "일자리정책과/02-2148-2314",
+  "ageMin": 19,
+  "ageMax": 39
+}

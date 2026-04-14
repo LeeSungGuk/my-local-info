@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-304000000154",
+  "sourceId": "304000000154",
+  "title": "광진구민 생활안전보험 지원",
+  "field": "행정·안전",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "보장기간 : 2025. 1. 1. ~ 2025. 12. 31. (12개월간)",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "광진구에 주민등록을 둔 모든 구민(등록외국인 포함)\n - 보험기간 중 전입자 자동 가입, 전출자 자동 해지",
+  "summary": "서울특별시 광진구에서 제공하는 행정·안전 혜택입니다. 각종 안전사고로부터 피해 입은 구민을 위한 보상제도  마련",
+  "supportType": "현금(보험)",
+  "supportSummary": "상해사망  500만원  / 상해진단 위로금  35만원 한도/ 상해의료비 75만원 한도 / \n어린이 보행 중 교통사고 100만원 한도 ( 자동차 사고부상등급표에 따라 지급 )",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000154",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 도시안전과/02-450-7905"
+  ],
+  "updatedAt": "2026-01-28",
+  "registeredAt": "2021-11-02",
+  "viewCount": 12695,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "각종 안전사고로부터 피해 입은 구민을 위한 보상제도  마련",
+  "target": "광진구에 주민등록을 둔 모든 구민(등록외국인 포함)\n - 보험기간 중 전입자 자동 가입, 전출자 자동 해지",
+  "selectionCriteria": "",
+  "supportContent": "상해사망  500만원  / 상해진단 위로금  35만원 한도/ 상해의료비 75만원 한도 / \n어린이 보행 중 교통사고 100만원 한도 ( 자동차 사고부상등급표에 따라 지급 )",
+  "applicationMethod": "보험사로 팩스나 이메일 청구 \n팩스 : 0507-774-0662\n메일:  simin@siminins.co.kr",
+  "documents": "1.보험금 청구서 \n2.개인정보동의서\n3.주민등록초본\n4.통장 사본\n5.초진기록지\n6.상해사고진단위로금 청구 시-  4주이상 진단 확인서류 (진단서 , 소견서)\n7.상해의료비 청구 시-진료비 영수증",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "재난 및 안전관리 기본법"
+  ],
+  "ordinance": "서울특별시 광진구 구민생활안전보험 운영 조례",
+  "inquiryText": "광진구 도시안전과/02-450-7905",
+  "ageMin": 0,
+  "ageMax": 120
+}

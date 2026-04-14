@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-611000019617",
+  "sourceId": "611000019617",
+  "title": "서울 청년 마음건강 지원 사업",
+  "field": "보호·돌봄",
+  "provider": "서울특별시",
+  "providerType": "서울시",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "분기별 모집(1월, 4월, 6월, 9월)",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "서울시 거주 만 19세~39세 청년\n('26년 기준 : 1986년생~2007년생)",
+  "summary": "서울특별시에서 제공하는 보호·돌봄 혜택입니다. 우울·불안 등 다양한 정서적 어려움을 겪는 청년을 대상으로 유형별 맞춤 서비스 제공과 체계적 사후 관리 지원을 통하여 청년 마음건강 증진을 도모하고자 함",
+  "supportType": "기타(상담)",
+  "supportSummary": "ㅇ 1:1 심층 심리상담 (최대 6회) + 유형별 사후관리 지원\n   － (마음검진) 사전 심리검사(2종) 및 심층상담을 통한 마음상태 유형 분류\n   － (자기이해상담) 유형군별 1:1 맞춤 상담 지원(최대 6회)\n   － (사후관리) 유형군별 상담 후속 프로그램…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000019617",
+  "onlineUrl": "https://youth.seoul.go.kr/mainA.do",
+  "inquiry": [
+    "서울시 청년사업담당관/02-2133-4329",
+    "서울광역청년센터/02-6358-0641"
+  ],
+  "updatedAt": "2026-02-04",
+  "registeredAt": "2025-07-02",
+  "viewCount": 1051,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "우울·불안 등 다양한 정서적 어려움을 겪는 청년을 대상으로 유형별 맞춤 서비스 제공과 체계적 사후 관리 지원을 통하여 청년 마음건강 증진을 도모하고자 함",
+  "target": "서울시 거주 만 19세~39세 청년\n('26년 기준 : 1986년생~2007년생)",
+  "selectionCriteria": "",
+  "supportContent": "ㅇ 1:1 심층 심리상담 (최대 6회) + 유형별 사후관리 지원\n   － (마음검진) 사전 심리검사(2종) 및 심층상담을 통한 마음상태 유형 분류\n   － (자기이해상담) 유형군별 1:1 맞춤 상담 지원(최대 6회)\n   － (사후관리) 유형군별 상담 후속 프로그램 제공(심리지원형, 성장지원형)",
+  "applicationMethod": "청년몽땅정보통(https://youth.seoul.go.kr)에서 온라인 신청\n    - 청년몽땅정보통 화면상단 [금융·복지] → [건강지원] → [서울시 청년 마음건강 지원]",
+  "documents": "제출 서류 없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "청년기본법(제21조)"
+  ],
+  "ordinance": "서울특별시 청년 기본 조례(제18조)",
+  "inquiryText": "서울시 청년사업담당관/02-2133-4329||서울광역청년센터/02-6358-0641",
+  "ageMin": 19,
+  "ageMax": 39
+}

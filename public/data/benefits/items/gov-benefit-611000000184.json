@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-611000000184",
+  "sourceId": "611000000184",
+  "title": "보훈예우수당",
+  "field": "생활안정",
+  "provider": "서울특별시",
+  "providerType": "서울시",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "개인 신청절차 없음",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 4.19혁명유공자, 5.18민주화운동유공자, 특수임무유공자, 전상군경, 공상군경, 공상공무원 등 국가유공자 본인\n  - 65세 이상\n  - 서울시 거주 1개월 이상",
+  "summary": "서울특별시에서 제공하는 생활안정 혜택입니다. 해당 유공자에 보훈예우수당 지급",
+  "supportType": "현금",
+  "supportSummary": "○ 서울시 1개월 이상 거주, 65세 이상인 4.19혁명유공자, 5.18민주화운동유공자, 특수임무유공자, 전상군경, 공상군경, 공상공무원 본인에 보훈예우수당 매월 15만원 지급",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000184",
+  "onlineUrl": "",
+  "inquiry": [
+    "서울시청 복지정책과/02-2133-7330"
+  ],
+  "updatedAt": "2026-01-23",
+  "registeredAt": "2023-08-25",
+  "viewCount": 1016,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "해당 유공자에 보훈예우수당 지급",
+  "target": "○ 4.19혁명유공자, 5.18민주화운동유공자, 특수임무유공자, 전상군경, 공상군경, 공상공무원 등 국가유공자 본인\n  - 65세 이상\n  - 서울시 거주 1개월 이상",
+  "selectionCriteria": "",
+  "supportContent": "○ 서울시 1개월 이상 거주, 65세 이상인 4.19혁명유공자, 5.18민주화운동유공자, 특수임무유공자, 전상군경, 공상군경, 공상공무원 본인에 보훈예우수당 매월 15만원 지급",
+  "applicationMethod": "○ 개인 신청절차 없음\n  - 직권지급",
+  "documents": "○ 직권지급으로 별도 구비서류 없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 국가보훈대상자 예우 및 지원에 관한 조례(제7조, 제4항)",
+  "inquiryText": "서울시청 복지정책과/02-2133-7330",
+  "ageMin": 65,
+  "ageMax": 120
+}

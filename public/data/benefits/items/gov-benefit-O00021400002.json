@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00021400002",
+  "sourceId": "O00021400002",
+  "title": "서울장애인콜택시 시티투어 프로그램 운영",
+  "field": "문화·환경",
+  "provider": "서울시설공단",
+  "providerType": "서울시",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "장애인콜택시 등록 이용고객",
+  "summary": "서울시설공단에서 제공하는 문화·환경 혜택입니다. 교통약자의 사회적 피로감 제공 위한 야외 나들이 지원",
+  "supportType": "서비스(돌봄)",
+  "supportSummary": "○ 교통약자의 사회적 피로감 해소를 위한 야외 나들이 \n - 선호도 반영된 문화공간, 야외시설 방문",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00021400002",
+  "onlineUrl": "www.sisul.or.kr",
+  "inquiry": [
+    "서울시설공단/02-2290-6554"
+  ],
+  "updatedAt": "2026-01-23",
+  "registeredAt": "2022-07-15",
+  "viewCount": 819,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "교통약자의 사회적 피로감 제공 위한 야외 나들이 지원",
+  "target": "장애인콜택시 등록 이용고객",
+  "selectionCriteria": "",
+  "supportContent": "○ 교통약자의 사회적 피로감 해소를 위한 야외 나들이 \n - 선호도 반영된 문화공간, 야외시설 방문",
+  "applicationMethod": "○ 온라인 신청\n - 서울시설공단 : www.sisul.or.kr",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "서울시설공단/02-2290-6554",
+  "ageMin": 0,
+  "ageMax": 120
+}

@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-324000000105",
+  "sourceId": "324000000105",
+  "title": "배움나눔사업",
+  "field": "보육·교육",
+  "provider": "서울특별시 강동구",
+  "providerType": "자치구",
+  "district": "강동구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 관내 법정 저소득 가정\n- 교육급여 수급자, 법정 한부모가정, 초중고학생교육비 지원 대상자",
+  "summary": "서울특별시 강동구에서 제공하는 보육·교육 혜택입니다. 저소득가정 청소년에게 학원 수강권 및 교재비 지원",
+  "supportType": "이용권",
+  "supportSummary": "○ 저소득가정 청소년에게 학원 수강권 및 교재비 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/324000000105",
+  "onlineUrl": "",
+  "inquiry": [
+    "복지정책과/02-3425-5643"
+  ],
+  "updatedAt": "2026-02-09",
+  "registeredAt": "2021-09-23",
+  "viewCount": 818,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "저소득가정 청소년에게 학원 수강권 및 교재비 지원",
+  "target": "○ 관내 법정 저소득 가정\n- 교육급여 수급자, 법정 한부모가정, 초중고학생교육비 지원 대상자",
+  "selectionCriteria": "",
+  "supportContent": "○ 저소득가정 청소년에게 학원 수강권 및 교재비 지원",
+  "applicationMethod": "○ 방문 신청\n - 주민센터 : 동 주민센터에서 신청서 접수",
+  "documents": "1. (공통) 신청서, 개인정보동의서\n2. (법정 저소득 가정이 아닌 경우 소득을 확인할수 있는 서류) 건겅보험료 납입증명서 (연1회 필수 제출)\n  ※ 부부가 각각 직장가입자인 경우, 부부 모두 제출",
+  "officialDocuments": "가족관계등록 전산정보(가족관계증명서 등)",
+  "identityDocuments": "가족관계등록 전산정보(가족관계증명서 등)",
+  "legalBasis": [
+    "청소년 기본법"
+  ],
+  "ordinance": "",
+  "inquiryText": "복지정책과/02-3425-5643",
+  "ageMin": 6,
+  "ageMax": 18
+}

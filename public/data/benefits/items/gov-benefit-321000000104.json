@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-321000000104",
+  "sourceId": "321000000104",
+  "title": "양·한방 진료 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 서초구",
+  "providerType": "자치구",
+  "district": "서초구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 만 15세 이상 시민",
+  "summary": "서울특별시 서초구에서 제공하는 보건·의료 혜택입니다. 건상상담 및 진료, 투약 등을 통한 질병예방 및 구민의 건강증진 도모",
+  "supportType": "서비스(의료)",
+  "supportSummary": "○ 만 15세 이상 진료를 원하는 시민에게 양·한방 진료, 의료서비스 제공\n\n  - 고혈압, 당뇨, 고지혈증 진료 및 처방증 발행\n -  금연약 처방\n -  성병검사, 당화혈색소 검사",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/321000000104",
+  "onlineUrl": "",
+  "inquiry": [
+    "의료지원과/02-2155-8105"
+  ],
+  "updatedAt": "2026-01-29",
+  "registeredAt": "2021-09-23",
+  "viewCount": 969,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "건상상담 및 진료, 투약 등을 통한 질병예방 및 구민의 건강증진 도모",
+  "target": "○ 만 15세 이상 시민",
+  "selectionCriteria": "",
+  "supportContent": "○ 만 15세 이상 진료를 원하는 시민에게 양·한방 진료, 의료서비스 제공\n\n  - 고혈압, 당뇨, 고지혈증 진료 및 처방증 발행\n -  금연약 처방\n -  성병검사, 당화혈색소 검사",
+  "applicationMethod": "○ 방문 신청\n - 보건소 : 거주지 관할 보건소 방문",
+  "documents": "신분증(주민등록증, 건강보험증, 운전면허증, 여권, 모바일신분증)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "지역보건법(제11조)",
+    "보건의료기본법"
+  ],
+  "ordinance": "",
+  "inquiryText": "의료지원과/02-2155-8105",
+  "ageMin": 15,
+  "ageMax": 120
+}

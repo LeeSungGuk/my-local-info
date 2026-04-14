@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-324000000115",
+  "sourceId": "324000000115",
+  "title": "국가보훈대상자 보훈수당 및 위문금 지급",
+  "field": "생활안정",
+  "provider": "서울특별시 강동구",
+  "providerType": "자치구",
+  "district": "강동구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 강동구 거주 수급자격요건을 갖춘 국가보훈대상자",
+  "summary": "서울특별시 강동구에서 제공하는 생활안정 혜택입니다. 국가보훈대상자에게 정기적인 보훈수당 및 위문금 지급",
+  "supportType": "현금",
+  "supportSummary": "○ 수급자격 요건을 갖춘 강동구 거주 국가보훈대상자에게  정기적 보훈수당 및  명절 및 호국보훈의달  위문금 등 지급",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/324000000115",
+  "onlineUrl": "",
+  "inquiry": [
+    "복지정책과/02-3425-5633"
+  ],
+  "updatedAt": "2026-02-09",
+  "registeredAt": "2021-09-23",
+  "viewCount": 974,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "국가보훈대상자에게 정기적인 보훈수당 및 위문금 지급",
+  "target": "○ 강동구 거주 수급자격요건을 갖춘 국가보훈대상자",
+  "selectionCriteria": "",
+  "supportContent": "○ 수급자격 요건을 갖춘 강동구 거주 국가보훈대상자에게  정기적 보훈수당 및  명절 및 호국보훈의달  위문금 등 지급",
+  "applicationMethod": "○ 방문 신청\n - 주민센터 : 유공자증, 통장사본 등 구비서류 지참하여 동주민센터 방문 신청",
+  "documents": "1. 국가유공자(유족)증\n2. 지급받을 계좌 통장 사본\n3. 신청자 본인 신분증",
+  "officialDocuments": "없음",
+  "identityDocuments": "대리인 신청 시 국가유공자 본인과 대리인과의 관계를 확인할 수 있는 가족관계증명서(일반)",
+  "legalBasis": [],
+  "ordinance": "서울특별시 강동구 국가보훈대상자 예우 및 지원에 관한 조례||서울특별시 강동구 국가보훈대상자 예우 및 지원에 관한 조례",
+  "inquiryText": "복지정책과/02-3425-5633",
+  "ageMin": 0,
+  "ageMax": 120
+}

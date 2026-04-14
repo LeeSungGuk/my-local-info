@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-314000000260",
+  "sourceId": "314000000260",
+  "title": "취약계층 대상포진 예방접종 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 양천구",
+  "providerType": "자치구",
+  "district": "양천구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 양천구에 1년 이상 주소를 두고 거주하는 65세 이상 기초생활수급자",
+  "summary": "서울특별시 양천구에서 제공하는 생활안정 혜택입니다. ○ 고령 인구 증가와 대상포진 발생률 상승에 대응\n○ 취약계층 어르신의 경제적 부담을 완화\n○ 구민의 예방접종 접근성과 요구를 충족",
+  "supportType": "서비스(의료)",
+  "supportSummary": "○ 대상 : 양천구에 1년 이상 거주한 65세 이상 기초생활수급자\n○ 내용 : 대상포진 예방접종 1회 무료 지원\n○ 장소 : 관내 대상포진 예방접종 위탁의료기관\n○ 준비물 : 신분증 + 수급자증명서 + 주민등록등·초본(최근 1개월 이내 발급 및 최근 1년간 주소변동사…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000260",
+  "onlineUrl": "",
+  "inquiry": [
+    "지역보건과/02-2620-3877"
+  ],
+  "updatedAt": "2026-03-18",
+  "registeredAt": "2025-11-03",
+  "viewCount": 68,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "○ 고령 인구 증가와 대상포진 발생률 상승에 대응\n○ 취약계층 어르신의 경제적 부담을 완화\n○ 구민의 예방접종 접근성과 요구를 충족",
+  "target": "○ 양천구에 1년 이상 주소를 두고 거주하는 65세 이상 기초생활수급자",
+  "selectionCriteria": "",
+  "supportContent": "○ 대상 : 양천구에 1년 이상 거주한 65세 이상 기초생활수급자\n○ 내용 : 대상포진 예방접종 1회 무료 지원\n○ 장소 : 관내 대상포진 예방접종 위탁의료기관\n○ 준비물 : 신분증 + 수급자증명서 + 주민등록등·초본(최근 1개월 이내 발급 및 최근 1년간 주소변동사항 포함)",
+  "applicationMethod": "해당 서비스는 의료기관에서 질병관리청 예방접종통합관리시스템을 통한 자격 확인 후, 자격대상자에게 의료서비스(예방접종)를 제공합니다.",
+  "documents": "○ 수급자증명서(최근 1개월 이내 발급)\n○ 주민등록초본(최근 1년간 주소 변동사항 포함)\n○ 신분증",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 양천구 대상포진 예방접종 지원 조례",
+  "inquiryText": "지역보건과/02-2620-3877",
+  "ageMin": 65,
+  "ageMax": 120
+}

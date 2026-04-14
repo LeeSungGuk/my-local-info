@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-304000000183",
+  "sourceId": "304000000183",
+  "title": "법률상담 무료 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "광진구민, 광진구 소재 사업장에 근무하는 직장인",
+  "summary": "서울특별시 광진구에서 제공하는 생활안정 혜택입니다. 무료 법률상담 지원",
+  "supportType": "기타(상담)",
+  "supportSummary": "생활 속 법률 관련 궁금증 및 불편해소를 위해 변호사·법무사와의 법률상담을 무료로 지원\n○ 상담시간\n  - 화요일(15:00~17:00) : (변호사) 행정·민사·형사 ·가사사건 등\n  - 수요일(15:00~17:00) : (법무사) 부동산등기, 생활법률 등\n  -…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000183",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 기획예산과/02-450-7264"
+  ],
+  "updatedAt": "2026-01-29",
+  "registeredAt": "2021-11-11",
+  "viewCount": 3567,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "무료 법률상담 지원",
+  "target": "광진구민, 광진구 소재 사업장에 근무하는 직장인",
+  "selectionCriteria": "",
+  "supportContent": "생활 속 법률 관련 궁금증 및 불편해소를 위해 변호사·법무사와의 법률상담을 무료로 지원\n○ 상담시간\n  - 화요일(15:00~17:00) : (변호사) 행정·민사·형사 ·가사사건 등\n  - 수요일(15:00~17:00) : (법무사) 부동산등기, 생활법률 등\n  - 목요일(15:00~17:00) : (변호사) 행정·민사·형사 ·가사사건 등\n○ 상담장소 : 광진구청 8층 법률상담실(교통행정과 맞은편)\n※ 유의사항 : 상담내용에 대한 전문가의 답변은 전문가 개인의 견해로 법적효력이 없으며, 판단 및 이에 따른 법적책임은 신청자(구민)께서 부담하셔야 합니다.",
+  "applicationMethod": "○ 사전예약 후 전화상담 진행\n  - 전화 : 02-450-7264\n  - FAX : 02-411-1721",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 광진구 전문가상담실 설치 및 운영 조례",
+  "inquiryText": "광진구 기획예산과/02-450-7264",
+  "ageMin": 20,
+  "ageMax": 200
+}

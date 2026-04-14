@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-305000000116",
+  "sourceId": "305000000116",
+  "title": "골다공증 예방을 위한 골밀도 검사 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 골밀도 검사 및 결과 상담\n\n   - 검사 대상 : 서울특별시 거주 주민 누구나\n   - 유료 : 서울특별시 거주 주민\n   - 무료 : 동대문구에 주민등록이 등재되어 있으며 의료급여법 제3조에 의한 수급권자 및 장애인복지법 시행규칙 제2조에 의한 1급, 2급,…",
+  "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 지역주민의 골밀도 검사 및 결과 상담, 진료 지원",
+  "supportType": "서비스(의료)",
+  "supportSummary": "○ 골밀도 검사 및 결과 상담 (진료 지원)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청",
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000116",
+  "onlineUrl": "",
+  "inquiry": [
+    "02-2127-5357/02-2127-5358"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2022-04-21",
+  "viewCount": 2421,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "지역주민의 골밀도 검사 및 결과 상담, 진료 지원",
+  "target": "○ 골밀도 검사 및 결과 상담\n\n   - 검사 대상 : 서울특별시 거주 주민 누구나\n   - 유료 : 서울특별시 거주 주민\n   - 무료 : 동대문구에 주민등록이 등재되어 있으며 의료급여법 제3조에 의한 수급권자 및 장애인복지법 시행규칙 제2조에 의한 1급, 2급, 3급 장애인\n   - 검사 수수료 : 5,000원",
+  "selectionCriteria": "",
+  "supportContent": "○ 골밀도 검사 및 결과 상담 (진료 지원)",
+  "applicationMethod": "○ 골밀도 검사 절차\n   - 골밀도검사대상자 예약 : 전화, 방문 / \n   - 문의 및 예약 전화 : 02-2127-5357, 5358",
+  "documents": "신분증",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "지역보건법(제11조, 제1항)"
+  ],
+  "ordinance": "",
+  "inquiryText": "02-2127-5357/02-2127-5358",
+  "ageMin": 0,
+  "ageMax": 120
+}

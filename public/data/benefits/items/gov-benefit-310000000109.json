@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-310000000109",
+  "sourceId": "310000000109",
+  "title": "장애인 명절위문금 지원",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 노원구",
+  "providerType": "자치구",
+  "district": "노원구",
+  "userType": "개인",
+  "deadlineText": "명절 전 신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 노원구 소재 장애인거주시설(6개소) 및 장애인직업재활시설(2개소) 이용 장애인",
+  "summary": "서울특별시 노원구에서 제공하는 보호·돌봄 혜택입니다. 장애인거주시설 및 직업재활시설 이용자를 위해 명절(설, 추석) 위문금 지원",
+  "supportType": "현금",
+  "supportSummary": "명절에(설,추석)에 노원구 소재 장애인거주시설(6개소) 및 장애인직업재활시설(2개소) 이용 장애인에게 1인당 2만원 지급",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/310000000109",
+  "onlineUrl": "",
+  "inquiry": [
+    "교육장애인복지과/02-2116-3310"
+  ],
+  "updatedAt": "2026-01-23",
+  "registeredAt": "2021-09-23",
+  "viewCount": 3577,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "장애인거주시설 및 직업재활시설 이용자를 위해 명절(설, 추석) 위문금 지원",
+  "target": "○ 노원구 소재 장애인거주시설(6개소) 및 장애인직업재활시설(2개소) 이용 장애인",
+  "selectionCriteria": "",
+  "supportContent": "명절에(설,추석)에 노원구 소재 장애인거주시설(6개소) 및 장애인직업재활시설(2개소) 이용 장애인에게 1인당 2만원 지급",
+  "applicationMethod": "○ 장애인복지시설에서 희망이음 시스템으로 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "장애인복지법"
+  ],
+  "ordinance": "서울특별시 노원구 저소득주민의 생활안정지원에 관한 조례(제2조)||서울특별시 노원구 저소득주민의 생활안정지원에 관한 조례(제3조)",
+  "inquiryText": "교육장애인복지과/02-2116-3310",
+  "ageMin": 0,
+  "ageMax": 120
+}

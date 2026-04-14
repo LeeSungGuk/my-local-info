@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-305000000289",
+  "sourceId": "305000000289",
+  "title": "물리치료 제공",
+  "field": "보건·의료",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "1차 진료실(내과)에서 진찰 후 처방에 의한 물리치료가 필요한 환자",
+  "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 1차 진료실(내과)에서 진찰 후 처방에 의한 물리치료 제공",
+  "supportType": "서비스(의료)",
+  "supportSummary": "1차 진료실(내과)에서 진찰 후 처방에 의한 물리치료 제공\n - 65세 이상, 의료보호대상자 무료\n - 그외 : 진찰+물리치료 1,600",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000289",
+  "onlineUrl": "",
+  "inquiry": [
+    "동대문구 물리치료실/02-2127-5369"
+  ],
+  "updatedAt": "2026-01-22",
+  "registeredAt": "2025-12-10",
+  "viewCount": 109,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "1차 진료실(내과)에서 진찰 후 처방에 의한 물리치료 제공",
+  "target": "1차 진료실(내과)에서 진찰 후 처방에 의한 물리치료가 필요한 환자",
+  "selectionCriteria": "",
+  "supportContent": "1차 진료실(내과)에서 진찰 후 처방에 의한 물리치료 제공\n - 65세 이상, 의료보호대상자 무료\n - 그외 : 진찰+물리치료 1,600",
+  "applicationMethod": "○ 방문 신청\n - 보건소 : 거주지 관할 보건소 방문",
+  "documents": "신분증",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "보건의료기본법"
+  ],
+  "ordinance": "",
+  "inquiryText": "동대문구 물리치료실/02-2127-5369",
+  "ageMin": 15,
+  "ageMax": 120
+}

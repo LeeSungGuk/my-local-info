@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00022600038",
+  "sourceId": "O00022600038",
+  "title": "거주자우선주차 요금감면(참전유공자)",
+  "field": "생활안정",
+  "provider": "광진구시설관리공단",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "참전유공자",
+  "summary": "광진구시설관리공단에서 제공하는 생활안정 혜택입니다. 참전유공자에게 거주자우선주차 요금 감면(20%)",
+  "supportType": "현금(감면)",
+  "supportSummary": "주차요금 감면(20%)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022600038",
+  "onlineUrl": "https://pk.gwangjin.or.kr/Account/Login",
+  "inquiry": [
+    "광진구시설관리공단 주차사업부/02-2049-4540"
+  ],
+  "updatedAt": "2026-02-25",
+  "registeredAt": "2025-01-22",
+  "viewCount": 7,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "참전유공자에게 거주자우선주차 요금 감면(20%)",
+  "target": "참전유공자",
+  "selectionCriteria": "",
+  "supportContent": "주차요금 감면(20%)",
+  "applicationMethod": "온라인 신청",
+  "documents": "○ 신청인 구비서류\n - 국가보훈등록증, 참전유공자 확인서\n - 주차표지판 앞, 뒤 사본 지참",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "광진구시설관리공단 주차사업부/02-2049-4540",
+  "ageMin": 65,
+  "ageMax": 120
+}

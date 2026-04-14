@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-300000000125",
+  "sourceId": "300000000125",
+  "title": "EM발효액 무상 보급",
+  "field": "문화·환경",
+  "provider": "서울특별시 종로구",
+  "providerType": "자치구",
+  "district": "종로구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 종로구민 누구나",
+  "summary": "서울특별시 종로구에서 제공하는 문화·환경 혜택입니다. em발효액을 주민들에게 무상으로 공급하여 악취제거, 소독 등 다방면으로 활용 할 수 있게함",
+  "supportType": "현물",
+  "supportSummary": "○ EM(Effective Microorganism) 발효액 배부\n   -  악취제거, 소독 등 다방면에 활용 할 수 있는 em발효액 공급\n   -  동주민센터에 em발효액 공급기를 설치하여 주민들이 무료로 가져갈 수 있도록 인프라 확충",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000125",
+  "onlineUrl": "",
+  "inquiry": [
+    "종로구청 청소행정과/02-2148-2379"
+  ],
+  "updatedAt": "2026-01-30",
+  "registeredAt": "2022-07-14",
+  "viewCount": 593,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "em발효액을 주민들에게 무상으로 공급하여 악취제거, 소독 등 다방면으로 활용 할 수 있게함",
+  "target": "○ 종로구민 누구나",
+  "selectionCriteria": "",
+  "supportContent": "○ EM(Effective Microorganism) 발효액 배부\n   -  악취제거, 소독 등 다방면에 활용 할 수 있는 em발효액 공급\n   -  동주민센터에 em발효액 공급기를 설치하여 주민들이 무료로 가져갈 수 있도록 인프라 확충",
+  "applicationMethod": "해당 서비스는 신청없이 자격대상자에게 자동적으로 제공됩니다.",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 종로구 클린넷(Clean Net) 구성 및 운영에 관한 조례(제4조, 제3항)",
+  "inquiryText": "종로구청 청소행정과/02-2148-2379",
+  "ageMin": 19,
+  "ageMax": 120
+}

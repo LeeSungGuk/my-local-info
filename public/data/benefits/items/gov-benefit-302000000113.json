@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-302000000113",
+  "sourceId": "302000000113",
+  "title": "출산지원금 지원",
+  "field": "임신·출산",
+  "provider": "서울특별시 용산구",
+  "providerType": "자치구",
+  "district": "용산구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○  2022.1.1. 이후 태어난 셋째아 이상 신생아의 부모로 신생아의 출생일 기준 1년전부터 용산구에 주민등록을 두고 거주한 경우(셋째아 200만원, 넷째아 이상 400만원)",
+  "summary": "서울특별시 용산구에서 제공하는 임신·출산 혜택입니다. 다자녀 가구에 출산지원금을 지급하여 다자녀 양육에 따른 경제적 부담을 완화하고 출산장려 분위기 조성",
+  "supportType": "현금",
+  "supportSummary": "○ 셋째아 이상을 출산한 부 또는 모로 출생아의 출생일 기준 1년 전부터 용산구에 주민등록을 두고 가주한 자에게 출산지원금 지급(2022.1.1. 이후 출생아에 적용)\n   ※ 출생일 기준 용산구 거주기간 1년 미만 시, 1년이 되는 날로부터 180일 이내에 신청 가능",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/302000000113",
+  "onlineUrl": "",
+  "inquiry": [
+    "가족정책과/02-2199-7175"
+  ],
+  "updatedAt": "2026-02-06",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1926,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "다자녀 가구에 출산지원금을 지급하여 다자녀 양육에 따른 경제적 부담을 완화하고 출산장려 분위기 조성",
+  "target": "○  2022.1.1. 이후 태어난 셋째아 이상 신생아의 부모로 신생아의 출생일 기준 1년전부터 용산구에 주민등록을 두고 거주한 경우(셋째아 200만원, 넷째아 이상 400만원)",
+  "selectionCriteria": "",
+  "supportContent": "○ 셋째아 이상을 출산한 부 또는 모로 출생아의 출생일 기준 1년 전부터 용산구에 주민등록을 두고 가주한 자에게 출산지원금 지급(2022.1.1. 이후 출생아에 적용)\n   ※ 출생일 기준 용산구 거주기간 1년 미만 시, 1년이 되는 날로부터 180일 이내에 신청 가능",
+  "applicationMethod": "○ 방문 신청\n - 주민센터 : 거주지 관할 주민센터에 방문 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 용산구 출산 및 양육지원에 관한 조례",
+  "inquiryText": "가족정책과/02-2199-7175",
+  "ageMin": 18,
+  "ageMax": 44
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-304000000186",
+  "sourceId": "304000000186",
+  "title": "소상공인 손실보상금 지원(현장신청 지원)",
+  "field": "생활안정",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "소상공인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "2021년 3분기~2022년 2분기 집합금지, 영업시간제한 방역조치로 경영상 손실이 발생한 소상공인, 소기업",
+  "summary": "서울특별시 광진구에서 제공하는 생활안정 혜택입니다. 방역조치로 경영상 손실이 발생한 소상공인에게 보상금 지원",
+  "supportType": "현금",
+  "supportSummary": "코로나19로 정부의 집합금지·영업시간 제한 방역조치를 이행한 소상공인에 대한 보상\n  - 업체별 손실규모에 비례해 맞춤형 보상금을 산정해 지급\n  - 상한액 1억원, 하한액 100만원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청",
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000186",
+  "onlineUrl": "https://xn--ob0bj71amzcca52h0a49u37n.kr/",
+  "inquiry": [
+    "광진구 지역경제과/02-450-7359"
+  ],
+  "updatedAt": "2026-01-30",
+  "registeredAt": "2021-11-12",
+  "viewCount": 1833,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "방역조치로 경영상 손실이 발생한 소상공인에게 보상금 지원",
+  "target": "2021년 3분기~2022년 2분기 집합금지, 영업시간제한 방역조치로 경영상 손실이 발생한 소상공인, 소기업",
+  "selectionCriteria": "",
+  "supportContent": "코로나19로 정부의 집합금지·영업시간 제한 방역조치를 이행한 소상공인에 대한 보상\n  - 업체별 손실규모에 비례해 맞춤형 보상금을 산정해 지급\n  - 상한액 1억원, 하한액 100만원",
+  "applicationMethod": "○ 온라인 신청 : 소상공인손실보상.kr (☎1533-3300)\n○ 방문신청 : 구청 손실보상금 현장 접수처 (☎ 02-450-7359)",
+  "documents": "사업자등록증 사본 또는 사업자등록증명, 신분증 등",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "소상공인 보호 및 지원에 관한 법률"
+  ],
+  "ordinance": "",
+  "inquiryText": "광진구 지역경제과/02-450-7359",
+  "ageMin": 0,
+  "ageMax": 0
+}

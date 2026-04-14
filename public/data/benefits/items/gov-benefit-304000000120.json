@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-304000000120",
+  "sourceId": "304000000120",
+  "title": "재가급여 본인부담금 지원(구비)",
+  "field": "보건·의료",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "65세이상 또는 65세 미만 노인성질환을 가진 국민기초생활보장 생계·의료급여, 기타의료수급자로 장기요양등급 판정을 받고 재가서비스를 이용하는 자",
+  "summary": "서울특별시 광진구에서 제공하는 보건·의료 혜택입니다. 재가서비스 이용하는 수급자에게 본인부담금 지원",
+  "supportType": "현금(보험)",
+  "supportSummary": "장기요양등급을 받은 어르신들에게 제공되는 재가급여 비용에 대한 본인부담금을 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000120",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 어르신복지과/02-450-1117"
+  ],
+  "updatedAt": "2026-02-03",
+  "registeredAt": "2021-09-23",
+  "viewCount": 799,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "재가서비스 이용하는 수급자에게 본인부담금 지원",
+  "target": "65세이상 또는 65세 미만 노인성질환을 가진 국민기초생활보장 생계·의료급여, 기타의료수급자로 장기요양등급 판정을 받고 재가서비스를 이용하는 자",
+  "selectionCriteria": "",
+  "supportContent": "장기요양등급을 받은 어르신들에게 제공되는 재가급여 비용에 대한 본인부담금을 지원",
+  "applicationMethod": "방문 신청 \n - 주민센터 : 국민기초 생활보장 생계·의료급여 수급자로 재가서비스 이용\n - 국민건강보험공단 : 장기요양등급판정자로 재가서비스 이용",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "노인장기요양보험법(제58조)"
+  ],
+  "ordinance": "서울특별시 노인장기요양보험 비용부담에 관한 조례",
+  "inquiryText": "광진구 어르신복지과/02-450-1117",
+  "ageMin": 65,
+  "ageMax": 120
+}

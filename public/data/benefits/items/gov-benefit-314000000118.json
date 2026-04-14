@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-314000000118",
+  "sourceId": "314000000118",
+  "title": "저소득 1인가구 안부확인을 위한 건강음료 지원",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 양천구",
+  "providerType": "자치구",
+  "district": "양천구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 저소득 1인가구로서 기존 안부확인 관련 서비스(우유배달, 도시락배달, 밑반찬배달, 스마트 안부확인 등)를 받고 있지  않는 경우",
+  "summary": "서울특별시 양천구에서 제공하는 보호·돌봄 혜택입니다. 저소득 1인 가구 음료배달서비스 지원 (안부확인 목적)",
+  "supportType": "현물",
+  "supportSummary": "○ 저소득 1인가구에 건강음료를 배달하여 안부확인",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000118",
+  "onlineUrl": "",
+  "inquiry": [
+    "복지정책과/02-2620-3335"
+  ],
+  "updatedAt": "2026-04-07",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1098,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "저소득 1인 가구 음료배달서비스 지원 (안부확인 목적)",
+  "target": "○ 저소득 1인가구로서 기존 안부확인 관련 서비스(우유배달, 도시락배달, 밑반찬배달, 스마트 안부확인 등)를 받고 있지  않는 경우",
+  "selectionCriteria": "",
+  "supportContent": "○ 저소득 1인가구에 건강음료를 배달하여 안부확인",
+  "applicationMethod": "○ 방문신청\n  - 신청장소 : 동주민센터\n  - 신청방법 : 방문 또는 전화상담을 통한 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 양천구 고독사 예방 및 사회적 고립가구 지원에 관한 조례",
+  "inquiryText": "복지정책과/02-2620-3335",
+  "ageMin": 1,
+  "ageMax": 120
+}

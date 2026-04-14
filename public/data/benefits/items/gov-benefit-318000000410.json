@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-318000000410",
+  "sourceId": "318000000410",
+  "title": "요양보호가족 휴식제도",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 영등포구",
+  "providerType": "자치구",
+  "district": "영등포구",
+  "userType": "개인||가구",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "치매 및 노인성질환 어르신을 돌보는 가족",
+  "summary": "서울특별시 영등포구에서 제공하는 보호·돌봄 혜택입니다. 치매 및 노인성질환 어르신을 돌보는 가족의 돌봄부담을 경감",
+  "supportType": "서비스(돌봄)",
+  "supportSummary": "치매 및 노인성질환 어르신을 돌보는 가족에게 틈새돌봄 서비스 제공을 위한 「요양보호가족 돌봄서비스」지원\n주요 활동내용: 말벗, 산책, 인지향상 활동, 산책 등 일상생활 지원 등",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000410",
+  "onlineUrl": "",
+  "inquiry": [
+    "영등포구청 어르신/02-2670-3376"
+  ],
+  "updatedAt": "2026-02-03",
+  "registeredAt": "2025-11-21",
+  "viewCount": 54,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "치매 및 노인성질환 어르신을 돌보는 가족의 돌봄부담을 경감",
+  "target": "치매 및 노인성질환 어르신을 돌보는 가족",
+  "selectionCriteria": "",
+  "supportContent": "치매 및 노인성질환 어르신을 돌보는 가족에게 틈새돌봄 서비스 제공을 위한 「요양보호가족 돌봄서비스」지원\n주요 활동내용: 말벗, 산책, 인지향상 활동, 산책 등 일상생활 지원 등",
+  "applicationMethod": "신청서 및 개인정보동의서 제출",
+  "documents": "신청서 및 개인정보동의서",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "노인복지법(제4조, 제1항)"
+  ],
+  "ordinance": "",
+  "inquiryText": "영등포구청 어르신/02-2670-3376",
+  "ageMin": 65,
+  "ageMax": 120
+}

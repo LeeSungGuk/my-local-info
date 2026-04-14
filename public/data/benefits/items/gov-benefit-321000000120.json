@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-321000000120",
+  "sourceId": "321000000120",
+  "title": "서초구 정신건강 의료비 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 서초구",
+  "providerType": "자치구",
+  "district": "서초구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 서초구민 중 정신건강고위험군, 중증정신질환자\n\n○ 건강보험료 본인부담금 기준중위소득 120%이하",
+  "summary": "서울특별시 서초구에서 제공하는 보건·의료 혜택입니다. 중증정신질환자 대상 정신건강 의료비 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 서초구민 중증정신질환자에게 연 150만원 내 외래치료비, 입원비 등 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/321000000120",
+  "onlineUrl": "",
+  "inquiry": [
+    "건강관리과/02-2155-8223"
+  ],
+  "updatedAt": "2026-02-02",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1065,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "중증정신질환자 대상 정신건강 의료비 지원",
+  "target": "○ 서초구민 중 정신건강고위험군, 중증정신질환자\n\n○ 건강보험료 본인부담금 기준중위소득 120%이하",
+  "selectionCriteria": "",
+  "supportContent": "○ 서초구민 중증정신질환자에게 연 150만원 내 외래치료비, 입원비 등 지원",
+  "applicationMethod": "○ 방문 신청\n\n○ 기타 \n - 전화 : 서초구보건소 정신건강복지센터 담당자",
+  "documents": "※ 서초구 마음건강센터 사례관리 등록 회원 대상 지원\n\n○ 신청인 제출서류\n- 의료비지원 신청서\n- 주민등록등본\n- 정신건강의학과 진단서(3개월 이내 발급)\n- 소득증명서(해당 서류 확인) : 건강보험자격확인서 및 건강보험납부확인서(필수), 수급증명서 또는 차상위본인부담경감증명서(해당자)\n- 치료비 영수증 · 계산서\n- 통장사본",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 서초구 정신건강증진 및 지원에 관한 조례",
+  "inquiryText": "건강관리과/02-2155-8223",
+  "ageMin": 0,
+  "ageMax": 120
+}

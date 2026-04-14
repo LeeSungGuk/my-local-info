@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-310000000105",
+  "sourceId": "310000000105",
+  "title": "미니태양광 설치 지원",
+  "field": "문화·환경",
+  "provider": "서울특별시 노원구",
+  "providerType": "자치구",
+  "district": "노원구",
+  "userType": "개인",
+  "deadlineText": "2026. 4.  ~ 2026.  11.",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 노원구 거주 미니태양광 설치 신청자(예산범위 내)",
+  "summary": "서울특별시 노원구에서 제공하는 문화·환경 혜택입니다. 베란다형 태양광 설치 시 설치비 지원",
+  "supportType": "현금",
+  "supportSummary": "○  베란다형 태양광 설치 시 설치비 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/310000000105",
+  "onlineUrl": "",
+  "inquiry": [
+    "탄소중립도시과/02-2116-3217"
+  ],
+  "updatedAt": "2026-02-02",
+  "registeredAt": "2021-09-23",
+  "viewCount": 746,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "베란다형 태양광 설치 시 설치비 지원",
+  "target": "○ 노원구 거주 미니태양광 설치 신청자(예산범위 내)",
+  "selectionCriteria": "",
+  "supportContent": "○  베란다형 태양광 설치 시 설치비 지원",
+  "applicationMethod": "○ 전화 신청\n - 기타 : 태양광 보급업체",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 노원구 에너지 기본 조례",
+  "inquiryText": "탄소중립도시과/02-2116-3217",
+  "ageMin": 19,
+  "ageMax": 120
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-300000000107",
+  "sourceId": "300000000107",
+  "title": "한의약 치매 건강증진서비스 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 종로구",
+  "providerType": "자치구",
+  "district": "종로구",
+  "userType": "개인",
+  "deadlineText": "4월~11월",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 60세이상 인지선별검사 후  기준점에 해당하는 자로 한의약치매 건강증진사업 참여 희망자",
+  "summary": "서울특별시 종로구에서 제공하는 보건·의료 혜택입니다. 60세 이상 어르신을 대상으로 인지기능 개선을 위한 한의약적 건강관리 프로그램을 제공하여 삶의 질 향상에 기여",
+  "supportType": "서비스(의료)",
+  "supportSummary": "○  한의원형 - 위험군(인지기능 저하자) 대상, 지정한의원에서 한의약적 진료 (총명침, 한약)및 개별상담",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000107",
+  "onlineUrl": "",
+  "inquiry": [
+    "건강증진과/02-2148-3663"
+  ],
+  "updatedAt": "2026-02-03",
+  "registeredAt": "2021-09-23",
+  "viewCount": 774,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "60세 이상 어르신을 대상으로 인지기능 개선을 위한 한의약적 건강관리 프로그램을 제공하여 삶의 질 향상에 기여",
+  "target": "○ 60세이상 인지선별검사 후  기준점에 해당하는 자로 한의약치매 건강증진사업 참여 희망자",
+  "selectionCriteria": "",
+  "supportContent": "○  한의원형 - 위험군(인지기능 저하자) 대상, 지정한의원에서 한의약적 진료 (총명침, 한약)및 개별상담",
+  "applicationMethod": "○ 한의원형 :  본 사업에 참여하는  관내 지정한의원에 방문신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "노인복지법",
+    "노인복지법(제4조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "건강증진과/02-2148-3663",
+  "ageMin": 60,
+  "ageMax": 120
+}

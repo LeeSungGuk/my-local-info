@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-313000000111",
+  "sourceId": "313000000111",
+  "title": "맞춤형 생계의료급여 수급자 명절위문금 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 마포구",
+  "providerType": "자치구",
+  "district": "마포구",
+  "userType": "가구",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 맞춤형 생계급여 및 의료급여 수급자",
+  "summary": "서울특별시 마포구에서 제공하는 생활안정 혜택입니다. 맞춤형 생계급여 및 의료급여 수급자에게 명절위문금 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 맞춤형 생계 및 의료급여 수급가구에게 설날과 추석에 위문금을 각각 5만원(시비 3만원, 구비 2만원)씩 수급자의 계좌로 지급",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000111",
+  "onlineUrl": "",
+  "inquiry": [
+    "실뿌리복지과/02-3153-6456"
+  ],
+  "updatedAt": "2026-01-30",
+  "registeredAt": "2021-09-23",
+  "viewCount": 3930,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "맞춤형 생계급여 및 의료급여 수급자에게 명절위문금 지원",
+  "target": "○ 맞춤형 생계급여 및 의료급여 수급자",
+  "selectionCriteria": "",
+  "supportContent": "○ 맞춤형 생계 및 의료급여 수급가구에게 설날과 추석에 위문금을 각각 5만원(시비 3만원, 구비 2만원)씩 수급자의 계좌로 지급",
+  "applicationMethod": "○ 개인 신청절차 없음 \n - 별도 신청 불필요함",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 마포구 저소득 주민의 복지증진에 관한 조례",
+  "inquiryText": "실뿌리복지과/02-3153-6456",
+  "ageMin": 0,
+  "ageMax": 120
+}

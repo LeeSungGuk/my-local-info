@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-611000000116",
+  "sourceId": "611000000116",
+  "title": "한부모가족 자녀 교통비 등 지원",
+  "field": "보육·교육",
+  "provider": "서울특별시",
+  "providerType": "서울시",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 교통비 : 소득인정액이 기준 중위소득 60%이하인 한부모가족의 중·고등학생(분기 86,400원) \n\n○ 교육비 : 소득인정액이 기준 중위소득 60%이하인 한부모가족의 고등학생 자녀(입학금·수업료 실비의 50%)",
+  "summary": "서울특별시에서 제공하는 보육·교육 혜택입니다. 저소득 한부모가족의 자녀에게 교통비, 교육비 지급",
+  "supportType": "현금",
+  "supportSummary": "○ 저소득 한부모가족 자녀에게 교통비·교육비 지급",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000116",
+  "onlineUrl": "",
+  "inquiry": [
+    "관할 주민센터/02-120"
+  ],
+  "updatedAt": "2025-11-27",
+  "registeredAt": "2021-09-23",
+  "viewCount": 7704,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "저소득 한부모가족의 자녀에게 교통비, 교육비 지급",
+  "target": "○ 교통비 : 소득인정액이 기준 중위소득 60%이하인 한부모가족의 중·고등학생(분기 86,400원) \n\n○ 교육비 : 소득인정액이 기준 중위소득 60%이하인 한부모가족의 고등학생 자녀(입학금·수업료 실비의 50%)",
+  "selectionCriteria": "",
+  "supportContent": "○ 저소득 한부모가족 자녀에게 교통비·교육비 지급",
+  "applicationMethod": "○ 방문 신청 \n - 주민센터 : 대상자가 동주민센터에 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 한부모가족 지원에 관한 조례",
+  "inquiryText": "관할 주민센터/02-120",
+  "ageMin": 0,
+  "ageMax": 120
+}

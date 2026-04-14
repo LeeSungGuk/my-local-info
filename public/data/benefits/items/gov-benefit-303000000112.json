@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-303000000112",
+  "sourceId": "303000000112",
+  "title": "저소득주민 명절 위문금",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 성동구",
+  "providerType": "자치구",
+  "district": "성동구",
+  "userType": "가구",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 국민기초수급자(생계급여 · 의료급여)",
+  "summary": "서울특별시 성동구에서 제공하는 보호·돌봄 혜택입니다. 국민기초수급자 가구에 명절위문금 지급(설, 추석)",
+  "supportType": "현금",
+  "supportSummary": "○ 지원내용: 국민기초수급자(생계 · 의료)가구에 명절(설 · 추석) 위문금 지급\n - 연 2회 5만원씩 지급(구비 2만원, 시비 3만원)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000112",
+  "onlineUrl": "",
+  "inquiry": [
+    "기초복지과/02-2286-6703"
+  ],
+  "updatedAt": "2026-02-05",
+  "registeredAt": "2021-09-23",
+  "viewCount": 2659,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "국민기초수급자 가구에 명절위문금 지급(설, 추석)",
+  "target": "○ 국민기초수급자(생계급여 · 의료급여)",
+  "selectionCriteria": "",
+  "supportContent": "○ 지원내용: 국민기초수급자(생계 · 의료)가구에 명절(설 · 추석) 위문금 지급\n - 연 2회 5만원씩 지급(구비 2만원, 시비 3만원)",
+  "applicationMethod": "○ 개인 신청절차 없음 \n - 동주민센터에서 지원대상자 명단 확인 후 기초복지과로 일괄 신청",
+  "documents": "- 신청 불필요\n- 생계 의료급여 수급자 자격확인 후 지급여부 결정함",
+  "officialDocuments": "- 수급자 및 거주(성동구) 확인되는 문서 확인",
+  "identityDocuments": "- 수급자 증명서",
+  "legalBasis": [],
+  "ordinance": "서울특별시 성동구 저소득주민의 생활안정지원에 관한 조례",
+  "inquiryText": "기초복지과/02-2286-6703",
+  "ageMin": 0,
+  "ageMax": 120
+}

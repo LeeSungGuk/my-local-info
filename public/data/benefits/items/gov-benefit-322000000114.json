@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-322000000114",
+  "sourceId": "322000000114",
+  "title": "국가유공자 등 보훈대상자 예우 및 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 강남구",
+  "providerType": "자치구",
+  "district": "강남구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 강남구 거주 국가보훈대상자",
+  "summary": "서울특별시 강남구에서 제공하는 생활안정 혜택입니다. 강남구 보훈예우수당, 참전유공자 배우자 복지수당, 사망위로금, 장례서비스 등 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 나라를 위해 희생 헌신하신 국가보훈대상자 예우 및 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/322000000114",
+  "onlineUrl": "",
+  "inquiry": [
+    "복지정책과/02-3423-6027"
+  ],
+  "updatedAt": "2026-01-27",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1532,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "강남구 보훈예우수당, 참전유공자 배우자 복지수당, 사망위로금, 장례서비스 등 지원",
+  "target": "○ 강남구 거주 국가보훈대상자",
+  "selectionCriteria": "",
+  "supportContent": "○ 나라를 위해 희생 헌신하신 국가보훈대상자 예우 및 지원",
+  "applicationMethod": "○ 방문 신청\n - 주민센터 : 국가유공자(유족)증 및 통장사본 지참하고 관할주민센터에 신청 접수",
+  "documents": "- 보훈예우수당 : 신청서, 국가유공자증 사본 또는 확인서, 통장사본 등\n- 참전유공자 배우자 복지수당 : 신청서, 국가유공자증 사본 또는 확인서, 가족관계 증빙서류, 통장사본 등",
+  "officialDocuments": "주민등록표 등초본",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 강남구 국가보훈대상자 예우 및 지원에 관한 조례",
+  "inquiryText": "복지정책과/02-3423-6027",
+  "ageMin": 0,
+  "ageMax": 120
+}

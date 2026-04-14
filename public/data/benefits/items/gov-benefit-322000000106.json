@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-322000000106",
+  "sourceId": "322000000106",
+  "title": "독거어르신 ICT 돌봄서비스",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 강남구",
+  "providerType": "자치구",
+  "district": "강남구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 강남구 거주 만65세 이상 취약계층 독거어르신가구",
+  "summary": "서울특별시 강남구에서 제공하는 보호·돌봄 혜택입니다. 취약계층을 대상으로 ICT 스마트기기를 통한 돌봄서비스 제공",
+  "supportType": "서비스(돌봄)",
+  "supportSummary": "- AI 스피커 400대, 혁신스마트기기(반려로봇 등) 130대, 초롱이 10대\n- 음성인식 AI스피커로 말벗 및 생활편의서비스(감성대화, 라디오, 음악, 운세, 뉴스, 날씨 등 다양한 서비스 제공) \n- Big Data 기반 생활특성 분석 및 위급 상황 모니터링 :…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/322000000106",
+  "onlineUrl": "",
+  "inquiry": [
+    "어르신복지과/02-3423-5922"
+  ],
+  "updatedAt": "2026-01-28",
+  "registeredAt": "2021-09-23",
+  "viewCount": 847,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "취약계층을 대상으로 ICT 스마트기기를 통한 돌봄서비스 제공",
+  "target": "○ 강남구 거주 만65세 이상 취약계층 독거어르신가구",
+  "selectionCriteria": "",
+  "supportContent": "- AI 스피커 400대, 혁신스마트기기(반려로봇 등) 130대, 초롱이 10대\n- 음성인식 AI스피커로 말벗 및 생활편의서비스(감성대화, 라디오, 음악, 운세, 뉴스, 날씨 등 다양한 서비스 제공) \n- Big Data 기반 생활특성 분석 및 위급 상황 모니터링 : Data 관제센터 운영\n- AI/IoT기기를 통한 단순 서비스를 넘어, 생활지원사의 방문 및 말벗역할, 전문 심리상담가를 통한 심리적 안정과 치유를 제공",
+  "applicationMethod": "○ 방문 신청\n- 관할동주민센터 복지팀 \n- 기타 : 강남구노인통합지원센터\n- 문의 : 02-557-8091",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "노인복지법",
+    "노인복지법(제27조, 제2항)"
+  ],
+  "ordinance": "",
+  "inquiryText": "어르신복지과/02-3423-5922",
+  "ageMin": 65,
+  "ageMax": 120
+}

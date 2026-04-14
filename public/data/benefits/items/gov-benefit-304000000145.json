@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-304000000145",
+  "sourceId": "304000000145",
+  "title": "사랑의 PC 나눔",
+  "field": "보육·교육",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "사업 수행 기간 중 신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 개인 : 장애인, 기초생활수급자, 차상위계층, 보호대상아동, 국가유공자(상이등급판정자), 결혼이민자 등\n○ 단체 : 비영리 사회복지시설ㆍ법인ㆍ단체\n - 단, 최근 2년 이내 광진구 및 타 기관(서울시, 한국정보화진흥원 등)에서 수혜이력이 있는 경우 보급대상에서 제외",
+  "summary": "서울특별시 광진구에서 제공하는 보육·교육 혜택입니다. 사용연한이 경과한 PC(중고PC)를 수집하여 정비한 후 무상 제공",
+  "supportType": "현물",
+  "supportSummary": "사용연한이 경과한 PC(중고PC)를 수집하여 정비한 후 무상 제공\n - PC 본체 및 모니터\n - 협약단체를 통해 보급받은 후 1년 동안 무상 A/S 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000145",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 스마트정보과/02-450-7216"
+  ],
+  "updatedAt": "2026-01-29",
+  "registeredAt": "2021-10-27",
+  "viewCount": 1564,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "사용연한이 경과한 PC(중고PC)를 수집하여 정비한 후 무상 제공",
+  "target": "○ 개인 : 장애인, 기초생활수급자, 차상위계층, 보호대상아동, 국가유공자(상이등급판정자), 결혼이민자 등\n○ 단체 : 비영리 사회복지시설ㆍ법인ㆍ단체\n - 단, 최근 2년 이내 광진구 및 타 기관(서울시, 한국정보화진흥원 등)에서 수혜이력이 있는 경우 보급대상에서 제외",
+  "selectionCriteria": "",
+  "supportContent": "사용연한이 경과한 PC(중고PC)를 수집하여 정비한 후 무상 제공\n - PC 본체 및 모니터\n - 협약단체를 통해 보급받은 후 1년 동안 무상 A/S 지원",
+  "applicationMethod": "- 신청기간 중 신분증 지참하여 거주지 동주민센터 방문\n- 신청자격별 (증빙)서류 확인하여 접수처리\n※ 접수 시 별도 작성서식 없음(전산확인)",
+  "documents": "신분증 및 각 신청자격별 증빙서류(장애인증명서, 기초생활수급자증명서 등)\n접수 시 별도 작성서식 없음(전산확인)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "지능정보화 기본법(제45조)"
+  ],
+  "ordinance": "서울특별시 광진구 지능정보화 기본 조례(제29조, 제2항)",
+  "inquiryText": "광진구 스마트정보과/02-450-7216",
+  "ageMin": 0,
+  "ageMax": 120
+}

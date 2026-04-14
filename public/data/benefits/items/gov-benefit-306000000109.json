@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-306000000109",
+  "sourceId": "306000000109",
+  "title": "고등학생 결핵이동검진 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 중랑구",
+  "providerType": "자치구",
+  "district": "중랑구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 관내 고등학교 2학년 학생",
+  "summary": "서울특별시 중랑구에서 제공하는 보건·의료 혜택입니다. 고등학교 2학년 학생을 대상으로 결핵이동검진 비용 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 관내 고등학교 2학년 학생 대상 결핵이동검진 비용 지원\n - 검진위탁기관 : 대한결핵협회 서울특별시지부\n - 검진대상 : 관내 고등학교 2학년 학생\n  ㆍ학교보건법 제7조, 학교건강검사규칙 제6조에 의거, 학생별도검사 대상\n - 지원방법 : 검진위탁기관에 검진비…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/306000000109",
+  "onlineUrl": "",
+  "inquiry": [
+    "보건행정과/02-2094-0187"
+  ],
+  "updatedAt": "2026-02-07",
+  "registeredAt": "2021-09-23",
+  "viewCount": 733,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "고등학교 2학년 학생을 대상으로 결핵이동검진 비용 지원",
+  "target": "○ 관내 고등학교 2학년 학생",
+  "selectionCriteria": "",
+  "supportContent": "○ 관내 고등학교 2학년 학생 대상 결핵이동검진 비용 지원\n - 검진위탁기관 : 대한결핵협회 서울특별시지부\n - 검진대상 : 관내 고등학교 2학년 학생\n  ㆍ학교보건법 제7조, 학교건강검사규칙 제6조에 의거, 학생별도검사 대상\n - 지원방법 : 검진위탁기관에 검진비 지급",
+  "applicationMethod": "○ 개인 신청절차 없음\n - 별도 신청 없이 관내 고등학교 및 검진위탁기관의 검진일정 조율 후 시행",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "결핵예방법"
+  ],
+  "ordinance": "",
+  "inquiryText": "보건행정과/02-2094-0187",
+  "ageMin": 0,
+  "ageMax": 120
+}

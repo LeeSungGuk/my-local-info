@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-316000000154",
+  "sourceId": "316000000154",
+  "title": "구민 정보화교육",
+  "field": "보육·교육",
+  "provider": "서울특별시 구로구",
+  "providerType": "자치구",
+  "district": "구로구",
+  "userType": "개인",
+  "deadlineText": "전월 25일 경(매월 변동됨)",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "구로구민 누구나  \n\n수강료 면제대상: 55세이상 구민, 국민기초생활수급자, 장애인,  결혼이민자 등",
+  "summary": "서울특별시 구로구에서 제공하는 보육·교육 혜택입니다. 디지털시대에 따른 구민의 삶의 질 향상과 정보 격차 해소 및 정보화 추진능력의 향상을 위해 기초부터 심화까지 수준별 정보화교육 제공",
+  "supportType": "기타(교육)",
+  "supportSummary": "[구민 정보화 교육] \n○ 교육대상: 구로구민(주민등록 기준) \n○ 접수기간: 전월 25일경 ※ 상세 내용은 홈페이지 참고 \n○ 교육내용: 스마트폰 기초 및 활용 과정, 컴퓨터 기초 및 엑셀 파워포인트, AI 활용 등 \n○ 신청방법 \n- 인터넷 접수 : 구청 홈페이지…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/316000000154",
+  "onlineUrl": "",
+  "inquiry": [
+    "스마트도시과/02-860-2098"
+  ],
+  "updatedAt": "2026-03-09",
+  "registeredAt": "2025-11-28",
+  "viewCount": 132,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "디지털시대에 따른 구민의 삶의 질 향상과 정보 격차 해소 및 정보화 추진능력의 향상을 위해 기초부터 심화까지 수준별 정보화교육 제공",
+  "target": "구로구민 누구나  \n\n수강료 면제대상: 55세이상 구민, 국민기초생활수급자, 장애인,  결혼이민자 등",
+  "selectionCriteria": "",
+  "supportContent": "[구민 정보화 교육] \n○ 교육대상: 구로구민(주민등록 기준) \n○ 접수기간: 전월 25일경 ※ 상세 내용은 홈페이지 참고 \n○ 교육내용: 스마트폰 기초 및 활용 과정, 컴퓨터 기초 및 엑셀 파워포인트, AI 활용 등 \n○ 신청방법 \n- 인터넷 접수 : 구청 홈페이지내 구민 정보화교육 신청 \n- 전화접수 : 02-860-3391(콜센터)",
+  "applicationMethod": "○전화, 인터넷 \n - 구로구청 사이트 접속(https://www.guro.go.kr/www/contents.do?key=2461) \n - 구로구 정보화교육 콜센터 문의 : 02-860-2098",
+  "documents": "수강 첫날 신분증(본인 확인 용도)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "면제관련 문서",
+  "legalBasis": [
+    "지능정보화 기본법(제50조)"
+  ],
+  "ordinance": "서울특별시 구로구 지능정보화 기본 조례(제21조)",
+  "inquiryText": "스마트도시과/02-860-2098",
+  "ageMin": 0,
+  "ageMax": 120
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-300000000158",
+  "sourceId": "300000000158",
+  "title": "노인 구강보건사업",
+  "field": "보건·의료",
+  "provider": "서울특별시 종로구",
+  "providerType": "자치구",
+  "district": "종로구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "종로구 관내 65세 이상",
+  "summary": "서울특별시 종로구에서 제공하는 보건·의료 혜택입니다. 노인 구강 진료(검진, 불소도포 및 스케일링 포함)",
+  "supportType": "기타(교육)||기타(상담)||현금(감면)",
+  "supportSummary": "○ 구강검진(파노라마 촬영)\n○ 예방진료(스케일링 및 불소도포)\n○ 노인 구강보건교육(단체 및 개별)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청",
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000158",
+  "onlineUrl": "",
+  "inquiry": [
+    "종로구보건소 구강보건실/02-2148-3637"
+  ],
+  "updatedAt": "2026-02-02",
+  "registeredAt": "2022-10-31",
+  "viewCount": 617,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "노인 구강 진료(검진, 불소도포 및 스케일링 포함)",
+  "target": "종로구 관내 65세 이상",
+  "selectionCriteria": "",
+  "supportContent": "○ 구강검진(파노라마 촬영)\n○ 예방진료(스케일링 및 불소도포)\n○ 노인 구강보건교육(단체 및 개별)",
+  "applicationMethod": "방문 및 전화예약",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "구강보건법"
+  ],
+  "ordinance": "",
+  "inquiryText": "종로구보건소 구강보건실/02-2148-3637",
+  "ageMin": 65,
+  "ageMax": 120
+}

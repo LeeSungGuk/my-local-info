@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00024000003",
+  "sourceId": "O00024000003",
+  "title": "꿈나무종합타운 프로그램 할인(다둥이)",
+  "field": "문화·환경",
+  "provider": "용산구시설관리공단",
+  "providerType": "자치구",
+  "district": "용산구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "용산구에 주소를 두고 다둥이 행복카드를 소지한 자 및 카드에 등재된 가족",
+  "summary": "용산구시설관리공단에서 제공하는 문화·환경 혜택입니다. 용산구에 주소를 두고 다둥이 행복카드를 소지한 자에게 꿈나무종합타운 프로그램 50%감면",
+  "supportType": "시설이용",
+  "supportSummary": "○ 문화체육 프로그램 감면\n - 다둥이 할인 : 이용료 50% 감면\n - 다둥이행복카드 소지자 중 2자녀 이상(막내가 18세 이하),주소지가 용산구 거주자만 가능",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00024000003",
+  "onlineUrl": "",
+  "inquiry": [
+    "꿈나무종합타운/02-707-0704"
+  ],
+  "updatedAt": "2026-03-06",
+  "registeredAt": "2022-07-15",
+  "viewCount": 629,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "용산구에 주소를 두고 다둥이 행복카드를 소지한 자에게 꿈나무종합타운 프로그램 50%감면",
+  "target": "용산구에 주소를 두고 다둥이 행복카드를 소지한 자 및 카드에 등재된 가족",
+  "selectionCriteria": "",
+  "supportContent": "○ 문화체육 프로그램 감면\n - 다둥이 할인 : 이용료 50% 감면\n - 다둥이행복카드 소지자 중 2자녀 이상(막내가 18세 이하),주소지가 용산구 거주자만 가능",
+  "applicationMethod": "○ 방문 신청\n - 꿈나무종합타운 프로그램 등록 시 해당 서류(신분) 확인",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "꿈나무종합타운/02-707-0704",
+  "ageMin": 0,
+  "ageMax": 18
+}

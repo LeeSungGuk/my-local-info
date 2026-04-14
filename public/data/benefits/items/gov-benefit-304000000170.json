@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-304000000170",
+  "sourceId": "304000000170",
+  "title": "방역소독 서비스",
+  "field": "보건·의료",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "광진구 주민 누구나",
+  "summary": "서울특별시 광진구에서 제공하는 보건·의료 혜택입니다. 실외 사계절 종합방제 서비스",
+  "supportType": "서비스(의료)",
+  "supportSummary": "실외 사계절 종합방제(정화조 모기 유충구제, 바퀴벌레, 쥐 구제 등) 서비스 지원\n  - 민원 접수 후 3~4일(주말 제외) 이내 처리",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000170",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 보건의료과/02-450-6664"
+  ],
+  "updatedAt": "2026-01-30",
+  "registeredAt": "2021-11-05",
+  "viewCount": 2433,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "실외 사계절 종합방제 서비스",
+  "target": "광진구 주민 누구나",
+  "selectionCriteria": "",
+  "supportContent": "실외 사계절 종합방제(정화조 모기 유충구제, 바퀴벌레, 쥐 구제 등) 서비스 지원\n  - 민원 접수 후 3~4일(주말 제외) 이내 처리",
+  "applicationMethod": "120, 전화",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "감염병의 예방 및 관리에 관한 법률"
+  ],
+  "ordinance": "",
+  "inquiryText": "광진구 보건의료과/02-450-6664",
+  "ageMin": 0,
+  "ageMax": 120
+}

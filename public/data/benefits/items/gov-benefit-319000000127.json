@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-319000000127",
+  "sourceId": "319000000127",
+  "title": "주민소득지원 및 생활안정기금 융자 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 동작구",
+  "providerType": "자치구",
+  "district": "동작구",
+  "userType": "가구",
+  "deadlineText": "동작구 홈페이지 공고(http://dongjak.go.kr)",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "동작구에 주민등록이 되어 있는 저소득 주민",
+  "summary": "서울특별시 동작구에서 제공하는 생활안정 혜택입니다. 저소득주민에게 소득 및 생활안정기금 융자 지원",
+  "supportType": "현금(융자)",
+  "supportSummary": "○ 융자대상 : 동작구에 주민등록이 되어 있는 저소득 주민에게 주민소득지원 및 생활안정기금 융자 \n○ 융자종류 \n  - 주민소득지원금 (3천만원 이하) : 소규모 영세 자영업자의 운영개선자금 (서울시 소재 사업장)\n  - 생활안정기금 (2천만원 이하) : 재난을 당하…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000127",
+  "onlineUrl": "",
+  "inquiry": [
+    "동작구청 경제정책과/02-820-9321"
+  ],
+  "updatedAt": "2026-02-02",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1572,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "저소득주민에게 소득 및 생활안정기금 융자 지원",
+  "target": "동작구에 주민등록이 되어 있는 저소득 주민",
+  "selectionCriteria": "",
+  "supportContent": "○ 융자대상 : 동작구에 주민등록이 되어 있는 저소득 주민에게 주민소득지원 및 생활안정기금 융자 \n○ 융자종류 \n  - 주민소득지원금 (3천만원 이하) : 소규모 영세 자영업자의 운영개선자금 (서울시 소재 사업장)\n  - 생활안정기금 (2천만원 이하) : 재난을 당하여 필요한 긴급의료비 등\n○ 이율 및 상환방법 : 연 1.5%, 2년거치 2년 균등상환",
+  "applicationMethod": "구청 경제정책과 방문 신청(동작구 장승배기로70, 7층 경제정책과)",
+  "documents": "주민소득지원 및 생활안정기금 대부신청서, 각서, 개인정보활용동의서, 사업자등록증, 사업장임대차계약서 사본, 소득금액증명원, 지방세완납증명서 등",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 동작구 주민소득지원 및 생활안정기금 운용·관리 조례 시행규칙||서울특별시 동작구 주민소득지원 및 생활안정기금 운용·관리 조례",
+  "inquiryText": "동작구청 경제정책과/02-820-9321",
+  "ageMin": 0,
+  "ageMax": 120
+}

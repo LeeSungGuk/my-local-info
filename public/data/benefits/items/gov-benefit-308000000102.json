@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-308000000102",
+  "sourceId": "308000000102",
+  "title": "국가보훈대상자 사망위로금 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 강북구",
+  "providerType": "자치구",
+  "district": "강북구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○국가유공자 및 선순위유족의 유족 1인\n ※ 지급순위 : 1순위 배우자, 2순위 자녀, 3순위 부모",
+  "summary": "서울특별시 강북구에서 제공하는 생활안정 혜택입니다. 사망하신 국가보훈대상자의 유족에게 사망위로금 지급",
+  "supportType": "현금",
+  "supportSummary": "○ 국가보훈대상자 사망위로금 : 사망일 현재 강북구에 주소를 두고 있는 국가유공자 또는 선순위 유족의 유족 1인에게 일시금 20만원 지급",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/308000000102",
+  "onlineUrl": "",
+  "inquiry": [
+    "복지정책과/02-901-6717"
+  ],
+  "updatedAt": "2026-02-02",
+  "registeredAt": "2021-09-23",
+  "viewCount": 700,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "사망하신 국가보훈대상자의 유족에게 사망위로금 지급",
+  "target": "○국가유공자 및 선순위유족의 유족 1인\n ※ 지급순위 : 1순위 배우자, 2순위 자녀, 3순위 부모",
+  "selectionCriteria": "",
+  "supportContent": "○ 국가보훈대상자 사망위로금 : 사망일 현재 강북구에 주소를 두고 있는 국가유공자 또는 선순위 유족의 유족 1인에게 일시금 20만원 지급",
+  "applicationMethod": "○ 방문 신청\n - 주민센터 : 사망자 주소지 관할 동 주민센터에 방문 신청\n - 신청기간: 사망일로부터 1년 이내\n - 신청서류: 사망 입증서류(사망진단서, 시체검안서 등), 가족관계증명서, 사망자의 유족 확인서류(신분증 등), 사망자의 유공자증 또는 유족증, 신청인 통장사본",
+  "documents": "1. 고인의 유공자증 또는 유족증\n2. 주민등록 초본\n3. 가족관계증명서\n4. 시체검안서 또는 사망진단서\n5. 사망위로금 지급신청서 등",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 강북구 국가보훈대상자 예우 및 지원에 관한 조례(제5조의3)",
+  "inquiryText": "복지정책과/02-901-6717",
+  "ageMin": 0,
+  "ageMax": 120
+}

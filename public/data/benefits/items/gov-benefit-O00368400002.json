@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00368400002",
+  "sourceId": "O00368400002",
+  "title": "성적도약 장학금 지원",
+  "field": "보육·교육",
+  "provider": "재단법인영등포구미래교육재단",
+  "providerType": "자치구",
+  "district": "영등포구",
+  "userType": "개인",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 영등포구 관내 고등학교 학생",
+  "summary": "재단법인영등포구미래교육재단에서 제공하는 보육·교육 혜택입니다. 선발직전 학기 성적이 평균석차 백분율 30% 이상 향상한 학생 장학금 지원",
+  "supportType": "현금(장학금)",
+  "supportSummary": "○ 선발직전 학기 성적이 평균석차 백분율 30% 이상 향상한 학생 장학금 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00368400002",
+  "onlineUrl": "",
+  "inquiry": [
+    "미래교육재단/02-2670-3072"
+  ],
+  "updatedAt": "2026-01-23",
+  "registeredAt": "2025-01-31",
+  "viewCount": 156,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "선발직전 학기 성적이 평균석차 백분율 30% 이상 향상한 학생 장학금 지원",
+  "target": "○ 영등포구 관내 고등학교 학생",
+  "selectionCriteria": "",
+  "supportContent": "○ 선발직전 학기 성적이 평균석차 백분율 30% 이상 향상한 학생 장학금 지원",
+  "applicationMethod": "○ 전자문서 발송\n - 학교장 추천서를 영등포구미래교육재단으로 제출",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 영등포구 미래교육재단 설립 및 운영 지원에 관한 조례",
+  "inquiryText": "미래교육재단/02-2670-3072",
+  "ageMin": 15,
+  "ageMax": 19
+}

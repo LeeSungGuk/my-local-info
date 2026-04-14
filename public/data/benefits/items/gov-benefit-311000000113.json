@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-311000000113",
+  "sourceId": "311000000113",
+  "title": "임산부 등록관리 지원",
+  "field": "임신·출산",
+  "provider": "서울특별시 은평구",
+  "providerType": "자치구",
+  "district": "은평구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 임산부",
+  "summary": "서울특별시 은평구에서 제공하는 임신·출산 혜택입니다. 임신부에게 엽산제, 철분제, 기형아 검사 지원",
+  "supportType": "현물",
+  "supportSummary": "○ 엽산제 : 착상확인 ~ 임신 12주\n\n○ 철분제 : 임신 16주 ~ 출산 전\n\n○ 기형아 검사 : 임신 16주 ~ 18주",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000113",
+  "onlineUrl": "",
+  "inquiry": [
+    "모자건강센터/02-351-8210"
+  ],
+  "updatedAt": "2026-01-16",
+  "registeredAt": "2021-09-23",
+  "viewCount": 2930,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "임신부에게 엽산제, 철분제, 기형아 검사 지원",
+  "target": "○ 임산부",
+  "selectionCriteria": "",
+  "supportContent": "○ 엽산제 : 착상확인 ~ 임신 12주\n\n○ 철분제 : 임신 16주 ~ 출산 전\n\n○ 기형아 검사 : 임신 16주 ~ 18주",
+  "applicationMethod": "○  방문신청",
+  "documents": "신분증, 임신확인서 또는 산모수첩",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "모자보건법"
+  ],
+  "ordinance": "",
+  "inquiryText": "모자건강센터/02-351-8210",
+  "ageMin": 18,
+  "ageMax": 44
+}

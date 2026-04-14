@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-310000000110",
+  "sourceId": "310000000110",
+  "title": "저장장애가구 주거환경개선 지원",
+  "field": "주거·자립",
+  "provider": "서울특별시 노원구",
+  "providerType": "자치구",
+  "district": "노원구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "생활쓰레기 등 적치로 위생 불량 및 화재위험이 상존하여 지원이 필요한 가구",
+  "summary": "서울특별시 노원구에서 제공하는 주거·자립 혜택입니다. 가구 내 생활쓰레기 등 적치로 위생 불량 및 화재위험이 상존하는 가구에 민·관 협력을 통해 쾌적한 주거환경을 조성하고 일상생활을 유지할 수 있도록 지원",
+  "supportType": "기타",
+  "supportSummary": "❍ 공공·민간 자원을 활용하여 주거환경 개선\n❍ 청소·방역, 생필품 지원 및 심리상담 등을 통한 사후 연계 모니터링",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/310000000110",
+  "onlineUrl": "",
+  "inquiry": [
+    "복지정책과/02-2116-3666"
+  ],
+  "updatedAt": "2026-01-27",
+  "registeredAt": "2021-09-23",
+  "viewCount": 709,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "가구 내 생활쓰레기 등 적치로 위생 불량 및 화재위험이 상존하는 가구에 민·관 협력을 통해 쾌적한 주거환경을 조성하고 일상생활을 유지할 수 있도록 지원",
+  "target": "생활쓰레기 등 적치로 위생 불량 및 화재위험이 상존하여 지원이 필요한 가구",
+  "selectionCriteria": "",
+  "supportContent": "❍ 공공·민간 자원을 활용하여 주거환경 개선\n❍ 청소·방역, 생필품 지원 및 심리상담 등을 통한 사후 연계 모니터링",
+  "applicationMethod": "○ 방문 신청 \n - 주민센터 : 관할동주민센터 문의 및 방문 신청",
+  "documents": "환경개선 사업 신청 및 동의서",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 노원구 저장강박 의심가구 지원 조례",
+  "inquiryText": "복지정책과/02-2116-3666",
+  "ageMin": 0,
+  "ageMax": 120
+}

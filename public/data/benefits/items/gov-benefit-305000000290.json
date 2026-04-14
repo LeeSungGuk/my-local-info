@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-305000000290",
+  "sourceId": "305000000290",
+  "title": "1차진료(내과) 서비스",
+  "field": "보건·의료",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "만15세 이상 전 주민",
+  "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 1차진료 및 검사 지원",
+  "supportType": "서비스(의료)",
+  "supportSummary": "ㅇ만성질환, 성인병 중심 진료\n - 고혈압, 고지혈증, 당뇨 등 만성질환\n - 관절염, 요통 등에 대한 약·물리치료 처방 : 정형외과적 검사 제외\n - 급성 인후두염(감기), 소화장애 등 경증 질환 : 전문 검사 제외\n - 일반적인 임상병리 검사(혈액, 소변검사) :…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000290",
+  "onlineUrl": "",
+  "inquiry": [
+    "동대문구보건소 내과진료실/02-2127-5370",
+    "동대문구보건소 내과진료실/02-2127-5371"
+  ],
+  "updatedAt": "2026-02-09",
+  "registeredAt": "2025-12-10",
+  "viewCount": 75,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "1차진료 및 검사 지원",
+  "target": "만15세 이상 전 주민",
+  "selectionCriteria": "",
+  "supportContent": "ㅇ만성질환, 성인병 중심 진료\n - 고혈압, 고지혈증, 당뇨 등 만성질환\n - 관절염, 요통 등에 대한 약·물리치료 처방 : 정형외과적 검사 제외\n - 급성 인후두염(감기), 소화장애 등 경증 질환 : 전문 검사 제외\n - 일반적인 임상병리 검사(혈액, 소변검사) : 암검사 제외\n\nㅇ 진료비\n - 의료급여수급자, 국가유공자, 독립유공자, 5·18민주유공자, 고엽제후유증 환자 : 진료비 무료\n - 65세 이상 서울시민: 진료비 무료 (단, 일반 검사 및 제증명 발급 수수료는 유료)\n - 65세 이하 서울시민: 진료비 500원~6,090원\n\nㅇ진료시간 : 평일 09:00~18:00(점심시간 12:00~13:00)",
+  "applicationMethod": "○ 방문신청\n - 보건소 민원실 방문신청",
+  "documents": "신분증",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "지역보건법"
+  ],
+  "ordinance": "",
+  "inquiryText": "동대문구보건소 내과진료실/02-2127-5370||동대문구보건소 내과진료실/02-2127-5371",
+  "ageMin": 15,
+  "ageMax": 120
+}

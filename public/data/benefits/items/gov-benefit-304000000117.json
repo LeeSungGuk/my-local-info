@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-304000000117",
+  "sourceId": "304000000117",
+  "title": "국민기초생활보장 문화체험활동경비 지원",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "직권신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "기준중위소득 40% 이하의 생계, 의료급여 수급자 가구의 초6, 중2, 고2 재학생",
+  "summary": "서울특별시 광진구에서 제공하는 보호·돌봄 혜택입니다. 생계·의료급여 수급자 가구의 초6·중2·고2 재학생에게 문화체험활동경비를 지원하여 어려운 가정 환경으로 인해 가질 수 있는 소외감을 해소하고 건강한 학교 생활을 지원코자 함",
+  "supportType": "현금",
+  "supportSummary": "수급자 가구의 초6, 중2, 고2 자녀에게 문화체험활동경비 지원 (4월말 개인별 계좌입금)\n - 초등학교 6학년 : 10만원\n - 중학교 2학년 : 20만원\n - 고등학교 2학년 : 30만원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000117",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 사회복지장애인과/02-450-7523"
+  ],
+  "updatedAt": "2026-01-28",
+  "registeredAt": "2021-09-23",
+  "viewCount": 800,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "생계·의료급여 수급자 가구의 초6·중2·고2 재학생에게 문화체험활동경비를 지원하여 어려운 가정 환경으로 인해 가질 수 있는 소외감을 해소하고 건강한 학교 생활을 지원코자 함",
+  "target": "기준중위소득 40% 이하의 생계, 의료급여 수급자 가구의 초6, 중2, 고2 재학생",
+  "selectionCriteria": "",
+  "supportContent": "수급자 가구의 초6, 중2, 고2 자녀에게 문화체험활동경비 지원 (4월말 개인별 계좌입금)\n - 초등학교 6학년 : 10만원\n - 중학교 2학년 : 20만원\n - 고등학교 2학년 : 30만원",
+  "applicationMethod": "개인 신청절차 없음\n - 별도 신청 불요",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 광진구 저소득주민의 생활안정 지원에 관한 조례",
+  "inquiryText": "광진구 사회복지장애인과/02-450-7523",
+  "ageMin": 10,
+  "ageMax": 19
+}

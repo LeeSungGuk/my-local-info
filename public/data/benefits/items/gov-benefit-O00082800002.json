@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00082800002",
+  "sourceId": "O00082800002",
+  "title": "소상공인 종합지원",
+  "field": "고용·창업",
+  "provider": "서울신용보증재단",
+  "providerType": "서울 공공기관",
+  "district": "서울특별시",
+  "userType": "소상공인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "서울특별시 소상공인",
+  "summary": "서울신용보증재단에서 제공하는 고용·창업 혜택입니다. 소상공인 생애주기별 맞춤형 종합지원(창업상담, 컨설팅, 교육, 비용지원, 폐업정리지원 등)",
+  "supportType": "기술지원||기타(교육)||기타(상담)",
+  "supportSummary": "○ 소상공인 생애주기(창업,성장,재도전기)별 맞춤형 지원서비스\n\n○ 골목상권 활성화 지원사업\n\n○ 우리마을가게 상권분석서비스 운영",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00082800002",
+  "onlineUrl": "https://www.seoulsbdc.or.kr",
+  "inquiry": [
+    "서울 다산콜센터/02-120"
+  ],
+  "updatedAt": "2025-11-27",
+  "registeredAt": "2022-07-15",
+  "viewCount": 4050,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "소상공인 생애주기별 맞춤형 종합지원(창업상담, 컨설팅, 교육, 비용지원, 폐업정리지원 등)",
+  "target": "서울특별시 소상공인",
+  "selectionCriteria": "",
+  "supportContent": "○ 소상공인 생애주기(창업,성장,재도전기)별 맞춤형 지원서비스\n\n○ 골목상권 활성화 지원사업\n\n○ 우리마을가게 상권분석서비스 운영",
+  "applicationMethod": "○ 온라인 신청 \n - 자영업지원센터 포털 : https://www.seoulsbdc.or.kr",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 소상공인 보호 및 지원에 관한 조례(제8조)||서울특별시 소상공인 보호 및 지원에 관한 조례(제9조)",
+  "inquiryText": "서울 다산콜센터/02-120",
+  "ageMin": 0,
+  "ageMax": 0
+}

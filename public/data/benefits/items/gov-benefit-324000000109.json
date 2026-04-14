@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-324000000109",
+  "sourceId": "324000000109",
+  "title": "노인 성인용 보행기 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 강동구",
+  "providerType": "자치구",
+  "district": "강동구",
+  "userType": "개인",
+  "deadlineText": "상반기:2~3월    /        하반기:8~9월",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 장기요양등급 외 A, B 판정자 중 기초생활수급자, 차상위계층 기초생활수급자, \n\n○ 그 밖에 노인장기요양보험법에 따라 장기요양인정 신청을 하지 않았으나, 신체활동이 불편하여 성인용 보행기가 필요하다고 인정하는 어르신",
+  "summary": "서울특별시 강동구에서 제공하는 보건·의료 혜택입니다. 장기요양 등급외 판정을 받은 저소득 어르신에게 보행기 지원",
+  "supportType": "현물",
+  "supportSummary": "○ 노인장기요양급여 사각지대 어르신의 보행불편 해소 및 편의 증진을 위해 예산 범위내에서 노인 성인용 보행기 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/324000000109",
+  "onlineUrl": "",
+  "inquiry": [
+    "어르신복지과/02-3425-5715"
+  ],
+  "updatedAt": "2026-02-06",
+  "registeredAt": "2021-09-23",
+  "viewCount": 646,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "장기요양 등급외 판정을 받은 저소득 어르신에게 보행기 지원",
+  "target": "○ 장기요양등급 외 A, B 판정자 중 기초생활수급자, 차상위계층 기초생활수급자, \n\n○ 그 밖에 노인장기요양보험법에 따라 장기요양인정 신청을 하지 않았으나, 신체활동이 불편하여 성인용 보행기가 필요하다고 인정하는 어르신",
+  "selectionCriteria": "",
+  "supportContent": "○ 노인장기요양급여 사각지대 어르신의 보행불편 해소 및 편의 증진을 위해 예산 범위내에서 노인 성인용 보행기 지원",
+  "applicationMethod": "○ 방문 신청 \n - 신청서 및  필요서류를 구비하여 주소지 관할 동 주민센터 제출",
+  "documents": "1. 성인용 보행기 지원 신청서 (서울특별시 강동구 노인 성인용 보행기 지원조례 별표 서식)  \n\n2. 증빙서류 [장기요양인정 신청결과 통보서 또는 의사 진단서(소견서)] 등",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 강동구 노인 성인용 보행기 지원 조례",
+  "inquiryText": "어르신복지과/02-3425-5715",
+  "ageMin": 65,
+  "ageMax": 120
+}

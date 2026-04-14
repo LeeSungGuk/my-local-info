@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-316000000138",
+  "sourceId": "316000000138",
+  "title": "외국인 유아(만3~5세)  운영비 지원",
+  "field": "보육·교육",
+  "provider": "서울특별시 구로구",
+  "providerType": "자치구",
+  "district": "구로구",
+  "userType": "법인/시설/단체",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "어린이집 재원 3∼5세 외국인 유아 대상 어린이집",
+  "summary": "서울특별시 구로구에서 제공하는 보육·교육 혜택입니다. 외국인유아의 보육료 부담  및 외국인 밀집지역 어린이집 운영난 우려에 따른 지원",
+  "supportType": "현금(감면)",
+  "supportSummary": "매월 10일 기준 어린이집 재원 만3∼5세 외국인 유아 1인 월 4만원 운영비 지원(해당 월 최소 1일이상 출석)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/316000000138",
+  "onlineUrl": "",
+  "inquiry": [
+    "가족보육과 민간보육팀/02-860-3014"
+  ],
+  "updatedAt": "2026-01-29",
+  "registeredAt": "2025-11-13",
+  "viewCount": 200,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "외국인유아의 보육료 부담  및 외국인 밀집지역 어린이집 운영난 우려에 따른 지원",
+  "target": "어린이집 재원 3∼5세 외국인 유아 대상 어린이집",
+  "selectionCriteria": "",
+  "supportContent": "매월 10일 기준 어린이집 재원 만3∼5세 외국인 유아 1인 월 4만원 운영비 지원(해당 월 최소 1일이상 출석)",
+  "applicationMethod": "미신청(조건 충족시 자동적용)",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 구로구 보육 조례",
+  "inquiryText": "가족보육과 민간보육팀/02-860-3014",
+  "ageMin": 3,
+  "ageMax": 5
+}

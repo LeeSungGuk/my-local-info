@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-305000000152",
+  "sourceId": "305000000152",
+  "title": "대학생 학습멘토링 프로그램 운영",
+  "field": "보육·교육",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "3,  9월 모집",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○  관내 초중고, 지역아동센터 및 우리동네키움센터 소속 학생\n - 모집 기간 중 관내 초중고, 지역아동센터 및 키움센터의 추천을 통한 학생 모집",
+  "summary": "서울특별시 동대문구에서 제공하는 보육·교육 혜택입니다. ○ 대학 재학생과 관내 초중고생, 관내 지역아동센터 및 우리동네 키움센터를 연계하여 학습 서비스 제공\n  -  상반기,  하반기 연 2회 운영",
+  "supportType": "기타(교육)",
+  "supportSummary": "○ 대학 재학생과 관내 초중고생, 관내 지역아동센터 및 우리동네 키움센터를 연계하여 학습 서비스 제공\n  -  상반기,  하반기 연 2회 운영",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000152",
+  "onlineUrl": "",
+  "inquiry": [
+    "동대문구청 교육지원과/02-2127-5199"
+  ],
+  "updatedAt": "2026-02-10",
+  "registeredAt": "2022-07-22",
+  "viewCount": 749,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "○ 대학 재학생과 관내 초중고생, 관내 지역아동센터 및 우리동네 키움센터를 연계하여 학습 서비스 제공\n  -  상반기,  하반기 연 2회 운영",
+  "target": "○  관내 초중고, 지역아동센터 및 우리동네키움센터 소속 학생\n - 모집 기간 중 관내 초중고, 지역아동센터 및 키움센터의 추천을 통한 학생 모집",
+  "selectionCriteria": "",
+  "supportContent": "○ 대학 재학생과 관내 초중고생, 관내 지역아동센터 및 우리동네 키움센터를 연계하여 학습 서비스 제공\n  -  상반기,  하반기 연 2회 운영",
+  "applicationMethod": "○ 모집기간 중 관내 초중고, 관내 지역아동센터 및 우리동네 키움센터의 추천을 통한 멘티 선정",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "동대문구청 교육지원과/02-2127-5199",
+  "ageMin": 6,
+  "ageMax": 19
+}

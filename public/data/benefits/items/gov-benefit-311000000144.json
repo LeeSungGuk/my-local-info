@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-311000000144",
+  "sourceId": "311000000144",
+  "title": "입양아동 입양축하금 지원",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 은평구",
+  "providerType": "자치구",
+  "district": "은평구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 입양신고일 기준 6개월 전부터 서울특별시 은평구에 주민등록을 두고 입양축하금 신청일까지 실제 거주하고 있는 입양부모\n     다만, 입양기관에서 아동을 입양한 경우에 한정",
+  "summary": "서울특별시 은평구에서 제공하는 보호·돌봄 혜택입니다. 입양아동 입양축하금 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 사업대상 : 입양신고일 기준 6개월 전부터 서울특별시 은평구에 주민등록을 두고 입양축하금 신청일까지 실제 거주하고 있는 입양부모\n                      다만, 입양기관에서 아동을 입양한 경우에 한정\n○ 사업내용 : 입양아동 입양축하금 지원\n○ 사업…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000144",
+  "onlineUrl": "",
+  "inquiry": [
+    "가족정책과/02-351-6205"
+  ],
+  "updatedAt": "2026-01-16",
+  "registeredAt": "2022-10-28",
+  "viewCount": 342,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "입양아동 입양축하금 지원",
+  "target": "○ 입양신고일 기준 6개월 전부터 서울특별시 은평구에 주민등록을 두고 입양축하금 신청일까지 실제 거주하고 있는 입양부모\n     다만, 입양기관에서 아동을 입양한 경우에 한정",
+  "selectionCriteria": "",
+  "supportContent": "○ 사업대상 : 입양신고일 기준 6개월 전부터 서울특별시 은평구에 주민등록을 두고 입양축하금 신청일까지 실제 거주하고 있는 입양부모\n                      다만, 입양기관에서 아동을 입양한 경우에 한정\n○ 사업내용 : 입양아동 입양축하금 지원\n○ 사업기간 : 연중\n○ 지급금액 \n - 입양(일반)아동 입양축하금 : 1,000,000원/인\n - 입양(장애)아동 입양축하금 : 2,000,000원/인",
+  "applicationMethod": "○ 입양축하금 지급신청인은 입양신고일로부터 90일 이내에 입양축하금 구비서류를 구청에 제출",
+  "documents": "입양사실확인서(입양기관 발급) 1부\n신청인 예금통장 사본 1부\n입양아동이 장애아동일 경우 관련 서류 1부",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 은평구 입양가정 지원에 관한 조례(제5조)",
+  "inquiryText": "가족정책과/02-351-6205",
+  "ageMin": 0,
+  "ageMax": 120
+}

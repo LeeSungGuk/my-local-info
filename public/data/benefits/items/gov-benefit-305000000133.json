@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-305000000133",
+  "sourceId": "305000000133",
+  "title": "초중고 입학준비금 지원",
+  "field": "보육·교육",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "동대문구에 거주하는 초·중·고등학생 중 신입생",
+  "summary": "서울특별시 동대문구에서 제공하는 보육·교육 혜택입니다. ○ 초중고 입학준비금 지원\n - 대        상 : 관내 초·중·고에 입학하는 신입생\n - 지  원  액 : <초등> 1인당 20만원, <중고등> 1인당 30만원\n - 사용범위 : 의류(교복 등), 도서(학교권장도서 등)\n - 지원방법 : 학교 주관 교복 구매…",
+  "supportType": "기타",
+  "supportSummary": "○ 초중고 입학준비금 지원\n - 대        상 : 관내 초·중·고에 입학하는 신입생\n - 지  원  액 : <초등> 1인당 20만원, <중고등> 1인당 30만원\n - 사용범위 : 의류(교복 등), 도서(학교권장도서 등)\n - 지원방법 : 학교 주관 교복 구매 또…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000133",
+  "onlineUrl": "https://start.sen.go.kr/",
+  "inquiry": [
+    "교육지원과/02-2127-4521"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2022-05-31",
+  "viewCount": 1901,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "○ 초중고 입학준비금 지원\n - 대        상 : 관내 초·중·고에 입학하는 신입생\n - 지  원  액 : <초등> 1인당 20만원, <중고등> 1인당 30만원\n - 사용범위 : 의류(교복 등), 도서(학교권장도서 등)\n - 지원방법 : 학교 주관 교복 구매 또는 모바일 포인트(제로페이) 중 선택",
+  "target": "동대문구에 거주하는 초·중·고등학생 중 신입생",
+  "selectionCriteria": "",
+  "supportContent": "○ 초중고 입학준비금 지원\n - 대        상 : 관내 초·중·고에 입학하는 신입생\n - 지  원  액 : <초등> 1인당 20만원, <중고등> 1인당 30만원\n - 사용범위 : 의류(교복 등), 도서(학교권장도서 등)\n - 지원방법 : 학교 주관 교복 구매 또는 모바일 포인트(제로페이) 중 선택",
+  "applicationMethod": "학교 또는 온라인 사이트 신청",
+  "documents": "지원신청서 등",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 동대문구 입학준비금 지원 조례",
+  "inquiryText": "교육지원과/02-2127-4521",
+  "ageMin": 6,
+  "ageMax": 18
+}

@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-310000000122",
+  "sourceId": "310000000122",
+  "title": "임신초기검사 및 기형아검사 지원",
+  "field": "임신·출산",
+  "provider": "서울특별시 노원구",
+  "providerType": "자치구",
+  "district": "노원구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 노원구에 주민등록 주소지를 둔  임산부",
+  "summary": "서울특별시 노원구에서 제공하는 임신·출산 혜택입니다. 임신부에게 초기검사 및 기형아 검사 지원",
+  "supportType": "서비스(의료)",
+  "supportSummary": "○ 임신초기검사 : 임신 10주 이내 진행하는 공복 혈액 및 소변검사\n○ 기형아검사(쿼드검사) : 임신 16~18주 사이에 진행하는 혈액검사",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/310000000122",
+  "onlineUrl": "",
+  "inquiry": [
+    "생활보건과/02-2116-4193"
+  ],
+  "updatedAt": "2026-01-29",
+  "registeredAt": "2021-09-23",
+  "viewCount": 3524,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "임신부에게 초기검사 및 기형아 검사 지원",
+  "target": "○ 노원구에 주민등록 주소지를 둔  임산부",
+  "selectionCriteria": "",
+  "supportContent": "○ 임신초기검사 : 임신 10주 이내 진행하는 공복 혈액 및 소변검사\n○ 기형아검사(쿼드검사) : 임신 16~18주 사이에 진행하는 혈액검사",
+  "applicationMethod": "○ 거주지 관할 보건소 방문신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "모자보건법(제3조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "생활보건과/02-2116-4193",
+  "ageMin": 18,
+  "ageMax": 44
+}

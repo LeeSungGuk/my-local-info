@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-B37003100011",
+  "sourceId": "B37003100011",
+  "title": "스포츠산업 인턴십 지원",
+  "field": "고용·창업",
+  "provider": "서울올림픽기념국민체육진흥공단",
+  "providerType": "서울 공공기관",
+  "district": "서울특별시",
+  "userType": "법인/시설/단체",
+  "deadlineText": "매년 상반기",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 기업\n - 국내 중·소 스포츠산업체 및 협·단체 등\n\n○ 인턴\n - 스포츠산업분야 구직 희망자",
+  "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 고용·창업 혜택입니다. 스포츠분야 우수인재 발굴 및 직무역량 강화를 위한 현장실무경험 제공 및 일자리 창출",
+  "supportType": "서비스(일자리)||현금",
+  "supportSummary": "○ (사업개요) 국내 스포츠산업 분야 인턴십 운영을 위한 인건비 등 지원\n○ (지원내용) 인턴 월별 인건비 지원\n - (금액) 173만원(1인당/월)\n - (기간) 3개월 + 정규직 전환시 3개월 추가",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100011",
+  "onlineUrl": "http://spobiz.kspo.or.kr/job",
+  "inquiry": [
+    "산업진흥팀/02-410-1951"
+  ],
+  "updatedAt": "2026-02-10",
+  "registeredAt": "2022-07-15",
+  "viewCount": 11007,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "스포츠분야 우수인재 발굴 및 직무역량 강화를 위한 현장실무경험 제공 및 일자리 창출",
+  "target": "○ 기업\n - 국내 중·소 스포츠산업체 및 협·단체 등\n\n○ 인턴\n - 스포츠산업분야 구직 희망자",
+  "selectionCriteria": "",
+  "supportContent": "○ (사업개요) 국내 스포츠산업 분야 인턴십 운영을 위한 인건비 등 지원\n○ (지원내용) 인턴 월별 인건비 지원\n - (금액) 173만원(1인당/월)\n - (기간) 3개월 + 정규직 전환시 3개월 추가",
+  "applicationMethod": "○ 온라인 신청 \n - 잡스포이즈 : spobiz.kspo.or.kr/job 가입 후 진행(기업은 기업회원, 인턴은 개인회원 가입)",
+  "documents": "(기업) 참여신청서 및 제반서류 제출\n(인턴) 공고 확인 후 기업 채용 절차에 따라 준비",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "스포츠산업 진흥법(제6조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "산업진흥팀/02-410-1951",
+  "ageMin": 0,
+  "ageMax": 0
+}

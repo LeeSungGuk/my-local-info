@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-304000000101",
+  "sourceId": "304000000101",
+  "title": "범죄피해자 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "광진구에서 발생한 범죄의 피해자 또는 광진구에 거주하는 범죄피해자",
+  "summary": "서울특별시 광진구에서 제공하는 생활안정 혜택입니다. 범죄로 피해를 입은 사람에게 신체적, 정신적 피해 회복을 위한 종합적 서비스 지원",
+  "supportType": "현금",
+  "supportSummary": "치료비, 심리상담비, 생계비, 주거이전비, 법률상담 등",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청",
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000101",
+  "onlineUrl": "https://scvc.kcva.or.kr/",
+  "inquiry": [
+    "서울동부범죄피해자지원센터/02-455-4954"
+  ],
+  "updatedAt": "2026-01-28",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1116,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "범죄로 피해를 입은 사람에게 신체적, 정신적 피해 회복을 위한 종합적 서비스 지원",
+  "target": "광진구에서 발생한 범죄의 피해자 또는 광진구에 거주하는 범죄피해자",
+  "selectionCriteria": "",
+  "supportContent": "치료비, 심리상담비, 생계비, 주거이전비, 법률상담 등",
+  "applicationMethod": "서울동부범죄피해자지원센터 신청\n - 온라인 신청: https://scvc.kcva.or.kr/",
+  "documents": "-",
+  "officialDocuments": "-",
+  "identityDocuments": "-",
+  "legalBasis": [
+    "범죄피해자 보호법"
+  ],
+  "ordinance": "",
+  "inquiryText": "서울동부범죄피해자지원센터/02-455-4954",
+  "ageMin": 0,
+  "ageMax": 120
+}

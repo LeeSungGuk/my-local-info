@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-324000000104",
+  "sourceId": "324000000104",
+  "title": "반려식물 보급",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 강동구",
+  "providerType": "자치구",
+  "district": "강동구",
+  "userType": "개인",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 노인맞춤돌봄서비스 지원 대상 구민",
+  "summary": "서울특별시 강동구에서 제공하는 보호·돌봄 혜택입니다. 노인맞춤돌봄서비스 대상 구민 반려식물 보급 및 원예치유프로그램 진행, 전시회 개최 등",
+  "supportType": "기타(교육)||현물",
+  "supportSummary": "○ 노인맞춤돌봄서비스 대상 구민 반려식물 보급 및 원예치유 프로그램 운영, 전시회 개최 등",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/324000000104",
+  "onlineUrl": "",
+  "inquiry": [
+    "푸른도시과/02-3425-6554"
+  ],
+  "updatedAt": "2026-02-06",
+  "registeredAt": "2021-09-23",
+  "viewCount": 376,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "노인맞춤돌봄서비스 대상 구민 반려식물 보급 및 원예치유프로그램 진행, 전시회 개최 등",
+  "target": "○ 노인맞춤돌봄서비스 지원 대상 구민",
+  "selectionCriteria": "",
+  "supportContent": "○ 노인맞춤돌봄서비스 대상 구민 반려식물 보급 및 원예치유 프로그램 운영, 전시회 개최 등",
+  "applicationMethod": "대상자 임의 선정",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "노인복지법"
+  ],
+  "ordinance": "",
+  "inquiryText": "푸른도시과/02-3425-6554",
+  "ageMin": 65,
+  "ageMax": 120
+}

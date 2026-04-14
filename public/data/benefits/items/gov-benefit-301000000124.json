@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-301000000124",
+  "sourceId": "301000000124",
+  "title": "장애인가정 출산지원금 지원",
+  "field": "임신·출산",
+  "provider": "서울특별시 중구",
+  "providerType": "자치구",
+  "district": "중구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○  출산일 기준으로 6개월 전부터 중구 관내에 주민등록을 두고 거주하는 장애인가정",
+  "summary": "서울특별시 중구에서 제공하는 임신·출산 혜택입니다. 중구 관내 등록장애인 중 출산 장애인가정에 출산지원금 지급",
+  "supportType": "현금",
+  "supportSummary": "○ 부 또는 모의 장애정도가 심한 장애인 : 150만원\n\n○ 부 또는 모의 장애정도가 심하지 않은 장애인 : 120만원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/301000000124",
+  "onlineUrl": "",
+  "inquiry": [
+    "어르신장애인복지과/02-3396-5534"
+  ],
+  "updatedAt": "2026-02-05",
+  "registeredAt": "2021-09-23",
+  "viewCount": 814,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "중구 관내 등록장애인 중 출산 장애인가정에 출산지원금 지급",
+  "target": "○  출산일 기준으로 6개월 전부터 중구 관내에 주민등록을 두고 거주하는 장애인가정",
+  "selectionCriteria": "",
+  "supportContent": "○ 부 또는 모의 장애정도가 심한 장애인 : 150만원\n\n○ 부 또는 모의 장애정도가 심하지 않은 장애인 : 120만원",
+  "applicationMethod": "○ 방문 신청\n - 주민센터 : 주소지 관할 주민센터 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 중구 장애인가정 출산지원금 지급 조례",
+  "inquiryText": "어르신장애인복지과/02-3396-5534",
+  "ageMin": 18,
+  "ageMax": 44
+}

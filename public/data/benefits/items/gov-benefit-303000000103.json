@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-303000000103",
+  "sourceId": "303000000103",
+  "title": "장애인 활동지원(추가2)",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 성동구",
+  "providerType": "자치구",
+  "district": "성동구",
+  "userType": "개인",
+  "deadlineText": "상시신청(단, 예산 상황에 따라 대기 기간 있음)",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 국고보조대상자 중 시간이 부족한 한부모, 맞벌이 가구 등 실제 가족 지원이 어려운 대상자 등",
+  "summary": "서울특별시 성동구에서 제공하는 보호·돌봄 혜택입니다. 활동지원사를 통한 신체, 가사활동 및 이동보조 등 지원",
+  "supportType": "이용권",
+  "supportSummary": "○ 활동지원 서비스 시간이 부족한 활동지원 대상자에게 월 25시간 또는 150시간 추가 시간 제공",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000103",
+  "onlineUrl": "",
+  "inquiry": [
+    "장애인복지과/02-2286-5438"
+  ],
+  "updatedAt": "2026-02-04",
+  "registeredAt": "2021-09-23",
+  "viewCount": 767,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "활동지원사를 통한 신체, 가사활동 및 이동보조 등 지원",
+  "target": "○ 국고보조대상자 중 시간이 부족한 한부모, 맞벌이 가구 등 실제 가족 지원이 어려운 대상자 등",
+  "selectionCriteria": "",
+  "supportContent": "○ 활동지원 서비스 시간이 부족한 활동지원 대상자에게 월 25시간 또는 150시간 추가 시간 제공",
+  "applicationMethod": "○ 동주민센터 방문 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "장애인활동 지원에 관한 법률"
+  ],
+  "ordinance": "",
+  "inquiryText": "장애인복지과/02-2286-5438",
+  "ageMin": 0,
+  "ageMax": 120
+}

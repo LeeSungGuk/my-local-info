@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-317000000104",
+  "sourceId": "317000000104",
+  "title": "저소득 주민 국민건강보험료 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 금천구",
+  "providerType": "자치구",
+  "district": "금천구",
+  "userType": "개인",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 월 최저보험료 이하의 국민건강보험료 및 노인장기요양보험료를 납부하고 있는 소득인정액이 기준중위소득의 50%이하인 노인 및 한부모 세대",
+  "summary": "서울특별시 금천구에서 제공하는 보건·의료 혜택입니다. 저소득 노인 및 한부모세대에 대하여 국민건강보험료 및 노인장기요양 보험료를 지원",
+  "supportType": "현금(보험)",
+  "supportSummary": "○ 노인 및 한부모 세대에 매월 최저보험료 이하의 국민건강보험료 및 장기요양보험료 전액 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/317000000104",
+  "onlineUrl": "",
+  "inquiry": [
+    "복지지원과/02-2627-1404"
+  ],
+  "updatedAt": "2026-02-06",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1067,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "저소득 노인 및 한부모세대에 대하여 국민건강보험료 및 노인장기요양 보험료를 지원",
+  "target": "○ 월 최저보험료 이하의 국민건강보험료 및 노인장기요양보험료를 납부하고 있는 소득인정액이 기준중위소득의 50%이하인 노인 및 한부모 세대",
+  "selectionCriteria": "",
+  "supportContent": "○ 노인 및 한부모 세대에 매월 최저보험료 이하의 국민건강보험료 및 장기요양보험료 전액 지원",
+  "applicationMethod": "○ 개인 신청절차 없음\n - 국민건강보험공단 금천지사에서 지원대상자 명단을 금천구청으로 통보하면 금천구청에서 대상자 지원결정",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 금천구 저소득주민 국민건강보험료 등 지원에 관한 조례",
+  "inquiryText": "복지지원과/02-2627-1404",
+  "ageMin": 0,
+  "ageMax": 120
+}

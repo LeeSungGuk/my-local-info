@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-611000000137",
+  "sourceId": "611000000137",
+  "title": "저소득시민 부가급여 지원",
+  "field": "생활안정",
+  "provider": "서울특별시",
+  "providerType": "서울시",
+  "district": "서울특별시",
+  "userType": "개인||가구",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 기초생계·의료급여 수급자 가구",
+  "summary": "서울특별시에서 제공하는 생활안정 혜택입니다. ○ 기초생계·의료급여 수급자에게 법정급여 외 서울시 자체의 부가 급여를 지원하여 저소득 시민의 최저생활수준 충족 도모",
+  "supportType": "현금",
+  "supportSummary": "○ 기초생계· 의료급여 수급자 가구에 서울시에서 부가적으로 명절위문비(설날,추석), 중·고등학생교통비(분기별), 월동대책비(11월) 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000137",
+  "onlineUrl": "",
+  "inquiry": [
+    "복지정책과/02-2133-7338"
+  ],
+  "updatedAt": "2026-01-22",
+  "registeredAt": "2021-09-23",
+  "viewCount": 32689,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "○ 기초생계·의료급여 수급자에게 법정급여 외 서울시 자체의 부가 급여를 지원하여 저소득 시민의 최저생활수준 충족 도모",
+  "target": "○ 기초생계·의료급여 수급자 가구",
+  "selectionCriteria": "",
+  "supportContent": "○ 기초생계· 의료급여 수급자 가구에 서울시에서 부가적으로 명절위문비(설날,추석), 중·고등학생교통비(분기별), 월동대책비(11월) 지원",
+  "applicationMethod": "○ 개인 신청절차 없음 \n - 별도신청없이 주민등록상 주소지 구청에서 기초생계, 의료급여 자격보유자에게 지원",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 주민생활안정 지원에 관한 조례(제5조)",
+  "inquiryText": "복지정책과/02-2133-7338",
+  "ageMin": 0,
+  "ageMax": 120
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-305000000140",
+  "sourceId": "305000000140",
+  "title": "저소득층 주거급여 지원",
+  "field": "주거·자립",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "가구",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "소득인정액이 기준중위소득 47% 이하인 가구",
+  "summary": "서울특별시 동대문구에서 제공하는 주거·자립 혜택입니다. 저소득층 주거급여(임차, 수선유지) 지원",
+  "supportType": "현금||현물",
+  "supportSummary": "O 임차급여\n - 주거급여 수급자 중 타인의 주택 등에 임차로 거주하는 가구에 임차급여 지원\n - 기준임대료에 의거 지원\nO 수선유지급여\n - 주거급여 수급자 중 주택을 소유하고 그 주택에 거주하는 가구에 수선유지급여 지원\n - 주택 노후도에 따른 현물(주택 수선)…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청",
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000140",
+  "onlineUrl": "http://online.bokjiro.go.kr",
+  "inquiry": [
+    "사회복지과/02-2127-4238"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2022-07-05",
+  "viewCount": 2026,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "저소득층 주거급여(임차, 수선유지) 지원",
+  "target": "소득인정액이 기준중위소득 47% 이하인 가구",
+  "selectionCriteria": "",
+  "supportContent": "O 임차급여\n - 주거급여 수급자 중 타인의 주택 등에 임차로 거주하는 가구에 임차급여 지원\n - 기준임대료에 의거 지원\nO 수선유지급여\n - 주거급여 수급자 중 주택을 소유하고 그 주택에 거주하는 가구에 수선유지급여 지원\n - 주택 노후도에 따른 현물(주택 수선) 지원",
+  "applicationMethod": "O 방문, 온라인\nO 방문 : 주민등록지 주민센터(신분증 지참)\nO 온라인 : 복지로 (http://online.bokjiro.go.kr)",
+  "documents": "ㆍ사회보장급여 제공(변경) 신청서 (동주민센터 비치) \nㆍ소득 및 재산 신고서 (동주민센터 비치) \nㆍ금융정보 등 제공동의서 (동주민센터 비치) \nㆍ임대차(전대차) 계약서, 사용대차 확인서 \nㆍ통장사본 및 신분증 \n※ 고용임금확인서, 장애인등록증, 제적등본 등 추가 서류를 요청할 수 있습니다.",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "주거급여법(제7조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "사회복지과/02-2127-4238",
+  "ageMin": 19,
+  "ageMax": 120
+}

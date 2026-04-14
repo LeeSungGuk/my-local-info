@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-307000000117",
+  "sourceId": "307000000117",
+  "title": "저소득구민 명절 위문금 지급 (기초 생계·의료급여 수급자)",
+  "field": "생활안정",
+  "provider": "서울특별시 성북구",
+  "providerType": "자치구",
+  "district": "성북구",
+  "userType": "가구",
+  "deadlineText": "신청불필요",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "기초 생계·의료급여 수급자 가구(시설수급자 제외)",
+  "summary": "서울특별시 성북구에서 제공하는 생활안정 혜택입니다. 기초 생계·의료급여 수급자 가구에 50,000원 지급",
+  "supportType": "현금",
+  "supportSummary": "지원 대상\n- 기초 생계·의료급여 수급자(시설수급자 제외) \n지원내용\n- 명절위문금 가구당 50,000원(시비 30,000원 + 구비 20,000원)\n지원기준일 \n- 설, 추석 명절\n지원방법\n- 동별 명단 수합 후 수급자의 계좌에 현금 입금",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000117",
+  "onlineUrl": "",
+  "inquiry": [
+    "성북구청 복지정책과/02-2241-2309"
+  ],
+  "updatedAt": "2026-02-04",
+  "registeredAt": "2022-02-10",
+  "viewCount": 2133,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "기초 생계·의료급여 수급자 가구에 50,000원 지급",
+  "target": "기초 생계·의료급여 수급자 가구(시설수급자 제외)",
+  "selectionCriteria": "",
+  "supportContent": "지원 대상\n- 기초 생계·의료급여 수급자(시설수급자 제외) \n지원내용\n- 명절위문금 가구당 50,000원(시비 30,000원 + 구비 20,000원)\n지원기준일 \n- 설, 추석 명절\n지원방법\n- 동별 명단 수합 후 수급자의 계좌에 현금 입금",
+  "applicationMethod": "해당 서비스는 신청없이 자격대상자에게 자동적으로 제공됩니다.",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 성북구 저소득주민의 생활안정 지원에 관한 조례(제3조)",
+  "inquiryText": "성북구청 복지정책과/02-2241-2309",
+  "ageMin": 0,
+  "ageMax": 120
+}

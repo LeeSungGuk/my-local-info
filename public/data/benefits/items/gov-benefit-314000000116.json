@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-314000000116",
+  "sourceId": "314000000116",
+  "title": "저소득 한부모가정 명절위문금 지급",
+  "field": "생활안정",
+  "provider": "서울특별시 양천구",
+  "providerType": "자치구",
+  "district": "양천구",
+  "userType": "가구",
+  "deadlineText": "신청불필요",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 저소득한부모가정",
+  "summary": "서울특별시 양천구에서 제공하는 생활안정 혜택입니다. 저소득 한부모가정에 명절 위문금 지급",
+  "supportType": "현금",
+  "supportSummary": "○ 설날 및 추석 연 2회 가구당 4만원 명절위문금 지급",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000116",
+  "onlineUrl": "",
+  "inquiry": [
+    "보육정책과/02-2620-4848"
+  ],
+  "updatedAt": "2026-02-03",
+  "registeredAt": "2021-09-23",
+  "viewCount": 2160,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "저소득 한부모가정에 명절 위문금 지급",
+  "target": "○ 저소득한부모가정",
+  "selectionCriteria": "",
+  "supportContent": "○ 설날 및 추석 연 2회 가구당 4만원 명절위문금 지급",
+  "applicationMethod": "○ 법정한부모로 지원중일시, 별도 신청불필요",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 양천구 한부모가족 지원에 관한 조례",
+  "inquiryText": "보육정책과/02-2620-4848",
+  "ageMin": 0,
+  "ageMax": 120
+}

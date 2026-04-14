@@ -1,0 +1,47 @@
+{
+  "id": "gov-benefit-611000000155",
+  "sourceId": "611000000155",
+  "title": "이주여성 건강관리 지원 (구)다문화가족 출산 전후 돌봄서비스)",
+  "field": "임신·출산",
+  "provider": "서울특별시",
+  "providerType": "서울시",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 임신출산한 결혼이주여성, 배우자, 시부모 등 외국인주민 및 다문화가족",
+  "summary": "서울특별시에서 제공하는 임신·출산 혜택입니다. 이주여성을 위한 의료통역 및 건강한 임신과 출산 맞춤형 지원\n종합건강검진, 출산교실, 실미정서 등 안정적으로 지속  운영 \n이주여성에게 의료통역봉사자 사회적 일자리 기회 제공",
+  "supportType": "서비스(돌봄)",
+  "supportSummary": "○ 의료통역 지원, 출산교실 운영, 결혼이주여성 건강점진 지원, 우울선별검사/심리정서지원, 멘토링 서비스 제공 등",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청",
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000155",
+  "onlineUrl": "http://www.hallymvento.co.kr",
+  "inquiry": [
+    "한림대학교 강남성심병원/02-120",
+    "사회복지사업팀/02-6960-1045"
+  ],
+  "updatedAt": "2026-02-04",
+  "registeredAt": "2021-09-23",
+  "viewCount": 2000,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "이주여성을 위한 의료통역 및 건강한 임신과 출산 맞춤형 지원\n종합건강검진, 출산교실, 실미정서 등 안정적으로 지속  운영 \n이주여성에게 의료통역봉사자 사회적 일자리 기회 제공",
+  "target": "○ 임신출산한 결혼이주여성, 배우자, 시부모 등 외국인주민 및 다문화가족",
+  "selectionCriteria": "",
+  "supportContent": "○ 의료통역 지원, 출산교실 운영, 결혼이주여성 건강점진 지원, 우울선별검사/심리정서지원, 멘토링 서비스 제공 등",
+  "applicationMethod": "○ 방문, 전화 및 해당 홈페이지를 통해  신청\n - 기타 : 한림대학교 강남성심병원 사회사업팀",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "다문화가족지원법(제9조)"
+  ],
+  "ordinance": "서울특별시 외국인주민 및 다문화가족 지원 조례",
+  "inquiryText": "한림대학교 강남성심병원/02-120||사회복지사업팀/02-6960-1045",
+  "ageMin": 18,
+  "ageMax": 44
+}

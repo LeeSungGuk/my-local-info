@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-304000000124",
+  "sourceId": "304000000124",
+  "title": "저소득가구 명절위문비 지급",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "가구",
+  "deadlineText": "별도신청없이 대상자 선정시 지급",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "기초생활수급(생계, 의료) 가구",
+  "summary": "서울특별시 광진구에서 제공하는 보호·돌봄 혜택입니다. 생계,의료수급 가구에 현금2만원 지급(설,추석)",
+  "supportType": "현금",
+  "supportSummary": "생계,의료수급 가구에 현금2만원 지급(설,추석)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000124",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 복지정책과/02-450-7494"
+  ],
+  "updatedAt": "2026-02-03",
+  "registeredAt": "2021-09-23",
+  "viewCount": 2979,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "생계,의료수급 가구에 현금2만원 지급(설,추석)",
+  "target": "기초생활수급(생계, 의료) 가구",
+  "selectionCriteria": "",
+  "supportContent": "생계,의료수급 가구에 현금2만원 지급(설,추석)",
+  "applicationMethod": "개인 신청절차 없음",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 광진구 저소득주민의 생활안정 지원에 관한 조례",
+  "inquiryText": "광진구 복지정책과/02-450-7494",
+  "ageMin": 0,
+  "ageMax": 120
+}

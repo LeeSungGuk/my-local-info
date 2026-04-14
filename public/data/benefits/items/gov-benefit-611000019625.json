@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-611000019625",
+  "sourceId": "611000019625",
+  "title": "서울청년문화패스",
+  "field": "문화·환경",
+  "provider": "서울특별시",
+  "providerType": "서울시",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "공고문, 보도자료 등을 통해 공지",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "ㅇ 연령요건 : 21세~23세 청년('26년 기준, 2003~2005년생)\n - 의무복무 제대군인은 복무기간별 최대 3년 이내 지원연령 가산\nㅇ 주거요건 : 신청일 기준 주민등록상, 외국인등록대장상 서울 거주\nㅇ 소득요건 : 생애 최초 수혜자만 신청 가능, 건강보험료…",
+  "summary": "서울특별시에서 제공하는 문화·환경 혜택입니다. 공연예술(연극, 뮤지컬, 클래식·오페라, 발레·무용, 국악, 전시 등)관람 지원",
+  "supportType": "이용권",
+  "supportSummary": "사회에 첫 발을 내딛는 21~23세 청년들에게 연극, 뮤지컬, 클래식·오페라, 발레·무용, 국악, 전시 등 문화예술 공연 관람 기회를 제공하고 문화예술분야 활성화를 위해 문화이용권을 지원하는 사업",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000019625",
+  "onlineUrl": "https://youth.seoul.go.kr/",
+  "inquiry": [
+    "서울청년문화패스 콜센터/1533-3427"
+  ],
+  "updatedAt": "2026-01-23",
+  "registeredAt": "2025-07-15",
+  "viewCount": 938,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "공연예술(연극, 뮤지컬, 클래식·오페라, 발레·무용, 국악, 전시 등)관람 지원",
+  "target": "ㅇ 연령요건 : 21세~23세 청년('26년 기준, 2003~2005년생)\n - 의무복무 제대군인은 복무기간별 최대 3년 이내 지원연령 가산\nㅇ 주거요건 : 신청일 기준 주민등록상, 외국인등록대장상 서울 거주\nㅇ 소득요건 : 생애 최초 수혜자만 신청 가능, 건강보험료 기준 중위소득 150% 이하",
+  "selectionCriteria": "",
+  "supportContent": "사회에 첫 발을 내딛는 21~23세 청년들에게 연극, 뮤지컬, 클래식·오페라, 발레·무용, 국악, 전시 등 문화예술 공연 관람 기회를 제공하고 문화예술분야 활성화를 위해 문화이용권을 지원하는 사업",
+  "applicationMethod": "ㅇ 청년몽땅정보통 접속 후 '서울청년문화패스' 온라인 신청 및 접수",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 청년 기본 조례",
+  "inquiryText": "서울청년문화패스 콜센터/1533-3427",
+  "ageMin": 21,
+  "ageMax": 26
+}

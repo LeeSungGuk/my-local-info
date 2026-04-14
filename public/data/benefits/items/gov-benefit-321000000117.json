@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-321000000117",
+  "sourceId": "321000000117",
+  "title": "서초구 마음건강검진 및 상담지원사업",
+  "field": "보건·의료",
+  "provider": "서울특별시 서초구",
+  "providerType": "자치구",
+  "district": "서초구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 만19세이상 서초구민\n○ 서초구 직장인(서울시민)\n○ 서울구 관내 대학생",
+  "summary": "서울특별시 서초구에서 제공하는 보건·의료 혜택입니다. ○ 정신건강 위험요인 조기 발견 및 치료 유도를 통해 자살예방과 삶의 질 향상을 도모",
+  "supportType": "서비스(의료)",
+  "supportSummary": "○ 만 19세 이상 서초구민 및 서초구 직장인에게 정신건강의학과전문의 상담비 지원(최대 3회 8만원)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/321000000117",
+  "onlineUrl": "",
+  "inquiry": [
+    "건강관리과/02-2155-8186"
+  ],
+  "updatedAt": "2026-03-09",
+  "registeredAt": "2021-09-23",
+  "viewCount": 3510,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "○ 정신건강 위험요인 조기 발견 및 치료 유도를 통해 자살예방과 삶의 질 향상을 도모",
+  "target": "○ 만19세이상 서초구민\n○ 서초구 직장인(서울시민)\n○ 서울구 관내 대학생",
+  "selectionCriteria": "",
+  "supportContent": "○ 만 19세 이상 서초구민 및 서초구 직장인에게 정신건강의학과전문의 상담비 지원(최대 3회 8만원)",
+  "applicationMethod": "○ 방문 신청\n○ 전화  상담 후 신청 (담당자 02-2155-8186)",
+  "documents": "없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "자살예방 및 생명존중문화 조성을 위한 법률"
+  ],
+  "ordinance": "서울특별시 서초구 자살예방 및 생명존중 문화 조성에 관한 조례",
+  "inquiryText": "건강관리과/02-2155-8186",
+  "ageMin": 19,
+  "ageMax": 120
+}

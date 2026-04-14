@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-611000000182",
+  "sourceId": "611000000182",
+  "title": "지역사회서비스투자사업",
+  "field": "생활안정",
+  "provider": "서울특별시",
+  "providerType": "서울시",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 기준중위소득 140% 이하 가구 원칙 (일부사업 예외적용)",
+  "summary": "서울특별시에서 제공하는 생활안정 혜택입니다. 지역사회 주도로 지역 특성 및 주민 수요에 맞는 서비스 개발,제공",
+  "supportType": "이용권",
+  "supportSummary": "○ 기준 중위소득 140% 이하 가구를 대상으로 (일부 사업 예외 적용) 주민 수요에 맞는 서비스 개발 및 제공\n  - 아동청소년 심리지원서비스\n  - 시각장애인 안마서비스\n  - 정신건강 토탈케어서비스\n  - 아동청소년 정서발달지원서비스\n  - 영유아 발달지원서비스…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000182",
+  "onlineUrl": "",
+  "inquiry": [
+    "관할 주민센터/02-120"
+  ],
+  "updatedAt": "2025-12-15",
+  "registeredAt": "2023-08-23",
+  "viewCount": 268,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "지역사회 주도로 지역 특성 및 주민 수요에 맞는 서비스 개발,제공",
+  "target": "○ 기준중위소득 140% 이하 가구 원칙 (일부사업 예외적용)",
+  "selectionCriteria": "",
+  "supportContent": "○ 기준 중위소득 140% 이하 가구를 대상으로 (일부 사업 예외 적용) 주민 수요에 맞는 서비스 개발 및 제공\n  - 아동청소년 심리지원서비스\n  - 시각장애인 안마서비스\n  - 정신건강 토탈케어서비스\n  - 아동청소년 정서발달지원서비스\n  - 영유아 발달지원서비스\n  - 부모 성장을 위한 심리지원 서비스\n  - 장애인보조기기 렌탈 서비스\n  - 우리아이 꿈 그리기 꿈 부르기 서비스\n  - 성인장애인 건강을 위한 맞춤운동서비스\n  - 아동청소년 비전형성지원서비스\n  - 어린이 베토벤, 피카소 따라잡기\n  - 노는 은평, 크는 아이\n  - 장애아동청소년 자립생활역량강화서비스\n  - 아동 예술 멘토링 지원 서비스\n  - 어르신 정서 지원 서비스\n\n○ 이용방법 : 바우처 전용카드를 서비스 대상자 명의로 발급·사용",
+  "applicationMethod": "○ 신청방법 : 읍/면/동 주민센터로 방문신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "사회서비스 이용 및 이용권 관리에 관한 법률(제4조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "관할 주민센터/02-120",
+  "ageMin": 0,
+  "ageMax": 120
+}

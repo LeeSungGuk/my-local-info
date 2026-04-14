@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-315000000109",
+  "sourceId": "315000000109",
+  "title": "저소득주민 국민건강보험료 등 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 강서구",
+  "providerType": "자치구",
+  "district": "강서구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 강서구 거주 저소득주민 중 국민건강보험료 부과금액이 월 최저 보험료 이하의 세대이면서 65세 이상 노인으로만 구성된 세대 또는 등록장애인이 포함된 세대",
+  "summary": "서울특별시 강서구에서 제공하는 보건·의료 혜택입니다. 저소득 장애인 및 노인가구를 대상으로 보험료 지원",
+  "supportType": "현금(보험)",
+  "supportSummary": "○ 장애인가구 및 노인가구 대상으로 보험료 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000109",
+  "onlineUrl": "",
+  "inquiry": [
+    "생활보장과/02-2600-6356"
+  ],
+  "updatedAt": "2026-02-26",
+  "registeredAt": "2021-09-23",
+  "viewCount": 992,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "저소득 장애인 및 노인가구를 대상으로 보험료 지원",
+  "target": "○ 강서구 거주 저소득주민 중 국민건강보험료 부과금액이 월 최저 보험료 이하의 세대이면서 65세 이상 노인으로만 구성된 세대 또는 등록장애인이 포함된 세대",
+  "selectionCriteria": "",
+  "supportContent": "○ 장애인가구 및 노인가구 대상으로 보험료 지원",
+  "applicationMethod": "○ 방문 신청 \n - 주민센터 : 관할 주민센터 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 강서구 저소득주민 국민건강보험료 등 지원에 관한 조례",
+  "inquiryText": "생활보장과/02-2600-6356",
+  "ageMin": 0,
+  "ageMax": 120
+}

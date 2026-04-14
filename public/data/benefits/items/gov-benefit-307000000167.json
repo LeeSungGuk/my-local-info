@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-307000000167",
+  "sourceId": "307000000167",
+  "title": "도전숙 입주자 모집",
+  "field": "주거·자립",
+  "provider": "서울특별시 성북구",
+  "providerType": "자치구",
+  "district": "성북구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○성북구 거주자 누구나 신청 가능",
+  "summary": "서울특별시 성북구에서 제공하는 주거·자립 혜택입니다. ○1인창조기업 사회적 기업을 위한 공공임대주택 도전숙 모집",
+  "supportType": "서비스(돌봄)",
+  "supportSummary": "○1인창조기업 사회적 기업을 위한 공공임대주택 도전숙 모집\n- 임대기간 : 2년(연장 4회 가능, 최대10년)\n- 청년들의 창업을 적극 장려하고 주거부담을 덜어주기 위하여 재정적으로 어려움을 겪고 있는\n  1인 창조기업인과 예비창업자에게 사무공간 및 주거공간을 동시에…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000167",
+  "onlineUrl": "",
+  "inquiry": [
+    "김연주/02-2241-3983"
+  ],
+  "updatedAt": "2026-02-04",
+  "registeredAt": "2022-08-17",
+  "viewCount": 983,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "○1인창조기업 사회적 기업을 위한 공공임대주택 도전숙 모집",
+  "target": "○성북구 거주자 누구나 신청 가능",
+  "selectionCriteria": "",
+  "supportContent": "○1인창조기업 사회적 기업을 위한 공공임대주택 도전숙 모집\n- 임대기간 : 2년(연장 4회 가능, 최대10년)\n- 청년들의 창업을 적극 장려하고 주거부담을 덜어주기 위하여 재정적으로 어려움을 겪고 있는\n  1인 창조기업인과 예비창업자에게 사무공간 및 주거공간을 동시에 제공하는 직주혼합형 공공임대주택 제공",
+  "applicationMethod": "○방문, 전화, 온라인 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "김연주/02-2241-3983",
+  "ageMin": 0,
+  "ageMax": 0
+}

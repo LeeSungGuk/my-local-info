@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-311000000133",
+  "sourceId": "311000000133",
+  "title": "은평구 드림스타트",
+  "field": "생활안정",
+  "provider": "서울특별시 은평구",
+  "providerType": "자치구",
+  "district": "은평구",
+  "userType": "가구",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "만 12세 이하(초등학생 이하) 취약계층 아동 및 가족, 임산부\n * 기초생활보장수급자, 한부모가정, 차상위계층 등",
+  "summary": "서울특별시 은평구에서 제공하는 생활안정 혜택입니다. 취약계층 아동에게 맞춤형 통합서비스를 제공하여 아동의 건강한 성장과 발달을 도모하고, 공평한 출발 기회를 보장하여 건강하고 행복한 사회구성원으로의 성장을 지원",
+  "supportType": "현금(감면)",
+  "supportSummary": "□ 아동 맞춤형 서비스 제공\n ○ 기초학습지 \n ○ 방문 독서지도\n ○ 아동잡지 정기구독\n ○ 심리검사 및 치료\n ○ 특기 적성 프로그램\n ○ 현장체험학습/가족활동",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000133",
+  "onlineUrl": "",
+  "inquiry": [
+    "은평구 드림스타트팀/02-351-7132"
+  ],
+  "updatedAt": "2026-01-16",
+  "registeredAt": "2022-10-26",
+  "viewCount": 1254,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "취약계층 아동에게 맞춤형 통합서비스를 제공하여 아동의 건강한 성장과 발달을 도모하고, 공평한 출발 기회를 보장하여 건강하고 행복한 사회구성원으로의 성장을 지원",
+  "target": "만 12세 이하(초등학생 이하) 취약계층 아동 및 가족, 임산부\n * 기초생활보장수급자, 한부모가정, 차상위계층 등",
+  "selectionCriteria": "",
+  "supportContent": "□ 아동 맞춤형 서비스 제공\n ○ 기초학습지 \n ○ 방문 독서지도\n ○ 아동잡지 정기구독\n ○ 심리검사 및 치료\n ○ 특기 적성 프로그램\n ○ 현장체험학습/가족활동",
+  "applicationMethod": "유선상담 및 자격요건 확인 후 사례관리 담당자가 가정방문 예정",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "아동복지법(제37조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "은평구 드림스타트팀/02-351-7132",
+  "ageMin": 0,
+  "ageMax": 12
+}

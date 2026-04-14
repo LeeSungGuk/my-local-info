@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-304000000123",
+  "sourceId": "304000000123",
+  "title": "광진구 국가보훈대상자 보훈예우수당 지급",
+  "field": "생활안정",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 광진구에 주민등록을 두고 거주하고 있는 국가보훈대상자\n ※ 제대군인, 장기전역하사관, 지원공상군경 비해당\n\n○ 지급일 기준\n - 사망자 : 사망한 날이 속한 달까지 지급\n - 타시도 전출자 : 전출일이 속한 달까지 지급\n - 타시도 전입자 : 타시도 확인하여 지급…",
+  "summary": "서울특별시 광진구에서 제공하는 생활안정 혜택입니다. 국가보훈대상자를 위해 예우수당 지원",
+  "supportType": "현금",
+  "supportSummary": "연 120만원 지급 : 월 10만원 × 12개월\n - 매월 25일 지급",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "정부24온라인신청",
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000123",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 복지정책과/02-450-7483"
+  ],
+  "updatedAt": "2026-01-29",
+  "registeredAt": "2021-09-23",
+  "viewCount": 886,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "국가보훈대상자를 위해 예우수당 지원",
+  "target": "○ 광진구에 주민등록을 두고 거주하고 있는 국가보훈대상자\n ※ 제대군인, 장기전역하사관, 지원공상군경 비해당\n\n○ 지급일 기준\n - 사망자 : 사망한 날이 속한 달까지 지급\n - 타시도 전출자 : 전출일이 속한 달까지 지급\n - 타시도 전입자 : 타시도 확인하여 지급달에는 미지급",
+  "selectionCriteria": "",
+  "supportContent": "연 120만원 지급 : 월 10만원 × 12개월\n - 매월 25일 지급",
+  "applicationMethod": "관할 동주민센터 신청",
+  "documents": "보훈예우수당 신청서, 국가유공자(유족)증, 통장사본\n - 국가유공자증이 없을 경우 국가유공자확인원(팩스민원)발급 혹은 행정정보공동이용으로 확인\n - 통장압류 등의 경우 압류확인 서류와 함께 대리수령신청서 작성 제출 시 3촌 이내 친척 계좌로 지급 가능",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "국가유공자 등 예우 및 지원에 관한 법률"
+  ],
+  "ordinance": "서울특별시 광진구 국가보훈대상자 예우 및 지원에 관한 조례",
+  "inquiryText": "광진구 복지정책과/02-450-7483",
+  "ageMin": 0,
+  "ageMax": 120
+}

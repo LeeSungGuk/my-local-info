@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-317000000112",
+  "sourceId": "317000000112",
+  "title": "금천구 보훈대상자 위문금 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 금천구",
+  "providerType": "자치구",
+  "district": "금천구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 서울남부보훈지청에 등록된 국가유공자 또는 그 유족 중 금천구 거주자",
+  "summary": "서울특별시 금천구에서 제공하는 생활안정 혜택입니다. 국가유공자 등에게 명절, 보훈의달에 위문금 지급",
+  "supportType": "현금",
+  "supportSummary": "○ 서울남부보훈지청에 등록된 국가유공자 또는 그 유족에게 설, 보훈의달, 추석에 위문금(현금 2만원)을 지급",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/317000000112",
+  "onlineUrl": "",
+  "inquiry": [
+    "복지정책과/02-2627-1353"
+  ],
+  "updatedAt": "2026-02-08",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1609,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "국가유공자 등에게 명절, 보훈의달에 위문금 지급",
+  "target": "○ 서울남부보훈지청에 등록된 국가유공자 또는 그 유족 중 금천구 거주자",
+  "selectionCriteria": "",
+  "supportContent": "○ 서울남부보훈지청에 등록된 국가유공자 또는 그 유족에게 설, 보훈의달, 추석에 위문금(현금 2만원)을 지급",
+  "applicationMethod": "○ 개인 신청절차 없음 \n - 별도신청절차 없음(서울남부보훈지정에 등록된 국가유공자에게 위문금 직접 지급)",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 금천구 국가보훈대상자 예우 및 지원에 관한 조례",
+  "inquiryText": "복지정책과/02-2627-1353",
+  "ageMin": 0,
+  "ageMax": 120
+}

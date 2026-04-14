@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-B37003100007",
+  "sourceId": "B37003100007",
+  "title": "스포츠용품 시험 및 국내인증(KISS)",
+  "field": "고용·창업",
+  "provider": "서울올림픽기념국민체육진흥공단",
+  "providerType": "서울 공공기관",
+  "district": "서울특별시",
+  "userType": "법인/시설/단체",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "국내 스포츠용품 생산 업체",
+  "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 고용·창업 혜택입니다. 스포츠용품 생산업체에게 시험 및 인증 지원",
+  "supportType": "기술지원",
+  "supportSummary": "○ 스포츠용품 특화된 품질 성능 시험으로 영세한 국내 스포츠산업 육성 기반 조성\n\n○ 브랜드 가치 제고를 위해 다양한 스포츠용품을 대상으로 품질 평가 및 KISS 인증 마크 부여",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100007",
+  "onlineUrl": "G4B.go.kr",
+  "inquiry": [
+    "기술혁신팀/031-284-9564"
+  ],
+  "updatedAt": "2026-01-30",
+  "registeredAt": "2022-07-15",
+  "viewCount": 1101,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "스포츠용품 생산업체에게 시험 및 인증 지원",
+  "target": "국내 스포츠용품 생산 업체",
+  "selectionCriteria": "",
+  "supportContent": "○ 스포츠용품 특화된 품질 성능 시험으로 영세한 국내 스포츠산업 육성 기반 조성\n\n○ 브랜드 가치 제고를 위해 다양한 스포츠용품을 대상으로 품질 평가 및 KISS 인증 마크 부여",
+  "applicationMethod": "○ 온라인 신청 \n - 기업지원플러스 : G4B.go.kr 가입 후 진행(비회원 진행 가능)",
+  "documents": "사업자등록증",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "스포츠산업 진흥법(제15조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "기술혁신팀/031-284-9564",
+  "ageMin": 0,
+  "ageMax": 0
+}

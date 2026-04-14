@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-309000000135",
+  "sourceId": "309000000135",
+  "title": "저소득주민 명절 위문품비 지급",
+  "field": "생활안정",
+  "provider": "서울특별시 도봉구",
+  "providerType": "자치구",
+  "district": "도봉구",
+  "userType": "가구",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 기초생계급여수급자 가구, 기초의료급여수급자 가구 (※시설 수급자 제외)",
+  "summary": "서울특별시 도봉구에서 제공하는 생활안정 혜택입니다. 기초생계,의료급여 수급가구의 최저생활 수준 충족을 위한 명절위문품비를 지원하여 저소득주민의 생활안정을 도모하고자 함",
+  "supportType": "현금",
+  "supportSummary": "○ 명절(설, 추석)에 기초생계급여수급자 가구 또는 기초의료급여수급자 가구에 가구당 2만원씩 지급\n ※ 가구별 지급이며,  입양아동 및 시설수급자는 제외",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/309000000135",
+  "onlineUrl": "",
+  "inquiry": [
+    "생활보장과/02-2091-3318"
+  ],
+  "updatedAt": "2026-02-05",
+  "registeredAt": "2021-09-23",
+  "viewCount": 2210,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "기초생계,의료급여 수급가구의 최저생활 수준 충족을 위한 명절위문품비를 지원하여 저소득주민의 생활안정을 도모하고자 함",
+  "target": "○ 기초생계급여수급자 가구, 기초의료급여수급자 가구 (※시설 수급자 제외)",
+  "selectionCriteria": "",
+  "supportContent": "○ 명절(설, 추석)에 기초생계급여수급자 가구 또는 기초의료급여수급자 가구에 가구당 2만원씩 지급\n ※ 가구별 지급이며,  입양아동 및 시설수급자는 제외",
+  "applicationMethod": "○ 개인 신청절차 없음 \n - 기초생계급여, 기초의료급여 자격 보유시 자동신청(별도의 신청이 필요하지 않음)",
+  "documents": "○ 신청인 제출서류: 없음\n\n○ 공무원 확인가능 서류(신청인 미제출 서류)\n  - 국민기초생활수급자증명서",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 도봉구 저소득주민의 생활안정 지원에 관한 조례||서울특별시 도봉구 저소득주민의 생활안정 지원에 관한 조례(제4조, 제1항)",
+  "inquiryText": "생활보장과/02-2091-3318",
+  "ageMin": 0,
+  "ageMax": 120
+}

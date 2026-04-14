@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-316000000137",
+  "sourceId": "316000000137",
+  "title": "장애인 전동보장구 보험 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 구로구",
+  "providerType": "자치구",
+  "district": "구로구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "관내 등록장애인 및 65세 이상 노인 중 전동보장구 이용자",
+  "summary": "서울특별시 구로구에서 제공하는 생활안정 혜택입니다. 전동보장구(전동휠체어, 전동스쿠터) 이용 장애인을 대상으로 전용보험을 지원하여 이동권을 향상하고, 경제적인 부담을 완화함으로써 장애인의 사회활동 참여를 촉진하고자 함",
+  "supportType": "기타",
+  "supportSummary": "- 지원대상 : 관내 등록장애인 및 65세 이상 노인 중 전동보장구 이용자(구로구 전입 시 자동가입되며, 전출 시 자동탈퇴 처리)\n- 보장금액 : 사고당 5천만원 한도(본인부담금 5만원)\n- 보장범위 : 전동보장구 운행 중에 발생한 제3자의 대인, 대물 배상 책임\n-…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/316000000137",
+  "onlineUrl": "",
+  "inquiry": [
+    "장애인복지과/02-860-2143"
+  ],
+  "updatedAt": "2026-02-03",
+  "registeredAt": "2025-11-13",
+  "viewCount": 81,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "전동보장구(전동휠체어, 전동스쿠터) 이용 장애인을 대상으로 전용보험을 지원하여 이동권을 향상하고, 경제적인 부담을 완화함으로써 장애인의 사회활동 참여를 촉진하고자 함",
+  "target": "관내 등록장애인 및 65세 이상 노인 중 전동보장구 이용자",
+  "selectionCriteria": "",
+  "supportContent": "- 지원대상 : 관내 등록장애인 및 65세 이상 노인 중 전동보장구 이용자(구로구 전입 시 자동가입되며, 전출 시 자동탈퇴 처리)\n- 보장금액 : 사고당 5천만원 한도(본인부담금 5만원)\n- 보장범위 : 전동보장구 운행 중에 발생한 제3자의 대인, 대물 배상 책임\n- 보험사 : DB손해보험(휠체어코리아닷컴 02-2038-0828, ARS 1번)\n- 보험금 청구 : 피보험자 또는 법정상속인이 보험사에 직접 청구",
+  "applicationMethod": "- 유선 접수 : 02-2038-0828(휠체어코리아닷컴), ARS 1번",
+  "documents": "보험사와 상담 후 필요서류 안내",
+  "officialDocuments": "주민등록 등본 등",
+  "identityDocuments": "주민등록 등본 등",
+  "legalBasis": [
+    "장애인복지법(제9조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "장애인복지과/02-860-2143",
+  "ageMin": 65,
+  "ageMax": 120
+}

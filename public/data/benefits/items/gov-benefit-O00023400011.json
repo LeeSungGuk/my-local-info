@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-O00023400011",
+  "sourceId": "O00023400011",
+  "title": "서대문구 장애인, 임산부, 생후 1년 영아 양육자 대상 책배달 서비스",
+  "field": "보육·교육",
+  "provider": "서울특별시서대문구도시관리공단",
+  "providerType": "서울시",
+  "district": "서대문구",
+  "userType": "개인",
+  "deadlineText": "상시신청(매년2~11월)",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 서대문구 장애인, 임산부, 생후 1년 영아 보호자 대상",
+  "summary": "서울특별시서대문구도시관리공단에서 제공하는 보육·교육 혜택입니다. 임산부 및 장애인 대상 지식정보 접근 격차 해소",
+  "supportType": "기타",
+  "supportSummary": "도서관 방문이 어려운 장애인, 임산부, 생후 1년 영아 보호자에게 지식정보 접근 격차 해소를 위해 책꾸러미 또는 원하시는 도서를 무료로 집으로 배달해 드리는 도서 대출 서비스",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청",
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00023400011",
+  "onlineUrl": "https://lib.sdm.or.kr",
+  "inquiry": [
+    "서대문구립도서관/02-360-8630"
+  ],
+  "updatedAt": "2026-01-30",
+  "registeredAt": "2024-02-05",
+  "viewCount": 392,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "임산부 및 장애인 대상 지식정보 접근 격차 해소",
+  "target": "○ 서대문구 장애인, 임산부, 생후 1년 영아 보호자 대상",
+  "selectionCriteria": "",
+  "supportContent": "도서관 방문이 어려운 장애인, 임산부, 생후 1년 영아 보호자에게 지식정보 접근 격차 해소를 위해 책꾸러미 또는 원하시는 도서를 무료로 집으로 배달해 드리는 도서 대출 서비스",
+  "applicationMethod": "○ 온라인 신청\n ※ 최초 이용 시 자격여부 확인 및 신청서 작성을 위해 서대문구립도서관(이진아, 새롬, 도담) 1회 방문 필수\n - 서대문구립도서관 홈페이지: https://lib.sdm.or.kr 로그인 후 도서관서비스>재택서비스>서대문 책이요>신청에서 원하는 일자 선택하여 신청",
+  "documents": "- 신분증(필수)\n - 주민등록등본(필수)\n - 장애인 복지카드 또는 증명서\n - 출산 수첩\n※ 위 서류 중 해당되는 서류 지참",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "장애인복지법"
+  ],
+  "ordinance": "",
+  "inquiryText": "서대문구립도서관/02-360-8630",
+  "ageMin": 0,
+  "ageMax": 120
+}

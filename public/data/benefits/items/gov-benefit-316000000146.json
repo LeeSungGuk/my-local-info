@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-316000000146",
+  "sourceId": "316000000146",
+  "title": "구로구 전세사기피해지원금(월세) 지원",
+  "field": "주거·자립",
+  "provider": "서울특별시 구로구",
+  "providerType": "자치구",
+  "district": "구로구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "1. 구로구에서「전세사기피해자 지원 및 주거안정에 관한 특별법」에 따라 전세사기피해자등으로 결정된 임차인 중 무주택자\n 2. 구로구 내 주거용 건물을 새로 임차하여 인도(점유)와 전입신고(주민등록)가 되어 있는 임차인",
+  "summary": "서울특별시 구로구에서 제공하는 주거·자립 혜택입니다. 전세사기피해 임차인들에게 실질적인 도움이 되는 지원을 제공하여 \n신속한 피해 회복 지원 및 주거안정과 주거복지 향상에 기여",
+  "supportType": "현금",
+  "supportSummary": "전세사기피해자 지원금(택1, 중복불가, 소득기준 적용 없음)\n월세지원: 월 20만원 이내(실비)/최대 12개월",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/316000000146",
+  "onlineUrl": "",
+  "inquiry": [
+    "구로구청 부동산정보과/02-860-2281"
+  ],
+  "updatedAt": "2026-02-02",
+  "registeredAt": "2025-11-17",
+  "viewCount": 167,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "전세사기피해 임차인들에게 실질적인 도움이 되는 지원을 제공하여 \n신속한 피해 회복 지원 및 주거안정과 주거복지 향상에 기여",
+  "target": "1. 구로구에서「전세사기피해자 지원 및 주거안정에 관한 특별법」에 따라 전세사기피해자등으로 결정된 임차인 중 무주택자\n 2. 구로구 내 주거용 건물을 새로 임차하여 인도(점유)와 전입신고(주민등록)가 되어 있는 임차인",
+  "selectionCriteria": "",
+  "supportContent": "전세사기피해자 지원금(택1, 중복불가, 소득기준 적용 없음)\n월세지원: 월 20만원 이내(실비)/최대 12개월",
+  "applicationMethod": "방문신청 : 구로구청 부동산정보과",
+  "documents": "ㅇ 월세 :  이체영수증, 계약서 , 가족관계증명서, 주민등록초본",
+  "officialDocuments": "신분증",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "구로구청 부동산정보과/02-860-2281",
+  "ageMin": 18,
+  "ageMax": 120
+}

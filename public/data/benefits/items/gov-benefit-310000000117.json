@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-310000000117",
+  "sourceId": "310000000117",
+  "title": "장애인 이동기기 수리비 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 노원구",
+  "providerType": "자치구",
+  "district": "노원구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 장애인",
+  "summary": "서울특별시 노원구에서 제공하는 생활안정 혜택입니다. 장애인 전동스쿠터,전동휠체어,수동휠체어 이동기기 수리비 지원",
+  "supportType": "현금(감면)",
+  "supportSummary": "○ 장애인의 수동휠체어, 전동휠체어, 전동스쿠터 수리비 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/310000000117",
+  "onlineUrl": "",
+  "inquiry": [
+    "장애인복지과/02-2116-3327"
+  ],
+  "updatedAt": "2026-02-02",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1024,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "장애인 전동스쿠터,전동휠체어,수동휠체어 이동기기 수리비 지원",
+  "target": "○ 장애인",
+  "selectionCriteria": "",
+  "supportContent": "○ 장애인의 수동휠체어, 전동휠체어, 전동스쿠터 수리비 지원",
+  "applicationMethod": "○ 방문 신청\n - 주민센터 : 관할 동주민센터 방문 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 노원구 장애인복지 증진에 관한 조례",
+  "inquiryText": "장애인복지과/02-2116-3327",
+  "ageMin": 0,
+  "ageMax": 120
+}

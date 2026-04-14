@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-305000000292",
+  "sourceId": "305000000292",
+  "title": "보제원 한방이동진료실 운영",
+  "field": "보건·의료",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "무료진료 : 만 65세 이상 서울시민 및 의료급여수급권자,장애인 1~3급, 국가유공자 본인 등.\n무료상담 : 일반 내 · 외국인 누구나 가능",
+  "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 한방진료 및 상담 지원",
+  "supportType": "서비스(의료)",
+  "supportSummary": "ㅇ진료내용 : 한방건강상담 및 한방보험약제 처방 침, 부항 등 한방요법 진료\nㅇ진료시간 : 매주 화요일~토요일(오전 9시~오후 6시)\nㅇ대상\n  - 무료진료 : 만 65세 이상 서울시민 및 의료급여수급권자,장애인 1~3급, 국가유공자 본인 등.\n  - 무료상담 : 일…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000292",
+  "onlineUrl": "",
+  "inquiry": [
+    "보제원 한방이동진료실/02-969-9242"
+  ],
+  "updatedAt": "2026-02-09",
+  "registeredAt": "2025-12-10",
+  "viewCount": 50,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "한방진료 및 상담 지원",
+  "target": "무료진료 : 만 65세 이상 서울시민 및 의료급여수급권자,장애인 1~3급, 국가유공자 본인 등.\n무료상담 : 일반 내 · 외국인 누구나 가능",
+  "selectionCriteria": "",
+  "supportContent": "ㅇ진료내용 : 한방건강상담 및 한방보험약제 처방 침, 부항 등 한방요법 진료\nㅇ진료시간 : 매주 화요일~토요일(오전 9시~오후 6시)\nㅇ대상\n  - 무료진료 : 만 65세 이상 서울시민 및 의료급여수급권자,장애인 1~3급, 국가유공자 본인 등.\n  - 무료상담 : 일반 내 · 외국인 누구나 가능\nㅇ진료예약 : 방문 및 전화로 사전예약(신분증 및 관련서류 지참)",
+  "applicationMethod": "방문 및 전화로 사전예약 후 진료\n - 주소 : 동대문구 약령중앙로 26 서울한방진흥센터 3층 보제원 한방이동진료실\n(제기역 2번출구 약령시장 방면으로 직진)",
+  "documents": "신분증",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "한의약 육성법"
+  ],
+  "ordinance": "",
+  "inquiryText": "보제원 한방이동진료실/02-969-9242",
+  "ageMin": 0,
+  "ageMax": 120
+}

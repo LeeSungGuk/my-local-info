@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00021400001",
+  "sourceId": "O00021400001",
+  "title": "교통약자 이동지원",
+  "field": "보호·돌봄",
+  "provider": "서울시설공단",
+  "providerType": "서울시",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "장애의 정도가 심한 보행상 장애인",
+  "summary": "서울시설공단에서 제공하는 보호·돌봄 혜택입니다. 보행이 어려운 장애인에게 특별교통수단 지원(유상)",
+  "supportType": "현금(감면)",
+  "supportSummary": "휠체어 탑승설비가 장착되어 있는 장애인콜택시 이용 가능",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00021400001",
+  "onlineUrl": "",
+  "inquiry": [
+    "서울시설공단/02-2290-6511"
+  ],
+  "updatedAt": "2026-01-23",
+  "registeredAt": "2022-07-15",
+  "viewCount": 1388,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "보행이 어려운 장애인에게 특별교통수단 지원(유상)",
+  "target": "장애의 정도가 심한 보행상 장애인",
+  "selectionCriteria": "",
+  "supportContent": "휠체어 탑승설비가 장착되어 있는 장애인콜택시 이용 가능",
+  "applicationMethod": "○ 기타\n - 전화 : 장애인콜택시 콜센터(1588-4388)\n - 장애인 콜택시 앱",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "서울시설공단/02-2290-6511",
+  "ageMin": 0,
+  "ageMax": 120
+}

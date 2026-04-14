@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-312000000122",
+  "sourceId": "312000000122",
+  "title": "이동 목욕·빨래방 서비스",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 서대문구",
+  "providerType": "자치구",
+  "district": "서대문구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 수급자 및 차상위계층, 저소득, 중증장애인 등",
+  "summary": "서울특별시 서대문구에서 제공하는 보호·돌봄 혜택입니다. 65세 이상 독거 어르신 등을 대상으로 이동목욕과 빨래방 서비스 제공",
+  "supportType": "서비스(돌봄)",
+  "supportSummary": "○ 이동목욕, 빨래방 서비스 제공",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/312000000122",
+  "onlineUrl": "",
+  "inquiry": [
+    "인생케어과/02-330-1264"
+  ],
+  "updatedAt": "2026-02-03",
+  "registeredAt": "2021-09-23",
+  "viewCount": 817,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "65세 이상 독거 어르신 등을 대상으로 이동목욕과 빨래방 서비스 제공",
+  "target": "○ 수급자 및 차상위계층, 저소득, 중증장애인 등",
+  "selectionCriteria": "",
+  "supportContent": "○ 이동목욕, 빨래방 서비스 제공",
+  "applicationMethod": "○ 방문 신청\n - 주민센터 : 거주지 관할 읍면동 주민센터에 방문 신청\n - 복지관\n\n○ 기타\n - 전화 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "노인복지법"
+  ],
+  "ordinance": "",
+  "inquiryText": "인생케어과/02-330-1264",
+  "ageMin": 0,
+  "ageMax": 120
+}

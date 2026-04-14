@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-303000000328",
+  "sourceId": "303000000328",
+  "title": "성동구 국가보훈대상자 보훈예우수당 지급",
+  "field": "생활안정",
+  "provider": "서울특별시 성동구",
+  "providerType": "자치구",
+  "district": "성동구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 보훈예우수당\n- 성동구 거주 국가보훈대상자(국가유공자 본인 또는 선순위유족)",
+  "summary": "서울특별시 성동구에서 제공하는 생활안정 혜택입니다. 국가보훈대상자에게 보훈예우수당(월 7만원) 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 성동구에 주민등록을 두고 거주하는 국가보훈대상자에게 매달 10일 보훈예우수당(7만원) 지급",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000328",
+  "onlineUrl": "",
+  "inquiry": [
+    "복지정책과/02-2286-5019"
+  ],
+  "updatedAt": "2026-01-28",
+  "registeredAt": "2025-10-28",
+  "viewCount": 66,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "국가보훈대상자에게 보훈예우수당(월 7만원) 지원",
+  "target": "○ 보훈예우수당\n- 성동구 거주 국가보훈대상자(국가유공자 본인 또는 선순위유족)",
+  "selectionCriteria": "",
+  "supportContent": "○ 성동구에 주민등록을 두고 거주하는 국가보훈대상자에게 매달 10일 보훈예우수당(7만원) 지급",
+  "applicationMethod": "<보훈예우수당>\n○ 방문 신청 \n - 주민센터 : 관할 동주민센터 신청\n - 구비서류 : 보훈예우수당 지급신청서, 국가유공자(유족)증, 통장 사본 1부",
+  "documents": "<구비서류> \n 1. 국가유공자 신분증 사본 1부 \n 2. 계좌번호가 기재된 본인 통장사본 1부 \n 3. 대리인이 수령하는 경우 국가유공자의 배우자 또는 직계 혈족임을 확인할 수 있는 서류 1부",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 성동구 국가보훈대상자 예우 및 지원에 관한 조례||서울특별시 성동구 국가보훈대상자 예우 및 지원에 관한 조례",
+  "inquiryText": "복지정책과/02-2286-5019",
+  "ageMin": 0,
+  "ageMax": 120
+}

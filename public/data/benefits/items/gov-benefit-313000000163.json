@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-313000000163",
+  "sourceId": "313000000163",
+  "title": "국가보훈대상자 위문금 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 마포구",
+  "providerType": "자치구",
+  "district": "마포구",
+  "userType": "개인",
+  "deadlineText": "개인 신청절차 없음",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 보훈단체위문금\n- 국가유공자 등 단체설립에 관한 법률 적용 단체\n- 참전유공자 예우 및 단체설립에 관한 법률 적용 단체\n- 고엽제휴우의증 등 환자지원 및 단체설립에 관한 법률 적용 단체\n- 특수유공자 예우 및 단체설립에 관한 법률 적용 단체\n\n○ 독립유공자 위문금…",
+  "summary": "서울특별시 마포구에서 제공하는 생활안정 혜택입니다. 지원자격 해당 보훈대상 위문금 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 명절위문금: 마포구 보훈예우수당 및 참전명예수당 지급자에게 명절(설, 추석)에 각 5만원 지원(신청불필요)\n\n○ 보훈단체 위문금: 마포구 보훈단체에 호군보훈의 달에 위문금 100만원 지급\n\n○ 독립유공자 위문금: 마포구 거주 독립유공자(선순위 유족)에게 광복절에…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000163",
+  "onlineUrl": "",
+  "inquiry": [
+    "복지정책과/02-3153-8808"
+  ],
+  "updatedAt": "2026-02-04",
+  "registeredAt": "2025-08-01",
+  "viewCount": 343,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "지원자격 해당 보훈대상 위문금 지원",
+  "target": "○ 보훈단체위문금\n- 국가유공자 등 단체설립에 관한 법률 적용 단체\n- 참전유공자 예우 및 단체설립에 관한 법률 적용 단체\n- 고엽제휴우의증 등 환자지원 및 단체설립에 관한 법률 적용 단체\n- 특수유공자 예우 및 단체설립에 관한 법률 적용 단체\n\n○ 독립유공자 위문금: 독립유공자(유족)",
+  "selectionCriteria": "",
+  "supportContent": "○ 명절위문금: 마포구 보훈예우수당 및 참전명예수당 지급자에게 명절(설, 추석)에 각 5만원 지원(신청불필요)\n\n○ 보훈단체 위문금: 마포구 보훈단체에 호군보훈의 달에 위문금 100만원 지급\n\n○ 독립유공자 위문금: 마포구 거주 독립유공자(선순위 유족)에게 광복절에 위문금 10만원 지급",
+  "applicationMethod": "개인 신청 절차 없음",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 마포구 국가보훈대상자 예우 및 지원에 관한 조례",
+  "inquiryText": "복지정책과/02-3153-8808",
+  "ageMin": 18,
+  "ageMax": 120
+}

@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-300000000123",
+  "sourceId": "300000000123",
+  "title": "저소득가구 명절 위문금 지원(기초주거급여,기초교육급여, 차상위 및 법정 한부모가정)",
+  "field": "생활안정",
+  "provider": "서울특별시 종로구",
+  "providerType": "자치구",
+  "district": "종로구",
+  "userType": "가구",
+  "deadlineText": "설, 추석",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 한부모, 기초주거. 교육급여 수급자 및 차상위계층",
+  "summary": "서울특별시 종로구에서 제공하는 생활안정 혜택입니다. 저소득가구 부가급여 명절 위문품비 지급대상 이외의 타 법정급여 대상자까지 지급범위를 확대하여 사회보장급여의 형평성 유지",
+  "supportType": "현금",
+  "supportSummary": "○ 한부모, 기초주거, 교육급여 수급자 및 차상위계층가구에 명절 위문금 지급 가구당 3만원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000123",
+  "onlineUrl": "",
+  "inquiry": [
+    "복지정책과/02-2148-2493"
+  ],
+  "updatedAt": "2026-01-27",
+  "registeredAt": "2022-07-13",
+  "viewCount": 1819,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "저소득가구 부가급여 명절 위문품비 지급대상 이외의 타 법정급여 대상자까지 지급범위를 확대하여 사회보장급여의 형평성 유지",
+  "target": "○ 한부모, 기초주거. 교육급여 수급자 및 차상위계층",
+  "selectionCriteria": "",
+  "supportContent": "○ 한부모, 기초주거, 교육급여 수급자 및 차상위계층가구에 명절 위문금 지급 가구당 3만원",
+  "applicationMethod": "\"○ 개인 신청절차 없음 \n\n - 지급기준일에 대상자명단 추출\"",
+  "documents": "없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 종로구 저소득주민의 생활안정 지원 조례",
+  "inquiryText": "복지정책과/02-2148-2493",
+  "ageMin": 0,
+  "ageMax": 120
+}

@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-611000019603",
+  "sourceId": "611000019603",
+  "title": "희망의 집수리",
+  "field": "주거·자립",
+  "provider": "서울특별시",
+  "providerType": "서울시",
+  "district": "서울특별시",
+  "userType": "개인||가구",
+  "deadlineText": "상반기(2월), 하반기(7월) ※변동가능",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 주택법상 ‘주택’ 거주 기준중위소득 60% 이하 가구",
+  "summary": "서울특별시에서 제공하는 주거·자립 혜택입니다. 주거환경 취약지역에 거주하는 저소득 가구를 대상으로 집수리를 실시하여 저소득 가구의 삶의 질 향상 및 주거안정에 기여",
+  "supportType": "기타",
+  "supportSummary": "ㅇ 사업대상 : 주택법상 ‘주택’ 거주 기준중위소득 60% 이하 가구\n ㅇ 사업내용 : 도배·장판 등 20개 공종 집수리 지원(가구당 250만원)\n   - 도배, 장판, 단열, 도어, 방수, 처마, 창호, 싱크대, 타일, 도장, 위생기구(세면대·양변기), 천장보수,…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000019603",
+  "onlineUrl": "",
+  "inquiry": [
+    "서울시 주택실 주택정책과/02-2133-7985"
+  ],
+  "updatedAt": "2026-03-10",
+  "registeredAt": "2024-08-05",
+  "viewCount": 739,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "주거환경 취약지역에 거주하는 저소득 가구를 대상으로 집수리를 실시하여 저소득 가구의 삶의 질 향상 및 주거안정에 기여",
+  "target": "○ 주택법상 ‘주택’ 거주 기준중위소득 60% 이하 가구",
+  "selectionCriteria": "",
+  "supportContent": "ㅇ 사업대상 : 주택법상 ‘주택’ 거주 기준중위소득 60% 이하 가구\n ㅇ 사업내용 : 도배·장판 등 20개 공종 집수리 지원(가구당 250만원)\n   - 도배, 장판, 단열, 도어, 방수, 처마, 창호, 싱크대, 타일, 도장, 위생기구(세면대·양변기), 천장보수, 전기작업, 제습기, 곰팡이제거, 안전손잡이, 안전시설(차수판·개폐형방범창·화재경보기 등), 보일러, 환풍기, 냉풍기, 온풍기",
+  "applicationMethod": "○ 주택 소재지 동주민센터 방문접수",
+  "documents": "신청 기간 내 주민센터 방문 신청",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 주거 기본 조례",
+  "inquiryText": "서울시 주택실 주택정책과/02-2133-7985",
+  "ageMin": 18,
+  "ageMax": 120
+}

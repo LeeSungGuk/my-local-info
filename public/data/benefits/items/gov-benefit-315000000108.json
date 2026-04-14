@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-315000000108",
+  "sourceId": "315000000108",
+  "title": "저소득시민 명절위문품비 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 강서구",
+  "providerType": "자치구",
+  "district": "강서구",
+  "userType": "개인||가구",
+  "deadlineText": "명절 전 구청에서 일괄 수행",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 국민기초생계 또는 의료급여 수급자 가구",
+  "summary": "서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 저소득 취약계층 명절 위문금 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 연 2회 기초생계 또는 기초의료수급자 가구에 시비 3만원 구비 2만원 총 5만원 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000108",
+  "onlineUrl": "",
+  "inquiry": [
+    "생활보장과/02-2600-6664"
+  ],
+  "updatedAt": "2026-01-29",
+  "registeredAt": "2021-09-23",
+  "viewCount": 2816,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "저소득 취약계층 명절 위문금 지원",
+  "target": "○ 국민기초생계 또는 의료급여 수급자 가구",
+  "selectionCriteria": "",
+  "supportContent": "○ 연 2회 기초생계 또는 기초의료수급자 가구에 시비 3만원 구비 2만원 총 5만원 지원",
+  "applicationMethod": "○ 개인 신청절차 없음 \n - 국민기초생활수급(생계,의료수급권자) 자격조회 후 적합 대상자 급여계좌로 일괄 지원",
+  "documents": "해당사항 없음",
+  "officialDocuments": "사회보장정보시스템을 통한 자격정보 조회",
+  "identityDocuments": "해당사항 없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 강서구 저소득 주민의 생활안정 지원에 관한 조례",
+  "inquiryText": "생활보장과/02-2600-6664",
+  "ageMin": 0,
+  "ageMax": 120
+}

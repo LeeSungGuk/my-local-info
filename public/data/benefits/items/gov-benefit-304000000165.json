@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-304000000165",
+  "sourceId": "304000000165",
+  "title": "광진형 소상공인 특별보증추천 지원(광진형 특별융자)",
+  "field": "고용·창업",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "소상공인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "광진구 내 담보력 약한 영세 소기업, 소상공인, 자영업자",
+  "summary": "서울특별시 광진구에서 제공하는 고용·창업 혜택입니다. 광진구 소상공인 자금난 해소\n융자 지원을 통한 경영환경 개선",
+  "supportType": "현금(융자)",
+  "supportSummary": "담보력이 부족하여 자금조달에 어려움을 겪고 있는 광진구 소상공인에게 최대 7천만원까지 보증 지원\n  - 상환조건 : 서울신용보증재단 규정에 따름(2년 거치 3년간 균등분할 상환",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000165",
+  "onlineUrl": "",
+  "inquiry": [
+    "서울신용보증재단/1577-6119"
+  ],
+  "updatedAt": "2026-02-26",
+  "registeredAt": "2021-11-04",
+  "viewCount": 1168,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "광진구 소상공인 자금난 해소\n융자 지원을 통한 경영환경 개선",
+  "target": "광진구 내 담보력 약한 영세 소기업, 소상공인, 자영업자",
+  "selectionCriteria": "",
+  "supportContent": "담보력이 부족하여 자금조달에 어려움을 겪고 있는 광진구 소상공인에게 최대 7천만원까지 보증 지원\n  - 상환조건 : 서울신용보증재단 규정에 따름(2년 거치 3년간 균등분할 상환",
+  "applicationMethod": "서울신용보증재단 사전상담 후 접수 및 보증신청 (재단 홈페이지 및 전화 1577-6119)",
+  "documents": "서울신용보증재단 및 협약은행(국민은행, 우리은행, 신한은행, 하나은행) 상담 후 요청서류 제출",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 광진구 기업지원 및 육성에 관한 조례",
+  "inquiryText": "서울신용보증재단/1577-6119",
+  "ageMin": 0,
+  "ageMax": 0
+}

@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-304000000131",
+  "sourceId": "304000000131",
+  "title": "저소득 위기가정 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "중위소득 120% 이내 가구 중 생계 곤란으로 지원이 필요하다고 인정되는 가구",
+  "summary": "서울특별시 광진구에서 제공하는 생활안정 혜택입니다. 생계가 곤란한 가정에게 생계비,주거비,교육비 등 제공",
+  "supportType": "현금",
+  "supportSummary": "생계비, 주거비, 교육비 등 (희망온돌 따뜻한 겨울나기 성금 활용)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000131",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 복지정책과/02-450-7494"
+  ],
+  "updatedAt": "2026-02-03",
+  "registeredAt": "2021-10-26",
+  "viewCount": 3433,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "생계가 곤란한 가정에게 생계비,주거비,교육비 등 제공",
+  "target": "중위소득 120% 이내 가구 중 생계 곤란으로 지원이 필요하다고 인정되는 가구",
+  "selectionCriteria": "",
+  "supportContent": "생계비, 주거비, 교육비 등 (희망온돌 따뜻한 겨울나기 성금 활용)",
+  "applicationMethod": "관할 동주민센터 방문신청",
+  "documents": "생활 곤란을 증명할 수 있는 서류(입원확인서, 집계약서 등)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "사회복지공동모금회법"
+  ],
+  "ordinance": "",
+  "inquiryText": "광진구 복지정책과/02-450-7494",
+  "ageMin": 0,
+  "ageMax": 120
+}

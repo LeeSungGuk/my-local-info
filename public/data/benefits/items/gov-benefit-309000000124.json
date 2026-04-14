@@ -1,0 +1,48 @@
+{
+  "id": "gov-benefit-309000000124",
+  "sourceId": "309000000124",
+  "title": "여성과 어린이 건강증진 지원",
+  "field": "임신·출산",
+  "provider": "서울특별시 도봉구",
+  "providerType": "자치구",
+  "district": "도봉구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 관내 임산부 및 영유아",
+  "summary": "서울특별시 도봉구에서 제공하는 임신·출산 혜택입니다. 임산부ㆍ영유아의 체계적인 건강관리 및 맞춤형 모자건강증진 프로그램 운영을 통해 여성과 어린이 건강증진 도모",
+  "supportType": "기타(교육)||서비스(의료)",
+  "supportSummary": "○ 임신초기검사(모성검사) 시행\n○ 임신 중(16~18주) 태아 기형 여부 확인 위해 쿼드검사 시행\n○ 모자건강프로그램 운영(출산준비교실, 육아교실)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청",
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/309000000124",
+  "onlineUrl": "https://seoul-agi.seoul.go.kr/index",
+  "inquiry": [
+    "지역보건과/02-2091-4554"
+  ],
+  "updatedAt": "2026-02-04",
+  "registeredAt": "2021-09-23",
+  "viewCount": 2356,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "임산부ㆍ영유아의 체계적인 건강관리 및 맞춤형 모자건강증진 프로그램 운영을 통해 여성과 어린이 건강증진 도모",
+  "target": "○ 관내 임산부 및 영유아",
+  "selectionCriteria": "",
+  "supportContent": "○ 임신초기검사(모성검사) 시행\n○ 임신 중(16~18주) 태아 기형 여부 확인 위해 쿼드검사 시행\n○ 모자건강프로그램 운영(출산준비교실, 육아교실)",
+  "applicationMethod": "○ 임신기초검사, 기형아검사 등\n- 보건소 방문신청, 전화상담\n\n○모자건강증진교실 \n- 온라인 신청, 전화 상담",
+  "documents": "○ 신청인 제출서류\n  - 신분증, 임신확인증\n  - 임산부 수첩\n\n○ 공무원 확인가능 서류(신청인 미제출 서류)\n  -  주민등록등본",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "모자보건법",
+    "모자보건법(제3조)",
+    "저출산ㆍ고령사회기본법(제9조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "지역보건과/02-2091-4554",
+  "ageMin": 18,
+  "ageMax": 44
+}

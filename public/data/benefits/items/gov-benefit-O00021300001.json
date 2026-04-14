@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00021300001",
+  "sourceId": "O00021300001",
+  "title": "서울물재생체험관+현대화시설 견학",
+  "field": "보육·교육",
+  "provider": "서울물재생시설공단",
+  "providerType": "서울 공공기관",
+  "district": "서울특별시",
+  "userType": "법인/시설/단체",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "20인 이내 단체(초등 5학년 이상)",
+  "summary": "서울물재생시설공단에서 제공하는 보육·교육 혜택입니다. 20인 이내 단체 대상으로 현장 견학 해설",
+  "supportType": "시설이용",
+  "supportSummary": "서울물재생체험관 및 시설현대화 견학",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00021300001",
+  "onlineUrl": "https://www.swr.or.kr/museum/cpage/contents/C0017.do?menu_cd=C0017",
+  "inquiry": [
+    "서울물재생체험관/02-3660-2148"
+  ],
+  "updatedAt": "2026-02-01",
+  "registeredAt": "2022-07-15",
+  "viewCount": 627,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "20인 이내 단체 대상으로 현장 견학 해설",
+  "target": "20인 이내 단체(초등 5학년 이상)",
+  "selectionCriteria": "",
+  "supportContent": "서울물재생체험관 및 시설현대화 견학",
+  "applicationMethod": "○ 온라인 신청\n - 사전예약 : 서울시공공서비스예약 포털(yeyak.seoul.go.kr) 이용",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "서울물재생체험관/02-3660-2148",
+  "ageMin": 0,
+  "ageMax": 0
+}

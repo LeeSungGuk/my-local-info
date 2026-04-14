@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00024000024",
+  "sourceId": "O00024000024",
+  "title": "용산제주유스호스텔 할인(국가유공자)",
+  "field": "문화·환경",
+  "provider": "용산구시설관리공단",
+  "providerType": "자치구",
+  "district": "용산구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "국가보훈처 명의의 신분증 소지자",
+  "summary": "용산구시설관리공단에서 제공하는 문화·환경 혜택입니다. 국가유공자에게 용산제주유스호스텔 이용요금 40% 감면",
+  "supportType": "시설이용",
+  "supportSummary": "국가유공자 등으로서 국가보훈처 명의의 신분증 소지자 40% 할인",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00024000024",
+  "onlineUrl": "",
+  "inquiry": [
+    "용산 제주유스호스텔/064-738-9502"
+  ],
+  "updatedAt": "2026-03-05",
+  "registeredAt": "2022-07-15",
+  "viewCount": 625,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "국가유공자에게 용산제주유스호스텔 이용요금 40% 감면",
+  "target": "국가보훈처 명의의 신분증 소지자",
+  "selectionCriteria": "",
+  "supportContent": "국가유공자 등으로서 국가보훈처 명의의 신분증 소지자 40% 할인",
+  "applicationMethod": "○ 직접 방문\n - 용산 제주유스호스텔 입실 시 증빙자료 확인",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "용산 제주유스호스텔/064-738-9502",
+  "ageMin": 0,
+  "ageMax": 120
+}

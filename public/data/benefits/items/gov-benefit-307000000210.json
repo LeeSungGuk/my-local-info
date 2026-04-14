@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-307000000210",
+  "sourceId": "307000000210",
+  "title": "성북구 청소년미래지원센터 수강료 감면(한부모가족)",
+  "field": "보육·교육",
+  "provider": "서울특별시 성북구",
+  "providerType": "자치구",
+  "district": "성북구",
+  "userType": "개인",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "「한부모가족지원법」에 의한 지원대상자 중 성북구 주민 또는 성북구 소재 교육시설에 재학 중인 학생",
+  "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 성북구 청소년미래지원센터 이용시 한부모가족 수강료 감면(100%)",
+  "supportType": "현금(감면)",
+  "supportSummary": "성북구 청소년미래지원센터 수강료 감면\n- 대상 : 「한부모가족지원법」에 의한 지원대상자 중 성북구 주민 또는 성북구 소재 교육시설에 재학 중 학생\n- 감면율 : 100%",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000210",
+  "onlineUrl": "",
+  "inquiry": [
+    "교육지원과/02-2241-2403"
+  ],
+  "updatedAt": "2026-03-18",
+  "registeredAt": "2025-12-18",
+  "viewCount": 39,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "성북구 청소년미래지원센터 이용시 한부모가족 수강료 감면(100%)",
+  "target": "「한부모가족지원법」에 의한 지원대상자 중 성북구 주민 또는 성북구 소재 교육시설에 재학 중인 학생",
+  "selectionCriteria": "",
+  "supportContent": "성북구 청소년미래지원센터 수강료 감면\n- 대상 : 「한부모가족지원법」에 의한 지원대상자 중 성북구 주민 또는 성북구 소재 교육시설에 재학 중 학생\n- 감면율 : 100%",
+  "applicationMethod": "방문신청",
+  "documents": "성북구 청소년미래지원센터 수강료 감면신청서 및 증빙서류",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 성북구 청소년미래지원센터 설치 및 운영에 관한 조례 시행규칙||서울특별시 성북구 청소년미래지원센터 설치 및 운영에 관한 조례 시행규칙(제3조, 제3항)",
+  "inquiryText": "교육지원과/02-2241-2403",
+  "ageMin": 6,
+  "ageMax": 18
+}

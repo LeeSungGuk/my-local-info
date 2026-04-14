@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-300000000174",
+  "sourceId": "300000000174",
+  "title": "계절 취약계층 어르신 보호·강화를 위한 냉난방물품 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 종로구",
+  "providerType": "자치구",
+  "district": "종로구",
+  "userType": "개인||가구",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 만 65세 이상 법정 저소득 및 기타 사각지대 저소득 어르신",
+  "summary": "서울특별시 종로구에서 제공하는 생활안정 혜택입니다. 계절 취약계층 어르신 보호ㆍ강화를 위한 냉난방물품 지원",
+  "supportType": "현물",
+  "supportSummary": "○ 계절 취약계층 어르신 보호ㆍ강화를 위한 냉난방물품 지원\n - 지원대상: 만 65세 이상 법정 저소득 및 기타 사각지대 저소득 어르신\n - 지원내용: 폭염 및 한파 시 안전사고 예방에 도움이 되는 냉난방물품 지원\n  ㆍ폭염: 에어컨, 선풍기 등\n  ㆍ한파: 이불,…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000174",
+  "onlineUrl": "",
+  "inquiry": [
+    "어르신복지과/0221482204"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2022-11-09",
+  "viewCount": 633,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "계절 취약계층 어르신 보호ㆍ강화를 위한 냉난방물품 지원",
+  "target": "○ 만 65세 이상 법정 저소득 및 기타 사각지대 저소득 어르신",
+  "selectionCriteria": "",
+  "supportContent": "○ 계절 취약계층 어르신 보호ㆍ강화를 위한 냉난방물품 지원\n - 지원대상: 만 65세 이상 법정 저소득 및 기타 사각지대 저소득 어르신\n - 지원내용: 폭염 및 한파 시 안전사고 예방에 도움이 되는 냉난방물품 지원\n  ㆍ폭염: 에어컨, 선풍기 등\n  ㆍ한파: 이불, 전기매트 등",
+  "applicationMethod": "○ 동주민센터에서 대상자 선정(비정기)",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "노인복지법(제4조)",
+    "재난 및 안전관리 기본법(제4조, 제1항)"
+  ],
+  "ordinance": "서울특별시 종로구 저소득주민의 생활안정 지원 조례(제2조)",
+  "inquiryText": "어르신복지과/0221482204",
+  "ageMin": 65,
+  "ageMax": 120
+}

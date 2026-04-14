@@ -5,14 +5,14 @@ on:
     branches:
       - main
   schedule:
-    - cron: '30 22 * * *'  # 매일 UTC 22:30 = 한국시간 오전 7:30
+    - cron: '30 22 * * *'  # 매일 UTC 22:30 = 한국시간 오전 7:30, 행사/혜택 동기화
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  # ─── 스케줄/수동 실행: 스크립트 → 커밋 → 빌드 → 배포 ───
+  # ─── 스케줄/수동 실행: 행사/혜택 수집 → 블로그 생성 → 커밋 → 빌드 → 배포 ───
   update-and-deploy:
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
@@ -37,11 +37,10 @@ jobs:
           PUBLIC_DATA_API_KEY: ${{ secrets.PUBLIC_DATA_API_KEY }}
           EVENTS_START_DATE: "2026-04-01"
 
-      - name: Fetch public data
-        run: node scripts/fetch-public-data.js
+      - name: Fetch public benefits
+        run: npm run fetch:public-benefits
         env:
           PUBLIC_DATA_API_KEY: ${{ secrets.PUBLIC_DATA_API_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
       - name: Generate blog post
         run: node scripts/generate-blog-post.js

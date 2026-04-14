@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-305000000148",
+  "sourceId": "305000000148",
+  "title": "광견병 예방접종 실시",
+  "field": "농림축산어업",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "생후 3개월 이상 된 모든 개, 고양이를 기르는 가구",
+  "summary": "서울특별시 동대문구에서 제공하는 농림축산어업 혜택입니다. *반려동물 광견병 예방접종 실시",
+  "supportType": "서비스(의료)",
+  "supportSummary": "*광견병 예방접종 실시(연 2회/봄,가을)\n- 접종장소 : 동대문구 소재 동물병원 27개소\n- 접종대상 : 생후 3개월 이상 된 모든 개, 고양이\n- 예방접종 시술료 : 10,000원(소유자 부담) /  예방백신 약품비용 무료",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000148",
+  "onlineUrl": "",
+  "inquiry": [
+    "동대문구보건소/02-2127-4284"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2022-07-14",
+  "viewCount": 873,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "*반려동물 광견병 예방접종 실시",
+  "target": "생후 3개월 이상 된 모든 개, 고양이를 기르는 가구",
+  "selectionCriteria": "",
+  "supportContent": "*광견병 예방접종 실시(연 2회/봄,가을)\n- 접종장소 : 동대문구 소재 동물병원 27개소\n- 접종대상 : 생후 3개월 이상 된 모든 개, 고양이\n- 예방접종 시술료 : 10,000원(소유자 부담) /  예방백신 약품비용 무료",
+  "applicationMethod": "병원방문후 예방접종",
+  "documents": "구비서류 없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "가축전염병 예방법"
+  ],
+  "ordinance": "",
+  "inquiryText": "동대문구보건소/02-2127-4284",
+  "ageMin": 19,
+  "ageMax": 120
+}

@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-314000000265",
+  "sourceId": "314000000265",
+  "title": "양천구 공항소음피해지역 주민 상담심리 지원(상담서비스 제공)",
+  "field": "보건·의료",
+  "provider": "서울특별시 양천구",
+  "providerType": "자치구",
+  "district": "양천구",
+  "userType": "개인",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "양천구 공항소음대책지역(인근지역 포함) 거주 주민\n(동일사업 기수혜자 및 양천구 타 상담,심리 프로그램 진행 중인 자 제외)",
+  "summary": "서울특별시 양천구에서 제공하는 보건·의료 혜택입니다. 항공기 소음에 노출되어 스트레스, 우울, 불안 등의 피해를 겪고 있는 주민에게 상담서비스를 제공하여 심리적 안정 및 마음건강 회복 등 삶의 질 향상을 도모",
+  "supportType": "기타(상담)",
+  "supportSummary": "공항소음피해지역 주민 상담서비스 제공",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000265",
+  "onlineUrl": "",
+  "inquiry": [
+    "양천구청 환경과/02-2084-5472"
+  ],
+  "updatedAt": "2026-01-28",
+  "registeredAt": "2025-11-05",
+  "viewCount": 62,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "항공기 소음에 노출되어 스트레스, 우울, 불안 등의 피해를 겪고 있는 주민에게 상담서비스를 제공하여 심리적 안정 및 마음건강 회복 등 삶의 질 향상을 도모",
+  "target": "양천구 공항소음대책지역(인근지역 포함) 거주 주민\n(동일사업 기수혜자 및 양천구 타 상담,심리 프로그램 진행 중인 자 제외)",
+  "selectionCriteria": "",
+  "supportContent": "공항소음피해지역 주민 상담서비스 제공",
+  "applicationMethod": "방문신청(신청서, 신분증 지참)",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "공항소음 방지 및 소음대책지역 지원에 관한 법률(제19조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "양천구청 환경과/02-2084-5472",
+  "ageMin": 0,
+  "ageMax": 120
+}

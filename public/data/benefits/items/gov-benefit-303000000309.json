@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-303000000309",
+  "sourceId": "303000000309",
+  "title": "저소득 주민 월동대책비 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 성동구",
+  "providerType": "자치구",
+  "district": "성동구",
+  "userType": "가구",
+  "deadlineText": "2025년 11월",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "국민기초수급자 생계,의료/저소득 보훈대상자(보훈청 추천대상)",
+  "summary": "서울특별시 성동구에서 제공하는 생활안정 혜택입니다. 생계,의료급여 수급자 및 저소득 보훈대상자 가구에 월동대책비 지원",
+  "supportType": "현금",
+  "supportSummary": "가구당 5만원 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000309",
+  "onlineUrl": "",
+  "inquiry": [
+    "성동구청 기초복지과/02-2286-6703"
+  ],
+  "updatedAt": "2026-02-05",
+  "registeredAt": "2023-12-11",
+  "viewCount": 550,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "생계,의료급여 수급자 및 저소득 보훈대상자 가구에 월동대책비 지원",
+  "target": "국민기초수급자 생계,의료/저소득 보훈대상자(보훈청 추천대상)",
+  "selectionCriteria": "",
+  "supportContent": "가구당 5만원 지원",
+  "applicationMethod": "해당 서비스는 신청없이 자격대상자에게 자동적으로 제공됩니다.",
+  "documents": "-신청불필요\n-",
+  "officialDocuments": "- 수급책정  유무 및 거주(성동구)확인함",
+  "identityDocuments": "- 주민센터와 구청에서 확인하므로 민원인 제출하는 서류 불필요",
+  "legalBasis": [],
+  "ordinance": "서울특별시 주민생활안정 지원에 관한 조례",
+  "inquiryText": "성동구청 기초복지과/02-2286-6703",
+  "ageMin": 0,
+  "ageMax": 120
+}

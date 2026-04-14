@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-314000000112",
+  "sourceId": "314000000112",
+  "title": "저소득층 국민건강보험료 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 양천구",
+  "providerType": "자치구",
+  "district": "양천구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 매월 보험료 부과금액이 보건복지부가 고시한 최저보험료 이하인 독거노인 및 노부부세대",
+  "summary": "서울특별시 양천구에서 제공하는 보건·의료 혜택입니다. 저소득노인 세대에 국민건강보험료 지원",
+  "supportType": "현금(보험)",
+  "supportSummary": "○ 매월 보험료 부과금액이 보건복지부가 고시한 최저보험료 이하인 독거노인 및 노부부세대의 건강보험료 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000112",
+  "onlineUrl": "",
+  "inquiry": [
+    "자립지원과/02-2620-4679"
+  ],
+  "updatedAt": "2026-01-29",
+  "registeredAt": "2021-09-23",
+  "viewCount": 844,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "저소득노인 세대에 국민건강보험료 지원",
+  "target": "○ 매월 보험료 부과금액이 보건복지부가 고시한 최저보험료 이하인 독거노인 및 노부부세대",
+  "selectionCriteria": "",
+  "supportContent": "○ 매월 보험료 부과금액이 보건복지부가 고시한 최저보험료 이하인 독거노인 및 노부부세대의 건강보험료 지원",
+  "applicationMethod": "○ 기타 \n - 자립지원과 전화 문의",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 양천구 저소득계층 국민건강보험료 등 지원에 관한 조례",
+  "inquiryText": "자립지원과/02-2620-4679",
+  "ageMin": 65,
+  "ageMax": 120
+}

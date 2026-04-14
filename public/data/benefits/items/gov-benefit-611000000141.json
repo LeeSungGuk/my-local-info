@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-611000000141",
+  "sourceId": "611000000141",
+  "title": "장애인 인공달팽이관 수술 및 재활치료비 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시",
+  "providerType": "서울시",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "연초(2~3월중)",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 가구건강보험료 본인부담금 합산액이 소득인정액이 기준중위소득 100% 이하",
+  "summary": "서울특별시에서 제공하는 보건·의료 혜택입니다. 저소득 청각장애인에게 인공달팽이관 이식 수술비 등의 지원을 통해 정상적인 언어생활 및 장애인 가정의 의료비 부담  경감을 통해 장애인의 안정적인 생활 도모",
+  "supportType": "서비스(의료)",
+  "supportSummary": "○ 인공달팽이관 수술에 소요되는 비용(700만원 한도)\n\n○ 인공달팽이관 수술 후 재활치료비\n - 1년차 450만원 / 2년차 350만원 / 3년차 250만원\n\n○ 소모품비 : 연 36만원(3년간)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000141",
+  "onlineUrl": "",
+  "inquiry": [
+    "관할 주민센터/02-120"
+  ],
+  "updatedAt": "2026-02-23",
+  "registeredAt": "2021-09-23",
+  "viewCount": 843,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "저소득 청각장애인에게 인공달팽이관 이식 수술비 등의 지원을 통해 정상적인 언어생활 및 장애인 가정의 의료비 부담  경감을 통해 장애인의 안정적인 생활 도모",
+  "target": "○ 가구건강보험료 본인부담금 합산액이 소득인정액이 기준중위소득 100% 이하",
+  "selectionCriteria": "",
+  "supportContent": "○ 인공달팽이관 수술에 소요되는 비용(700만원 한도)\n\n○ 인공달팽이관 수술 후 재활치료비\n - 1년차 450만원 / 2년차 350만원 / 3년차 250만원\n\n○ 소모품비 : 연 36만원(3년간)",
+  "applicationMethod": "○ 방문 신청 \n - 주민센터 : 관할 주민센터 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "장애인복지법(제18조)"
+  ],
+  "ordinance": "서울특별시 장애인 건강권 및 의료접근성 보장에 관한 조례",
+  "inquiryText": "관할 주민센터/02-120",
+  "ageMin": 0,
+  "ageMax": 120
+}

@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-301000000123",
+  "sourceId": "301000000123",
+  "title": "임산부 등록 관리 서비스",
+  "field": "임신·출산",
+  "provider": "서울특별시 중구",
+  "providerType": "자치구",
+  "district": "중구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 임산부",
+  "summary": "서울특별시 중구에서 제공하는 임신·출산 혜택입니다. 임산부 검사 및 영양제 지원, 유축기 대여 등",
+  "supportType": "현물",
+  "supportSummary": "○ 임산부 등록관리\n○ 주수별 엽산제(최대 3개월) 및 철분제(최대 5개월) 제공\n○ 임신초기검사, 기형아검사(중구민), 임신성 당뇨검사 지원\n○ 유축기 대여\n○ 임신 출산 프로그램 등 안내",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/301000000123",
+  "onlineUrl": "",
+  "inquiry": [
+    "보건소 지역보건과/02-3396-6356"
+  ],
+  "updatedAt": "2026-02-05",
+  "registeredAt": "2021-09-23",
+  "viewCount": 2024,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "임산부 검사 및 영양제 지원, 유축기 대여 등",
+  "target": "○ 임산부",
+  "selectionCriteria": "",
+  "supportContent": "○ 임산부 등록관리\n○ 주수별 엽산제(최대 3개월) 및 철분제(최대 5개월) 제공\n○ 임신초기검사, 기형아검사(중구민), 임신성 당뇨검사 지원\n○ 유축기 대여\n○ 임신 출산 프로그램 등 안내",
+  "applicationMethod": "○ 보건소 직접 방문",
+  "documents": "○  신분증, 임신확인서(또는 임산부수첩)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 중구 출산양육 지원에 관한 조례",
+  "inquiryText": "보건소 지역보건과/02-3396-6356",
+  "ageMin": 18,
+  "ageMax": 44
+}

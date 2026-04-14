@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-311000000108",
+  "sourceId": "311000000108",
+  "title": "저소득 주민 국민건강보험료 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 은평구",
+  "providerType": "자치구",
+  "district": "은평구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 건강보험 지역가입자 중 저소득 장애, 노인가구, 수급자 및 차상위계층, 국가유공자 등",
+  "summary": "서울특별시 은평구에서 제공하는 보건·의료 혜택입니다. 저소득 노인, 장애인 등에게 건강보험료 지원",
+  "supportType": "현금(보험)",
+  "supportSummary": "○ 보건복지부 고시 건강보험 지역가입자 최저 보험료(22,340원) 이하를 납부하는 세대 중 노인으로만 구성된 가구, 등록장애인 포함가구, 한부모가구등 건강보험 경감코드 적용 대상자의 명단을 건강보험공단으로부터 통보받아 지자체에서 해당세대의 건강보험료를 대납",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000108",
+  "onlineUrl": "",
+  "inquiry": [
+    "통합돌봄과/02-351-7204"
+  ],
+  "updatedAt": "2026-01-16",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1154,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "저소득 노인, 장애인 등에게 건강보험료 지원",
+  "target": "○ 건강보험 지역가입자 중 저소득 장애, 노인가구, 수급자 및 차상위계층, 국가유공자 등",
+  "selectionCriteria": "",
+  "supportContent": "○ 보건복지부 고시 건강보험 지역가입자 최저 보험료(22,340원) 이하를 납부하는 세대 중 노인으로만 구성된 가구, 등록장애인 포함가구, 한부모가구등 건강보험 경감코드 적용 대상자의 명단을 건강보험공단으로부터 통보받아 지자체에서 해당세대의 건강보험료를 대납",
+  "applicationMethod": "○ 개인 신청절차 없음",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 은평구 저소득주민 국민건강보험료 및 노인장기요양보험료 지원에 관한 조례",
+  "inquiryText": "통합돌봄과/02-351-7204",
+  "ageMin": 19,
+  "ageMax": 120
+}

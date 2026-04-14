@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00023400009",
+  "sourceId": "O00023400009",
+  "title": "서대문독립공원 주차장 주차요금 감면",
+  "field": "문화·환경",
+  "provider": "서울특별시서대문구도시관리공단",
+  "providerType": "서울시",
+  "district": "서대문구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 장애인, 국가유공자 대상 주차요금 감면(80%)\n\n○ 경차, 저공해, 다둥이 대상 주차요금 감면(50%)",
+  "summary": "서울특별시서대문구도시관리공단에서 제공하는 문화·환경 혜택입니다. 서대문독립공원 주차요금 감면",
+  "supportType": "현금(감면)",
+  "supportSummary": "○ 장애인, 국가유공자 대상 주차요금 감면(80%)\n\n○ 경차, 저공해, 다둥이 대상 주차요금 감면(50%)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00023400009",
+  "onlineUrl": "",
+  "inquiry": [
+    "서대문형무소역사관/02-360-8571"
+  ],
+  "updatedAt": "2026-01-30",
+  "registeredAt": "2024-02-05",
+  "viewCount": 5385,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "서대문독립공원 주차요금 감면",
+  "target": "○ 장애인, 국가유공자 대상 주차요금 감면(80%)\n\n○ 경차, 저공해, 다둥이 대상 주차요금 감면(50%)",
+  "selectionCriteria": "",
+  "supportContent": "○ 장애인, 국가유공자 대상 주차요금 감면(80%)\n\n○ 경차, 저공해, 다둥이 대상 주차요금 감면(50%)",
+  "applicationMethod": "○ 방문접수: 증빙자료 제출 시 감면",
+  "documents": "(각 자격 증빙서류)\n○ 장애인복지카드\n○ 국가유공자증\n○ 다둥이카드(실물, 모바일)",
+  "officialDocuments": "○ 경차확인 서류\n○ 저공해차랑 확인 서류",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 서대문구 주차장 설치 및 관리 조례",
+  "inquiryText": "서대문형무소역사관/02-360-8571",
+  "ageMin": 0,
+  "ageMax": 120
+}

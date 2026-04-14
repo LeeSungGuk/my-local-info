@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-300000000155",
+  "sourceId": "300000000155",
+  "title": "국가유공자 장례서비스 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 종로구",
+  "providerType": "자치구",
+  "district": "종로구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "관내 거주 중 사망하신 국가유공자(본인)  ※유족이 신청",
+  "summary": "서울특별시 종로구에서 제공하는 생활안정 혜택입니다. 관내 거주 중 사망하신 국가유공자의 유족에 장례용품 등 지원",
+  "supportType": "현물",
+  "supportSummary": "관내 거주 중 사망하신 국가유공자의 유족에 장례용품 등 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000155",
+  "onlineUrl": "",
+  "inquiry": [
+    "종로구 복지정책과/02-2148-2483"
+  ],
+  "updatedAt": "2026-01-27",
+  "registeredAt": "2022-10-28",
+  "viewCount": 571,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "관내 거주 중 사망하신 국가유공자의 유족에 장례용품 등 지원",
+  "target": "관내 거주 중 사망하신 국가유공자(본인)  ※유족이 신청",
+  "selectionCriteria": "",
+  "supportContent": "관내 거주 중 사망하신 국가유공자의 유족에 장례용품 등 지원",
+  "applicationMethod": "- 평일(09~18시): 종로구 복지정책과(☎02-2148-2483)\n- 평일 야간·공휴일: 종로구 종합상황실(☎02-2148-1111)",
+  "documents": "유선(전화)신청",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 종로구 국가보훈대상자 예우 및 지원에 관한 조례(제15조의1)",
+  "inquiryText": "종로구 복지정책과/02-2148-2483",
+  "ageMin": 0,
+  "ageMax": 120
+}

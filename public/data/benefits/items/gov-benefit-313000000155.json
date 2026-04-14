@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-313000000155",
+  "sourceId": "313000000155",
+  "title": "청년 면접정장 대여사업",
+  "field": "생활안정",
+  "provider": "서울특별시 마포구",
+  "providerType": "자치구",
+  "district": "마포구",
+  "userType": "개인",
+  "deadlineText": "2026.01.26~2026.12.18",
+  "deadlineSortKey": "2026-12-18",
+  "isAlwaysOpen": false,
+  "targetSummary": "마포구 구직청년",
+  "summary": "서울특별시 마포구에서 제공하는 생활안정 혜택입니다. 청년들의 구직활동에 따른 경제적 부담 경감",
+  "supportType": "현물",
+  "supportSummary": "면접정장 무상 대여(2박3일)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "정부24온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000155",
+  "onlineUrl": "",
+  "inquiry": [
+    "고용협력과/02-3153-8643"
+  ],
+  "updatedAt": "2026-01-27",
+  "registeredAt": "2025-07-11",
+  "viewCount": 134,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "청년들의 구직활동에 따른 경제적 부담 경감",
+  "target": "마포구 구직청년",
+  "selectionCriteria": "",
+  "supportContent": "면접정장 무상 대여(2박3일)",
+  "applicationMethod": "정부24 홈페이지에 신청서 및 증빙서류 업로드",
+  "documents": "신청서, 행정정보공동이용사전동의서, 관내 고등학교/대학교 재학증명서 또는 휴학증명서, 면접 증빙 자료(면접통지서, 문자, 이메일 등)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 마포구 청년일자리 창출 촉진에 관한 조례(제6조, 제2항)||서울특별시 마포구 청년일자리 창출 촉진에 관한 조례(제8조)",
+  "inquiryText": "고용협력과/02-3153-8643",
+  "ageMin": 18,
+  "ageMax": 39
+}

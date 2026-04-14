@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-306000000222",
+  "sourceId": "306000000222",
+  "title": "구민 정보화교육",
+  "field": "보육·교육",
+  "provider": "서울특별시 중랑구",
+  "providerType": "자치구",
+  "district": "중랑구",
+  "userType": "개인",
+  "deadlineText": "매월 25일 이후 2~3일 접수 기간",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "30세이상 중랑구민, 중랑구 관내사업자 및 재직자",
+  "summary": "서울특별시 중랑구에서 제공하는 보육·교육 혜택입니다. 급변하는 디지털 시대에 구민의 실생활에 도움이 되는 다양한 정보화 교육 기회를 제공하여 디지털 역량강화 및 정보 격차해소에 기여하고자 함.",
+  "supportType": "기타(교육)",
+  "supportSummary": "구민의 정보화 격차 해소 및 디지털역량 강화를 위한 교육 기회를 제공하여 실생활에 도움이 될 수 있도록 지원합니다.\n\nㅇ 구민 정보화교육 안내\n  - 교육장소 : 신내동, 면목5동, 망우본동 구민정보화교육장\n - 수강료 : 무료(교재비 별도)\n - 대상: 30세이상…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/306000000222",
+  "onlineUrl": "https://www.jungnang.go.kr/portal/main/contents.do?menuNo=200397",
+  "inquiry": [
+    "중랑구 구민정보화교육 콜센터/02-2094-0579"
+  ],
+  "updatedAt": "2026-03-09",
+  "registeredAt": "2025-08-27",
+  "viewCount": 163,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "급변하는 디지털 시대에 구민의 실생활에 도움이 되는 다양한 정보화 교육 기회를 제공하여 디지털 역량강화 및 정보 격차해소에 기여하고자 함.",
+  "target": "30세이상 중랑구민, 중랑구 관내사업자 및 재직자",
+  "selectionCriteria": "",
+  "supportContent": "구민의 정보화 격차 해소 및 디지털역량 강화를 위한 교육 기회를 제공하여 실생활에 도움이 될 수 있도록 지원합니다.\n\nㅇ 구민 정보화교육 안내\n  - 교육장소 : 신내동, 면목5동, 망우본동 구민정보화교육장\n - 수강료 : 무료(교재비 별도)\n - 대상: 30세이상 중랑구민, 중랑구 관내사업자, \n            재직자",
+  "applicationMethod": "ㅇ 인터넷접수: \n구청 홈페이지(www.jungnang.go.kr) 접속 → 구민참여→구청→구민정보화교육 ('교육과정안내/신청'에서 인터넷접수)\n\nㅇ 전화접수: 02-2094-0579\n                 (기초반만 전화접수 가능)",
+  "documents": "ㅇ 교육시작시 신분증(본인확인용)\nㅇ 관내 사업자 및 재직자 일때 증명할수 있는 서류",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "지능정보화 기본법(제50조)"
+  ],
+  "ordinance": "서울특별시 중랑구 지능정보화 조례(제11조)",
+  "inquiryText": "중랑구 구민정보화교육 콜센터/02-2094-0579",
+  "ageMin": 30,
+  "ageMax": 120
+}

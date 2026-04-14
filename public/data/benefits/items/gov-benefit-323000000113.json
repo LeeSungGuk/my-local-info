@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-323000000113",
+  "sourceId": "323000000113",
+  "title": "(송파구)입양가정 입양축하금 지원",
+  "field": "임신·출산",
+  "provider": "서울특별시 송파구",
+  "providerType": "자치구",
+  "district": "송파구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 입양일을 기준으로 6개월 이상 송파구에 주민등록을 두고 실제 거주하고 있는 입양부모",
+  "summary": "서울특별시 송파구에서 제공하는 임신·출산 혜택입니다. ○ 입양부모에게 입양축하금 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 입양부모에게 입양축하금 지원\n - 입양기관의 알선을 받아, 입양특례법에 따라 입양된 아동의 건전한 양육을 위하여 예산의 범위 내에서 입양축하금 지원\n - 입양아동 1명당 100만원, 장애입양아동 1명당 200만원\n - 입양일을 기준으로 6개월 이상 송파구에 주민등…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/323000000113",
+  "onlineUrl": "",
+  "inquiry": [
+    "아동청소년과/02-2147-3833"
+  ],
+  "updatedAt": "2026-01-28",
+  "registeredAt": "2021-09-23",
+  "viewCount": 724,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "○ 입양부모에게 입양축하금 지원",
+  "target": "○ 입양일을 기준으로 6개월 이상 송파구에 주민등록을 두고 실제 거주하고 있는 입양부모",
+  "selectionCriteria": "",
+  "supportContent": "○ 입양부모에게 입양축하금 지원\n - 입양기관의 알선을 받아, 입양특례법에 따라 입양된 아동의 건전한 양육을 위하여 예산의 범위 내에서 입양축하금 지원\n - 입양아동 1명당 100만원, 장애입양아동 1명당 200만원\n - 입양일을 기준으로 6개월 이상 송파구에 주민등록을 두고 실제 거주하고 있는 입양부모에게 지급\n - 입양부모가 입양신고 후 60일 이내에 구청장에게 신청해야 함",
+  "applicationMethod": "○ 방문 신청\n - 시군구 : 입양신고 후 60일 이내에 송파구청 아동청소년과에 제출\n - 구비서류 : 입양축하금 지원 신청서, 예금통장 사본, 입양기관의 입양확인서, 입양아동이 장애아동일 경우 관련 서류(장애정도 확인서 등)",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 송파구 입양가정 지원에 관한 조례",
+  "inquiryText": "아동청소년과/02-2147-3833",
+  "ageMin": 18,
+  "ageMax": 44
+}

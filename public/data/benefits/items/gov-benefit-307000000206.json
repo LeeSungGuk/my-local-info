@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-307000000206",
+  "sourceId": "307000000206",
+  "title": "성북구 자치회관 수강료 감면(국가유공자)",
+  "field": "문화·환경",
+  "provider": "서울특별시 성북구",
+  "providerType": "자치구",
+  "district": "성북구",
+  "userType": "개인",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "「국가유공자 등 예우 및 지원에 관한 법률」에 따라 등록된 국가유공자 및 가족 중 성북구 주민",
+  "summary": "서울특별시 성북구에서 제공하는 문화·환경 혜택입니다. 성북구 자치회관 이용시 국가유공자 수강료 감면(50%)",
+  "supportType": "현금(감면)",
+  "supportSummary": "성북구 자치회관 수강료 감면\n-대상 : 「국가유공자 등 예우 및 지원에 관한 법률」에 따라 등록된 국가유공자 및 가족 중 성북구 주민\n-감면율 : 50%",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000206",
+  "onlineUrl": "",
+  "inquiry": [
+    "자치행정과/02-2241-2207"
+  ],
+  "updatedAt": "2026-03-18",
+  "registeredAt": "2025-12-17",
+  "viewCount": 40,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "성북구 자치회관 이용시 국가유공자 수강료 감면(50%)",
+  "target": "「국가유공자 등 예우 및 지원에 관한 법률」에 따라 등록된 국가유공자 및 가족 중 성북구 주민",
+  "selectionCriteria": "",
+  "supportContent": "성북구 자치회관 수강료 감면\n-대상 : 「국가유공자 등 예우 및 지원에 관한 법률」에 따라 등록된 국가유공자 및 가족 중 성북구 주민\n-감면율 : 50%",
+  "applicationMethod": "방문신청",
+  "documents": "자치회관 프로그램 신청서 및 증빙서류",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 성북구 주민자치회 설치·운영에 관한 조례(제39조, 제5항)||서울특별시 성북구 주민자치회 및 자치회관 설치ㆍ운영에 관한 조례 시행규칙",
+  "inquiryText": "자치행정과/02-2241-2207",
+  "ageMin": 0,
+  "ageMax": 120
+}

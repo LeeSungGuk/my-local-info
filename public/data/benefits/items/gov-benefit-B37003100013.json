@@ -1,0 +1,47 @@
+{
+  "id": "gov-benefit-B37003100013",
+  "sourceId": "B37003100013",
+  "title": "국민체육진흥기금 스포츠산업 융자",
+  "field": "고용·창업",
+  "provider": "서울올림픽기념국민체육진흥공단",
+  "providerType": "서울 공공기관",
+  "district": "서울특별시",
+  "userType": "소상공인||법인/시설/단체",
+  "deadlineText": "매년 사업계획에 따름",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 체육용구생산업체\n\n○ 스포츠서비스업체\n\n○ 민간체육시설업체",
+  "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 고용·창업 혜택입니다. 스포츠 기업에게 융자금 지원(분기별 변동금리 적용)",
+  "supportType": "현금(융자)",
+  "supportSummary": "○ 국내 체육용구생산, 서비스, 체육시설업체 관련 업체의 자금조달 애로사항 해소에 기여\n\n○ 융자금 지원\n - 은행담보대리대출\n - 분기별 변동금리 적용(`26년 1분기 기준 2.96%)\n\n○ 스포츠산업융자 일정 및 사업소개 홈페이지 (https://www.kspo.…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100013",
+  "onlineUrl": "spobiz.kspo.or.kr",
+  "inquiry": [
+    "기업금융지원팀/1566-4573"
+  ],
+  "updatedAt": "2026-01-30",
+  "registeredAt": "2022-07-15",
+  "viewCount": 955,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "스포츠 기업에게 융자금 지원(분기별 변동금리 적용)",
+  "target": "○ 체육용구생산업체\n\n○ 스포츠서비스업체\n\n○ 민간체육시설업체",
+  "selectionCriteria": "",
+  "supportContent": "○ 국내 체육용구생산, 서비스, 체육시설업체 관련 업체의 자금조달 애로사항 해소에 기여\n\n○ 융자금 지원\n - 은행담보대리대출\n - 분기별 변동금리 적용(`26년 1분기 기준 2.96%)\n\n○ 스포츠산업융자 일정 및 사업소개 홈페이지 (https://www.kspo.or.kr/tuntun)",
+  "applicationMethod": "○ 온라인 신청\n - 스포츠산업지원 : spobiz.kspo.or.kr 기업회원으로 회원가입 후 진행\n\n○ 튼튼론 홈페이지\n - https://www.kspo.or.kr/tuntun",
+  "documents": "사업자등록증 등 16종 (업체 및 신청자금 종류에 따라 서류 상이)\n\n튼튼론 홈페이지 참고(https://www.kspo.or.kr/tuntun)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "국민체육진흥법(제22조, 제1항)",
+    "국민체육진흥법 시행령(제18조, 제1항)",
+    "국민체육진흥법 시행령(제18조, 제2항)"
+  ],
+  "ordinance": "",
+  "inquiryText": "기업금융지원팀/1566-4573",
+  "ageMin": 0,
+  "ageMax": 0
+}

@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00022600033",
+  "sourceId": "O00022600033",
+  "title": "거주자우선주차 요금감면(보훈보상대상자)",
+  "field": "생활안정",
+  "provider": "광진구시설관리공단",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "보훈보상대상자",
+  "summary": "광진구시설관리공단에서 제공하는 생활안정 혜택입니다. 보훈보상대상자에게 거주자우선주 요금 50% 감면",
+  "supportType": "시설이용",
+  "supportSummary": "주차요금 감면(50%)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022600033",
+  "onlineUrl": "https://pk.gwangjin.or.kr/Account/Login",
+  "inquiry": [
+    "광진구시설관리공단 주차사업부/02-2049-4540"
+  ],
+  "updatedAt": "2026-02-24",
+  "registeredAt": "2022-11-14",
+  "viewCount": 620,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "보훈보상대상자에게 거주자우선주 요금 50% 감면",
+  "target": "보훈보상대상자",
+  "selectionCriteria": "",
+  "supportContent": "주차요금 감면(50%)",
+  "applicationMethod": "○ 행정정보공동망 인증, 온라인 신청",
+  "documents": "○ 신청인 구비서류\n - 보훈보상대상자증",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 광진구 주차장 설치 및 관리 조례(제4조의2, 제1항)",
+  "inquiryText": "광진구시설관리공단 주차사업부/02-2049-4540",
+  "ageMin": 19,
+  "ageMax": 120
+}

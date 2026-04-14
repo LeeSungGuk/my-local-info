@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-309000000126",
+  "sourceId": "309000000126",
+  "title": "한부모가정 명절위문금 지원",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 도봉구",
+  "providerType": "자치구",
+  "district": "도봉구",
+  "userType": "가구",
+  "deadlineText": "신청불필요",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 법정 한부모가정",
+  "summary": "서울특별시 도봉구에서 제공하는 보호·돌봄 혜택입니다. 한부모가정에 명절위문금 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 저소득 한부모가족 대상으로 명절(설, 추석)에 가구당 현금 3만원 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/309000000126",
+  "onlineUrl": "",
+  "inquiry": [
+    "가족정책과/02-2091-3146"
+  ],
+  "updatedAt": "2026-02-04",
+  "registeredAt": "2021-09-23",
+  "viewCount": 4348,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "한부모가정에 명절위문금 지원",
+  "target": "○ 법정 한부모가정",
+  "selectionCriteria": "",
+  "supportContent": "○ 저소득 한부모가족 대상으로 명절(설, 추석)에 가구당 현금 3만원 지원",
+  "applicationMethod": "○ 개인 신청절차 없음\n - 사회보장정보시스템으로 명절 위문금 지급기준일 당시 책정되어 있는 법정 한부모가족 보장가구 추출 후 지급",
+  "documents": "○ 신청인 제출서류\n  - 없음\n\n○ 공무원 확인가능 서류(신청인 미제출 서류)\n  - 한부모가족 증명서",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 도봉구 저소득주민의 생활안정 지원에 관한 조례",
+  "inquiryText": "가족정책과/02-2091-3146",
+  "ageMin": 0,
+  "ageMax": 120
+}

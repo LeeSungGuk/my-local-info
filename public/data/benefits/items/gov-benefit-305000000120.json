@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-305000000120",
+  "sourceId": "305000000120",
+  "title": "EM발효액 무상 보급",
+  "field": "문화·환경",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "동대문구민",
+  "summary": "서울특별시 동대문구에서 제공하는 문화·환경 혜택입니다. 7개 동주민센터 및 전일청소년독서실에서 EM발효액 무료보급",
+  "supportType": "기타",
+  "supportSummary": "❍ EM발효액 무료보급\n- 장소: 8개소(용신동·제기동·전농2동·답십리1동·장안1동·휘경2동·이문1동 주민센터, 전일청소년독서실)\n- 공급기간: 매주 월~목, 10:00 ~ 18:00(공급량 소진시 조기 중단될 수 있습니다.)\n- 방    식 : 자율보급(무료, 1인…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000120",
+  "onlineUrl": "",
+  "inquiry": [
+    "기후환경과/02-2127-4643"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2022-04-28",
+  "viewCount": 1015,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "7개 동주민센터 및 전일청소년독서실에서 EM발효액 무료보급",
+  "target": "동대문구민",
+  "selectionCriteria": "",
+  "supportContent": "❍ EM발효액 무료보급\n- 장소: 8개소(용신동·제기동·전농2동·답십리1동·장안1동·휘경2동·이문1동 주민센터, 전일청소년독서실)\n- 공급기간: 매주 월~목, 10:00 ~ 18:00(공급량 소진시 조기 중단될 수 있습니다.)\n- 방    식 : 자율보급(무료, 1인당 1회 2병으로 제한)\n                 EM 복합기 전면의 공급버튼을 눌러 배출(1.8ℓ/회, 빈 폐트병(2ℓ) 필요)",
+  "applicationMethod": "자율보급(무료, 1인당 1회 2병으로 제한)\n현장에 직접방문하여 EM 복합기 전면의 공급버튼을 눌러 배출(1.8ℓ/회, 빈 폐트병(2ℓ) 필요)",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 동대문구 환경 기본 조례(제15조)",
+  "inquiryText": "기후환경과/02-2127-4643",
+  "ageMin": 19,
+  "ageMax": 120
+}

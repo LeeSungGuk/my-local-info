@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-306000000110",
+  "sourceId": "306000000110",
+  "title": "지역화폐(동대문구사랑상품권)",
+  "field": "행정·안전",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 누구든지 가능",
+  "summary": "서울특별시 동대문구에서 제공하는 행정·안전 혜택입니다. 소비자에게 할인 및 소득공제 혜택, 가맹점에 수수료 절감 혜택 등 제공",
+  "supportType": "이용권",
+  "supportSummary": "○ 소비자\n - 구입 시 5% 할인, 연말정산 시 소득공제\n\n○ 가맹점 \n - 카드 결제 수수료 절감, 지역사랑상품권 앱을 통한 홍보 효과, 가맹점 매출증대",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/306000000110",
+  "onlineUrl": "",
+  "inquiry": [
+    "경제진흥과/02-2127-4367"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1627,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "소비자에게 할인 및 소득공제 혜택, 가맹점에 수수료 절감 혜택 등 제공",
+  "target": "○ 누구든지 가능",
+  "selectionCriteria": "",
+  "supportContent": "○ 소비자\n - 구입 시 5% 할인, 연말정산 시 소득공제\n\n○ 가맹점 \n - 카드 결제 수수료 절감, 지역사랑상품권 앱을 통한 홍보 효과, 가맹점 매출증대",
+  "applicationMethod": "○ 모바일 앱\n \n - 소비자 : (상품권 구매 및 결제) 서울사랑상품권 결제 가능 앱(서울Pay+, 티머니페이, 신한 쏠, 머니트리)\n - 가맹점 : 서울페이 어플 내 사업자번호 조회 후 가맹점 신청 가능",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 동대문구 동대문구사랑상품권의 발행 및 운영에 관한 조례",
+  "inquiryText": "경제진흥과/02-2127-4367",
+  "ageMin": 14,
+  "ageMax": 120
+}

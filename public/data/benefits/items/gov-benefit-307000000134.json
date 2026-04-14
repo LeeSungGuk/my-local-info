@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-307000000134",
+  "sourceId": "307000000134",
+  "title": "사랑의 PC 지원",
+  "field": "문화·환경",
+  "provider": "서울특별시 성북구",
+  "providerType": "자치구",
+  "district": "성북구",
+  "userType": "개인||법인/시설/단체",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 개인 : 국민기초생활수급자, 장애인, 결혼이민자, 보호대상아동, 국가유공자(1~ 7급 상이등급) 등\n○ 단체 : 비영리 사회복지시설ㆍ법인ㆍ단체",
+  "summary": "서울특별시 성북구에서 제공하는 문화·환경 혜택입니다. 사용연한이 경과한 중고PC를 정비하여 기초생활수급자, 장애인, 사회복지단체 등에 무상 제공",
+  "supportType": "현물",
+  "supportSummary": "업무용 PC 중 사용연한(5년)이 경과한 장비(중고PC)를 수집하여 정비한 후 무상 제공\n - 보급품목 : PC본체 및 모니터, 키보드, 마우스 등\n - 보급방법 : 방문설치\n - 사후관리 : 보급 후 2년간",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "정부24온라인신청",
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000134",
+  "onlineUrl": "",
+  "inquiry": [
+    "성북구 홍보전산과/02-2241-4539"
+  ],
+  "updatedAt": "2026-04-10",
+  "registeredAt": "2022-07-26",
+  "viewCount": 1050,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "사용연한이 경과한 중고PC를 정비하여 기초생활수급자, 장애인, 사회복지단체 등에 무상 제공",
+  "target": "○ 개인 : 국민기초생활수급자, 장애인, 결혼이민자, 보호대상아동, 국가유공자(1~ 7급 상이등급) 등\n○ 단체 : 비영리 사회복지시설ㆍ법인ㆍ단체",
+  "selectionCriteria": "",
+  "supportContent": "업무용 PC 중 사용연한(5년)이 경과한 장비(중고PC)를 수집하여 정비한 후 무상 제공\n - 보급품목 : PC본체 및 모니터, 키보드, 마우스 등\n - 보급방법 : 방문설치\n - 사후관리 : 보급 후 2년간",
+  "applicationMethod": "관할 동 주민센터 방문신청 또는 온라인 신청",
+  "documents": "별도 구비서류 없음(전산확인)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "디지털포용법(제24조, 제1항)"
+  ],
+  "ordinance": "",
+  "inquiryText": "성북구 홍보전산과/02-2241-4539",
+  "ageMin": 0,
+  "ageMax": 120
+}

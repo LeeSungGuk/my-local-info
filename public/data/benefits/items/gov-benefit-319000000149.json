@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-319000000149",
+  "sourceId": "319000000149",
+  "title": "착한가격업소 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 동작구",
+  "providerType": "자치구",
+  "district": "동작구",
+  "userType": "소상공인",
+  "deadlineText": "매년 상반기(3~4월)",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "동작구 소재지의 상시근로자 5인 미만의 소상공인 개인서비스업 자영업자",
+  "summary": "서울특별시 동작구에서 제공하는 생활안정 혜택입니다. 착한가격업소 운영 및 지원을 통한 서민경제생활 부담 완화 및 물가안정 분위기 확산",
+  "supportType": "현금",
+  "supportSummary": "-착한가격업소 지원 및 관리",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000149",
+  "onlineUrl": "",
+  "inquiry": [
+    "동작구청 경제정책과/02-820-9324"
+  ],
+  "updatedAt": "2026-02-04",
+  "registeredAt": "2023-11-14",
+  "viewCount": 1292,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "착한가격업소 운영 및 지원을 통한 서민경제생활 부담 완화 및 물가안정 분위기 확산",
+  "target": "동작구 소재지의 상시근로자 5인 미만의 소상공인 개인서비스업 자영업자",
+  "selectionCriteria": "",
+  "supportContent": "-착한가격업소 지원 및 관리",
+  "applicationMethod": "신규신청 공고 기간 중 방문, 메일, 팩스 신청",
+  "documents": "ㅇ 신청인 제출서류 : 신청서, 행정정보공동이용조회 동의서, 위임장(대리 신청의 경우), 사업자등록증",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 동작구 착한가격업소 지원 및 관리에 관한 조례(제5조)",
+  "inquiryText": "동작구청 경제정책과/02-820-9324",
+  "ageMin": 0,
+  "ageMax": 0
+}

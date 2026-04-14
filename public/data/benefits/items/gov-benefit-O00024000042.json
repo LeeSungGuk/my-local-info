@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00024000042",
+  "sourceId": "O00024000042",
+  "title": "용산문화체육센터 프로그램 할인(기초생활수급자)",
+  "field": "문화·환경",
+  "provider": "용산구시설관리공단",
+  "providerType": "자치구",
+  "district": "용산구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "국민기초생활 보장법에 의한 수급자 또는 그 가족",
+  "summary": "용산구시설관리공단에서 제공하는 문화·환경 혜택입니다. 기초생활수급자에게 문화체육센터 프로그램 이용요금 감면",
+  "supportType": "시설이용",
+  "supportSummary": "기초생활 수급자로 등록된 청소년(만9세~만24세)이 강좌 이용시 1개강좌 100% 할인, 이 후 강좌 등록시 50% 할인, 성인은 강좌 등록시 50% 할인",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00024000042",
+  "onlineUrl": "",
+  "inquiry": [
+    "용산문화체육센터/02-707-2492"
+  ],
+  "updatedAt": "2026-03-06",
+  "registeredAt": "2022-10-31",
+  "viewCount": 649,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "기초생활수급자에게 문화체육센터 프로그램 이용요금 감면",
+  "target": "국민기초생활 보장법에 의한 수급자 또는 그 가족",
+  "selectionCriteria": "",
+  "supportContent": "기초생활 수급자로 등록된 청소년(만9세~만24세)이 강좌 이용시 1개강좌 100% 할인, 이 후 강좌 등록시 50% 할인, 성인은 강좌 등록시 50% 할인",
+  "applicationMethod": "○ 방문 신청\n - 용산문화체육센터 직접 방문 후 해당 서류 제출",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "용산문화체육센터/02-707-2492",
+  "ageMin": 9,
+  "ageMax": 24
+}

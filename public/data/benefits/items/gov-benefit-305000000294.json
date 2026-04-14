@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-305000000294",
+  "sourceId": "305000000294",
+  "title": "동대문구 보건소 내소자 결핵검진",
+  "field": "보건·의료",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "호흡기 계통의 증상이 있는 분(2주 이상 기침, 객담, 혈담이나 객혈)\n결핵환자 가족 및 동거가족\n병무청 및 민간 병·의원에서 결핵 유소견자로 통보된 분\n기타 결핵검진을 희망하는 분",
+  "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 지역주민 및 학생을 위한 결핵 검진 및 관리 지원",
+  "supportType": "서비스(의료)",
+  "supportSummary": "ㅇ 결핵검진 대상\n  - 호흡기 계통의 증상이 있는 분(2주 이상 기침, 객담, 혈담이나 객혈)\n  - 결핵환자 가족 및 동거가족\n  - 병무청 및 민간 병·의원에서 결핵 유소견자로 통보된 분\n  - 기타 결핵검진을 희망하는 분\n\nㅇ검사방법\n보건소에 내소하여 흉부엑스…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000294",
+  "onlineUrl": "",
+  "inquiry": [
+    "동대문구보건소 감염병진료실/02-2127-5453"
+  ],
+  "updatedAt": "2026-01-22",
+  "registeredAt": "2025-12-10",
+  "viewCount": 57,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "지역주민 및 학생을 위한 결핵 검진 및 관리 지원",
+  "target": "호흡기 계통의 증상이 있는 분(2주 이상 기침, 객담, 혈담이나 객혈)\n결핵환자 가족 및 동거가족\n병무청 및 민간 병·의원에서 결핵 유소견자로 통보된 분\n기타 결핵검진을 희망하는 분",
+  "selectionCriteria": "",
+  "supportContent": "ㅇ 결핵검진 대상\n  - 호흡기 계통의 증상이 있는 분(2주 이상 기침, 객담, 혈담이나 객혈)\n  - 결핵환자 가족 및 동거가족\n  - 병무청 및 민간 병·의원에서 결핵 유소견자로 통보된 분\n  - 기타 결핵검진을 희망하는 분\n\nㅇ검사방법\n보건소에 내소하여 흉부엑스선 검사 및 객담검사\n\nㅇ검사수수료\n제증명 서류 발급 시 수수료 있음\n\nㅇ환자등록\n결핵치료는 무료(산정특례)이며, 의료기관으로 연계",
+  "applicationMethod": "○ 방문 신청\n - 보건소 : 보건소 방문신청",
+  "documents": "신분증",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "감염병의 예방 및 관리에 관한 법률(제4조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "동대문구보건소 감염병진료실/02-2127-5453",
+  "ageMin": 0,
+  "ageMax": 120
+}

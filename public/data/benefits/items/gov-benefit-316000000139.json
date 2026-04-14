@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-316000000139",
+  "sourceId": "316000000139",
+  "title": "입양축하금 지급(비장애아동)",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 구로구",
+  "providerType": "자치구",
+  "district": "구로구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 입양신고일 1년 전부터 계속하여 서울특별시 구로구에 주민등록을 두고 입양축하금 신청일까지 실제 거주하고 있는 사람",
+  "summary": "서울특별시 구로구에서 제공하는 보호·돌봄 혜택입니다. 보호가 필요한 아동을 입양한 가정에 양육수당 및 입양축하금 등을 지원하여 입양을 장려하고, 아동이 안정적인 가정환경에서 성장할 수 있도록 지원하고자 함.",
+  "supportType": "현금",
+  "supportSummary": "○ 아동 입양 시 1명당 100만원 지급",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/316000000139",
+  "onlineUrl": "",
+  "inquiry": [
+    "아동청소년과/02-860-2123"
+  ],
+  "updatedAt": "2026-01-29",
+  "registeredAt": "2025-11-14",
+  "viewCount": 75,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "보호가 필요한 아동을 입양한 가정에 양육수당 및 입양축하금 등을 지원하여 입양을 장려하고, 아동이 안정적인 가정환경에서 성장할 수 있도록 지원하고자 함.",
+  "target": "○ 입양신고일 1년 전부터 계속하여 서울특별시 구로구에 주민등록을 두고 입양축하금 신청일까지 실제 거주하고 있는 사람",
+  "selectionCriteria": "",
+  "supportContent": "○ 아동 입양 시 1명당 100만원 지급",
+  "applicationMethod": "○ 방문 신청 (관할 동 주민센터 방문)\n - 기타 : 입양 신고일로부터 90일 이내에 필요 서류 제출",
+  "documents": "- 입양축하금 신청서 1부\n- 입양기관에서 발급한 입양사실확인서 1부\n- 입양관계증명서 또는 친양자입양관계증명서 1부\n- 신청인 명의 예금통장 사본 1부",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 구로구 입양가정 지원에 관한 조례",
+  "inquiryText": "아동청소년과/02-860-2123",
+  "ageMin": 18,
+  "ageMax": 55
+}

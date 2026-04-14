@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-319000000109",
+  "sourceId": "319000000109",
+  "title": "재활보조기구 수리비용 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 동작구",
+  "providerType": "자치구",
+  "district": "동작구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○  수동/전동휠체어, 전동스쿠터를 사용하는 관내 거주 등록장애인",
+  "summary": "서울특별시 동작구에서 제공하는 생활안정 혜택입니다. 재활보조기구 수리센터를 운영하여 장애인들의 이동불편해소와 경제적 부담 경감 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 재활보조기구 수리센터를 운영하여 장애인들의 이동불편해소와 경제적 부담 경감 지원 \n - 수리대상 : 수동/전동휠체어, 전동스쿠터\n - 수리비 지원\n  ㆍ국민기초생활보장수급자 및 차상위 장애인 : 연 30만원\n  ㆍ일반장애인 : 수리비 1/2범위 내에서 연 15만원…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000109",
+  "onlineUrl": "",
+  "inquiry": [
+    "동작구청 장애인복지과/02-820-9126"
+  ],
+  "updatedAt": "2026-02-04",
+  "registeredAt": "2021-09-23",
+  "viewCount": 808,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "재활보조기구 수리센터를 운영하여 장애인들의 이동불편해소와 경제적 부담 경감 지원",
+  "target": "○  수동/전동휠체어, 전동스쿠터를 사용하는 관내 거주 등록장애인",
+  "selectionCriteria": "",
+  "supportContent": "○ 재활보조기구 수리센터를 운영하여 장애인들의 이동불편해소와 경제적 부담 경감 지원 \n - 수리대상 : 수동/전동휠체어, 전동스쿠터\n - 수리비 지원\n  ㆍ국민기초생활보장수급자 및 차상위 장애인 : 연 30만원\n  ㆍ일반장애인 : 수리비 1/2범위 내에서 연 15만원\n\n ※ 연 수리비 지원 초과금액은 자부담",
+  "applicationMethod": "○ 방문 신청\n - 관할 동 주민센터 신청",
+  "documents": "수리신청서, 개인정보동의서, 수리의뢰서, 예산소진시 수리비지원불가 동의서",
+  "officialDocuments": "장애인등록증, 수급자증명서",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "장애인ㆍ노인 등을 위한 보조기기 지원 및 활용촉진에 관한 법률"
+  ],
+  "ordinance": "서울특별시 동작구 장애인 휠체어 등 수리 지원에 관한 조례",
+  "inquiryText": "동작구청 장애인복지과/02-820-9126",
+  "ageMin": 0,
+  "ageMax": 120
+}

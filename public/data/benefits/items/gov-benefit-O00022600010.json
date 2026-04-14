@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00022600010",
+  "sourceId": "O00022600010",
+  "title": "공영주차장 이용요금 감면(성실납세자)",
+  "field": "생활안정",
+  "provider": "광진구시설관리공단",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "성실납세자",
+  "summary": "광진구시설관리공단에서 제공하는 생활안정 혜택입니다. 성실납세자에게 공영주차장 이용요금 면제",
+  "supportType": "시설이용",
+  "supportSummary": "주차요금 감면(100%)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022600010",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구시설관리공단 주차사업부/02-2049-4540"
+  ],
+  "updatedAt": "2026-01-30",
+  "registeredAt": "2022-07-15",
+  "viewCount": 848,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "성실납세자에게 공영주차장 이용요금 면제",
+  "target": "성실납세자",
+  "selectionCriteria": "",
+  "supportContent": "주차요금 감면(100%)",
+  "applicationMethod": "○ 방문 신청\n - 광진구청 세무과 지정 성실납세자",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "광진구시설관리공단 주차사업부/02-2049-4540",
+  "ageMin": 0,
+  "ageMax": 120
+}

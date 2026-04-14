@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-300000000103",
+  "sourceId": "300000000103",
+  "title": "장애인 자립생활주택 지원",
+  "field": "주거·자립",
+  "provider": "서울특별시 종로구",
+  "providerType": "자치구",
+  "district": "종로구",
+  "userType": "법인/시설/단체",
+  "deadlineText": "주택 공실 시, 별도 신청기간 안내",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 서울시 관할 장애인거주시설 이용인 중 지역자립욕구가 있는 19세 이상인 자 \n○ 서울시에 거주하는 19세이상인 재가장애인(차상위계층 또는 기초생활수급자)",
+  "summary": "서울특별시 종로구에서 제공하는 주거·자립 혜택입니다. 자립생활울 원하는 거주시설 및 재가장애인을 위한 자립생활주택 지원",
+  "supportType": "기타",
+  "supportSummary": "○ 주거지원, 개인별지원 서비스 등",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000103",
+  "onlineUrl": "",
+  "inquiry": [
+    "사회복지과/02-2148-2568"
+  ],
+  "updatedAt": "2026-01-28",
+  "registeredAt": "2021-09-23",
+  "viewCount": 937,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "자립생활울 원하는 거주시설 및 재가장애인을 위한 자립생활주택 지원",
+  "target": "○ 서울시 관할 장애인거주시설 이용인 중 지역자립욕구가 있는 19세 이상인 자 \n○ 서울시에 거주하는 19세이상인 재가장애인(차상위계층 또는 기초생활수급자)",
+  "selectionCriteria": "",
+  "supportContent": "○ 주거지원, 개인별지원 서비스 등",
+  "applicationMethod": "○ 주택 공실 시, 별도 신청방법  및 기간 안내\n○ 신청인 직접 제출, 담당 공무원 확인",
+  "documents": "1.입주신청서\n2.자기소개서\n3.생활요약서\n4.개인정보 동의서  ※ (주의) 동의서 미제출시 신청·접수가 거부됨\n5.건강진단서\n • 최근3개월 이내 발급분, 일반검진(A형•B형 간염검사 포함)\n6.기초생활수급자, 차상위계층 증명서(재가장애인만 제출)\n7.위임장\n • 해당자만 제출",
+  "officialDocuments": "1.신청자의 주민등록표등본\n • 세대구성원과 세대주와의 관계, 세대구성원의 전입일/변동일 사유, 세대구성원 사유, 세대주 및 세대구성원 전원의 주민등록번호, 세대구성원 이름 등이 전부 표기되도\n 록 발급       \n ※ 입주신청 공고일 이후 발급 기준\n2.장애인증명서\n • 장애인증명서 또는 복지카드(사본) 1부",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 종로구 장애인 자립생활지원 조례",
+  "inquiryText": "사회복지과/02-2148-2568",
+  "ageMin": 18,
+  "ageMax": 65
+}

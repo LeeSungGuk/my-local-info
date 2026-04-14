@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-324000000121",
+  "sourceId": "324000000121",
+  "title": "강동야간학교 운영 지원",
+  "field": "보육·교육",
+  "provider": "서울특별시 강동구",
+  "providerType": "자치구",
+  "district": "강동구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 문해교육 및 기초학습이 필요한 강동구민",
+  "summary": "서울특별시 강동구에서 제공하는 보육·교육 혜택입니다. 배움의 기회를 놓친 구민에게 기초학습권 보장과 평등한 배움의 기회 제공하여, 지역공동체 강화에 기여할 수 있는 주민으로 성장",
+  "supportType": "기타(교육)",
+  "supportSummary": "○ 운영목적: 배움의 기회를 놓친 구민에게 기초학습권 보장과 평등한 배움의 기회 제공하여, 지역공동체 강화에 기여할 수 있는 주민으로 성장\n○ 운영기간: 1년 (2025. 11. 24. ~ 2026. 11. 23.)\n○ 교육내용: 3개 과목(한글,한문,영어) 3개반…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/324000000121",
+  "onlineUrl": "",
+  "inquiry": [
+    "서울특별시 강동구/02-3425-5765"
+  ],
+  "updatedAt": "2026-02-10",
+  "registeredAt": "2022-11-25",
+  "viewCount": 39,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "배움의 기회를 놓친 구민에게 기초학습권 보장과 평등한 배움의 기회 제공하여, 지역공동체 강화에 기여할 수 있는 주민으로 성장",
+  "target": "○ 문해교육 및 기초학습이 필요한 강동구민",
+  "selectionCriteria": "",
+  "supportContent": "○ 운영목적: 배움의 기회를 놓친 구민에게 기초학습권 보장과 평등한 배움의 기회 제공하여, 지역공동체 강화에 기여할 수 있는 주민으로 성장\n○ 운영기간: 1년 (2025. 11. 24. ~ 2026. 11. 23.)\n○ 교육내용: 3개 과목(한글,한문,영어) 3개반\n○ 과목별 수업일정\n   - 한글기초: (월) 17:30~19:00 \n   - 생활한자: (월) 15:30~17:00\n   - 기초생활영어: (수) 15:00~16:30",
+  "applicationMethod": "○ 유선 신청 (☎ 02-3425-5765)",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "평생교육법(제39조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "서울특별시 강동구/02-3425-5765",
+  "ageMin": 0,
+  "ageMax": 120
+}

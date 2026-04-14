@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-320000000302",
+  "sourceId": "320000000302",
+  "title": "관악구 출생축하용품 지원",
+  "field": "임신·출산",
+  "provider": "서울특별시 관악구",
+  "providerType": "자치구",
+  "district": "관악구",
+  "userType": "가구",
+  "deadlineText": "출생 후 60일이내 신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "구에 주민등록을 두고 거주하고 있는 출생신고를 한 모든 영아의 부 또는 모로 하며, 대상자녀는 주민등록상 동일 세대원이어야 한다.",
+  "summary": "서울특별시 관악구에서 제공하는 임신·출산 혜택입니다. 출산가정에 축하의 마음을 전달하고 출산 및 양육 친화적인 환경을 조성하기 위함",
+  "supportType": "현물",
+  "supportSummary": "관내 출생신고 가정에 출생축하용품 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000302",
+  "onlineUrl": "",
+  "inquiry": [
+    "여성가족과 출산다문화팀/02-879-6133"
+  ],
+  "updatedAt": "2026-01-27",
+  "registeredAt": "2024-11-13",
+  "viewCount": 292,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "출산가정에 축하의 마음을 전달하고 출산 및 양육 친화적인 환경을 조성하기 위함",
+  "target": "구에 주민등록을 두고 거주하고 있는 출생신고를 한 모든 영아의 부 또는 모로 하며, 대상자녀는 주민등록상 동일 세대원이어야 한다.",
+  "selectionCriteria": "",
+  "supportContent": "관내 출생신고 가정에 출생축하용품 지원",
+  "applicationMethod": "- 방문신청: 동 주민센터 방문신청 후 수령\n\n- 온라인신청: 정부24>행복출산(출산서비스통합처리신청)>지자체별지원(관악구 출생축하용품 지원 )>주민센터 방문 수령",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "여성가족과 출산다문화팀/02-879-6133",
+  "ageMin": 18,
+  "ageMax": 120
+}

@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-315000000267",
+  "sourceId": "315000000267",
+  "title": "EM 발효액 배부",
+  "field": "문화·환경",
+  "provider": "서울특별시 강서구",
+  "providerType": "자치구",
+  "district": "강서구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "강서구 구민",
+  "summary": "서울특별시 강서구에서 제공하는 문화·환경 혜택입니다. 문전 수거 체계에 따른 일반주택 지역의 음식물류폐기물 소형수거용기 악취 관리 필요",
+  "supportType": "기타",
+  "supportSummary": "* 악취관리액(1L) 배부 : 각 동 주민센터에서 배부\n* EM발효액 보급기(기계) : 2개소 (개인 용기 지참하여 주민 자체 수령)\n     - 설치장소 : 2개소 (화곡8동 주민센터, 발산1동 주민센터) \n     - 운영일시 : 월 ~ 수 (9시 ~ 21시 :…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000267",
+  "onlineUrl": "",
+  "inquiry": [
+    "자원순환과/02-2600-4077"
+  ],
+  "updatedAt": "2026-01-27",
+  "registeredAt": "2023-11-13",
+  "viewCount": 1606,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "문전 수거 체계에 따른 일반주택 지역의 음식물류폐기물 소형수거용기 악취 관리 필요",
+  "target": "강서구 구민",
+  "selectionCriteria": "",
+  "supportContent": "* 악취관리액(1L) 배부 : 각 동 주민센터에서 배부\n* EM발효액 보급기(기계) : 2개소 (개인 용기 지참하여 주민 자체 수령)\n     - 설치장소 : 2개소 (화곡8동 주민센터, 발산1동 주민센터) \n     - 운영일시 : 월 ~ 수 (9시 ~ 21시 : 보급시간 조정 가능)\n                         목 ~ 일 (발효 기간으로 보급기 사용 불가능)",
+  "applicationMethod": "방문 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 강서구 음식물류 폐기물 발생억제, 수집·운반 및 재활용에 관한 조례",
+  "inquiryText": "자원순환과/02-2600-4077",
+  "ageMin": 19,
+  "ageMax": 120
+}

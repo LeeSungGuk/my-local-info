@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00021500001",
+  "sourceId": "O00021500001",
+  "title": "기관사 체험 행사",
+  "field": "보육·교육",
+  "provider": "서울교통공사",
+  "providerType": "서울 공공기관",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "매년 내부사정에 따라 상이(행사 약 3주전 공고 , 일주일 이내 신청접수)",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "초등학생 이상 청소년 및 일반인",
+  "summary": "서울교통공사에서 제공하는 보육·교육 혜택입니다. 초등학생 이상 시민에게 기관사 일일 체험행사",
+  "supportType": "기타",
+  "supportSummary": "○ 일일 지하철 기관사 체험 \n - 전동차 모의운전연습기를 활용한 안전교육 및 체험\n - 서울지하철 임시열차 운행을 통해 참가시민 대상 기관사 업무 및 객실 방송 체험",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00021500001",
+  "onlineUrl": "http://www.seoulmetro.co.kr",
+  "inquiry": [
+    "서울교통공사 승무지원처/02-6311-9678"
+  ],
+  "updatedAt": "2026-01-28",
+  "registeredAt": "2022-07-15",
+  "viewCount": 2084,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "초등학생 이상 시민에게 기관사 일일 체험행사",
+  "target": "초등학생 이상 청소년 및 일반인",
+  "selectionCriteria": "",
+  "supportContent": "○ 일일 지하철 기관사 체험 \n - 전동차 모의운전연습기를 활용한 안전교육 및 체험\n - 서울지하철 임시열차 운행을 통해 참가시민 대상 기관사 업무 및 객실 방송 체험",
+  "applicationMethod": "○ 온라인 신청(서울교통공사)\n - www.seoulmetro.co.kr > 시민참여 > 기관사 체험\n - 신청기간 중에 메뉴 활성화",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "서울교통공사 승무지원처/02-6311-9678",
+  "ageMin": 13,
+  "ageMax": 120
+}

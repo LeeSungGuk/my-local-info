@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-314000000114",
+  "sourceId": "314000000114",
+  "title": "장애인 주거환경 개선 지원",
+  "field": "주거·자립",
+  "provider": "서울특별시 양천구",
+  "providerType": "자치구",
+  "district": "양천구",
+  "userType": "개인",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 중증 장애인 가정에 일상생활의 불편을 해고할 무장애 편의시설 설치\n\n- 화장실 개조, 문턱제거, 경사로, 핸드레일, 에너지 효율 시공 등",
+  "summary": "서울특별시 양천구에서 제공하는 주거·자립 혜택입니다. 저소득 장애인의 장애유형, 행동패턴을 고려한 맞춤형 주거환경 개선을 통해 주거편의 향상에 기여하고자 함",
+  "supportType": "기타",
+  "supportSummary": "- 대    상 : 관내 저소득 장애인가구\n- 사업내용 \n   · 편의시설 설치(핸드레일, 비디오폰, 리모컨 도어락 등), 주거환경 개선(방충망, 도배, 장판 등)\n   · 중증장애인 전세주택 지원사업",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000114",
+  "onlineUrl": "",
+  "inquiry": [
+    "자립지원과/02-2620-4688",
+    "주택과/02-2620-3529"
+  ],
+  "updatedAt": "2026-02-03",
+  "registeredAt": "2021-09-23",
+  "viewCount": 954,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "저소득 장애인의 장애유형, 행동패턴을 고려한 맞춤형 주거환경 개선을 통해 주거편의 향상에 기여하고자 함",
+  "target": "○ 중증 장애인 가정에 일상생활의 불편을 해고할 무장애 편의시설 설치\n\n- 화장실 개조, 문턱제거, 경사로, 핸드레일, 에너지 효율 시공 등",
+  "selectionCriteria": "",
+  "supportContent": "- 대    상 : 관내 저소득 장애인가구\n- 사업내용 \n   · 편의시설 설치(핸드레일, 비디오폰, 리모컨 도어락 등), 주거환경 개선(방충망, 도배, 장판 등)\n   · 중증장애인 전세주택 지원사업",
+  "applicationMethod": "○ 방문 신청\n - 방문 및 전화신청 등",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "장애인복지법(제27조, 제2항)"
+  ],
+  "ordinance": "서울특별시 양천구 장애인 자립생활 지원 조례",
+  "inquiryText": "자립지원과/02-2620-4688||주택과/02-2620-3529",
+  "ageMin": 0,
+  "ageMax": 120
+}

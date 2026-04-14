@@ -1,0 +1,47 @@
+{
+  "id": "gov-benefit-305000000295",
+  "sourceId": "305000000295",
+  "title": "동대문구 성병진단검사",
+  "field": "보건·의료",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "검사를 희망하는 동대문구민",
+  "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. HIV/AIDS 조기발견",
+  "supportType": "서비스(의료)",
+  "supportSummary": "ㅇ검진 대상 : 검사를 희망하는 동대문구민\n- 신분증 필수 지참 (주민등록증, 운전면허증, 외국인일 경우 외국인등록증-여권불가)\n- 정기검진대상자(유흥접객원 등 의무검진 대상자) 포함\n\nㅇ진료 및 검사항목\n남성 : 매독, 임질, HIV / 여성 : 매독, HIV\n\nㅇ…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000295",
+  "onlineUrl": "",
+  "inquiry": [
+    "동대문구보건소 감염병진료실/02-2127-5262",
+    "동대문구보건소 감염병진료실/02-2127-5453",
+    "동대문구보건소 감염병진료실/02-2127-5272"
+  ],
+  "updatedAt": "2026-02-09",
+  "registeredAt": "2025-12-10",
+  "viewCount": 111,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "HIV/AIDS 조기발견",
+  "target": "검사를 희망하는 동대문구민",
+  "selectionCriteria": "",
+  "supportContent": "ㅇ검진 대상 : 검사를 희망하는 동대문구민\n- 신분증 필수 지참 (주민등록증, 운전면허증, 외국인일 경우 외국인등록증-여권불가)\n- 정기검진대상자(유흥접객원 등 의무검진 대상자) 포함\n\nㅇ진료 및 검사항목\n남성 : 매독, 임질, HIV / 여성 : 매독, HIV\n\nㅇ검사수수료 : 무료",
+  "applicationMethod": "○ 방문 신청\n - 보건소 : 보건소 방문신청",
+  "documents": "신분증(주민등록증, 운전면허증, 외국인은 외국인등록증)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "감염병의 예방 및 관리에 관한 법률(제4조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "동대문구보건소 감염병진료실/02-2127-5262||동대문구보건소 감염병진료실/02-2127-5453||동대문구보건소 감염병진료실/02-2127-5272",
+  "ageMin": 0,
+  "ageMax": 120
+}

@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-311000000112",
+  "sourceId": "311000000112",
+  "title": "아동보호조치를 위한 심리·건강 검진 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 은평구",
+  "providerType": "자치구",
+  "district": "은평구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 보호대상아동",
+  "summary": "서울특별시 은평구에서 제공하는 보건·의료 혜택입니다. 보호대상아동을 위한 심리 및 건강검진 지원",
+  "supportType": "서비스(의료)",
+  "supportSummary": "○ 보호대상아동 보호조치를 위한 심리·건강검진",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000112",
+  "onlineUrl": "",
+  "inquiry": [
+    "가족정책과/02-351-6207"
+  ],
+  "updatedAt": "2026-01-16",
+  "registeredAt": "2021-09-23",
+  "viewCount": 753,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "보호대상아동을 위한 심리 및 건강검진 지원",
+  "target": "○ 보호대상아동",
+  "selectionCriteria": "",
+  "supportContent": "○ 보호대상아동 보호조치를 위한 심리·건강검진",
+  "applicationMethod": "○ 개인 신청절차 없음\n - 별도 신청 불요",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 은평구 건강증진 조례",
+  "inquiryText": "가족정책과/02-351-6207",
+  "ageMin": 6,
+  "ageMax": 12
+}

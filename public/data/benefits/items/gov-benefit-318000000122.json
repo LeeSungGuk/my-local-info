@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-318000000122",
+  "sourceId": "318000000122",
+  "title": "중증장애인 명절위문품(금) 지원",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 영등포구",
+  "providerType": "자치구",
+  "district": "영등포구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 중증장애인(심한장애인)중 기초생계, 의료수급자 제외(중복수령금지)",
+  "summary": "서울특별시 영등포구에서 제공하는 보호·돌봄 혜택입니다. 중증장애인에게 명절 위문품 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 영등포구 관내 중증장애인들에게 명절(설, 추석)을 맞아 위문품(금) 2만원 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000122",
+  "onlineUrl": "",
+  "inquiry": [
+    "장애인복지과/02-2670-4072"
+  ],
+  "updatedAt": "2026-02-05",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1786,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "중증장애인에게 명절 위문품 지원",
+  "target": "○ 중증장애인(심한장애인)중 기초생계, 의료수급자 제외(중복수령금지)",
+  "selectionCriteria": "",
+  "supportContent": "○ 영등포구 관내 중증장애인들에게 명절(설, 추석)을 맞아 위문품(금) 2만원 지원",
+  "applicationMethod": "○ 개인 신청절차 없음\n - 행복e음 시스템을 통한 직권지급",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "사회복지사업법"
+  ],
+  "ordinance": "서울특별시 영등포구 저소득주민의 생활안정 지원에 관한 조례",
+  "inquiryText": "장애인복지과/02-2670-4072",
+  "ageMin": 19,
+  "ageMax": 64
+}

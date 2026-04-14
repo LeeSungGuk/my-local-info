@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-311000000104",
+  "sourceId": "311000000104",
+  "title": "장애인 활동지원(시비추가사업)",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 은평구",
+  "providerType": "자치구",
+  "district": "은평구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 장애인활동지원 대상자 중 종합조사 기능제한(X1) 점수 300점(아동260점) 이상인 와상 또는 사지마비 중증장애인, 발달장애인독거가구(X1 360점 이상), 시설퇴소자",
+  "summary": "서울특별시 은평구에서 제공하는 보호·돌봄 혜택입니다. 국고 활동지원이 부족한 장애인에게 서비스 추가 지원",
+  "supportType": "이용권",
+  "supportSummary": "○ 장애인활동지원 국고보조사업으로 일상생활이 어려워 급여가 더 필요한 장애인에게 월 100시간·120시간·200시간 추가 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000104",
+  "onlineUrl": "",
+  "inquiry": [
+    "장애인복지과/02-351-7312"
+  ],
+  "updatedAt": "2026-01-16",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1309,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "국고 활동지원이 부족한 장애인에게 서비스 추가 지원",
+  "target": "○ 장애인활동지원 대상자 중 종합조사 기능제한(X1) 점수 300점(아동260점) 이상인 와상 또는 사지마비 중증장애인, 발달장애인독거가구(X1 360점 이상), 시설퇴소자",
+  "selectionCriteria": "",
+  "supportContent": "○ 장애인활동지원 국고보조사업으로 일상생활이 어려워 급여가 더 필요한 장애인에게 월 100시간·120시간·200시간 추가 지원",
+  "applicationMethod": "○ 방문 신청\n - 주민센터 : 주소지 동주민센터 방문 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "장애인활동 지원에 관한 법률(제3조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "장애인복지과/02-351-7312",
+  "ageMin": 6,
+  "ageMax": 64
+}

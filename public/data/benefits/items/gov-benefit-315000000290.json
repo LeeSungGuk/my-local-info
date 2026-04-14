@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-315000000290",
+  "sourceId": "315000000290",
+  "title": "한의약 치매 건강증진서비스",
+  "field": "보건·의료",
+  "provider": "서울특별시 강서구",
+  "providerType": "자치구",
+  "district": "강서구",
+  "userType": "개인",
+  "deadlineText": "매년 5 ~ 6월(변경 가능)",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "만 60세 이상 주민등록상 강서구민",
+  "summary": "서울특별시 강서구에서 제공하는 보건·의료 혜택입니다. 치매 위험군인 60세 이상 경도인지장애 구민을 대상으로 체계적이고 효과적인 한의약 건강증진 프로그램을 제공하여 구민 건강증진과 삶의 질 향상에 기여",
+  "supportType": "서비스(의료)",
+  "supportSummary": "선정검사를 통한 치매 위험군 선별\n사전 사후 인지기능평가 실시\n지정한의원을 통한 총명 침 및 한약 처방(한약은 혈액검사 결과에 따라 처방 가능 여부 확인)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청",
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000290",
+  "onlineUrl": "",
+  "inquiry": [
+    "의약과/0226005953"
+  ],
+  "updatedAt": "2026-02-02",
+  "registeredAt": "2025-12-09",
+  "viewCount": 53,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "치매 위험군인 60세 이상 경도인지장애 구민을 대상으로 체계적이고 효과적인 한의약 건강증진 프로그램을 제공하여 구민 건강증진과 삶의 질 향상에 기여",
+  "target": "만 60세 이상 주민등록상 강서구민",
+  "selectionCriteria": "",
+  "supportContent": "선정검사를 통한 치매 위험군 선별\n사전 사후 인지기능평가 실시\n지정한의원을 통한 총명 침 및 한약 처방(한약은 혈액검사 결과에 따라 처방 가능 여부 확인)",
+  "applicationMethod": "지정 한의원 문의 및 방문 신청 (지정한의원 정보는 보건소 문의 바람, 매년 변경 가능)",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "한의약 치매 건강증진사업 참여 및 개인정보 제공 동의서",
+  "legalBasis": [
+    "치매관리법(제3조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "의약과/0226005953",
+  "ageMin": 60,
+  "ageMax": 120
+}

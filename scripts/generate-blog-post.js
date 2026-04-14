@@ -3,22 +3,102 @@ const fs = require("fs");
 const path = require("path");
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-
+const EVENTS_ITEMS_DIR = path.join(__dirname, "..", "public", "data", "events", "items");
+const BENEFITS_ITEMS_DIR = path.join(__dirname, "..", "public", "data", "benefits", "items");
 const LOCAL_INFO_PATH = path.join(__dirname, "..", "public", "data", "local-info.json");
 const POSTS_DIR = path.join(__dirname, "..", "src", "content", "posts");
 
 // ─── 1단계: 최신 데이터 확인 ───
-function getLatestItem() {
+function toDateOnly(value) {
+  if (!value) {
+    return "";
+  }
+
+  const normalized = String(value).trim();
+
+  if (/^\d{14}$/.test(normalized)) {
+    return `${normalized.slice(0, 4)}-${normalized.slice(4, 6)}-${normalized.slice(6, 8)}`;
+  }
+
+  if (/^\d{8}$/.test(normalized)) {
+    return `${normalized.slice(0, 4)}-${normalized.slice(4, 6)}-${normalized.slice(6, 8)}`;
+  }
+
+  return normalized.slice(0, 10);
+}
+
+function readJsonFile(filePath) {
+  try {
+    return JSON.parse(fs.readFileSync(filePath, "utf8"));
+  } catch {
+    return null;
+  }
+}
+
+function getLatestItemFromItemsDir(itemsDir, sortFields) {
+  if (!fs.existsSync(itemsDir)) {
+    return null;
+  }
+
+  const files = fs.readdirSync(itemsDir).filter((fileName) => fileName.endsWith(".json"));
+  let latestItem = null;
+  let latestSortKey = "";
+
+  for (const fileName of files) {
+    const item = readJsonFile(path.join(itemsDir, fileName));
+
+    if (!item) {
+      continue;
+    }
+
+    const sortKey = sortFields
+      .map((field) => toDateOnly(item[field]))
+      .find((value) => value) || "";
+
+    if (!sortKey) {
+      continue;
+    }
+
+    if (sortKey > latestSortKey) {
+      latestSortKey = sortKey;
+      latestItem = item;
+    }
+  }
+
+  return latestItem;
+}
+
+function getLatestItemFromLocalInfo() {
   const raw = fs.readFileSync(LOCAL_INFO_PATH, "utf8");
   const data = JSON.parse(raw);
+  const allItems = [...(data.events || []), ...(data.benefits || [])];
 
-  // events와 benefits 중 마지막 항목 찾기
-  const allItems = [...data.events, ...data.benefits];
   if (allItems.length === 0) {
     return null;
   }
 
   return allItems[allItems.length - 1];
+}
+
+function getLatestItem() {
+  const latestBenefit = getLatestItemFromItemsDir(BENEFITS_ITEMS_DIR, ["updatedAt", "collectedAt", "registeredAt"]);
+  const latestEvent = getLatestItemFromItemsDir(EVENTS_ITEMS_DIR, ["registeredAt", "collectedAt", "startDate"]);
+
+  const candidates = [latestBenefit, latestEvent].filter(Boolean);
+
+  if (candidates.length > 0) {
+    return candidates.sort((a, b) => {
+      const aSortKey = toDateOnly(a.updatedAt || a.registeredAt || a.collectedAt || a.startDate);
+      const bSortKey = toDateOnly(b.updatedAt || b.registeredAt || b.collectedAt || b.startDate);
+      return bSortKey.localeCompare(aSortKey);
+    })[0];
+  }
+
+  if (fs.existsSync(LOCAL_INFO_PATH)) {
+    return getLatestItemFromLocalInfo();
+  }
+
+  return null;
 }
 
 function isAlreadyWritten(itemName) {

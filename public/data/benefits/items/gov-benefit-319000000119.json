@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-319000000119",
+  "sourceId": "319000000119",
+  "title": "장애인 활동지원(시비추가)",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 동작구",
+  "providerType": "자치구",
+  "district": "동작구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 장애인활동지원 대상자 중 중증 와상∙사지마비 장애인(월 100~350시간 차등지원)",
+  "summary": "서울특별시 동작구에서 제공하는 보호·돌봄 혜택입니다. 장애인활동지원(국비보조사업) 대사자 중 서비스 시간이 부족한 장애인에게 추가 시간을 지원함으로써 장애인 가족의 돌봄부담 감소와 장애인 자립생활 및 사회참여 증진",
+  "supportType": "이용권",
+  "supportSummary": "○ 활동지원서비스가 추가로 필요한 중증장애인(와상, 사지마지, 발달장애인 독거가구 등)에게 활동지원서비스 추가 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000119",
+  "onlineUrl": "",
+  "inquiry": [
+    "장애인복지과/02-820-9124"
+  ],
+  "updatedAt": "2026-02-04",
+  "registeredAt": "2021-09-23",
+  "viewCount": 782,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "장애인활동지원(국비보조사업) 대사자 중 서비스 시간이 부족한 장애인에게 추가 시간을 지원함으로써 장애인 가족의 돌봄부담 감소와 장애인 자립생활 및 사회참여 증진",
+  "target": "○ 장애인활동지원 대상자 중 중증 와상∙사지마비 장애인(월 100~350시간 차등지원)",
+  "selectionCriteria": "",
+  "supportContent": "○ 활동지원서비스가 추가로 필요한 중증장애인(와상, 사지마지, 발달장애인 독거가구 등)에게 활동지원서비스 추가 지원",
+  "applicationMethod": "○ 방문 신청 : 장애인의 주민등록상 주소지 읍면동",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "장애인활동 지원에 관한 법률"
+  ],
+  "ordinance": "",
+  "inquiryText": "장애인복지과/02-820-9124",
+  "ageMin": 0,
+  "ageMax": 120
+}

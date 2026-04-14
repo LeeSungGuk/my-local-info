@@ -1,0 +1,47 @@
+{
+  "id": "gov-benefit-307000000189",
+  "sourceId": "307000000189",
+  "title": "디지털저장매체 파기신청",
+  "field": "행정·안전",
+  "provider": "서울특별시 성북구",
+  "providerType": "자치구",
+  "district": "성북구",
+  "userType": "개인||가구||소상공인||법인/시설/단체",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "구내 주민",
+  "summary": "서울특별시 성북구에서 제공하는 행정·안전 혜택입니다. 디지털 저장매체를 물리적으로 완전 파기하여 개인정보 사고를 예방할 수 있는 서비스를 무료로 제공함.\n저장매체 파기 후 발생한 잔재물은 재활용센터에 수송하여 자원순환 도모.",
+  "supportType": "시설이용",
+  "supportSummary": "하드디스크, SSD, USB 등 저장매체 무료 파기서비스 제공\n노트북, 휴대폰 등은 파기불가",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "정부24온라인신청",
+    "기타 온라인신청",
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000189",
+  "onlineUrl": "https://www.sb.go.kr/main/mainPage.do",
+  "inquiry": [
+    "홍보전산과/02-2241-4554"
+  ],
+  "updatedAt": "2026-03-18",
+  "registeredAt": "2025-07-10",
+  "viewCount": 508,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "디지털 저장매체를 물리적으로 완전 파기하여 개인정보 사고를 예방할 수 있는 서비스를 무료로 제공함.\n저장매체 파기 후 발생한 잔재물은 재활용센터에 수송하여 자원순환 도모.",
+  "target": "구내 주민",
+  "selectionCriteria": "",
+  "supportContent": "하드디스크, SSD, USB 등 저장매체 무료 파기서비스 제공\n노트북, 휴대폰 등은 파기불가",
+  "applicationMethod": "성북구청 홈페이지 배너>디지털 저장매체 파기 서비스에서 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "개인정보 보호법(제4조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "홍보전산과/02-2241-4554",
+  "ageMin": 0,
+  "ageMax": 120
+}

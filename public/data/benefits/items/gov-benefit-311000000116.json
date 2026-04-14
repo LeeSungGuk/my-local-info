@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-311000000116",
+  "sourceId": "311000000116",
+  "title": "보호대상아동 축하·위문금 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 은평구",
+  "providerType": "자치구",
+  "district": "은평구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 보호대상아동(시설보호아동, 가정위탁아동, 가정위탁아동고교졸업자)",
+  "summary": "서울특별시 은평구에서 제공하는 생활안정 혜택입니다. 보호대상아동을 위해 연말위문금 등 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 보호대상아동 연말위문금 및 가정위탁아동에게 졸업축하금 지급\n - 대상 : 연1회 보호대상아동(시설보호아동, 가정위탁아동)\n - 금액 : 시설보호아동(15천원/인), 가정위탁아동(20천원/인), 가정위탁아동졸업축하금(30천원/인)\n - 별도신청없이 지급기준일(당해연…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000116",
+  "onlineUrl": "",
+  "inquiry": [
+    "가족정책과/02-351-6205"
+  ],
+  "updatedAt": "2026-01-16",
+  "registeredAt": "2021-09-23",
+  "viewCount": 725,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "보호대상아동을 위해 연말위문금 등 지원",
+  "target": "○ 보호대상아동(시설보호아동, 가정위탁아동, 가정위탁아동고교졸업자)",
+  "selectionCriteria": "",
+  "supportContent": "○ 보호대상아동 연말위문금 및 가정위탁아동에게 졸업축하금 지급\n - 대상 : 연1회 보호대상아동(시설보호아동, 가정위탁아동)\n - 금액 : 시설보호아동(15천원/인), 가정위탁아동(20천원/인), 가정위탁아동졸업축하금(30천원/인)\n - 별도신청없이 지급기준일(당해연도 12월 중) 지급 처리",
+  "applicationMethod": "○ 개인 신청절차 없음 \n - 별도 신청 불요",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "아동복지법(제59조)"
+  ],
+  "ordinance": "서울특별시 은평구 저소득주민의 생활안정 지원에 관한 조례(제2조)",
+  "inquiryText": "가족정책과/02-351-6205",
+  "ageMin": 0,
+  "ageMax": 17
+}

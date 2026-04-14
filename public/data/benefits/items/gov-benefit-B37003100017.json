@@ -1,0 +1,47 @@
+{
+  "id": "gov-benefit-B37003100017",
+  "sourceId": "B37003100017",
+  "title": "국민체력100",
+  "field": "보건·의료",
+  "provider": "서울올림픽기념국민체육진흥공단",
+  "providerType": "서울 공공기관",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 만4~6세, 11세이상 전국민\n - 유소년, 청소년, 성인, 노인(단, 측정종목 모두 측정이 가능하여야 함)",
+  "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 보건·의료 혜택입니다. 국민의 체력 및 건강증진에 목적을 두고 과학적 방법에 의해\n측정ㆍ평가를 하여 운동 상담 및 운동 처방을 해주는 대국민 무상 스포츠 복지 서비스입니다.",
+  "supportType": "기타",
+  "supportSummary": "○ 국민의 과학적 체력관리 지원과 생활체육참여율 증진\n\n○ 전국 체력인증센터의 체력측정 예약 - 체력측정, 운동처방, 체력인증, 체력증진교실, 온라인 운동동영상서비스 제공",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청",
+    "방문신청",
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100017",
+  "onlineUrl": "https://nfa.kspo.or.kr",
+  "inquiry": [
+    "KSPO체력인증센터/1644-7110"
+  ],
+  "updatedAt": "2026-02-09",
+  "registeredAt": "2022-07-15",
+  "viewCount": 21438,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "국민의 체력 및 건강증진에 목적을 두고 과학적 방법에 의해\n측정ㆍ평가를 하여 운동 상담 및 운동 처방을 해주는 대국민 무상 스포츠 복지 서비스입니다.",
+  "target": "○ 만4~6세, 11세이상 전국민\n - 유소년, 청소년, 성인, 노인(단, 측정종목 모두 측정이 가능하여야 함)",
+  "selectionCriteria": "",
+  "supportContent": "○ 국민의 과학적 체력관리 지원과 생활체육참여율 증진\n\n○ 전국 체력인증센터의 체력측정 예약 - 체력측정, 운동처방, 체력인증, 체력증진교실, 온라인 운동동영상서비스 제공",
+  "applicationMethod": "○ 온라인 신청 \n - 국민체력100 : nfa.kspo.or.kr\n\n○ 방문 신청 \n - 전국 체력인증센터\n\n○ 기타\n - 전화",
+  "documents": "본인확인용 신분증 지참\n(주민등록증, 운전면허증, 여권, 청소년증, 국가공무원증, 군무원증, 학생증 등 얼굴과 이름, 생년월일을 확인 할 수 있는\n신분증이어야 합니다. 단, 초등학생 이하의 경우 주민등록 등본이나 의료보험증, 학교장이 발행한 학생증으로 신분확인이\n가능합니다.)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "국민체육진흥법(제16조의2)"
+  ],
+  "ordinance": "",
+  "inquiryText": "KSPO체력인증센터/1644-7110",
+  "ageMin": 4,
+  "ageMax": 120
+}

@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-309000000282",
+  "sourceId": "309000000282",
+  "title": "출생축하용품 지원",
+  "field": "임신·출산",
+  "provider": "서울특별시 도봉구",
+  "providerType": "자치구",
+  "district": "도봉구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "2024년 1월 1일 이후 출생아",
+  "summary": "서울특별시 도봉구에서 제공하는 임신·출산 혜택입니다. 출산가구의 경제적 부담의 경감 및 출산 양육 친화적인 사회분위기 조성",
+  "supportType": "현물",
+  "supportSummary": "출생축하용품 지급: 기저귀, 방수패드, 아기양말, 턱받이",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/309000000282",
+  "onlineUrl": "",
+  "inquiry": [
+    "가족정책과/02-2091-3143"
+  ],
+  "updatedAt": "2026-04-08",
+  "registeredAt": "2024-02-07",
+  "viewCount": 393,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "출산가구의 경제적 부담의 경감 및 출산 양육 친화적인 사회분위기 조성",
+  "target": "2024년 1월 1일 이후 출생아",
+  "selectionCriteria": "",
+  "supportContent": "출생축하용품 지급: 기저귀, 방수패드, 아기양말, 턱받이",
+  "applicationMethod": "정부24 온라인신청 또는 주민센터 방문신청",
+  "documents": "○ 신청인 제출서류\n  - 출생증명서\n\n○ 공무원 확인가능 서류(신청인 미제출 서류)\n  - 주민등록등본",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 도봉구 출산 및 양육 지원에 관한 조례",
+  "inquiryText": "가족정책과/02-2091-3143",
+  "ageMin": 18,
+  "ageMax": 49
+}

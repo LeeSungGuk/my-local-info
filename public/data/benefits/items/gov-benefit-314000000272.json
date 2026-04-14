@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-314000000272",
+  "sourceId": "314000000272",
+  "title": "양천형 밤샘 긴급돌봄 어린이집 운영",
+  "field": "생활안정",
+  "provider": "서울특별시 양천구",
+  "providerType": "자치구",
+  "district": "양천구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "양천구 거주 12개월 ~ 6세 미만 영유아",
+  "summary": "서울특별시 양천구에서 제공하는 생활안정 혜택입니다. 야간에도 긴급하게  보육수요 발생시 공백 없는 보육서비스 제공",
+  "supportType": "서비스(돌봄)",
+  "supportSummary": "야간에도 긴급하게  보육수요 발생시 공백 없는 보육서비스 제공\n\n(영유아)\n- 이용대상 :  양천구 거주 12개월 ~ 6세 미만 영유아\n- 추진기관 : 관내 국공립어린이집 23개소\n- 운영시간 : 19:00 ~ 익일 07:30 (아동당 최대 월 80시간)\n- 보 육…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청",
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000272",
+  "onlineUrl": "https://www.yangcheon.go.kr/site/yangcheon/05/10503021201002023042509.jsp",
+  "inquiry": [
+    "보육정책과/0226204839"
+  ],
+  "updatedAt": "2026-03-18",
+  "registeredAt": "2025-11-11",
+  "viewCount": 203,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "야간에도 긴급하게  보육수요 발생시 공백 없는 보육서비스 제공",
+  "target": "양천구 거주 12개월 ~ 6세 미만 영유아",
+  "selectionCriteria": "",
+  "supportContent": "야간에도 긴급하게  보육수요 발생시 공백 없는 보육서비스 제공\n\n(영유아)\n- 이용대상 :  양천구 거주 12개월 ~ 6세 미만 영유아\n- 추진기관 : 관내 국공립어린이집 23개소\n- 운영시간 : 19:00 ~ 익일 07:30 (아동당 최대 월 80시간)\n- 보 육 료 : 시간당 1천원 (가정부담)\n\n(어린이집)\n- 보육교직원 야간근무 수당 지원, 운영비 지원",
+  "applicationMethod": "온라인: 양천구청 홈페이지\n방문: 어린이집\n유선전화 : 양천구청 당직실(2620-3000), 응답소(120)",
+  "documents": "양천형밤샘긴급돌봄 신청서 및 서약서",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "영유아보육법(제36조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "보육정책과/0226204839",
+  "ageMin": 1,
+  "ageMax": 6
+}

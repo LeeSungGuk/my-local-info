@@ -1,0 +1,47 @@
+{
+  "id": "gov-benefit-313000000161",
+  "sourceId": "313000000161",
+  "title": "입양축하금 지원",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 마포구",
+  "providerType": "자치구",
+  "district": "마포구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "◌ 국내입양에 관한 특별법에 따라 아동을 입양한 양부모\n - 소득 및 재산기준 없음",
+  "summary": "서울특별시 마포구에서 제공하는 보호·돌봄 혜택입니다. 입양아동의 양부모에게 입양축하금을 지급하여 입양을 축하함과 동시에 국내 입양 활성화에 이바지하고자 함",
+  "supportType": "현금",
+  "supportSummary": "◌ 입양축하금 지급\n - 입양아동 1명당 200만원 지원\n - 금액은 장애 여부와 상관없이 동일함.",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "정부24온라인신청",
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000161",
+  "onlineUrl": "",
+  "inquiry": [
+    "마포구청 가족정책과/02-3153-8618"
+  ],
+  "updatedAt": "2026-02-02",
+  "registeredAt": "2025-07-18",
+  "viewCount": 106,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "입양아동의 양부모에게 입양축하금을 지급하여 입양을 축하함과 동시에 국내 입양 활성화에 이바지하고자 함",
+  "target": "◌ 국내입양에 관한 특별법에 따라 아동을 입양한 양부모\n - 소득 및 재산기준 없음",
+  "selectionCriteria": "",
+  "supportContent": "◌ 입양축하금 지급\n - 입양아동 1명당 200만원 지원\n - 금액은 장애 여부와 상관없이 동일함.",
+  "applicationMethod": "◌ 신청방법: 구비서류를 지참하여 마포구청 11층 가족정책과 아동보호팀로 방문 신청(온라인 신청 가능)\n◌ 지급방법: 신청자의 계좌로 직접 입금\n◌온라인 신청후 담당자에게 유선 연락 필요함.",
+  "documents": "- 입양아동 양육보조금 등 신청서\n- 가족관계증명서(상세)\n- 입양 확정 증명원 또는 입양사실 확인서\n- 신분증\n- 통장 사본",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "국내입양에 관한 특별법 시행령",
+    "국내입양에 관한 특별법 시행령"
+  ],
+  "ordinance": "서울특별시 마포구 입양축하금 지급에 관한 조례",
+  "inquiryText": "마포구청 가족정책과/02-3153-8618",
+  "ageMin": 18,
+  "ageMax": 120
+}

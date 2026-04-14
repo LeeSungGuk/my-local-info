@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-313000000102",
+  "sourceId": "313000000102",
+  "title": "임산부 건강관리 서비스",
+  "field": "임신·출산",
+  "provider": "서울특별시 마포구",
+  "providerType": "자치구",
+  "district": "마포구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 임산부",
+  "summary": "서울특별시 마포구에서 제공하는 임신·출산 혜택입니다. 임산부의 산전 산후 관리를 체계적으로 관하여 건강한 분만을 유도하고 태아와 모성의 건강증진을 도모",
+  "supportType": "현물",
+  "supportSummary": "○ 임신확인~12주까지 엽산제 최대 3개월분 임신주기별 차등 지급, 임신16주~ 분만전까지 철분제 최대 6개월분 임신주기별 차등 지급\n○ 임신초기 검사, 2차 기형아 검사, 임신성 당뇨 스크리닝 검사\n○ 마포구민 유축기 대여(2개월, 수급상황에 따라 1개월 연장가능)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000102",
+  "onlineUrl": "",
+  "inquiry": [
+    "건강동행과/02-3153-9090"
+  ],
+  "updatedAt": "2026-01-27",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1005,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "임산부의 산전 산후 관리를 체계적으로 관하여 건강한 분만을 유도하고 태아와 모성의 건강증진을 도모",
+  "target": "○ 임산부",
+  "selectionCriteria": "",
+  "supportContent": "○ 임신확인~12주까지 엽산제 최대 3개월분 임신주기별 차등 지급, 임신16주~ 분만전까지 철분제 최대 6개월분 임신주기별 차등 지급\n○ 임신초기 검사, 2차 기형아 검사, 임신성 당뇨 스크리닝 검사\n○ 마포구민 유축기 대여(2개월, 수급상황에 따라 1개월 연장가능)",
+  "applicationMethod": "○ 방문 신청\n - 주민센터 : 거주지 동 주민센터 방문신청\n - 보건소 : 거주지 관할 보건소 방문\n○  정부 24온라인신청\n - https://plus.gov.kr",
+  "documents": "신분증 및 임신증빙서류",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "모자보건법"
+  ],
+  "ordinance": "",
+  "inquiryText": "건강동행과/02-3153-9090",
+  "ageMin": 18,
+  "ageMax": 44
+}

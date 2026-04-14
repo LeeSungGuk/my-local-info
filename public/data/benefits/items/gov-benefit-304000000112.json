@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-304000000112",
+  "sourceId": "304000000112",
+  "title": "장수축하금 지급",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "본인 생일달 15일까지 신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "지급기준일 현재 광진구에 1년이상 주민등록을 두고 계속하여 거주하고있는 만90세이상 국민기초생활수급자(생계,의료)\n - 신청자격 : 본인, 배우자, 부양의무자 또는 위임받은 자",
+  "summary": "서울특별시 광진구에서 제공하는 보호·돌봄 혜택입니다. 90세 이상 수급자(생계,의료) 어르신에게 장수축하금 지급",
+  "supportType": "현금",
+  "supportSummary": "연 30만원 지급\n - 매년 생일이 속한 월말에 지급\n - 90세부터 사망·전출·주민등록말소 등 지급중지 사유가 발생하기 전까지 지급",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000112",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 어르신복지과/02-450-7437"
+  ],
+  "updatedAt": "2026-02-02",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1350,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "90세 이상 수급자(생계,의료) 어르신에게 장수축하금 지급",
+  "target": "지급기준일 현재 광진구에 1년이상 주민등록을 두고 계속하여 거주하고있는 만90세이상 국민기초생활수급자(생계,의료)\n - 신청자격 : 본인, 배우자, 부양의무자 또는 위임받은 자",
+  "selectionCriteria": "",
+  "supportContent": "연 30만원 지급\n - 매년 생일이 속한 월말에 지급\n - 90세부터 사망·전출·주민등록말소 등 지급중지 사유가 발생하기 전까지 지급",
+  "applicationMethod": "관할 동주민센터 신청",
+  "documents": "장수축하금 신청서, 통장사본",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 광진구 장수축하금 등 지급에 관한 조례",
+  "inquiryText": "광진구 어르신복지과/02-450-7437",
+  "ageMin": 90,
+  "ageMax": 120
+}

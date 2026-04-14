@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-303000000335",
+  "sourceId": "303000000335",
+  "title": "무인민원발급기 수수료 일부 면제",
+  "field": "행정·안전",
+  "provider": "서울특별시 성동구",
+  "providerType": "자치구",
+  "district": "성동구",
+  "userType": "개인",
+  "deadlineText": "무인민원발급기 운영시간",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "성동구 수수료 징수 조례 제6조에 따른 감면 대상자\n- 기초생활수급자\n- 국가유공자\n- 장애인 등",
+  "summary": "서울특별시 성동구에서 제공하는 행정·안전 혜택입니다. 무인민원발급창구 수수료 일부 면제  \n-성동구 수수료 징수 조례 및 관련 법령에 따라 감면대상자가 무인민원발급창구 이용하여 민원문서 발급 시 수수료 일부 면제",
+  "supportType": "기타",
+  "supportSummary": "- 무인민원발급창구 이용 민원\n- 발급 민원증명 관련 법령 및 조례에 의한 수수료 면제",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000335",
+  "onlineUrl": "",
+  "inquiry": [
+    "민원여권과/02-2286-5229"
+  ],
+  "updatedAt": "2026-01-29",
+  "registeredAt": "2025-11-10",
+  "viewCount": 70,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "무인민원발급창구 수수료 일부 면제  \n-성동구 수수료 징수 조례 및 관련 법령에 따라 감면대상자가 무인민원발급창구 이용하여 민원문서 발급 시 수수료 일부 면제",
+  "target": "성동구 수수료 징수 조례 제6조에 따른 감면 대상자\n- 기초생활수급자\n- 국가유공자\n- 장애인 등",
+  "selectionCriteria": "",
+  "supportContent": "- 무인민원발급창구 이용 민원\n- 발급 민원증명 관련 법령 및 조례에 의한 수수료 면제",
+  "applicationMethod": "무인민원발급기를 통한 본인신청만 가능",
+  "documents": "서류 없이 무인민원발급기 이용시 감면대상자 모바일 신분증 및 지문 조회로 확인.",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "민원 처리에 관한 법률(제28조)"
+  ],
+  "ordinance": "서울특별시 성동구 수수료 징수 조례(제6조)",
+  "inquiryText": "민원여권과/02-2286-5229",
+  "ageMin": 0,
+  "ageMax": 120
+}

@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-309000000129",
+  "sourceId": "309000000129",
+  "title": "가정위탁아동 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 도봉구",
+  "providerType": "자치구",
+  "district": "도봉구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 가정위탁아동",
+  "summary": "서울특별시 도봉구에서 제공하는 생활안정 혜택입니다. 가정위탁아동들을 위해 명절 위문금 및 졸업, 입학축하금 등 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 설, 추석 명절 위문금 1인당 3만원/2월, 9월 (연 2회)\n(※ 생계·의료급여를 받는 가정위탁아동은 제외이나 1세대에 생계·의료급여 수혜중인 가정위탁아동이 2명 이상일 경우에는 아동청소년과에서 지급)\n\n○ 입학·졸업 축하금 1인당 10만원/2월 (연 1회)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/309000000129",
+  "onlineUrl": "",
+  "inquiry": [
+    "아동청소년과/02-2091-3867"
+  ],
+  "updatedAt": "2026-02-04",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1144,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "가정위탁아동들을 위해 명절 위문금 및 졸업, 입학축하금 등 지원",
+  "target": "○ 가정위탁아동",
+  "selectionCriteria": "",
+  "supportContent": "○ 설, 추석 명절 위문금 1인당 3만원/2월, 9월 (연 2회)\n(※ 생계·의료급여를 받는 가정위탁아동은 제외이나 1세대에 생계·의료급여 수혜중인 가정위탁아동이 2명 이상일 경우에는 아동청소년과에서 지급)\n\n○ 입학·졸업 축하금 1인당 10만원/2월 (연 1회)",
+  "applicationMethod": "○ 개인 신청절차 없음\n - 대상자 선별하여 지급",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 도봉구 저소득주민의 생활안정 지원에 관한 조례||서울특별시 도봉구 저소득주민의 생활안정 지원에 관한 조례(제3조)",
+  "inquiryText": "아동청소년과/02-2091-3867",
+  "ageMin": 0,
+  "ageMax": 17
+}

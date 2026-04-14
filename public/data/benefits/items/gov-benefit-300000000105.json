@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-300000000105",
+  "sourceId": "300000000105",
+  "title": "홀몸 어르신 건강음료 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 종로구",
+  "providerType": "자치구",
+  "district": "종로구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 65세 이상 법적(기초생활수급자, 차상위계층) 및 기타 사각지대 저소득 홀몸 어르신\n○ 65세 이상 장애인복지법상 등록장애인 중 생활이 어려운 홀몸 어르신\n○ 65세 이하 법정 저소득 홀몸 세대로 신체적·정신적으로 정상 생활이 어렵거나 조손 세대로 건강상 사고 발…",
+  "summary": "서울특별시 종로구에서 제공하는 생활안정 혜택입니다. 저소득 홀몸 어르신에게 우유 등 배달 지원",
+  "supportType": "현물",
+  "supportSummary": "○ 어르신 댁에 주 3회 이상 우유 또는 요구르트 배달",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000105",
+  "onlineUrl": "",
+  "inquiry": [
+    "어르신복지과/02-2148-2232"
+  ],
+  "updatedAt": "2026-01-27",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1121,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "저소득 홀몸 어르신에게 우유 등 배달 지원",
+  "target": "○ 65세 이상 법적(기초생활수급자, 차상위계층) 및 기타 사각지대 저소득 홀몸 어르신\n○ 65세 이상 장애인복지법상 등록장애인 중 생활이 어려운 홀몸 어르신\n○ 65세 이하 법정 저소득 홀몸 세대로 신체적·정신적으로 정상 생활이 어렵거나 조손 세대로 건강상 사고 발생 우려가 있는 경우 등",
+  "selectionCriteria": "",
+  "supportContent": "○ 어르신 댁에 주 3회 이상 우유 또는 요구르트 배달",
+  "applicationMethod": "○ 관할 동주민센터 방문 신청\n\n○ 전화 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 종로구 노인복지 증진 조례(제6조)",
+  "inquiryText": "어르신복지과/02-2148-2232",
+  "ageMin": 65,
+  "ageMax": 120
+}

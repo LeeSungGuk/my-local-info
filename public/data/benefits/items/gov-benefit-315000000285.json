@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-315000000285",
+  "sourceId": "315000000285",
+  "title": "(강서구)임산부 건강관리 서비스 지원",
+  "field": "임신·출산",
+  "provider": "서울특별시 강서구",
+  "providerType": "자치구",
+  "district": "강서구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 관내 주민등록을 둔 임산부",
+  "summary": "서울특별시 강서구에서 제공하는 임신·출산 혜택입니다. 임산부에게 엽산제, 철분제, 임신초기검사, 기형아검사, 당뇨검사, 유축기 대여 등 지원",
+  "supportType": "서비스(의료)",
+  "supportSummary": "○ 임산부에게 엽산제 및 철분제 지원\n○ 관내 주민등록을 둔 임산부에게 임신초기검사, 기형아검사, 당뇨검사 등 지원\n - 임신초기검사(혈액검사,소변검사) : 10주 이전\n - 임산부 기형아검사 : 16~18주 2차 쿼드검사\n - 임신성 당뇨검사 : 24주~28주\n○…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000285",
+  "onlineUrl": "",
+  "inquiry": [
+    "건강관리과/02-2600-5499",
+    "건강관리과/02-2600-5917"
+  ],
+  "updatedAt": "2026-04-13",
+  "registeredAt": "2025-12-08",
+  "viewCount": 94,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "임산부에게 엽산제, 철분제, 임신초기검사, 기형아검사, 당뇨검사, 유축기 대여 등 지원",
+  "target": "○ 관내 주민등록을 둔 임산부",
+  "selectionCriteria": "",
+  "supportContent": "○ 임산부에게 엽산제 및 철분제 지원\n○ 관내 주민등록을 둔 임산부에게 임신초기검사, 기형아검사, 당뇨검사 등 지원\n - 임신초기검사(혈액검사,소변검사) : 10주 이전\n - 임산부 기형아검사 : 16~18주 2차 쿼드검사\n - 임신성 당뇨검사 : 24주~28주\n○ 출산 후 유축기 대여(2개월)",
+  "applicationMethod": "○ 방문 신청\n - 강서구보건소 1층 모성실",
+  "documents": "신청인이 제출해야 하는 서류:임신확인증(산모수첩) 및 신분증",
+  "officialDocuments": "○ 외국인(다문화결혼이민자의 경우) 외국인등록증, 가족관계증명서 또는 등본 확인",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "모자보건법(제3조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "건강관리과/02-2600-5499||건강관리과/02-2600-5917",
+  "ageMin": 18,
+  "ageMax": 48
+}

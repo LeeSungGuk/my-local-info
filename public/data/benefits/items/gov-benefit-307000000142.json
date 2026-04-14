@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-307000000142",
+  "sourceId": "307000000142",
+  "title": "성북구 체성분 검사(인바디) 검사 및 상담",
+  "field": "생활안정",
+  "provider": "서울특별시 성북구",
+  "providerType": "자치구",
+  "district": "성북구",
+  "userType": "개인",
+  "deadlineText": "평일 9시~18시 전화로만 신청 가능",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "성북구민, 관내 직장인, 학생만 가능",
+  "summary": "서울특별시 성북구에서 제공하는 생활안정 혜택입니다. 체성분검사 및 상담 / 구민만 가능",
+  "supportType": "기타(상담)",
+  "supportSummary": "[성북구]\n\n- 체성분검사 및 상담 가능시간 : 9시 30분 부터 17시까지 (1인당 30분 간격, 동시에 여러명 불가)\n\n- 사전 전화 예약 필요 (12-13시 점심시간 불가)\n\n- 성북구민 및 성북구 내 직장인, 학생만 가능 (타구 불가)\n\n- 토요일 측정 불가",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000142",
+  "onlineUrl": "",
+  "inquiry": [
+    "성북구보건소 비만관리실/02-2241-5961"
+  ],
+  "updatedAt": "2026-02-04",
+  "registeredAt": "2022-07-27",
+  "viewCount": 2782,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "체성분검사 및 상담 / 구민만 가능",
+  "target": "성북구민, 관내 직장인, 학생만 가능",
+  "selectionCriteria": "",
+  "supportContent": "[성북구]\n\n- 체성분검사 및 상담 가능시간 : 9시 30분 부터 17시까지 (1인당 30분 간격, 동시에 여러명 불가)\n\n- 사전 전화 예약 필요 (12-13시 점심시간 불가)\n\n- 성북구민 및 성북구 내 직장인, 학생만 가능 (타구 불가)\n\n- 토요일 측정 불가",
+  "applicationMethod": "성북구보건소 비만관리실\n02-2241-5960~1",
+  "documents": "신분증, 사원증, 학생증 등 지참",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "국민건강증진법(제19조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "성북구보건소 비만관리실/02-2241-5961",
+  "ageMin": 0,
+  "ageMax": 120
+}

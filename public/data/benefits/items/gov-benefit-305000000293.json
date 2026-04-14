@@ -1,0 +1,47 @@
+{
+  "id": "gov-benefit-305000000293",
+  "sourceId": "305000000293",
+  "title": "구강보건서비스",
+  "field": "보건·의료",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "동대문구 거주 만 4세이상 주민",
+  "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 아동,청소년, 노인, 장애인 등에게 구강보건서비스 지원",
+  "supportType": "서비스(의료)",
+  "supportSummary": "ㅇ대상 : 동대문구 거주 만 4세이상 주민\nㅇ진료내용\n  - 치아홈메우기(관내 초등학생 건전한 영구치 큰 어금니)\n  - 급성 치주질환 치료\n  - 치아마모증 치료(보험재료)\n  - 초기 충치치료(보험재료)\n  - 단순발치)\n\n*진료제외 : 신경치료, 스케일링, 난발…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000293",
+  "onlineUrl": "",
+  "inquiry": [
+    "동대문구보건소 치과/02-2127-5422",
+    "동대문구보건소 치과/02-2127-5367",
+    "동대문구보건소 치과/02-2127-5362"
+  ],
+  "updatedAt": "2026-02-09",
+  "registeredAt": "2025-12-10",
+  "viewCount": 48,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "아동,청소년, 노인, 장애인 등에게 구강보건서비스 지원",
+  "target": "동대문구 거주 만 4세이상 주민",
+  "selectionCriteria": "",
+  "supportContent": "ㅇ대상 : 동대문구 거주 만 4세이상 주민\nㅇ진료내용\n  - 치아홈메우기(관내 초등학생 건전한 영구치 큰 어금니)\n  - 급성 치주질환 치료\n  - 치아마모증 치료(보험재료)\n  - 초기 충치치료(보험재료)\n  - 단순발치)\n\n*진료제외 : 신경치료, 스케일링, 난발치(사랑니, 뿌리만 남은 치아 등), 비보험치료(레진, 보철)\n\nㅇ진료비\n  - 만65세 이상 서울시민 및 국가유공자, 의료급여대상자, 장애인 1~3급 : 무료\n  - 만65세 미만 서울시민 : 진료비 500원~6,090원",
+  "applicationMethod": "○ 방문 신청\n - 보건소 : 거주지 관할 보건소 방문",
+  "documents": "신분증",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "구강보건법"
+  ],
+  "ordinance": "",
+  "inquiryText": "동대문구보건소 치과/02-2127-5422||동대문구보건소 치과/02-2127-5367||동대문구보건소 치과/02-2127-5362",
+  "ageMin": 4,
+  "ageMax": 120
+}

@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-313000000148",
+  "sourceId": "313000000148",
+  "title": "국가보훈대상자 장례서비스",
+  "field": "생활안정",
+  "provider": "서울특별시 마포구",
+  "providerType": "자치구",
+  "district": "마포구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 사망일 현재 마포구에 주민등록을 둔 국가보훈대상자",
+  "summary": "서울특별시 마포구에서 제공하는 생활안정 혜택입니다. 국가를 위해 희생·헌신하신 국가보훈대상자 사망 시 장례서비스를 지원함으로써, 생애 마지막까지 예우로 보답하고 보훈가족의 명예와 자긍심 고취에 기여",
+  "supportType": "현물",
+  "supportSummary": "○ 장례용품(250인분)\n○ 영정바구니 1개\n○ 마포구 근조기\n○ 장례도우미 1일",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000148",
+  "onlineUrl": "",
+  "inquiry": [
+    "복지정책과/02-3153-8807"
+  ],
+  "updatedAt": "2026-02-04",
+  "registeredAt": "2025-07-04",
+  "viewCount": 449,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "국가를 위해 희생·헌신하신 국가보훈대상자 사망 시 장례서비스를 지원함으로써, 생애 마지막까지 예우로 보답하고 보훈가족의 명예와 자긍심 고취에 기여",
+  "target": "○ 사망일 현재 마포구에 주민등록을 둔 국가보훈대상자",
+  "selectionCriteria": "",
+  "supportContent": "○ 장례용품(250인분)\n○ 영정바구니 1개\n○ 마포구 근조기\n○ 장례도우미 1일",
+  "applicationMethod": "○ 신청방법: 마포구청 유선신청\n - 평일 09~18시: 복지정책과(☎02-3153-8807)\n - 야간, 주말, 휴일: 당직실(☎02-3153-8100)\n\n○ 지원방법: 신청 당일 중 계약된 업체를 통해 장례용품 등 서비스 지원",
+  "documents": "○ 유선(전화)신청",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 마포구 국가보훈대상자 예우 및 지원에 관한 조례(제6조, 제1항)",
+  "inquiryText": "복지정책과/02-3153-8807",
+  "ageMin": 0,
+  "ageMax": 120
+}

@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-304000000192",
+  "sourceId": "304000000192",
+  "title": "무인민원발급기 수수료 면제",
+  "field": "생활안정",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "무인민원발급기 운영시간",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "광진구 내 설치된 무인민원발급기 사용자\n※ 설치장소 : 광진구청 홈페이지 확인",
+  "summary": "서울특별시 광진구에서 제공하는 생활안정 혜택입니다. 무인민원발급창구 무료 서비스 지원",
+  "supportType": "현금(감면)",
+  "supportSummary": "광진구 무인민원발급창구 수수료 면제 조치 (주민등록등․초본, 가족관계등록부 등 민원서류 12종)\n  - 구청과 병원(건국대병원, 국립정신건강센터) : 24시간 운영\n  - 지하철역사 5개소(건대입구역, 군자역, 아차산역, 구의역, 중곡역) : 새벽 5시 ~ 다음날 새…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000192",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 민원여권과/02-450-7176"
+  ],
+  "updatedAt": "2026-01-30",
+  "registeredAt": "2021-11-12",
+  "viewCount": 1481,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "무인민원발급창구 무료 서비스 지원",
+  "target": "광진구 내 설치된 무인민원발급기 사용자\n※ 설치장소 : 광진구청 홈페이지 확인",
+  "selectionCriteria": "",
+  "supportContent": "광진구 무인민원발급창구 수수료 면제 조치 (주민등록등․초본, 가족관계등록부 등 민원서류 12종)\n  - 구청과 병원(건국대병원, 국립정신건강센터) : 24시간 운영\n  - 지하철역사 5개소(건대입구역, 군자역, 아차산역, 구의역, 중곡역) : 새벽 5시 ~ 다음날 새벽 2시까지 운영",
+  "applicationMethod": "○ 개인 신청절차 없음\n- 해당 서비스는 신청없이 자격대상자에게 자동적으로 제공됩니다.",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "민원 처리에 관한 법률(제28조, 제2항)"
+  ],
+  "ordinance": "서울특별시 광진구 수수료 징수 조례(제6조, 제4항)",
+  "inquiryText": "광진구 민원여권과/02-450-7176",
+  "ageMin": 19,
+  "ageMax": 120
+}

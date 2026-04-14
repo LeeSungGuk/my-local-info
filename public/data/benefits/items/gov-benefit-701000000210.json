@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-701000000210",
+  "sourceId": "701000000210",
+  "title": "학교밖청소년 교육참여활동비 지급",
+  "field": "보육·교육",
+  "provider": "서울특별시교육청",
+  "providerType": "서울시",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 서울특별시교육청학교밖청소년도움센터에 등록한 청소년 중 지급요건 충족자\n\n○ 학교 밖 청소년 도움센터 프로그램 주 2회 출석기준 60%(월 5회) 이상 수강",
+  "summary": "서울특별시교육청에서 제공하는 보육·교육 혜택입니다. 학교밖청소년 대상 교육지원을 위한 활동비",
+  "supportType": "현금",
+  "supportSummary": "○ 학교밖청소년에게 교육지원을 위한 교육참여활동 지급\n - 서울특별시교육청학교밖청소년도움센터에 등록한 청소년 중 수당지급요건 충족자\n - 학령기 기준에 따른 수당 매월 지급(초 10만원, 중 15만원, 고 20만원)\n - 지급방법 : (초,중) 청소년증 교통카드 충전…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/701000000210",
+  "onlineUrl": "",
+  "inquiry": [
+    "학생맞춤지원담당관/02-2282-8342"
+  ],
+  "updatedAt": "2026-02-03",
+  "registeredAt": "2022-07-15",
+  "viewCount": 983,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "학교밖청소년 대상 교육지원을 위한 활동비",
+  "target": "○ 서울특별시교육청학교밖청소년도움센터에 등록한 청소년 중 지급요건 충족자\n\n○ 학교 밖 청소년 도움센터 프로그램 주 2회 출석기준 60%(월 5회) 이상 수강",
+  "selectionCriteria": "",
+  "supportContent": "○ 학교밖청소년에게 교육지원을 위한 교육참여활동 지급\n - 서울특별시교육청학교밖청소년도움센터에 등록한 청소년 중 수당지급요건 충족자\n - 학령기 기준에 따른 수당 매월 지급(초 10만원, 중 15만원, 고 20만원)\n - 지급방법 : (초,중) 청소년증 교통카드 충전 지급, (고)체크카드 충전",
+  "applicationMethod": "○ 방문 신청\n - 서울특별시교육청 학교 밖 청소년 도움센터에 등록 후 프로그램 수강 후 지급 조건 충족 시 자동 선정",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시교육청 학교 밖 청소년 지원 조례",
+  "inquiryText": "학생맞춤지원담당관/02-2282-8342",
+  "ageMin": 9,
+  "ageMax": 24
+}

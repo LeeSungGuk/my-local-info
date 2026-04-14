@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-300000000128",
+  "sourceId": "300000000128",
+  "title": "기초건강검진",
+  "field": "보건·의료",
+  "provider": "서울특별시 종로구",
+  "providerType": "자치구",
+  "district": "종로구",
+  "userType": "개인",
+  "deadlineText": "요일 ~ 금요일(공휴일 제외) 오전 09:00~11:30 이내 방문",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "검사를 희망하는 19세 이상 성인",
+  "summary": "서울특별시 종로구에서 제공하는 보건·의료 혜택입니다. 흉부방사선촬영, 소변검사, 혈액검사",
+  "supportType": "서비스(의료)",
+  "supportSummary": "기초건강검진\n1. 흉부검사 : 흉부방사선촬영을 통한 폐결핵, 비활동성 결핵검사\n2. 소변검사 : 뇨당, 뇨단백, 뇨잠혈등을 평가하여 당뇨, 신장질환 검사\n3. 혈액검사 : 채혈을 통해 빈혈, 간기능검사, 고지혈증, 신장질환, 당뇨, 통풍검사",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000128",
+  "onlineUrl": "",
+  "inquiry": [
+    "종로구보건소 건강증진과/02-2148-3702"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2022-07-14",
+  "viewCount": 2474,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "흉부방사선촬영, 소변검사, 혈액검사",
+  "target": "검사를 희망하는 19세 이상 성인",
+  "selectionCriteria": "",
+  "supportContent": "기초건강검진\n1. 흉부검사 : 흉부방사선촬영을 통한 폐결핵, 비활동성 결핵검사\n2. 소변검사 : 뇨당, 뇨단백, 뇨잠혈등을 평가하여 당뇨, 신장질환 검사\n3. 혈액검사 : 채혈을 통해 빈혈, 간기능검사, 고지혈증, 신장질환, 당뇨, 통풍검사",
+  "applicationMethod": "진 전날 밤 10시 이후에 금식하며, 검사당일 공복상태로 신분증 지참하여 보건소방문",
+  "documents": "구비서류없음, 비용 5000원",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "지역보건법(제11조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "종로구보건소 건강증진과/02-2148-3702",
+  "ageMin": 19,
+  "ageMax": 120
+}

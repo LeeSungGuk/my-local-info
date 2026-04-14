@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-320000000103",
+  "sourceId": "320000000103",
+  "title": "장애인 정보화교육 지원",
+  "field": "보육·교육",
+  "provider": "서울특별시 관악구",
+  "providerType": "자치구",
+  "district": "관악구",
+  "userType": "개인",
+  "deadlineText": "각 과정별 별도 문의",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "관악구 거주 장애인 및 일반 주민",
+  "summary": "서울특별시 관악구에서 제공하는 보육·교육 혜택입니다. 장애인과 비장애인의 정보격차 해소",
+  "supportType": "기타(교육)",
+  "supportSummary": "장애인 컴퓨터 기초 및 인터넷 기초 등 정보화 교육",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000103",
+  "onlineUrl": "",
+  "inquiry": [
+    "장애인복지과/02-879-6014"
+  ],
+  "updatedAt": "2026-01-27",
+  "registeredAt": "2021-09-23",
+  "viewCount": 742,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "장애인과 비장애인의 정보격차 해소",
+  "target": "관악구 거주 장애인 및 일반 주민",
+  "selectionCriteria": "",
+  "supportContent": "장애인 컴퓨터 기초 및 인터넷 기초 등 정보화 교육",
+  "applicationMethod": "○ 방문 신청 \n   - 기타 :  장애인정보화교육장(관악구 남부순환로 1696, 7층  관악구장애인단체연합회)",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "장애인복지법(제22조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "장애인복지과/02-879-6014",
+  "ageMin": 0,
+  "ageMax": 17
+}

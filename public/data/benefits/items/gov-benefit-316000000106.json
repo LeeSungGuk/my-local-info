@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-316000000106",
+  "sourceId": "316000000106",
+  "title": "기초생활보장수급노인 생신축하금 지원",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 구로구",
+  "providerType": "자치구",
+  "district": "구로구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 기초생계·의료 수급자 중 만 65세노인",
+  "summary": "서울특별시 구로구에서 제공하는 보호·돌봄 혜택입니다. 기초생활보장수급노인에게 생신축하금 지원(연1회, 20,000원)",
+  "supportType": "현금",
+  "supportSummary": "국민기초생활보장수급자 어르신 대상 생신축하금 지원 - 1인 연1회(생일월) / 20,000원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/316000000106",
+  "onlineUrl": "",
+  "inquiry": [
+    "생활보장과/02-860-2367"
+  ],
+  "updatedAt": "2026-02-02",
+  "registeredAt": "2021-09-23",
+  "viewCount": 868,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "기초생활보장수급노인에게 생신축하금 지원(연1회, 20,000원)",
+  "target": "○ 기초생계·의료 수급자 중 만 65세노인",
+  "selectionCriteria": "",
+  "supportContent": "국민기초생활보장수급자 어르신 대상 생신축하금 지원 - 1인 연1회(생일월) / 20,000원",
+  "applicationMethod": "○ 개인 신청절차 없음\n - 별도 신청 불요",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 구로구 저소득주민의 생활안정 지원에 관한 조례",
+  "inquiryText": "생활보장과/02-860-2367",
+  "ageMin": 65,
+  "ageMax": 120
+}

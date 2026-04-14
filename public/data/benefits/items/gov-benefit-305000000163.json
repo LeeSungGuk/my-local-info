@@ -1,0 +1,50 @@
+{
+  "id": "gov-benefit-305000000163",
+  "sourceId": "305000000163",
+  "title": "어린이 한의약 건강관리사업",
+  "field": "보건·의료",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "2025년 대상자 모집 마감",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "관내 지역아동센터 아동 (초등학교 1~6학년)",
+  "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 동대문구 관내 아동센터 이용 취약계층 아동을 대상으로 건강 상담 및 첩약을 지원하여 사업",
+  "supportType": "서비스(의료)",
+  "supportSummary": "대  상 : 참여를 희망하는 관내 지역아동센터 아동(초등학교 1~6학년)\n 내  용 \n  - 지역아동센터 아동 대상 한의사 진료 및 상담 서비스\n  - 허약아동에 대한 첩약지원(년 2회, 2년 연속 지원)\n    ※ 첩약 총 2재 지원[1재(성인기준 20첩), 아동…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "정부24온라인신청",
+    "방문신청",
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000163",
+  "onlineUrl": "",
+  "inquiry": [
+    "건강관리과/02-2127-4635"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2022-10-27",
+  "viewCount": 379,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "동대문구 관내 아동센터 이용 취약계층 아동을 대상으로 건강 상담 및 첩약을 지원하여 사업",
+  "target": "관내 지역아동센터 아동 (초등학교 1~6학년)",
+  "selectionCriteria": "",
+  "supportContent": "대  상 : 참여를 희망하는 관내 지역아동센터 아동(초등학교 1~6학년)\n 내  용 \n  - 지역아동센터 아동 대상 한의사 진료 및 상담 서비스\n  - 허약아동에 대한 첩약지원(년 2회, 2년 연속 지원)\n    ※ 첩약 총 2재 지원[1재(성인기준 20첩), 아동 몸무게에 따라 20일~40일분]",
+  "applicationMethod": "관내 지역아동센터 중 사업 참여 신청 개소 및 참여자 모집",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "국민건강증진법(제12조)",
+    "국민건강증진법(제19조)",
+    "보건의료기본법(제45조)",
+    "보건의료기본법(제49조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "건강관리과/02-2127-4635",
+  "ageMin": 6,
+  "ageMax": 12
+}

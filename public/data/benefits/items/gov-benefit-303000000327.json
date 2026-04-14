@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-303000000327",
+  "sourceId": "303000000327",
+  "title": "장난감세상",
+  "field": "보육·교육",
+  "provider": "서울특별시 성동구",
+  "providerType": "자치구",
+  "district": "성동구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "영유아 자녀를 둔 서울시민",
+  "summary": "서울특별시 성동구에서 제공하는 보육·교육 혜택입니다. 영유아 자녀를 둔 서울시민 대상 장난감 및 도서 대여 서비스 제공",
+  "supportType": "기타",
+  "supportSummary": "○ 장난감세상 운영\n - 영유아 자녀를 둔 서울시민 대상 장난감 및 도서 대여 서비스 제공\n - 연회비: 10,000원\n - 장난감 수리 서비스 등 제공",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000327",
+  "onlineUrl": "",
+  "inquiry": [
+    "성동구육아종합지원센터/02-499-5675"
+  ],
+  "updatedAt": "2026-04-13",
+  "registeredAt": "2025-10-27",
+  "viewCount": 110,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "영유아 자녀를 둔 서울시민 대상 장난감 및 도서 대여 서비스 제공",
+  "target": "영유아 자녀를 둔 서울시민",
+  "selectionCriteria": "",
+  "supportContent": "○ 장난감세상 운영\n - 영유아 자녀를 둔 서울시민 대상 장난감 및 도서 대여 서비스 제공\n - 연회비: 10,000원\n - 장난감 수리 서비스 등 제공",
+  "applicationMethod": "성동구 장난감세상(https://www.toysd.co.kr) 홈페이지 회원가입 -> 회원정보 입력 및 제출 서류 확인\n-> 연회비 납부 -> 관리자 승인 -> 가입 완료 후 이용",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 성동구 영유아 보육 조례(제25조)",
+  "inquiryText": "성동구육아종합지원센터/02-499-5675",
+  "ageMin": 0,
+  "ageMax": 5
+}

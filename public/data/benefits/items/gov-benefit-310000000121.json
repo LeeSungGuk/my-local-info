@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-310000000121",
+  "sourceId": "310000000121",
+  "title": "저소득 주민 국민건강보험료 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 노원구",
+  "providerType": "자치구",
+  "district": "노원구",
+  "userType": "가구",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "의료급여 수급자가 아니며 국민건강보험료(노인장기요양보험료 포함) 월 2만원 이하로 금융재산이 500만원 이하이면서 65세 이상 저소득 노인세대",
+  "summary": "서울특별시 노원구에서 제공하는 보건·의료 혜택입니다. 저소득 노인세대에게 건강보험료 지원",
+  "supportType": "기타",
+  "supportSummary": "지원목적\n - 의료급여 수급자에 해당하지 아니하는 저소득 노인세대의 건강보험료를 지원함으로써 구민의 건강증진과 복지향상을 도모하고자 함\n\n지원방법\n - 보험료가 2만원 이하인 경우 : 부과된 보험료 전액 지원 → 건강보험공단으로 일괄이체",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/310000000121",
+  "onlineUrl": "",
+  "inquiry": [
+    "생활복지과/02-2116-4952"
+  ],
+  "updatedAt": "2026-02-26",
+  "registeredAt": "2021-09-23",
+  "viewCount": 841,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "저소득 노인세대에게 건강보험료 지원",
+  "target": "의료급여 수급자가 아니며 국민건강보험료(노인장기요양보험료 포함) 월 2만원 이하로 금융재산이 500만원 이하이면서 65세 이상 저소득 노인세대",
+  "selectionCriteria": "",
+  "supportContent": "지원목적\n - 의료급여 수급자에 해당하지 아니하는 저소득 노인세대의 건강보험료를 지원함으로써 구민의 건강증진과 복지향상을 도모하고자 함\n\n지원방법\n - 보험료가 2만원 이하인 경우 : 부과된 보험료 전액 지원 → 건강보험공단으로 일괄이체",
+  "applicationMethod": "주소지 주민센터 방문 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 노원구 저소득주민 국민건강보험료 지원조례",
+  "inquiryText": "생활복지과/02-2116-4952",
+  "ageMin": 65,
+  "ageMax": 120
+}

@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-310000000115",
+  "sourceId": "310000000115",
+  "title": "한부모가족 자녀 학습 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 노원구",
+  "providerType": "자치구",
+  "district": "노원구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 법정 저소득한부모가족 4세 ~ 12세 자녀",
+  "summary": "서울특별시 노원구에서 제공하는 생활안정 혜택입니다. 저소득 한부모가족의 자녀를 대상으로 방문학습 지원",
+  "supportType": "기타(교육)",
+  "supportSummary": "○ 1:1 맞춤 방문학습\n\n - 지원과목 : 국어, 영어, 수학, 사회, 과학, 독서, 한글 등\n - 1인 2과목",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/310000000115",
+  "onlineUrl": "",
+  "inquiry": [
+    "가족정책과/02-2116-3715"
+  ],
+  "updatedAt": "2026-01-28",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1088,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "저소득 한부모가족의 자녀를 대상으로 방문학습 지원",
+  "target": "○ 법정 저소득한부모가족 4세 ~ 12세 자녀",
+  "selectionCriteria": "",
+  "supportContent": "○ 1:1 맞춤 방문학습\n\n - 지원과목 : 국어, 영어, 수학, 사회, 과학, 독서, 한글 등\n - 1인 2과목",
+  "applicationMethod": "○ 방문 신청 \n - 주민센터 : 관할 동 주민센터 방문 신청",
+  "documents": "신청서, 신분증",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 노원구 한부모가족 지원에 관한 조례",
+  "inquiryText": "가족정책과/02-2116-3715",
+  "ageMin": 4,
+  "ageMax": 12
+}

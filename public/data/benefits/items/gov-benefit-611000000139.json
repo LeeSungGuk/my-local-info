@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-611000000139",
+  "sourceId": "611000000139",
+  "title": "산모·신생아건강관리본인부담금지원",
+  "field": "임신·출산",
+  "provider": "서울특별시",
+  "providerType": "서울시",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 서울시 출산산모  저소득층 및 비혼모",
+  "summary": "서울특별시에서 제공하는 임신·출산 혜택입니다. ○ 출산가정에 건강관리사를 파견하여 산모의 산후회복과 신생아의 양육을 지원하고 출산가정의 경제적 부담 경감\n\n○ 산모. 신생아의 건강관리사 양성을 통해 사회적 일자리 창출",
+  "supportType": "현금",
+  "supportSummary": "○ 건강관리지원 : 출산산모 방문 산후관리(산모, 신생아) 저소득층 및 비혼모 본인부담금 지원\n○ 산모신생아 건강관리 서비스 이용금액 중 본인부담금의 90% 지원(환급)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000139",
+  "onlineUrl": "",
+  "inquiry": [
+    "관할 보건소/02-120"
+  ],
+  "updatedAt": "2025-11-27",
+  "registeredAt": "2021-09-23",
+  "viewCount": 13177,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "○ 출산가정에 건강관리사를 파견하여 산모의 산후회복과 신생아의 양육을 지원하고 출산가정의 경제적 부담 경감\n\n○ 산모. 신생아의 건강관리사 양성을 통해 사회적 일자리 창출",
+  "target": "○ 서울시 출산산모  저소득층 및 비혼모",
+  "selectionCriteria": "",
+  "supportContent": "○ 건강관리지원 : 출산산모 방문 산후관리(산모, 신생아) 저소득층 및 비혼모 본인부담금 지원\n○ 산모신생아 건강관리 서비스 이용금액 중 본인부담금의 90% 지원(환급)",
+  "applicationMethod": "○ 방문 신청:  산모의 주소지 관할 보건소 방문",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "모자보건법"
+  ],
+  "ordinance": "",
+  "inquiryText": "관할 보건소/02-120",
+  "ageMin": 0,
+  "ageMax": 120
+}

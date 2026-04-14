@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-304000000187",
+  "sourceId": "304000000187",
+  "title": "안전취약가구 안전점검 및 정비지원",
+  "field": "행정·안전",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "매년 3월 ~ 5월",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "기초수급자, 홀몸어르신, 장애인 등 안전에 취약한 주민",
+  "summary": "서울특별시 광진구에서 제공하는 행정·안전 혜택입니다. 기초생활수급자, 차상위계층, 장애인, 노인 등 안전 취약가구의 생활시설에 대한 안전점검 및 정비 실시로 사고를 예방하고자 함",
+  "supportType": "현물",
+  "supportSummary": "안전취약가구의 노후시설 안전점검 및 교체·정비\n ○ 총 5개 분야\n   ① 전기: 누전차단기, 등기구, 콘센트 등 교체·정비\n   ② 가스: 가스차단기(타이머) 설치, 노후밸브 및 호스교체 등\n   ③ 보일러: 금속플렉서블호스 설치, 일산화탄소(CO)경보기 설치…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000187",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 도시안전과/02-450-7905"
+  ],
+  "updatedAt": "2026-01-28",
+  "registeredAt": "2021-11-12",
+  "viewCount": 1168,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "기초생활수급자, 차상위계층, 장애인, 노인 등 안전 취약가구의 생활시설에 대한 안전점검 및 정비 실시로 사고를 예방하고자 함",
+  "target": "기초수급자, 홀몸어르신, 장애인 등 안전에 취약한 주민",
+  "selectionCriteria": "",
+  "supportContent": "안전취약가구의 노후시설 안전점검 및 교체·정비\n ○ 총 5개 분야\n   ① 전기: 누전차단기, 등기구, 콘센트 등 교체·정비\n   ② 가스: 가스차단기(타이머) 설치, 노후밸브 및 호스교체 등\n   ③ 보일러: 금속플렉서블호스 설치, 일산화탄소(CO)경보기 설치\n   ④ 소방: 화재경보기 및 소화기 설치 \n   ⑤ 기타: 안전물품지원(매년 변동 예정)",
+  "applicationMethod": "관할 동주민센터 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "재난 및 안전관리 기본법"
+  ],
+  "ordinance": "서울특별시 광진구 재난 및 안전관리 기본 조례",
+  "inquiryText": "광진구 도시안전과/02-450-7905",
+  "ageMin": 19,
+  "ageMax": 120
+}

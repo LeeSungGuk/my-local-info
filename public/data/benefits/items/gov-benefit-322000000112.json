@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-322000000112",
+  "sourceId": "322000000112",
+  "title": "구강보건서비스",
+  "field": "보건·의료",
+  "provider": "서울특별시 강남구",
+  "providerType": "자치구",
+  "district": "강남구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 0~18세(영유아,청소년), 만65세이상, 임산부, 장애인, 관내지역주민 등",
+  "summary": "서울특별시 강남구에서 제공하는 보건·의료 혜택입니다. 아동,청소년, 노인, 장애인 등에게 구강보건서비스 지원",
+  "supportType": "서비스(의료)",
+  "supportSummary": "○ 생애주기별 맞춤형 구강보건사업을 추진하여 구민의 구강건강증진 및 구강 불평등 완화",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/322000000112",
+  "onlineUrl": "",
+  "inquiry": [
+    "의약과/02-3423-7218"
+  ],
+  "updatedAt": "2026-02-05",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1533,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "아동,청소년, 노인, 장애인 등에게 구강보건서비스 지원",
+  "target": "○ 0~18세(영유아,청소년), 만65세이상, 임산부, 장애인, 관내지역주민 등",
+  "selectionCriteria": "",
+  "supportContent": "○ 생애주기별 맞춤형 구강보건사업을 추진하여 구민의 구강건강증진 및 구강 불평등 완화",
+  "applicationMethod": "○ 방문 신청\n - 보건소 : 거주지 관할 보건소 방문",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "구강보건법"
+  ],
+  "ordinance": "",
+  "inquiryText": "의약과/02-3423-7218",
+  "ageMin": 0,
+  "ageMax": 18
+}

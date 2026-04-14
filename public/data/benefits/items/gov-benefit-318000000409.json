@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-318000000409",
+  "sourceId": "318000000409",
+  "title": "EM(유용 미생물)발효액 무상 배부",
+  "field": "문화·환경",
+  "provider": "서울특별시 영등포구",
+  "providerType": "자치구",
+  "district": "영등포구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "영등포구 거주 주민",
+  "summary": "서울특별시 영등포구에서 제공하는 문화·환경 혜택입니다. 음식물쓰레기 부패 억제, 해충 퇴치, 각종 악취 제거 등 실생활에 사용되는 EM(유용 미생물) 발효액 보급",
+  "supportType": "기타",
+  "supportSummary": "○ EM(유용 미생물) 발효액 보급\n  - 동 주민센터에서 신청 주민에게 배부",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000409",
+  "onlineUrl": "",
+  "inquiry": [
+    "영등포구청 청소과/02-2670-3481"
+  ],
+  "updatedAt": "2026-02-06",
+  "registeredAt": "2025-11-19",
+  "viewCount": 38,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "음식물쓰레기 부패 억제, 해충 퇴치, 각종 악취 제거 등 실생활에 사용되는 EM(유용 미생물) 발효액 보급",
+  "target": "영등포구 거주 주민",
+  "selectionCriteria": "",
+  "supportContent": "○ EM(유용 미생물) 발효액 보급\n  - 동 주민센터에서 신청 주민에게 배부",
+  "applicationMethod": "○ 방문하여 신청 후 수령",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 영등포구 쓰레기줄이기와 자원재활용 촉진에 관한 조례",
+  "inquiryText": "영등포구청 청소과/02-2670-3481",
+  "ageMin": 19,
+  "ageMax": 120
+}

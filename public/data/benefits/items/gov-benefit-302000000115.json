@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-302000000115",
+  "sourceId": "302000000115",
+  "title": "기초 생계·의료급여 수급가구 명절위문금 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 용산구",
+  "providerType": "자치구",
+  "district": "용산구",
+  "userType": "가구",
+  "deadlineText": "해당 서비스는 신청없이 자격대상자에게 제공됩니다.",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○  설, 추석 명절위문금  : 기초생계급여·의료급여가구",
+  "summary": "서울특별시 용산구에서 제공하는 생활안정 혜택입니다. 기초생계·의료급여 수급가구에 설, 추석 명절 위문금 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 기초생계·의료급여 수급가구에 설, 추석 명절 위문금 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/302000000115",
+  "onlineUrl": "",
+  "inquiry": [
+    "생활지원국 사회복지과/02-2199-7097"
+  ],
+  "updatedAt": "2026-02-09",
+  "registeredAt": "2021-09-23",
+  "viewCount": 2044,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "기초생계·의료급여 수급가구에 설, 추석 명절 위문금 지원",
+  "target": "○  설, 추석 명절위문금  : 기초생계급여·의료급여가구",
+  "selectionCriteria": "",
+  "supportContent": "○ 기초생계·의료급여 수급가구에 설, 추석 명절 위문금 지원",
+  "applicationMethod": "해당 서비스는 신청없이 자격대상자에게 자동적으로 제공됩니다.",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 용산구 저소득주민의 생활안정 및 복지증진에 관한 조례",
+  "inquiryText": "생활지원국 사회복지과/02-2199-7097",
+  "ageMin": 0,
+  "ageMax": 120
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-300000000154",
+  "sourceId": "300000000154",
+  "title": "종로 복지등기 우편사업",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 종로구",
+  "providerType": "자치구",
+  "district": "종로구",
+  "userType": "개인",
+  "deadlineText": "연중",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "복지 사각지대 위기 의심가구",
+  "summary": "서울특별시 종로구에서 제공하는 보호·돌봄 혜택입니다. 복지 사각지대 의심 가구에게 집배원이 복지 등기 우편을 배달하면서 해당 가구의 안부확인",
+  "supportType": "기타",
+  "supportSummary": "○ 종로 복지등기 우편사업\n - 사업기간 : 2022.8~2026.12.\n - 사업대상 : 복지 사각지대 의심 가구\n - 사업내용 : 복지사업 안내정보를 담은 등기우편을 집배원이 배달하면서 해당 가구의 상황을 파악해 지자체에 전달하는 서비스\n - 사업주관 : 종로구청…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000154",
+  "onlineUrl": "",
+  "inquiry": [
+    "종로구청 복지정책과/02-2148-2520"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2022-10-28",
+  "viewCount": 416,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "복지 사각지대 의심 가구에게 집배원이 복지 등기 우편을 배달하면서 해당 가구의 안부확인",
+  "target": "복지 사각지대 위기 의심가구",
+  "selectionCriteria": "",
+  "supportContent": "○ 종로 복지등기 우편사업\n - 사업기간 : 2022.8~2026.12.\n - 사업대상 : 복지 사각지대 의심 가구\n - 사업내용 : 복지사업 안내정보를 담은 등기우편을 집배원이 배달하면서 해당 가구의 상황을 파악해 지자체에 전달하는 서비스\n - 사업주관 : 종로구청, 서울지방우정청, 우체국공익재단",
+  "applicationMethod": "해당 서비스는 신청없이 자격대상자에게 자동적으로 제공됩니다.",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "사회보장급여의 이용ㆍ제공 및 수급권자 발굴에 관한 법률(제13조)",
+    "사회보장급여의 이용ㆍ제공 및 수급권자 발굴에 관한 법률(제14조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "종로구청 복지정책과/02-2148-2520",
+  "ageMin": 0,
+  "ageMax": 120
+}

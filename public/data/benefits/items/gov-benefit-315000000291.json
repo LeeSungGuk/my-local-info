@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-315000000291",
+  "sourceId": "315000000291",
+  "title": "안심장비 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 강서구",
+  "providerType": "자치구",
+  "district": "강서구",
+  "userType": "개인||가구",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "1인거주가구\n스토킹범죄피해자\n주거안전취약가구 (주거침입범죄 피해자, 여성, 노인, 아동 등)",
+  "summary": "서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 안심장비 지원을 통해 안전한 주거환경 조성",
+  "supportType": "현물",
+  "supportSummary": "안심장비 지원\n-스마트홈카메라\n-도어락지문방지필름\n-스마트문열림센서\n-창문잠금장치 등",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000291",
+  "onlineUrl": "",
+  "inquiry": [
+    "강서구청 출산보육과/02-2600-6769"
+  ],
+  "updatedAt": "2026-02-02",
+  "registeredAt": "2025-12-09",
+  "viewCount": 59,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "안심장비 지원을 통해 안전한 주거환경 조성",
+  "target": "1인거주가구\n스토킹범죄피해자\n주거안전취약가구 (주거침입범죄 피해자, 여성, 노인, 아동 등)",
+  "selectionCriteria": "",
+  "supportContent": "안심장비 지원\n-스마트홈카메라\n-도어락지문방지필름\n-스마트문열림센서\n-창문잠금장치 등",
+  "applicationMethod": "홈페이지 신청공고 확인 후 신청서 다운로드 방문 제출 또는 e-mail 제출",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 사회적 가족도시 구현을 위한 1인가구 지원 기본 조례",
+  "inquiryText": "강서구청 출산보육과/02-2600-6769",
+  "ageMin": 0,
+  "ageMax": 120
+}

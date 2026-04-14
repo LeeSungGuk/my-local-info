@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-313000000159",
+  "sourceId": "313000000159",
+  "title": "아동 예술멘토링 지원서비스(지역사회서비스투자사업)",
+  "field": "보육·교육",
+  "provider": "서울특별시 마포구",
+  "providerType": "자치구",
+  "district": "마포구",
+  "userType": "개인",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 기준 중위소득 120%이하 가정의 만 4세~12세 아동\n○ 우선순위 \n   - 1순위 : 기초생활수급자 \n   - 2순위 : 한부모 가정\n    -3순위 : 다문화 가정",
+  "summary": "서울특별시 마포구에서 제공하는 보육·교육 혜택입니다. 아동 예술교육(미술치료)을 통한 정서발달지원 도모",
+  "supportType": "이용권",
+  "supportSummary": "예술교육을 통한 정서발달지원, 심리발달검사, 문화예술체험학습 등을 제공",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000159",
+  "onlineUrl": "",
+  "inquiry": [
+    "마포구청 가족정책과/02-3153-8943"
+  ],
+  "updatedAt": "2026-02-04",
+  "registeredAt": "2025-07-15",
+  "viewCount": 145,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "아동 예술교육(미술치료)을 통한 정서발달지원 도모",
+  "target": "○ 기준 중위소득 120%이하 가정의 만 4세~12세 아동\n○ 우선순위 \n   - 1순위 : 기초생활수급자 \n   - 2순위 : 한부모 가정\n    -3순위 : 다문화 가정",
+  "selectionCriteria": "",
+  "supportContent": "예술교육을 통한 정서발달지원, 심리발달검사, 문화예술체험학습 등을 제공",
+  "applicationMethod": "주민등록주소지 관할 동주민센터 방문 신청",
+  "documents": "○  사회보장급여(사회서비스이용권) 신청(변경)서 등",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "사회서비스 이용 및 이용권 관리에 관한 법률"
+  ],
+  "ordinance": "",
+  "inquiryText": "마포구청 가족정책과/02-3153-8943",
+  "ageMin": 4,
+  "ageMax": 12
+}

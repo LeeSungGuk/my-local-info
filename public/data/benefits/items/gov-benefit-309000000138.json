@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-309000000138",
+  "sourceId": "309000000138",
+  "title": "산모·신생아 건강관리 본인부담금 지원",
+  "field": "임신·출산",
+  "provider": "서울특별시 도봉구",
+  "providerType": "자치구",
+  "district": "도봉구",
+  "userType": "개인",
+  "deadlineText": "서비스 종료 후 3개월(90일) 이내",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 도봉구 모든 출산 가정(신청일 기준 도봉구에 6개월 이상 주민등록된 산모)",
+  "summary": "서울특별시 도봉구에서 제공하는 임신·출산 혜택입니다. 산모의 산후 회복과 신생아 양육을 돕기 위하여 출산가정에 산모신생아 건강관리 서비스 정부지원금 외 본인부담금을 지원해 산후 건강관리 비용부담 경감 및 산모신생아 건강증진을 함께 도모하고자 함.",
+  "supportType": "현금",
+  "supportSummary": "○ 산모신생아 건강관리 서비스 제공기관 이용 본인부담금의 90% 지원(최대 35만원)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/309000000138",
+  "onlineUrl": "",
+  "inquiry": [
+    "지역보건과/02-2091-4557"
+  ],
+  "updatedAt": "2026-02-23",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1364,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "산모의 산후 회복과 신생아 양육을 돕기 위하여 출산가정에 산모신생아 건강관리 서비스 정부지원금 외 본인부담금을 지원해 산후 건강관리 비용부담 경감 및 산모신생아 건강증진을 함께 도모하고자 함.",
+  "target": "○ 도봉구 모든 출산 가정(신청일 기준 도봉구에 6개월 이상 주민등록된 산모)",
+  "selectionCriteria": "",
+  "supportContent": "○ 산모신생아 건강관리 서비스 제공기관 이용 본인부담금의 90% 지원(최대 35만원)",
+  "applicationMethod": "○ 보건소 방문신청 또는 e-mail 신청",
+  "documents": "○ 신청인 제출서류\n  - 신청서 (도봉구 보건소 홈페이지 서식)\n  - 서비스 제공기관에서 발급한 본인부담금 영수증\n  - 산모명의 통장사본\n  - 가족관계증명서(산모의 친족이나 법정대리인이 신청하는 경우)\n  - 군복무확인서 등 직장 확인 가능한 증빙서류(군인가족 해당시) \n\n○ 공무원 확인가능 서류(신청인 미제출 서류)\n  - 사회보장급여 결정통지서\n  - 서비스 종료일 이후 발급한 산모의 주민등록등본",
+  "officialDocuments": "○ 주민등록등본",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "모자보건법"
+  ],
+  "ordinance": "서울특별시 도봉구 산모·신생아 건강관리 지원에 관한 조례",
+  "inquiryText": "지역보건과/02-2091-4557",
+  "ageMin": 18,
+  "ageMax": 44
+}

@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-311000000117",
+  "sourceId": "311000000117",
+  "title": "다자녀 출산용품 교환권 지원",
+  "field": "임신·출산",
+  "provider": "서울특별시 은평구",
+  "providerType": "자치구",
+  "district": "은평구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 은평구에 주소를 둔(출생일로부터 지원 신청일까지 은평구 거주) 둘째이상 출산가정(출생일로부터 1년이내 신청)\n○ 출생일로부터 1년 이내 관할 동 주민센터 방문 신청",
+  "summary": "서울특별시 은평구에서 제공하는 임신·출산 혜택입니다. ○ 저출생 대응을 위해 다자녀 가정에 실질적 혜택을 제공하는 출산지원 사업을 추진함으로써 출산, 양육 친화적 환경 조성에 기여하고자 함.",
+  "supportType": "이용권",
+  "supportSummary": "○ 은평구에 주소를 둔(출생일로부터 지원 신청일까지 은평구 거주) 둘째이상 출산가정에 15만원 출산용품교환권 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000117",
+  "onlineUrl": "",
+  "inquiry": [
+    "가족정책과/02-351-6223"
+  ],
+  "updatedAt": "2026-02-20",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1195,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "○ 저출생 대응을 위해 다자녀 가정에 실질적 혜택을 제공하는 출산지원 사업을 추진함으로써 출산, 양육 친화적 환경 조성에 기여하고자 함.",
+  "target": "○ 은평구에 주소를 둔(출생일로부터 지원 신청일까지 은평구 거주) 둘째이상 출산가정(출생일로부터 1년이내 신청)\n○ 출생일로부터 1년 이내 관할 동 주민센터 방문 신청",
+  "selectionCriteria": "",
+  "supportContent": "○ 은평구에 주소를 둔(출생일로부터 지원 신청일까지 은평구 거주) 둘째이상 출산가정에 15만원 출산용품교환권 지원",
+  "applicationMethod": "○ 온라인 신청 : 정부24(www.gov.kr)\n○ 오프라인 신청 : 주소지 주민센터 방문 신청",
+  "documents": "○ 출산서비스 통합처리 신청서",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 은평구 출산장려 및 다자녀 가정 지원에 관한 조례(제5조)",
+  "inquiryText": "가족정책과/02-351-6223",
+  "ageMin": 0,
+  "ageMax": 1
+}

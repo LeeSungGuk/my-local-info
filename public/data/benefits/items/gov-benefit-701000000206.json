@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-701000000206",
+  "sourceId": "701000000206",
+  "title": "학기중 평일 중식 지원",
+  "field": "보육·교육",
+  "provider": "서울특별시교육청",
+  "providerType": "서울시",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "별도의 신청절차가 없음",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "서울시교육청관내 국,공, 사립 초,중,고, 특수, 각종학교에 재학중인 학생",
+  "summary": "서울특별시교육청에서 제공하는 보육·교육 혜택입니다. 관내 각종학교에 재학중인 학생 대상으로 학기중 평일 중식비 지원",
+  "supportType": "현물",
+  "supportSummary": "학교에 재학중인 학생에게 학기중 평일 중식 제공",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/701000000206",
+  "onlineUrl": "",
+  "inquiry": [
+    "체육건강예술교육과/02-399-9587"
+  ],
+  "updatedAt": "2026-02-09",
+  "registeredAt": "2022-07-15",
+  "viewCount": 2444,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "관내 각종학교에 재학중인 학생 대상으로 학기중 평일 중식비 지원",
+  "target": "서울시교육청관내 국,공, 사립 초,중,고, 특수, 각종학교에 재학중인 학생",
+  "selectionCriteria": "",
+  "supportContent": "학교에 재학중인 학생에게 학기중 평일 중식 제공",
+  "applicationMethod": "○ 개인 신청불필요 \n - 별도의 신청행위를 하지 않음",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "학교급식법"
+  ],
+  "ordinance": "",
+  "inquiryText": "체육건강예술교육과/02-399-9587",
+  "ageMin": 0,
+  "ageMax": 120
+}

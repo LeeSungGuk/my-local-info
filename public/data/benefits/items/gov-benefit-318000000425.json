@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-318000000425",
+  "sourceId": "318000000425",
+  "title": "어린이 대상 불소도포 서비스 제공",
+  "field": "보건·의료",
+  "provider": "서울특별시 영등포구",
+  "providerType": "자치구",
+  "district": "영등포구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "- 관내 3세 ∼ 초등학생 아동(주민등록지 기준)",
+  "summary": "서울특별시 영등포구에서 제공하는 보건·의료 혜택입니다. 불소도포를 통해  치아의 내산성을 강화시켜 아동기 치아우식을 예방하고자 함",
+  "supportType": "서비스(의료)",
+  "supportSummary": "- 구강검진\n- 올바른 칫솔질법 교육\n- 불소바니쉬를 이용한 불소도포(연 2회 도포)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000425",
+  "onlineUrl": "",
+  "inquiry": [
+    "영등포구보건소 구강보건실/02-2670-4827",
+    "영등포구보건소 구강보건실/02-2670-4829"
+  ],
+  "updatedAt": "2026-03-09",
+  "registeredAt": "2025-12-01",
+  "viewCount": 49,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "불소도포를 통해  치아의 내산성을 강화시켜 아동기 치아우식을 예방하고자 함",
+  "target": "- 관내 3세 ∼ 초등학생 아동(주민등록지 기준)",
+  "selectionCriteria": "",
+  "supportContent": "- 구강검진\n- 올바른 칫솔질법 교육\n- 불소바니쉬를 이용한 불소도포(연 2회 도포)",
+  "applicationMethod": "- 사전 유선(구강보건실  ☎02-2670-4827, 4829)예약 후 방문",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "구강보건법"
+  ],
+  "ordinance": "",
+  "inquiryText": "영등포구보건소 구강보건실/02-2670-4827||영등포구보건소 구강보건실/02-2670-4829",
+  "ageMin": 3,
+  "ageMax": 12
+}

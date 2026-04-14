@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-320000000121",
+  "sourceId": "320000000121",
+  "title": "국가보훈대상자 사망위로금",
+  "field": "생활안정",
+  "provider": "서울특별시 관악구",
+  "providerType": "자치구",
+  "district": "관악구",
+  "userType": "개인",
+  "deadlineText": "사망 후 1년 이내 신청가능",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "- 지급대상: 보훈대상자 유족\n- 지급액: 20만원",
+  "summary": "서울특별시 관악구에서 제공하는 생활안정 혜택입니다. (구)국가보훈대상자 사망위로금 지급, (시)국가유공자 사망조의금 지급",
+  "supportType": "현금",
+  "supportSummary": "○ (구)사망위로금 지급\n   - 관악구에 1년 이상 거주한 국가보훈대상자 사망시 유족에서 사망위로금 지급\n   - 지 급 액 : 20만원\n   - 지급시기 : 신청서 접수 후 2주 이내\n   - 사망후 1년 이내 신청 가능\n\n○ (시) 국가유공자 사망조의금 지급…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000121",
+  "onlineUrl": "",
+  "inquiry": [
+    "복지정책과/879-5854"
+  ],
+  "updatedAt": "2026-02-04",
+  "registeredAt": "2023-08-23",
+  "viewCount": 691,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "(구)국가보훈대상자 사망위로금 지급, (시)국가유공자 사망조의금 지급",
+  "target": "- 지급대상: 보훈대상자 유족\n- 지급액: 20만원",
+  "selectionCriteria": "",
+  "supportContent": "○ (구)사망위로금 지급\n   - 관악구에 1년 이상 거주한 국가보훈대상자 사망시 유족에서 사망위로금 지급\n   - 지 급 액 : 20만원\n   - 지급시기 : 신청서 접수 후 2주 이내\n   - 사망후 1년 이내 신청 가능\n\n○ (시) 국가유공자 사망조의금 지급\n   - 서울시에 1개월 이상 거주한 국가유공자 사망시 유족에서 사망조의금 지급\n   - 지 급 액 : 20만원\n   - 지급시기 : 신청서 접수 후 1개월 내(서울시 지급)\n   - '25년 이후 사망한 국가유공자에 대한 조의금 지급만 가능(소급 불가)",
+  "applicationMethod": "방문신청: 사망자의 거주지 동주민센터(신분증 지참)",
+  "documents": "사망진단서, 사망자 유공자증 사본, 신청인 신분증, 통장사본 등",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 관악구 국가보훈대상자 예우 및 지원에 관한 조례||서울특별시 국가보훈대상자 예우 및 지원에 관한 조례(제7조)",
+  "inquiryText": "복지정책과/879-5854",
+  "ageMin": 0,
+  "ageMax": 120
+}

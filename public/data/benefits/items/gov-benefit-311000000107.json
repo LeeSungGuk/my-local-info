@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-311000000107",
+  "sourceId": "311000000107",
+  "title": "장애인단체 명절 위문 지원",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 은평구",
+  "providerType": "자치구",
+  "district": "은평구",
+  "userType": "법인/시설/단체",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 각 단체별 지원 후 단체별 대상자 개별 지원",
+  "summary": "서울특별시 은평구에서 제공하는 보호·돌봄 혜택입니다. 장애인단체에 명절 위문 격려금 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 명절인 설날 및 추석을 맞이하여 장애인단체에 위문 격려금 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000107",
+  "onlineUrl": "",
+  "inquiry": [
+    "장애인복지과/02-351-7307"
+  ],
+  "updatedAt": "2026-01-16",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1066,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "장애인단체에 명절 위문 격려금 지원",
+  "target": "○ 각 단체별 지원 후 단체별 대상자 개별 지원",
+  "selectionCriteria": "",
+  "supportContent": "○ 명절인 설날 및 추석을 맞이하여 장애인단체에 위문 격려금 지원",
+  "applicationMethod": "○ 방문 신청\n - 기타 : 관내 장애인단체 6개소",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 은평구 저소득주민의 생활안정 지원에 관한 조례(제2조의4)",
+  "inquiryText": "장애인복지과/02-351-7307",
+  "ageMin": 0,
+  "ageMax": 0
+}

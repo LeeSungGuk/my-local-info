@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-303000000338",
+  "sourceId": "303000000338",
+  "title": "주민들의 세금 고민을 해결해주기 위한 무료 세무상담 서비스",
+  "field": "행정·안전",
+  "provider": "서울특별시 성동구",
+  "providerType": "자치구",
+  "district": "성동구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "서울시민 누구나",
+  "summary": "서울특별시 성동구에서 제공하는 행정·안전 혜택입니다. 복잡한 세무행정에 대한 전문지식이 부족하거나 과세불복 비용이 부담되는 주민들에게 마을세무사와 연계하여 무료 세무상담 서비스를 제공",
+  "supportType": "기타(상담)",
+  "supportSummary": "○ 활동분야\n - 세무관련 상담\n  ㆍ 마을(동) 단위로 세무서비스가 필요한 주민과 세무사 연결\n - 불복청구 지원\n  ㆍ 지방세에 한정하여 이의신청, 심사청구 등 지원(청구금액 1천만원 미만)\n○ 상담 방법 및 절차\n - 1차 비대면상담 : 전화, 팩스, 이메일(우…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000338",
+  "onlineUrl": "",
+  "inquiry": [
+    "성동구청 세무1과/02-2286-5293"
+  ],
+  "updatedAt": "2026-02-10",
+  "registeredAt": "2025-11-12",
+  "viewCount": 74,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "복잡한 세무행정에 대한 전문지식이 부족하거나 과세불복 비용이 부담되는 주민들에게 마을세무사와 연계하여 무료 세무상담 서비스를 제공",
+  "target": "서울시민 누구나",
+  "selectionCriteria": "",
+  "supportContent": "○ 활동분야\n - 세무관련 상담\n  ㆍ 마을(동) 단위로 세무서비스가 필요한 주민과 세무사 연결\n - 불복청구 지원\n  ㆍ 지방세에 한정하여 이의신청, 심사청구 등 지원(청구금액 1천만원 미만)\n○ 상담 방법 및 절차\n - 1차 비대면상담 : 전화, 팩스, 이메일(우선 유선통화 후 이메일 송부) 등으로 상담진행\n - 2차 대면상담 : 마을세무사 사무실 내방 또는 동 주민센터 이용(마을세무사와 협의하여 방문날짜 지정)",
+  "applicationMethod": "구청 홈페이지, 리플릿 등을 통해 동별 마을세무사 확인 후 마을세무사와 직접 전화, 팩스, 이메일을 통해 상담 진행",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "성동구청 세무1과/02-2286-5293",
+  "ageMin": 18,
+  "ageMax": 120
+}

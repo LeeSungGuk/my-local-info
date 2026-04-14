@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-305000000283",
+  "sourceId": "305000000283",
+  "title": "(국가유공자)인플루엔자 백신 및 접종 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "관내 지역주민 중 국가유공자 본인",
+  "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 국가유공자 인플루엔자 예방접종 지원",
+  "supportType": "서비스(의료)",
+  "supportSummary": "국가유공자 인플루엔자 예방접종",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000283",
+  "onlineUrl": "",
+  "inquiry": [
+    "건강관리과/02-2127-5194"
+  ],
+  "updatedAt": "2026-02-09",
+  "registeredAt": "2025-12-09",
+  "viewCount": 48,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "국가유공자 인플루엔자 예방접종 지원",
+  "target": "관내 지역주민 중 국가유공자 본인",
+  "selectionCriteria": "",
+  "supportContent": "국가유공자 인플루엔자 예방접종",
+  "applicationMethod": "해당 신분증(국가유공자증 등)을 지참 후 관내 위탁의료기관에서 접종",
+  "documents": "신분증, 국가유공자증 등",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 동대문구 인플루엔자 무료 예방접종 및 위탁에 관한 조례",
+  "inquiryText": "건강관리과/02-2127-5194",
+  "ageMin": 0,
+  "ageMax": 120
+}

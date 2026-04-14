@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "fetch:seoul-events": "node scripts/fetch-seoul-events.js"
+    "fetch:seoul-events": "node scripts/fetch-seoul-events.js",
+    "fetch:public-benefits": "node scripts/fetch-public-benefits.js"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.19",

@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-310000000116",
+  "sourceId": "310000000116",
+  "title": "중증장애인 자립생활 지원(장애인 활동지원 구비추가)",
+  "field": "주거·자립",
+  "provider": "서울특별시 노원구",
+  "providerType": "자치구",
+  "district": "노원구",
+  "userType": "개인",
+  "deadlineText": "신청제한",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 만19세 이상 장애인활동지원 수급자 중 선정기준에 해당되는 최중증 (고령)독거장애인, 중증  (고령)독거장애인, 성인 발달장애인",
+  "summary": "서울특별시 노원구에서 제공하는 주거·자립 혜택입니다. 활동지원 시간이 부족한 장애인에게 선정기준 충족시 추가급여 제공",
+  "supportType": "서비스(돌봄)",
+  "supportSummary": "○ 국고보조와 시비추가 지원으로도 활동지원 시간이 부족한 장애인에게 구비추가지원 선정기준 충족시 추가급여 제공",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/310000000116",
+  "onlineUrl": "",
+  "inquiry": [
+    "장애인복지과/02-2116-3313"
+  ],
+  "updatedAt": "2026-01-23",
+  "registeredAt": "2021-09-23",
+  "viewCount": 947,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "활동지원 시간이 부족한 장애인에게 선정기준 충족시 추가급여 제공",
+  "target": "○ 만19세 이상 장애인활동지원 수급자 중 선정기준에 해당되는 최중증 (고령)독거장애인, 중증  (고령)독거장애인, 성인 발달장애인",
+  "selectionCriteria": "",
+  "supportContent": "○ 국고보조와 시비추가 지원으로도 활동지원 시간이 부족한 장애인에게 구비추가지원 선정기준 충족시 추가급여 제공",
+  "applicationMethod": "○ 신청 가능시 공지 예정",
+  "documents": "신청서, 신분증 등",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 노원구 장애인 자립생활 지원 조례",
+  "inquiryText": "장애인복지과/02-2116-3313",
+  "ageMin": 19,
+  "ageMax": 64
+}

@@ -1,35 +1,15 @@
-import { promises as fs } from "fs";
-import path from "path";
 import Link from "next/link";
 import HomeEventsSection from "@/components/HomeEventsSection";
+import HomeBenefitsSection from "@/components/HomeBenefitsSection";
+import { getBenefitsIndex, getFeaturedBenefits } from "@/lib/public-benefits";
 import { getAllEvents, getEventsIndex } from "@/lib/seoul-events";
 
-interface LocalBenefitsData {
-  benefits: Array<{
-    id: number;
-    title: string;
-    category: string;
-    startDate: string;
-    endDate: string;
-    location: string;
-    target: string;
-    summary: string;
-    url: string;
-  }>;
-  lastUpdated: string;
-}
-
-async function getLocalBenefitsData(): Promise<LocalBenefitsData> {
-  const filePath = path.join(process.cwd(), "public", "data", "local-info.json");
-  const fileContents = await fs.readFile(filePath, "utf8");
-  return JSON.parse(fileContents);
-}
-
 export default async function Home() {
-  const [localData, allEvents, eventsIndex] = await Promise.all([
-    getLocalBenefitsData(),
+  const [allEvents, featuredBenefits, eventsIndex, benefitsIndex] = await Promise.all([
     getAllEvents(),
+    getFeaturedBenefits(4),
     getEventsIndex(),
+    getBenefitsIndex(),
   ]);
 
   return (
@@ -98,53 +78,21 @@ export default async function Home() {
               <h2 className="flex items-center gap-2 text-2xl font-bold text-gray-900 sm:text-3xl">
                 <span className="text-3xl">💰</span> 놓치면 아쉬운 혜택
               </h2>
-              <p className="mt-2 text-gray-500">
-                서울 생활에 도움이 되는 지원 정보를 확인하세요
+            <p className="mt-2 text-gray-500">
+                공공데이터포털 기준으로 서울 혜택 정보를 확인하세요
               </p>
             </div>
           </div>
 
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-            {localData.benefits.map((benefit, index) => (
-              <div
-                key={benefit.id}
-                className="group flex h-full flex-col overflow-hidden rounded-2xl border border-amber-100 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
-                style={{ animationDelay: `${index * 0.15}s` }}
-              >
-                <div className="flex items-start justify-between p-1 pl-6 pt-6">
-                  <span className="inline-flex items-center rounded-md bg-amber-50 px-2.5 py-1 text-xs font-semibold text-amber-600">
-                    지원 혜택
-                  </span>
-                </div>
+          <HomeBenefitsSection benefits={featuredBenefits} />
 
-                <div className="flex flex-1 flex-col px-6 pb-6 pt-3">
-                  <h3 className="mb-4 line-clamp-2 text-xl font-bold text-gray-900 transition-colors group-hover:text-amber-600 sm:text-2xl">
-                    {benefit.title}
-                  </h3>
-
-                  <div className="mb-5 flex items-center gap-2 rounded-xl border border-amber-100/50 bg-gradient-to-r from-amber-50 to-orange-50 p-4 text-sm font-medium text-gray-700">
-                    <span className="text-xl">🎯</span>
-                    {benefit.target}
-                  </div>
-
-                  <p className="mb-6 flex-1 text-sm leading-relaxed text-gray-600">
-                    {benefit.summary}
-                  </p>
-
-                  <Link
-                    href={`/benefits/${benefit.id}`}
-                    className="inline-flex items-center text-sm font-semibold text-amber-600 hover:text-amber-700"
-                  >
-                    자세히 보기
-                    <svg className="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </Link>
-                </div>
-
-                <div className="h-1 bg-amber-400/20 transition-colors group-hover:bg-amber-400" />
-              </div>
-            ))}
+          <div className="mt-6">
+            <Link
+              href="/benefits"
+              className="inline-flex rounded-full border border-amber-200 bg-amber-50 px-4 py-2 text-sm font-semibold text-amber-700 transition-colors hover:bg-amber-100"
+            >
+              전체 혜택 보기
+            </Link>
           </div>
         </div>
       </section>
@@ -154,7 +102,9 @@ export default async function Home() {
           <p className="mb-2 text-sm text-gray-500">
             행사 데이터는 서울 열린데이터광장{" "}
             <code className="rounded bg-white px-1.5 py-0.5 text-orange-700">서울시 문화행사 정보</code>,
-            혜택 데이터는 현재 로컬 데이터 파일을 사용합니다.
+            혜택 데이터는 공공데이터포털{" "}
+            <code className="rounded bg-white px-1.5 py-0.5 text-amber-700">대한민국 공공서비스(혜택) 정보</code>
+            를 사용합니다.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-2">
             <div className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white px-3 py-1.5 text-xs font-medium text-gray-500 shadow-sm">
@@ -163,7 +113,7 @@ export default async function Home() {
             </div>
             <div className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white px-3 py-1.5 text-xs font-medium text-gray-500 shadow-sm">
               <span className="h-2 w-2 rounded-full bg-amber-500" />
-              혜택 업데이트: {localData.lastUpdated}
+              혜택 수집 시각: {benefitsIndex.source.collectedAt || "아직 수집되지 않음"}
             </div>
           </div>
         </div>

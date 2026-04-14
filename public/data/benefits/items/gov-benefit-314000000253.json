@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-314000000253",
+  "sourceId": "314000000253",
+  "title": "양천구민 무료법률상담 안내",
+  "field": "행정·안전",
+  "provider": "서울특별시 양천구",
+  "providerType": "자치구",
+  "district": "양천구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "서울특별시 양천구에 주소 또는 거소를 둔 주민",
+  "summary": "서울특별시 양천구에서 제공하는 행정·안전 혜택입니다. 주민생활에서 발생하는 각종 법률문제에 있어 주민의 권리를 보호하고 전문분야의 법률상담을 통하여\n주민에게 양질의 법률서비스 제공",
+  "supportType": "기타(상담)",
+  "supportSummary": "○ 상담분야 및 일정 \n - 법률(변호사) : 매주 월요일 10:00~12:00, 14:00~16:00 (공휴일 제외)\n - 세무(세무사) : 매주 목요일 10:00~12:00(공휴일 제외)\n○ 상담장소 : 무료법률상담실(구청1층 종합민원실 내)\n○ 상담방법 : 사전…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000253",
+  "onlineUrl": "https://www.yangcheon.go.kr/site/yangcheon/01/10104020100002016081013.jsp",
+  "inquiry": [
+    "기획예산과/02-2620-3188"
+  ],
+  "updatedAt": "2026-02-03",
+  "registeredAt": "2025-10-20",
+  "viewCount": 51,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "주민생활에서 발생하는 각종 법률문제에 있어 주민의 권리를 보호하고 전문분야의 법률상담을 통하여\n주민에게 양질의 법률서비스 제공",
+  "target": "서울특별시 양천구에 주소 또는 거소를 둔 주민",
+  "selectionCriteria": "",
+  "supportContent": "○ 상담분야 및 일정 \n - 법률(변호사) : 매주 월요일 10:00~12:00, 14:00~16:00 (공휴일 제외)\n - 세무(세무사) : 매주 목요일 10:00~12:00(공휴일 제외)\n○ 상담장소 : 무료법률상담실(구청1층 종합민원실 내)\n○ 상담방법 : 사전예약 후 방문 또는 전화상담(예약시 방문/전화 상담 선택)\n○ 상담시간 : 1회 20분\n○ 상담예약 : 구청홈페이지 내 '무료법률상담'에서 온라인 예약",
+  "applicationMethod": "유선(02-2620-3188) 또는 온라인 홈페이지를 통한 직접 예약",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 양천구 무료법률상담실 설치 및 운영 조례",
+  "inquiryText": "기획예산과/02-2620-3188",
+  "ageMin": 18,
+  "ageMax": 120
+}

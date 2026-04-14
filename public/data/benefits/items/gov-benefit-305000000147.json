@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-305000000147",
+  "sourceId": "305000000147",
+  "title": "1인가구 안심장비 지원사업",
+  "field": "행정·안전",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "가구",
+  "deadlineText": "별도문의",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "◎ 지원대상 : 동대문구에 거주하는 1인가구(1인단독 세대주)\n  ※ 청년·중장년 여성 1인가구, 범죄피해를 경험한 남성 1인가구(증빙자료 필수) 우선지원\n\n◎ 필수조건 : 전·월세 보증금(전세환산가액) 2억 5천만원 이하\n  ※ 아파트 거주자, 자가 소유자 제외…",
+  "summary": "서울특별시 동대문구에서 제공하는 행정·안전 혜택입니다. 동대문구 거주 단독세대주 및 범죄피해자 안심홈4종세트 지원 사업",
+  "supportType": "현물",
+  "supportSummary": "◎ 신청기간 : 별도공지\n\n◎ 지원물품 : 현관문안전고리, 창문잠금장치, 스마트 초인종, 가정용CCTV 총 4종세트\n\n◎ 신청방법 \n ① QR코드로 신청서 제출  ② 전·월세계약서 이메일 제출 \n  ※ 이메일주소 : ddmfc@daum.net\n\n◎ 지원대상 : 동대문…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청",
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000147",
+  "onlineUrl": "",
+  "inquiry": [
+    "보육여성과/02-2127-5080"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2022-07-13",
+  "viewCount": 3341,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "동대문구 거주 단독세대주 및 범죄피해자 안심홈4종세트 지원 사업",
+  "target": "◎ 지원대상 : 동대문구에 거주하는 1인가구(1인단독 세대주)\n  ※ 청년·중장년 여성 1인가구, 범죄피해를 경험한 남성 1인가구(증빙자료 필수) 우선지원\n\n◎ 필수조건 : 전·월세 보증금(전세환산가액) 2억 5천만원 이하\n  ※ 아파트 거주자, 자가 소유자 제외\n  ※ 전세환산가액 계산법 : 보증금 +(월세×12/5.5%)",
+  "selectionCriteria": "",
+  "supportContent": "◎ 신청기간 : 별도공지\n\n◎ 지원물품 : 현관문안전고리, 창문잠금장치, 스마트 초인종, 가정용CCTV 총 4종세트\n\n◎ 신청방법 \n ① QR코드로 신청서 제출  ② 전·월세계약서 이메일 제출 \n  ※ 이메일주소 : ddmfc@daum.net\n\n◎ 지원대상 : 동대문구에 거주하는 1인가구(1인단독 세대주)\n  ※ 청년·중장년 여성 1인가구, 범죄피해를 경험한 남성 1인가구(증빙자료 필수) 우선지원\n\n◎ 필수조건 : 전·월세 보증금(전세환산가액) 1억 5천만원 이하\n  ※ 아파트 거주자, 자가 소유자 제외\n  ※ 전세환산가액 계산법 : 보증금 +(월세×12)\n\n◎ 진행절차 \n  ① 서류제출 완료자 대상 선정심의회\n  ②선정결과 발표\n  ③임대인 및 건물주 설치동의서 제출\n  ④선정된 가구 대상 설치 지원\n\n ◎ 문의전화 : 동대문구1인가구지원센터 ☎ 070-7459-3301~3",
+  "applicationMethod": "◎ 신청방법 \n ① QR코드로 신청서 제출 또는 https://docs.google.com/forms/d/19orxfvtlP5vwhSjnGyUjN1K1ZKtCVSbl4I0mQVW6oqk/edit \n ② 전·월세계약서 이메일 제출 \n  ※ 이메일주소 : ddmfc@daum.net",
+  "documents": "◎ 신청방법 \n ① QR코드로 신청서 제출\n ② 전·월세계약서 이메일 제출 \n  ※ 이메일주소 : ddmfc@daum.net",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "성폭력방지 및 피해자보호 등에 관한 법률(제3조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "보육여성과/02-2127-5080",
+  "ageMin": 18,
+  "ageMax": 120
+}

@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-701000000208",
+  "sourceId": "701000000208",
+  "title": "특수교육대상자 통학비 지원",
+  "field": "보육·교육",
+  "provider": "서울특별시교육청",
+  "providerType": "서울시",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "1학기, 2학기(연2회)",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "공·사립 중·고·특수학교에 재학 중인 특수교육대상자",
+  "summary": "서울특별시교육청에서 제공하는 보육·교육 혜택입니다. - 특수교육대상자 통학 편의 증진 및 학습권 보장\n- 특수교육대상자 실질적인 통합교육 기회 제공 및 교육복지 실현",
+  "supportType": "현금",
+  "supportSummary": "○ 통학비 지원\n - 일 2천원, 보호자 동행 시 4천원 지원\n - 실제 등교일수 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/701000000208",
+  "onlineUrl": "",
+  "inquiry": [
+    "서울특별시교육청/02-399-9584"
+  ],
+  "updatedAt": "2026-02-04",
+  "registeredAt": "2022-07-15",
+  "viewCount": 755,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "- 특수교육대상자 통학 편의 증진 및 학습권 보장\n- 특수교육대상자 실질적인 통합교육 기회 제공 및 교육복지 실현",
+  "target": "공·사립 중·고·특수학교에 재학 중인 특수교육대상자",
+  "selectionCriteria": "",
+  "supportContent": "○ 통학비 지원\n - 일 2천원, 보호자 동행 시 4천원 지원\n - 실제 등교일수 지원",
+  "applicationMethod": "○ 방문 신청\n - 재학 중인 학교로 신청서 제출(학부모→학교)",
+  "documents": "신청서(학부모→학교)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "장애인 등에 대한 특수교육법"
+  ],
+  "ordinance": "",
+  "inquiryText": "서울특별시교육청/02-399-9584",
+  "ageMin": 0,
+  "ageMax": 120
+}

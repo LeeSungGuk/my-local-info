@@ -1,0 +1,47 @@
+{
+  "id": "gov-benefit-316000000112",
+  "sourceId": "316000000112",
+  "title": "장애인 재활보조기구 수리비 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 구로구",
+  "providerType": "자치구",
+  "district": "구로구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 전동휠체어, 전동스쿠터, 수동휠체어의 수리가 필요한 관내 등록장애인",
+  "summary": "서울특별시 구로구에서 제공하는 보건·의료 혜택입니다. 장애인에게 재활보조기구 수리비용 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 서비스내용 : 장애인재활보조기구(전동휠체어, 전동스쿠터, 수동휠체어)의 수리가 필요한 관내 등록장애인을 대상으로 수리비용 지원\n\n○ 서비스금액\n - 수급자 및 차상위계층 : 연간 30만원 한도로 수리비 지원\n - 일반 등록장애인 : 연간 20만원 한도로 수리비 지…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/316000000112",
+  "onlineUrl": "",
+  "inquiry": [
+    "장애인복지과/02-860-2143"
+  ],
+  "updatedAt": "2026-02-03",
+  "registeredAt": "2021-09-23",
+  "viewCount": 705,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "장애인에게 재활보조기구 수리비용 지원",
+  "target": "○ 전동휠체어, 전동스쿠터, 수동휠체어의 수리가 필요한 관내 등록장애인",
+  "selectionCriteria": "",
+  "supportContent": "○ 서비스내용 : 장애인재활보조기구(전동휠체어, 전동스쿠터, 수동휠체어)의 수리가 필요한 관내 등록장애인을 대상으로 수리비용 지원\n\n○ 서비스금액\n - 수급자 및 차상위계층 : 연간 30만원 한도로 수리비 지원\n - 일반 등록장애인 : 연간 20만원 한도로 수리비 지원\n ※ 예산 범위 내 지원하며, 예산 조기 소진 시 사업 종료",
+  "applicationMethod": "○ 방문 신청\n - 주민센터 : 거주지 관할 주민센터에 방문 신청",
+  "documents": "1. 신청인 제출서류\n  - 신분증(장애인 복지카드)\n  - 신청서류(주민센터 구비) \n  - 저소득 증명서(주민센터 확인)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "장애인복지법",
+    "장애인복지법(제30조)",
+    "장애인복지법(제65조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "장애인복지과/02-860-2143",
+  "ageMin": 0,
+  "ageMax": 120
+}

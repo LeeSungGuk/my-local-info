@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00022600025",
+  "sourceId": "O00022600025",
+  "title": "거주자우선주차 배점가산(모두의주차장)",
+  "field": "생활안정",
+  "provider": "광진구시설관리공단",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "광진구 거주자우선주차 배정자 중 모두의주차장 공유자",
+  "summary": "광진구시설관리공단에서 제공하는 생활안정 혜택입니다. 모두의주차장 공유자에게 광진구 거주자우선주차 배점 최대 10점 가산",
+  "supportType": "기타",
+  "supportSummary": "주차신청 배점 가산(최대 10점)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022600025",
+  "onlineUrl": "https://pk.gwangjin.or.kr/Account/Login",
+  "inquiry": [
+    "광진구시설관리공단 주차사업부/02-2049-4540"
+  ],
+  "updatedAt": "2026-02-24",
+  "registeredAt": "2022-07-15",
+  "viewCount": 458,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "모두의주차장 공유자에게 광진구 거주자우선주차 배점 최대 10점 가산",
+  "target": "광진구 거주자우선주차 배정자 중 모두의주차장 공유자",
+  "selectionCriteria": "",
+  "supportContent": "주차신청 배점 가산(최대 10점)",
+  "applicationMethod": "○ 행정정보공동망인증, 온라인 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "광진구시설관리공단 주차사업부/02-2049-4540",
+  "ageMin": 0,
+  "ageMax": 120
+}

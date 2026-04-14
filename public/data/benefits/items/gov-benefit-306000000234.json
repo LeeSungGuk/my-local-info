@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-306000000234",
+  "sourceId": "306000000234",
+  "title": "중랑양원미디어센터 미디어 교육 및 영화 상영",
+  "field": "문화·환경",
+  "provider": "서울특별시 중랑구",
+  "providerType": "자치구",
+  "district": "중랑구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "중랑구에 거주하거나, 중랑구에 소재한 직장에 다니는 직장인 또는 중랑구에 소재한 학교에 다니는 학생",
+  "summary": "서울특별시 중랑구에서 제공하는 문화·환경 혜택입니다. 중랑구민의 미디어 활용 능력과 이해 능력 향상",
+  "supportType": "기타",
+  "supportSummary": "○ 미디어교육\n - 스마트폰을 활용한 생활 속 미디어 활용 교육\n - 미디어 리터러시, 미디어 인문학 등의 이론교육\n - 전문적인 영상 제작을 위한 촬영, 편집 등의 기술 교육\n\n○ 영화상영\n - 주제별로 엄선한 영화 및 구민들의 추천을 받은 작품 상영\n - 고전영화…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/306000000234",
+  "onlineUrl": "https://yw.jnmc.or.kr/M000251/S001/fw/edu/list.do?bdRoom=1",
+  "inquiry": [
+    "중랑양원미디어센터/02-2208-0668"
+  ],
+  "updatedAt": "2026-03-09",
+  "registeredAt": "2025-08-28",
+  "viewCount": 109,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "중랑구민의 미디어 활용 능력과 이해 능력 향상",
+  "target": "중랑구에 거주하거나, 중랑구에 소재한 직장에 다니는 직장인 또는 중랑구에 소재한 학교에 다니는 학생",
+  "selectionCriteria": "",
+  "supportContent": "○ 미디어교육\n - 스마트폰을 활용한 생활 속 미디어 활용 교육\n - 미디어 리터러시, 미디어 인문학 등의 이론교육\n - 전문적인 영상 제작을 위한 촬영, 편집 등의 기술 교육\n\n○ 영화상영\n - 주제별로 엄선한 영화 및 구민들의 추천을 받은 작품 상영\n - 고전영화, 독립예술영화, 단편영화 등 다양한 장르의 영화 상영\n\n○ 미디어체험\n - 센터 내 스튜디오 등을 활용하여 다양한 미디어 체험 경험 제공",
+  "applicationMethod": "홈페이지에서 회원 가입 후 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 중랑구 미디어센터 설치 및 운영에 관한 조례",
+  "inquiryText": "중랑양원미디어센터/02-2208-0668",
+  "ageMin": 8,
+  "ageMax": 120
+}

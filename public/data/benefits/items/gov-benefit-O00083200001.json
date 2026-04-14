@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00083200001",
+  "sourceId": "O00083200001",
+  "title": "예술기반지원 서비스",
+  "field": "문화·환경",
+  "provider": "서울문화재단",
+  "providerType": "서울 공공기관",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "예술인(단체)",
+  "summary": "서울문화재단에서 제공하는 문화·환경 혜택입니다. 창작활동의 기반요소인 공간, 창작준비, 기록(아카이브)지원을 통해 예술활동의 선순환적 구조의 창작환경 조성",
+  "supportType": "현금",
+  "supportSummary": "○ 창작활동의 기반요소인 공간, 창작준비, 기록(아카이브)지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00083200001",
+  "onlineUrl": "scas.kr",
+  "inquiry": [
+    "예술지원2팀/02-3290-7489"
+  ],
+  "updatedAt": "2026-02-04",
+  "registeredAt": "2022-07-15",
+  "viewCount": 798,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "창작활동의 기반요소인 공간, 창작준비, 기록(아카이브)지원을 통해 예술활동의 선순환적 구조의 창작환경 조성",
+  "target": "예술인(단체)",
+  "selectionCriteria": "",
+  "supportContent": "○ 창작활동의 기반요소인 공간, 창작준비, 기록(아카이브)지원",
+  "applicationMethod": "○ 온라인 신청\n - 서울문화예술지원시스템(http://scas.kr)를 통한 온라인 지원 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "예술지원2팀/02-3290-7489",
+  "ageMin": 0,
+  "ageMax": 120
+}

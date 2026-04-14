@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-317000000111",
+  "sourceId": "317000000111",
+  "title": "국내 입양가정 입양축하금 지원",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 금천구",
+  "providerType": "자치구",
+  "district": "금천구",
+  "userType": "개인||가구",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 입양특례법상 입양기관을 통해 입양한 국내 입양아동 및 입양가정\n○ 장애등록 및 선천적 요인의 장애, 질환이 있는 입양아동\n○ 입양일 기준 6개월 이상 금천구에 주민등록을 두고 실거주하고 있는 입양 부모",
+  "summary": "서울특별시 금천구에서 제공하는 보호·돌봄 혜택입니다. 입양아동 및 입양가정을 지원하여 국내 입양을 활성화하고 아동이 안정적인 가정환경에서 건전하게 성장할 수 있도록 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 입양부모에게 입양아동 1명당 200만원 현금지원\n○ 일반아동 100만원/장애아동 200만원(구지원)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/317000000111",
+  "onlineUrl": "",
+  "inquiry": [
+    "아동청소년과/02-2627-2252"
+  ],
+  "updatedAt": "2026-02-09",
+  "registeredAt": "2021-09-23",
+  "viewCount": 740,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "입양아동 및 입양가정을 지원하여 국내 입양을 활성화하고 아동이 안정적인 가정환경에서 건전하게 성장할 수 있도록 지원",
+  "target": "○ 입양특례법상 입양기관을 통해 입양한 국내 입양아동 및 입양가정\n○ 장애등록 및 선천적 요인의 장애, 질환이 있는 입양아동\n○ 입양일 기준 6개월 이상 금천구에 주민등록을 두고 실거주하고 있는 입양 부모",
+  "selectionCriteria": "",
+  "supportContent": "○ 입양부모에게 입양아동 1명당 200만원 현금지원\n○ 일반아동 100만원/장애아동 200만원(구지원)",
+  "applicationMethod": "○ 방문 신청\n - 기타 : 입양 신고 후 90일 이내 금천구청(아동청소년과)에 방문신청",
+  "documents": "1. 입양축하금 지원 신청서 1부(별지 1호 서식)\n2. 입양사실확인서(입양기관 발급)\n3. 예금통장 사본 1부\n4. 입양아동이 장애아동임을 증명하는 서류(장애아동을 입양한 가정에 한정함)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "입양특례법"
+  ],
+  "ordinance": "서울특별시 금천구 입양가정 지원에 관한 조례",
+  "inquiryText": "아동청소년과/02-2627-2252",
+  "ageMin": 18,
+  "ageMax": 44
+}

@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-304000000164",
+  "sourceId": "304000000164",
+  "title": "폐지수집 어르신 지원",
+  "field": "문화·환경",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "광진구에 주민등록을 두고 실제 거주하는 65세 이상 또는 차상위 계층 기준 소득인정액 150%이하\n  - 차량이 아닌 손수레 등으로 수집하는 사람\n  - 지원 상한 기준 : 1인당 1일 150kg/월 최대 4,500kg까지 가능",
+  "summary": "서울특별시 광진구에서 제공하는 문화·환경 혜택입니다. 폐지 단가 차액 지원",
+  "supportType": "현금",
+  "supportSummary": "구(區)지정 폐지 단가와 실제 단가 차액 발생 시 차액에 대해 지원금 지급",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000164",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 청소과/02-450-7624"
+  ],
+  "updatedAt": "2026-01-29",
+  "registeredAt": "2021-11-03",
+  "viewCount": 883,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "폐지 단가 차액 지원",
+  "target": "광진구에 주민등록을 두고 실제 거주하는 65세 이상 또는 차상위 계층 기준 소득인정액 150%이하\n  - 차량이 아닌 손수레 등으로 수집하는 사람\n  - 지원 상한 기준 : 1인당 1일 150kg/월 최대 4,500kg까지 가능",
+  "selectionCriteria": "",
+  "supportContent": "구(區)지정 폐지 단가와 실제 단가 차액 발생 시 차액에 대해 지원금 지급",
+  "applicationMethod": "관할 주민센터 방문신청",
+  "documents": "판매영수증(수집인이 고물상에게서 판매 영수증 발급받아 제출)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 광진구 재활용품 수집인 지원에 관한 조례",
+  "inquiryText": "광진구 청소과/02-450-7624",
+  "ageMin": 65,
+  "ageMax": 120
+}

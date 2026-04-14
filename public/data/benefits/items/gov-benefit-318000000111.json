@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-318000000111",
+  "sourceId": "318000000111",
+  "title": "특기 장학금 지원",
+  "field": "보육·교육",
+  "provider": "재단법인영등포구미래교육재단",
+  "providerType": "자치구",
+  "district": "영등포구",
+  "userType": "개인",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 영등포구 관내 초, 중, 고등학교 학생",
+  "summary": "재단법인영등포구미래교육재단에서 제공하는 보육·교육 혜택입니다. 전국 또는 광역 단위 대회에 입상한 특기자 초·중·고교생에게 장학금 지원",
+  "supportType": "현금(장학금)",
+  "supportSummary": "○ 전국단위 체육(단체 구기종목)에서 3위권  이상 입상한 학생 또는 광역단위 체육(단체 구기종목)에서 4위권 이상 입상한 학생 장학금 지원\n○ 전국단위 체육(개인종목)문화, 예술, 기능, 수학, 과학대회에서 3위권 이상 입상한 학생 장학금 지원\n○ 성적 산출 어려운…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000111",
+  "onlineUrl": "",
+  "inquiry": [
+    "미래교육재단/02-2670-3072"
+  ],
+  "updatedAt": "2026-01-23",
+  "registeredAt": "2021-09-23",
+  "viewCount": 759,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "전국 또는 광역 단위 대회에 입상한 특기자 초·중·고교생에게 장학금 지원",
+  "target": "○ 영등포구 관내 초, 중, 고등학교 학생",
+  "selectionCriteria": "",
+  "supportContent": "○ 전국단위 체육(단체 구기종목)에서 3위권  이상 입상한 학생 또는 광역단위 체육(단체 구기종목)에서 4위권 이상 입상한 학생 장학금 지원\n○ 전국단위 체육(개인종목)문화, 예술, 기능, 수학, 과학대회에서 3위권 이상 입상한 학생 장학금 지원\n○ 성적 산출 어려운 종목, 전국단위 대회 경기 참가 실적 기준으로 장학금 지원",
+  "applicationMethod": "○ 전자문서 발송\n - 학교장 추천서를 영등포구미래교육재단으로 제출",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 영등포구 미래교육재단 설립 및 운영 지원에 관한 조례",
+  "inquiryText": "미래교육재단/02-2670-3072",
+  "ageMin": 0,
+  "ageMax": 120
+}

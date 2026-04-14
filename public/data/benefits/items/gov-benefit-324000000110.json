@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-324000000110",
+  "sourceId": "324000000110",
+  "title": "명절맞이 위문물품 지원(양로시설)",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 강동구",
+  "providerType": "자치구",
+  "district": "강동구",
+  "userType": "개인",
+  "deadlineText": "별도 신청절차 없음(설/추석 명절 지원)",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 양로시설 입소어르신",
+  "summary": "서울특별시 강동구에서 제공하는 보호·돌봄 혜택입니다. 양로시설 입소 어르신에게 명절맞이 위문물품 지원",
+  "supportType": "현물",
+  "supportSummary": "○ 양로시설 입소 어르신에게 명절맞이 위문물품 지원\n   - 70만원 / 연 2회",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/324000000110",
+  "onlineUrl": "",
+  "inquiry": [
+    "어르신복지과/02-3425-5743"
+  ],
+  "updatedAt": "2026-02-09",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1067,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "양로시설 입소 어르신에게 명절맞이 위문물품 지원",
+  "target": "○ 양로시설 입소어르신",
+  "selectionCriteria": "",
+  "supportContent": "○ 양로시설 입소 어르신에게 명절맞이 위문물품 지원\n   - 70만원 / 연 2회",
+  "applicationMethod": "○ 개인 신청절차 없음",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "사회복지사업법"
+  ],
+  "ordinance": "서울특별시 강동구 저소득주민의 생활안정에 관한 조례(제4조, 제1항)",
+  "inquiryText": "어르신복지과/02-3425-5743",
+  "ageMin": 65,
+  "ageMax": 120
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-701000000205",
+  "sourceId": "701000000205",
+  "title": "유치원 특수교육대상자 무상교육비 지원",
+  "field": "보육·교육",
+  "provider": "서울특별시교육청",
+  "providerType": "서울시",
+  "district": "서울특별시",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "유치원 일반학급에 배치받은 만3~5세 특수교육대상 유아",
+  "summary": "서울특별시교육청에서 제공하는 보육·교육 혜택입니다. 유치원 일반학급에 배치되는 특수교육 유아 대상 무상교육비 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 유치원 일반학급에 배치받은 특수교육대상자 무상교육비 지원 (공립 월 최대 8.6만원, 사립 월 최대 33.4만원)\n - 「장애인 등에 대한 특수교육법」에 의한 특수교육대상자 중 유치원 일반학급에 배치된 유아",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/701000000205",
+  "onlineUrl": "",
+  "inquiry": [
+    "유아교육과/02-399-9052"
+  ],
+  "updatedAt": "2026-02-03",
+  "registeredAt": "2022-07-15",
+  "viewCount": 785,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "유치원 일반학급에 배치되는 특수교육 유아 대상 무상교육비 지원",
+  "target": "유치원 일반학급에 배치받은 만3~5세 특수교육대상 유아",
+  "selectionCriteria": "",
+  "supportContent": "○ 유치원 일반학급에 배치받은 특수교육대상자 무상교육비 지원 (공립 월 최대 8.6만원, 사립 월 최대 33.4만원)\n - 「장애인 등에 대한 특수교육법」에 의한 특수교육대상자 중 유치원 일반학급에 배치된 유아",
+  "applicationMethod": "○ 방문 신청\n - 교육지원청 특수교육지원센터에 특수교육대상 유아진단 평가 의뢰서 제출",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "장애인 등에 대한 특수교육법(제3조)",
+    "장애인 등에 대한 특수교육법 시행령(제3조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "유아교육과/02-399-9052",
+  "ageMin": 3,
+  "ageMax": 5
+}

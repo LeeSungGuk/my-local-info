@@ -1,0 +1,48 @@
+{
+  "id": "gov-benefit-305000000171",
+  "sourceId": "305000000171",
+  "title": "다문화자녀 진로진학 프로그램",
+  "field": "생활안정",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 대상 : 동대문구를 비롯한 서울 동북부 거주 다문화가족 학부모 및 중·고등학생",
+  "summary": "서울특별시 동대문구에서 제공하는 생활안정 혜택입니다. 다문화가족 자녀 진로진학 컨설팅",
+  "supportType": "기타",
+  "supportSummary": "○ 사업내용 \n -  다문화자녀의 진로·직업역량 향상을 위한 맞춤형 진로·진학 컨설팅프로그램\n -  진로·진학컨설팅, 입시설명회, 진로체험프로그램, 대학생 그룹 멘토링\n\n○ 대상 : 동대문구를 비롯한 서울 동북부 거주 다문화가족 학부모 및 중·고등학생 50명 내외",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "정부24온라인신청",
+    "기타 온라인신청",
+    "방문신청",
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000171",
+  "onlineUrl": "https://ddmhfc.familynet.or.kr/center/index.do",
+  "inquiry": [
+    "보육여성과 출산다문화팀/02-2127-5083"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2023-02-10",
+  "viewCount": 691,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "다문화가족 자녀 진로진학 컨설팅",
+  "target": "○ 대상 : 동대문구를 비롯한 서울 동북부 거주 다문화가족 학부모 및 중·고등학생",
+  "selectionCriteria": "",
+  "supportContent": "○ 사업내용 \n -  다문화자녀의 진로·직업역량 향상을 위한 맞춤형 진로·진학 컨설팅프로그램\n -  진로·진학컨설팅, 입시설명회, 진로체험프로그램, 대학생 그룹 멘토링\n\n○ 대상 : 동대문구를 비롯한 서울 동북부 거주 다문화가족 학부모 및 중·고등학생 50명 내외",
+  "applicationMethod": "방문신청(동대문구가족센터 02-957-0760)",
+  "documents": "가족관계증명서 또는 등본 등 다문화가족확인서",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "다문화가족지원법(제6조)"
+  ],
+  "ordinance": "서울특별시 동대문구 다문화가족 지원 조례(제4조)",
+  "inquiryText": "보육여성과 출산다문화팀/02-2127-5083",
+  "ageMin": 0,
+  "ageMax": 120
+}

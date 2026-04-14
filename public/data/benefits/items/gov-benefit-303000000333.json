@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-303000000333",
+  "sourceId": "303000000333",
+  "title": "성동구 장애인 스마트IoT 배회감지기 보급",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 성동구",
+  "providerType": "자치구",
+  "district": "성동구",
+  "userType": "개인",
+  "deadlineText": "접수기관 별도안내시",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "성동구 거주 발달장애인",
+  "summary": "서울특별시 성동구에서 제공하는 보호·돌봄 혜택입니다. 성동구 관내 장애인의 실종을 예방하고, 장애인이 안전하게 지역사회 활동에 참여할 수 있도록 지원하여 자율성과 사회참여를 증진시킴",
+  "supportType": "기타",
+  "supportSummary": "- GPS가 탑재된 스마트 인솔(Insole) 보급 및 모니터링\n- 보호자가 스마트폰 어플을 통해 대상자 위치 확인\n- 발달장애인의 특성을 반영한 자가외출 및 지역사회 적응 훈련 실시",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청",
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000333",
+  "onlineUrl": "http://www.seongdongdfsc.or.kr/",
+  "inquiry": [
+    "성동장애인가족지원센터/070-5030-0533"
+  ],
+  "updatedAt": "2026-02-02",
+  "registeredAt": "2025-11-07",
+  "viewCount": 76,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "성동구 관내 장애인의 실종을 예방하고, 장애인이 안전하게 지역사회 활동에 참여할 수 있도록 지원하여 자율성과 사회참여를 증진시킴",
+  "target": "성동구 거주 발달장애인",
+  "selectionCriteria": "",
+  "supportContent": "- GPS가 탑재된 스마트 인솔(Insole) 보급 및 모니터링\n- 보호자가 스마트폰 어플을 통해 대상자 위치 확인\n- 발달장애인의 특성을 반영한 자가외출 및 지역사회 적응 훈련 실시",
+  "applicationMethod": "구글폼 신청서 작성 및 전화",
+  "documents": "구글폼 신청서 작성 및 전화",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "발달장애인 권리보장 및 지원에 관한 법률"
+  ],
+  "ordinance": "",
+  "inquiryText": "성동장애인가족지원센터/070-5030-0533",
+  "ageMin": 0,
+  "ageMax": 120
+}

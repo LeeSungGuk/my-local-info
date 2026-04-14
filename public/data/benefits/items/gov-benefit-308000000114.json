@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-308000000114",
+  "sourceId": "308000000114",
+  "title": "찾아가는 맞춤형 세탁서비스",
+  "field": "생활안정",
+  "provider": "서울특별시 강북구",
+  "providerType": "자치구",
+  "district": "강북구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 강북구 거주 65세 이상 저소득 독거노인(기초생활수급자, 차상위), 장애정도가 심한 장애인",
+  "summary": "서울특별시 강북구에서 제공하는 생활안정 혜택입니다. 강북구 거주 저소득 독거노인, 장애정도가 심한 장애인에 맞춤형 세탁서비스 지원",
+  "supportType": "서비스(돌봄)",
+  "supportSummary": "○ 대상 : 강북구 거주 65세 이상 저소득 독거노인(기초생활수급자, 차상위), 장애정도가 심한 장애인\n\n○ 내용 : 대형세탁물(이불)\n\n○ 이용료 : 무료\n\n○ 신청방법 : 주소지 관할 동주민센터 방문신청 후 신청인이 직접 세탁소에 수거요청(지원여부 확인)\n\n○ 신…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/308000000114",
+  "onlineUrl": "",
+  "inquiry": [
+    "각동주민센터 복지담당/02-901-6672"
+  ],
+  "updatedAt": "2026-02-03",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1335,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "강북구 거주 저소득 독거노인, 장애정도가 심한 장애인에 맞춤형 세탁서비스 지원",
+  "target": "○ 강북구 거주 65세 이상 저소득 독거노인(기초생활수급자, 차상위), 장애정도가 심한 장애인",
+  "selectionCriteria": "",
+  "supportContent": "○ 대상 : 강북구 거주 65세 이상 저소득 독거노인(기초생활수급자, 차상위), 장애정도가 심한 장애인\n\n○ 내용 : 대형세탁물(이불)\n\n○ 이용료 : 무료\n\n○ 신청방법 : 주소지 관할 동주민센터 방문신청 후 신청인이 직접 세탁소에 수거요청(지원여부 확인)\n\n○ 신청서류 : 세탁서비스 신청서, 장애인-복지카드, 독거노인-신분증",
+  "applicationMethod": "○ 방문 신청\n    - 각 동주민센터 복지담당자",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 강북구 노인복지 기본 조례||서울특별시 강북구 장애인가족 지원 조례",
+  "inquiryText": "각동주민센터 복지담당/02-901-6672",
+  "ageMin": 0,
+  "ageMax": 120
+}

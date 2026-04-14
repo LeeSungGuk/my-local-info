@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-305000000117",
+  "sourceId": "305000000117",
+  "title": "장애인 이동치과 방문검진 사업",
+  "field": "보건·의료",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "개인",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "관내 장애인 시설 이용자",
+  "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 관내 장애인 시설 이용자 대상으로 이동치과 방문검진 서비스 제공",
+  "supportType": "서비스(의료)",
+  "supportSummary": "○ 장애인 이동치과 방문검진 사업\n \n  - 구강검진 및 상담, 불소도포\n  - 구강보건교육 (구강위생용품, 의치관리 등 )\n  - 추가 치료 필요 시 보건소 치과 예약  또는  장애인 이동치과 병원  의뢰",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000117",
+  "onlineUrl": "",
+  "inquiry": [
+    "채보경/02-2127-5362"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2022-04-21",
+  "viewCount": 663,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "관내 장애인 시설 이용자 대상으로 이동치과 방문검진 서비스 제공",
+  "target": "관내 장애인 시설 이용자",
+  "selectionCriteria": "",
+  "supportContent": "○ 장애인 이동치과 방문검진 사업\n \n  - 구강검진 및 상담, 불소도포\n  - 구강보건교육 (구강위생용품, 의치관리 등 )\n  - 추가 치료 필요 시 보건소 치과 예약  또는  장애인 이동치과 병원  의뢰",
+  "applicationMethod": "해당 서비스는 신청없이 자격대상자에게 자동적으로 제공됩니다.",
+  "documents": "관내 장애인 시설 이용자 이름, 생년월일, 장애등급 등 정보 제공",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "구강보건법(제5조의2, 제5항)",
+    "구강보건법(제5조의5)"
+  ],
+  "ordinance": "",
+  "inquiryText": "채보경/02-2127-5362",
+  "ageMin": 0,
+  "ageMax": 120
+}

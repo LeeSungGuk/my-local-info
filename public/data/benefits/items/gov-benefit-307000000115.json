@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-307000000115",
+  "sourceId": "307000000115",
+  "title": "취약계층 인플루엔자 예방접종 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 성북구",
+  "providerType": "자치구",
+  "district": "성북구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 장애정도가 심한 장애인, 기초생활수급자, 국가유공자(국가예방접종 사업 대상자 제외, 기초생활수급자의 경우 만 50세 이상)",
+  "summary": "서울특별시 성북구에서 제공하는 보건·의료 혜택입니다. 취약계층을 대상으로 인플루엔자 예방접종 지원",
+  "supportType": "서비스(의료)",
+  "supportSummary": "○ 장애정도가 심한 장애인, 기초생활수급자, 국가유공자 인플루엔자 1회 무료 접종\n - 국가예방접종 사업 대상자 제외, 기초생활수급자의 경우 만 50세 이상",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000115",
+  "onlineUrl": "",
+  "inquiry": [
+    "건강관리과/02-2241-6067"
+  ],
+  "updatedAt": "2026-03-18",
+  "registeredAt": "2021-09-23",
+  "viewCount": 802,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "취약계층을 대상으로 인플루엔자 예방접종 지원",
+  "target": "○ 장애정도가 심한 장애인, 기초생활수급자, 국가유공자(국가예방접종 사업 대상자 제외, 기초생활수급자의 경우 만 50세 이상)",
+  "selectionCriteria": "",
+  "supportContent": "○ 장애정도가 심한 장애인, 기초생활수급자, 국가유공자 인플루엔자 1회 무료 접종\n - 국가예방접종 사업 대상자 제외, 기초생활수급자의 경우 만 50세 이상",
+  "applicationMethod": "○ 방문 신청\n - 기타 : 위탁의료기관",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 성북구 예방접종 지원 및 위탁에 관한 조례",
+  "inquiryText": "건강관리과/02-2241-6067",
+  "ageMin": 0,
+  "ageMax": 120
+}

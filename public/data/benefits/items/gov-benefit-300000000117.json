@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-300000000117",
+  "sourceId": "300000000117",
+  "title": "지역아동센터 운영 지원",
+  "field": "행정·안전",
+  "provider": "서울특별시 종로구",
+  "providerType": "자치구",
+  "district": "종로구",
+  "userType": "법인/시설/단체",
+  "deadlineText": "분기별",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "종로구 소재 지역아동센터",
+  "summary": "서울특별시 종로구에서 제공하는 행정·안전 혜택입니다. 국시비 보조금의 부족분을 구비로 보전함으로써 더 나은 돌봄환경 조성 및 종사자 사기진작",
+  "supportType": "현금",
+  "supportSummary": "○ 지역아동센터 운영 지원\n  - 운영보조금: 월 500천원 / 1개소(단일임금 미지급 시설)\n  - 급식인력인건비: 월 500천원 / 1개소(조리사 채용시설)\n  - 법정종사자 처우개선비: 월 100천원 / 1명당(단일임금 미지급 개인시설)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000117",
+  "onlineUrl": "http://w4c.go.kr/",
+  "inquiry": [
+    "아동복지과/02-2148-2973"
+  ],
+  "updatedAt": "2026-01-27",
+  "registeredAt": "2022-07-11",
+  "viewCount": 634,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "국시비 보조금의 부족분을 구비로 보전함으로써 더 나은 돌봄환경 조성 및 종사자 사기진작",
+  "target": "종로구 소재 지역아동센터",
+  "selectionCriteria": "",
+  "supportContent": "○ 지역아동센터 운영 지원\n  - 운영보조금: 월 500천원 / 1개소(단일임금 미지급 시설)\n  - 급식인력인건비: 월 500천원 / 1개소(조리사 채용시설)\n  - 법정종사자 처우개선비: 월 100천원 / 1명당(단일임금 미지급 개인시설)",
+  "applicationMethod": "사회복지시설정보시스템 - 보조금 신청",
+  "documents": "보조금 신청서\n이용아동 및 종사자 명단",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 종로구 지역아동센터 운영 및 지원에 관한 조례(제9조)",
+  "inquiryText": "아동복지과/02-2148-2973",
+  "ageMin": 0,
+  "ageMax": 0
+}

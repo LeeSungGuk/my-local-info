@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-300000000104",
+  "sourceId": "300000000104",
+  "title": "지역화폐(종로사랑상품권)",
+  "field": "행정·안전",
+  "provider": "서울특별시 종로구",
+  "providerType": "자치구",
+  "district": "종로구",
+  "userType": "개인",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 지역화폐 구매자",
+  "summary": "서울특별시 종로구에서 제공하는 행정·안전 혜택입니다. ○ 시민의 경제적 부담 경감\n○ 소상공인 매출 증대",
+  "supportType": "이용권",
+  "supportSummary": "○ 종로사랑상품권 할인 판매",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000104",
+  "onlineUrl": "",
+  "inquiry": [
+    "일자리정책과/02-2148-2325"
+  ],
+  "updatedAt": "2026-01-28",
+  "registeredAt": "2021-09-23",
+  "viewCount": 2222,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "○ 시민의 경제적 부담 경감\n○ 소상공인 매출 증대",
+  "target": "○ 지역화폐 구매자",
+  "selectionCriteria": "",
+  "supportContent": "○ 종로사랑상품권 할인 판매",
+  "applicationMethod": "○ 기타\n - 모바일 상품권 개인 구매",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 종로구 종로사랑상품권 이용 활성화에 관한 조례",
+  "inquiryText": "일자리정책과/02-2148-2325",
+  "ageMin": 14,
+  "ageMax": 120
+}

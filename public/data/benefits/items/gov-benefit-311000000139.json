@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-311000000139",
+  "sourceId": "311000000139",
+  "title": "셋째아가정 산후건강관리 지원사업",
+  "field": "임신·출산",
+  "provider": "서울특별시 은평구",
+  "providerType": "자치구",
+  "district": "은평구",
+  "userType": "가구",
+  "deadlineText": "바우처 이용 후 한달이내 신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "셋째아 이상 출산 가정중 출산일 기준 30일전부터 은평구에 주민등록된 산모·신생아 건강관리 서비스(바우처) 이용자",
+  "summary": "서울특별시 은평구에서 제공하는 임신·출산 혜택입니다. 셋째아 이상 출산 가정 중 산모신생아 건강관리 서비스 본인부담금 90% 지원",
+  "supportType": "현금",
+  "supportSummary": "셋째아 이상 출산 가정 중 출산일 기준 30일전부터 은평구 주민등록된 산모신생아 건강관리 서비스 바우처 이용자에게 본인부담금 90% 지원\n(단, 타서비스 중복지원 시 제외 후  지원)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000139",
+  "onlineUrl": "",
+  "inquiry": [
+    "가족건강팀/023518239"
+  ],
+  "updatedAt": "2026-01-16",
+  "registeredAt": "2022-10-27",
+  "viewCount": 439,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "셋째아 이상 출산 가정 중 산모신생아 건강관리 서비스 본인부담금 90% 지원",
+  "target": "셋째아 이상 출산 가정중 출산일 기준 30일전부터 은평구에 주민등록된 산모·신생아 건강관리 서비스(바우처) 이용자",
+  "selectionCriteria": "",
+  "supportContent": "셋째아 이상 출산 가정 중 출산일 기준 30일전부터 은평구 주민등록된 산모신생아 건강관리 서비스 바우처 이용자에게 본인부담금 90% 지원\n(단, 타서비스 중복지원 시 제외 후  지원)",
+  "applicationMethod": "방문 신청",
+  "documents": "· 셋째아가정 산후 건강관리 지원 본인부담금 신청서 1부.\n · 산모신생아건강관리지원서비스 이용확인서 1부.\n · 서비스 제공기록지 1부. \n · 출산일 기준 30일전부터 은평구 주민등록 등재 확인서류(등본)\n  (행정정보공동이용 동의시 생략 가능)\n· 통장사본(모)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "모자보건법(제3조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "가족건강팀/023518239",
+  "ageMin": 18,
+  "ageMax": 44
+}

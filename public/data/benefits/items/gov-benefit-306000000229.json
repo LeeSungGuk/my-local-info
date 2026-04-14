@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-306000000229",
+  "sourceId": "306000000229",
+  "title": "생활체육교실 운영",
+  "field": "문화·환경",
+  "provider": "서울특별시 중랑구",
+  "providerType": "자치구",
+  "district": "중랑구",
+  "userType": "개인",
+  "deadlineText": "n월 셋째주 월요일 09:00 ~ 금요일 18:00",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "중랑구에 주소지를 둔 20세 이상 중랑구민(주민등록지 기준)\n  * 청소년 생활체육교실은 중랑구에 주소지를 둔 학생 대상으로 실시",
+  "summary": "서울특별시 중랑구에서 제공하는 문화·환경 혜택입니다. 구민들의 체육활동 참여 기회 확대를 위해 다양한 생활체육교실을 운영하여\n구민들의 건강증진을 도모하고 생활체육 저변을 확대하며 구민들의 화합에 기여하고자 함.",
+  "supportType": "기타(교육)",
+  "supportSummary": "○  추진근거\n      - 국민체육진흥법 제8조 및 동법 제16조, 동법 시행령 제6조\n      - 문화체육관광부 지방체육업무편람\n      - 서울특별시 중랑구 체육진흥 조례 제4조 및 동법 제6조\n\n   ○  운영기간 : 2025. 1. ~ 12.\n\n   ○…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/306000000229",
+  "onlineUrl": "https://www.jungnang.go.kr/portal/app/integrateApp/integrateList.do?programId=integrateApp&amp;division=1&amp;menuNo=200390",
+  "inquiry": [
+    "체육진흥과/02-2094-0074"
+  ],
+  "updatedAt": "2026-03-09",
+  "registeredAt": "2025-08-28",
+  "viewCount": 117,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "구민들의 체육활동 참여 기회 확대를 위해 다양한 생활체육교실을 운영하여\n구민들의 건강증진을 도모하고 생활체육 저변을 확대하며 구민들의 화합에 기여하고자 함.",
+  "target": "중랑구에 주소지를 둔 20세 이상 중랑구민(주민등록지 기준)\n  * 청소년 생활체육교실은 중랑구에 주소지를 둔 학생 대상으로 실시",
+  "selectionCriteria": "",
+  "supportContent": "○  추진근거\n      - 국민체육진흥법 제8조 및 동법 제16조, 동법 시행령 제6조\n      - 문화체육관광부 지방체육업무편람\n      - 서울특별시 중랑구 체육진흥 조례 제4조 및 동법 제6조\n\n   ○  운영기간 : 2025. 1. ~ 12.\n\n   ○ 운영교실 : 11개 종목, 20개 생활체육교실(게이트볼, 탁구, 스쿼시, 장애인 댄스스포츠 등)\n\n   ○ 운영방법 : 전문 강사 초빙 지도(주 1회 ~ 5회)\n\n   ○ 사업대상자 : 중랑구에 주소지를 둔 20세 이상 중랑구민(주민등록지 기준)",
+  "applicationMethod": "○ 중랑구청 홈페이지 - 생활체육 - 생활체육프로그램 접수\n\n○ 02-2094-0074로 연락하여 유선접수",
+  "documents": "주소, 연락처",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "국민체육진흥법(제8조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "체육진흥과/02-2094-0074",
+  "ageMin": 20,
+  "ageMax": 120
+}

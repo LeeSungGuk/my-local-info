@@ -1,0 +1,47 @@
+{
+  "id": "gov-benefit-O00082800001",
+  "sourceId": "O00082800001",
+  "title": "소상공인 신용보증 지원",
+  "field": "생활안정",
+  "provider": "서울신용보증재단",
+  "providerType": "서울 공공기관",
+  "district": "서울특별시",
+  "userType": "소상공인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "서울특별시 소재 중소기업 및 소상공인",
+  "summary": "서울신용보증재단에서 제공하는 생활안정 혜택입니다. 담보력이 부족한 서울시 소재 중소기업·소상공인 등의 채무를 보증",
+  "supportType": "현금(융자)",
+  "supportSummary": "○ 담보력이 부족한 중소기업 · 소상공인에게 신용보증서를 발급하여 은행에서 저금리 대출을 받을 수 있도록 지원\n - 보증대상 : 서울시에 소재하는 개인사업자 또는 법인사업자로 신용상태는 양호하지만 담보력이 부족한 중소기업 및 소상공인\n - 보증절차 : 상담 및 보증접…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청",
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00082800001",
+  "onlineUrl": "https://www.seoulshinbo.co.kr",
+  "inquiry": [
+    "신용보증부/02-2174-5266"
+  ],
+  "updatedAt": "2025-11-27",
+  "registeredAt": "2022-07-15",
+  "viewCount": 3495,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "담보력이 부족한 서울시 소재 중소기업·소상공인 등의 채무를 보증",
+  "target": "서울특별시 소재 중소기업 및 소상공인",
+  "selectionCriteria": "",
+  "supportContent": "○ 담보력이 부족한 중소기업 · 소상공인에게 신용보증서를 발급하여 은행에서 저금리 대출을 받을 수 있도록 지원\n - 보증대상 : 서울시에 소재하는 개인사업자 또는 법인사업자로 신용상태는 양호하지만 담보력이 부족한 중소기업 및 소상공인\n - 보증절차 : 상담 및 보증접수 → 신용조사 → 보증심사 → 보증서발급",
+  "applicationMethod": "○ 모바일 앱\n - (안드로이드) 구글플레이 / (iOS) 앱스토어 '서울신용보증재단' 모바일 앱 다운로드 → 보증신청 또는 상담예약\n\n○ 온라인 신청\n - 서울신용보증재단 : https://www.seoulshinbo.co.kr → 디지털 종합지원센터 → 종합상담예약\n\n○ 기타\n - 전화 : 서울신용보증재단 콜센터(1577-6119)",
+  "documents": "○ 공통 준비서류\n - 사업자등록증 사본\n - 사업장 임대차 계약서\n - 거주지 임대차 계약서\n - 신분증(모바일신분증 불가)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "지역신용보증재단법",
+    "지역신용보증재단법 시행령"
+  ],
+  "ordinance": "",
+  "inquiryText": "신용보증부/02-2174-5266",
+  "ageMin": 0,
+  "ageMax": 0
+}

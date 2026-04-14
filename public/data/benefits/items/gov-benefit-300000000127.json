@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-300000000127",
+  "sourceId": "300000000127",
+  "title": "암표지자 검사 서비스",
+  "field": "보건·의료",
+  "provider": "서울특별시 종로구",
+  "providerType": "자치구",
+  "district": "종로구",
+  "userType": "개인",
+  "deadlineText": "보건소 운영시간내",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "검사를 원하는 사람은 누구나 가능",
+  "summary": "서울특별시 종로구에서 제공하는 보건·의료 혜택입니다. 채혈을 통한 암표지자 검사",
+  "supportType": "서비스(의료)",
+  "supportSummary": "암표지자란 우리몸안에 암세포가 있는것을 나타내주는 물질을 통틀어 일컫는 말로서 \n혈액 내에서 암발생인자를 조기에 발견하여 암의 예후를 추정하는 간접적인 조기 암 진단 검사법 입니다. \n암표지자검사를 통해 암의 선별에 도움이 되기는 하지만 단독으로 암을 진단하는 검사는…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000127",
+  "onlineUrl": "",
+  "inquiry": [
+    "종로구보건소 임상병리실/02-2148-3708"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2022-07-14",
+  "viewCount": 1376,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "채혈을 통한 암표지자 검사",
+  "target": "검사를 원하는 사람은 누구나 가능",
+  "selectionCriteria": "",
+  "supportContent": "암표지자란 우리몸안에 암세포가 있는것을 나타내주는 물질을 통틀어 일컫는 말로서 \n혈액 내에서 암발생인자를 조기에 발견하여 암의 예후를 추정하는 간접적인 조기 암 진단 검사법 입니다. \n암표지자검사를 통해 암의 선별에 도움이 되기는 하지만 단독으로 암을 진단하는 검사는 아니며, \n암검사에 보조적인 역할, 암치료에 대한 반응이나 경과관찰, 치료후 추적검사로 활용됩니다.",
+  "applicationMethod": "보건소 방문접수",
+  "documents": "구비서류없음 (검사비용 : 항목당 9000원)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "지역보건법(제11조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "종로구보건소 임상병리실/02-2148-3708",
+  "ageMin": 0,
+  "ageMax": 120
+}

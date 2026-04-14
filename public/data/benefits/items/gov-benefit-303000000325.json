@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-303000000325",
+  "sourceId": "303000000325",
+  "title": "청년 행정체험단 운영",
+  "field": "고용·창업",
+  "provider": "서울특별시 성동구",
+  "providerType": "자치구",
+  "district": "성동구",
+  "userType": "개인",
+  "deadlineText": "모집 시 성동구 홈페이지 공고",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "모집공고일 기준 성동구에 주민등록된 19~29세 청년",
+  "summary": "서울특별시 성동구에서 제공하는 고용·창업 혜택입니다. 관내 거주 청년을 대상으로 행정체험의 기회를 제공하여 구 행정에 대한 이해를 제고하고 현장중심 정책 아이디어를 적극 발굴하고자 함",
+  "supportType": "서비스(일자리)",
+  "supportSummary": "▢ 사  업  명: 2026년 청년 행정체험단\n▢ 사업기간: 2026년 상반기(1~2월) 및 하반기(7~8월)\n▢ 사업대상: 성동구 거주 19~29세 청년\n▢ 근무조건: 주 5일, 1일 5시간 근무, 2026년 성동구 생활임금 적용(12,121원)\n▢ 근무장소: 구청…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000325",
+  "onlineUrl": "https://www.sd.go.kr/booking/index.do",
+  "inquiry": [
+    "자치행정과/02-2286-5147"
+  ],
+  "updatedAt": "2026-02-04",
+  "registeredAt": "2025-10-27",
+  "viewCount": 71,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "관내 거주 청년을 대상으로 행정체험의 기회를 제공하여 구 행정에 대한 이해를 제고하고 현장중심 정책 아이디어를 적극 발굴하고자 함",
+  "target": "모집공고일 기준 성동구에 주민등록된 19~29세 청년",
+  "selectionCriteria": "",
+  "supportContent": "▢ 사  업  명: 2026년 청년 행정체험단\n▢ 사업기간: 2026년 상반기(1~2월) 및 하반기(7~8월)\n▢ 사업대상: 성동구 거주 19~29세 청년\n▢ 근무조건: 주 5일, 1일 5시간 근무, 2026년 성동구 생활임금 적용(12,121원)\n▢ 근무장소: 구청 각 부서 및 보건소, 동 주민센터, 도서관 등\n▢ 근무내용: 행정·복지 업무 보조, 정책 아이디어 제안 등",
+  "applicationMethod": "성동구 홈페이지 온라인 접수",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "청년고용촉진 특별법 시행령(제2조)"
+  ],
+  "ordinance": "서울특별시 성동구 청년 기본 조례(제12조)",
+  "inquiryText": "자치행정과/02-2286-5147",
+  "ageMin": 19,
+  "ageMax": 29
+}

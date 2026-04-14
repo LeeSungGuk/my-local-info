@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00022600041",
+  "sourceId": "O00022600041",
+  "title": "문화체육시설 이용요금  감면(제대군인)",
+  "field": "문화·환경",
+  "provider": "광진구시설관리공단",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "중장기 복무 제대군인",
+  "summary": "광진구시설관리공단에서 제공하는 문화·환경 혜택입니다. 문화체육시설 이용요금 감면(30%)",
+  "supportType": "현금(감면)",
+  "supportSummary": "중장기 복무 제대군인 문화체육시설 이용요금 감면(30%)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022600041",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진문화예술회관/02-2049-4570"
+  ],
+  "updatedAt": "2026-02-25",
+  "registeredAt": "2025-10-29",
+  "viewCount": 6,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "문화체육시설 이용요금 감면(30%)",
+  "target": "중장기 복무 제대군인",
+  "selectionCriteria": "",
+  "supportContent": "중장기 복무 제대군인 문화체육시설 이용요금 감면(30%)",
+  "applicationMethod": "방문신청",
+  "documents": "전역증, 신분증",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 광진구 체육시설의 설치 및 운영에 관한 조례(제9조의2, 제1항)",
+  "inquiryText": "광진문화예술회관/02-2049-4570",
+  "ageMin": 18,
+  "ageMax": 120
+}

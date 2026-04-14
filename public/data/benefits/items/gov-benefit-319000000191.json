@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-319000000191",
+  "sourceId": "319000000191",
+  "title": "동작구 여성 HPV 검사비 청구",
+  "field": "보건·의료",
+  "provider": "서울특별시 동작구",
+  "providerType": "자치구",
+  "district": "동작구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "동작구 여성 HPV 검사비 참여 신청 승인자",
+  "summary": "서울특별시 동작구에서 제공하는 보건·의료 혜택입니다. 임신 전 HPV 검사를 지원하여 자궁경부암 예방 및 조기 관리를 강화하고 임산부와 태아의 건강 위험요인을 사전에 예방하여 건강한 출산 환경 조성에 기여하고자 함.",
+  "supportType": "현금",
+  "supportSummary": "(동작구) 여성 HPV 검사비 지원 청구\n- 대상 : '26년 임신 사전건강관리지원사업 신청한 여성 중\n             ‣ 의사가 필요하다고 판단한 경우\n             ‣ HPV 검사를 희망하는 경우\n- 내용 : HPV 검사비 급여 및 비급여 항목의…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "정부24온라인신청",
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000191",
+  "onlineUrl": "",
+  "inquiry": [
+    "동작구 모자건강센터/02-820-9605"
+  ],
+  "updatedAt": "2026-01-27",
+  "registeredAt": "2026-01-06",
+  "viewCount": 79,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "임신 전 HPV 검사를 지원하여 자궁경부암 예방 및 조기 관리를 강화하고 임산부와 태아의 건강 위험요인을 사전에 예방하여 건강한 출산 환경 조성에 기여하고자 함.",
+  "target": "동작구 여성 HPV 검사비 참여 신청 승인자",
+  "selectionCriteria": "",
+  "supportContent": "(동작구) 여성 HPV 검사비 지원 청구\n- 대상 : '26년 임신 사전건강관리지원사업 신청한 여성 중\n             ‣ 의사가 필요하다고 판단한 경우\n             ‣ HPV 검사를 희망하는 경우\n- 내용 : HPV 검사비 급여 및 비급여 항목의 본인부담금 3만원 한도내 지원\n- 검사기관 : 동작구 관내 임신 사전건강관리 지원사업 참여 의료기관\n- 지원절차 : 참여신청(대상자) →승인, 접수(보건소) → 참여기관에서 검사 및 상담 → 청구신청(대상자) → 지급(보건소)",
+  "applicationMethod": "방문신청 : 보건소 8층 모자건강센터\n온라인 : 정부24",
+  "documents": "1.(동작구) 여성 HPV 검사비 지원 청구서 및 개인정보동의서\n2. 외래 진료비 영수증\n3. 외래 진료비 세부산정내역서(세부내역서)\n4. 본인 통장사본\n5. 주민등록등본",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "모자보건법(제3조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "동작구 모자건강센터/02-820-9605",
+  "ageMin": 18,
+  "ageMax": 48
+}

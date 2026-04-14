@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-323000000106",
+  "sourceId": "323000000106",
+  "title": "(송파구)임산부 건강관리 서비스 지원",
+  "field": "임신·출산",
+  "provider": "서울특별시 송파구",
+  "providerType": "자치구",
+  "district": "송파구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 관내 주민등록을 둔 임산부",
+  "summary": "서울특별시 송파구에서 제공하는 임신·출산 혜택입니다. 임산부에게 엽산제, 철분제, 임신초기검사, 기형아검사, 당뇨검사, 막달검사,유축기 등 지원",
+  "supportType": "서비스(의료)",
+  "supportSummary": "○ 관내 주민등록을 둔 임산부에게 임신초기검사, 기형아검사, 당뇨검사, 막달검사 등 지원\n - 임신초기검사(혈액검사) : 6주~9주\n - 임산부 기형아검사 : 16~18주 2차 쿼드검사\n - 임신성 당뇨검사 : 24주~28주(빈혈검사 포함)\n - 막달검사(혈액 및 소…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/323000000106",
+  "onlineUrl": "",
+  "inquiry": [
+    "생애건강과/02-2147-3741"
+  ],
+  "updatedAt": "2026-01-30",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1886,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "임산부에게 엽산제, 철분제, 임신초기검사, 기형아검사, 당뇨검사, 막달검사,유축기 등 지원",
+  "target": "○ 관내 주민등록을 둔 임산부",
+  "selectionCriteria": "",
+  "supportContent": "○ 관내 주민등록을 둔 임산부에게 임신초기검사, 기형아검사, 당뇨검사, 막달검사 등 지원\n - 임신초기검사(혈액검사) : 6주~9주\n - 임산부 기형아검사 : 16~18주 2차 쿼드검사\n - 임신성 당뇨검사 : 24주~28주(빈혈검사 포함)\n - 막달검사(혈액 및 소변검사) : 35주 전후\n○ 임산부에게 엽산제 및 철분제 지원\n○ 출산 후 유축기 대여(4주)",
+  "applicationMethod": "○ 방문 신청\n - 송파산모건강증진센터 : 직접 방문 또는 전화 예약",
+  "documents": "○ 임신확인증(산모수첩) 및 신분증\n○ 외국인(다문화결혼이민자의 경우): 외국인등록증, 배우자 신분증, 가족관계증명서 또는 등본",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "모자보건법",
+    "모자보건법(제3조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "생애건강과/02-2147-3741",
+  "ageMin": 18,
+  "ageMax": 44
+}

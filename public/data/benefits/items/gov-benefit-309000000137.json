@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-309000000137",
+  "sourceId": "309000000137",
+  "title": "지역인재육성을 위한 장학금 지원",
+  "field": "보육·교육",
+  "provider": "서울특별시 도봉구",
+  "providerType": "자치구",
+  "district": "도봉구",
+  "userType": "개인",
+  "deadlineText": "매년 하반기(변동 가능)",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 고등학생\n○ 대학생",
+  "summary": "서울특별시 도봉구에서 제공하는 보육·교육 혜택입니다. 우수학생 및 경제적 어려움이 있는 고등학생 및 대학생에게 장학금 지급",
+  "supportType": "현금(장학금)",
+  "supportSummary": "○ 관내 우수학생 및 경제적 이유로 교육을 받기 곤란한 학생들 또는 관내 거주 주민 중 지역사회의 발전에 기여한 사람의 자녀의 학습 장려를 위한 장학금 지급",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/309000000137",
+  "onlineUrl": "",
+  "inquiry": [
+    "교육지원과/02-2091-2305"
+  ],
+  "updatedAt": "2026-02-05",
+  "registeredAt": "2021-09-23",
+  "viewCount": 818,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "우수학생 및 경제적 어려움이 있는 고등학생 및 대학생에게 장학금 지급",
+  "target": "○ 고등학생\n○ 대학생",
+  "selectionCriteria": "",
+  "supportContent": "○ 관내 우수학생 및 경제적 이유로 교육을 받기 곤란한 학생들 또는 관내 거주 주민 중 지역사회의 발전에 기여한 사람의 자녀의 학습 장려를 위한 장학금 지급",
+  "applicationMethod": "○ 개인 신청절차 없음\n - 학교장 추천 또는 동장을 통해 장학생 추천접수 후, 장학기금운용심의회 심의를 거쳐 선발",
+  "documents": "○ 신청인 제출서류 = 「서울특별시 도봉구 장학기금 설치 및 운용 조례 시행규칙」별지서식 참고\n<공통서류> 장학금신청서(개인정보동의서), 동장 또는 학교장 추천서, 주민등록초본(주소이력포함)\n<장학금별 추가서류>\n  - 모범장학생: 직전학기 성적증명서\n  - 특기장학생: 입상증빙서류\n  - 지역사회봉사자자녀장학생: (봉사자:부모)단체활동기간 증빙서류, 봉사시간증명서(1365 사이트에서 출력)\n                                                   (자녀)직전학기 성적증명서",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 도봉구 장학기금 설치 및 운용 조례",
+  "inquiryText": "교육지원과/02-2091-2305",
+  "ageMin": 0,
+  "ageMax": 120
+}

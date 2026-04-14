@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-306000000223",
+  "sourceId": "306000000223",
+  "title": "망우역사문화공원 천체관측 프로그램 안내",
+  "field": "보육·교육",
+  "provider": "서울특별시 중랑구",
+  "providerType": "자치구",
+  "district": "중랑구",
+  "userType": "개인||가구",
+  "deadlineText": "매월 26일 접수(주말, 공휴일일 경우 다음 평일 접수)",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "초등학생 이상의 자녀와 부모님(회당 40명)",
+  "summary": "서울특별시 중랑구에서 제공하는 보육·교육 혜택입니다. 망우역사문화공원에서 천체관측 체험프로그램을 운영하여 구민에게 도심 속 천체 관측 기회를 제공",
+  "supportType": "기타(교육)",
+  "supportSummary": "초등학생 이상의 자녀와 부모님(회당 40명)에게 천체관측프로그램 제공\n   - 당일 관측 대상 및 우주에 대한 이론 교육 및 질의응답\n   - 레이저 포인터를 이용한 별자리 육안 관측\n   - 천체 망원경 사용법 교육 및 망원경을 이용하여 달과 행성 등 관측\n\n3월…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/306000000223",
+  "onlineUrl": "https://manguripark.or.kr/sub/sub05_01.php",
+  "inquiry": [
+    "중랑구청 망우역사문화공원과/02-2094-6833"
+  ],
+  "updatedAt": "2026-03-09",
+  "registeredAt": "2025-08-27",
+  "viewCount": 110,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "망우역사문화공원에서 천체관측 체험프로그램을 운영하여 구민에게 도심 속 천체 관측 기회를 제공",
+  "target": "초등학생 이상의 자녀와 부모님(회당 40명)",
+  "selectionCriteria": "",
+  "supportContent": "초등학생 이상의 자녀와 부모님(회당 40명)에게 천체관측프로그램 제공\n   - 당일 관측 대상 및 우주에 대한 이론 교육 및 질의응답\n   - 레이저 포인터를 이용한 별자리 육안 관측\n   - 천체 망원경 사용법 교육 및 망원경을 이용하여 달과 행성 등 관측\n\n3월 ~ 11월 매월 첫째, 셋째 주 진행",
+  "applicationMethod": "망우역사문화공원 홈페이지 - 프로그램 예약 탭에서 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 중랑구 망우역사문화공원 조성 및 운영 조례(제4조)",
+  "inquiryText": "중랑구청 망우역사문화공원과/02-2094-6833",
+  "ageMin": 8,
+  "ageMax": 60
+}

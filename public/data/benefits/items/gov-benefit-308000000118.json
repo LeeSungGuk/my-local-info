@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-308000000118",
+  "sourceId": "308000000118",
+  "title": "구강검진 및 보건교육",
+  "field": "보건·의료",
+  "provider": "서울특별시 강북구",
+  "providerType": "자치구",
+  "district": "강북구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 생애주기별 신청 대상",
+  "summary": "서울특별시 강북구에서 제공하는 보건·의료 혜택입니다. 생애주기별 대상자에게 구강검진 및 구강보건교육 실시",
+  "supportType": "기타(교육)",
+  "supportSummary": "○ 구강검진 및 구강보건교육",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/308000000118",
+  "onlineUrl": "",
+  "inquiry": [
+    "건강증진과/02-901-7666"
+  ],
+  "updatedAt": "2026-02-03",
+  "registeredAt": "2021-09-23",
+  "viewCount": 1134,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "생애주기별 대상자에게 구강검진 및 구강보건교육 실시",
+  "target": "○ 생애주기별 신청 대상",
+  "selectionCriteria": "",
+  "supportContent": "○ 구강검진 및 구강보건교육",
+  "applicationMethod": "○ 방문 또는 전화 신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "구강보건법"
+  ],
+  "ordinance": "",
+  "inquiryText": "건강증진과/02-901-7666",
+  "ageMin": 0,
+  "ageMax": 5
+}

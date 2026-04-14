@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-314000000117",
+  "sourceId": "314000000117",
+  "title": "지역화폐(양천사랑상품권)",
+  "field": "행정·안전",
+  "provider": "서울특별시 양천구",
+  "providerType": "자치구",
+  "district": "양천구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 상품권 구매 구민",
+  "summary": "서울특별시 양천구에서 제공하는 행정·안전 혜택입니다. 양천사랑상품권 구매자에게 할인 혜택 지원",
+  "supportType": "이용권",
+  "supportSummary": "○ 상품권 구매시 할인율 적용 혜택",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000117",
+  "onlineUrl": "",
+  "inquiry": [
+    "일자리경제과/0226204825"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2021-09-23",
+  "viewCount": 2106,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "양천사랑상품권 구매자에게 할인 혜택 지원",
+  "target": "○ 상품권 구매 구민",
+  "selectionCriteria": "",
+  "supportContent": "○ 상품권 구매시 할인율 적용 혜택",
+  "applicationMethod": "모바일(서울페이+ 구매결제앱)",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "지역사랑상품권 이용 활성화에 관한 법률(제15조)",
+    "지역사랑상품권 이용 활성화에 관한 법률(제4조)"
+  ],
+  "ordinance": "서울특별시 양천구 양천사랑상품권 발행 및 운영에 관한 조례(제3조)||서울특별시 서울사랑상품권의 발행 및 운영에 관한 조례(제9조)",
+  "inquiryText": "일자리경제과/0226204825",
+  "ageMin": 14,
+  "ageMax": 120
+}

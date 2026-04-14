@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-305000000149",
+  "sourceId": "305000000149",
+  "title": "양봉농가 구제약품지원",
+  "field": "농림축산어업",
+  "provider": "서울특별시 동대문구",
+  "providerType": "자치구",
+  "district": "동대문구",
+  "userType": "가구",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "*관내 주민등록 주소지 양봉농가의 봉군",
+  "summary": "서울특별시 동대문구에서 제공하는 농림축산어업 혜택입니다. *양봉농가 구제약품 지원",
+  "supportType": "현물",
+  "supportSummary": "*양봉농가 구제약품 지원\n-응애류, 노제마병, 낭충봉아부패병 구제 약품 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000149",
+  "onlineUrl": "",
+  "inquiry": [
+    "동대문구보건소/02-2127-4284"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2022-07-14",
+  "viewCount": 628,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "*양봉농가 구제약품 지원",
+  "target": "*관내 주민등록 주소지 양봉농가의 봉군",
+  "selectionCriteria": "",
+  "supportContent": "*양봉농가 구제약품 지원\n-응애류, 노제마병, 낭충봉아부패병 구제 약품 지원",
+  "applicationMethod": "해당 서비스는 신청없이 자격대상자에게 자동적으로 제공됩니다.",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "가축전염병 예방법"
+  ],
+  "ordinance": "",
+  "inquiryText": "동대문구보건소/02-2127-4284",
+  "ageMin": 19,
+  "ageMax": 120
+}

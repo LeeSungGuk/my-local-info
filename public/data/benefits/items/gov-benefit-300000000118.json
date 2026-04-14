@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-300000000118",
+  "sourceId": "300000000118",
+  "title": "2026년 종로구 주거환경개선사업[종로 온(溫)집수리]",
+  "field": "주거·자립",
+  "provider": "서울특별시 종로구",
+  "providerType": "자치구",
+  "district": "종로구",
+  "userType": "가구",
+  "deadlineText": "2026.1. ~ 12.(※예산 상황에 따라 변경 가능)",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 국민기초생활수급자, 차상위계층, 일반 저소득가구",
+  "summary": "서울특별시 종로구에서 제공하는 주거·자립 혜택입니다. 주거취약 저소득계층 및 복지 사각지대 가구의 노후주택 집수리 지원을 통해 주거환경을 개선하고 삶의 질 향상을 도모하고자 함.",
+  "supportType": "현물",
+  "supportSummary": "○ 관내 취약계층 가구에 도배, 장판, 방충망, 창호 교체 등  18개 공종 집수리를 지원하여 저소득층 가구의 삶의 질 향상 도모",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000118",
+  "onlineUrl": "",
+  "inquiry": [
+    "종로구청 사회복지과/02-2148-2574"
+  ],
+  "updatedAt": "2026-01-26",
+  "registeredAt": "2022-07-12",
+  "viewCount": 1046,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "주거취약 저소득계층 및 복지 사각지대 가구의 노후주택 집수리 지원을 통해 주거환경을 개선하고 삶의 질 향상을 도모하고자 함.",
+  "target": "○ 국민기초생활수급자, 차상위계층, 일반 저소득가구",
+  "selectionCriteria": "",
+  "supportContent": "○ 관내 취약계층 가구에 도배, 장판, 방충망, 창호 교체 등  18개 공종 집수리를 지원하여 저소득층 가구의 삶의 질 향상 도모",
+  "applicationMethod": "○ 관할 동 주민센터 방문하여 신청",
+  "documents": "○ 신청인 제출서류\n- 종로구 저소득층 주거환경개선 지원사업 신청서\n- 종로구 저소득층 주거환경개선 지원사업 임대인 동의서(필요시, 방수,창호,타일,양변기,도색,등기구교체,초인종,도어락 수리시)",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "사회보장기본법",
+    "주거기본법(제14조)"
+  ],
+  "ordinance": "서울특별시 주거 기본 조례(제7조)",
+  "inquiryText": "종로구청 사회복지과/02-2148-2574",
+  "ageMin": 0,
+  "ageMax": 120
+}

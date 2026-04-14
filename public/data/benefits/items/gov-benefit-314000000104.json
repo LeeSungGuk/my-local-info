@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-314000000104",
+  "sourceId": "314000000104",
+  "title": "장애인 활동지원(추가1)",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 양천구",
+  "providerType": "자치구",
+  "district": "양천구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ X1(기능제한)점수 300점 이상 와상·사지마비 성인(만19세 이상) 장애인\n\n○ X1(기능제한)점수 260점 이상 와상·사지마비 미성년(만19세 미만) 장애인\n\n○ X1(기능제한)점수 360점 이상 독거 지적·자폐성 장애인\n\n○ 시설퇴소자 중 활동지원급여 15구…",
+  "summary": "서울특별시 양천구에서 제공하는 보호·돌봄 혜택입니다. 장애인활동지원 이용자에게 추가로 돌봄시간 지원",
+  "supportType": "서비스(돌봄)",
+  "supportSummary": "○ 장애인활동지원 이용자에게 추가 돌봄시간 지원(월 100~350시간)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000104",
+  "onlineUrl": "",
+  "inquiry": [
+    "자립지원과/02-2620-4689"
+  ],
+  "updatedAt": "2026-01-29",
+  "registeredAt": "2021-09-23",
+  "viewCount": 696,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "장애인활동지원 이용자에게 추가로 돌봄시간 지원",
+  "target": "○ X1(기능제한)점수 300점 이상 와상·사지마비 성인(만19세 이상) 장애인\n\n○ X1(기능제한)점수 260점 이상 와상·사지마비 미성년(만19세 미만) 장애인\n\n○ X1(기능제한)점수 360점 이상 독거 지적·자폐성 장애인\n\n○ 시설퇴소자 중 활동지원급여 15구간 이상자",
+  "selectionCriteria": "",
+  "supportContent": "○ 장애인활동지원 이용자에게 추가 돌봄시간 지원(월 100~350시간)",
+  "applicationMethod": "○ 방문 신청 \n - 주민센터 : 동주민센터 방문 신청",
+  "documents": "와상,사지마비 장애인 : 진단서 또는 의사소견서 상 장애상태 확인이 가능하여야 함\n시설퇴소자 : 시설퇴소확인서 등 첨부",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "장애인활동 지원에 관한 법률"
+  ],
+  "ordinance": "서울특별시 장애인활동지원급여 비용부담에 관한 조례(제12조)",
+  "inquiryText": "자립지원과/02-2620-4689",
+  "ageMin": 6,
+  "ageMax": 64
+}

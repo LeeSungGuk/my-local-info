@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-315000000104",
+  "sourceId": "315000000104",
+  "title": "저소득 한부모 명절위문금 지원",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 강서구",
+  "providerType": "자치구",
+  "district": "강서구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 관내 주민등록을 두고, 법정 저소득 한부모가구(중위소득65% 이하) 지원(단, 생계, 의료급여 지원가구는 제외)",
+  "summary": "서울특별시 강서구에서 제공하는 보호·돌봄 혜택입니다. 저소득 한부모가구에 명절위문금 지원",
+  "supportType": "현금",
+  "supportSummary": "○ 저소득 한부모가구에 명절위문금 연 2회 3만원 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "신청불필요"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000104",
+  "onlineUrl": "",
+  "inquiry": [
+    "출산보육과/0226006494"
+  ],
+  "updatedAt": "2026-01-29",
+  "registeredAt": "2021-09-23",
+  "viewCount": 4666,
+  "collectedAt": "2026-04-14T02:04:05.772Z",
+  "purpose": "저소득 한부모가구에 명절위문금 지원",
+  "target": "○ 관내 주민등록을 두고, 법정 저소득 한부모가구(중위소득65% 이하) 지원(단, 생계, 의료급여 지원가구는 제외)",
+  "selectionCriteria": "",
+  "supportContent": "○ 저소득 한부모가구에 명절위문금 연 2회 3만원 지원",
+  "applicationMethod": "○ 개인 신청절차 없음",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "한부모가족지원법"
+  ],
+  "ordinance": "서울특별시 강서구 저소득 주민의 생활안정 지원에 관한 조례(제2,3조)",
+  "inquiryText": "출산보육과/0226006494",
+  "ageMin": 0,
+  "ageMax": 120
+}
