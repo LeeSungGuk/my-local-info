@@ -8,7 +8,7 @@ const correctionUrl = "https://github.com/LeeSungGuk/my-local-info/issues";
 export const metadata: Metadata = {
   title: "개인정보처리방침 | 서울시티",
   description:
-    "서울시티 서비스의 개인정보 처리 범위와 기술 로그 처리, 외부 인프라 사용 기준을 안내합니다.",
+    "서울시티 서비스의 개인정보 처리 범위와 기술 로그 처리, 외부 제휴 링크 및 인프라 사용 기준을 안내합니다.",
 };
 
 export default function PrivacyPage() {
@@ -86,11 +86,12 @@ export default function PrivacyPage() {
 
         <PolicySection
           title="4. 쿠키, 분석, 광고"
-          description="현재 기준으로는 추적 분석 및 광고 기능을 활성화하지 않았습니다."
+          description="현재 기준에서 제휴 링크는 일부 운영 중이며, 추적 분석과 AdSense 광고는 비활성 상태입니다."
         >
           <ul className="space-y-3 text-sm leading-7 text-slate-600 sm:text-base">
-            <li>Google Analytics, Google AdSense는 현재 실제 서비스 코드에서 활성화되어 있지 않습니다.</li>
-            <li>향후 분석 또는 광고 기능을 도입하면, 관련 쿠키 사용과 국외 이전 가능성을 포함해 이 방침을 먼저 갱신한 뒤 적용합니다.</li>
+            <li>일부 블로그 영역에는 쿠팡파트너스 제휴 링크가 포함될 수 있으며, 링크 클릭 시 외부 사이트로 이동합니다.</li>
+            <li>Google Analytics, Google AdSense는 현재 실제 운영 기준으로 활성화하지 않았습니다.</li>
+            <li>향후 분석 또는 AdSense 광고 기능을 도입하면, 관련 쿠키 사용과 국외 이전 가능성을 포함해 이 방침을 먼저 갱신한 뒤 적용합니다.</li>
           </ul>
         </PolicySection>
 

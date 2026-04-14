@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "광고·분석 고지 | 서울시티",
   description:
-    "서울시티의 광고, 분석 도구, 쿠키 사용 현황과 향후 활성화 시 반영 기준을 안내합니다.",
+    "서울시티의 제휴 링크, 광고, 분석 도구 사용 현황과 향후 활성화 시 반영 기준을 안내합니다.",
 };
 
 export default function DisclosurePage() {
@@ -20,9 +20,9 @@ export default function DisclosurePage() {
             언제 어떻게 쓰는지 미리 공개합니다
           </h1>
           <p className="mt-5 max-w-3xl text-base leading-relaxed text-slate-600 sm:text-lg">
-            이 문서는 현재 서울시티의 광고·분석 기능 사용 현황과, 향후 Google
-            Analytics 또는 Google AdSense를 활성화할 때 어떤 기준으로 고지를
-            바꾸는지 설명하기 위한 운영 안내입니다.
+            이 문서는 현재 서울시티의 제휴 링크, 광고·분석 기능 사용 현황과,
+            향후 Google Analytics 또는 Google AdSense를 활성화할 때 어떤
+            기준으로 고지를 바꾸는지 설명하기 위한 운영 안내입니다.
           </p>
         </div>
       </section>
@@ -30,18 +30,19 @@ export default function DisclosurePage() {
       <section className="mx-auto max-w-5xl space-y-6 px-4 py-12 sm:px-6 sm:py-16">
         <Section
           title="1. 현재 상태"
-          description="현재 공개 코드 기준으로는 광고와 분석 기능이 활성화되어 있지 않습니다."
+          description="현재 공개 코드 기준으로는 제휴 링크 일부가 활성화되어 있고, 분석 및 AdSense 광고는 비활성 상태입니다."
         >
           <ul className="space-y-3 text-sm leading-7 text-slate-600 sm:text-base">
             <li>Google Analytics 태그는 현재 실제 서비스 코드에 삽입되어 있지 않습니다.</li>
-            <li>Google AdSense 광고 스크립트도 현재 실제 서비스 코드에 삽입되어 있지 않습니다.</li>
-            <li>따라서 현재 기준으로는 광고 개인화, 광고 쿠키, 이용 통계 수집을 목적으로 한 별도 추적 기능을 동작시키지 않습니다.</li>
+            <li>Google AdSense는 아직 실제 운영 광고를 시작하지 않았습니다.</li>
+            <li>일부 블로그 영역에는 쿠팡파트너스 제휴 링크가 포함될 수 있으며, 사용자가 해당 링크를 클릭하면 외부 사이트로 이동합니다.</li>
+            <li>현재 기준으로는 이용 통계 수집을 목적으로 한 별도 추적 기능은 동작시키지 않습니다.</li>
           </ul>
         </Section>
 
         <Section
           title="2. 향후 활성화 시 바뀌는 점"
-          description="분석 또는 광고를 켜면 이 사이트의 법적·운영적 성격이 달라집니다."
+          description="분석 또는 AdSense 광고를 켜면 이 사이트의 법적·운영적 성격이 더 달라집니다."
         >
           <ul className="space-y-3 text-sm leading-7 text-slate-600 sm:text-base">
             <li>Google Analytics를 활성화하면 접속 통계와 사용 흐름 분석을 위한 식별 정보와 쿠키가 처리될 수 있습니다.</li>
@@ -56,6 +57,7 @@ export default function DisclosurePage() {
         >
           <ul className="space-y-3 text-sm leading-7 text-slate-600 sm:text-base">
             <li>광고는 가능한 한 `광고`, `스폰서`, `제휴`처럼 이용자가 알아볼 수 있는 방식으로 표시합니다.</li>
+            <li>쿠팡파트너스 같은 제휴 링크는 본문 정보와 섞이지 않도록 별도 안내 박스 또는 명확한 문구와 함께 노출합니다.</li>
             <li>공공데이터 기반 정보와 광고성 추천 콘텐츠를 혼동시키는 형태는 지양합니다.</li>
             <li>행정 정보, 신청 자격, 공식 일정 자체는 광고 계약 여부와 무관하게 공식 출처를 우선합니다.</li>
           </ul>
