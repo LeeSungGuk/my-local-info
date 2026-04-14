@@ -113,15 +113,21 @@ export default async function Home() {
               <h2 className="flex items-center gap-2 text-2xl font-bold text-gray-900 sm:text-3xl">
                 <span className="text-3xl">💰</span> 놓치면 아쉬운 혜택
               </h2>
-            <p className="mt-2 text-gray-500">
+              <p className="mt-2 text-gray-500">
                 공공데이터포털 기준으로 서울 혜택 정보를 확인하세요
               </p>
             </div>
+            <Link
+              href="/benefits"
+              className="hidden rounded-full border border-cyan-200 bg-cyan-50 px-4 py-2 text-sm font-semibold text-cyan-700 transition-colors hover:bg-cyan-100 sm:inline-flex"
+            >
+              전체 혜택 보기
+            </Link>
           </div>
 
           <HomeBenefitsSection benefits={featuredBenefits} />
 
-          <div className="mt-6">
+          <div className="mt-6 sm:hidden">
             <Link
               href="/benefits"
               className="inline-flex rounded-full border border-cyan-200 bg-cyan-50 px-4 py-2 text-sm font-semibold text-cyan-700 transition-colors hover:bg-cyan-100"
