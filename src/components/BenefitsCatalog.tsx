@@ -60,6 +60,7 @@ export default function BenefitsCatalog({ benefits }: { benefits: PublicBenefitS
       ? benefitsByField
       : benefitsByField.filter((benefit) => benefit.district === selectedDistrict);
   const visibleBenefits = filteredBenefits.slice(0, visibleCount);
+  const hasMoreBenefits = filteredBenefits.length > visibleCount;
 
   function selectField(field: string) {
     setSelectedField(field);
@@ -215,14 +216,17 @@ export default function BenefitsCatalog({ benefits }: { benefits: PublicBenefitS
             ))}
           </div>
 
-          {filteredBenefits.length > visibleCount ? (
-            <div className="mt-10 text-center">
+          {hasMoreBenefits ? (
+            <div className="mt-8 flex justify-center">
               <button
                 type="button"
                 onClick={() => setVisibleCount((count) => count + INITIAL_VISIBLE_COUNT)}
-                className="inline-flex items-center rounded-full border border-slate-200 bg-white px-5 py-2.5 text-sm font-semibold text-blue-700 transition-colors hover:border-blue-200 hover:bg-blue-50"
+                className="inline-flex items-center rounded-full border border-blue-200 bg-white px-6 py-3 text-sm font-semibold text-blue-700 shadow-sm transition-colors hover:bg-blue-50"
               >
-                더 보기
+                혜택 더 보기
+                <span className="ml-2 text-slate-400">
+                  {visibleBenefits.length}/{filteredBenefits.length}
+                </span>
               </button>
             </div>
           ) : null}

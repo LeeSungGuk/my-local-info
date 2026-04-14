@@ -45,6 +45,7 @@ export default function EventsCatalog({
   events: EventItem[];
 }) {
   const [selectedDistrict, setSelectedDistrict] = useState(ALL_DISTRICTS);
+  const [visibleCount, setVisibleCount] = useState(24);
   const searchParams = useSearchParams();
   const today = useTodayInSeoul();
 
@@ -86,6 +87,8 @@ export default function EventsCatalog({
     selectedDistrict === ALL_DISTRICTS
       ? baseEvents
       : baseEvents.filter((event) => event.district === selectedDistrict);
+  const visibleEventsToRender = filteredEvents.slice(0, visibleCount);
+  const hasMoreEvents = filteredEvents.length > visibleCount;
 
   if (baseEvents.length === 0) {
     return (
@@ -135,19 +138,25 @@ export default function EventsCatalog({
         <div className="mt-6">
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">District</p>
           <div className="mt-3 flex flex-wrap gap-2">
-            <DistrictChip
-              district={ALL_DISTRICTS}
-              count={baseEvents.length}
-              isActive={selectedDistrict === ALL_DISTRICTS}
-              onClick={setSelectedDistrict}
-            />
+              <DistrictChip
+                district={ALL_DISTRICTS}
+                count={baseEvents.length}
+                isActive={selectedDistrict === ALL_DISTRICTS}
+                onClick={(district) => {
+                  setSelectedDistrict(district);
+                  setVisibleCount(24);
+                }}
+              />
             {districts.map((district) => (
               <DistrictChip
                 key={district}
                 district={district}
                 count={districtCounts[district]}
                 isActive={selectedDistrict === district}
-                onClick={setSelectedDistrict}
+                onClick={(nextDistrict) => {
+                  setSelectedDistrict(nextDistrict);
+                  setVisibleCount(24);
+                }}
               />
             ))}
           </div>
@@ -171,59 +180,76 @@ export default function EventsCatalog({
             <p className="mt-2 text-sm text-gray-600">다른 구를 선택하거나 전체 보기를 이용해 주세요.</p>
           </div>
         ) : (
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-2">
-          {filteredEvents.map((event) => (
-            <article
-              key={event.id}
-              className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-[0_8px_24px_rgba(15,23,42,0.04)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_14px_32px_rgba(56,189,248,0.10)]"
-            >
-              <div className="h-1 bg-gradient-to-r from-sky-400 to-blue-500" />
-              <div className="p-6">
-                <div className="flex flex-wrap items-center gap-2">
-                  <span className="rounded-full bg-sky-50 px-3 py-1 text-[11px] font-semibold text-sky-700">
-                    {event.category}
-                  </span>
-                  <span className="rounded-full bg-slate-100 px-3 py-1 text-[11px] font-semibold text-slate-600">
-                    {event.district}
-                  </span>
-                </div>
-
-                <h3 className="mt-4 line-clamp-2 text-xl font-bold leading-snug text-slate-900">
-                  {event.title}
-                </h3>
-
-                <p className="mt-3 line-clamp-2 text-sm leading-relaxed text-slate-600">
-                  {event.summary}
-                </p>
-
-                <div className="mt-5 space-y-2 rounded-xl border border-slate-200 bg-slate-50 px-4 py-4 text-sm text-slate-700">
-                  <div className="flex items-start gap-2">
-                    <span className="text-sky-500">📅</span>
-                    <span>{formatEventPeriod(event)}</span>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <span className="text-sky-500">📍</span>
-                    <span>{event.venue}</span>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <span className="text-sky-500">💸</span>
-                    <span>{event.isFree ? "무료" : event.fee}</span>
-                  </div>
-                </div>
-
-                <Link
-                  href={`/events/${event.id}`}
-                  className="mt-6 inline-flex items-center text-sm font-semibold text-sky-700 transition-colors hover:text-sky-800"
+          <>
+            <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-2">
+              {visibleEventsToRender.map((event) => (
+                <article
+                  key={event.id}
+                  className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-[0_8px_24px_rgba(15,23,42,0.04)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_14px_32px_rgba(56,189,248,0.10)]"
                 >
-                  상세 보기
-                  <svg className="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </Link>
+                  <div className="h-1 bg-gradient-to-r from-sky-400 to-blue-500" />
+                  <div className="p-6">
+                    <div className="flex flex-wrap items-center gap-2">
+                      <span className="rounded-full bg-sky-50 px-3 py-1 text-[11px] font-semibold text-sky-700">
+                        {event.category}
+                      </span>
+                      <span className="rounded-full bg-slate-100 px-3 py-1 text-[11px] font-semibold text-slate-600">
+                        {event.district}
+                      </span>
+                    </div>
+
+                    <h3 className="mt-4 line-clamp-2 text-xl font-bold leading-snug text-slate-900">
+                      {event.title}
+                    </h3>
+
+                    <p className="mt-3 line-clamp-2 text-sm leading-relaxed text-slate-600">
+                      {event.summary}
+                    </p>
+
+                    <div className="mt-5 space-y-2 rounded-xl border border-slate-200 bg-slate-50 px-4 py-4 text-sm text-slate-700">
+                      <div className="flex items-start gap-2">
+                        <span className="text-sky-500">📅</span>
+                        <span>{formatEventPeriod(event)}</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <span className="text-sky-500">📍</span>
+                        <span>{event.venue}</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <span className="text-sky-500">💸</span>
+                        <span>{event.isFree ? "무료" : event.fee}</span>
+                      </div>
+                    </div>
+
+                    <Link
+                      href={`/events/${event.id}`}
+                      className="mt-6 inline-flex items-center text-sm font-semibold text-sky-700 transition-colors hover:text-sky-800"
+                    >
+                      상세 보기
+                      <svg className="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </Link>
+                  </div>
+                </article>
+              ))}
+            </div>
+
+            {hasMoreEvents ? (
+              <div className="mt-8 flex justify-center">
+                <button
+                  type="button"
+                  onClick={() => setVisibleCount((prev) => prev + 24)}
+                  className="inline-flex items-center rounded-full border border-sky-200 bg-white px-6 py-3 text-sm font-semibold text-sky-700 shadow-sm transition-colors hover:bg-sky-50"
+                >
+                  행사 더 보기
+                  <span className="ml-2 text-slate-400">
+                    {visibleEventsToRender.length}/{filteredEvents.length}
+                  </span>
+                </button>
               </div>
-              </article>
-            ))}
-          </div>
+            ) : null}
+          </>
         )}
       </div>
     </div>

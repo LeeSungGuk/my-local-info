@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Suspense } from "react";
 import BenefitsCatalog from "@/components/BenefitsCatalog";
 import { getAllBenefits } from "@/lib/public-benefits";
@@ -28,6 +29,11 @@ export default async function BenefitsPage() {
             <br />
             분야와 지역을 함께 고르면 나에게 맞는 혜택을 더 빠르게 찾을 수 있습니다.
           </p>
+
+          <div className="mt-8 flex flex-wrap gap-3">
+            <QuickLink href="/benefits?view=closing-this-week" label="이번 주 마감 혜택" />
+            <QuickLink href="/benefits" label="서울 전체 혜택 보기" />
+          </div>
         </div>
       </section>
 
@@ -49,6 +55,17 @@ export default async function BenefitsPage() {
         )}
       </section>
     </div>
+  );
+}
+
+function QuickLink({ href, label }: { href: string; label: string }) {
+  return (
+    <Link
+      href={href}
+      className="inline-flex items-center rounded-full border border-blue-200 bg-white px-4 py-2.5 text-sm font-semibold text-blue-700 shadow-sm transition-colors hover:border-blue-300 hover:bg-blue-50"
+    >
+      {label}
+    </Link>
   );
 }
 

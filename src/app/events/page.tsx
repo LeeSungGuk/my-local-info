@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Suspense } from "react";
 import EventsCatalog from "@/components/EventsCatalog";
 import { getAllEvents } from "@/lib/seoul-events";
@@ -18,15 +19,22 @@ export default async function EventsPage() {
             서울시 전체 행사·축제
           </span>
           <h1 className="mt-5 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
-            오늘의 서울을 채우는 행사와 축제를
+            요즘 서울에서 열리는 행사와 축제를
             <br />
-            더 가볍게 둘러보세요
+            한눈에 둘러보세요
           </h1>
           <p className="mt-5 max-w-3xl text-base leading-relaxed text-gray-600 sm:text-lg">
-            서울 곳곳에서 열리는 전시, 공연, 체험, 축제를 한곳에 모았습니다.
+            전시, 공연, 체험, 축제처럼 지금 서울에서 살펴볼 만한 일정을 모았습니다.
             <br />
-            원하는 구를 고르면 지금 살펴보기 좋은 일정만 더 빠르게 찾을 수 있습니다.
+            가고 싶은 구를 고르면 내 주변에서 볼 만한 행사만 더 빠르게 찾을 수 있습니다.
           </p>
+
+          <div className="mt-8 flex flex-wrap gap-3">
+            <QuickLink href="/events?view=ongoing" label="오늘 진행 중" />
+            <QuickLink href="/events?view=free" label="무료 행사" />
+            <QuickLink href="/events?view=indoor" label="실내 추천" />
+            <QuickLink href="/events" label="서울 전체 보기" />
+          </div>
         </div>
       </section>
 
@@ -48,6 +56,17 @@ export default async function EventsPage() {
         )}
       </section>
     </div>
+  );
+}
+
+function QuickLink({ href, label }: { href: string; label: string }) {
+  return (
+    <Link
+      href={href}
+      className="inline-flex items-center rounded-full border border-sky-200 bg-white px-4 py-2.5 text-sm font-semibold text-sky-700 shadow-sm transition-colors hover:border-sky-300 hover:bg-sky-50"
+    >
+      {label}
+    </Link>
   );
 }
 
