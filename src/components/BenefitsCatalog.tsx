@@ -40,18 +40,29 @@ export default function BenefitsCatalog({ benefits }: { benefits: PublicBenefitS
     return true;
   });
 
-  const fieldCounts = baseBenefits.reduce<Record<string, number>>((acc, benefit) => {
-    acc[benefit.field] = (acc[benefit.field] || 0) + 1;
-    return acc;
-  }, {});
+  const allFields = Array.from(new Set(baseBenefits.map((benefit) => benefit.field))).sort((a, b) =>
+    a.localeCompare(b, "ko"),
+  );
+  const allDistricts = Array.from(new Set(baseBenefits.map((benefit) => benefit.district))).sort((a, b) =>
+    a.localeCompare(b, "ko"),
+  );
 
-  const districtCounts = baseBenefits.reduce<Record<string, number>>((acc, benefit) => {
-    acc[benefit.district] = (acc[benefit.district] || 0) + 1;
-    return acc;
-  }, {});
+  const getFieldCount = (field: string) =>
+    baseBenefits.filter(
+      (benefit) =>
+        (field === ALL_FIELDS || benefit.field === field) &&
+        (selectedDistrict === ALL_DISTRICTS || benefit.district === selectedDistrict),
+    ).length;
 
-  const fields = Object.keys(fieldCounts).sort((a, b) => a.localeCompare(b, "ko"));
-  const districts = Object.keys(districtCounts).sort((a, b) => a.localeCompare(b, "ko"));
+  const getDistrictCount = (district: string) =>
+    baseBenefits.filter(
+      (benefit) =>
+        (district === ALL_DISTRICTS || benefit.district === district) &&
+        (selectedField === ALL_FIELDS || benefit.field === selectedField),
+    ).length;
+
+  const fields = allFields;
+  const districts = allDistricts;
 
   const benefitsByField =
     selectedField === ALL_FIELDS ? baseBenefits : baseBenefits.filter((benefit) => benefit.field === selectedField);
@@ -61,6 +72,12 @@ export default function BenefitsCatalog({ benefits }: { benefits: PublicBenefitS
       : benefitsByField.filter((benefit) => benefit.district === selectedDistrict);
   const visibleBenefits = filteredBenefits.slice(0, visibleCount);
   const hasMoreBenefits = filteredBenefits.length > visibleCount;
+
+  const getDisplayedFieldCount = (field: string) =>
+    selectedField === field ? filteredBenefits.length : getFieldCount(field);
+
+  const getDisplayedDistrictCount = (district: string) =>
+    selectedDistrict === district ? filteredBenefits.length : getDistrictCount(district);
 
   function selectField(field: string) {
     setSelectedField(field);
@@ -103,7 +120,7 @@ export default function BenefitsCatalog({ benefits }: { benefits: PublicBenefitS
           <div className="mt-3 flex flex-wrap gap-2">
             <FilterChip
               label={ALL_FIELDS}
-              count={baseBenefits.length}
+              count={getDisplayedFieldCount(ALL_FIELDS)}
               isActive={selectedField === ALL_FIELDS}
               onClick={selectField}
             />
@@ -111,7 +128,7 @@ export default function BenefitsCatalog({ benefits }: { benefits: PublicBenefitS
               <FilterChip
                 key={field}
                 label={field}
-                count={fieldCounts[field]}
+                count={getDisplayedFieldCount(field)}
                 isActive={selectedField === field}
                 onClick={selectField}
               />
@@ -124,7 +141,7 @@ export default function BenefitsCatalog({ benefits }: { benefits: PublicBenefitS
           <div className="mt-3 flex flex-wrap gap-2">
             <FilterChip
               label={ALL_DISTRICTS}
-              count={baseBenefits.length}
+              count={getDisplayedDistrictCount(ALL_DISTRICTS)}
               isActive={selectedDistrict === ALL_DISTRICTS}
               onClick={selectDistrict}
             />
@@ -132,7 +149,7 @@ export default function BenefitsCatalog({ benefits }: { benefits: PublicBenefitS
               <FilterChip
                 key={district}
                 label={district}
-                count={districtCounts[district]}
+                count={getDisplayedDistrictCount(district)}
                 isActive={selectedDistrict === district}
                 onClick={selectDistrict}
               />
