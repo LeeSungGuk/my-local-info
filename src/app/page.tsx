@@ -1,6 +1,7 @@
 import Link from "next/link";
 import HomeEventsSection from "@/components/HomeEventsSection";
 import HomeBenefitsSection from "@/components/HomeBenefitsSection";
+import HomeUnifiedSearch from "@/components/HomeUnifiedSearch";
 import { getBenefitsIndex, getFeaturedBenefits } from "@/lib/public-benefits";
 import { getAllEvents, getEventsIndex } from "@/lib/seoul-events";
 
@@ -28,22 +29,25 @@ export default async function Home() {
 
   return (
     <div>
-      <section className="relative overflow-hidden bg-[linear-gradient(135deg,#0f172a_0%,#1d4ed8_42%,#38bdf8_100%)] text-white">
-        <div className="absolute inset-0 opacity-30">
-          <div className="absolute left-10 top-10 h-72 w-72 rounded-full bg-cyan-200/60 blur-3xl animate-pulse" />
-          <div className="absolute bottom-10 right-10 h-96 w-96 rounded-full bg-sky-100/40 blur-3xl" />
-          <div className="absolute left-1/2 top-1/3 h-56 w-56 -translate-x-1/2 rounded-full bg-blue-300/20 blur-3xl" />
-        </div>
-        <div className="absolute inset-0 opacity-45">
-          {heroStars.map((starClassName, index) => (
-            <span
-              key={index}
-              className={`absolute rounded-full blur-[0.5px] ${starClassName}`}
-            />
-          ))}
+      <section className="relative bg-[linear-gradient(135deg,#0f172a_0%,#1d4ed8_42%,#38bdf8_100%)] text-white">
+        <div className="pointer-events-none absolute inset-0 overflow-hidden">
+          <div className="absolute inset-0 opacity-30">
+            <div className="absolute left-10 top-10 h-72 w-72 rounded-full bg-cyan-200/60 blur-3xl animate-pulse" />
+            <div className="absolute bottom-10 right-10 h-96 w-96 rounded-full bg-sky-100/40 blur-3xl" />
+            <div className="absolute left-1/2 top-1/3 h-56 w-56 -translate-x-1/2 rounded-full bg-blue-300/20 blur-3xl" />
+          </div>
+          <div className="absolute inset-0 opacity-45">
+            {heroStars.map((starClassName, index) => (
+              <span
+                key={index}
+                className={`absolute rounded-full blur-[0.5px] ${starClassName}`}
+              />
+            ))}
+          </div>
+          <div className="absolute bottom-0 left-0 right-0 h-12 bg-gradient-to-b from-transparent to-white/10 backdrop-blur-sm" />
         </div>
 
-        <div className="relative mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-28">
+        <div className="relative z-10 mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-28">
           <div className="text-center">
             <span className="mb-6 inline-block rounded-full border border-white/15 bg-white/10 px-4 py-1.5 text-sm font-medium shadow-sm backdrop-blur-sm">
               🌙 서울 로컬 생활 가이드
@@ -58,10 +62,10 @@ export default async function Home() {
               <br />
               일상에 닿는 행사와 혜택을 한곳에 담았습니다.
             </p>
+
+            <HomeUnifiedSearch />
           </div>
         </div>
-
-        <div className="absolute bottom-0 left-0 right-0 h-12 bg-gradient-to-b from-transparent to-white/10 backdrop-blur-sm" />
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">

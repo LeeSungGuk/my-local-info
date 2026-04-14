@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run build:search-index && next build",
     "start": "next start",
     "lint": "eslint",
     "fetch:seoul-events": "node scripts/fetch-seoul-events.js",
-    "fetch:public-benefits": "node scripts/fetch-public-benefits.js"
+    "fetch:public-benefits": "node scripts/fetch-public-benefits.js",
+    "build:search-index": "node scripts/build-search-index.js"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.19",

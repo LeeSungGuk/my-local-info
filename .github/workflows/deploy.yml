@@ -47,6 +47,9 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
+      - name: Build search index
+        run: npm run build:search-index
+
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
