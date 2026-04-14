@@ -1,4 +1,5 @@
 import Link from "next/link";
+import AdBanner from "@/components/AdBanner";
 import HomeEventsSection from "@/components/HomeEventsSection";
 import HomeBenefitsSection from "@/components/HomeBenefitsSection";
 import HomeSeoulSummary from "@/components/HomeSeoulSummary";
@@ -9,6 +10,7 @@ import { getHomeSummaryMetrics } from "@/lib/home-summary";
 import { filterVisibleEvents, getTodayInSeoul, sortEventsByStartDate } from "@/lib/event-visibility";
 
 const siteUrl = "https://my-local-info-6ny.pages.dev";
+const homeAdSlot = process.env.NEXT_PUBLIC_ADSENSE_SLOT_HOME?.trim() ?? "";
 
 export default async function Home() {
   const [allEvents, allBenefits, eventsIndex, benefitsIndex] = await Promise.all([
@@ -147,6 +149,10 @@ export default async function Home() {
             전체 행사 보기
           </Link>
         </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 pb-4 sm:px-6 sm:pb-6">
+        <AdBanner slot={homeAdSlot} />
       </section>
 
       <section className="border-t border-sky-100/70 bg-sky-50/30">

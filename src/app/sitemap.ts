@@ -4,6 +4,7 @@ import type { MetadataRoute } from "next";
 
 const siteUrl = "https://my-local-info-6ny.pages.dev";
 const postsDirectory = path.join(process.cwd(), "src/content/posts");
+export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [

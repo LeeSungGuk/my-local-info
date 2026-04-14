@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import AdBanner from "@/components/AdBanner";
 import Image from "next/image";
 import Link from "next/link";
 import { getPostBySlug, getAllPosts } from "@/lib/posts";
@@ -8,6 +9,7 @@ import { notFound } from "next/navigation";
 
 const siteUrl = "https://my-local-info-6ny.pages.dev";
 const siteName = "서울시 생활 정보";
+const blogAdSlot = process.env.NEXT_PUBLIC_ADSENSE_SLOT_BLOG?.trim() ?? "";
 
 function getSourceHostLabel(url: string) {
   if (!url) {
@@ -197,6 +199,8 @@ export default async function BlogPostPage({ params }: PageProps) {
               {post.content}
             </ReactMarkdown>
           </div>
+
+          <AdBanner slot={blogAdSlot} className="mt-8" />
 
           <div className="mt-8 rounded-[1.5rem] border border-sky-100 bg-sky-50/70 p-6 text-sm leading-7 text-slate-700">
             <p className="font-semibold text-slate-900">콘텐츠 안내</p>

@@ -5,6 +5,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 const siteUrl = "https://my-local-info-6ny.pages.dev";
+const adSenseId = process.env.NEXT_PUBLIC_ADSENSE_ID?.trim() ?? "";
+const shouldRenderAdSenseScript = Boolean(adSenseId && adSenseId !== "나중에_입력");
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
@@ -50,6 +52,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
+      <head>
+        {shouldRenderAdSenseScript ? (
+          <script
+            async
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adSenseId}`}
+            crossOrigin="anonymous"
+          />
+        ) : null}
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
