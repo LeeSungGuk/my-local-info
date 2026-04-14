@@ -1,17 +1,21 @@
 import Link from "next/link";
 import HomeEventsSection from "@/components/HomeEventsSection";
 import HomeBenefitsSection from "@/components/HomeBenefitsSection";
+import HomeSeoulSummary from "@/components/HomeSeoulSummary";
 import HomeUnifiedSearch from "@/components/HomeUnifiedSearch";
-import { getBenefitsIndex, getFeaturedBenefits } from "@/lib/public-benefits";
+import { getBenefitsIndex, getAllBenefits } from "@/lib/public-benefits";
 import { getAllEvents, getEventsIndex } from "@/lib/seoul-events";
+import { getHomeSummaryMetrics } from "@/lib/home-summary";
 
 export default async function Home() {
-  const [allEvents, featuredBenefits, eventsIndex, benefitsIndex] = await Promise.all([
+  const [allEvents, allBenefits, eventsIndex, benefitsIndex] = await Promise.all([
     getAllEvents(),
-    getFeaturedBenefits(4),
+    getAllBenefits(),
     getEventsIndex(),
     getBenefitsIndex(),
   ]);
+  const featuredBenefits = allBenefits.slice(0, 4);
+  const summary = getHomeSummaryMetrics(allEvents, allBenefits);
   const heroStars = [
     "left-[12%] top-[18%] h-1 w-1 bg-white/70",
     "left-[22%] top-[34%] h-1.5 w-1.5 bg-sky-100/70",
@@ -68,7 +72,9 @@ export default async function Home() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
+      <HomeSeoulSummary summary={summary} />
+
+      <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:pt-24 sm:pb-20">
         <div className="mb-8 flex items-end justify-between gap-4 sm:mb-10">
           <div>
             <h2 className="flex items-center gap-2 text-2xl font-bold text-gray-900 sm:text-3xl">

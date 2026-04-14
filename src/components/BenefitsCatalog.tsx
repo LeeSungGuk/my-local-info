@@ -1,25 +1,51 @@
 "use client";
 
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { useState } from "react";
 import type { PublicBenefitSummary } from "@/lib/public-benefits";
 import { formatBenefitDeadline } from "@/lib/benefit-utils";
+import { getTodayInSeoul } from "@/lib/event-visibility";
+import { getEndOfWeekInSeoul } from "@/lib/home-summary";
 
 const ALL_FIELDS = "전체 분야";
 const ALL_DISTRICTS = "전체 지역";
 const INITIAL_VISIBLE_COUNT = 24;
+const BENEFIT_VIEW_LABELS: Record<string, string> = {
+  "closing-this-week": "이번 주 마감 혜택",
+};
 
 export default function BenefitsCatalog({ benefits }: { benefits: PublicBenefitSummary[] }) {
   const [selectedField, setSelectedField] = useState(ALL_FIELDS);
   const [selectedDistrict, setSelectedDistrict] = useState(ALL_DISTRICTS);
   const [visibleCount, setVisibleCount] = useState(INITIAL_VISIBLE_COUNT);
+  const searchParams = useSearchParams();
+  const today = getTodayInSeoul();
+  const weekEnd = getEndOfWeekInSeoul(today);
+  const selectedView = searchParams.get("view") || "";
 
-  const fieldCounts = benefits.reduce<Record<string, number>>((acc, benefit) => {
+  const baseBenefits = benefits.filter((benefit) => {
+    if (selectedView === "closing-this-week") {
+      if (benefit.isAlwaysOpen) {
+        return false;
+      }
+
+      if (!benefit.deadlineSortKey || benefit.deadlineSortKey === "9999-12-31") {
+        return false;
+      }
+
+      return benefit.deadlineSortKey >= today && benefit.deadlineSortKey <= weekEnd;
+    }
+
+    return true;
+  });
+
+  const fieldCounts = baseBenefits.reduce<Record<string, number>>((acc, benefit) => {
     acc[benefit.field] = (acc[benefit.field] || 0) + 1;
     return acc;
   }, {});
 
-  const districtCounts = benefits.reduce<Record<string, number>>((acc, benefit) => {
+  const districtCounts = baseBenefits.reduce<Record<string, number>>((acc, benefit) => {
     acc[benefit.district] = (acc[benefit.district] || 0) + 1;
     return acc;
   }, {});
@@ -28,7 +54,7 @@ export default function BenefitsCatalog({ benefits }: { benefits: PublicBenefitS
   const districts = Object.keys(districtCounts).sort((a, b) => a.localeCompare(b, "ko"));
 
   const benefitsByField =
-    selectedField === ALL_FIELDS ? benefits : benefits.filter((benefit) => benefit.field === selectedField);
+    selectedField === ALL_FIELDS ? baseBenefits : baseBenefits.filter((benefit) => benefit.field === selectedField);
   const filteredBenefits =
     selectedDistrict === ALL_DISTRICTS
       ? benefitsByField
@@ -57,17 +83,26 @@ export default function BenefitsCatalog({ benefits }: { benefits: PublicBenefitS
           </div>
           <div className="text-sm text-gray-500">
             {selectedField === ALL_FIELDS && selectedDistrict === ALL_DISTRICTS
-              ? `전체 ${benefits.length}건`
+              ? `전체 ${baseBenefits.length}건`
               : `${filteredBenefits.length}건`}
           </div>
         </div>
+
+        {BENEFIT_VIEW_LABELS[selectedView] ? (
+          <div className="mt-6 rounded-xl border border-blue-200 bg-blue-50 px-4 py-4 text-sm leading-relaxed text-blue-800">
+            현재 보기: <strong>{BENEFIT_VIEW_LABELS[selectedView]}</strong>
+            <Link href="/benefits" className="ml-2 font-semibold underline underline-offset-4">
+              전체로 돌아가기
+            </Link>
+          </div>
+        ) : null}
 
         <div className="mt-6">
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">Field</p>
           <div className="mt-3 flex flex-wrap gap-2">
             <FilterChip
               label={ALL_FIELDS}
-              count={benefits.length}
+              count={baseBenefits.length}
               isActive={selectedField === ALL_FIELDS}
               onClick={selectField}
             />
@@ -88,7 +123,7 @@ export default function BenefitsCatalog({ benefits }: { benefits: PublicBenefitS
           <div className="mt-3 flex flex-wrap gap-2">
             <FilterChip
               label={ALL_DISTRICTS}
-              count={benefits.length}
+              count={baseBenefits.length}
               isActive={selectedDistrict === ALL_DISTRICTS}
               onClick={selectDistrict}
             />

@@ -1,8 +1,10 @@
 "use client";
 
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { useState } from "react";
 import { filterVisibleEvents, sortEventsByStartDate } from "@/lib/event-visibility";
+import { isIndoorEvent, isOngoingEvent } from "@/lib/home-summary";
 import { useTodayInSeoul } from "@/lib/use-today-in-seoul";
 
 interface EventItem {
@@ -19,6 +21,11 @@ interface EventItem {
 }
 
 const ALL_DISTRICTS = "전체";
+const EVENT_VIEW_LABELS: Record<string, string> = {
+  ongoing: "오늘 진행 중 행사",
+  free: "무료 행사",
+  indoor: "실내 추천",
+};
 
 function formatEventPeriod(event: Pick<EventItem, "startDate" | "endDate">) {
   if (!event.startDate && !event.endDate) {
@@ -38,6 +45,7 @@ export default function EventsCatalog({
   events: EventItem[];
 }) {
   const [selectedDistrict, setSelectedDistrict] = useState(ALL_DISTRICTS);
+  const searchParams = useSearchParams();
   const today = useTodayInSeoul();
 
   if (!today) {
@@ -50,8 +58,24 @@ export default function EventsCatalog({
   }
 
   const visibleEvents = sortEventsByStartDate(filterVisibleEvents(events, today));
+  const selectedView = searchParams.get("view") || "";
+  const baseEvents = visibleEvents.filter((event) => {
+    if (selectedView === "ongoing") {
+      return isOngoingEvent(event, today);
+    }
 
-  const districtCounts = visibleEvents.reduce<Record<string, number>>((acc, event) => {
+    if (selectedView === "free") {
+      return event.isFree;
+    }
+
+    if (selectedView === "indoor") {
+      return isIndoorEvent(event);
+    }
+
+    return true;
+  });
+
+  const districtCounts = baseEvents.reduce<Record<string, number>>((acc, event) => {
     acc[event.district] = (acc[event.district] || 0) + 1;
     return acc;
   }, {});
@@ -60,14 +84,24 @@ export default function EventsCatalog({
 
   const filteredEvents =
     selectedDistrict === ALL_DISTRICTS
-      ? visibleEvents
-      : visibleEvents.filter((event) => event.district === selectedDistrict);
+      ? baseEvents
+      : baseEvents.filter((event) => event.district === selectedDistrict);
 
-  if (visibleEvents.length === 0) {
+  if (baseEvents.length === 0) {
     return (
       <div className="rounded-2xl border border-dashed border-sky-200 bg-white p-10 text-center">
-        <p className="text-lg font-semibold text-gray-900">오늘 기준으로 표시할 행사가 없습니다.</p>
-        <p className="mt-2 text-sm text-gray-600">{today} 기준으로 종료되지 않은 행사만 노출합니다.</p>
+        <p className="text-lg font-semibold text-gray-900">선택한 조건에 맞는 행사가 없습니다.</p>
+        <p className="mt-2 text-sm text-gray-600">
+          {today} 기준으로 다시 집계한 결과이며, 다른 조건으로 둘러보실 수 있습니다.
+        </p>
+        <div className="mt-4">
+          <Link
+            href="/events"
+            className="inline-flex rounded-full border border-sky-200 bg-sky-50 px-4 py-2 text-sm font-semibold text-sky-700 transition-colors hover:bg-sky-100"
+          >
+            전체 행사 보기
+          </Link>
+        </div>
       </div>
     );
   }
@@ -79,22 +113,31 @@ export default function EventsCatalog({
           <div>
             <h2 className="text-xl font-bold text-gray-900">구별로 빠르게 보기</h2>
             <p className="mt-2 text-sm leading-relaxed text-gray-600">
-              원하는 구를 선택하면 해당 지역에서 {today} 기준 종료되지 않은 행사만 바로 볼 수 있습니다.
+              원하는 구를 선택하면 해당 지역에서 {today} 기준 지금 볼 만한 행사만 바로 볼 수 있습니다.
             </p>
           </div>
           <div className="text-sm text-gray-500">
             {selectedDistrict === ALL_DISTRICTS
-              ? `전체 ${visibleEvents.length}건`
+              ? `전체 ${baseEvents.length}건`
               : `${selectedDistrict} ${filteredEvents.length}건`}
           </div>
         </div>
+
+        {EVENT_VIEW_LABELS[selectedView] ? (
+          <div className="mt-6 rounded-xl border border-sky-200 bg-sky-50 px-4 py-4 text-sm leading-relaxed text-sky-800">
+            현재 보기: <strong>{EVENT_VIEW_LABELS[selectedView]}</strong>
+            <Link href="/events" className="ml-2 font-semibold underline underline-offset-4">
+              전체로 돌아가기
+            </Link>
+          </div>
+        ) : null}
 
         <div className="mt-6">
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">District</p>
           <div className="mt-3 flex flex-wrap gap-2">
             <DistrictChip
               district={ALL_DISTRICTS}
-              count={visibleEvents.length}
+              count={baseEvents.length}
               isActive={selectedDistrict === ALL_DISTRICTS}
               onClick={setSelectedDistrict}
             />

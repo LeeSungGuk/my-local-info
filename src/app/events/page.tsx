@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import EventsCatalog from "@/components/EventsCatalog";
 import { getAllEvents } from "@/lib/seoul-events";
 
@@ -41,9 +42,20 @@ export default async function EventsPage() {
             </p>
           </div>
         ) : (
-          <EventsCatalog events={events} />
+          <Suspense fallback={<CatalogFallback message="행사 목록을 불러오는 중입니다." />}>
+            <EventsCatalog events={events} />
+          </Suspense>
         )}
       </section>
+    </div>
+  );
+}
+
+function CatalogFallback({ message }: { message: string }) {
+  return (
+    <div className="rounded-2xl border border-sky-100 bg-white p-10 text-center">
+      <p className="text-lg font-semibold text-gray-900">{message}</p>
+      <p className="mt-2 text-sm text-gray-600">필터 조건을 준비하고 있습니다.</p>
     </div>
   );
 }

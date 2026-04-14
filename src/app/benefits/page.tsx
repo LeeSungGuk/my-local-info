@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import BenefitsCatalog from "@/components/BenefitsCatalog";
 import { getAllBenefits } from "@/lib/public-benefits";
 
@@ -42,9 +43,20 @@ export default async function BenefitsPage() {
             </p>
           </div>
         ) : (
-          <BenefitsCatalog benefits={benefits} />
+          <Suspense fallback={<CatalogFallback message="혜택 목록을 불러오는 중입니다." />}>
+            <BenefitsCatalog benefits={benefits} />
+          </Suspense>
         )}
       </section>
+    </div>
+  );
+}
+
+function CatalogFallback({ message }: { message: string }) {
+  return (
+    <div className="rounded-2xl border border-blue-100 bg-white p-10 text-center">
+      <p className="text-lg font-semibold text-gray-900">{message}</p>
+      <p className="mt-2 text-sm text-gray-600">필터 조건을 준비하고 있습니다.</p>
     </div>
   );
 }
