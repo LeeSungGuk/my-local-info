@@ -65,6 +65,9 @@ jobs:
       - name: Build
         run: npm run build
         env:
+          NEXT_PUBLIC_ADSENSE_ID: ${{ secrets.NEXT_PUBLIC_ADSENSE_ID }}
+          NEXT_PUBLIC_ADSENSE_SLOT_HOME: ${{ secrets.NEXT_PUBLIC_ADSENSE_SLOT_HOME }}
+          NEXT_PUBLIC_ADSENSE_SLOT_BLOG: ${{ secrets.NEXT_PUBLIC_ADSENSE_SLOT_BLOG }}
           NEXT_PUBLIC_COUPANG_PARTNER_ID: ${{ secrets.NEXT_PUBLIC_COUPANG_PARTNER_ID }}
 
       - name: Deploy to Cloudflare Pages
@@ -94,6 +97,9 @@ jobs:
       - name: Build
         run: npm run build
         env:
+          NEXT_PUBLIC_ADSENSE_ID: ${{ secrets.NEXT_PUBLIC_ADSENSE_ID }}
+          NEXT_PUBLIC_ADSENSE_SLOT_HOME: ${{ secrets.NEXT_PUBLIC_ADSENSE_SLOT_HOME }}
+          NEXT_PUBLIC_ADSENSE_SLOT_BLOG: ${{ secrets.NEXT_PUBLIC_ADSENSE_SLOT_BLOG }}
           NEXT_PUBLIC_COUPANG_PARTNER_ID: ${{ secrets.NEXT_PUBLIC_COUPANG_PARTNER_ID }}
 
       - name: Deploy to Cloudflare Pages
