@@ -1,6 +1,10 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import {
+  getNormalizedAdSenseId,
+  shouldRenderAdSenseBanner,
+} from "@/lib/adsense-config";
 
 declare global {
   interface Window {
@@ -13,15 +17,20 @@ interface AdBannerProps {
   className?: string;
 }
 
-const adSenseId = process.env.NEXT_PUBLIC_ADSENSE_ID?.trim() ?? "";
-const isConfigured = Boolean(adSenseId && adSenseId !== "나중에_입력");
+const adSenseId = getNormalizedAdSenseId(process.env.NEXT_PUBLIC_ADSENSE_ID);
+const enabledFlag = process.env.NEXT_PUBLIC_ADSENSE_ENABLED;
 
 export default function AdBanner({ slot = "", className = "" }: AdBannerProps) {
   const adRef = useRef<HTMLModElement | null>(null);
   const normalizedSlot = slot.trim();
+  const shouldRenderBanner = shouldRenderAdSenseBanner({
+    adSenseId,
+    enabledFlag,
+    slot: normalizedSlot,
+  });
 
   useEffect(() => {
-    if (!isConfigured || !normalizedSlot || !adRef.current) {
+    if (!shouldRenderBanner || !adRef.current) {
       return;
     }
 
@@ -30,9 +39,9 @@ export default function AdBanner({ slot = "", className = "" }: AdBannerProps) {
     } catch {
       // AdSense script not ready or duplicate initialization; fail silently.
     }
-  }, [normalizedSlot]);
+  }, [normalizedSlot, shouldRenderBanner]);
 
-  if (!isConfigured || !normalizedSlot || normalizedSlot === "나중에_입력") {
+  if (!shouldRenderBanner) {
     return null;
   }
 
