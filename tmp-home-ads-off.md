@@ -1,0 +1,171 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "서울시티 Seoul Local Guide" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+        - generic [ref=e15]:
+          - generic [ref=e16]: 서울시티
+          - generic [ref=e17]: Seoul Local Guide
+      - navigation [ref=e18]:
+        - link "홈" [ref=e19] [cursor=pointer]:
+          - /url: /
+        - link "행사/축제" [ref=e20] [cursor=pointer]:
+          - /url: /events/
+        - link "지원금/혜택" [ref=e21] [cursor=pointer]:
+          - /url: /benefits/
+        - link "블로그" [ref=e22] [cursor=pointer]:
+          - /url: /blog/
+        - link "소개" [ref=e23] [cursor=pointer]:
+          - /url: /about/
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e28]:
+        - generic [ref=e29]: 🌙 서울 로컬 생활 가이드
+        - heading "서울의 행사와 생활 정보를 한눈에 확인하세요" [level=1] [ref=e30]:
+          - text: 서울의 행사와 생활 정보를
+          - text: 한눈에 확인하세요
+        - paragraph [ref=e31]:
+          - text: 오늘의 서울을 조금 더 가볍고 선명하게 만날 수 있도록,
+          - text: 일상에 닿는 행사와 혜택을 한곳에 담았습니다.
+      - generic [ref=e33]:
+        - generic [ref=e36]:
+          - img [ref=e38]
+          - textbox "성동구 무료 전시, 청년 혜택, 비 오는 날 실내 코스" [ref=e40]
+          - button "통합 검색" [ref=e41]
+        - generic [ref=e42]:
+          - paragraph [ref=e43]: 행사, 혜택, 블로그를 한 번에 검색할 수 있습니다.
+          - generic [ref=e44]:
+            - generic [ref=e45]: 행사 352건
+            - generic [ref=e46]: 혜택 1079건
+            - generic [ref=e47]: 블로그 2건
+      - generic [ref=e49]:
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - paragraph [ref=e53]: 오늘의 서울 요약
+            - heading "지금 바로 볼 가치가 있는 정보만 먼저 모았습니다" [level=2] [ref=e54]
+          - paragraph [ref=e55]: 2026-04-15 서울 시간 기준 자동 집계
+        - generic [ref=e56]:
+          - link [ref=e57] [cursor=pointer]:
+            - /url: /events/?view=ongoing
+            - article [ref=e58]
+          - link [ref=e65] [cursor=pointer]:
+            - /url: /benefits/?view=closing-this-week
+            - article [ref=e66]
+          - link [ref=e73] [cursor=pointer]:
+            - /url: /events/?view=free
+            - article [ref=e74]
+          - link [ref=e81] [cursor=pointer]:
+            - /url: /events/?view=indoor
+            - article [ref=e82]
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - heading "🎉 서울시 행사·축제" [level=2] [ref=e92]
+            - paragraph [ref=e94]: 서울 열린데이터광장의 서울시 문화행사 정보를 기준으로 보여드립니다.
+          - link "전체 행사 보기" [ref=e95] [cursor=pointer]:
+            - /url: /events/
+        - generic [ref=e96]:
+          - generic [ref=e99]:
+            - generic [ref=e100]
+            - heading "[강북문화재단] 2026 어린이·청소년문화예술프로그램 [강북 그림책 아트플레이]" [level=3] [ref=e103]
+            - paragraph [ref=e104]: 강북구 · 강북문화예술회관 강북진달래홀 갤러리에서 열리는 축제-문화/예술 행사입니다. 무료로 참여할 수 있는 행사입니다.
+            - generic [ref=e105]
+            - link "자세히 보기" [ref=e115] [cursor=pointer]:
+              - /url: /events/seoul-event-157056/
+          - generic [ref=e120]:
+            - generic [ref=e121]
+            - heading "[구립증산도서관] 가족열람실 4월 북큐레이션 [같이 나누자, 봄날]" [level=3] [ref=e124]
+            - paragraph [ref=e125]: 은평구 · 3층 가족열람실에서 열리는 교육/체험 행사입니다. 무료로 참여할 수 있는 행사입니다.
+            - generic [ref=e126]
+            - link "자세히 보기" [ref=e136] [cursor=pointer]:
+              - /url: /events/seoul-event-157325/
+          - generic [ref=e141]:
+            - generic [ref=e142]
+            - heading "[구립증산도서관] 테마로 즐기는 도서관 - 4월 테마전시체험전 [어린이의 아침]" [level=3] [ref=e145]
+            - paragraph [ref=e146]: 은평구 · 지하 1층 북갤러리 및 3층 가족열람실에서 열리는 전시/미술 행사입니다. 무료로 참여할 수 있는 행사입니다.
+            - generic [ref=e147]
+            - link "자세히 보기" [ref=e157] [cursor=pointer]:
+              - /url: /events/seoul-event-157324/
+          - generic [ref=e162]:
+            - generic [ref=e163]
+            - heading "[마포구립서강도서관] 4월/팟캐스트 서강도서관 피셜 66회 [우리가 사랑한 거짓말]" [level=3] [ref=e166]
+            - paragraph [ref=e167]: 마포구 · 온라인 팟빵에서 열리는 기타 행사입니다. 무료로 참여할 수 있는 행사입니다.
+            - generic [ref=e168]
+            - link "자세히 보기" [ref=e178] [cursor=pointer]:
+              - /url: /events/seoul-event-157298/
+          - generic [ref=e183]:
+            - generic [ref=e184]
+            - heading "[마포구립서강도서관] 4월/행사 [4월 문화프로그램 안내]" [level=3] [ref=e187]
+            - paragraph [ref=e188]: 마포구 · 마포구립서강도서관에서 열리는 교육/체험 행사입니다. 무료로 참여할 수 있는 행사입니다.
+            - generic [ref=e189]
+            - link "자세히 보기" [ref=e199] [cursor=pointer]:
+              - /url: /events/seoul-event-157240/
+          - generic [ref=e204]:
+            - generic [ref=e205]
+            - heading "[송파 청년아티스트센터] 예술가와 함께하는 풍납 탐구 생활 4월 프로그램" [level=3] [ref=e208]
+            - paragraph [ref=e209]: 송파구 · 송파 청년아티스트센터 1층에서 열리는 교육/체험 행사입니다. 무료로 참여할 수 있는 행사입니다.
+            - generic [ref=e210]
+            - link "자세히 보기" [ref=e220] [cursor=pointer]:
+              - /url: /events/seoul-event-157132/
+      - generic [ref=e225]:
+        - generic [ref=e226]:
+          - generic [ref=e227]:
+            - heading "💰 놓치면 아쉬운 혜택" [level=2] [ref=e228]
+            - paragraph [ref=e230]: 공공데이터포털 기준으로 서울 혜택 정보를 확인하세요
+          - link "전체 혜택 보기" [ref=e231] [cursor=pointer]:
+            - /url: /benefits/
+        - generic [ref=e232]:
+          - generic [ref=e233]:
+            - generic [ref=e235]
+            - generic [ref=e238]
+          - generic [ref=e256]:
+            - generic [ref=e258]
+            - generic [ref=e261]
+          - generic [ref=e279]:
+            - generic [ref=e281]
+            - generic [ref=e284]
+          - generic [ref=e302]:
+            - generic [ref=e304]
+            - generic [ref=e307]
+      - generic [ref=e326]:
+        - paragraph [ref=e327]:
+          - text: 행사 데이터는 서울 열린데이터광장
+          - code [ref=e328]: 서울시 문화행사 정보
+          - text: ", 혜택 데이터는 공공데이터포털"
+          - code [ref=e329]: 대한민국 공공서비스(혜택) 정보
+          - text: 를 사용합니다.
+        - generic [ref=e330]:
+          - generic [ref=e331]: "행사 수집 시각: 2026-04-14T22:49:06.414Z"
+          - generic [ref=e333]: "혜택 수집 시각: 2026-04-14T02:04:05.772Z"
+  - contentinfo [ref=e335]:
+    - generic [ref=e336]:
+      - generic [ref=e337]:
+        - generic [ref=e338]:
+          - generic [ref=e339]:
+            - img [ref=e341]
+            - generic [ref=e349]
+          - paragraph [ref=e352]: 서울의 행사, 혜택, 생활형 정보글을 공공데이터 중심으로 정리해 더 빠르게 탐색할 수 있도록 돕는 서비스입니다.
+        - generic [ref=e353]:
+          - heading "바로가기" [level=3] [ref=e354]
+          - list [ref=e355]:
+            - listitem [ref=e356]
+            - listitem [ref=e358]
+            - listitem [ref=e360]
+            - listitem [ref=e362]
+            - listitem [ref=e364]
+        - generic [ref=e366]:
+          - heading "운영 안내" [level=3] [ref=e367]
+          - list [ref=e368]:
+            - listitem [ref=e369]
+            - listitem [ref=e371]
+            - listitem [ref=e373]
+            - listitem [ref=e375]
+            - listitem [ref=e377]
+            - listitem [ref=e379]
+            - listitem [ref=e381]
+            - listitem [ref=e383]
+      - paragraph [ref=e386]: © 2026 서울시티. 공공데이터 기반 서울 로컬 정보 서비스입니다.
+  - button "Open Next.js Dev Tools" [ref=e392] [cursor=pointer]:
+    - img [ref=e393]
+  - alert [ref=e396]

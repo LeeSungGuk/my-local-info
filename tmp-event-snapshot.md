@@ -1,0 +1,156 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "서울시티 Seoul Local Guide" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+        - generic [ref=e15]:
+          - generic [ref=e16]: 서울시티
+          - generic [ref=e17]: Seoul Local Guide
+      - navigation [ref=e18]:
+        - link "홈" [ref=e19] [cursor=pointer]:
+          - /url: /
+        - link "행사/축제" [ref=e20] [cursor=pointer]:
+          - /url: /events/
+        - link "지원금/혜택" [ref=e21] [cursor=pointer]:
+          - /url: /benefits/
+        - link "블로그" [ref=e22] [cursor=pointer]:
+          - /url: /blog/
+        - link "소개" [ref=e23] [cursor=pointer]:
+          - /url: /about/
+  - main [ref=e24]:
+    - generic [ref=e26]:
+      - link "행사 목록으로 돌아가기" [ref=e27] [cursor=pointer]:
+        - /url: /events/
+        - img [ref=e28]
+        - text: 행사 목록으로 돌아가기
+      - article [ref=e30]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: 뮤지컬/오페라
+            - generic [ref=e35]: 종로구
+            - generic [ref=e36]: 유료
+          - heading "[세종문화회관] 26세종시즌 [나부코]" [level=1] [ref=e37]
+          - paragraph [ref=e38]: 종로구 · 세종문화회관 세종대극장에서 열리는 뮤지컬/오페라 행사입니다. VIP석 150,000원 R석 120,000원 S석 100,000원 A석 80,000원 B석 50,000원
+          - img "[세종문화회관] 26세종시즌 [나부코]" [ref=e40]
+          - generic [ref=e41]:
+            - generic [ref=e43]:
+              - generic [ref=e44]: 📅
+              - generic [ref=e45]:
+                - paragraph [ref=e46]: 일정
+                - paragraph [ref=e47]: 2026-04-09 ~ 2026-04-12
+            - generic [ref=e49]:
+              - generic [ref=e50]: ⏰
+              - generic [ref=e51]:
+                - paragraph [ref=e52]: 운영 시간
+                - paragraph [ref=e53]: 4.9(목)-4.10(금) 19:30 / 4.11(토) 17:00 / 4.12(일) 17:00
+            - generic [ref=e55]:
+              - generic [ref=e56]: 📍
+              - generic [ref=e57]:
+                - paragraph [ref=e58]: 장소
+                - paragraph [ref=e59]: 세종문화회관 세종대극장
+            - generic [ref=e61]:
+              - generic [ref=e62]: 🏛️
+              - generic [ref=e63]:
+                - paragraph [ref=e64]: 주최
+                - paragraph [ref=e65]: 세종문화회관
+            - generic [ref=e67]:
+              - generic [ref=e68]: 👥
+              - generic [ref=e69]:
+                - paragraph [ref=e70]: 이용 대상
+                - paragraph [ref=e71]: 13세 이상 관람 가능 (2013년 이전 출생자)
+            - generic [ref=e73]:
+              - generic [ref=e74]: 💸
+              - generic [ref=e75]:
+                - paragraph [ref=e76]: 요금
+                - paragraph [ref=e77]: VIP석 150,000원 R석 120,000원 S석 100,000원 A석 80,000원 B석 50,000원
+            - generic [ref=e79]:
+              - generic [ref=e80]: ☎️
+              - generic [ref=e81]:
+                - paragraph [ref=e82]: 문의
+                - paragraph [ref=e83]: 02-399-1000
+            - generic [ref=e85]:
+              - generic [ref=e86]: 🗓️
+              - generic [ref=e87]:
+                - paragraph [ref=e88]: 등록일
+                - paragraph [ref=e89]: 2026-01-02
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - heading "행사 안내" [level=2] [ref=e92]
+              - paragraph [ref=e93]: 서울 열린데이터광장에서 별도 상세 설명을 제공하지 않아 공식 상세 페이지 확인이 필요합니다.
+              - generic [ref=e94]:
+                - generic [ref=e95]
+                - generic [ref=e107]
+            - generic [ref=e116]:
+              - heading "데이터 출처" [level=2] [ref=e117]
+              - paragraph [ref=e118]:
+                - text: 서울 열린데이터광장
+                - code [ref=e119]: 서울시 문화행사 정보
+                - text: 데이터를 기준으로 저장한 항목입니다.
+              - generic [ref=e120]:
+                - generic [ref=e121]
+                - generic [ref=e124]
+                - generic [ref=e127]
+              - link "공식 상세 페이지 보기" [ref=e130] [cursor=pointer]:
+                - /url: https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156411&menuNo=200008
+                - text: 공식 상세 페이지 보기
+                - img [ref=e131]
+  - contentinfo [ref=e133]:
+    - generic [ref=e134]:
+      - generic [ref=e135]:
+        - generic [ref=e136]:
+          - generic [ref=e137]:
+            - img [ref=e139]
+            - generic [ref=e147]:
+              - generic [ref=e148]: 서울시티
+              - generic [ref=e149]: Seoul Local Guide
+          - paragraph [ref=e150]: 서울의 행사, 혜택, 생활형 정보글을 공공데이터 중심으로 정리해 더 빠르게 탐색할 수 있도록 돕는 서비스입니다.
+        - generic [ref=e151]:
+          - heading "바로가기" [level=3] [ref=e152]
+          - list [ref=e153]:
+            - listitem [ref=e154]:
+              - link "홈" [ref=e155] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e156]:
+              - link "행사/축제" [ref=e157] [cursor=pointer]:
+                - /url: /events/
+            - listitem [ref=e158]:
+              - link "지원금/혜택" [ref=e159] [cursor=pointer]:
+                - /url: /benefits/
+            - listitem [ref=e160]:
+              - link "블로그" [ref=e161] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e162]:
+              - link "통합 검색" [ref=e163] [cursor=pointer]:
+                - /url: /search/
+        - generic [ref=e164]:
+          - heading "운영 안내" [level=3] [ref=e165]
+          - list [ref=e166]:
+            - listitem [ref=e167]:
+              - link "서비스 안내" [ref=e168] [cursor=pointer]:
+                - /url: /notice/
+            - listitem [ref=e169]:
+              - link "개인정보처리방침" [ref=e170] [cursor=pointer]:
+                - /url: /privacy/
+            - listitem [ref=e171]:
+              - link "광고·분석 고지" [ref=e172] [cursor=pointer]:
+                - /url: /disclosure/
+            - listitem [ref=e173]:
+              - link "문의 및 정정 요청" [ref=e174] [cursor=pointer]:
+                - /url: /contact/
+            - listitem [ref=e175]:
+              - link "jin3137@gmail.com" [ref=e176] [cursor=pointer]:
+                - /url: mailto:jin3137@gmail.com
+            - listitem [ref=e177]:
+              - link "GitHub Issues" [ref=e178] [cursor=pointer]:
+                - /url: https://github.com/LeeSungGuk/my-local-info/issues
+            - listitem [ref=e179]:
+              - link "서울 열린데이터광장" [ref=e180] [cursor=pointer]:
+                - /url: https://data.seoul.go.kr
+            - listitem [ref=e181]:
+              - link "공공데이터포털" [ref=e182] [cursor=pointer]:
+                - /url: https://data.go.kr
+      - paragraph [ref=e184]: © 2026 서울시티. 공공데이터 기반 서울 로컬 정보 서비스입니다.
+  - button "Open Next.js Dev Tools" [ref=e190] [cursor=pointer]:
+    - img [ref=e191]
+  - alert [ref=e194]

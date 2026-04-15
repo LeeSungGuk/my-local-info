@@ -1,0 +1,645 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "서울시티 Seoul Local Guide" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+        - generic [ref=e15]:
+          - generic [ref=e16]: 서울시티
+          - generic [ref=e17]: Seoul Local Guide
+      - navigation [ref=e18]:
+        - link "홈" [ref=e19] [cursor=pointer]:
+          - /url: /
+        - link "행사/축제" [ref=e20] [cursor=pointer]:
+          - /url: /events/
+        - link "지원금/혜택" [ref=e21] [cursor=pointer]:
+          - /url: /benefits/
+        - link "블로그" [ref=e22] [cursor=pointer]:
+          - /url: /blog/
+        - link "소개" [ref=e23] [cursor=pointer]:
+          - /url: /about/
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e27]:
+        - generic [ref=e28]: 서울시 전체 행사·축제
+        - heading "요즘 서울에서 열리는 행사와 축제를 한눈에 둘러보세요" [level=1] [ref=e29]:
+          - text: 요즘 서울에서 열리는 행사와 축제를
+          - text: 한눈에 둘러보세요
+        - paragraph [ref=e30]:
+          - text: 전시, 공연, 체험, 축제처럼 지금 서울에서 살펴볼 만한 일정을 모았습니다.
+          - text: 가고 싶은 구를 고르면 내 주변에서 볼 만한 행사만 더 빠르게 찾을 수 있습니다.
+        - generic [ref=e31]:
+          - link "오늘 진행 중" [ref=e32] [cursor=pointer]:
+            - /url: /events/?view=ongoing
+          - link "무료 행사" [ref=e33] [cursor=pointer]:
+            - /url: /events/?view=free
+          - link "실내 추천" [ref=e34] [cursor=pointer]:
+            - /url: /events/?view=indoor
+          - link "서울 전체 보기" [ref=e35] [cursor=pointer]:
+            - /url: /events/
+      - generic [ref=e37]:
+        - complementary [ref=e38]:
+          - generic [ref=e39]:
+            - generic [ref=e40]:
+              - heading "구별로 빠르게 보기" [level=2] [ref=e41]
+              - paragraph [ref=e42]: 원하는 구를 선택하면 해당 지역에서 2026-04-15 기준 지금 볼 만한 행사만 바로 볼 수 있습니다.
+            - generic [ref=e43]: 전체 257건
+          - generic [ref=e44]:
+            - paragraph [ref=e45]: District
+            - generic [ref=e46]:
+              - button "전체 257" [ref=e47]
+              - button "강남구 12" [ref=e48]
+              - button "강동구 3" [ref=e49]
+              - button "강북구 10" [ref=e50]
+              - button "강서구 3" [ref=e51]
+              - button "관악구 4" [ref=e52]
+              - button "광진구 5" [ref=e53]
+              - button "구로구 9" [ref=e54]
+              - button "금천구 7" [ref=e55]
+              - button "노원구 16" [ref=e56]
+              - button "도봉구 4" [ref=e57]
+              - button "동대문구 4" [ref=e58]
+              - button "동작구 2" [ref=e59]
+              - button "마포구 13" [ref=e60]
+              - button "서대문구 3" [ref=e61]
+              - button "서초구 13" [ref=e62]
+              - button "성동구 12" [ref=e63]
+              - button "성북구 1" [ref=e64]
+              - button "송파구 15" [ref=e65]
+              - button "양천구 5" [ref=e66]
+              - button "영등포구 6" [ref=e67]
+              - button "용산구 9" [ref=e68]
+              - button "은평구 14" [ref=e69]
+              - button "종로구 64" [ref=e70]
+              - button "중구 21" [ref=e71]
+              - button "중랑구 2" [ref=e72]
+          - generic [ref=e73]: 종료된 일정은 자동으로 숨기고, 시작일 기준으로 정렬해 보여줍니다.
+        - generic [ref=e74]:
+          - paragraph [ref=e76]: 서울 전체 행사 257건
+          - generic [ref=e77]:
+            - article [ref=e78]:
+              - generic [ref=e80]:
+                - generic [ref=e81]:
+                  - generic [ref=e82]: 축제-문화/예술
+                  - generic [ref=e83]: 강북구
+                - heading "[강북문화재단] 2026 어린이·청소년문화예술프로그램 [강북 그림책 아트플레이]" [level=3] [ref=e84]
+                - paragraph [ref=e85]: 강북구 · 강북문화예술회관 강북진달래홀 갤러리에서 열리는 축제-문화/예술 행사입니다. 무료로 참여할 수 있는 행사입니다.
+                - generic [ref=e86]:
+                  - generic [ref=e87]:
+                    - generic [ref=e88]: 📅
+                    - generic [ref=e89]: 2026-04-01 ~ 2026-04-25
+                  - generic [ref=e90]:
+                    - generic [ref=e91]: 📍
+                    - generic [ref=e92]: 강북문화예술회관 강북진달래홀 갤러리
+                  - generic [ref=e93]:
+                    - generic [ref=e94]: 💸
+                    - generic [ref=e95]: 무료
+                - link "상세 보기" [ref=e96] [cursor=pointer]:
+                  - /url: /events/seoul-event-157056/
+                  - text: 상세 보기
+                  - img [ref=e97]
+            - article [ref=e99]:
+              - generic [ref=e101]:
+                - generic [ref=e102]:
+                  - generic [ref=e103]: 교육/체험
+                  - generic [ref=e104]: 은평구
+                - heading "[구립증산도서관] 가족열람실 4월 북큐레이션 [같이 나누자, 봄날]" [level=3] [ref=e105]
+                - paragraph [ref=e106]: 은평구 · 3층 가족열람실에서 열리는 교육/체험 행사입니다. 무료로 참여할 수 있는 행사입니다.
+                - generic [ref=e107]:
+                  - generic [ref=e108]:
+                    - generic [ref=e109]: 📅
+                    - generic [ref=e110]: 2026-04-01 ~ 2026-04-26
+                  - generic [ref=e111]:
+                    - generic [ref=e112]: 📍
+                    - generic [ref=e113]: 3층 가족열람실
+                  - generic [ref=e114]:
+                    - generic [ref=e115]: 💸
+                    - generic [ref=e116]: 무료
+                - link "상세 보기" [ref=e117] [cursor=pointer]:
+                  - /url: /events/seoul-event-157325/
+                  - text: 상세 보기
+                  - img [ref=e118]
+            - article [ref=e120]:
+              - generic [ref=e122]:
+                - generic [ref=e123]:
+                  - generic [ref=e124]: 전시/미술
+                  - generic [ref=e125]: 은평구
+                - heading "[구립증산도서관] 테마로 즐기는 도서관 - 4월 테마전시체험전 [어린이의 아침]" [level=3] [ref=e126]
+                - paragraph [ref=e127]: 은평구 · 지하 1층 북갤러리 및 3층 가족열람실에서 열리는 전시/미술 행사입니다. 무료로 참여할 수 있는 행사입니다.
+                - generic [ref=e128]:
+                  - generic [ref=e129]:
+                    - generic [ref=e130]: 📅
+                    - generic [ref=e131]: 2026-04-01 ~ 2026-04-26
+                  - generic [ref=e132]:
+                    - generic [ref=e133]: 📍
+                    - generic [ref=e134]: 지하 1층 북갤러리 및 3층 가족열람실
+                  - generic [ref=e135]:
+                    - generic [ref=e136]: 💸
+                    - generic [ref=e137]: 무료
+                - link "상세 보기" [ref=e138] [cursor=pointer]:
+                  - /url: /events/seoul-event-157324/
+                  - text: 상세 보기
+                  - img [ref=e139]
+            - article [ref=e141]:
+              - generic [ref=e143]:
+                - generic [ref=e144]:
+                  - generic [ref=e145]: 기타
+                  - generic [ref=e146]: 마포구
+                - heading "[마포구립서강도서관] 4월/팟캐스트 서강도서관 피셜 66회 [우리가 사랑한 거짓말]" [level=3] [ref=e147]
+                - paragraph [ref=e148]: 마포구 · 온라인 팟빵에서 열리는 기타 행사입니다. 무료로 참여할 수 있는 행사입니다.
+                - generic [ref=e149]:
+                  - generic [ref=e150]:
+                    - generic [ref=e151]: 📅
+                    - generic [ref=e152]: 2026-04-01 ~ 2026-04-30
+                  - generic [ref=e153]:
+                    - generic [ref=e154]: 📍
+                    - generic [ref=e155]: 온라인 팟빵
+                  - generic [ref=e156]:
+                    - generic [ref=e157]: 💸
+                    - generic [ref=e158]: 무료
+                - link "상세 보기" [ref=e159] [cursor=pointer]:
+                  - /url: /events/seoul-event-157298/
+                  - text: 상세 보기
+                  - img [ref=e160]
+            - article [ref=e162]:
+              - generic [ref=e164]:
+                - generic [ref=e165]:
+                  - generic [ref=e166]: 교육/체험
+                  - generic [ref=e167]: 마포구
+                - heading "[마포구립서강도서관] 4월/행사 [4월 문화프로그램 안내]" [level=3] [ref=e168]
+                - paragraph [ref=e169]: 마포구 · 마포구립서강도서관에서 열리는 교육/체험 행사입니다. 무료로 참여할 수 있는 행사입니다.
+                - generic [ref=e170]:
+                  - generic [ref=e171]:
+                    - generic [ref=e172]: 📅
+                    - generic [ref=e173]: 2026-04-01 ~ 2026-04-30
+                  - generic [ref=e174]:
+                    - generic [ref=e175]: 📍
+                    - generic [ref=e176]: 마포구립서강도서관
+                  - generic [ref=e177]:
+                    - generic [ref=e178]: 💸
+                    - generic [ref=e179]: 무료
+                - link "상세 보기" [ref=e180] [cursor=pointer]:
+                  - /url: /events/seoul-event-157240/
+                  - text: 상세 보기
+                  - img [ref=e181]
+            - article [ref=e183]:
+              - generic [ref=e185]:
+                - generic [ref=e186]:
+                  - generic [ref=e187]: 교육/체험
+                  - generic [ref=e188]: 송파구
+                - heading "[송파 청년아티스트센터] 예술가와 함께하는 풍납 탐구 생활 4월 프로그램" [level=3] [ref=e189]
+                - paragraph [ref=e190]: 송파구 · 송파 청년아티스트센터 1층에서 열리는 교육/체험 행사입니다. 무료로 참여할 수 있는 행사입니다.
+                - generic [ref=e191]:
+                  - generic [ref=e192]:
+                    - generic [ref=e193]: 📅
+                    - generic [ref=e194]: 2026-04-01 ~ 2026-04-30
+                  - generic [ref=e195]:
+                    - generic [ref=e196]: 📍
+                    - generic [ref=e197]: 송파 청년아티스트센터 1층
+                  - generic [ref=e198]:
+                    - generic [ref=e199]: 💸
+                    - generic [ref=e200]: 무료
+                - link "상세 보기" [ref=e201] [cursor=pointer]:
+                  - /url: /events/seoul-event-157132/
+                  - text: 상세 보기
+                  - img [ref=e202]
+            - article [ref=e204]:
+              - generic [ref=e206]:
+                - generic [ref=e207]:
+                  - generic [ref=e208]: 전시/미술
+                  - generic [ref=e209]: 종로구
+                - heading "강현지 개인전 [절기의 빛 - 곡우穀雨]" [level=3] [ref=e210]
+                - paragraph [ref=e211]: 종로구 · 갤러리메일란에서 열리는 전시/미술 행사입니다. 무료로 참여할 수 있는 행사입니다.
+                - generic [ref=e212]:
+                  - generic [ref=e213]:
+                    - generic [ref=e214]: 📅
+                    - generic [ref=e215]: 2026-04-01 ~ 2026-04-30
+                  - generic [ref=e216]:
+                    - generic [ref=e217]: 📍
+                    - generic [ref=e218]: 갤러리메일란
+                  - generic [ref=e219]:
+                    - generic [ref=e220]: 💸
+                    - generic [ref=e221]: 무료
+                - link "상세 보기" [ref=e222] [cursor=pointer]:
+                  - /url: /events/seoul-event-157320/
+                  - text: 상세 보기
+                  - img [ref=e223]
+            - article [ref=e225]:
+              - generic [ref=e227]:
+                - generic [ref=e228]:
+                  - generic [ref=e229]: 콘서트
+                  - generic [ref=e230]: 중구
+                - heading "[DDP] DDPlay 버스킹 4월 공연 일정 안내" [level=3] [ref=e231]
+                - paragraph [ref=e232]: 중구 · DDP 어울림광장, 팔거리에서 열리는 콘서트 행사입니다. 무료로 참여할 수 있는 행사입니다.
+                - generic [ref=e233]:
+                  - generic [ref=e234]:
+                    - generic [ref=e235]: 📅
+                    - generic [ref=e236]: 2026-04-01 ~ 2026-04-30
+                  - generic [ref=e237]:
+                    - generic [ref=e238]: 📍
+                    - generic [ref=e239]: DDP 어울림광장, 팔거리
+                  - generic [ref=e240]:
+                    - generic [ref=e241]: 💸
+                    - generic [ref=e242]: 무료
+                - link "상세 보기" [ref=e243] [cursor=pointer]:
+                  - /url: /events/seoul-event-157286/
+                  - text: 상세 보기
+                  - img [ref=e244]
+            - article [ref=e246]:
+              - generic [ref=e248]:
+                - generic [ref=e249]:
+                  - generic [ref=e250]: 교육/체험
+                  - generic [ref=e251]: 중랑구
+                - heading "[중랑문화재단] 2026 중랑아트센터 [나대기 예술아카데미] 4월 프로그램" [level=3] [ref=e252]
+                - paragraph [ref=e253]: 중랑구 · 중랑아트센터 프로그램실/시청각실에서 열리는 교육/체험 행사입니다. 프로그램별 상이 (상세 내용 참조)
+                - generic [ref=e254]:
+                  - generic [ref=e255]:
+                    - generic [ref=e256]: 📅
+                    - generic [ref=e257]: 2026-04-01 ~ 2026-04-30
+                  - generic [ref=e258]:
+                    - generic [ref=e259]: 📍
+                    - generic [ref=e260]: 중랑아트센터 프로그램실/시청각실
+                  - generic [ref=e261]:
+                    - generic [ref=e262]: 💸
+                    - generic [ref=e263]: 프로그램별 상이 (상세 내용 참조)
+                - link "상세 보기" [ref=e264] [cursor=pointer]:
+                  - /url: /events/seoul-event-157231/
+                  - text: 상세 보기
+                  - img [ref=e265]
+            - article [ref=e267]:
+              - generic [ref=e269]:
+                - generic [ref=e270]:
+                  - generic [ref=e271]: 교육/체험
+                  - generic [ref=e272]: 금천구
+                - heading "[금천구립독산도서관] 2026년 금천시민대학 [보이지 않던 것들의 미술사] - 권력, 침묵, 그리고 예술이 말을 걸 때" [level=3] [ref=e273]
+                - paragraph [ref=e274]: 금천구 · 금천구립독산도서관 2층 강의실에서 열리는 교육/체험 행사입니다. 무료로 참여할 수 있는 행사입니다.
+                - generic [ref=e275]:
+                  - generic [ref=e276]:
+                    - generic [ref=e277]: 📅
+                    - generic [ref=e278]: 2026-04-01 ~ 2026-05-13
+                  - generic [ref=e279]:
+                    - generic [ref=e280]: 📍
+                    - generic [ref=e281]: 금천구립독산도서관 2층 강의실
+                  - generic [ref=e282]:
+                    - generic [ref=e283]: 💸
+                    - generic [ref=e284]: 무료
+                - link "상세 보기" [ref=e285] [cursor=pointer]:
+                  - /url: /events/seoul-event-157180/
+                  - text: 상세 보기
+                  - img [ref=e286]
+            - article [ref=e288]:
+              - generic [ref=e290]:
+                - generic [ref=e291]:
+                  - generic [ref=e292]: 전시/미술
+                  - generic [ref=e293]: 종로구
+                - 'heading "기.기.기(奇.己.氣): 동시대와 시행착오" [level=3] [ref=e294]'
+                - paragraph [ref=e295]: 종로구 · 일민미술관에서 열리는 전시/미술 행사입니다. 7,000~9,000원
+                - generic [ref=e296]:
+                  - generic [ref=e297]:
+                    - generic [ref=e298]: 📅
+                    - generic [ref=e299]: 2026-04-01 ~ 2026-05-31
+                  - generic [ref=e300]:
+                    - generic [ref=e301]: 📍
+                    - generic [ref=e302]: 일민미술관
+                  - generic [ref=e303]:
+                    - generic [ref=e304]: 💸
+                    - generic [ref=e305]: 7,000~9,000원
+                - link "상세 보기" [ref=e306] [cursor=pointer]:
+                  - /url: /events/seoul-event-157256/
+                  - text: 상세 보기
+                  - img [ref=e307]
+            - article [ref=e309]:
+              - generic [ref=e311]:
+                - generic [ref=e312]:
+                  - generic [ref=e313]: 교육/체험
+                  - generic [ref=e314]: 종로구
+                - heading "[운현궁] 2026 서울 운현궁 예절교실" [level=3] [ref=e315]
+                - paragraph [ref=e316]: 종로구 · 운현궁 이로당, 노락당에서 열리는 교육/체험 행사입니다. 유아·초등부 18,000원 / 중등·고등부,성인부 22,000원
+                - generic [ref=e317]:
+                  - generic [ref=e318]:
+                    - generic [ref=e319]: 📅
+                    - generic [ref=e320]: 2026-04-01 ~ 2026-06-12
+                  - generic [ref=e321]:
+                    - generic [ref=e322]: 📍
+                    - generic [ref=e323]: 운현궁 이로당, 노락당
+                  - generic [ref=e324]:
+                    - generic [ref=e325]: 💸
+                    - generic [ref=e326]: 유아·초등부 18,000원 / 중등·고등부,성인부 22,000원
+                - link "상세 보기" [ref=e327] [cursor=pointer]:
+                  - /url: /events/seoul-event-156901/
+                  - text: 상세 보기
+                  - img [ref=e328]
+            - article [ref=e330]:
+              - generic [ref=e332]:
+                - generic [ref=e333]:
+                  - generic [ref=e334]: 전시/미술
+                  - generic [ref=e335]: 마포구
+                - heading "[마포구립서강도서관] 2분기/어린이갤러리 [우리는 당신에 대해 조금 알고 있습니다]" [level=3] [ref=e336]
+                - paragraph [ref=e337]: 마포구 · 마포구립서강도서관 4층 어린이자료실에서 열리는 전시/미술 행사입니다. 무료로 참여할 수 있는 행사입니다.
+                - generic [ref=e338]:
+                  - generic [ref=e339]:
+                    - generic [ref=e340]: 📅
+                    - generic [ref=e341]: 2026-04-01 ~ 2026-06-29
+                  - generic [ref=e342]:
+                    - generic [ref=e343]: 📍
+                    - generic [ref=e344]: 마포구립서강도서관 4층 어린이자료실
+                  - generic [ref=e345]:
+                    - generic [ref=e346]: 💸
+                    - generic [ref=e347]: 무료
+                - link "상세 보기" [ref=e348] [cursor=pointer]:
+                  - /url: /events/seoul-event-157198/
+                  - text: 상세 보기
+                  - img [ref=e349]
+            - article [ref=e351]:
+              - generic [ref=e353]:
+                - generic [ref=e354]:
+                  - generic [ref=e355]: 교육/체험
+                  - generic [ref=e356]: 종로구
+                - heading "2026년 경복궁 [경회루·향원정] 특별관람" [level=3] [ref=e357]
+                - paragraph [ref=e358]: 종로구 · 경복궁 경회루·향원정에서 열리는 교육/체험 행사입니다. 경복궁 입장료 별도
+                - generic [ref=e359]:
+                  - generic [ref=e360]:
+                    - generic [ref=e361]: 📅
+                    - generic [ref=e362]: 2026-04-01 ~ 2026-10-30
+                  - generic [ref=e363]:
+                    - generic [ref=e364]: 📍
+                    - generic [ref=e365]: 경복궁 경회루·향원정
+                  - generic [ref=e366]:
+                    - generic [ref=e367]: 💸
+                    - generic [ref=e368]: 경복궁 입장료 별도
+                - link "상세 보기" [ref=e369] [cursor=pointer]:
+                  - /url: /events/seoul-event-157389/
+                  - text: 상세 보기
+                  - img [ref=e370]
+            - article [ref=e372]:
+              - generic [ref=e374]:
+                - generic [ref=e375]:
+                  - generic [ref=e376]: 교육/체험
+                  - generic [ref=e377]: 종로구
+                - heading "2026년 집옥재(팔우정 포함) 작은 도서관 개방" [level=3] [ref=e378]
+                - paragraph [ref=e379]: 종로구 · 경복궁 집옥재·팔우정에서 열리는 교육/체험 행사입니다. 경복궁 입장료 별도
+                - generic [ref=e380]:
+                  - generic [ref=e381]:
+                    - generic [ref=e382]: 📅
+                    - generic [ref=e383]: 2026-04-01 ~ 2026-10-31
+                  - generic [ref=e384]:
+                    - generic [ref=e385]: 📍
+                    - generic [ref=e386]: 경복궁 집옥재·팔우정
+                  - generic [ref=e387]:
+                    - generic [ref=e388]: 💸
+                    - generic [ref=e389]: 경복궁 입장료 별도
+                - link "상세 보기" [ref=e390] [cursor=pointer]:
+                  - /url: /events/seoul-event-157383/
+                  - text: 상세 보기
+                  - img [ref=e391]
+            - article [ref=e393]:
+              - generic [ref=e395]:
+                - generic [ref=e396]:
+                  - generic [ref=e397]: 교육/체험
+                  - generic [ref=e398]: 노원구
+                - heading "[서울생활사박물관] 2026년 무브무브 나의 생활사 교육생 모집 (초등 3~4학년 학급단체)" [level=3] [ref=e399]
+                - paragraph [ref=e400]: 노원구 · 서울생활사박물관에서 열리는 교육/체험 행사입니다. 무료로 참여할 수 있는 행사입니다.
+                - generic [ref=e401]:
+                  - generic [ref=e402]:
+                    - generic [ref=e403]: 📅
+                    - generic [ref=e404]: 2026-04-01 ~ 2026-12-02
+                  - generic [ref=e405]:
+                    - generic [ref=e406]: 📍
+                    - generic [ref=e407]: 서울생활사박물관
+                  - generic [ref=e408]:
+                    - generic [ref=e409]: 💸
+                    - generic [ref=e410]: 무료
+                - link "상세 보기" [ref=e411] [cursor=pointer]:
+                  - /url: /events/seoul-event-156701/
+                  - text: 상세 보기
+                  - img [ref=e412]
+            - article [ref=e414]:
+              - generic [ref=e416]:
+                - generic [ref=e417]:
+                  - generic [ref=e418]: 교육/체험
+                  - generic [ref=e419]: 노원구
+                - heading "[서울시립과학관] 2026 과학테마교실" [level=3] [ref=e420]
+                - paragraph [ref=e421]: 노원구 · 서울시립과학관 1~4교육실에서 열리는 교육/체험 행사입니다. 강좌 당 25만원
+                - generic [ref=e422]:
+                  - generic [ref=e423]:
+                    - generic [ref=e424]: 📅
+                    - generic [ref=e425]: 2026-04-01 ~ 2026-12-04
+                  - generic [ref=e426]:
+                    - generic [ref=e427]: 📍
+                    - generic [ref=e428]: 서울시립과학관 1~4교육실
+                  - generic [ref=e429]:
+                    - generic [ref=e430]: 💸
+                    - generic [ref=e431]: 강좌 당 25만원
+                - link "상세 보기" [ref=e432] [cursor=pointer]:
+                  - /url: /events/seoul-event-156523/
+                  - text: 상세 보기
+                  - img [ref=e433]
+            - article [ref=e435]:
+              - generic [ref=e437]:
+                - generic [ref=e438]:
+                  - generic [ref=e439]: 교육/체험
+                  - generic [ref=e440]: 노원구
+                - heading "[서울시립과학관] 2026 이공계 특화 진로 탐색" [level=3] [ref=e441]
+                - paragraph [ref=e442]: 노원구 · 서울시립과학관 1~4교육실에서 열리는 교육/체험 행사입니다. 강좌 당 40만원
+                - generic [ref=e443]:
+                  - generic [ref=e444]:
+                    - generic [ref=e445]: 📅
+                    - generic [ref=e446]: 2026-04-01 ~ 2026-12-06
+                  - generic [ref=e447]:
+                    - generic [ref=e448]: 📍
+                    - generic [ref=e449]: 서울시립과학관 1~4교육실
+                  - generic [ref=e450]:
+                    - generic [ref=e451]: 💸
+                    - generic [ref=e452]: 강좌 당 40만원
+                - link "상세 보기" [ref=e453] [cursor=pointer]:
+                  - /url: /events/seoul-event-156519/
+                  - text: 상세 보기
+                  - img [ref=e454]
+            - article [ref=e456]:
+              - generic [ref=e458]:
+                - generic [ref=e459]:
+                  - generic [ref=e460]: 교육/체험
+                  - generic [ref=e461]: 노원구
+                - heading "[서울시립과학관] 2026 고교탐구교실" [level=3] [ref=e462]
+                - paragraph [ref=e463]: 노원구 · 서울시립과학관 1~4교육실에서 열리는 교육/체험 행사입니다. 강좌 당 40만원
+                - generic [ref=e464]:
+                  - generic [ref=e465]:
+                    - generic [ref=e466]: 📅
+                    - generic [ref=e467]: 2026-04-01 ~ 2026-12-31
+                  - generic [ref=e468]:
+                    - generic [ref=e469]: 📍
+                    - generic [ref=e470]: 서울시립과학관 1~4교육실
+                  - generic [ref=e471]:
+                    - generic [ref=e472]: 💸
+                    - generic [ref=e473]: 강좌 당 40만원
+                - link "상세 보기" [ref=e474] [cursor=pointer]:
+                  - /url: /events/seoul-event-156520/
+                  - text: 상세 보기
+                  - img [ref=e475]
+            - article [ref=e477]:
+              - generic [ref=e479]:
+                - generic [ref=e480]:
+                  - generic [ref=e481]: 교육/체험
+                  - generic [ref=e482]: 종로구
+                - heading "[서울역사박물관] 2026년 [느낌있는 박물관] 중·고등학교 특수학급 기관 모집" [level=3] [ref=e483]
+                - paragraph [ref=e484]: 종로구 · 서울역사박물관에서 열리는 교육/체험 행사입니다. 무료로 참여할 수 있는 행사입니다.
+                - generic [ref=e485]:
+                  - generic [ref=e486]:
+                    - generic [ref=e487]: 📅
+                    - generic [ref=e488]: 2026-04-01 ~ 2026-12-31
+                  - generic [ref=e489]:
+                    - generic [ref=e490]: 📍
+                    - generic [ref=e491]: 서울역사박물관
+                  - generic [ref=e492]:
+                    - generic [ref=e493]: 💸
+                    - generic [ref=e494]: 무료
+                - link "상세 보기" [ref=e495] [cursor=pointer]:
+                  - /url: /events/seoul-event-156940/
+                  - text: 상세 보기
+                  - img [ref=e496]
+            - article [ref=e498]:
+              - generic [ref=e500]:
+                - generic [ref=e501]:
+                  - generic [ref=e502]: 국악
+                  - generic [ref=e503]: 종로구
+                - heading "[서울돈화문국악당] 2026 산조대전" [level=3] [ref=e504]
+                - paragraph [ref=e505]: 종로구 · 서울돈화문국악당 공연장에서 열리는 국악 행사입니다. 전석 20,000원
+                - generic [ref=e506]:
+                  - generic [ref=e507]:
+                    - generic [ref=e508]: 📅
+                    - generic [ref=e509]: 2026-04-02 ~ 2026-04-19
+                  - generic [ref=e510]:
+                    - generic [ref=e511]: 📍
+                    - generic [ref=e512]: 서울돈화문국악당 공연장
+                  - generic [ref=e513]:
+                    - generic [ref=e514]: 💸
+                    - generic [ref=e515]: 전석 20,000원
+                - link "상세 보기" [ref=e516] [cursor=pointer]:
+                  - /url: /events/seoul-event-156738/
+                  - text: 상세 보기
+                  - img [ref=e517]
+            - article [ref=e519]:
+              - generic [ref=e521]:
+                - generic [ref=e522]:
+                  - generic [ref=e523]: 전시/미술
+                  - generic [ref=e524]: 용산구
+                - heading "구유빈 개인전 [레가토]" [level=3] [ref=e525]
+                - paragraph [ref=e526]: 용산구 · 인가희갤러리에서 열리는 전시/미술 행사입니다. 무료로 참여할 수 있는 행사입니다.
+                - generic [ref=e527]:
+                  - generic [ref=e528]:
+                    - generic [ref=e529]: 📅
+                    - generic [ref=e530]: 2026-04-02 ~ 2026-04-22
+                  - generic [ref=e531]:
+                    - generic [ref=e532]: 📍
+                    - generic [ref=e533]: 인가희갤러리
+                  - generic [ref=e534]:
+                    - generic [ref=e535]: 💸
+                    - generic [ref=e536]: 무료
+                - link "상세 보기" [ref=e537] [cursor=pointer]:
+                  - /url: /events/seoul-event-157301/
+                  - text: 상세 보기
+                  - img [ref=e538]
+            - article [ref=e540]:
+              - generic [ref=e542]:
+                - generic [ref=e543]:
+                  - generic [ref=e544]: 전시/미술
+                  - generic [ref=e545]: 은평구
+                - heading "[구립증산도서관] 책 따라 걷는 도서관 - 4월 원화 전시 [에너지 충전]" [level=3] [ref=e546]
+                - paragraph [ref=e547]: 은평구 · 구립증산도서관 1층 로비 / 3층 어린이열람실에서 열리는 전시/미술 행사입니다. 무료로 참여할 수 있는 행사입니다.
+                - generic [ref=e548]:
+                  - generic [ref=e549]:
+                    - generic [ref=e550]: 📅
+                    - generic [ref=e551]: 2026-04-02 ~ 2026-04-23
+                  - generic [ref=e552]:
+                    - generic [ref=e553]: 📍
+                    - generic [ref=e554]: 구립증산도서관 1층 로비 / 3층 어린이열람실
+                  - generic [ref=e555]:
+                    - generic [ref=e556]: 💸
+                    - generic [ref=e557]: 무료
+                - link "상세 보기" [ref=e558] [cursor=pointer]:
+                  - /url: /events/seoul-event-157323/
+                  - text: 상세 보기
+                  - img [ref=e559]
+            - article [ref=e561]:
+              - generic [ref=e563]:
+                - generic [ref=e564]:
+                  - generic [ref=e565]: 전시/미술
+                  - generic [ref=e566]: 용산구
+                - heading "부드러운 것이 세상을 강하게 하듯이" [level=3] [ref=e567]
+                - paragraph [ref=e568]: 용산구 · 갤러리 더씨(서울시 용산구 임정로 35 2층)에서 열리는 전시/미술 행사입니다. 무료로 참여할 수 있는 행사입니다.
+                - generic [ref=e569]:
+                  - generic [ref=e570]:
+                    - generic [ref=e571]: 📅
+                    - generic [ref=e572]: 2026-04-02 ~ 2026-04-25
+                  - generic [ref=e573]:
+                    - generic [ref=e574]: 📍
+                    - generic [ref=e575]: 갤러리 더씨(서울시 용산구 임정로 35 2층)
+                  - generic [ref=e576]:
+                    - generic [ref=e577]: 💸
+                    - generic [ref=e578]: 무료
+                - link "상세 보기" [ref=e579] [cursor=pointer]:
+                  - /url: /events/seoul-event-155834/
+                  - text: 상세 보기
+                  - img [ref=e580]
+          - button "행사 더 보기 24/257" [ref=e583]:
+            - text: 행사 더 보기
+            - generic [ref=e584]: 24/257
+  - contentinfo [ref=e585]:
+    - generic [ref=e586]:
+      - generic [ref=e587]:
+        - generic [ref=e588]:
+          - generic [ref=e589]:
+            - img [ref=e591]
+            - generic [ref=e599]:
+              - generic [ref=e600]: 서울시티
+              - generic [ref=e601]: Seoul Local Guide
+          - paragraph [ref=e602]: 서울의 행사, 혜택, 생활형 정보글을 공공데이터 중심으로 정리해 더 빠르게 탐색할 수 있도록 돕는 서비스입니다.
+        - generic [ref=e603]:
+          - heading "바로가기" [level=3] [ref=e604]
+          - list [ref=e605]:
+            - listitem [ref=e606]:
+              - link "홈" [ref=e607] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e608]:
+              - link "행사/축제" [ref=e609] [cursor=pointer]:
+                - /url: /events/
+            - listitem [ref=e610]:
+              - link "지원금/혜택" [ref=e611] [cursor=pointer]:
+                - /url: /benefits/
+            - listitem [ref=e612]:
+              - link "블로그" [ref=e613] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e614]:
+              - link "통합 검색" [ref=e615] [cursor=pointer]:
+                - /url: /search/
+        - generic [ref=e616]:
+          - heading "운영 안내" [level=3] [ref=e617]
+          - list [ref=e618]:
+            - listitem [ref=e619]:
+              - link "서비스 안내" [ref=e620] [cursor=pointer]:
+                - /url: /notice/
+            - listitem [ref=e621]:
+              - link "개인정보처리방침" [ref=e622] [cursor=pointer]:
+                - /url: /privacy/
+            - listitem [ref=e623]:
+              - link "광고·분석 고지" [ref=e624] [cursor=pointer]:
+                - /url: /disclosure/
+            - listitem [ref=e625]:
+              - link "문의 및 정정 요청" [ref=e626] [cursor=pointer]:
+                - /url: /contact/
+            - listitem [ref=e627]:
+              - link "jin3137@gmail.com" [ref=e628] [cursor=pointer]:
+                - /url: mailto:jin3137@gmail.com
+            - listitem [ref=e629]:
+              - link "GitHub Issues" [ref=e630] [cursor=pointer]:
+                - /url: https://github.com/LeeSungGuk/my-local-info/issues
+            - listitem [ref=e631]:
+              - link "서울 열린데이터광장" [ref=e632] [cursor=pointer]:
+                - /url: https://data.seoul.go.kr
+            - listitem [ref=e633]:
+              - link "공공데이터포털" [ref=e634] [cursor=pointer]:
+                - /url: https://data.go.kr
+      - paragraph [ref=e636]: © 2026 서울시티. 공공데이터 기반 서울 로컬 정보 서비스입니다.
+  - button "Open Next.js Dev Tools" [ref=e642] [cursor=pointer]:
+    - img [ref=e643]
+  - alert [ref=e646]

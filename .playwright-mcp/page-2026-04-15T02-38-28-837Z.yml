@@ -1,0 +1,972 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "서울시티 Seoul Local Guide" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+        - generic [ref=e15]:
+          - generic [ref=e16]: 서울시티
+          - generic [ref=e17]: Seoul Local Guide
+      - navigation [ref=e18]:
+        - link "홈" [ref=e19] [cursor=pointer]:
+          - /url: /
+        - link "행사/축제" [ref=e20] [cursor=pointer]:
+          - /url: /events/
+        - link "지원금/혜택" [ref=e21] [cursor=pointer]:
+          - /url: /benefits/
+        - link "블로그" [ref=e22] [cursor=pointer]:
+          - /url: /blog/
+        - link "소개" [ref=e23] [cursor=pointer]:
+          - /url: /about/
+  - main [ref=e24]:
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e28]: 서울 통합 검색
+        - heading "서울의 행사, 혜택, 정보글을 한 번에 찾아보세요" [level=1] [ref=e29]:
+          - text: 서울의 행사, 혜택, 정보글을
+          - text: 한 번에 찾아보세요
+        - paragraph [ref=e30]: 검색어 하나로 여러 영역을 함께 살펴보고, 지역과 유형 필터로 더 빠르게 좁힐 수 있습니다.
+      - generic [ref=e31]:
+        - complementary [ref=e32]:
+          - generic [ref=e33]:
+            - text: Search
+            - searchbox "성동구 무료 전시, 청년 혜택" [ref=e35]: 강서구
+          - generic [ref=e36]:
+            - paragraph [ref=e37]: Type
+            - generic [ref=e38]:
+              - button "전체" [ref=e39]
+              - button "행사" [ref=e40]
+              - button "혜택" [ref=e41]
+              - button "블로그" [ref=e42]
+          - generic [ref=e43]:
+            - paragraph [ref=e44]: District
+            - generic [ref=e45]:
+              - button "전체 지역" [ref=e46]
+              - button "강서구" [ref=e47]
+          - generic [ref=e49]:
+            - checkbox "진행 중이거나 현재 참고 가능한 정보만 보기" [checked] [ref=e50]
+            - text: 진행 중이거나 현재 참고 가능한 정보만 보기
+        - generic [ref=e51]:
+          - generic [ref=e53]:
+            - generic [ref=e54]:
+              - heading "통합 검색" [level=2] [ref=e55]
+              - paragraph [ref=e56]: 행사, 혜택, 블로그를 한 번에 검색합니다. 지역과 유형을 함께 좁히면 더 빨리 찾을 수 있습니다.
+            - generic [ref=e57]: 검색 결과 39건
+          - generic [ref=e58]:
+            - article [ref=e59]:
+              - generic [ref=e61]:
+                - generic [ref=e62]:
+                  - generic [ref=e63]: 혜택
+                  - generic [ref=e64]: 보건·의료
+                  - generic [ref=e65]: 강서구
+                - heading "(강서구)난임부부 지원(시술 후 원외약제비 청구)" [level=3] [ref=e66]
+                - paragraph [ref=e67]: 서울특별시 강서구에서 제공하는 보건·의료 혜택입니다. 난임시술관련 약제비 지원
+                - generic [ref=e68]:
+                  - generic [ref=e69]:
+                    - generic [ref=e70]: 🗂️
+                    - generic [ref=e71]: 서울특별시 강서구
+                  - generic [ref=e72]:
+                    - generic [ref=e73]: 📅
+                    - generic [ref=e74]: 상시신청
+                - generic [ref=e75]:
+                  - generic [ref=e76]:
+                    - generic [ref=e77]: "#보건"
+                    - generic [ref=e78]: "#의료"
+                    - generic [ref=e79]: "#강서구"
+                  - link "자세히 보기" [ref=e80] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000288/
+            - article [ref=e81]:
+              - generic [ref=e83]:
+                - generic [ref=e84]:
+                  - generic [ref=e85]: 혜택
+                  - generic [ref=e86]: 임신·출산
+                  - generic [ref=e87]: 강서구
+                - heading "(강서구)임산부 건강관리 서비스 지원" [level=3] [ref=e88]
+                - paragraph [ref=e89]: 서울특별시 강서구에서 제공하는 임신·출산 혜택입니다. 임산부에게 엽산제, 철분제, 임신초기검사, 기형아검사, 당뇨검사, 유축기 대여 등 지원
+                - generic [ref=e90]:
+                  - generic [ref=e91]:
+                    - generic [ref=e92]: 🗂️
+                    - generic [ref=e93]: 서울특별시 강서구
+                  - generic [ref=e94]:
+                    - generic [ref=e95]: 📅
+                    - generic [ref=e96]: 상시신청
+                - generic [ref=e97]:
+                  - generic [ref=e98]:
+                    - generic [ref=e99]: "#임신"
+                    - generic [ref=e100]: "#출산"
+                    - generic [ref=e101]: "#강서구"
+                  - link "자세히 보기" [ref=e102] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000285/
+            - article [ref=e103]:
+              - generic [ref=e105]:
+                - generic [ref=e106]:
+                  - generic [ref=e107]: 혜택
+                  - generic [ref=e108]: 임신·출산
+                  - generic [ref=e109]: 강서구
+                - heading "강서구 임신부 가사돌봄서비스" [level=3] [ref=e110]
+                - paragraph [ref=e111]: 서울특별시 강서구에서 제공하는 임신·출산 혜택입니다. 임신부에게 가사서비스를 제공함으로써 가사 부담을 줄여 건강하고 안전한 출산환경을 조성
+                - generic [ref=e112]:
+                  - generic [ref=e113]:
+                    - generic [ref=e114]: 🗂️
+                    - generic [ref=e115]: 서울특별시 강서구
+                  - generic [ref=e116]:
+                    - generic [ref=e117]: 📅
+                    - generic [ref=e118]: 2026.03.23~2026.10.30
+                - generic [ref=e119]:
+                  - generic [ref=e120]:
+                    - generic [ref=e121]: "#임신"
+                    - generic [ref=e122]: "#출산"
+                    - generic [ref=e123]: "#강서구"
+                  - link "자세히 보기" [ref=e124] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000278/
+            - article [ref=e125]:
+              - generic [ref=e127]:
+                - generic [ref=e128]:
+                  - generic [ref=e129]: 혜택
+                  - generic [ref=e130]: 보건·의료
+                  - generic [ref=e131]: 강서구
+                - heading "강서구 다자녀가정 의료비 지원" [level=3] [ref=e132]
+                - paragraph [ref=e133]: 서울특별시 강서구에서 제공하는 보건·의료 혜택입니다. ○ 관내 3자녀 이상 양육가정의 의료비 지원을 통해 아동의 건강한 양육환경 및 다자녀가정 우대분위기 조성에 기여하고자 함
+                - generic [ref=e134]:
+                  - generic [ref=e135]:
+                    - generic [ref=e136]: 🗂️
+                    - generic [ref=e137]: 서울특별시 강서구
+                  - generic [ref=e138]:
+                    - generic [ref=e139]: 📅
+                    - generic [ref=e140]: 상시신청
+                - generic [ref=e141]:
+                  - generic [ref=e142]:
+                    - generic [ref=e143]: "#보건"
+                    - generic [ref=e144]: "#의료"
+                    - generic [ref=e145]: "#강서구"
+                  - link "자세히 보기" [ref=e146] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000111/
+            - article [ref=e147]:
+              - generic [ref=e149]:
+                - generic [ref=e150]:
+                  - generic [ref=e151]: 혜택
+                  - generic [ref=e152]: 보육·교육
+                  - generic [ref=e153]: 강서구
+                - heading "강서구 사랑의 PC 나눔센터" [level=3] [ref=e154]
+                - paragraph [ref=e155]: 서울특별시 강서구에서 제공하는 보육·교육 혜택입니다. 정보화 취약계층 대상으로 불용 컴퓨터를 정비하여 보급하던 기존의“중고PC 보급" 업무를 구체화ㆍ다각화하여 디지털 약자와의 동행을 실천하고 자원순환에 기여하고자 함.
+                - generic [ref=e156]:
+                  - generic [ref=e157]:
+                    - generic [ref=e158]: 🗂️
+                    - generic [ref=e159]: 서울특별시 강서구
+                  - generic [ref=e160]:
+                    - generic [ref=e161]: 📅
+                    - generic [ref=e162]: 접수기관 별 상이
+                - generic [ref=e163]:
+                  - generic [ref=e164]:
+                    - generic [ref=e165]: "#보육"
+                    - generic [ref=e166]: "#교육"
+                    - generic [ref=e167]: "#강서구"
+                  - link "자세히 보기" [ref=e168] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000266/
+            - article [ref=e169]:
+              - generic [ref=e171]:
+                - generic [ref=e172]:
+                  - generic [ref=e173]: 혜택
+                  - generic [ref=e174]: 생활안정
+                  - generic [ref=e175]: 강서구
+                - heading "강서구 전세피해지원금(보증료) 지원" [level=3] [ref=e176]
+                - paragraph [ref=e177]: 서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 강서구 전세피해임차인의 주거안정 및 신속한 피해회복 지원
+                - generic [ref=e178]:
+                  - generic [ref=e179]:
+                    - generic [ref=e180]: 🗂️
+                    - generic [ref=e181]: 서울특별시 강서구
+                  - generic [ref=e182]:
+                    - generic [ref=e183]: 📅
+                    - generic [ref=e184]: 2023.09.06~2027.07.25
+                - generic [ref=e185]:
+                  - generic [ref=e186]:
+                    - generic [ref=e187]: "#생활안정"
+                    - generic [ref=e188]: "#강서구"
+                    - generic [ref=e189]: "#자치구"
+                  - link "자세히 보기" [ref=e190] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000268/
+            - article [ref=e191]:
+              - generic [ref=e193]:
+                - generic [ref=e194]:
+                  - generic [ref=e195]: 혜택
+                  - generic [ref=e196]: 생활안정
+                  - generic [ref=e197]: 강서구
+                - heading "강서구 전세피해지원금(소송수행경비) 지원" [level=3] [ref=e198]
+                - paragraph [ref=e199]: 서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 강서구 전세피해임차인의 주거안정 및 신속한 피해회복 지원
+                - generic [ref=e200]:
+                  - generic [ref=e201]:
+                    - generic [ref=e202]: 🗂️
+                    - generic [ref=e203]: 서울특별시 강서구
+                  - generic [ref=e204]:
+                    - generic [ref=e205]: 📅
+                    - generic [ref=e206]: 2023.12.15~2027.07.25
+                - generic [ref=e207]:
+                  - generic [ref=e208]:
+                    - generic [ref=e209]: "#생활안정"
+                    - generic [ref=e210]: "#강서구"
+                    - generic [ref=e211]: "#자치구"
+                  - link "자세히 보기" [ref=e212] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000271/
+            - article [ref=e213]:
+              - generic [ref=e215]:
+                - generic [ref=e216]:
+                  - generic [ref=e217]: 혜택
+                  - generic [ref=e218]: 생활안정
+                  - generic [ref=e219]: 강서구
+                - heading "강서구 전세피해지원금(이사비) 지원" [level=3] [ref=e220]
+                - paragraph [ref=e221]: 서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 강서구 전세피해임차인의 주거안정 및 신속한 피해회복 지원
+                - generic [ref=e222]:
+                  - generic [ref=e223]:
+                    - generic [ref=e224]: 🗂️
+                    - generic [ref=e225]: 서울특별시 강서구
+                  - generic [ref=e226]:
+                    - generic [ref=e227]: 📅
+                    - generic [ref=e228]: 2023.09.06~2027.07.25
+                - generic [ref=e229]:
+                  - generic [ref=e230]:
+                    - generic [ref=e231]: "#생활안정"
+                    - generic [ref=e232]: "#강서구"
+                    - generic [ref=e233]: "#자치구"
+                  - link "자세히 보기" [ref=e234] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000270/
+            - article [ref=e235]:
+              - generic [ref=e237]:
+                - generic [ref=e238]:
+                  - generic [ref=e239]: 혜택
+                  - generic [ref=e240]: 생활안정
+                  - generic [ref=e241]: 강서구
+                - heading "강서구 전세피해지원금(청년 월세) 지원" [level=3] [ref=e242]
+                - paragraph [ref=e243]: 서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 강서구 전세피해임차인의 주거안정 및 신속한 피해회복 지원
+                - generic [ref=e244]:
+                  - generic [ref=e245]:
+                    - generic [ref=e246]: 🗂️
+                    - generic [ref=e247]: 서울특별시 강서구
+                  - generic [ref=e248]:
+                    - generic [ref=e249]: 📅
+                    - generic [ref=e250]: 2023.09.06~2027.07.25
+                - generic [ref=e251]:
+                  - generic [ref=e252]:
+                    - generic [ref=e253]: "#생활안정"
+                    - generic [ref=e254]: "#강서구"
+                    - generic [ref=e255]: "#자치구"
+                  - link "자세히 보기" [ref=e256] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000269/
+            - article [ref=e257]:
+              - generic [ref=e259]:
+                - generic [ref=e260]:
+                  - generic [ref=e261]: 혜택
+                  - generic [ref=e262]: 행정·안전
+                  - generic [ref=e263]: 강서구
+                - heading "서울특별시 강서구 구민 생활안전보험" [level=3] [ref=e264]
+                - paragraph [ref=e265]: 서울특별시 강서구에서 제공하는 행정·안전 혜택입니다. 일상생활에서 발생할 수 있는 안전사고에 대하여 보험금 지급
+                - generic [ref=e266]:
+                  - generic [ref=e267]:
+                    - generic [ref=e268]: 🗂️
+                    - generic [ref=e269]: 서울특별시 강서구
+                  - generic [ref=e270]:
+                    - generic [ref=e271]: 📅
+                    - generic [ref=e272]: 사고발생일(2024. 2. 1. 이후 발생한 사고부터 접수가능)로부터 3년이내 신청 가능
+                - generic [ref=e273]:
+                  - generic [ref=e274]:
+                    - generic [ref=e275]: "#행정"
+                    - generic [ref=e276]: "#안전"
+                    - generic [ref=e277]: "#강서구"
+                  - link "자세히 보기" [ref=e278] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000277/
+            - article [ref=e279]:
+              - generic [ref=e281]:
+                - generic [ref=e282]:
+                  - generic [ref=e283]: 혜택
+                  - generic [ref=e284]: 문화·환경
+                  - generic [ref=e285]: 강서구
+                - heading "가정용 음식물처리기(소형감량기) 구매 지원" [level=3] [ref=e286]
+                - paragraph [ref=e287]: 서울특별시 강서구에서 제공하는 문화·환경 혜택입니다. 가정용 음식물류폐기물 소형감량기 구매 보조금을 지원하여 발생원의 원천 감량을 통한 음식물쓰레기의 지속 가능한 감량을 유도하고자 함
+                - generic [ref=e288]:
+                  - generic [ref=e289]:
+                    - generic [ref=e290]: 🗂️
+                    - generic [ref=e291]: 서울특별시 강서구
+                  - generic [ref=e292]:
+                    - generic [ref=e293]: 📅
+                    - generic [ref=e294]: 2025년 하반기 시행 / 향후 시행 시 서울시 일정 고려하여 상반기 시행 예정
+                - generic [ref=e295]:
+                  - generic [ref=e296]:
+                    - generic [ref=e297]: "#문화"
+                    - generic [ref=e298]: "#환경"
+                    - generic [ref=e299]: "#강서구"
+                  - link "자세히 보기" [ref=e300] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000289/
+            - article [ref=e301]:
+              - generic [ref=e303]:
+                - generic [ref=e304]:
+                  - generic [ref=e305]: 혜택
+                  - generic [ref=e306]: 보건·의료
+                  - generic [ref=e307]: 강서구
+                - heading "저소득주민 국민건강보험료 등 지원" [level=3] [ref=e308]
+                - paragraph [ref=e309]: 서울특별시 강서구에서 제공하는 보건·의료 혜택입니다. 저소득 장애인 및 노인가구를 대상으로 보험료 지원
+                - generic [ref=e310]:
+                  - generic [ref=e311]:
+                    - generic [ref=e312]: 🗂️
+                    - generic [ref=e313]: 서울특별시 강서구
+                  - generic [ref=e314]:
+                    - generic [ref=e315]: 📅
+                    - generic [ref=e316]: 상시신청
+                - generic [ref=e317]:
+                  - generic [ref=e318]:
+                    - generic [ref=e319]: "#보건"
+                    - generic [ref=e320]: "#의료"
+                    - generic [ref=e321]: "#강서구"
+                  - link "자세히 보기" [ref=e322] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000109/
+            - article [ref=e323]:
+              - generic [ref=e325]:
+                - generic [ref=e326]:
+                  - generic [ref=e327]: 혜택
+                  - generic [ref=e328]: 생활안정
+                  - generic [ref=e329]: 강서구
+                - heading "미혼모·부 양육지원" [level=3] [ref=e330]
+                - paragraph [ref=e331]: 서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 미혼모부 만5세 이하 아동 양육 가구에 아동양육비·냉난방비 지원, 미혼모 임신출산비 지원
+                - generic [ref=e332]:
+                  - generic [ref=e333]:
+                    - generic [ref=e334]: 🗂️
+                    - generic [ref=e335]: 서울특별시 강서구
+                  - generic [ref=e336]:
+                    - generic [ref=e337]: 📅
+                    - generic [ref=e338]: 상시신청
+                - generic [ref=e339]:
+                  - generic [ref=e340]:
+                    - generic [ref=e341]: "#생활안정"
+                    - generic [ref=e342]: "#강서구"
+                    - generic [ref=e343]: "#자치구"
+                  - link "자세히 보기" [ref=e344] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000114/
+            - article [ref=e345]:
+              - generic [ref=e347]:
+                - generic [ref=e348]:
+                  - generic [ref=e349]: 혜택
+                  - generic [ref=e350]: 보건·의료
+                  - generic [ref=e351]: 강서구
+                - heading "장애인 이동보조기기 수리비 지원" [level=3] [ref=e352]
+                - paragraph [ref=e353]: "서울특별시 강서구에서 제공하는 보건·의료 혜택입니다. ○ 장애인 이동보조기기(실버카 포함) 수리비 지원 - 수리품목 : 배터리 교체를 포함한 이동보조기기 수리 - 지원금액 : 1인당 연 150,000원 범위 내 지원(일반장애인,장애인연금수급자) 1인당 연 250,000원 범…"
+                - generic [ref=e354]:
+                  - generic [ref=e355]:
+                    - generic [ref=e356]: 🗂️
+                    - generic [ref=e357]: 서울특별시 강서구
+                  - generic [ref=e358]:
+                    - generic [ref=e359]: 📅
+                    - generic [ref=e360]: 상시신청
+                - generic [ref=e361]:
+                  - generic [ref=e362]:
+                    - generic [ref=e363]: "#보건"
+                    - generic [ref=e364]: "#의료"
+                    - generic [ref=e365]: "#강서구"
+                  - link "자세히 보기" [ref=e366] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000107/
+            - article [ref=e367]:
+              - generic [ref=e369]:
+                - generic [ref=e370]:
+                  - generic [ref=e371]: 혜택
+                  - generic [ref=e372]: 행정·안전
+                  - generic [ref=e373]: 강서구
+                - heading "생활주변 위험수목 정비지원" [level=3] [ref=e374]
+                - paragraph [ref=e375]: 서울특별시 강서구에서 제공하는 행정·안전 혜택입니다. 과도하게 성장한 수목이 태풍, 집중호우 등에 의해 도복 시 거주자는 물론 인근 주민에까지 피해가 발생하므로, 생활주변 위험수목을 사전 정비하여 안전사고 예방
+                - generic [ref=e376]:
+                  - generic [ref=e377]:
+                    - generic [ref=e378]: 🗂️
+                    - generic [ref=e379]: 서울특별시 강서구
+                  - generic [ref=e380]:
+                    - generic [ref=e381]: 📅
+                    - generic [ref=e382]: 접수기관 별 상이
+                - generic [ref=e383]:
+                  - generic [ref=e384]:
+                    - generic [ref=e385]: "#행정"
+                    - generic [ref=e386]: "#안전"
+                    - generic [ref=e387]: "#강서구"
+                  - link "자세히 보기" [ref=e388] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000280/
+            - article [ref=e389]:
+              - generic [ref=e391]:
+                - generic [ref=e392]:
+                  - generic [ref=e393]: 혜택
+                  - generic [ref=e394]: 문화·환경
+                  - generic [ref=e395]: 강서구
+                - heading "간이 라돈 측정기 대여 업무" [level=3] [ref=e396]
+                - paragraph [ref=e397]: 서울특별시 강서구에서 제공하는 문화·환경 혜택입니다. 라돈 간이 측정기 대여 서비스를 제공하여, 방사능으로 인한 구민들의 불안감 해소에 도움이 되고자 함
+                - generic [ref=e398]:
+                  - generic [ref=e399]:
+                    - generic [ref=e400]: 🗂️
+                    - generic [ref=e401]: 서울특별시 강서구
+                  - generic [ref=e402]:
+                    - generic [ref=e403]: 📅
+                    - generic [ref=e404]: 상시신청
+                - generic [ref=e405]:
+                  - generic [ref=e406]:
+                    - generic [ref=e407]: "#문화"
+                    - generic [ref=e408]: "#환경"
+                    - generic [ref=e409]: "#강서구"
+                  - link "자세히 보기" [ref=e410] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000293/
+            - article [ref=e411]:
+              - generic [ref=e413]:
+                - generic [ref=e414]:
+                  - generic [ref=e415]: 혜택
+                  - generic [ref=e416]: 보건·의료
+                  - generic [ref=e417]: 강서구
+                - heading "위생해충 방역을 위한 방역소독장비 무료대여 서비스" [level=3] [ref=e418]
+                - paragraph [ref=e419]: 서울특별시 강서구에서 제공하는 보건·의료 혜택입니다. 사유지 내 발생하는 모기 등 위생해충 자체 방역
+                - generic [ref=e420]:
+                  - generic [ref=e421]:
+                    - generic [ref=e422]: 🗂️
+                    - generic [ref=e423]: 서울특별시 강서구
+                  - generic [ref=e424]:
+                    - generic [ref=e425]: 📅
+                    - generic [ref=e426]: 상시신청
+                - generic [ref=e427]:
+                  - generic [ref=e428]:
+                    - generic [ref=e429]: "#보건"
+                    - generic [ref=e430]: "#의료"
+                    - generic [ref=e431]: "#강서구"
+                  - link "자세히 보기" [ref=e432] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000295/
+            - article [ref=e433]:
+              - generic [ref=e435]:
+                - generic [ref=e436]:
+                  - generic [ref=e437]: 혜택
+                  - generic [ref=e438]: 보건·의료
+                  - generic [ref=e439]: 강서구
+                - heading "한의약 치매 건강증진서비스" [level=3] [ref=e440]
+                - paragraph [ref=e441]: 서울특별시 강서구에서 제공하는 보건·의료 혜택입니다. 치매 위험군인 60세 이상 경도인지장애 구민을 대상으로 체계적이고 효과적인 한의약 건강증진 프로그램을 제공하여 구민 건강증진과 삶의 질 향상에 기여
+                - generic [ref=e442]:
+                  - generic [ref=e443]:
+                    - generic [ref=e444]: 🗂️
+                    - generic [ref=e445]: 서울특별시 강서구
+                  - generic [ref=e446]:
+                    - generic [ref=e447]: 📅
+                    - generic [ref=e448]: 매년 5 ~ 6월(변경 가능)
+                - generic [ref=e449]:
+                  - generic [ref=e450]:
+                    - generic [ref=e451]: "#보건"
+                    - generic [ref=e452]: "#의료"
+                    - generic [ref=e453]: "#강서구"
+                  - link "자세히 보기" [ref=e454] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000290/
+            - article [ref=e455]:
+              - generic [ref=e457]:
+                - generic [ref=e458]:
+                  - generic [ref=e459]: 혜택
+                  - generic [ref=e460]: 생활안정
+                  - generic [ref=e461]: 강서구
+                - heading "생활체육프로그램 운영" [level=3] [ref=e462]
+                - paragraph [ref=e463]: 서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 생활체육에 대한 구민들의 관심 증대에 따라 다양한 생활체육교실 운영을 통하여 구민의 건강증진과 생활체육 활성화에 기여
+                - generic [ref=e464]:
+                  - generic [ref=e465]:
+                    - generic [ref=e466]: 🗂️
+                    - generic [ref=e467]: 서울특별시 강서구
+                  - generic [ref=e468]:
+                    - generic [ref=e469]: 📅
+                    - generic [ref=e470]: 프로그램별 상이
+                - generic [ref=e471]:
+                  - generic [ref=e472]:
+                    - generic [ref=e473]: "#생활안정"
+                    - generic [ref=e474]: "#강서구"
+                    - generic [ref=e475]: "#자치구"
+                  - link "자세히 보기" [ref=e476] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000296/
+            - article [ref=e477]:
+              - generic [ref=e479]:
+                - generic [ref=e480]:
+                  - generic [ref=e481]: 혜택
+                  - generic [ref=e482]: 생활안정
+                  - generic [ref=e483]: 강서구
+                - heading "안심장비 지원" [level=3] [ref=e484]
+                - paragraph [ref=e485]: 서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 안심장비 지원을 통해 안전한 주거환경 조성
+                - generic [ref=e486]:
+                  - generic [ref=e487]:
+                    - generic [ref=e488]: 🗂️
+                    - generic [ref=e489]: 서울특별시 강서구
+                  - generic [ref=e490]:
+                    - generic [ref=e491]: 📅
+                    - generic [ref=e492]: 접수기관 별 상이
+                - generic [ref=e493]:
+                  - generic [ref=e494]:
+                    - generic [ref=e495]: "#생활안정"
+                    - generic [ref=e496]: "#강서구"
+                    - generic [ref=e497]: "#자치구"
+                  - link "자세히 보기" [ref=e498] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000291/
+            - article [ref=e499]:
+              - generic [ref=e501]:
+                - generic [ref=e502]:
+                  - generic [ref=e503]: 혜택
+                  - generic [ref=e504]: 행정·안전
+                  - generic [ref=e505]: 강서구
+                - heading "마곡안전체험관 안전체험교육 신청" [level=3] [ref=e506]
+                - paragraph [ref=e507]: 서울특별시 강서구에서 제공하는 행정·안전 혜택입니다. ❍ 체험 및 실습 위주의 교육으로 다양한 사회․자연재난에 대한 대응능력 강화 ❍ 다양한 지역사회 구성원의 안전교육 참여 유도로 안전문화 확산
+                - generic [ref=e508]:
+                  - generic [ref=e509]:
+                    - generic [ref=e510]: 🗂️
+                    - generic [ref=e511]: 서울특별시 강서구
+                  - generic [ref=e512]:
+                    - generic [ref=e513]: 📅
+                    - generic [ref=e514]: 이용일 전월 1일부터 이용일 1일 전 17:00까지 (선착순 마감)
+                - generic [ref=e515]:
+                  - generic [ref=e516]:
+                    - generic [ref=e517]: "#행정"
+                    - generic [ref=e518]: "#안전"
+                    - generic [ref=e519]: "#강서구"
+                  - link "자세히 보기" [ref=e520] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000298/
+            - article [ref=e521]:
+              - generic [ref=e523]:
+                - generic [ref=e524]:
+                  - generic [ref=e525]: 혜택
+                  - generic [ref=e526]: 보호·돌봄
+                  - generic [ref=e527]: 강서구
+                - heading "저소득 한부모 명절위문금 지원" [level=3] [ref=e528]
+                - paragraph [ref=e529]: 서울특별시 강서구에서 제공하는 보호·돌봄 혜택입니다. 저소득 한부모가구에 명절위문금 지원
+                - generic [ref=e530]:
+                  - generic [ref=e531]:
+                    - generic [ref=e532]: 🗂️
+                    - generic [ref=e533]: 서울특별시 강서구
+                  - generic [ref=e534]:
+                    - generic [ref=e535]: 📅
+                    - generic [ref=e536]: 상시신청
+                - generic [ref=e537]:
+                  - generic [ref=e538]:
+                    - generic [ref=e539]: "#보호"
+                    - generic [ref=e540]: "#돌봄"
+                    - generic [ref=e541]: "#강서구"
+                  - link "자세히 보기" [ref=e542] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000104/
+            - article [ref=e543]:
+              - generic [ref=e545]:
+                - generic [ref=e546]:
+                  - generic [ref=e547]: 혜택
+                  - generic [ref=e548]: 보호·돌봄
+                  - generic [ref=e549]: 강서구
+                - heading "학대피해아동 심리검사 및 의료비 지원" [level=3] [ref=e550]
+                - paragraph [ref=e551]: 서울특별시 강서구에서 제공하는 보호·돌봄 혜택입니다. 학대피해아동에 대한 적극적인 조사 및 보호를 통해 아동의 안정적인 성장환경 조성 및 권리 증진 도모
+                - generic [ref=e552]:
+                  - generic [ref=e553]:
+                    - generic [ref=e554]: 🗂️
+                    - generic [ref=e555]: 서울특별시 강서구
+                  - generic [ref=e556]:
+                    - generic [ref=e557]: 📅
+                    - generic [ref=e558]: 상시신청
+                - generic [ref=e559]:
+                  - generic [ref=e560]:
+                    - generic [ref=e561]: "#보호"
+                    - generic [ref=e562]: "#돌봄"
+                    - generic [ref=e563]: "#강서구"
+                  - link "자세히 보기" [ref=e564] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000113/
+            - article [ref=e565]:
+              - generic [ref=e567]:
+                - generic [ref=e568]:
+                  - generic [ref=e569]: 혜택
+                  - generic [ref=e570]: 생활안정
+                  - generic [ref=e571]: 강서구
+                - heading "국가유공자 위문 지원" [level=3] [ref=e572]
+                - paragraph [ref=e573]: 서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 국가유공자 및 유족 등에게 보훈예우수당, 사망위로금, 위문금 등 지원
+                - generic [ref=e574]:
+                  - generic [ref=e575]:
+                    - generic [ref=e576]: 🗂️
+                    - generic [ref=e577]: 서울특별시 강서구
+                  - generic [ref=e578]:
+                    - generic [ref=e579]: 📅
+                    - generic [ref=e580]: 상시신청
+                - generic [ref=e581]:
+                  - generic [ref=e582]:
+                    - generic [ref=e583]: "#생활안정"
+                    - generic [ref=e584]: "#강서구"
+                    - generic [ref=e585]: "#자치구"
+                  - link "자세히 보기" [ref=e586] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000106/
+            - article [ref=e587]:
+              - generic [ref=e589]:
+                - generic [ref=e590]:
+                  - generic [ref=e591]: 혜택
+                  - generic [ref=e592]: 생활안정
+                  - generic [ref=e593]: 강서구
+                - heading "자치회관 프로그램 신청/감면" [level=3] [ref=e594]
+                - paragraph [ref=e595]: 서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 자치회관 프로그램 운영 활성화
+                - generic [ref=e596]:
+                  - generic [ref=e597]:
+                    - generic [ref=e598]: 🗂️
+                    - generic [ref=e599]: 서울특별시 강서구
+                  - generic [ref=e600]:
+                    - generic [ref=e601]: 📅
+                    - generic [ref=e602]: 접수기관 별 상이
+                - generic [ref=e603]:
+                  - generic [ref=e604]:
+                    - generic [ref=e605]: "#생활안정"
+                    - generic [ref=e606]: "#강서구"
+                    - generic [ref=e607]: "#자치구"
+                  - link "자세히 보기" [ref=e608] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000297/
+            - article [ref=e609]:
+              - generic [ref=e611]:
+                - generic [ref=e612]:
+                  - generic [ref=e613]: 혜택
+                  - generic [ref=e614]: 생활안정
+                  - generic [ref=e615]: 강서구
+                - heading "저소득시민 명절위문품비 지원" [level=3] [ref=e616]
+                - paragraph [ref=e617]: 서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 저소득 취약계층 명절 위문금 지원
+                - generic [ref=e618]:
+                  - generic [ref=e619]:
+                    - generic [ref=e620]: 🗂️
+                    - generic [ref=e621]: 서울특별시 강서구
+                  - generic [ref=e622]:
+                    - generic [ref=e623]: 📅
+                    - generic [ref=e624]: 명절 전 구청에서 일괄 수행
+                - generic [ref=e625]:
+                  - generic [ref=e626]:
+                    - generic [ref=e627]: "#생활안정"
+                    - generic [ref=e628]: "#강서구"
+                    - generic [ref=e629]: "#자치구"
+                  - link "자세히 보기" [ref=e630] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000108/
+            - article [ref=e631]:
+              - generic [ref=e633]:
+                - generic [ref=e634]:
+                  - generic [ref=e635]: 혜택
+                  - generic [ref=e636]: 임신·출산
+                  - generic [ref=e637]: 강서구
+                - heading "입양축하금 지원" [level=3] [ref=e638]
+                - paragraph [ref=e639]: 서울특별시 강서구에서 제공하는 임신·출산 혜택입니다. 국내에서 출생한 요보호아동의 해외 입양을 억제하고, 국내 입양을 촉진시켜 요보호아동의 건전한 양육 지원
+                - generic [ref=e640]:
+                  - generic [ref=e641]:
+                    - generic [ref=e642]: 🗂️
+                    - generic [ref=e643]: 서울특별시 강서구
+                  - generic [ref=e644]:
+                    - generic [ref=e645]: 📅
+                    - generic [ref=e646]: 상시신청
+                - generic [ref=e647]:
+                  - generic [ref=e648]:
+                    - generic [ref=e649]: "#임신"
+                    - generic [ref=e650]: "#출산"
+                    - generic [ref=e651]: "#강서구"
+                  - link "자세히 보기" [ref=e652] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000112/
+            - article [ref=e653]:
+              - generic [ref=e655]:
+                - generic [ref=e656]:
+                  - generic [ref=e657]: 혜택
+                  - generic [ref=e658]: 주거·자립
+                  - generic [ref=e659]: 강서구
+                - heading "강서 생활민원기동대 서비스" [level=3] [ref=e660]
+                - paragraph [ref=e661]: 서울특별시 강서구에서 제공하는 주거·자립 혜택입니다. 사회적 취약계층을 대상으로 혼자서는 해결하기 어려운 생활 속 소규모 주거 불편 사항을 신속하게 해결하기 위한 서비스 지원
+                - generic [ref=e662]:
+                  - generic [ref=e663]:
+                    - generic [ref=e664]: 🗂️
+                    - generic [ref=e665]: 서울특별시 강서구
+                  - generic [ref=e666]:
+                    - generic [ref=e667]: 📅
+                    - generic [ref=e668]: 상시신청
+                - generic [ref=e669]:
+                  - generic [ref=e670]:
+                    - generic [ref=e671]: "#주거"
+                    - generic [ref=e672]: "#자립"
+                    - generic [ref=e673]: "#강서구"
+                  - link "자세히 보기" [ref=e674] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000263/
+            - article [ref=e675]:
+              - generic [ref=e677]:
+                - generic [ref=e678]:
+                  - generic [ref=e679]: 혜택
+                  - generic [ref=e680]: 문화·환경
+                  - generic [ref=e681]: 강서구
+                - heading "생태전환교육 지원" [level=3] [ref=e682]
+                - paragraph [ref=e683]: 서울특별시 강서구에서 제공하는 문화·환경 혜택입니다. 지역 기관으로 찾아가는 일일 클래스 운영을 통해 환경에 대한 관심 제고에 기여
+                - generic [ref=e684]:
+                  - generic [ref=e685]:
+                    - generic [ref=e686]: 🗂️
+                    - generic [ref=e687]: 서울특별시 강서구
+                  - generic [ref=e688]:
+                    - generic [ref=e689]: 📅
+                    - generic [ref=e690]: 접수기관 별 상이
+                - generic [ref=e691]:
+                  - generic [ref=e692]:
+                    - generic [ref=e693]: "#문화"
+                    - generic [ref=e694]: "#환경"
+                    - generic [ref=e695]: "#강서구"
+                  - link "자세히 보기" [ref=e696] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000284/
+            - article [ref=e697]:
+              - generic [ref=e699]:
+                - generic [ref=e700]:
+                  - generic [ref=e701]: 혜택
+                  - generic [ref=e702]: 문화·환경
+                  - generic [ref=e703]: 강서구
+                - heading "EM 발효액 배부" [level=3] [ref=e704]
+                - paragraph [ref=e705]: 서울특별시 강서구에서 제공하는 문화·환경 혜택입니다. 문전 수거 체계에 따른 일반주택 지역의 음식물류폐기물 소형수거용기 악취 관리 필요
+                - generic [ref=e706]:
+                  - generic [ref=e707]:
+                    - generic [ref=e708]: 🗂️
+                    - generic [ref=e709]: 서울특별시 강서구
+                  - generic [ref=e710]:
+                    - generic [ref=e711]: 📅
+                    - generic [ref=e712]: 상시신청
+                - generic [ref=e713]:
+                  - generic [ref=e714]:
+                    - generic [ref=e715]: "#문화"
+                    - generic [ref=e716]: "#환경"
+                    - generic [ref=e717]: "#강서구"
+                  - link "자세히 보기" [ref=e718] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000267/
+            - article [ref=e719]:
+              - generic [ref=e721]:
+                - generic [ref=e722]:
+                  - generic [ref=e723]: 혜택
+                  - generic [ref=e724]: 생활안정
+                  - generic [ref=e725]: 강서구
+                - heading "강서로콜(law-call) 무료법률상담" [level=3] [ref=e726]
+                - paragraph [ref=e727]: 서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 일상생활에서 발생하는 각종 법률문제에 대한 무료법률상담서비스를 제공 - 구민의 법적 권익 보호 - 법률복지 증진
+                - generic [ref=e728]:
+                  - generic [ref=e729]:
+                    - generic [ref=e730]: 🗂️
+                    - generic [ref=e731]: 서울특별시 강서구
+                  - generic [ref=e732]:
+                    - generic [ref=e733]: 📅
+                    - generic [ref=e734]: 상시신청
+                - generic [ref=e735]:
+                  - generic [ref=e736]:
+                    - generic [ref=e737]: "#생활안정"
+                    - generic [ref=e738]: "#강서구"
+                    - generic [ref=e739]: "#자치구"
+                  - link "자세히 보기" [ref=e740] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000261/
+            - article [ref=e741]:
+              - generic [ref=e743]:
+                - generic [ref=e744]:
+                  - generic [ref=e745]: 혜택
+                  - generic [ref=e746]: 생활안정
+                  - generic [ref=e747]: 강서구
+                - heading "마을법무사 상담" [level=3] [ref=e748]
+                - paragraph [ref=e749]: 서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 생활 법률문제에 대한 무료상담서비스 제공
+                - generic [ref=e750]:
+                  - generic [ref=e751]:
+                    - generic [ref=e752]: 🗂️
+                    - generic [ref=e753]: 서울특별시 강서구
+                  - generic [ref=e754]:
+                    - generic [ref=e755]: 📅
+                    - generic [ref=e756]: 상시신청
+                - generic [ref=e757]:
+                  - generic [ref=e758]:
+                    - generic [ref=e759]: "#생활안정"
+                    - generic [ref=e760]: "#강서구"
+                    - generic [ref=e761]: "#자치구"
+                  - link "자세히 보기" [ref=e762] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000283/
+            - article [ref=e763]:
+              - generic [ref=e765]:
+                - generic [ref=e766]:
+                  - generic [ref=e767]: 혜택
+                  - generic [ref=e768]: 생활안정
+                  - generic [ref=e769]: 강서구
+                - heading "마을변호사 상담" [level=3] [ref=e770]
+                - paragraph [ref=e771]: 서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 일상생활의 각종 법률문제에 대해 무료법률상담서비스 제공 - 시민의 법적 권익 보호 - 법률복지 증지
+                - generic [ref=e772]:
+                  - generic [ref=e773]:
+                    - generic [ref=e774]: 🗂️
+                    - generic [ref=e775]: 서울특별시 강서구
+                  - generic [ref=e776]:
+                    - generic [ref=e777]: 📅
+                    - generic [ref=e778]: 상시신청
+                - generic [ref=e779]:
+                  - generic [ref=e780]:
+                    - generic [ref=e781]: "#생활안정"
+                    - generic [ref=e782]: "#강서구"
+                    - generic [ref=e783]: "#자치구"
+                  - link "자세히 보기" [ref=e784] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000282/
+            - article [ref=e785]:
+              - generic [ref=e787]:
+                - generic [ref=e788]:
+                  - generic [ref=e789]: 혜택
+                  - generic [ref=e790]: 행정·안전
+                  - generic [ref=e791]: 강서구
+                - heading "지역화폐(서울강서사랑상품권)" [level=3] [ref=e792]
+                - paragraph [ref=e793]: 서울특별시 강서구에서 제공하는 행정·안전 혜택입니다. 소비자에게 할인 및 소득공제 혜택, 가맹점에 수수료 절감 혜택 등 제공
+                - generic [ref=e794]:
+                  - generic [ref=e795]:
+                    - generic [ref=e796]: 🗂️
+                    - generic [ref=e797]: 서울특별시 강서구
+                  - generic [ref=e798]:
+                    - generic [ref=e799]: 📅
+                    - generic [ref=e800]: 상시신청
+                - generic [ref=e801]:
+                  - generic [ref=e802]:
+                    - generic [ref=e803]: "#행정"
+                    - generic [ref=e804]: "#안전"
+                    - generic [ref=e805]: "#강서구"
+                  - link "자세히 보기" [ref=e806] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000105/
+            - article [ref=e807]:
+              - generic [ref=e809]:
+                - generic [ref=e810]:
+                  - generic [ref=e811]: 혜택
+                  - generic [ref=e812]: 생활안정
+                  - generic [ref=e813]: 강서구
+                - heading "수수료 감면대상자 종량제봉투 지급" [level=3] [ref=e814]
+                - paragraph [ref=e815]: 서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 폐기물 수수료(종량제봉투)를 감면함으로써 안정적인 생활 유지 지원
+                - generic [ref=e816]:
+                  - generic [ref=e817]:
+                    - generic [ref=e818]: 🗂️
+                    - generic [ref=e819]: 서울특별시 강서구
+                  - generic [ref=e820]:
+                    - generic [ref=e821]: 📅
+                    - generic [ref=e822]: 접수기관 별 상이
+                - generic [ref=e823]:
+                  - generic [ref=e824]:
+                    - generic [ref=e825]: "#생활안정"
+                    - generic [ref=e826]: "#강서구"
+                    - generic [ref=e827]: "#자치구"
+                  - link "자세히 보기" [ref=e828] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000262/
+            - article [ref=e829]:
+              - generic [ref=e831]:
+                - generic [ref=e832]:
+                  - generic [ref=e833]: 혜택
+                  - generic [ref=e834]: 행정·안전
+                  - generic [ref=e835]: 강서구
+                - heading "무인민원발급기 수수료 일부 면제" [level=3] [ref=e836]
+                - paragraph [ref=e837]: 서울특별시 강서구에서 제공하는 행정·안전 혜택입니다. 무인민원발급창구 수수료 일부 면제 -강서구 수수료 징수 조례 제6조 등 관련 법령 및 조례에 따라 감면대상자가 무인민원발급창구 이용하여 민원문서 발급 시 수수료 일부 면제
+                - generic [ref=e838]:
+                  - generic [ref=e839]:
+                    - generic [ref=e840]: 🗂️
+                    - generic [ref=e841]: 서울특별시 강서구
+                  - generic [ref=e842]:
+                    - generic [ref=e843]: 📅
+                    - generic [ref=e844]: 상시신청
+                - generic [ref=e845]:
+                  - generic [ref=e846]:
+                    - generic [ref=e847]: "#행정"
+                    - generic [ref=e848]: "#안전"
+                    - generic [ref=e849]: "#강서구"
+                  - link "자세히 보기" [ref=e850] [cursor=pointer]:
+                    - /url: /benefits/gov-benefit-315000000264/
+            - article [ref=e851]:
+              - generic [ref=e853]:
+                - generic [ref=e854]:
+                  - generic [ref=e855]: 행사
+                  - generic [ref=e856]: 교육/체험
+                  - generic [ref=e857]: 강서구
+                - heading "[서울식물원] 정원의 숨결을 담은 우리 소리 [소금 힐링 연주]" [level=3] [ref=e858]
+                - paragraph [ref=e859]: 강서구 · 서울식물원 식물문화센터에서 열리는 교육/체험 행사입니다. 5,000원 (서울식물원 입장료 별도)
+                - generic [ref=e860]:
+                  - generic [ref=e861]:
+                    - generic [ref=e862]: 🗂️
+                    - generic [ref=e863]: 서울식물원
+                  - generic [ref=e864]:
+                    - generic [ref=e865]: 📅
+                    - generic [ref=e866]: 2026-04-09~2026-04-30
+                - generic [ref=e867]:
+                  - generic [ref=e868]:
+                    - generic [ref=e869]: "#교육"
+                    - generic [ref=e870]: "#체험"
+                    - generic [ref=e871]: "#강서구"
+                  - link "자세히 보기" [ref=e872] [cursor=pointer]:
+                    - /url: /events/seoul-event-157343/
+            - article [ref=e873]:
+              - generic [ref=e875]:
+                - generic [ref=e876]:
+                  - generic [ref=e877]: 행사
+                  - generic [ref=e878]: 교육/체험
+                  - generic [ref=e879]: 강서구
+                - heading "[서울식물원] 씨앗도서관 전문가 강연" [level=3] [ref=e880]
+                - paragraph [ref=e881]: 강서구 · 서울식물원 식물문화센터 2층 보타닉홀에서 열리는 교육/체험 행사입니다. 무료로 참여할 수 있는 행사입니다.
+                - generic [ref=e882]:
+                  - generic [ref=e883]:
+                    - generic [ref=e884]: 🗂️
+                    - generic [ref=e885]: 서울식물원
+                  - generic [ref=e886]:
+                    - generic [ref=e887]: 📅
+                    - generic [ref=e888]: 2026-04-19~2026-04-29
+                - generic [ref=e889]:
+                  - generic [ref=e890]:
+                    - generic [ref=e891]: "#교육"
+                    - generic [ref=e892]: "#체험"
+                    - generic [ref=e893]: "#강서구"
+                  - link "자세히 보기" [ref=e894] [cursor=pointer]:
+                    - /url: /events/seoul-event-157345/
+            - article [ref=e895]:
+              - generic [ref=e897]:
+                - generic [ref=e898]:
+                  - generic [ref=e899]: 행사
+                  - generic [ref=e900]: 축제-자연/경관
+                  - generic [ref=e901]: 강서구
+                - heading "[서울식물원] 2026 서울식물원 해봄축제" [level=3] [ref=e902]
+                - paragraph [ref=e903]: 강서구 · 서울식물원 열린숲 일대 에서 열리는 축제-자연/경관 행사입니다. 무료로 참여할 수 있는 행사입니다.
+                - generic [ref=e904]:
+                  - generic [ref=e905]:
+                    - generic [ref=e906]: 🗂️
+                    - generic [ref=e907]: 서울식물원
+                  - generic [ref=e908]:
+                    - generic [ref=e909]: 📅
+                    - generic [ref=e910]: 2026-04-25~2026-04-26
+                - generic [ref=e911]:
+                  - generic [ref=e912]:
+                    - generic [ref=e913]: "#축제-자연"
+                    - generic [ref=e914]: "#경관"
+                    - generic [ref=e915]: "#강서구"
+                  - link "자세히 보기" [ref=e916] [cursor=pointer]:
+                    - /url: /events/seoul-event-157185/
+  - contentinfo [ref=e917]:
+    - generic [ref=e918]:
+      - generic [ref=e919]:
+        - generic [ref=e920]:
+          - generic [ref=e921]:
+            - img [ref=e923]
+            - generic [ref=e931]:
+              - generic [ref=e932]: 서울시티
+              - generic [ref=e933]: Seoul Local Guide
+          - paragraph [ref=e934]: 서울의 행사, 혜택, 생활형 정보글을 공공데이터 중심으로 정리해 더 빠르게 탐색할 수 있도록 돕는 서비스입니다.
+        - generic [ref=e935]:
+          - heading "바로가기" [level=3] [ref=e936]
+          - list [ref=e937]:
+            - listitem [ref=e938]:
+              - link "홈" [ref=e939] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e940]:
+              - link "행사/축제" [ref=e941] [cursor=pointer]:
+                - /url: /events/
+            - listitem [ref=e942]:
+              - link "지원금/혜택" [ref=e943] [cursor=pointer]:
+                - /url: /benefits/
+            - listitem [ref=e944]:
+              - link "블로그" [ref=e945] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e946]:
+              - link "통합 검색" [ref=e947] [cursor=pointer]:
+                - /url: /search/
+        - generic [ref=e948]:
+          - heading "운영 안내" [level=3] [ref=e949]
+          - list [ref=e950]:
+            - listitem [ref=e951]:
+              - link "서비스 안내" [ref=e952] [cursor=pointer]:
+                - /url: /notice/
+            - listitem [ref=e953]:
+              - link "개인정보처리방침" [ref=e954] [cursor=pointer]:
+                - /url: /privacy/
+            - listitem [ref=e955]:
+              - link "광고·분석 고지" [ref=e956] [cursor=pointer]:
+                - /url: /disclosure/
+            - listitem [ref=e957]:
+              - link "문의 및 정정 요청" [ref=e958] [cursor=pointer]:
+                - /url: /contact/
+            - listitem [ref=e959]:
+              - link "jin3137@gmail.com" [ref=e960] [cursor=pointer]:
+                - /url: mailto:jin3137@gmail.com
+            - listitem [ref=e961]:
+              - link "GitHub Issues" [ref=e962] [cursor=pointer]:
+                - /url: https://github.com/LeeSungGuk/my-local-info/issues
+            - listitem [ref=e963]:
+              - link "서울 열린데이터광장" [ref=e964] [cursor=pointer]:
+                - /url: https://data.seoul.go.kr
+            - listitem [ref=e965]:
+              - link "공공데이터포털" [ref=e966] [cursor=pointer]:
+                - /url: https://data.go.kr
+      - paragraph [ref=e968]: © 2026 서울시티. 공공데이터 기반 서울 로컬 정보 서비스입니다.
+  - button "Open Next.js Dev Tools" [ref=e974] [cursor=pointer]:
+    - img [ref=e975]
+  - alert [ref=e978]

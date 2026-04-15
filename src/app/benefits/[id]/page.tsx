@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { getBenefitInterpretationSections } from "@/lib/detail-interpretation";
 import { formatBenefitDeadline } from "@/lib/benefit-utils";
 import { getAllBenefits, getBenefitById } from "@/lib/public-benefits";
 
@@ -23,6 +24,23 @@ export default async function BenefitDetailPage({
   }
 
   const externalUrl = benefit.onlineUrl || benefit.detailUrl;
+  const interpretationSections = getBenefitInterpretationSections({
+    title: benefit.title,
+    district: benefit.district,
+    target: benefit.target,
+    targetSummary: benefit.targetSummary,
+    supportType: benefit.supportType,
+    supportSummary: benefit.supportSummary,
+    applicationMethod: benefit.applicationMethod,
+    applicationMethodTypes: benefit.applicationMethodTypes,
+    isAlwaysOpen: benefit.isAlwaysOpen,
+    deadlineText: benefit.deadlineText,
+    receptionAgency: benefit.receptionAgency,
+    inquiry: benefit.inquiry,
+    inquiryText: benefit.inquiryText,
+    onlineUrl: benefit.onlineUrl,
+    detailUrl: benefit.detailUrl,
+  });
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 via-white to-white">
@@ -130,6 +148,27 @@ export default async function BenefitDetailPage({
                         <p className="whitespace-pre-line">본인 확인 서류: {benefit.identityDocuments}</p>
                       ) : null}
                     </div>
+                  </div>
+                ) : null}
+
+                {interpretationSections.length > 0 ? (
+                  <div className="mt-6 space-y-4">
+                    {interpretationSections.map((section) => (
+                      <section
+                        key={section.title}
+                        className="rounded-2xl border border-blue-100 bg-white p-5"
+                      >
+                        <h3 className="text-sm font-semibold text-gray-900">{section.title}</h3>
+                        <ul className="mt-3 space-y-2 text-sm leading-relaxed text-gray-600">
+                          {section.items.map((item) => (
+                            <li key={item} className="flex gap-2">
+                              <span className="mt-1 text-blue-500">•</span>
+                              <span>{item}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </section>
+                    ))}
                   </div>
                 ) : null}
               </section>

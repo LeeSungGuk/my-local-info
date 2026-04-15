@@ -1,0 +1,379 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "서울시티 Seoul Local Guide" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+        - generic [ref=e15]:
+          - generic [ref=e16]: 서울시티
+          - generic [ref=e17]: Seoul Local Guide
+      - navigation [ref=e18]:
+        - link "홈" [ref=e19] [cursor=pointer]:
+          - /url: /
+        - link "행사/축제" [ref=e20] [cursor=pointer]:
+          - /url: /events/
+        - link "지원금/혜택" [ref=e21] [cursor=pointer]:
+          - /url: /benefits/
+        - link "블로그" [ref=e22] [cursor=pointer]:
+          - /url: /blog/
+        - link "소개" [ref=e23] [cursor=pointer]:
+          - /url: /about/
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e28]:
+        - generic [ref=e29]: 🌙 서울 로컬 생활 가이드
+        - heading "서울의 행사와 생활 정보를 한눈에 확인하세요" [level=1] [ref=e30]:
+          - text: 서울의 행사와 생활 정보를
+          - text: 한눈에 확인하세요
+        - paragraph [ref=e31]:
+          - text: 오늘의 서울을 조금 더 가볍고 선명하게 만날 수 있도록,
+          - text: 일상에 닿는 행사와 혜택을 한곳에 담았습니다.
+      - generic [ref=e33]:
+        - generic [ref=e36]:
+          - img [ref=e38]
+          - textbox "성동구 무료 전시, 청년 혜택, 비 오는 날 실내 코스" [ref=e40]
+          - button "통합 검색" [ref=e41]
+        - generic:
+          - generic: 행사 338건
+          - generic: 혜택 1079건
+          - generic: 블로그 1건
+      - generic [ref=e43]:
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - paragraph [ref=e47]: 오늘의 서울 요약
+            - heading "지금 바로 볼 가치가 있는 정보만 먼저 모았습니다" [level=2] [ref=e48]
+          - paragraph [ref=e49]: 2026-04-15 서울 시간 기준 자동 집계
+        - generic [ref=e50]:
+          - link [ref=e51] [cursor=pointer]:
+            - /url: /events/?view=ongoing
+            - article [ref=e52]:
+              - generic [ref=e53]: 오늘 진행 중 행사
+              - paragraph [ref=e54]: 95개
+              - paragraph [ref=e55]: 2026-04-15 기준 현재 열려 있는 일정
+              - paragraph [ref=e56]:
+                - text: 바로 보기
+                - img [ref=e57]
+          - link [ref=e59] [cursor=pointer]:
+            - /url: /benefits/?view=closing-this-week
+            - article [ref=e60]:
+              - generic [ref=e61]: 이번 주 마감 혜택
+              - paragraph [ref=e62]: 1개
+              - paragraph [ref=e63]: 2026-04-19 안에 마감되는 혜택
+              - paragraph [ref=e64]:
+                - text: 바로 보기
+                - img [ref=e65]
+          - link [ref=e67] [cursor=pointer]:
+            - /url: /events/?view=free
+            - article [ref=e68]:
+              - generic [ref=e69]: 무료 행사
+              - paragraph [ref=e70]: 141개
+              - paragraph [ref=e71]: 오늘 이후 참여 가능한 무료 일정
+              - paragraph [ref=e72]:
+                - text: 바로 보기
+                - img [ref=e73]
+          - link [ref=e75] [cursor=pointer]:
+            - /url: /events/?view=indoor
+            - article [ref=e76]:
+              - generic [ref=e77]: 실내 추천
+              - paragraph [ref=e78]: 181개
+              - paragraph [ref=e79]: 실내 공간 중심으로 바로 둘러볼 일정
+              - paragraph [ref=e80]:
+                - text: 바로 보기
+                - img [ref=e81]
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - generic [ref=e85]:
+            - heading "🎉 서울시 행사·축제" [level=2] [ref=e86]:
+              - generic [ref=e87]: 🎉
+              - text: 서울시 행사·축제
+            - paragraph [ref=e88]: 서울 열린데이터광장의 서울시 문화행사 정보를 기준으로 보여드립니다.
+          - link "전체 행사 보기" [ref=e89] [cursor=pointer]:
+            - /url: /events/
+        - generic [ref=e90]:
+          - generic [ref=e93]:
+            - generic [ref=e94]:
+              - generic [ref=e95]: 축제-문화/예술
+              - generic [ref=e96]: 강북구
+            - heading "[강북문화재단] 2026 어린이·청소년문화예술프로그램 [강북 그림책 아트플레이]" [level=3] [ref=e97]
+            - paragraph [ref=e98]: 강북구 · 강북문화예술회관 강북진달래홀 갤러리에서 열리는 축제-문화/예술 행사입니다. 무료로 참여할 수 있는 행사입니다.
+            - generic [ref=e99]:
+              - generic [ref=e100]:
+                - generic [ref=e101]: 📅
+                - generic [ref=e102]: 2026-04-01 ~ 2026-04-25
+              - generic [ref=e103]:
+                - generic [ref=e104]: 📍
+                - generic [ref=e105]: 강북문화예술회관 강북진달래홀 갤러리
+              - generic [ref=e106]:
+                - generic [ref=e107]: 💸
+                - generic [ref=e108]: 무료
+            - link "자세히 보기" [ref=e109] [cursor=pointer]:
+              - /url: /events/seoul-event-157056/
+              - text: 자세히 보기
+              - img [ref=e110]
+          - generic [ref=e114]:
+            - generic [ref=e115]:
+              - generic [ref=e116]: 교육/체험
+              - generic [ref=e117]: 은평구
+            - heading "[구립증산도서관] 가족열람실 4월 북큐레이션 [같이 나누자, 봄날]" [level=3] [ref=e118]
+            - paragraph [ref=e119]: 은평구 · 3층 가족열람실에서 열리는 교육/체험 행사입니다. 무료로 참여할 수 있는 행사입니다.
+            - generic [ref=e120]:
+              - generic [ref=e121]:
+                - generic [ref=e122]: 📅
+                - generic [ref=e123]: 2026-04-01 ~ 2026-04-26
+              - generic [ref=e124]:
+                - generic [ref=e125]: 📍
+                - generic [ref=e126]: 3층 가족열람실
+              - generic [ref=e127]:
+                - generic [ref=e128]: 💸
+                - generic [ref=e129]: 무료
+            - link "자세히 보기" [ref=e130] [cursor=pointer]:
+              - /url: /events/seoul-event-157325/
+              - text: 자세히 보기
+              - img [ref=e131]
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - generic [ref=e137]: 전시/미술
+              - generic [ref=e138]: 은평구
+            - heading "[구립증산도서관] 테마로 즐기는 도서관 - 4월 테마전시체험전 [어린이의 아침]" [level=3] [ref=e139]
+            - paragraph [ref=e140]: 은평구 · 지하 1층 북갤러리 및 3층 가족열람실에서 열리는 전시/미술 행사입니다. 무료로 참여할 수 있는 행사입니다.
+            - generic [ref=e141]:
+              - generic [ref=e142]:
+                - generic [ref=e143]: 📅
+                - generic [ref=e144]: 2026-04-01 ~ 2026-04-26
+              - generic [ref=e145]:
+                - generic [ref=e146]: 📍
+                - generic [ref=e147]: 지하 1층 북갤러리 및 3층 가족열람실
+              - generic [ref=e148]:
+                - generic [ref=e149]: 💸
+                - generic [ref=e150]: 무료
+            - link "자세히 보기" [ref=e151] [cursor=pointer]:
+              - /url: /events/seoul-event-157324/
+              - text: 자세히 보기
+              - img [ref=e152]
+          - generic [ref=e156]:
+            - generic [ref=e157]:
+              - generic [ref=e158]: 기타
+              - generic [ref=e159]: 마포구
+            - heading "[마포구립서강도서관] 4월/팟캐스트 서강도서관 피셜 66회 [우리가 사랑한 거짓말]" [level=3] [ref=e160]
+            - paragraph [ref=e161]: 마포구 · 온라인 팟빵에서 열리는 기타 행사입니다. 무료로 참여할 수 있는 행사입니다.
+            - generic [ref=e162]:
+              - generic [ref=e163]:
+                - generic [ref=e164]: 📅
+                - generic [ref=e165]: 2026-04-01 ~ 2026-04-30
+              - generic [ref=e166]:
+                - generic [ref=e167]: 📍
+                - generic [ref=e168]: 온라인 팟빵
+              - generic [ref=e169]:
+                - generic [ref=e170]: 💸
+                - generic [ref=e171]: 무료
+            - link "자세히 보기" [ref=e172] [cursor=pointer]:
+              - /url: /events/seoul-event-157298/
+              - text: 자세히 보기
+              - img [ref=e173]
+          - generic [ref=e177]:
+            - generic [ref=e178]:
+              - generic [ref=e179]: 교육/체험
+              - generic [ref=e180]: 마포구
+            - heading "[마포구립서강도서관] 4월/행사 [4월 문화프로그램 안내]" [level=3] [ref=e181]
+            - paragraph [ref=e182]: 마포구 · 마포구립서강도서관에서 열리는 교육/체험 행사입니다. 무료로 참여할 수 있는 행사입니다.
+            - generic [ref=e183]:
+              - generic [ref=e184]:
+                - generic [ref=e185]: 📅
+                - generic [ref=e186]: 2026-04-01 ~ 2026-04-30
+              - generic [ref=e187]:
+                - generic [ref=e188]: 📍
+                - generic [ref=e189]: 마포구립서강도서관
+              - generic [ref=e190]:
+                - generic [ref=e191]: 💸
+                - generic [ref=e192]: 무료
+            - link "자세히 보기" [ref=e193] [cursor=pointer]:
+              - /url: /events/seoul-event-157240/
+              - text: 자세히 보기
+              - img [ref=e194]
+          - generic [ref=e198]:
+            - generic [ref=e199]:
+              - generic [ref=e200]: 교육/체험
+              - generic [ref=e201]: 송파구
+            - heading "[송파 청년아티스트센터] 예술가와 함께하는 풍납 탐구 생활 4월 프로그램" [level=3] [ref=e202]
+            - paragraph [ref=e203]: 송파구 · 송파 청년아티스트센터 1층에서 열리는 교육/체험 행사입니다. 무료로 참여할 수 있는 행사입니다.
+            - generic [ref=e204]:
+              - generic [ref=e205]:
+                - generic [ref=e206]: 📅
+                - generic [ref=e207]: 2026-04-01 ~ 2026-04-30
+              - generic [ref=e208]:
+                - generic [ref=e209]: 📍
+                - generic [ref=e210]: 송파 청년아티스트센터 1층
+              - generic [ref=e211]:
+                - generic [ref=e212]: 💸
+                - generic [ref=e213]: 무료
+            - link "자세히 보기" [ref=e214] [cursor=pointer]:
+              - /url: /events/seoul-event-157132/
+              - text: 자세히 보기
+              - img [ref=e215]
+      - generic [ref=e219]:
+        - generic [ref=e220]:
+          - generic [ref=e221]:
+            - heading "💰 놓치면 아쉬운 혜택" [level=2] [ref=e222]:
+              - generic [ref=e223]: 💰
+              - text: 놓치면 아쉬운 혜택
+            - paragraph [ref=e224]: 공공데이터포털 기준으로 서울 혜택 정보를 확인하세요
+          - link "전체 혜택 보기" [ref=e225] [cursor=pointer]:
+            - /url: /benefits/
+        - generic [ref=e226]:
+          - generic [ref=e227]:
+            - generic [ref=e229]:
+              - generic [ref=e230]: 문화·환경
+              - generic [ref=e231]: 강서구
+            - generic [ref=e232]:
+              - heading "가정용 음식물처리기(소형감량기) 구매 지원" [level=3] [ref=e233]
+              - paragraph [ref=e234]: 서울특별시 강서구
+              - generic [ref=e235]:
+                - generic [ref=e236]: 🎯
+                - generic [ref=e237]: ○ 공고일 기준 6개월 이상 주민등록상 거주지가 서울특별시 강서구인 주민 ○ 세대당 1대 지원 - 세대분리의 경우에도 동일 주소지 내 중복지원 불가 ○ 공고일 이후 구매한 제품으로 품질인증과 안전인증을 받은 가정용 감량기(음식물처리기)
+              - paragraph [ref=e238]: 서울특별시 강서구에서 제공하는 문화·환경 혜택입니다. 가정용 음식물류폐기물 소형감량기 구매 보조금을 지원하여 발생원의 원천 감량을 통한 음식물쓰레기의 지속 가능한 감량을 유도하고자 함
+              - generic [ref=e239]:
+                - generic [ref=e240]:
+                  - generic [ref=e241]: ⏰
+                  - generic [ref=e242]: 2025년 하반기 시행 / 향후 시행 시 서울시 일정 고려하여 상반기 시행 예정
+                - generic [ref=e243]:
+                  - generic [ref=e244]: 🏛️
+                  - generic [ref=e245]: 접수기관 정보 없음
+              - link "자세히 보기" [ref=e246] [cursor=pointer]:
+                - /url: /benefits/gov-benefit-315000000289/
+                - text: 자세히 보기
+                - img [ref=e247]
+          - generic [ref=e250]:
+            - generic [ref=e252]:
+              - generic [ref=e253]: 보건·의료
+              - generic [ref=e254]: 강서구
+            - generic [ref=e255]:
+              - heading "(강서구)난임부부 지원(시술 후 원외약제비 청구)" [level=3] [ref=e256]
+              - paragraph [ref=e257]: 서울특별시 강서구
+              - generic [ref=e258]:
+                - generic [ref=e259]: 🎯
+                - generic [ref=e260]: 난임부부 시술비 지원사업 대상자 중 해당지원회차의 정부지원금 잔액이 남은 자
+              - paragraph [ref=e261]: 서울특별시 강서구에서 제공하는 보건·의료 혜택입니다. 난임시술관련 약제비 지원
+              - generic [ref=e262]:
+                - generic [ref=e263]:
+                  - generic [ref=e264]: ⏰
+                  - generic [ref=e265]: 상시신청
+                - generic [ref=e266]:
+                  - generic [ref=e267]: 🏛️
+                  - generic [ref=e268]: 접수기관 정보 없음
+              - link "자세히 보기" [ref=e269] [cursor=pointer]:
+                - /url: /benefits/gov-benefit-315000000288/
+                - text: 자세히 보기
+                - img [ref=e270]
+          - generic [ref=e273]:
+            - generic [ref=e275]:
+              - generic [ref=e276]: 임신·출산
+              - generic [ref=e277]: 강서구
+            - generic [ref=e278]:
+              - heading "(강서구)임산부 건강관리 서비스 지원" [level=3] [ref=e279]
+              - paragraph [ref=e280]: 서울특별시 강서구
+              - generic [ref=e281]:
+                - generic [ref=e282]: 🎯
+                - generic [ref=e283]: ○ 관내 주민등록을 둔 임산부
+              - paragraph [ref=e284]: 서울특별시 강서구에서 제공하는 임신·출산 혜택입니다. 임산부에게 엽산제, 철분제, 임신초기검사, 기형아검사, 당뇨검사, 유축기 대여 등 지원
+              - generic [ref=e285]:
+                - generic [ref=e286]:
+                  - generic [ref=e287]: ⏰
+                  - generic [ref=e288]: 상시신청
+                - generic [ref=e289]:
+                  - generic [ref=e290]: 🏛️
+                  - generic [ref=e291]: 접수기관 정보 없음
+              - link "자세히 보기" [ref=e292] [cursor=pointer]:
+                - /url: /benefits/gov-benefit-315000000285/
+                - text: 자세히 보기
+                - img [ref=e293]
+          - generic [ref=e296]:
+            - generic [ref=e298]:
+              - generic [ref=e299]: 생활안정
+              - generic [ref=e300]: 동대문구
+            - generic [ref=e301]:
+              - heading "동대문구 장애인 전용 미용실 [동행헤어] 운영" [level=3] [ref=e302]
+              - paragraph [ref=e303]: 서울특별시 동대문구
+              - generic [ref=e304]:
+                - generic [ref=e305]: 🎯
+                - generic [ref=e306]: 동대문구 등록 장애인
+              - paragraph [ref=e307]: 서울특별시 동대문구에서 제공하는 생활안정 혜택입니다. 중증장애인도 이·미용이 가능하도록 미용기구를 설치한 전용 미용실 운영
+              - generic [ref=e308]:
+                - generic [ref=e309]:
+                  - generic [ref=e310]: ⏰
+                  - generic [ref=e311]: 상시신청
+                - generic [ref=e312]:
+                  - generic [ref=e313]: 🏛️
+                  - generic [ref=e314]: 접수기관 정보 없음
+              - link "자세히 보기" [ref=e315] [cursor=pointer]:
+                - /url: /benefits/gov-benefit-305000000300/
+                - text: 자세히 보기
+                - img [ref=e316]
+      - generic [ref=e320]:
+        - paragraph [ref=e321]:
+          - text: 행사 데이터는 서울 열린데이터광장
+          - code [ref=e322]: 서울시 문화행사 정보
+          - text: ", 혜택 데이터는 공공데이터포털"
+          - code [ref=e323]: 대한민국 공공서비스(혜택) 정보
+          - text: 를 사용합니다.
+        - generic [ref=e324]:
+          - generic [ref=e325]: "행사 수집 시각: 2026-04-13T22:48:41.788Z"
+          - generic [ref=e327]: "혜택 수집 시각: 2026-04-14T02:04:05.772Z"
+  - contentinfo [ref=e329]:
+    - generic [ref=e330]:
+      - generic [ref=e331]:
+        - generic [ref=e332]:
+          - generic [ref=e333]:
+            - img [ref=e335]
+            - generic [ref=e343]:
+              - generic [ref=e344]: 서울시티
+              - generic [ref=e345]: Seoul Local Guide
+          - paragraph [ref=e346]: 서울의 행사, 혜택, 생활형 정보글을 공공데이터 중심으로 정리해 더 빠르게 탐색할 수 있도록 돕는 서비스입니다.
+        - generic [ref=e347]:
+          - heading "바로가기" [level=3] [ref=e348]
+          - list [ref=e349]:
+            - listitem [ref=e350]:
+              - link "홈" [ref=e351] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e352]:
+              - link "행사/축제" [ref=e353] [cursor=pointer]:
+                - /url: /events/
+            - listitem [ref=e354]:
+              - link "지원금/혜택" [ref=e355] [cursor=pointer]:
+                - /url: /benefits/
+            - listitem [ref=e356]:
+              - link "블로그" [ref=e357] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e358]:
+              - link "통합 검색" [ref=e359] [cursor=pointer]:
+                - /url: /search/
+        - generic [ref=e360]:
+          - heading "운영 안내" [level=3] [ref=e361]
+          - list [ref=e362]:
+            - listitem [ref=e363]:
+              - link "서비스 안내" [ref=e364] [cursor=pointer]:
+                - /url: /notice/
+            - listitem [ref=e365]:
+              - link "개인정보처리방침" [ref=e366] [cursor=pointer]:
+                - /url: /privacy/
+            - listitem [ref=e367]:
+              - link "광고·분석 고지" [ref=e368] [cursor=pointer]:
+                - /url: /disclosure/
+            - listitem [ref=e369]:
+              - link "문의 및 정정 요청" [ref=e370] [cursor=pointer]:
+                - /url: /contact/
+            - listitem [ref=e371]:
+              - link "jin3137@gmail.com" [ref=e372] [cursor=pointer]:
+                - /url: mailto:jin3137@gmail.com
+            - listitem [ref=e373]:
+              - link "GitHub Issues" [ref=e374] [cursor=pointer]:
+                - /url: https://github.com/LeeSungGuk/my-local-info/issues
+            - listitem [ref=e375]:
+              - link "서울 열린데이터광장" [ref=e376] [cursor=pointer]:
+                - /url: https://data.seoul.go.kr
+            - listitem [ref=e377]:
+              - link "공공데이터포털" [ref=e378] [cursor=pointer]:
+                - /url: https://data.go.kr
+      - paragraph [ref=e380]: © 2026 서울시티. 공공데이터 기반 서울 로컬 정보 서비스입니다.
+  - button "Open Next.js Dev Tools" [ref=e387] [cursor=pointer]:
+    - img [ref=e388]
+  - alert [ref=e381]

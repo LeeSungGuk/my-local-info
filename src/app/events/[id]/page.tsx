@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { getEventInterpretationSections } from "@/lib/detail-interpretation";
 import { formatEventPeriod, getAllEvents, getEventById } from "@/lib/seoul-events";
 
 export async function generateStaticParams() {
@@ -23,6 +24,20 @@ export default async function EventDetailPage({
   }
 
   const externalUrl = event.detailUrl || event.organizerUrl;
+  const interpretationSections = getEventInterpretationSections({
+    title: event.title,
+    category: event.category,
+    district: event.district,
+    venue: event.venue,
+    startDate: event.startDate,
+    endDate: event.endDate,
+    timeText: event.timeText,
+    target: event.target,
+    isFree: event.isFree,
+    fee: event.fee,
+    detailUrl: event.detailUrl,
+    organizerUrl: event.organizerUrl,
+  });
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-sky-50 via-white to-white">
@@ -107,6 +122,27 @@ export default async function EventDetailPage({
                     <p className="mt-2 whitespace-pre-line text-sm leading-relaxed text-gray-600">
                       {event.performer}
                     </p>
+                  </div>
+                ) : null}
+
+                {interpretationSections.length > 0 ? (
+                  <div className="mt-6 space-y-4">
+                    {interpretationSections.map((section) => (
+                      <section
+                        key={section.title}
+                        className="rounded-2xl border border-sky-100 bg-white p-5"
+                      >
+                        <h3 className="text-sm font-semibold text-gray-900">{section.title}</h3>
+                        <ul className="mt-3 space-y-2 text-sm leading-relaxed text-gray-600">
+                          {section.items.map((item) => (
+                            <li key={item} className="flex gap-2">
+                              <span className="mt-1 text-sky-500">•</span>
+                              <span>{item}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </section>
+                    ))}
                   </div>
                 ) : null}
               </section>

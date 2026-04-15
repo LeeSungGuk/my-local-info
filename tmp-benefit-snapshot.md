@@ -1,0 +1,169 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "서울시티 Seoul Local Guide" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+        - generic [ref=e15]:
+          - generic [ref=e16]: 서울시티
+          - generic [ref=e17]: Seoul Local Guide
+      - navigation [ref=e18]:
+        - link "홈" [ref=e19] [cursor=pointer]:
+          - /url: /
+        - link "행사/축제" [ref=e20] [cursor=pointer]:
+          - /url: /events/
+        - link "지원금/혜택" [ref=e21] [cursor=pointer]:
+          - /url: /benefits/
+        - link "블로그" [ref=e22] [cursor=pointer]:
+          - /url: /blog/
+        - link "소개" [ref=e23] [cursor=pointer]:
+          - /url: /about/
+  - main [ref=e24]:
+    - generic [ref=e26]:
+      - link "혜택 목록으로 돌아가기" [ref=e27] [cursor=pointer]:
+        - /url: /benefits/
+        - img [ref=e28]
+        - text: 혜택 목록으로 돌아가기
+      - article [ref=e30]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: 보호·돌봄
+            - generic [ref=e35]: 종로구
+            - generic [ref=e36]: 자치구
+          - heading "가정위탁아동 및 입양가정 지원" [level=1] [ref=e37]
+          - paragraph [ref=e38]: 서울특별시 종로구
+          - paragraph [ref=e39]: 서울특별시 종로구에서 제공하는 보호·돌봄 혜택입니다. ○ 요보호아동의 가정보호 및 양육 유도 ○ 양육가정(가정위탁, 입양) 지원 ○ 보호아동의 건강한 성장 지원
+          - generic [ref=e40]:
+            - generic [ref=e42]:
+              - generic [ref=e43]: ⏰
+              - generic [ref=e44]:
+                - paragraph [ref=e45]: 신청 기한
+                - paragraph [ref=e46]: 상시신청
+            - generic [ref=e48]:
+              - generic [ref=e49]: 💰
+              - generic [ref=e50]:
+                - paragraph [ref=e51]: 지원 유형
+                - paragraph [ref=e52]: 현금
+            - generic [ref=e54]:
+              - generic [ref=e55]: 🏛️
+              - generic [ref=e56]:
+                - paragraph [ref=e57]: 접수 기관
+                - paragraph [ref=e58]: 접수기관 정보 없음
+            - generic [ref=e60]:
+              - generic [ref=e61]: 📝
+              - generic [ref=e62]:
+                - paragraph [ref=e63]: 신청 방식
+                - paragraph [ref=e64]: 방문신청
+            - generic [ref=e66]:
+              - generic [ref=e67]: 🎯
+              - generic [ref=e68]:
+                - paragraph [ref=e69]: 지원 대상
+                - paragraph [ref=e70]: ○ 종로구 내 거주하는 가정위탁아동 및 입양가정
+            - generic [ref=e72]:
+              - generic [ref=e73]: ☎️
+              - generic [ref=e74]:
+                - paragraph [ref=e75]: 문의
+                - paragraph [ref=e76]: 아동복지과/02-2148-2984
+            - generic [ref=e78]:
+              - generic [ref=e79]: 👤
+              - generic [ref=e80]:
+                - paragraph [ref=e81]: 연령 기준
+                - paragraph [ref=e82]: 18세 ~ 44세
+            - generic [ref=e84]:
+              - generic [ref=e85]: 🗓️
+              - generic [ref=e86]:
+                - paragraph [ref=e87]: 최근 수정일
+                - paragraph [ref=e88]: 2026-01-27
+          - generic [ref=e89]:
+            - generic [ref=e90]:
+              - heading "혜택 안내" [level=2] [ref=e91]
+              - paragraph [ref=e92]: ○ 요보호아동의 가정보호 및 양육 유도 ○ 양육가정(가정위탁, 입양) 지원 ○ 보호아동의 건강한 성장 지원
+              - generic [ref=e93]:
+                - heading "지원 내용" [level=3] [ref=e94]
+                - paragraph [ref=e95]: ● 가정위탁 ○ 가정위탁아동 졸업, 입학 격려품 지원 ○ 가정위탁아동 명절, 연말 위문품 지원 ● 입양 ○ 입양아동 입양장려금 지급 ○ 입양아동 건강보험료 지원(셋째 이상 입양아동)
+              - generic [ref=e96]:
+                - heading "선정 기준" [level=3] [ref=e97]
+                - paragraph [ref=e98]: 선정 기준 정보 없음
+              - generic [ref=e99]:
+                - heading "신청 방법" [level=3] [ref=e100]
+                - paragraph [ref=e101]: ○ 종로구청 아동복지과 방문 신청(입양장려금 및 입양아동 건강보험료)
+              - generic [ref=e102]:
+                - heading "구비 서류" [level=3] [ref=e103]
+                - generic [ref=e104]
+              - generic [ref=e108]:
+                - generic [ref=e109]
+                - generic [ref=e115]
+            - generic [ref=e124]:
+              - heading "데이터 출처" [level=2] [ref=e125]
+              - paragraph [ref=e126]:
+                - text: 공공데이터포털
+                - code [ref=e127]: 대한민국 공공서비스(혜택) 정보
+                - text: 를 기준으로 저장한 항목입니다.
+              - generic [ref=e128]:
+                - generic [ref=e129]
+                - generic [ref=e132]
+                - generic [ref=e135]
+                - generic [ref=e138]
+              - link "공식 상세 페이지 보기" [ref=e141] [cursor=pointer]:
+                - /url: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000111
+                - text: 공식 상세 페이지 보기
+                - img [ref=e142]
+  - contentinfo [ref=e144]:
+    - generic [ref=e145]:
+      - generic [ref=e146]:
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - img [ref=e150]
+            - generic [ref=e158]:
+              - generic [ref=e159]: 서울시티
+              - generic [ref=e160]: Seoul Local Guide
+          - paragraph [ref=e161]: 서울의 행사, 혜택, 생활형 정보글을 공공데이터 중심으로 정리해 더 빠르게 탐색할 수 있도록 돕는 서비스입니다.
+        - generic [ref=e162]:
+          - heading "바로가기" [level=3] [ref=e163]
+          - list [ref=e164]:
+            - listitem [ref=e165]:
+              - link "홈" [ref=e166] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e167]:
+              - link "행사/축제" [ref=e168] [cursor=pointer]:
+                - /url: /events/
+            - listitem [ref=e169]:
+              - link "지원금/혜택" [ref=e170] [cursor=pointer]:
+                - /url: /benefits/
+            - listitem [ref=e171]:
+              - link "블로그" [ref=e172] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e173]:
+              - link "통합 검색" [ref=e174] [cursor=pointer]:
+                - /url: /search/
+        - generic [ref=e175]:
+          - heading "운영 안내" [level=3] [ref=e176]
+          - list [ref=e177]:
+            - listitem [ref=e178]:
+              - link "서비스 안내" [ref=e179] [cursor=pointer]:
+                - /url: /notice/
+            - listitem [ref=e180]:
+              - link "개인정보처리방침" [ref=e181] [cursor=pointer]:
+                - /url: /privacy/
+            - listitem [ref=e182]:
+              - link "광고·분석 고지" [ref=e183] [cursor=pointer]:
+                - /url: /disclosure/
+            - listitem [ref=e184]:
+              - link "문의 및 정정 요청" [ref=e185] [cursor=pointer]:
+                - /url: /contact/
+            - listitem [ref=e186]:
+              - link "jin3137@gmail.com" [ref=e187] [cursor=pointer]:
+                - /url: mailto:jin3137@gmail.com
+            - listitem [ref=e188]:
+              - link "GitHub Issues" [ref=e189] [cursor=pointer]:
+                - /url: https://github.com/LeeSungGuk/my-local-info/issues
+            - listitem [ref=e190]:
+              - link "서울 열린데이터광장" [ref=e191] [cursor=pointer]:
+                - /url: https://data.seoul.go.kr
+            - listitem [ref=e192]:
+              - link "공공데이터포털" [ref=e193] [cursor=pointer]:
+                - /url: https://data.go.kr
+      - paragraph [ref=e195]: © 2026 서울시티. 공공데이터 기반 서울 로컬 정보 서비스입니다.
+  - button "Open Next.js Dev Tools" [ref=e201] [cursor=pointer]:
+    - img [ref=e202]
+  - alert [ref=e205]
