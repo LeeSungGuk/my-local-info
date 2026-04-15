@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { filterSearchItems, getSearchDistricts } from "@/lib/search-utils";
 import type { SearchFilters, SearchIndexData, SearchIndexItem } from "@/lib/search-types";
 
@@ -15,6 +15,13 @@ const EMPTY_INDEX: SearchIndexData = {
   },
   items: [],
 };
+
+const SEARCH_TYPE_OPTIONS = [
+  { label: "전체", value: "all" },
+  { label: "행사", value: "event" },
+  { label: "혜택", value: "benefit" },
+  { label: "블로그", value: "blog" },
+] as const;
 
 function typeClassName(type: SearchIndexItem["type"]) {
   switch (type) {
@@ -43,7 +50,7 @@ export default function SearchResultsView() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const [index, setIndex] = useState<SearchIndexData>(EMPTY_INDEX);
-  const inputRef = useRef<HTMLInputElement>(null);
+  const [isMobileFiltersOpen, setIsMobileFiltersOpen] = useState(false);
 
   useEffect(() => {
     let isMounted = true;
@@ -79,6 +86,20 @@ export default function SearchResultsView() {
     district: "전체 지역",
   });
   const districts = getSearchDistricts(districtBaseItems);
+  const hasQuery = filters.query.trim().length > 0;
+  const selectedTypeLabel =
+    SEARCH_TYPE_OPTIONS.find((option) => option.value === filters.type)?.label ?? "전체";
+  const activeSummaryItems = [
+    hasQuery ? `검색어: ${filters.query}` : "검색어 없음",
+    filters.type === "all" ? "유형: 전체" : `유형: ${selectedTypeLabel}`,
+    filters.district === "전체 지역" ? "지역: 전체" : `지역: ${filters.district}`,
+    filters.activeOnly ? "현재 참고 가능한 정보만" : "모든 상태 포함",
+  ];
+  const mobileFilterSummary = [
+    filters.type === "all" ? "전체 유형" : selectedTypeLabel,
+    filters.district,
+    filters.activeOnly ? "현재 정보만" : "전체 상태",
+  ].join(" · ");
 
   function updateParams(next: Partial<SearchFilters>) {
     const params = new URLSearchParams(searchParams.toString());
@@ -113,40 +134,55 @@ export default function SearchResultsView() {
     }
 
     const queryString = params.toString();
+    setIsMobileFiltersOpen(false);
     router.replace(queryString ? `${pathname}?${queryString}` : pathname);
   }
 
-  return (
-    <div className="grid gap-8 lg:grid-cols-[280px_minmax(0,1fr)]">
-      <aside className="h-fit rounded-2xl border border-slate-200 bg-white p-5 shadow-[0_8px_24px_rgba(15,23,42,0.04)] sm:p-6">
+  function renderFilterPanel() {
+    return (
+      <>
         <form
           onSubmit={(event) => {
             event.preventDefault();
-            updateParams({ query: inputRef.current?.value.trim() || "" });
+            const formData = new FormData(event.currentTarget);
+            updateParams({ query: String(formData.get("query") || "").trim() });
           }}
         >
-          <label className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">Search</label>
-          <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-3">
-            <input
-              key={filters.query}
-              ref={inputRef}
-              type="search"
-              defaultValue={filters.query}
-              placeholder="성동구 무료 전시, 청년 혜택"
-              className="w-full bg-transparent text-sm text-slate-900 outline-none placeholder:text-slate-400"
-            />
+          <label className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">
+            검색어
+          </label>
+          <div className="mt-3 rounded-2xl border border-slate-200 bg-slate-50 p-3">
+            <div className="flex items-center gap-3 rounded-xl bg-white px-3 py-3 text-slate-400 shadow-sm ring-1 ring-slate-200/70">
+              <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="m21 21-4.35-4.35M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z"
+                />
+              </svg>
+              <input
+                key={filters.query}
+                name="query"
+                type="search"
+                defaultValue={filters.query}
+                placeholder="성동구 무료 전시, 청년 혜택"
+                className="w-full bg-transparent text-sm text-slate-900 outline-none placeholder:text-slate-400"
+              />
+            </div>
+            <button
+              type="submit"
+              className="mt-3 inline-flex w-full items-center justify-center rounded-full bg-sky-600 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-sky-700"
+            >
+              이 조건으로 검색
+            </button>
           </div>
         </form>
 
         <div className="mt-6">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">Type</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">유형</p>
           <div className="mt-3 flex flex-wrap gap-2">
-            {[
-              { label: "전체", value: "all" },
-              { label: "행사", value: "event" },
-              { label: "혜택", value: "benefit" },
-              { label: "블로그", value: "blog" },
-            ].map((option) => {
+            {SEARCH_TYPE_OPTIONS.map((option) => {
               const isActive = filters.type === option.value;
 
               return (
@@ -168,7 +204,7 @@ export default function SearchResultsView() {
         </div>
 
         <div className="mt-6">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">District</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">지역</p>
           <div className="mt-3 flex flex-wrap gap-2">
             {["전체 지역", ...districts].map((district) => {
               const isActive = filters.district === district;
@@ -202,30 +238,89 @@ export default function SearchResultsView() {
             진행 중이거나 현재 참고 가능한 정보만 보기
           </label>
         </div>
+      </>
+    );
+  }
+
+  return (
+    <div className="grid gap-8 lg:grid-cols-[280px_minmax(0,1fr)]">
+      <div className="lg:hidden">
+        <button
+          type="button"
+          onClick={() => setIsMobileFiltersOpen((prev) => !prev)}
+          className="flex w-full items-center justify-between rounded-2xl border border-slate-200 bg-white px-4 py-4 text-left shadow-[0_8px_24px_rgba(15,23,42,0.04)]"
+        >
+          <div>
+            <p className="text-sm font-semibold text-slate-900">검색 필터</p>
+            <p className="mt-1 text-xs text-slate-500">{mobileFilterSummary}</p>
+          </div>
+          <span className="text-sm font-semibold text-sky-700">
+            {isMobileFiltersOpen ? "닫기" : "열기"}
+          </span>
+        </button>
+        {isMobileFiltersOpen ? (
+          <aside className="mt-4 rounded-2xl border border-slate-200 bg-white p-5 shadow-[0_8px_24px_rgba(15,23,42,0.04)] sm:p-6">
+            {renderFilterPanel()}
+          </aside>
+        ) : null}
+      </div>
+
+      <aside className="hidden h-fit rounded-2xl border border-slate-200 bg-white p-5 shadow-[0_8px_24px_rgba(15,23,42,0.04)] sm:p-6 lg:block">
+        {renderFilterPanel()}
       </aside>
 
       <div>
         <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-[0_8px_24px_rgba(15,23,42,0.04)] sm:p-6">
           <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <div>
-              <h2 className="text-2xl font-bold text-slate-900">통합 검색</h2>
+              <p className="text-sm font-semibold text-sky-700">
+                {hasQuery ? "현재 검색어" : "통합 검색"}
+              </p>
+              <h2 className="mt-2 text-2xl font-bold text-slate-900">
+                {hasQuery ? (
+                  <>
+                    <span className="text-slate-500">“</span>
+                    {filters.query}
+                    <span className="text-slate-500">”</span> 검색 결과
+                  </>
+                ) : (
+                  "원하는 서울 정보를 바로 찾아보세요"
+                )}
+              </h2>
               <p className="mt-2 text-sm leading-relaxed text-slate-600">
                 행사, 혜택, 블로그를 한 번에 검색합니다. 지역과 유형을 함께 좁히면 더 빨리 찾을 수 있습니다.
               </p>
             </div>
-            <div className="text-sm text-slate-500">검색 결과 {results.length}건</div>
+            <div className="rounded-2xl bg-sky-50 px-4 py-3 text-right text-sm font-semibold text-sky-700">
+              검색 결과 {results.length}건
+            </div>
+          </div>
+
+          <div className="mt-4 flex flex-wrap gap-2">
+            {activeSummaryItems.map((item) => (
+              <span
+                key={item}
+                className="rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs font-medium text-slate-600"
+              >
+                {item}
+              </span>
+            ))}
           </div>
         </div>
 
         {!filters.query.trim() ? (
           <div className="mt-8 rounded-2xl border border-dashed border-slate-200 bg-white p-10 text-center">
             <p className="text-lg font-semibold text-slate-900">찾고 싶은 서울 정보를 검색해 보세요.</p>
-            <p className="mt-2 text-sm text-slate-600">예: 성동구 무료 전시, 청년 혜택, 비 오는 날 실내 코스</p>
+            <p className="mt-2 text-sm text-slate-600">
+              예: 성동구 무료 전시, 청년 혜택, 비 오는 날 실내 코스
+            </p>
           </div>
         ) : results.length === 0 ? (
           <div className="mt-8 rounded-2xl border border-dashed border-slate-200 bg-white p-10 text-center">
             <p className="text-lg font-semibold text-slate-900">조건에 맞는 검색 결과가 없습니다.</p>
-            <p className="mt-2 text-sm text-slate-600">검색어를 조금 더 넓게 쓰거나 지역/유형 필터를 풀어보세요.</p>
+            <p className="mt-2 text-sm text-slate-600">
+              검색어를 조금 더 넓게 쓰거나 지역/유형 필터를 풀어보세요.
+            </p>
           </div>
         ) : (
           <div className="mt-8 grid gap-6 md:grid-cols-2">
@@ -237,7 +332,9 @@ export default function SearchResultsView() {
                 <div className={`h-1 bg-gradient-to-r ${cardAccentClassName(item.type)}`} />
                 <div className="p-6">
                   <div className="flex flex-wrap items-center gap-2">
-                    <span className={`rounded-full px-3 py-1 text-[11px] font-semibold ${typeClassName(item.type)}`}>
+                    <span
+                      className={`rounded-full px-3 py-1 text-[11px] font-semibold ${typeClassName(item.type)}`}
+                    >
                       {item.typeLabel}
                     </span>
                     {item.category ? (

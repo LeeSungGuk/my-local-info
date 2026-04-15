@@ -3,9 +3,22 @@ const fs = require("fs");
 const path = require("path");
 const matter = require("gray-matter");
 const SEOUL_BLOG_TOPICS = require("./seoul-blog-topics");
+const { ensureTopicCoverAsset } = require("./generate-blog-cover");
+const { generateTopicCandidates } = require("./blog-topic-generator");
+const {
+  countPendingTopics,
+  filterGeneratedTopics,
+  loadTopicQueue,
+  markTopicAsUsed,
+  mergeGeneratedTopics,
+  selectNextPendingTopic,
+  shouldReplenishTopics,
+  writeTopicQueue,
+} = require("./blog-topic-queue");
 
 const ENV_FILE_PATH = path.join(__dirname, "..", ".env.local");
 const POSTS_DIR = path.join(__dirname, "..", "src", "content", "posts");
+const TOPIC_QUEUE_FILE_PATH = path.join(__dirname, "..", "data", "seoul-blog-topic-queue.json");
 
 function loadEnvFile(filePath) {
   if (!fs.existsSync(filePath)) {
@@ -40,15 +53,41 @@ function loadEnvFile(filePath) {
 
 loadEnvFile(ENV_FILE_PATH);
 
-const BLOG_GENERATION_MODEL = process.env.GEMINI_BLOG_MODEL || "gemini-3-flash-preview";
+const BLOG_GENERATION_MODEL = "gemini-3-flash-preview";
+const TOPIC_GENERATION_MODEL = process.env.GEMINI_BLOG_TOPIC_MODEL || BLOG_GENERATION_MODEL;
+const MINIMUM_PENDING_TOPICS = Number(process.env.BLOG_TOPIC_MIN_PENDING || 7);
+const TARGET_PENDING_TOPICS = Number(process.env.BLOG_TOPIC_TARGET_PENDING || 15);
+const MAX_TOPIC_GENERATION_BATCH = Number(process.env.BLOG_TOPIC_MAX_BATCH || 10);
 
-function getTodayInSeoul() {
-  return new Intl.DateTimeFormat("en-CA", {
+function getSeoulDateParts(date = new Date()) {
+  const formatter = new Intl.DateTimeFormat("en-CA", {
     timeZone: "Asia/Seoul",
     year: "numeric",
     month: "2-digit",
     day: "2-digit",
-  }).format(new Date());
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hourCycle: "h23",
+  });
+
+  return formatter.formatToParts(date).reduce((acc, part) => {
+    if (part.type !== "literal") {
+      acc[part.type] = part.value;
+    }
+
+    return acc;
+  }, {});
+}
+
+function getTodayInSeoul() {
+  const parts = getSeoulDateParts();
+  return `${parts.year}-${parts.month}-${parts.day}`;
+}
+
+function getNowInSeoulIso() {
+  const parts = getSeoulDateParts();
+  return `${parts.year}-${parts.month}-${parts.day}T${parts.hour}:${parts.minute}:${parts.second}+09:00`;
 }
 
 function normalizeDate(value) {
@@ -93,14 +132,47 @@ function hasTodayInfoPost(posts, today) {
   return posts.some((post) => post.date === today && post.sourceType === "정보글" && post.region === "서울");
 }
 
-function pickNextTopic(posts) {
-  const usedTopicIds = new Set(
-    posts
-      .filter((post) => post.sourceType === "정보글" && post.region === "서울" && post.sourceId)
-      .map((post) => post.sourceId)
-  );
+async function maybeReplenishTopicQueue(queue, posts, nowIso) {
+  if (!shouldReplenishTopics(queue, MINIMUM_PENDING_TOPICS)) {
+    return queue;
+  }
 
-  return SEOUL_BLOG_TOPICS.find((topic) => !usedTopicIds.has(topic.id)) || null;
+  const pendingCount = countPendingTopics(queue);
+  const targetCount = Math.max(1, TARGET_PENDING_TOPICS - pendingCount);
+  const requestedCount = Math.min(MAX_TOPIC_GENERATION_BATCH, targetCount);
+
+  try {
+    console.log(`🧠 서울 정보글 주제 보충 중... (현재 pending ${pendingCount}개)`);
+    const candidates = await generateTopicCandidates({
+      apiKey: process.env.GEMINI_API_KEY,
+      model: TOPIC_GENERATION_MODEL,
+      count: requestedCount,
+      existingTopics: queue.topics,
+      fetchImpl: fetch,
+    });
+    const filteredTopics = filterGeneratedTopics({
+      candidates,
+      queue,
+      posts,
+    });
+
+    if (filteredTopics.length === 0) {
+      console.log("ℹ️ 새로 추가할 서울 정보글 주제를 찾지 못했습니다.");
+      return queue;
+    }
+
+    const updatedQueue = mergeGeneratedTopics(queue, filteredTopics, nowIso);
+    writeTopicQueue(updatedQueue, TOPIC_QUEUE_FILE_PATH);
+    console.log(`📚 서울 정보글 주제 ${filteredTopics.length}개를 큐에 추가했습니다.`);
+    return updatedQueue;
+  } catch (error) {
+    if (pendingCount > 0) {
+      console.warn(`⚠️ 주제 보충에 실패했지만 기존 pending 주제로 계속 진행합니다: ${error.message}`);
+      return queue;
+    }
+
+    throw error;
+  }
 }
 
 async function generateBlogPost(topic, today) {
@@ -197,6 +269,7 @@ function savePost(geminiResponse, today, topic) {
   }
 
   const parsed = matter(content);
+  const coverAsset = ensureTopicCoverAsset(topic);
   const normalizedFrontmatter = {
     title: parsed.data.title || topic.titleHint,
     date: today,
@@ -207,15 +280,15 @@ function savePost(geminiResponse, today, topic) {
     sourceType: "정보글",
     sourceId: topic.id,
     sourceUrl: "",
-    ...(topic.coverImage ? { coverImage: topic.coverImage } : {}),
-    ...(topic.coverAlt ? { coverAlt: topic.coverAlt } : {}),
+    ...(coverAsset.coverImage ? { coverImage: coverAsset.coverImage } : {}),
+    ...(coverAsset.coverAlt ? { coverAlt: coverAsset.coverAlt } : {}),
   };
 
   const normalizedContent = matter.stringify(parsed.content.trim(), normalizedFrontmatter).trim();
   const filePath = path.join(POSTS_DIR, `${filename}.md`);
   fs.writeFileSync(filePath, `${normalizedContent}\n`, "utf8");
 
-  return { filename, filePath };
+  return { filename, filePath, coverImage: coverAsset.coverImage };
 }
 
 async function main() {
@@ -225,6 +298,7 @@ async function main() {
     }
 
     const today = getTodayInSeoul();
+    const nowIso = getNowInSeoulIso();
     const posts = getExistingPosts();
 
     if (hasTodayInfoPost(posts, today)) {
@@ -232,7 +306,15 @@ async function main() {
       return;
     }
 
-    const nextTopic = pickNextTopic(posts);
+    let topicQueue = loadTopicQueue({
+      queueFilePath: TOPIC_QUEUE_FILE_PATH,
+      seedTopics: SEOUL_BLOG_TOPICS,
+      posts,
+      nowIso,
+    });
+    topicQueue = await maybeReplenishTopicQueue(topicQueue, posts, nowIso);
+
+    const nextTopic = selectNextPendingTopic(topicQueue);
 
     if (!nextTopic) {
       console.log("ℹ️ 사용 가능한 서울 정보글 주제가 남아있지 않습니다.");
@@ -241,11 +323,15 @@ async function main() {
 
     console.log(`📋 오늘의 서울 정보글 주제: ${nextTopic.id}`);
     const geminiResponse = await generateBlogPost(nextTopic, today);
-    const { filename, filePath } = savePost(geminiResponse, today, nextTopic);
+    const { filename, filePath, coverImage } = savePost(geminiResponse, today, nextTopic);
+    topicQueue = markTopicAsUsed(topicQueue, nextTopic.id, nowIso);
+    topicQueue.lastGeneratedAt = nowIso;
+    writeTopicQueue(topicQueue, TOPIC_QUEUE_FILE_PATH);
 
     console.log("✅ 서울 정보글 생성 완료!");
     console.log(`📄 파일명: ${filename}.md`);
     console.log(`📂 경로: ${filePath}`);
+    console.log(`🖼️ 커버 이미지: ${coverImage}`);
   } catch (error) {
     console.error("❌ 오류 발생:", error.message);
     console.log("기존 파일을 유지합니다.");
@@ -253,4 +339,17 @@ async function main() {
   }
 }
 
-main();
+if (require.main === module) {
+  main();
+}
+
+module.exports = {
+  generateBlogPost,
+  getExistingPosts,
+  getNowInSeoulIso,
+  getTodayInSeoul,
+  hasTodayInfoPost,
+  main,
+  maybeReplenishTopicQueue,
+  savePost,
+};

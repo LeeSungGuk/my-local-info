@@ -1,0 +1,728 @@
+{
+  "version": 1,
+  "lastGeneratedAt": null,
+  "topics": [
+    {
+      "id": "seoul-night-walk-route",
+      "titleHint": "서울 야경 산책 코스 추천",
+      "topicCategory": "퇴근후코스",
+      "angle": "퇴근 후 2~3시간 안에 가볍게 다녀오기 좋은 서울 야경 산책 코스를 소개한다.",
+      "places": [
+        "청계천",
+        "덕수궁 돌담길",
+        "낙산공원",
+        "반포한강공원",
+        "남산서울타워"
+      ],
+      "tags": [
+        "서울가볼만한곳",
+        "야경",
+        "산책",
+        "퇴근후코스",
+        "서울밤산책"
+      ],
+      "coverImage": "/blog-covers/seoul-night-walk-route.svg",
+      "coverAlt": "서울 야경 산책 코스를 표현한 서울타워와 도심 일러스트",
+      "origin": "seed",
+      "status": "used",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": "2026-04-15T00:00:00+09:00"
+    },
+    {
+      "id": "seoul-rainy-day-indoor",
+      "titleHint": "서울 비 오는 날 실내 나들이 추천",
+      "topicCategory": "실내나들이",
+      "angle": "날씨가 좋지 않은 날에도 일정이 무너지지 않도록 서울 실내 장소를 추천한다.",
+      "places": [
+        "국립중앙박물관",
+        "서울시립미술관",
+        "코엑스 별마당도서관",
+        "서울식물원 온실",
+        "DDP"
+      ],
+      "tags": [
+        "서울실내",
+        "비오는날",
+        "서울나들이",
+        "박물관",
+        "전시"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-family-weekend-course",
+      "titleHint": "아이와 함께 가기 좋은 서울 주말 코스",
+      "topicCategory": "가족코스",
+      "angle": "영유아나 초등 자녀와 함께 반나절 또는 하루 일정으로 움직이기 좋은 서울 코스를 제안한다.",
+      "places": [
+        "서울상상나라",
+        "어린이대공원",
+        "서울식물원",
+        "한강공원",
+        "국립어린이과학관"
+      ],
+      "tags": [
+        "서울가족나들이",
+        "아이와가볼만한곳",
+        "주말코스",
+        "서울육아",
+        "체험"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-free-spot-guide",
+      "titleHint": "돈 많이 안 들고 즐기는 서울 무료 명소 추천",
+      "topicCategory": "무료코스",
+      "angle": "비용 부담 없이 서울을 즐기고 싶은 사람을 위한 무료 명소를 정리한다.",
+      "places": [
+        "서울도서관",
+        "청계천",
+        "북서울꿈의숲",
+        "서울숲",
+        "한강공원"
+      ],
+      "tags": [
+        "서울무료",
+        "서울명소",
+        "가성비나들이",
+        "서울산책",
+        "주말추천"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-bookstore-cafe-walk",
+      "titleHint": "서울에서 책과 커피를 함께 즐기는 동네 추천",
+      "topicCategory": "동네추천",
+      "angle": "혼자 또는 둘이 천천히 머물기 좋은 서울의 책방, 도서관, 산책 조합을 소개한다.",
+      "places": [
+        "서울책보고",
+        "서울도서관",
+        "연희동",
+        "서촌",
+        "성수동"
+      ],
+      "tags": [
+        "서울책방",
+        "서울카페",
+        "동네산책",
+        "혼자나들이",
+        "서울추천"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-hangang-picnic-spots",
+      "titleHint": "한강에서 하루 잘 보내는 서울 피크닉 장소 추천",
+      "topicCategory": "계절추천",
+      "angle": "한강에서 피크닉, 노을, 산책을 함께 즐기기 좋은 장소와 이용 팁을 정리한다.",
+      "places": [
+        "여의도한강공원",
+        "망원한강공원",
+        "반포한강공원",
+        "뚝섬한강공원",
+        "잠원한강공원"
+      ],
+      "tags": [
+        "한강",
+        "서울피크닉",
+        "노을명소",
+        "서울주말",
+        "서울데이트"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-after-work-two-hour-course",
+      "titleHint": "퇴근 후 2시간 안에 다녀오기 좋은 서울 코스",
+      "topicCategory": "퇴근후코스",
+      "angle": "멀리 가지 않고도 저녁 시간을 알차게 보낼 수 있는 서울 짧은 코스를 제안한다.",
+      "places": [
+        "서울로7017",
+        "덕수궁 돌담길",
+        "청계천",
+        "을지로",
+        "광화문광장"
+      ],
+      "tags": [
+        "퇴근후",
+        "서울저녁",
+        "2시간코스",
+        "직장인추천",
+        "서울산책"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-solo-weekend-guide",
+      "titleHint": "혼자 보내기 좋은 서울 주말 추천 코스",
+      "topicCategory": "혼자나들이",
+      "angle": "혼자 움직여도 어색하지 않고 오래 머물기 좋은 서울 장소를 추천한다.",
+      "places": [
+        "서울숲",
+        "국립현대미술관 서울",
+        "서촌",
+        "서울도서관",
+        "문화비축기지"
+      ],
+      "tags": [
+        "혼자서울",
+        "서울혼놀",
+        "주말추천",
+        "서울산책",
+        "서울정보"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-sunset-viewpoints",
+      "titleHint": "노을 보기 좋은 서울 전망 포인트 추천",
+      "topicCategory": "뷰포인트",
+      "angle": "퇴근 후 또는 주말 저녁에 가기 좋은 서울 노을 명소를 소개한다.",
+      "places": [
+        "응봉산",
+        "하늘공원",
+        "반포한강공원",
+        "낙산공원",
+        "남산서울타워"
+      ],
+      "tags": [
+        "서울노을",
+        "서울야경",
+        "서울뷰",
+        "산책추천",
+        "서울가볼만한곳"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-market-weekend",
+      "titleHint": "주말에 둘러보기 좋은 서울 시장 추천",
+      "topicCategory": "시장추천",
+      "angle": "먹거리와 동네 분위기를 함께 즐길 수 있는 서울의 시장과 주변 코스를 소개한다.",
+      "places": [
+        "망원시장",
+        "광장시장",
+        "통인시장",
+        "경동시장",
+        "남대문시장"
+      ],
+      "tags": [
+        "서울시장",
+        "서울먹거리",
+        "주말나들이",
+        "동네추천",
+        "서울코스"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-palace-walk-guide",
+      "titleHint": "궁궐과 골목을 함께 걷는 서울 도심 산책 추천",
+      "topicCategory": "도심산책",
+      "angle": "궁궐 관람과 주변 골목 산책을 함께 묶어 반나절 코스로 소개한다.",
+      "places": [
+        "덕수궁",
+        "경복궁",
+        "창덕궁",
+        "서촌",
+        "정동길"
+      ],
+      "tags": [
+        "서울궁궐",
+        "도심산책",
+        "서울역사",
+        "서울코스",
+        "서울추천"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-museum-day-course",
+      "titleHint": "전시 좋아하는 사람을 위한 서울 하루 코스",
+      "topicCategory": "문화생활",
+      "angle": "박물관과 미술관을 좋아하는 사람을 위한 서울 문화 코스를 소개한다.",
+      "places": [
+        "국립중앙박물관",
+        "국립현대미술관 서울",
+        "서울시립미술관",
+        "DDP",
+        "서소문성지 역사박물관"
+      ],
+      "tags": [
+        "서울전시",
+        "서울박물관",
+        "서울미술관",
+        "문화생활",
+        "서울하루코스"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-quiet-public-space",
+      "titleHint": "조용히 머물기 좋은 서울 공공 공간 추천",
+      "topicCategory": "휴식공간",
+      "angle": "시끄러운 상업 공간 대신 조용히 쉬거나 생각 정리하기 좋은 서울 공공 공간을 제안한다.",
+      "places": [
+        "서울도서관",
+        "서울책보고",
+        "서울식물원",
+        "문화비축기지",
+        "북서울꿈의숲"
+      ],
+      "tags": [
+        "서울공공공간",
+        "조용한곳",
+        "서울휴식",
+        "혼자가기좋은곳",
+        "서울추천"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-work-friendly-space",
+      "titleHint": "작업하거나 정리하기 좋은 서울 공간 추천",
+      "topicCategory": "생활공간",
+      "angle": "짧게 노트북 작업을 하거나 생각 정리를 하기 좋은 서울의 공간을 소개한다.",
+      "places": [
+        "서울도서관",
+        "코엑스 별마당도서관",
+        "서울책보고",
+        "서울창업허브 공덕",
+        "청년교류공간"
+      ],
+      "tags": [
+        "서울작업공간",
+        "서울도서관",
+        "노트북하기좋은곳",
+        "서울실내",
+        "서울생활"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-parents-walk-course",
+      "titleHint": "부모님과 함께 걷기 좋은 서울 산책 코스",
+      "topicCategory": "부모님코스",
+      "angle": "이동 부담이 크지 않고 쉬어갈 곳이 있는 서울 산책 코스를 소개한다.",
+      "places": [
+        "정동길",
+        "서울식물원",
+        "남산공원",
+        "한강공원",
+        "북촌한옥마을"
+      ],
+      "tags": [
+        "부모님과가볼만한곳",
+        "서울산책",
+        "서울주말",
+        "가족나들이",
+        "서울코스"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-kids-indoor-free",
+      "titleHint": "아이와 무료로 가기 좋은 서울 실내 공간",
+      "topicCategory": "가족코스",
+      "angle": "육아 비용 부담을 덜면서도 아이가 지루해하지 않을 서울 실내 공간을 정리한다.",
+      "places": [
+        "서울상상나라",
+        "국립어린이과학관",
+        "서울도서관 어린이자료실",
+        "서울식물원 온실",
+        "청계천박물관"
+      ],
+      "tags": [
+        "서울아이실내",
+        "무료체험",
+        "서울육아",
+        "비오는날",
+        "가족나들이"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-university-area-light-walk",
+      "titleHint": "서울 대학가에서 가볍게 걷기 좋은 동네 추천",
+      "topicCategory": "동네추천",
+      "angle": "카페, 산책, 가벼운 식사를 묶어 보기 좋은 서울 대학가 동네를 소개한다.",
+      "places": [
+        "혜화",
+        "신촌",
+        "이대",
+        "서울대입구",
+        "회기"
+      ],
+      "tags": [
+        "서울대학가",
+        "동네산책",
+        "서울카페",
+        "서울주말",
+        "가볍게걷기"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-morning-brunch-walk",
+      "titleHint": "서울에서 오전 반나절 보내기 좋은 코스",
+      "topicCategory": "반나절코스",
+      "angle": "늦은 오후까지 길게 잡지 않아도 만족도가 높은 서울 오전 코스를 제안한다.",
+      "places": [
+        "서촌",
+        "북촌한옥마을",
+        "서울숲",
+        "연남동",
+        "정동길"
+      ],
+      "tags": [
+        "서울반나절",
+        "오전코스",
+        "서울산책",
+        "브런치",
+        "서울추천"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-bike-beginner-course",
+      "titleHint": "서울에서 자전거 초보도 가기 쉬운 코스 추천",
+      "topicCategory": "액티비티",
+      "angle": "속도를 내지 않아도 되고 동선이 복잡하지 않은 서울 자전거 입문 코스를 소개한다.",
+      "places": [
+        "여의도한강공원",
+        "뚝섬한강공원",
+        "반포한강공원",
+        "망원한강공원",
+        "잠실한강공원"
+      ],
+      "tags": [
+        "서울자전거",
+        "한강라이딩",
+        "초보코스",
+        "서울운동",
+        "서울주말"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-small-budget-date",
+      "titleHint": "부담 적게 즐기는 서울 저비용 데이트 코스",
+      "topicCategory": "저비용코스",
+      "angle": "교통비와 식비를 크게 쓰지 않고도 분위기를 낼 수 있는 서울 데이트 코스를 제안한다.",
+      "places": [
+        "서울숲",
+        "뚝섬한강공원",
+        "정동길",
+        "북서울꿈의숲",
+        "망원한강공원"
+      ],
+      "tags": [
+        "서울데이트",
+        "가성비데이트",
+        "무료코스",
+        "서울산책",
+        "서울추천"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-urban-nature-healing",
+      "titleHint": "도심에서 자연을 느끼기 좋은 서울 힐링 장소 추천",
+      "topicCategory": "휴식공간",
+      "angle": "멀리 가지 않고도 나무와 물, 바람을 느끼며 쉬기 좋은 서울 장소를 정리한다.",
+      "places": [
+        "서울숲",
+        "북서울꿈의숲",
+        "남산공원",
+        "서울식물원",
+        "양재시민의숲"
+      ],
+      "tags": [
+        "서울힐링",
+        "서울자연",
+        "공원추천",
+        "서울휴식",
+        "도심속자연"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-subway-easy-course-for-parents",
+      "titleHint": "지하철 이동이 편한 서울 효도 코스 추천",
+      "topicCategory": "부모님코스",
+      "angle": "환승이 복잡하지 않고 걷는 거리가 길지 않은 서울 코스를 정리한다.",
+      "places": [
+        "광화문",
+        "덕수궁",
+        "정동길",
+        "서울식물원",
+        "반포한강공원"
+      ],
+      "tags": [
+        "서울효도코스",
+        "부모님과가볼만한곳",
+        "지하철코스",
+        "서울나들이",
+        "서울추천"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-free-night-view",
+      "titleHint": "무료로 야경 보기 좋은 서울 장소 추천",
+      "topicCategory": "무료코스",
+      "angle": "입장료 부담 없이 서울의 야경과 노을을 볼 수 있는 장소를 소개한다.",
+      "places": [
+        "낙산공원",
+        "응봉산",
+        "하늘공원",
+        "반포한강공원",
+        "청계천"
+      ],
+      "tags": [
+        "서울야경",
+        "무료명소",
+        "노을명소",
+        "서울밤산책",
+        "서울추천"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-weekday-afternoon-quiet",
+      "titleHint": "평일 오후에 비교적 한적한 서울 장소 추천",
+      "topicCategory": "평일코스",
+      "angle": "주말보다 덜 붐비는 시간대를 활용해 차분하게 다녀오기 좋은 서울 장소를 제안한다.",
+      "places": [
+        "서울도서관",
+        "서소문성지 역사박물관",
+        "서울식물원",
+        "서울책보고",
+        "문화비축기지"
+      ],
+      "tags": [
+        "서울평일코스",
+        "한적한곳",
+        "서울실내",
+        "서울휴식",
+        "서울정보"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-busy-day-short-reset",
+      "titleHint": "바쁜 날에도 짧게 리프레시하기 좋은 서울 장소",
+      "topicCategory": "짧은코스",
+      "angle": "하루가 바빠도 1시간 안팎으로 다녀오며 기분 전환하기 좋은 서울 장소를 소개한다.",
+      "places": [
+        "청계천",
+        "서울로7017",
+        "덕수궁 돌담길",
+        "광화문광장",
+        "서울숲"
+      ],
+      "tags": [
+        "짧은산책",
+        "서울리프레시",
+        "1시간코스",
+        "퇴근후",
+        "서울추천"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-photo-walk-local",
+      "titleHint": "사진 찍으며 걷기 좋은 서울 동네 추천",
+      "topicCategory": "포토산책",
+      "angle": "과하게 관광지스럽지 않으면서도 골목과 풍경이 살아 있는 서울 동네를 소개한다.",
+      "places": [
+        "익선동",
+        "서촌",
+        "연희동",
+        "성수동",
+        "해방촌"
+      ],
+      "tags": [
+        "서울사진스팟",
+        "동네산책",
+        "서울골목",
+        "포토워크",
+        "서울추천"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-rainy-evening-date-indoor",
+      "titleHint": "비 오는 저녁에도 괜찮은 서울 실내 데이트 코스",
+      "topicCategory": "실내나들이",
+      "angle": "날씨 영향을 덜 받고 이동 동선이 자연스러운 서울 실내 데이트 코스를 제안한다.",
+      "places": [
+        "코엑스 별마당도서관",
+        "국립중앙박물관",
+        "서울시립미술관",
+        "DDP",
+        "서울식물원 온실"
+      ],
+      "tags": [
+        "서울실내데이트",
+        "비오는날",
+        "서울저녁",
+        "실내코스",
+        "서울추천"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-local-walk-by-district",
+      "titleHint": "구별로 분위기가 다른 서울 산책 동네 추천",
+      "topicCategory": "구별추천",
+      "angle": "같은 서울이어도 구마다 분위기가 다르다는 점을 기준으로 산책하기 좋은 동네를 묶어 소개한다.",
+      "places": [
+        "성수동",
+        "망원동",
+        "서촌",
+        "공릉동",
+        "문래동"
+      ],
+      "tags": [
+        "서울구별추천",
+        "동네산책",
+        "서울로컬",
+        "서울동네",
+        "서울추천"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-indoor-summer-escape",
+      "titleHint": "더운 날 피하기 좋은 서울 실내 장소 추천",
+      "topicCategory": "실내나들이",
+      "angle": "폭염이나 습한 날씨에 오래 걷지 않고도 시간을 보내기 좋은 서울 실내 장소를 소개한다.",
+      "places": [
+        "서울도서관",
+        "코엑스 별마당도서관",
+        "국립중앙박물관",
+        "서울시립미술관",
+        "서울식물원 온실"
+      ],
+      "tags": [
+        "서울실내",
+        "폭염피하기",
+        "여름서울",
+        "비용적은나들이",
+        "서울추천"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-local-cultural-day",
+      "titleHint": "서울에서 문화생활 하루 보내기 좋은 조합 추천",
+      "topicCategory": "문화생활",
+      "angle": "전시, 산책, 식사를 무리 없이 묶을 수 있는 서울 문화생활 하루 코스를 소개한다.",
+      "places": [
+        "삼청동",
+        "국립현대미술관 서울",
+        "서촌",
+        "정동길",
+        "서울시립미술관"
+      ],
+      "tags": [
+        "서울문화생활",
+        "서울전시",
+        "서울하루코스",
+        "서울산책",
+        "서울추천"
+      ],
+      "origin": "seed",
+      "status": "pending",
+      "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    }
+  ]
+}

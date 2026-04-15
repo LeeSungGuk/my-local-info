@@ -1,10 +1,22 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  useEffect(() => {
+    const previousOverflow = document.body.style.overflow;
+
+    if (isMenuOpen) {
+      document.body.style.overflow = "hidden";
+    }
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+    };
+  }, [isMenuOpen]);
 
   return (
     <header className="sticky top-0 z-50 border-b border-sky-100/80 bg-[linear-gradient(180deg,rgba(248,252,255,0.94),rgba(239,246,255,0.88))] backdrop-blur-xl shadow-[0_12px_32px_rgba(56,189,248,0.08)]">
@@ -36,9 +48,13 @@ export default function Header() {
 
           {/* 모바일 메뉴 버튼 */}
           <button
-            className="md:hidden rounded-xl p-2 text-slate-700 transition-colors hover:bg-sky-50"
+            className={`md:hidden rounded-xl p-2 transition-colors ${
+              isMenuOpen
+                ? "bg-sky-100 text-sky-700"
+                : "text-slate-700 hover:bg-sky-50"
+            }`}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            aria-label="메뉴 열기"
+            aria-label={isMenuOpen ? "메뉴 닫기" : "메뉴 열기"}
           >
             <svg
               className="h-6 w-6"
@@ -67,40 +83,41 @@ export default function Header() {
 
         {/* 모바일 메뉴 */}
         {isMenuOpen && (
-          <nav className="animate-fade-in border-t border-sky-100/80 py-4 md:hidden">
-            <div className="flex flex-col gap-1">
-              <MobileNavLink
-                href="/"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                🏠 홈
-              </MobileNavLink>
-              <MobileNavLink
-                href="/events"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                🎉 행사/축제
-              </MobileNavLink>
-              <MobileNavLink
-                href="/benefits"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                💰 지원금/혜택
-              </MobileNavLink>
-              <MobileNavLink
-                href="/blog"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                📝 블로그
-              </MobileNavLink>
-              <MobileNavLink
-                href="/about"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                ℹ️ 소개
-              </MobileNavLink>
-            </div>
-          </nav>
+          <>
+            <button
+              type="button"
+              aria-label="메뉴 배경 닫기"
+              onClick={() => setIsMenuOpen(false)}
+              className="fixed inset-0 top-16 z-40 bg-slate-950/20 backdrop-blur-[2px] md:hidden"
+            />
+            <nav className="animate-fade-in fixed inset-x-4 top-[4.5rem] z-50 max-h-[calc(100vh-5.5rem)] overflow-y-auto rounded-[1.75rem] border border-sky-100/80 bg-white/95 p-3 shadow-[0_24px_80px_rgba(15,23,42,0.18)] backdrop-blur-xl md:hidden">
+              <div className="px-3 pb-3 pt-2">
+                <p className="text-xs font-semibold tracking-[0.18em] text-sky-600/70">
+                  QUICK MENU
+                </p>
+                <p className="mt-1 text-sm text-slate-500">
+                  자주 찾는 화면으로 바로 이동할 수 있습니다.
+                </p>
+              </div>
+              <div className="flex flex-col gap-2">
+                <MobileNavLink href="/" onClick={() => setIsMenuOpen(false)}>
+                  🏠 홈
+                </MobileNavLink>
+                <MobileNavLink href="/events" onClick={() => setIsMenuOpen(false)}>
+                  🎉 행사/축제
+                </MobileNavLink>
+                <MobileNavLink href="/benefits" onClick={() => setIsMenuOpen(false)}>
+                  💰 지원금/혜택
+                </MobileNavLink>
+                <MobileNavLink href="/blog" onClick={() => setIsMenuOpen(false)}>
+                  📝 블로그
+                </MobileNavLink>
+                <MobileNavLink href="/about" onClick={() => setIsMenuOpen(false)}>
+                  ℹ️ 소개
+                </MobileNavLink>
+              </div>
+            </nav>
+          </>
         )}
       </div>
     </header>
@@ -157,7 +174,7 @@ function MobileNavLink({
     <Link
       href={href}
       onClick={onClick}
-      className="rounded-xl px-4 py-3 text-base font-medium text-slate-700 transition-all hover:bg-sky-50 hover:text-sky-700"
+      className="rounded-2xl border border-transparent bg-slate-50/80 px-4 py-3.5 text-base font-semibold text-slate-700 transition-all hover:border-sky-100 hover:bg-sky-50 hover:text-sky-700"
     >
       {children}
     </Link>

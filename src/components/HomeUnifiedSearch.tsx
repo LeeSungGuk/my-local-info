@@ -74,7 +74,7 @@ export default function HomeUnifiedSearch() {
   }
 
   return (
-    <div className="relative z-30 mx-auto max-w-3xl pb-6">
+    <div className="relative z-30 mx-auto max-w-3xl pb-4 sm:pb-6">
       <div className="rounded-[1.75rem] border border-white/15 bg-white/10 p-3 shadow-[0_18px_60px_rgba(15,23,42,0.18)] backdrop-blur-xl">
         <form
           onSubmit={(event) => {
@@ -132,7 +132,7 @@ export default function HomeUnifiedSearch() {
 
             <button
               type="submit"
-              className="inline-flex shrink-0 items-center justify-center whitespace-nowrap rounded-full bg-sky-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-sky-700"
+              className="inline-flex w-full shrink-0 items-center justify-center whitespace-nowrap rounded-full bg-sky-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-sky-700 sm:w-auto"
             >
               통합 검색
             </button>
@@ -140,10 +140,21 @@ export default function HomeUnifiedSearch() {
         </form>
       </div>
 
-      <div className="pointer-events-none absolute inset-x-0 bottom-0 flex flex-wrap items-center justify-center gap-2 px-4 text-xs text-sky-100">
-        <span className="rounded-full bg-white/10 px-3 py-1">행사 {index.counts.event}건</span>
-        <span className="rounded-full bg-white/10 px-3 py-1">혜택 {index.counts.benefit}건</span>
-        <span className="rounded-full bg-white/10 px-3 py-1">블로그 {index.counts.blog}건</span>
+      <div className="mt-4 flex flex-col items-center gap-3 px-2 sm:flex-row sm:justify-between">
+        <p className="text-center text-sm font-medium text-sky-50 sm:text-left">
+          행사, 혜택, 블로그를 한 번에 검색할 수 있습니다.
+        </p>
+        <div className="flex flex-wrap items-center justify-center gap-2 text-xs text-sky-100">
+          <span className="rounded-full border border-white/12 bg-slate-950/20 px-3 py-1">
+            행사 {index.counts.event}건
+          </span>
+          <span className="rounded-full border border-white/12 bg-slate-950/20 px-3 py-1">
+            혜택 {index.counts.benefit}건
+          </span>
+          <span className="rounded-full border border-white/12 bg-slate-950/20 px-3 py-1">
+            블로그 {index.counts.blog}건
+          </span>
+        </div>
       </div>
 
       {isOpen && suggestions.length > 0 ? (

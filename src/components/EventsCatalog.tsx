@@ -46,6 +46,7 @@ export default function EventsCatalog({
 }) {
   const [selectedDistrict, setSelectedDistrict] = useState(ALL_DISTRICTS);
   const [visibleCount, setVisibleCount] = useState(24);
+  const [isMobileFiltersOpen, setIsMobileFiltersOpen] = useState(false);
   const searchParams = useSearchParams();
   const today = useTodayInSeoul();
 
@@ -89,6 +90,70 @@ export default function EventsCatalog({
       : baseEvents.filter((event) => event.district === selectedDistrict);
   const visibleEventsToRender = filteredEvents.slice(0, visibleCount);
   const hasMoreEvents = filteredEvents.length > visibleCount;
+  const mobileFilterSummary = [
+    EVENT_VIEW_LABELS[selectedView] ?? "전체 행사",
+    selectedDistrict === ALL_DISTRICTS ? "서울 전체" : selectedDistrict,
+    `${filteredEvents.length}건`,
+  ].join(" · ");
+
+  function selectDistrict(nextDistrict: string) {
+    setSelectedDistrict(nextDistrict);
+    setVisibleCount(24);
+  }
+
+  function renderFilterPanel() {
+    return (
+      <>
+        <div className="flex flex-col gap-3">
+          <div>
+            <h2 className="text-xl font-bold text-gray-900">지역으로 빠르게 보기</h2>
+            <p className="mt-2 text-sm leading-relaxed text-gray-600">
+              원하는 구를 선택하면 해당 지역에서 {today} 기준 지금 볼 만한 행사만 바로 볼 수 있습니다.
+            </p>
+          </div>
+          <div className="text-sm text-gray-500">
+            {selectedDistrict === ALL_DISTRICTS
+              ? `전체 ${baseEvents.length}건`
+              : `${selectedDistrict} ${filteredEvents.length}건`}
+          </div>
+        </div>
+
+        {EVENT_VIEW_LABELS[selectedView] ? (
+          <div className="mt-6 rounded-xl border border-sky-200 bg-sky-50 px-4 py-4 text-sm leading-relaxed text-sky-800">
+            현재 보기: <strong>{EVENT_VIEW_LABELS[selectedView]}</strong>
+            <Link href="/events" className="ml-2 font-semibold underline underline-offset-4">
+              전체로 돌아가기
+            </Link>
+          </div>
+        ) : null}
+
+        <div className="mt-6">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">지역</p>
+          <div className="mt-3 flex flex-wrap gap-2">
+            <DistrictChip
+              district={ALL_DISTRICTS}
+              count={baseEvents.length}
+              isActive={selectedDistrict === ALL_DISTRICTS}
+              onClick={selectDistrict}
+            />
+            {districts.map((district) => (
+              <DistrictChip
+                key={district}
+                district={district}
+                count={districtCounts[district]}
+                isActive={selectedDistrict === district}
+                onClick={selectDistrict}
+              />
+            ))}
+          </div>
+        </div>
+
+        <div className="mt-8 rounded-xl border border-slate-200 bg-slate-50 p-4 text-sm leading-relaxed text-slate-600">
+          종료된 일정은 자동으로 숨기고, 시작일 기준으로 정렬해 보여줍니다.
+        </div>
+      </>
+    );
+  }
 
   if (baseEvents.length === 0) {
     return (
@@ -111,60 +176,29 @@ export default function EventsCatalog({
 
   return (
     <div className="grid gap-8 lg:grid-cols-[280px_minmax(0,1fr)]">
-      <aside className="h-fit rounded-2xl border border-slate-200 bg-white p-5 shadow-[0_8px_24px_rgba(15,23,42,0.04)] sm:p-6">
-        <div className="flex flex-col gap-3">
+      <div className="lg:hidden">
+        <button
+          type="button"
+          onClick={() => setIsMobileFiltersOpen((prev) => !prev)}
+          className="flex w-full items-center justify-between rounded-2xl border border-slate-200 bg-white px-4 py-4 text-left shadow-[0_8px_24px_rgba(15,23,42,0.04)]"
+        >
           <div>
-            <h2 className="text-xl font-bold text-gray-900">구별로 빠르게 보기</h2>
-            <p className="mt-2 text-sm leading-relaxed text-gray-600">
-              원하는 구를 선택하면 해당 지역에서 {today} 기준 지금 볼 만한 행사만 바로 볼 수 있습니다.
-            </p>
+            <p className="text-sm font-semibold text-slate-900">지역 필터</p>
+            <p className="mt-1 text-xs text-slate-500">{mobileFilterSummary}</p>
           </div>
-          <div className="text-sm text-gray-500">
-            {selectedDistrict === ALL_DISTRICTS
-              ? `전체 ${baseEvents.length}건`
-              : `${selectedDistrict} ${filteredEvents.length}건`}
-          </div>
-        </div>
-
-        {EVENT_VIEW_LABELS[selectedView] ? (
-          <div className="mt-6 rounded-xl border border-sky-200 bg-sky-50 px-4 py-4 text-sm leading-relaxed text-sky-800">
-            현재 보기: <strong>{EVENT_VIEW_LABELS[selectedView]}</strong>
-            <Link href="/events" className="ml-2 font-semibold underline underline-offset-4">
-              전체로 돌아가기
-            </Link>
-          </div>
+          <span className="text-sm font-semibold text-sky-700">
+            {isMobileFiltersOpen ? "닫기" : "열기"}
+          </span>
+        </button>
+        {isMobileFiltersOpen ? (
+          <aside className="mt-4 rounded-2xl border border-slate-200 bg-white p-5 shadow-[0_8px_24px_rgba(15,23,42,0.04)] sm:p-6">
+            {renderFilterPanel()}
+          </aside>
         ) : null}
+      </div>
 
-        <div className="mt-6">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">District</p>
-          <div className="mt-3 flex flex-wrap gap-2">
-              <DistrictChip
-                district={ALL_DISTRICTS}
-                count={baseEvents.length}
-                isActive={selectedDistrict === ALL_DISTRICTS}
-                onClick={(district) => {
-                  setSelectedDistrict(district);
-                  setVisibleCount(24);
-                }}
-              />
-            {districts.map((district) => (
-              <DistrictChip
-                key={district}
-                district={district}
-                count={districtCounts[district]}
-                isActive={selectedDistrict === district}
-                onClick={(nextDistrict) => {
-                  setSelectedDistrict(nextDistrict);
-                  setVisibleCount(24);
-                }}
-              />
-            ))}
-          </div>
-        </div>
-
-        <div className="mt-8 rounded-xl border border-slate-200 bg-slate-50 p-4 text-sm leading-relaxed text-slate-600">
-          종료된 일정은 자동으로 숨기고, 시작일 기준으로 정렬해 보여줍니다.
-        </div>
+      <aside className="hidden h-fit rounded-2xl border border-slate-200 bg-white p-5 shadow-[0_8px_24px_rgba(15,23,42,0.04)] sm:p-6 lg:block">
+        {renderFilterPanel()}
       </aside>
 
       <div>

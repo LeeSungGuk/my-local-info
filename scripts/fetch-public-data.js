@@ -4,6 +4,7 @@ const path = require("path");
 
 const PUBLIC_DATA_API_KEY = process.env.PUBLIC_DATA_API_KEY;
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+const GEMINI_MODEL = "gemini-3-flash-preview";
 
 const LOCAL_INFO_PATH = path.join(__dirname, "..", "public", "data", "local-info.json");
 const SEOUL_KEYWORDS = ["서울", "서울특별시"];
@@ -80,7 +81,7 @@ startDate가 없으면 오늘 날짜, endDate가 없으면 '상시'로 넣어.
 데이터:
 ${JSON.stringify(rawItem, null, 2)}`;
 
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`;
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${GEMINI_API_KEY}`;
 
   console.log("🤖 Gemini AI로 데이터 가공 중...");
   const res = await fetch(url, {
