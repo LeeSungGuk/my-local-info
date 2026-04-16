@@ -10,9 +10,9 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-04-14T02:04:05.772Z",
+    "collectedAt": "2026-04-16T22:48:25.484Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10919,
+    "availableCount": 10922,
     "fetchedCount": 1113,
     "activeCount": 1079,
     "expiredCount": 34,
@@ -21,6 +21,91 @@
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-315000000290",
+      "sourceId": "315000000290",
+      "title": "한의약 치매 건강증진서비스",
+      "field": "보건·의료",
+      "provider": "서울특별시 강서구",
+      "providerType": "자치구",
+      "district": "강서구",
+      "userType": "개인",
+      "deadlineText": "매년 5 ~ 6월(변경 가능)",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "만 60세 이상 주민등록상 강서구민",
+      "summary": "서울특별시 강서구에서 제공하는 보건·의료 혜택입니다. 치매 위험군인 60세 이상 경도인지장애 구민을 대상으로 체계적이고 효과적인 한의약 건강증진 프로그램을 제공하여 구민 건강증진과 삶의 질 향상에 기여",
+      "supportType": "서비스(의료)",
+      "supportSummary": "선정검사를 통한 치매 위험군 선별\n사전 사후 인지기능평가 실시\n지정한의원을 통한 총명 침 및 한약 처방(한약은 혈액검사 결과에 따라 처방 가능 여부 확인)",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000290",
+      "onlineUrl": "",
+      "inquiry": [
+        "의약과/0226005953"
+      ],
+      "updatedAt": "2026-04-15",
+      "registeredAt": "2025-12-09"
+    },
+    {
+      "id": "gov-benefit-303000000330",
+      "sourceId": "303000000330",
+      "title": "성동구 국가보훈대상자 사망위로금 지급",
+      "field": "생활안정",
+      "provider": "서울특별시 성동구",
+      "providerType": "자치구",
+      "district": "성동구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 사망일 현재 성동구에 주민등록을 두고 실제 거주한 국가보훈대상자(사망일로부터 1년 이내 신청)",
+      "summary": "서울특별시 성동구에서 제공하는 생활안정 혜택입니다. 국가유공자 사망시 유족에게 사망위로금 지급하여 보훈대상자에 대한 예우를 하고자 함",
+      "supportType": "현금",
+      "supportSummary": "○  국가유공자 사망시 유족에게 사망위로금 지급\n- 개인별 200,000원 지급",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000330",
+      "onlineUrl": "",
+      "inquiry": [
+        "복지정책과/02-2286-5019"
+      ],
+      "updatedAt": "2026-04-15",
+      "registeredAt": "2025-10-29"
+    },
+    {
+      "id": "gov-benefit-303000000331",
+      "sourceId": "303000000331",
+      "title": "성동구 국가보훈대상자 위문금 지원",
+      "field": "생활안정",
+      "provider": "서울특별시 성동구",
+      "providerType": "자치구",
+      "district": "성동구",
+      "userType": "개인",
+      "deadlineText": "개인 신청절차 없음",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 지급기준일 현재 성동구에 주민등록을 두고 거주하는 국가보훈대상자\n\n ※ 다음 각 호의 어느 하나에 해당하는 국가보훈대상자 및 선순위유족\n 1. 「국가유공자 등 예우 및 지원에 관한 법률」및「국가유공자 등 단체설립에 관한 법률」\n 2. 「참전유공자 예우 및 단체설립…",
+      "summary": "서울특별시 성동구에서 제공하는 생활안정 혜택입니다. 국가보훈대상자에게 명절(설, 추석) 및 호국보훈의 달에 위문금 지원",
+      "supportType": "현금",
+      "supportSummary": "○ 지급대상 : 관내 거주 국가보훈대상자\n○ 지급시기 : 명절(설, 추석), 호국보훈의 달(6월)\n○ 지급금액 \n  - 명절(설, 추석): 3만원\n  - 호국보훈의 달(6월): 5만원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "신청불필요"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000331",
+      "onlineUrl": "",
+      "inquiry": [
+        "복지정책과/02-2286-5019"
+      ],
+      "updatedAt": "2026-04-15",
+      "registeredAt": "2025-10-29"
+    },
     {
       "id": "gov-benefit-315000000289",
       "sourceId": "315000000289",
@@ -7991,62 +8076,6 @@
       "registeredAt": "2025-12-08"
     },
     {
-      "id": "gov-benefit-303000000330",
-      "sourceId": "303000000330",
-      "title": "성동구 국가보훈대상자 사망위로금 지급",
-      "field": "생활안정",
-      "provider": "서울특별시 성동구",
-      "providerType": "자치구",
-      "district": "성동구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 사망일 현재 성동구에 주민등록을 두고 실제 거주한 국가보훈대상자(사망일로부터 1년 이내 신청)",
-      "summary": "서울특별시 성동구에서 제공하는 생활안정 혜택입니다. 국가유공자 사망시 유족에게 사망위로금 지급하여 보훈대상자에 대한 예우를 하고자 함",
-      "supportType": "현금",
-      "supportSummary": "○  국가유공자 사망시 유족에게 사망위로금 지급\n- 개인별 200,000원 지급",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000330",
-      "onlineUrl": "",
-      "inquiry": [
-        "복지정책과/02-2286-5019"
-      ],
-      "updatedAt": "2026-02-09",
-      "registeredAt": "2025-10-29"
-    },
-    {
-      "id": "gov-benefit-303000000331",
-      "sourceId": "303000000331",
-      "title": "성동구 국가보훈대상자 위문금 지원",
-      "field": "생활안정",
-      "provider": "서울특별시 성동구",
-      "providerType": "자치구",
-      "district": "성동구",
-      "userType": "개인",
-      "deadlineText": "개인 신청절차 없음",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 지급기준일 현재 성동구에 주민등록을 두고 거주하는 국가보훈대상자\n\n ※ 다음 각 호의 어느 하나에 해당하는 국가보훈대상자 및 선순위유족\n 1. 「국가유공자 등 예우 및 지원에 관한 법률」및「국가유공자 등 단체설립에 관한 법률」\n 2. 「참전유공자 예우 및 단체설립…",
-      "summary": "서울특별시 성동구에서 제공하는 생활안정 혜택입니다. 국가보훈대상자에게 명절(설, 추석) 및 호국보훈의 달에 위문금 지원",
-      "supportType": "현금",
-      "supportSummary": "○ 지급대상 : 관내 거주 국가보훈대상자\n○ 지급시기 : 명절(설, 추석), 호국보훈의 달(6월)\n○ 지급금액 \n  - 명절(설, 추석): 3만원\n  - 호국보훈의 달(6월): 5만원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "신청불필요"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000331",
-      "onlineUrl": "",
-      "inquiry": [
-        "복지정책과/02-2286-5019"
-      ],
-      "updatedAt": "2026-02-09",
-      "registeredAt": "2025-10-29"
-    },
-    {
       "id": "gov-benefit-303000000326",
       "sourceId": "303000000326",
       "title": "소상공인 손실보상금 지원(현장신청 지원)",
@@ -15214,35 +15243,6 @@
       ],
       "updatedAt": "2026-02-02",
       "registeredAt": "2025-12-11"
-    },
-    {
-      "id": "gov-benefit-315000000290",
-      "sourceId": "315000000290",
-      "title": "한의약 치매 건강증진서비스",
-      "field": "보건·의료",
-      "provider": "서울특별시 강서구",
-      "providerType": "자치구",
-      "district": "강서구",
-      "userType": "개인",
-      "deadlineText": "매년 5 ~ 6월(변경 가능)",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "만 60세 이상 주민등록상 강서구민",
-      "summary": "서울특별시 강서구에서 제공하는 보건·의료 혜택입니다. 치매 위험군인 60세 이상 경도인지장애 구민을 대상으로 체계적이고 효과적인 한의약 건강증진 프로그램을 제공하여 구민 건강증진과 삶의 질 향상에 기여",
-      "supportType": "서비스(의료)",
-      "supportSummary": "선정검사를 통한 치매 위험군 선별\n사전 사후 인지기능평가 실시\n지정한의원을 통한 총명 침 및 한약 처방(한약은 혈액검사 결과에 따라 처방 가능 여부 확인)",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000290",
-      "onlineUrl": "",
-      "inquiry": [
-        "의약과/0226005953"
-      ],
-      "updatedAt": "2026-02-02",
-      "registeredAt": "2025-12-09"
     },
     {
       "id": "gov-benefit-315000000296",

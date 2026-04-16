@@ -1,20 +1,20 @@
 {
   "id": "seoul-event-156596",
   "sourceId": "156596",
-  "title": "[타이타닉] & [아바타] 라이브 백-투-백 필름 콘서트",
+  "title": "[타이타닉] 라이브 백-투-백 필름 콘서트",
   "category": "콘서트",
   "district": "종로구",
   "venue": "세종문화회관 세종대극장",
   "startDate": "2026-04-25",
-  "endDate": "2026-04-26",
-  "dateText": "2026-04-25~2026-04-26",
-  "timeText": "4.25(토) 18:00 / 4.26(일) 17:00",
-  "target": "타이타닉 :15세이상 관람 가능 아바타 : 12세이상 관람 가능",
+  "endDate": "2026-04-25",
+  "dateText": "2026-04-25~2026-04-25",
+  "timeText": "4.25(토) 18:00",
+  "target": "15세이상 관람 가능(2011년 이전 출생자)",
   "fee": "VIP석 18만7,천원 R석 15만4천원 S석 13만2,천원 A석 11만원 B석 9만9천원 C석 6만6천원",
   "isFree": false,
   "organizer": "세종문화회관",
   "inquiry": "02-6951-0866",
-  "imageUrl": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=756ac0f3e4f4493792eda77aaf72dd16&thumb=Y",
+  "imageUrl": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b1dbe89c477d4558b01aa580b468acb6&thumb=Y",
   "detailUrl": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156596&menuNo=200008",
   "summary": "종로구 · 세종문화회관 세종대극장에서 열리는 콘서트 행사입니다. VIP석 18만7,천원 R석 15만4천원 S석 13만2,천원 A석 11만원 B석 9만9천원 C석 6만6천원",
   "organizerUrl": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?performIdx=36766&menuNo=200320#none",
@@ -25,5 +25,5 @@
   "latitude": 37.5726241,
   "longitude": 126.9760053,
   "registeredAt": "2026-01-22",
-  "collectedAt": "2026-04-14T22:49:06.414Z"
+  "collectedAt": "2026-04-16T22:48:17.302Z"
 }
