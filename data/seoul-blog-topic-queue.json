@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": null,
+  "lastGeneratedAt": "2026-04-16T09:58:27+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -48,9 +48,9 @@
         "전시"
       ],
       "origin": "seed",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-04-15T00:00:00+09:00",
-      "usedAt": null
+      "usedAt": "2026-04-16T09:57:54+09:00"
     },
     {
       "id": "seoul-family-weekend-course",
@@ -72,9 +72,9 @@
         "체험"
       ],
       "origin": "seed",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-04-15T00:00:00+09:00",
-      "usedAt": null
+      "usedAt": "2026-04-16T09:58:27+09:00"
     },
     {
       "id": "seoul-free-spot-guide",

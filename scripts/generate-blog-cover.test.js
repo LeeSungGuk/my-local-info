@@ -66,3 +66,31 @@ test("ensureTopicCoverAsset creates a default SVG cover when cover metadata is m
     fs.rmSync(publicDir, { recursive: true, force: true });
   }
 });
+
+test("ensureTopicCoverAsset picks a natural Korean object particle for generated coverAlt", () => {
+  const { ensureTopicCoverAsset } = loadCoverModule();
+
+  assert.equal(typeof ensureTopicCoverAsset, "function");
+
+  const publicDir = fs.mkdtempSync(path.join(os.tmpdir(), "blog-cover-public-"));
+
+  try {
+    const result = ensureTopicCoverAsset(
+      {
+        id: "seoul-family-weekend-course",
+        titleHint: "아이와 함께 가기 좋은 서울 주말 코스",
+        topicCategory: "가족코스",
+        places: ["서울상상나라", "어린이대공원", "서울식물원"],
+        tags: ["서울가족나들이", "체험"],
+      },
+      { publicDir }
+    );
+
+    assert.equal(
+      result.coverAlt,
+      "아이와 함께 가기 좋은 서울 주말 코스를 보여주는 서울 정보글 커버 이미지"
+    );
+  } finally {
+    fs.rmSync(publicDir, { recursive: true, force: true });
+  }
+});

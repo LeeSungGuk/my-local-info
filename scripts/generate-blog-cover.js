@@ -170,6 +170,25 @@ function normalizeCoverImagePath(topic) {
   return `/blog-covers/${sanitizeFileSegment(topic.id || topic.titleHint)}.svg`;
 }
 
+function pickObjectParticle(value) {
+  const normalized = String(value || "").trim();
+
+  if (!normalized) {
+    return "를";
+  }
+
+  const lastChar = normalized.charAt(normalized.length - 1);
+  const codePoint = lastChar.charCodeAt(0);
+  const hangulStart = 0xac00;
+  const hangulEnd = 0xd7a3;
+
+  if (codePoint < hangulStart || codePoint > hangulEnd) {
+    return "를";
+  }
+
+  return (codePoint - hangulStart) % 28 === 0 ? "를" : "을";
+}
+
 function resolveCoverAlt(topic) {
   const configuredAlt = typeof topic.coverAlt === "string" ? topic.coverAlt.trim() : "";
 
@@ -177,7 +196,9 @@ function resolveCoverAlt(topic) {
     return configuredAlt;
   }
 
-  return `${topic.titleHint || "서울 정보글"}을 보여주는 서울 정보글 커버 이미지`;
+  const title = topic.titleHint || "서울 정보글";
+
+  return `${title}${pickObjectParticle(title)} 보여주는 서울 정보글 커버 이미지`;
 }
 
 function getPublicFilePath(publicDir, coverImagePath) {

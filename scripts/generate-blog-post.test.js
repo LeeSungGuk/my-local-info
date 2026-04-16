@@ -4,6 +4,7 @@ const fs = require("node:fs");
 const os = require("node:os");
 const path = require("node:path");
 const test = require("node:test");
+const matter = require("gray-matter");
 
 const {
   filterGeneratedTopics,
@@ -13,6 +14,10 @@ const {
   shouldReplenishTopics,
 } = require("./blog-topic-queue");
 const { parseTopicCandidatesText } = require("./blog-topic-generator");
+const {
+  createGeneratedPostMarkdown,
+  parseGeneratedBlogPostResponse,
+} = require("./generate-blog-post");
 
 function createTempQueuePath() {
   const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), "blog-topic-queue-"));
@@ -198,4 +203,53 @@ test("parseTopicCandidatesText extracts a JSON array from fenced model output", 
   assert.equal(topics.length, 1);
   assert.equal(topics[0].id, "fresh-topic");
   assert.deepEqual(topics[0].places, ["낙산공원", "응봉산", "청계천"]);
+});
+
+test("parseGeneratedBlogPostResponse extracts blog fields from fenced JSON output", () => {
+  const response = `\`\`\`json
+{
+  "title": "아이와 함께하는 서울 주말 나들이: 실내외 알찬 추천 코스 📍",
+  "summary": "아이와 함께 반나절 동안 무리 없이 즐길 수 있는 서울 주말 코스를 추천합니다.",
+  "body": "서울에서 아이와 하루를 보내려면 이동 부담과 체험 밀도를 함께 봐야 합니다.\\n\\n### 추천 코스\\n서울상상나라와 어린이대공원을 묶으면 실내외 균형이 좋습니다.",
+  "filename": "2026-04-16-seoul-family-weekend-course"
+}
+\`\`\``;
+
+  assert.deepEqual(parseGeneratedBlogPostResponse(response), {
+    title: "아이와 함께하는 서울 주말 나들이: 실내외 알찬 추천 코스 📍",
+    summary: "아이와 함께 반나절 동안 무리 없이 즐길 수 있는 서울 주말 코스를 추천합니다.",
+    body: "서울에서 아이와 하루를 보내려면 이동 부담과 체험 밀도를 함께 봐야 합니다.\n\n### 추천 코스\n서울상상나라와 어린이대공원을 묶으면 실내외 균형이 좋습니다.",
+    filename: "2026-04-16-seoul-family-weekend-course",
+  });
+});
+
+test("createGeneratedPostMarkdown assembles frontmatter in code from JSON payload", () => {
+  const markdown = createGeneratedPostMarkdown(
+    {
+      title: "아이와 함께하는 서울 주말 나들이: 실내외 알찬 추천 코스 📍",
+      summary: "아이와 함께 반나절 동안 무리 없이 즐길 수 있는 서울 주말 코스를 추천합니다.",
+      body: "서울에서 아이와 하루를 보내려면 이동 부담과 체험 밀도를 함께 봐야 합니다.\n\n### 추천 코스\n서울상상나라와 어린이대공원을 묶으면 실내외 균형이 좋습니다.",
+      filename: "2026-04-16-seoul-family-weekend-course",
+    },
+    "2026-04-16",
+    {
+      id: "seoul-family-weekend-course",
+      titleHint: "아이와 함께 가기 좋은 서울 주말 코스",
+      tags: ["서울가족나들이", "아이와가볼만한곳", "주말코스"],
+    },
+    {
+      coverImage: "/blog-covers/seoul-family-weekend-course.svg",
+      coverAlt: "아이와 함께 가기 좋은 서울 주말 코스를 보여주는 커버 이미지",
+    }
+  );
+
+  const parsed = matter(markdown);
+
+  assert.match(markdown, /^---\n/);
+  assert.equal(parsed.data.title, "아이와 함께하는 서울 주말 나들이: 실내외 알찬 추천 코스 📍");
+  assert.equal(String(parsed.data.date), "2026-04-16");
+  assert.equal(parsed.data.sourceId, "seoul-family-weekend-course");
+  assert.equal(parsed.data.coverImage, "/blog-covers/seoul-family-weekend-course.svg");
+  assert.equal(markdown.includes('"title"'), false);
+  assert.match(parsed.content, /서울에서 아이와 하루를 보내려면 이동 부담과 체험 밀도를 함께 봐야 합니다\./);
 });

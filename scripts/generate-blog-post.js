@@ -90,6 +90,77 @@ function getNowInSeoulIso() {
   return `${parts.year}-${parts.month}-${parts.day}T${parts.hour}:${parts.minute}:${parts.second}+09:00`;
 }
 
+function stripMarkdownCodeFence(value) {
+  return String(value || "")
+    .trim()
+    .replace(/^```json\s*/i, "")
+    .replace(/^```\s*/i, "")
+    .replace(/```\s*$/i, "")
+    .trim();
+}
+
+function sanitizeGeneratedFilename(value, fallback = "") {
+  const normalized = String(value || "")
+    .trim()
+    .replace(/\.md$/i, "");
+  const sanitized = normalized
+    .toLowerCase()
+    .replace(/[^a-z0-9-]/g, "-")
+    .replace(/-{2,}/g, "-")
+    .replace(/^-+|-+$/g, "");
+
+  return sanitized || fallback;
+}
+
+function extractJsonObjectText(value) {
+  const normalized = stripMarkdownCodeFence(value);
+  const objectStartIndex = normalized.indexOf("{");
+  const objectEndIndex = normalized.lastIndexOf("}");
+
+  if (objectStartIndex === -1 || objectEndIndex === -1 || objectEndIndex < objectStartIndex) {
+    throw new Error("블로그 생성 응답에서 JSON 객체를 찾지 못했습니다.");
+  }
+
+  return normalized.slice(objectStartIndex, objectEndIndex + 1);
+}
+
+function parseGeneratedBlogPostResponse(value, options = {}) {
+  const fallbackFilename = sanitizeGeneratedFilename(options.fallbackFilename || "");
+  const parsed = JSON.parse(extractJsonObjectText(value));
+
+  if (!parsed || Array.isArray(parsed) || typeof parsed !== "object") {
+    throw new Error("블로그 생성 응답이 JSON 객체가 아닙니다.");
+  }
+
+  const title = typeof parsed.title === "string" ? parsed.title.trim() : "";
+  const summary = typeof parsed.summary === "string" ? parsed.summary.trim() : "";
+  const body = typeof parsed.body === "string" ? parsed.body.trim() : "";
+  const filename = sanitizeGeneratedFilename(parsed.filename, fallbackFilename);
+
+  if (!title) {
+    throw new Error("블로그 생성 응답의 title이 비어있습니다.");
+  }
+
+  if (!summary) {
+    throw new Error("블로그 생성 응답의 summary가 비어있습니다.");
+  }
+
+  if (!body) {
+    throw new Error("블로그 생성 응답의 body가 비어있습니다.");
+  }
+
+  if (!filename) {
+    throw new Error("블로그 생성 응답의 filename이 비어있습니다.");
+  }
+
+  return {
+    title,
+    summary,
+    body,
+    filename,
+  };
+}
+
 function normalizeDate(value) {
   if (value instanceof Date) {
     return value.toISOString().split("T")[0];
@@ -130,6 +201,24 @@ function getExistingPosts() {
 
 function hasTodayInfoPost(posts, today) {
   return posts.some((post) => post.date === today && post.sourceType === "정보글" && post.region === "서울");
+}
+
+function createGeneratedPostMarkdown(parsedPayload, today, topic, coverAsset) {
+  const normalizedFrontmatter = {
+    title: parsedPayload.title || topic.titleHint,
+    date: today,
+    summary: parsedPayload.summary || "",
+    category: "정보",
+    tags: Array.isArray(topic.tags) && topic.tags.length > 0 ? topic.tags : [],
+    region: "서울",
+    sourceType: "정보글",
+    sourceId: topic.id,
+    sourceUrl: "",
+    ...(coverAsset.coverImage ? { coverImage: coverAsset.coverImage } : {}),
+    ...(coverAsset.coverAlt ? { coverAlt: coverAsset.coverAlt } : {}),
+  };
+
+  return matter.stringify(parsedPayload.body.trim(), normalizedFrontmatter).trim();
 }
 
 async function maybeReplenishTopicQueue(queue, posts, nowIso) {
@@ -176,10 +265,6 @@ async function maybeReplenishTopicQueue(queue, posts, nowIso) {
 }
 
 async function generateBlogPost(topic, today) {
-  const imageFrontmatter = topic.coverImage
-    ? `coverImage: ${topic.coverImage}\ncoverAlt: ${topic.coverAlt || ""}\n`
-    : "";
-
   const prompt = `아래 주제를 바탕으로 서울 전용 정보성 블로그 글을 작성해줘.
 
 주제 정보:
@@ -197,21 +282,21 @@ ${JSON.stringify(topic, null, 2)}
 - 문단마다 붙이지 말고 전체 글 기준으로 3개에서 6개 사이 정도로 제한한다.
 
 출력 형식:
----
-title: (서울 블로그에 어울리는 제목)
-date: ${today}
-summary: (한 줄 요약)
-category: 정보
-tags: [${topic.tags.join(", ")}]
-region: 서울
-sourceType: 정보글
-sourceId: ${topic.id}
-sourceUrl:
-${imageFrontmatter}---
+- Markdown 설명이나 코드펜스 없이 JSON 객체만 출력한다.
+- 반드시 아래 키만 포함한다: title, summary, body, filename
+- title: 서울 블로그에 어울리는 제목 문자열
+- summary: 한 줄 요약 문자열
+- body: 900자 이상 서울 생활 정보 블로그 본문 markdown 문자열. 소제목 포함.
+- filename: ${today}-keyword 형식 문자열. 키워드는 영문 소문자와 하이픈만 사용한다.
+- tags, category, date, sourceId 같은 frontmatter는 출력하지 않는다.
 
-(본문: 900자 이상, 서울 생활 정보 블로그 톤, 소제목 포함. 이모지는 꼭 필요한 위치에만 사용)
-
-마지막 줄에 FILENAME: ${today}-keyword 형식으로 파일명도 출력해줘. 키워드는 영문 소문자와 하이픈만 사용해줘.`;
+예시:
+{
+  "title": "서울 블로그 제목",
+  "summary": "한 줄 요약",
+  "body": "첫 문단\\n\\n### 소제목\\n본문",
+  "filename": "${today}-example-slug"
+}`;
 
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${BLOG_GENERATION_MODEL}:generateContent?key=${process.env.GEMINI_API_KEY}`;
 
@@ -221,6 +306,9 @@ ${imageFrontmatter}---
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
       contents: [{ parts: [{ text: prompt }] }],
+      generationConfig: {
+        responseMimeType: "application/json",
+      },
     }),
   });
 
@@ -239,56 +327,20 @@ ${imageFrontmatter}---
 }
 
 function savePost(geminiResponse, today, topic) {
-  const lines = geminiResponse.trim().split("\n");
-  let filename = "";
-  let content = "";
-
-  for (let i = lines.length - 1; i >= 0; i--) {
-    if (lines[i].trim().startsWith("FILENAME:")) {
-      filename = lines[i].trim().replace("FILENAME:", "").trim();
-      content = lines.slice(0, i).join("\n").trim();
-      break;
-    }
-  }
-
-  if (!filename) {
-    filename = `${today}-${topic.id}`;
-    content = geminiResponse.trim();
-  }
-
-  content = content
-    .replace(/^```markdown\s*/i, "")
-    .replace(/^```md\s*/i, "")
-    .replace(/```\s*$/g, "")
-    .trim();
-
-  filename = filename.replace(/\.md$/, "");
+  const parsedPayload = parseGeneratedBlogPostResponse(geminiResponse, {
+    fallbackFilename: `${today}-${topic.id}`,
+  });
 
   if (!fs.existsSync(POSTS_DIR)) {
     fs.mkdirSync(POSTS_DIR, { recursive: true });
   }
 
-  const parsed = matter(content);
   const coverAsset = ensureTopicCoverAsset(topic);
-  const normalizedFrontmatter = {
-    title: parsed.data.title || topic.titleHint,
-    date: today,
-    summary: parsed.data.summary || "",
-    category: "정보",
-    tags: Array.isArray(parsed.data.tags) && parsed.data.tags.length > 0 ? parsed.data.tags : topic.tags,
-    region: "서울",
-    sourceType: "정보글",
-    sourceId: topic.id,
-    sourceUrl: "",
-    ...(coverAsset.coverImage ? { coverImage: coverAsset.coverImage } : {}),
-    ...(coverAsset.coverAlt ? { coverAlt: coverAsset.coverAlt } : {}),
-  };
-
-  const normalizedContent = matter.stringify(parsed.content.trim(), normalizedFrontmatter).trim();
-  const filePath = path.join(POSTS_DIR, `${filename}.md`);
+  const normalizedContent = createGeneratedPostMarkdown(parsedPayload, today, topic, coverAsset);
+  const filePath = path.join(POSTS_DIR, `${parsedPayload.filename}.md`);
   fs.writeFileSync(filePath, `${normalizedContent}\n`, "utf8");
 
-  return { filename, filePath, coverImage: coverAsset.coverImage };
+  return { filename: parsedPayload.filename, filePath, coverImage: coverAsset.coverImage };
 }
 
 async function main() {
@@ -351,5 +403,7 @@ module.exports = {
   hasTodayInfoPost,
   main,
   maybeReplenishTopicQueue,
+  createGeneratedPostMarkdown,
+  parseGeneratedBlogPostResponse,
   savePost,
 };
