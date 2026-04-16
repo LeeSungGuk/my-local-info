@@ -15,8 +15,12 @@ const {
 } = require("./blog-topic-queue");
 const { parseTopicCandidatesText } = require("./blog-topic-generator");
 const {
+  appendOfficialSourceLinks,
   createGeneratedPostMarkdown,
+  getMissingOfficialPlaceNames,
   parseGeneratedBlogPostResponse,
+  reportMissingOfficialPlaceSources,
+  resolveOfficialPlaceLinks,
 } = require("./generate-blog-post");
 
 function createTempQueuePath() {
@@ -252,4 +256,125 @@ test("createGeneratedPostMarkdown assembles frontmatter in code from JSON payloa
   assert.equal(parsed.data.coverImage, "/blog-covers/seoul-family-weekend-course.svg");
   assert.equal(markdown.includes('"title"'), false);
   assert.match(parsed.content, /서울에서 아이와 하루를 보내려면 이동 부담과 체험 밀도를 함께 봐야 합니다\./);
+});
+
+test("resolveOfficialPlaceLinks matches known places and ignores missing places", () => {
+  const links = resolveOfficialPlaceLinks(
+    {
+      places: ["서울도서관", "없는 장소", "청계천", "서울 도서관"],
+    },
+    {
+      서울도서관: {
+        label: "서울도서관 이용안내",
+        url: "https://lib.seoul.go.kr/main/useInfo",
+      },
+      청계천: {
+        label: "청계천 공식 안내",
+        url: "https://www.sisul.or.kr/open_content/cheonggye/",
+      },
+    }
+  );
+
+  assert.deepEqual(links, [
+    {
+      place: "서울도서관",
+      label: "서울도서관 이용안내",
+      url: "https://lib.seoul.go.kr/main/useInfo",
+    },
+    {
+      place: "청계천",
+      label: "청계천 공식 안내",
+      url: "https://www.sisul.or.kr/open_content/cheonggye/",
+    },
+  ]);
+});
+
+test("getMissingOfficialPlaceNames returns unique places without source records", () => {
+  const missingPlaces = getMissingOfficialPlaceNames(
+    {
+      places: ["서울도서관", "없는 장소", "없는 장소", "서울 도서관", "다른 장소"],
+    },
+    {
+      서울도서관: {
+        label: "서울도서관 이용안내",
+        url: "https://lib.seoul.go.kr/main/useInfo",
+      },
+    }
+  );
+
+  assert.deepEqual(missingPlaces, ["없는 장소", "다른 장소"]);
+});
+
+test("reportMissingOfficialPlaceSources writes an action log only when places are missing", () => {
+  const warnings = [];
+  const logger = {
+    warn(message) {
+      warnings.push(message);
+    },
+  };
+
+  reportMissingOfficialPlaceSources(["없는 장소", "다른 장소"], logger);
+  reportMissingOfficialPlaceSources([], logger);
+
+  assert.deepEqual(warnings, ["⚠️ 공식 링크 사전에 없는 장소: 없는 장소, 다른 장소"]);
+});
+
+test("appendOfficialSourceLinks adds a source section only when links are available", () => {
+  const body = "서울에서 무료로 쉬기 좋은 장소를 정리합니다.";
+  const withLinks = appendOfficialSourceLinks(body, [
+    {
+      place: "서울도서관",
+      label: "서울도서관 이용안내",
+      url: "https://lib.seoul.go.kr/main/useInfo",
+    },
+  ]);
+
+  assert.match(withLinks, /### 공식 확인 링크/);
+  assert.match(withLinks, /\[서울도서관 이용안내\]\(https:\/\/lib\.seoul\.go\.kr\/main\/useInfo\)/);
+  assert.equal(appendOfficialSourceLinks(body, []), body);
+});
+
+test("createGeneratedPostMarkdown appends official links and source note from topic places", () => {
+  const markdown = createGeneratedPostMarkdown(
+    {
+      title: "서울 무료 명소 추천",
+      summary: "비용 부담 없이 다녀오기 좋은 서울 무료 명소를 정리했습니다.",
+      body: "서울에서 무료로 쉬기 좋은 장소를 정리합니다.",
+      filename: "2026-04-16-seoul-free-spot-guide",
+    },
+    "2026-04-16",
+    {
+      id: "seoul-free-spot-guide",
+      titleHint: "돈 많이 안 들고 즐기는 서울 무료 명소 추천",
+      places: ["서울도서관", "없는 장소", "청계천"],
+      tags: ["서울무료"],
+    },
+    {
+      coverImage: "",
+      coverAlt: "",
+    },
+    {
+      placeSources: {
+        서울도서관: {
+          label: "서울도서관 이용안내",
+          url: "https://lib.seoul.go.kr/main/useInfo",
+        },
+        청계천: {
+          label: "청계천 공식 안내",
+          url: "https://www.sisul.or.kr/open_content/cheonggye/",
+        },
+      },
+    }
+  );
+
+  const parsed = matter(markdown);
+
+  assert.equal(
+    parsed.data.sourceNote,
+    "본문 하단의 공식 확인 링크를 참고해주세요. 운영 시간과 세부 시설은 방문 전 다시 확인하는 편이 안전합니다."
+  );
+  assert.match(parsed.content, /### 공식 확인 링크/);
+  assert.match(parsed.content, /서울도서관 이용안내/);
+  assert.match(parsed.content, /청계천 공식 안내/);
+  assert.equal(parsed.content.includes("없는 장소"), false);
 });

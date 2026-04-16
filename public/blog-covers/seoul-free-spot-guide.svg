@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cover-title cover-desc">
+  <title id="cover-title">돈 많이 안 들고 즐기는 서울 무료 명소 추천</title>
+  <desc id="cover-desc">돈 많이 안 들고 즐기는 서울 무료 명소 추천 주제의 서울 정보글 커버 이미지. 추천 장소: 서울도서관, 청계천, 북서울꿈의숲</desc>
+  <defs>
+    <linearGradient id="bg-gradient" x1="140" y1="80" x2="1460" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3F1D2E" />
+      <stop offset="1" stop-color="#BE185D" />
+    </linearGradient>
+    <radialGradient id="glow-gradient" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1280 160) rotate(125) scale(480 400)">
+      <stop stop-color="#F9A8D4" stop-opacity="0.62" />
+      <stop offset="1" stop-color="#F9A8D4" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" rx="48" fill="url(#bg-gradient)" />
+  <rect x="52" y="52" width="1496" height="796" rx="40" stroke="rgba(248,250,252,0.12)" />
+  <circle cx="1280" cy="160" r="340" fill="url(#glow-gradient)" />
+  <circle cx="1190" cy="720" r="210" fill="rgba(255,255,255,0.06)" />
+  <path d="M1110 280C1180 228 1266 210 1372 226C1297 278 1230 340 1186 432C1144 398 1117 346 1110 280Z" fill="rgba(248,250,252,0.14)" />
+  <path d="M1020 544C1110 492 1216 482 1336 518C1244 582 1175 656 1138 742C1061 701 1021 633 1020 544Z" fill="rgba(15,23,42,0.12)" />
+  <g transform="translate(120 112)">
+    <rect width="190" height="48" rx="999" fill="rgba(248,250,252,0.13)" stroke="rgba(248,250,252,0.24)" />
+    <text x="95" y="31" fill="#FCE7F3" font-size="22" font-weight="700" text-anchor="middle">SEOUL LOCAL GUIDE</text>
+  </g>
+  <g transform="translate(120 188)">
+    <rect width="146" height="52" rx="18" fill="rgba(15,23,42,0.18)" stroke="rgba(248,250,252,0.18)" />
+    <text x="73" y="34" fill="#FCE7F3" font-size="28" font-weight="700" text-anchor="middle">무료코스</text>
+  </g>
+  <text x="120" y="340" fill="#FFF1F2" font-size="72" font-weight="800" letter-spacing="-0.04em"><tspan x="120" dy="0">돈 많이 안 들고 즐기는</tspan><tspan x="120" dy="78">서울 무료 명소 추천</tspan></text>
+  <text x="120" y="558" fill="rgba(248,250,252,0.76)" font-size="30" font-weight="500">
+    서울 생활 정보글용 자동 생성 커버
+  </text>
+  
+        <g transform="translate(120 640)">
+          <rect width="220" height="64" rx="24" fill="rgba(252, 231, 243, 0.16)" stroke="rgba(249, 168, 212, 0.45)" />
+          <text x="110" y="40" fill="#FFF1F2" font-size="26" font-weight="600" text-anchor="middle">서울도서관</text>
+        </g>
+        <g transform="translate(370 640)">
+          <rect width="220" height="64" rx="24" fill="rgba(252, 231, 243, 0.16)" stroke="rgba(249, 168, 212, 0.45)" />
+          <text x="110" y="40" fill="#FFF1F2" font-size="26" font-weight="600" text-anchor="middle">청계천</text>
+        </g>
+        <g transform="translate(620 640)">
+          <rect width="220" height="64" rx="24" fill="rgba(252, 231, 243, 0.16)" stroke="rgba(249, 168, 212, 0.45)" />
+          <text x="110" y="40" fill="#FFF1F2" font-size="26" font-weight="600" text-anchor="middle">북서울꿈의숲</text>
+        </g>
+  
+        <g transform="translate(120 742)">
+          <rect width="164" height="48" rx="999" fill="rgba(15, 23, 42, 0.16)" stroke="rgba(248, 250, 252, 0.24)" />
+          <text x="82" y="31" fill="#FCE7F3" font-size="22" font-weight="600" text-anchor="middle">#서울무료</text>
+        </g>
+        <g transform="translate(310 742)">
+          <rect width="164" height="48" rx="999" fill="rgba(15, 23, 42, 0.16)" stroke="rgba(248, 250, 252, 0.24)" />
+          <text x="82" y="31" fill="#FCE7F3" font-size="22" font-weight="600" text-anchor="middle">#서울명소</text>
+        </g>
+  <g transform="translate(1168 628)">
+    <path d="M96 0L112 34V126H80V34L96 0Z" fill="#FCE7F3" fill-opacity="0.88" />
+    <path d="M112 34L152 74V126H112V34Z" fill="rgba(248,250,252,0.16)" />
+    <path d="M80 34L40 86V126H80V34Z" fill="rgba(15,23,42,0.18)" />
+    <rect x="58" y="126" width="76" height="76" rx="16" fill="rgba(15,23,42,0.18)" />
+    <rect x="34" y="196" width="124" height="20" rx="10" fill="#F9A8D4" fill-opacity="0.72" />
+  </g>
+</svg>

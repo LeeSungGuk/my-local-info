@@ -18,6 +18,7 @@ export interface Post {
   sourceType: string;
   sourceId: string;
   sourceUrl: string;
+  sourceNote: string;
   coverImage: string;
   coverAlt: string;
 }
@@ -68,6 +69,7 @@ function toPost(fileName: string): Post {
     sourceType: typeof data.sourceType === "string" ? data.sourceType : "",
     sourceId,
     sourceUrl: typeof data.sourceUrl === "string" ? data.sourceUrl : "",
+    sourceNote: typeof data.sourceNote === "string" ? data.sourceNote : "",
     coverImage: configuredCoverImage || generatedCoverImage,
     coverAlt:
       typeof data.coverAlt === "string"

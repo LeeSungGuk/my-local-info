@@ -1,0 +1,154 @@
+{
+  "서울도서관": {
+    "label": "서울도서관 이용안내",
+    "url": "https://lib.seoul.go.kr/main/useInfo"
+  },
+  "서울도서관 어린이자료실": {
+    "label": "서울도서관 이용안내",
+    "url": "https://lib.seoul.go.kr/main/useInfo"
+  },
+  "청계천": {
+    "label": "청계천 공식 안내",
+    "url": "https://www.sisul.or.kr/open_content/cheonggye/"
+  },
+  "북서울꿈의숲": {
+    "label": "북서울꿈의숲 공식 안내",
+    "url": "https://parks.seoul.go.kr/template/sub/dreamforest.do"
+  },
+  "서울숲": {
+    "label": "서울숲 공식 안내",
+    "url": "https://parks.seoul.go.kr/template/seoulforest/main.do"
+  },
+  "한강공원": {
+    "label": "한강공원 공식 홈페이지",
+    "url": "https://hangang.seoul.go.kr/www/main.do"
+  },
+  "여의도한강공원": {
+    "label": "한강공원 공식 홈페이지",
+    "url": "https://hangang.seoul.go.kr/www/main.do"
+  },
+  "망원한강공원": {
+    "label": "한강공원 공식 홈페이지",
+    "url": "https://hangang.seoul.go.kr/www/main.do"
+  },
+  "반포한강공원": {
+    "label": "한강공원 공식 홈페이지",
+    "url": "https://hangang.seoul.go.kr/www/main.do"
+  },
+  "뚝섬한강공원": {
+    "label": "한강공원 공식 홈페이지",
+    "url": "https://hangang.seoul.go.kr/www/main.do"
+  },
+  "잠원한강공원": {
+    "label": "한강공원 공식 홈페이지",
+    "url": "https://hangang.seoul.go.kr/www/main.do"
+  },
+  "잠실한강공원": {
+    "label": "한강공원 공식 홈페이지",
+    "url": "https://hangang.seoul.go.kr/www/main.do"
+  },
+  "서울상상나라": {
+    "label": "서울상상나라 공식 홈페이지",
+    "url": "https://www.seoulchildrensmuseum.org/"
+  },
+  "어린이대공원": {
+    "label": "어린이대공원 공식 안내",
+    "url": "https://www.sisul.or.kr/open_content/childrenpark/"
+  },
+  "서울식물원": {
+    "label": "서울식물원 공식 홈페이지",
+    "url": "https://botanicpark.seoul.go.kr/front/main.do"
+  },
+  "서울식물원 온실": {
+    "label": "서울식물원 공식 홈페이지",
+    "url": "https://botanicpark.seoul.go.kr/front/main.do"
+  },
+  "국립어린이과학관": {
+    "label": "국립어린이과학관 공식 홈페이지",
+    "url": "https://www.csc.go.kr/"
+  },
+  "국립중앙박물관": {
+    "label": "국립중앙박물관 공식 홈페이지",
+    "url": "https://www.museum.go.kr/site/main/home"
+  },
+  "서울시립미술관": {
+    "label": "서울시립미술관 공식 홈페이지",
+    "url": "https://sema.seoul.go.kr/"
+  },
+  "DDP": {
+    "label": "DDP 공식 홈페이지",
+    "url": "https://ddp.or.kr/"
+  },
+  "서울책보고": {
+    "label": "서울책보고 공식 홈페이지",
+    "url": "https://www.seoulbookbogo.kr/"
+  },
+  "문화비축기지": {
+    "label": "문화비축기지 공식 안내",
+    "url": "https://parks.seoul.go.kr/template/sub/culturetank.do"
+  },
+  "남산서울타워": {
+    "label": "남산서울타워 공식 홈페이지",
+    "url": "https://www.nseoultower.co.kr/"
+  },
+  "국립현대미술관 서울": {
+    "label": "국립현대미술관 공식 홈페이지",
+    "url": "https://www.mmca.go.kr/"
+  },
+  "서소문성지 역사박물관": {
+    "label": "서소문성지 역사박물관 공식 홈페이지",
+    "url": "https://www.seosomun.org/"
+  },
+  "광화문광장": {
+    "label": "광화문광장 공식 홈페이지",
+    "url": "https://gwanghwamun.seoul.go.kr/"
+  },
+  "코엑스 별마당도서관": {
+    "label": "별마당 도서관 공식 안내",
+    "url": "https://www.starfield.co.kr/app/starfieldLibrary/intro.do?bcnCd=02"
+  },
+  "덕수궁": {
+    "label": "덕수궁 공식 안내",
+    "url": "https://royal.khs.go.kr/ROYAL/contents/R707000000.do?schGroupCode=dsg"
+  },
+  "덕수궁 돌담길": {
+    "label": "덕수궁 공식 안내",
+    "url": "https://royal.khs.go.kr/ROYAL/contents/R707000000.do?schGroupCode=dsg"
+  },
+  "경복궁": {
+    "label": "경복궁 공식 안내",
+    "url": "https://royal.khs.go.kr/ROYAL/contents/R707000000.do?schGroupCode=gbg"
+  },
+  "창덕궁": {
+    "label": "창덕궁 공식 안내",
+    "url": "https://royal.khs.go.kr/ROYAL/contents/R707000000.do?schGroupCode=cdg"
+  },
+  "낙산공원": {
+    "label": "낙산공원 공식 안내",
+    "url": "https://parks.seoul.go.kr/template/sub/naksan.do"
+  },
+  "하늘공원": {
+    "label": "월드컵공원 공식 안내",
+    "url": "https://parks.seoul.go.kr/template/sub/worldcuppark.do"
+  },
+  "남산공원": {
+    "label": "남산공원 공식 안내",
+    "url": "https://parks.seoul.go.kr/namsan/"
+  },
+  "북촌한옥마을": {
+    "label": "서울한옥포털 공식 안내",
+    "url": "https://hanok.seoul.go.kr/front/index.do"
+  },
+  "청계천박물관": {
+    "label": "청계천박물관 공식 홈페이지",
+    "url": "https://museum.seoul.go.kr/cgcm/index.do"
+  },
+  "양재시민의숲": {
+    "label": "양재시민의숲 공식 안내",
+    "url": "https://parks.seoul.go.kr/template/sub/citizen.do"
+  },
+  "서울로7017": {
+    "label": "서울로7017 공식 관광 안내",
+    "url": "https://korean.visitseoul.net/attractions/%EC%84%9C%EC%9A%B8%EB%A1%9C7017/KOP023496"
+  }
+}

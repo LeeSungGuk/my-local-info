@@ -19,6 +19,9 @@ const {
 const ENV_FILE_PATH = path.join(__dirname, "..", ".env.local");
 const POSTS_DIR = path.join(__dirname, "..", "src", "content", "posts");
 const TOPIC_QUEUE_FILE_PATH = path.join(__dirname, "..", "data", "seoul-blog-topic-queue.json");
+const PLACE_SOURCES_FILE_PATH = path.join(__dirname, "..", "data", "seoul-place-sources.json");
+const SOURCE_NOTE =
+  "본문 하단의 공식 확인 링크를 참고해주세요. 운영 시간과 세부 시설은 방문 전 다시 확인하는 편이 안전합니다.";
 
 function loadEnvFile(filePath) {
   if (!fs.existsSync(filePath)) {
@@ -173,6 +176,126 @@ function normalizeDate(value) {
   return "";
 }
 
+function normalizePlaceKey(value) {
+  return String(value || "")
+    .trim()
+    .replace(/\s+/g, "");
+}
+
+function loadOfficialPlaceSources(filePath = PLACE_SOURCES_FILE_PATH) {
+  if (!fs.existsSync(filePath)) {
+    return {};
+  }
+
+  const parsed = JSON.parse(fs.readFileSync(filePath, "utf8"));
+  return parsed && !Array.isArray(parsed) && typeof parsed === "object" ? parsed : {};
+}
+
+function normalizePlaceSourceRecord(place, record) {
+  const source =
+    typeof record === "string"
+      ? {
+          label: `${place} 공식 안내`,
+          url: record,
+        }
+      : record;
+
+  if (!source || Array.isArray(source) || typeof source !== "object") {
+    return null;
+  }
+
+  const label = typeof source.label === "string" ? source.label.trim() : `${place} 공식 안내`;
+  const url = typeof source.url === "string" ? source.url.trim() : "";
+
+  if (!label || !/^https?:\/\//i.test(url)) {
+    return null;
+  }
+
+  return {
+    label,
+    url,
+  };
+}
+
+function resolveOfficialPlaceLinks(topic, placeSources = loadOfficialPlaceSources()) {
+  const sourceEntries = Object.entries(placeSources).reduce((acc, [place, record]) => {
+    const normalizedKey = normalizePlaceKey(place);
+    const source = normalizePlaceSourceRecord(place, record);
+
+    if (normalizedKey && source) {
+      acc.set(normalizedKey, source);
+    }
+
+    return acc;
+  }, new Map());
+  const seenUrls = new Set();
+
+  return (Array.isArray(topic?.places) ? topic.places : []).reduce((links, place) => {
+    const placeLabel = String(place || "").trim();
+    const source = sourceEntries.get(normalizePlaceKey(placeLabel));
+
+    if (!placeLabel || !source || seenUrls.has(source.url)) {
+      return links;
+    }
+
+    seenUrls.add(source.url);
+    links.push({
+      place: placeLabel,
+      label: source.label,
+      url: source.url,
+    });
+    return links;
+  }, []);
+}
+
+function getMissingOfficialPlaceNames(topic, placeSources = loadOfficialPlaceSources()) {
+  const sourceKeys = new Set(Object.keys(placeSources).map(normalizePlaceKey));
+  const seenPlaceKeys = new Set();
+
+  return (Array.isArray(topic?.places) ? topic.places : []).reduce((places, place) => {
+    const placeLabel = String(place || "").trim();
+    const placeKey = normalizePlaceKey(placeLabel);
+
+    if (!placeLabel || seenPlaceKeys.has(placeKey) || sourceKeys.has(placeKey)) {
+      return places;
+    }
+
+    seenPlaceKeys.add(placeKey);
+    places.push(placeLabel);
+    return places;
+  }, []);
+}
+
+function reportMissingOfficialPlaceSources(missingPlaces, logger = console) {
+  if (!Array.isArray(missingPlaces) || missingPlaces.length === 0) {
+    return;
+  }
+
+  logger.warn(`⚠️ 공식 링크 사전에 없는 장소: ${missingPlaces.join(", ")}`);
+}
+
+function escapeMarkdownLinkLabel(value) {
+  return String(value || "").replace(/\\/g, "\\\\").replace(/\]/g, "\\]");
+}
+
+function appendOfficialSourceLinks(body, officialPlaceLinks) {
+  const normalizedBody = String(body || "").trim();
+
+  if (!Array.isArray(officialPlaceLinks) || officialPlaceLinks.length === 0) {
+    return normalizedBody;
+  }
+
+  if (/^#{2,4}\s*공식 확인 링크\s*$/m.test(normalizedBody)) {
+    return normalizedBody;
+  }
+
+  const linkLines = officialPlaceLinks.map(
+    (source) => `- [${escapeMarkdownLinkLabel(source.label)}](${source.url})`
+  );
+
+  return `${normalizedBody}\n\n### 공식 확인 링크\n${linkLines.join("\n")}`;
+}
+
 function getExistingPosts() {
   if (!fs.existsSync(POSTS_DIR)) {
     return [];
@@ -203,7 +326,9 @@ function hasTodayInfoPost(posts, today) {
   return posts.some((post) => post.date === today && post.sourceType === "정보글" && post.region === "서울");
 }
 
-function createGeneratedPostMarkdown(parsedPayload, today, topic, coverAsset) {
+function createGeneratedPostMarkdown(parsedPayload, today, topic, coverAsset, options = {}) {
+  const officialPlaceLinks = resolveOfficialPlaceLinks(topic, options.placeSources);
+  const body = appendOfficialSourceLinks(parsedPayload.body.trim(), officialPlaceLinks);
   const normalizedFrontmatter = {
     title: parsedPayload.title || topic.titleHint,
     date: today,
@@ -214,11 +339,12 @@ function createGeneratedPostMarkdown(parsedPayload, today, topic, coverAsset) {
     sourceType: "정보글",
     sourceId: topic.id,
     sourceUrl: "",
+    ...(officialPlaceLinks.length > 0 ? { sourceNote: SOURCE_NOTE } : {}),
     ...(coverAsset.coverImage ? { coverImage: coverAsset.coverImage } : {}),
     ...(coverAsset.coverAlt ? { coverAlt: coverAsset.coverAlt } : {}),
   };
 
-  return matter.stringify(parsedPayload.body.trim(), normalizedFrontmatter).trim();
+  return matter.stringify(body, normalizedFrontmatter).trim();
 }
 
 async function maybeReplenishTopicQueue(queue, posts, nowIso) {
@@ -336,7 +462,11 @@ function savePost(geminiResponse, today, topic) {
   }
 
   const coverAsset = ensureTopicCoverAsset(topic);
-  const normalizedContent = createGeneratedPostMarkdown(parsedPayload, today, topic, coverAsset);
+  const placeSources = loadOfficialPlaceSources();
+  reportMissingOfficialPlaceSources(getMissingOfficialPlaceNames(topic, placeSources));
+  const normalizedContent = createGeneratedPostMarkdown(parsedPayload, today, topic, coverAsset, {
+    placeSources,
+  });
   const filePath = path.join(POSTS_DIR, `${parsedPayload.filename}.md`);
   fs.writeFileSync(filePath, `${normalizedContent}\n`, "utf8");
 
@@ -396,14 +526,19 @@ if (require.main === module) {
 }
 
 module.exports = {
+  appendOfficialSourceLinks,
   generateBlogPost,
   getExistingPosts,
+  getMissingOfficialPlaceNames,
   getNowInSeoulIso,
   getTodayInSeoul,
   hasTodayInfoPost,
+  loadOfficialPlaceSources,
   main,
   maybeReplenishTopicQueue,
   createGeneratedPostMarkdown,
   parseGeneratedBlogPostResponse,
+  reportMissingOfficialPlaceSources,
+  resolveOfficialPlaceLinks,
   savePost,
 };

@@ -96,9 +96,9 @@
         "주말추천"
       ],
       "origin": "seed",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-04-15T00:00:00+09:00",
-      "usedAt": null
+      "usedAt": "2026-04-16T11:27:55+09:00"
     },
     {
       "id": "seoul-bookstore-cafe-walk",

@@ -216,7 +216,7 @@ export default async function BlogPostPage({ params }: PageProps) {
 
             <div className="mt-4 rounded-2xl border border-white/80 bg-white/80 p-4">
               <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">
-                원문 출처
+                공식 확인
               </p>
               {hasSourceLink ? (
                 <a
@@ -232,7 +232,8 @@ export default async function BlogPostPage({ params }: PageProps) {
                 </a>
               ) : (
                 <p className="mt-2 text-sm text-slate-500">
-                  현재 이 글에는 연결된 원문 링크가 없습니다. 방문 전 관련 기관의 공식 안내를 다시 확인해주세요.
+                  {post.sourceNote ||
+                    "현재 이 글에는 연결된 원문 링크가 없습니다. 방문 전 관련 기관의 공식 안내를 다시 확인해주세요."}
                 </p>
               )}
             </div>
