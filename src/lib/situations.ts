@@ -157,21 +157,21 @@ export function getRelatedPostsForSituation(
   situation: SituationGuide,
   posts: Post[]
 ): Post[] {
-  const seenSourceIds = new Set<string>();
+  const seenSlugs = new Set<string>();
   const relatedPosts: Post[] = [];
   const normalizedTags = new Set(situation.tags.map(normalizeKeyword));
 
   for (const sourceId of situation.relatedSourceIds) {
     const post = posts.find((candidate) => candidate.sourceId === sourceId);
 
-    if (post && !seenSourceIds.has(post.sourceId)) {
-      seenSourceIds.add(post.sourceId);
+    if (post && !seenSlugs.has(post.slug)) {
+      seenSlugs.add(post.slug);
       relatedPosts.push(post);
     }
   }
 
   for (const post of posts) {
-    if (seenSourceIds.has(post.sourceId)) {
+    if (seenSlugs.has(post.slug)) {
       continue;
     }
 
@@ -180,7 +180,7 @@ export function getRelatedPostsForSituation(
     );
 
     if (hasTagMatch) {
-      seenSourceIds.add(post.sourceId);
+      seenSlugs.add(post.slug);
       relatedPosts.push(post);
     }
   }
