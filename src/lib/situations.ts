@@ -52,7 +52,7 @@ const situations: SituationGuide[] = [
       {
         title: "실내와 야외를 동시에 준비하세요",
         body:
-          "서울은 날씨와 혼잡도에 따라 체감 난도 차이가 크게 달라집니다. 야외 중심 코스라도 근처 박물관, 도서관, 복합문화공간 같은 대체지를 같이 확인하는 것이 좋습니다.",
+          "서울은 날씨와 혼잡도에 따라 체감 난도가 크게 달라집니다. 야외 중심 코스라도 근처 박물관, 도서관, 복합문화공간 같은 대체지를 같이 확인하는 것이 좋습니다.",
       },
       {
         title: "연령대별 체류 시간을 다르게 잡으세요",
@@ -157,21 +157,21 @@ export function getRelatedPostsForSituation(
   situation: SituationGuide,
   posts: Post[]
 ): Post[] {
-  const seenSlugs = new Set<string>();
+  const seenSourceIds = new Set<string>();
   const relatedPosts: Post[] = [];
   const normalizedTags = new Set(situation.tags.map(normalizeKeyword));
 
   for (const sourceId of situation.relatedSourceIds) {
     const post = posts.find((candidate) => candidate.sourceId === sourceId);
 
-    if (post && !seenSlugs.has(post.slug)) {
-      seenSlugs.add(post.slug);
+    if (post && !seenSourceIds.has(post.sourceId)) {
+      seenSourceIds.add(post.sourceId);
       relatedPosts.push(post);
     }
   }
 
   for (const post of posts) {
-    if (seenSlugs.has(post.slug)) {
+    if (seenSourceIds.has(post.sourceId)) {
       continue;
     }
 
@@ -180,7 +180,7 @@ export function getRelatedPostsForSituation(
     );
 
     if (hasTagMatch) {
-      seenSlugs.add(post.slug);
+      seenSourceIds.add(post.sourceId);
       relatedPosts.push(post);
     }
   }

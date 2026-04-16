@@ -61,6 +61,12 @@ test("related posts prefer explicit source ids before tag matches and dedupe pos
       tags: ["무료", "서울"],
     }),
     makePost({
+      slug: "duplicate-source-id",
+      sourceId: "seoul-free-spot-guide",
+      title: "서울 무료 나들이 코스 복제",
+      tags: ["무료", "공원"],
+    }),
+    makePost({
       slug: "unrelated",
       sourceId: "unrelated",
       title: "서울 야간 데이트",
