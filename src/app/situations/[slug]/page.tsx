@@ -104,7 +104,7 @@ export default async function SituationPage({ params }: PageProps) {
   };
 
   return (
-    <main className="min-h-screen bg-[linear-gradient(180deg,#eff6ff_0%,#ffffff_42%,#f8fafc_100%)] pb-20 pt-28">
+    <div className="min-h-screen bg-[linear-gradient(180deg,#eff6ff_0%,#ffffff_42%,#f8fafc_100%)] pb-20 pt-28">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
@@ -295,6 +295,6 @@ export default async function SituationPage({ params }: PageProps) {
           ))}
         </div>
       </section>
-    </main>
+    </div>
   );
 }
