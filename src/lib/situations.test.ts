@@ -38,6 +38,16 @@ test("defines the first three public situation guides", () => {
   );
 });
 
+test("getAllSituations returns a new array so callers cannot mutate the source list", () => {
+  const situations = getAllSituations();
+  situations.pop();
+
+  assert.deepEqual(
+    getAllSituations().map((situation) => situation.slug),
+    ["kids", "rainy-day", "free"]
+  );
+});
+
 test("looks up a situation by slug and returns null for unknown slugs", () => {
   assert.equal(getSituationBySlug("kids")?.title, "아이와 서울 나들이");
   assert.equal(getSituationBySlug("unknown"), null);
