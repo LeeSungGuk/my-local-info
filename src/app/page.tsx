@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Script from "next/script";
 import AdBanner from "@/components/AdBanner";
 import HomeSituationSection from "@/components/HomeSituationSection";
 import HomeRecommendedPostsSection from "@/components/HomeRecommendedPostsSection";
@@ -80,18 +81,9 @@ export default async function Home() {
   ];
 
   return (
-    <div>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeStructuredData) }}
-      />
-      <section className="relative bg-[linear-gradient(135deg,#0f172a_0%,#1d4ed8_42%,#38bdf8_100%)] text-white">
+    <>
+      <section className="relative bg-[radial-gradient(120%_100%_at_20%_0%,#0f3b82_0%,#1d4ed8_44%,#0284c7_100%)] text-white">
         <div className="pointer-events-none absolute inset-0 overflow-hidden">
-          <div className="absolute inset-0 opacity-30">
-            <div className="absolute left-10 top-10 h-72 w-72 rounded-full bg-cyan-200/60 blur-3xl animate-pulse" />
-            <div className="absolute bottom-10 right-10 h-96 w-96 rounded-full bg-sky-100/40 blur-3xl" />
-            <div className="absolute left-1/2 top-1/3 h-56 w-56 -translate-x-1/2 rounded-full bg-blue-300/20 blur-3xl" />
-          </div>
           <div className="absolute inset-0 opacity-45">
             {heroStars.map((starClassName, index) => (
               <span
@@ -103,30 +95,46 @@ export default async function Home() {
           <div className="absolute bottom-0 left-0 right-0 h-12 bg-gradient-to-b from-transparent to-white/10 backdrop-blur-sm" />
         </div>
 
-        <div className="relative z-10 mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-28">
-          <div className="text-center">
-            <span className="mb-6 inline-block rounded-full border border-white/15 bg-white/10 px-4 py-1.5 text-sm font-medium shadow-sm backdrop-blur-sm">
+        <div className="relative z-10 mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-20">
+          <div className="mx-auto max-w-4xl text-center">
+            <span className="mb-5 inline-block rounded-full border border-white/15 bg-white/10 px-4 py-1.5 text-sm font-medium shadow-sm backdrop-blur-sm">
               서울 상황별 나들이 가이드
             </span>
-            <h1 className="mb-6 text-3xl font-extrabold leading-tight tracking-tight sm:text-5xl">
+            <h1 className="mb-4 text-3xl font-extrabold leading-tight tracking-tight sm:mb-6 sm:text-5xl">
               검색 여러 번 하지 않아도
               <br />
               <span className="text-cyan-100">서울 나들이 코스를 고를 수 있게</span>
             </h1>
-            <p className="mx-auto max-w-2xl text-lg leading-relaxed text-sky-50 sm:text-xl">
+            <p className="mx-auto max-w-2xl text-base leading-relaxed text-sky-50 sm:text-xl">
               아이와, 비 오는 날, 무료·저비용처럼 실제 고민에서 출발해
               <br />
               공식 확인 링크와 함께 서울 코스를 고를 수 있게 돕습니다.
             </p>
           </div>
+
+          <div className="mx-auto mt-6 max-w-4xl sm:mt-8">
+            <HomeUnifiedSearch />
+          </div>
+
+          <nav
+            aria-label="상황별 코스 바로가기"
+            className="mx-auto mt-4 flex max-w-3xl flex-wrap items-center justify-center gap-2 text-sm sm:mt-5"
+          >
+            <span className="mr-1 font-semibold text-sky-100">바로 고르기</span>
+            {situations.map((situation) => (
+              <Link
+                key={situation.slug}
+                href={`/search?q=${encodeURIComponent(situation.searchIntent)}`}
+                className="inline-flex min-h-11 items-center rounded-full border border-white/15 bg-white/10 px-4 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+              >
+                {situation.eyebrow}
+              </Link>
+            ))}
+          </nav>
         </div>
       </section>
 
       <HomeSituationSection situations={situations} />
-
-      <section className="relative z-20 mx-auto max-w-6xl px-4 pb-12 sm:px-6">
-        <HomeUnifiedSearch />
-      </section>
 
       <HomeRecommendedPostsSection posts={recommendedPosts} />
 
@@ -219,6 +227,11 @@ export default async function Home() {
           </div>
         </div>
       </section>
-    </div>
+      <Script
+        id="home-structured-data"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeStructuredData) }}
+      />
+    </>
   );
 }

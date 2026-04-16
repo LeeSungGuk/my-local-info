@@ -243,7 +243,30 @@ export default function SearchResultsView() {
   }
 
   return (
-    <div className="grid gap-8 lg:grid-cols-[280px_minmax(0,1fr)]">
+    <>
+      <header className={hasQuery ? "mb-5" : "mb-10"}>
+        <span className="inline-flex items-center rounded-full bg-sky-100 px-3 py-1 text-sm font-semibold text-sky-700">
+          서울 통합 검색
+        </span>
+        {hasQuery ? (
+          <p className="mt-3 max-w-3xl text-sm leading-relaxed text-slate-600">
+            검색 결과를 먼저 보여주고, 필요한 경우 아래 필터로 더 좁힐 수 있습니다.
+          </p>
+        ) : (
+          <>
+            <h1 className="mt-5 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-5xl">
+              서울의 행사, 혜택, 정보글을
+              <br />
+              한 번에 찾아보세요
+            </h1>
+            <p className="mt-5 max-w-3xl text-base leading-relaxed text-slate-600 sm:text-lg">
+              검색어 하나로 여러 영역을 함께 살펴보고, 지역과 유형 필터로 더 빠르게 좁힐 수 있습니다.
+            </p>
+          </>
+        )}
+      </header>
+
+      <div className="grid gap-5 lg:grid-cols-[280px_minmax(0,1fr)] lg:gap-8">
       <div className="lg:hidden">
         <button
           type="button"
@@ -270,7 +293,7 @@ export default function SearchResultsView() {
       </aside>
 
       <div>
-        <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-[0_8px_24px_rgba(15,23,42,0.04)] sm:p-6">
+        <div className="rounded-lg border border-slate-200 bg-white p-4 shadow-[0_8px_24px_rgba(15,23,42,0.04)] sm:p-6">
           <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <p className="text-sm font-semibold text-sky-700">
@@ -309,21 +332,21 @@ export default function SearchResultsView() {
         </div>
 
         {!filters.query.trim() ? (
-          <div className="mt-8 rounded-2xl border border-dashed border-slate-200 bg-white p-10 text-center">
+          <div className="mt-5 rounded-2xl border border-dashed border-slate-200 bg-white p-10 text-center">
             <p className="text-lg font-semibold text-slate-900">찾고 싶은 서울 정보를 검색해 보세요.</p>
             <p className="mt-2 text-sm text-slate-600">
               예: 성동구 무료 전시, 청년 혜택, 비 오는 날 실내 코스
             </p>
           </div>
         ) : results.length === 0 ? (
-          <div className="mt-8 rounded-2xl border border-dashed border-slate-200 bg-white p-10 text-center">
+          <div className="mt-5 rounded-2xl border border-dashed border-slate-200 bg-white p-10 text-center">
             <p className="text-lg font-semibold text-slate-900">조건에 맞는 검색 결과가 없습니다.</p>
             <p className="mt-2 text-sm text-slate-600">
               검색어를 조금 더 넓게 쓰거나 지역/유형 필터를 풀어보세요.
             </p>
           </div>
         ) : (
-          <div className="mt-8 grid gap-6 md:grid-cols-2">
+          <div className="mt-5 grid gap-4 md:grid-cols-2 md:gap-6">
             {results.map((item) => (
               <article
                 key={`${item.type}-${item.id}`}
@@ -383,6 +406,7 @@ export default function SearchResultsView() {
           </div>
         )}
       </div>
-    </div>
+      </div>
+    </>
   );
 }

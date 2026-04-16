@@ -102,6 +102,7 @@ export default async function SituationPage({ params }: PageProps) {
       datePublished: post.date,
     })),
   };
+  const searchHref = `/search?q=${encodeURIComponent(situation.searchIntent)}`;
 
   return (
     <div className="min-h-screen bg-[linear-gradient(180deg,#eff6ff_0%,#ffffff_42%,#f8fafc_100%)] pb-20 pt-28">
@@ -167,6 +168,12 @@ export default async function SituationPage({ params }: PageProps) {
               이 페이지는 검색 결과를 더 보는 대신, 먼저 확인해야 할 기준과 관련
               글을 한 번에 묶어 보여줍니다.
             </p>
+            <Link
+              href={searchHref}
+              className={`mt-6 inline-flex min-h-11 w-full items-center justify-center rounded-md px-5 text-sm font-bold text-white transition-colors ${accent.button}`}
+            >
+              이 조건으로 통합 검색
+            </Link>
           </aside>
         </div>
       </section>
