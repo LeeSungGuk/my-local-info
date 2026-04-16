@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import type { MetadataRoute } from "next";
+import { getAllSituations } from "@/lib/situations";
 
 const siteUrl = "https://my-local-info-6ny.pages.dev";
 const postsDirectory = path.join(process.cwd(), "src/content/posts");
@@ -17,9 +18,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
   ];
+  const situationRoutes: MetadataRoute.Sitemap = getAllSituations().map((situation) => ({
+    url: `${siteUrl}${situation.href}`,
+    lastModified: new Date(),
+  }));
 
   if (!fs.existsSync(postsDirectory)) {
-    return staticRoutes;
+    return [...staticRoutes, ...situationRoutes];
   }
 
   const blogRoutes: MetadataRoute.Sitemap = fs
@@ -36,5 +41,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       };
     });
 
-  return [...staticRoutes, ...blogRoutes];
+  return [...staticRoutes, ...situationRoutes, ...blogRoutes];
 }
