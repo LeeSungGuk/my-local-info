@@ -60,7 +60,7 @@ export default function HomeBenefitsSection({ benefits }: { benefits: PublicBene
 
             <Link
               href={`/benefits/${benefit.id}`}
-              className="inline-flex items-center text-sm font-semibold text-blue-700 hover:text-blue-800"
+              className="inline-flex min-h-11 items-center rounded-md text-sm font-semibold text-blue-700 hover:text-blue-800"
             >
               자세히 보기
               <svg className="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

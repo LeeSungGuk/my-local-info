@@ -152,7 +152,7 @@ export default async function Home() {
           </div>
           <Link
             href="/events"
-            className="hidden rounded-full border border-sky-200 bg-sky-50 px-4 py-2 text-sm font-semibold text-sky-700 transition-colors hover:bg-sky-100 sm:inline-flex"
+            className="hidden min-h-11 items-center rounded-full border border-sky-200 bg-sky-50 px-4 text-sm font-semibold text-sky-700 transition-colors hover:bg-sky-100 sm:inline-flex"
           >
             전체 행사 보기
           </Link>
@@ -163,7 +163,7 @@ export default async function Home() {
         <div className="mt-6 sm:hidden">
           <Link
             href="/events"
-            className="inline-flex rounded-full border border-sky-200 bg-sky-50 px-4 py-2 text-sm font-semibold text-sky-700 transition-colors hover:bg-sky-100"
+            className="inline-flex min-h-11 items-center rounded-full border border-sky-200 bg-sky-50 px-4 text-sm font-semibold text-sky-700 transition-colors hover:bg-sky-100"
           >
             전체 행사 보기
           </Link>
@@ -187,7 +187,7 @@ export default async function Home() {
             </div>
             <Link
               href="/benefits"
-              className="hidden rounded-full border border-cyan-200 bg-cyan-50 px-4 py-2 text-sm font-semibold text-cyan-700 transition-colors hover:bg-cyan-100 sm:inline-flex"
+              className="hidden min-h-11 items-center rounded-full border border-cyan-200 bg-cyan-50 px-4 text-sm font-semibold text-cyan-700 transition-colors hover:bg-cyan-100 sm:inline-flex"
             >
               전체 혜택 보기
             </Link>
@@ -198,7 +198,7 @@ export default async function Home() {
           <div className="mt-6 sm:hidden">
             <Link
               href="/benefits"
-              className="inline-flex rounded-full border border-cyan-200 bg-cyan-50 px-4 py-2 text-sm font-semibold text-cyan-700 transition-colors hover:bg-cyan-100"
+              className="inline-flex min-h-11 items-center rounded-full border border-cyan-200 bg-cyan-50 px-4 text-sm font-semibold text-cyan-700 transition-colors hover:bg-cyan-100"
             >
               전체 혜택 보기
             </Link>

@@ -49,7 +49,7 @@ export default function Header() {
 
           {/* 모바일 메뉴 버튼 */}
           <button
-            className={`md:hidden rounded-xl p-2 transition-colors ${
+            className={`inline-flex min-h-11 min-w-11 items-center justify-center rounded-xl p-2 transition-colors md:hidden ${
               isMenuOpen
                 ? "bg-sky-100 text-sky-700"
                 : "text-slate-700 hover:bg-sky-50"
@@ -161,7 +161,7 @@ function NavLink({
   return (
     <Link
       href={href}
-      className="rounded-xl px-4 py-2 text-sm font-medium text-slate-600 transition-all hover:bg-sky-50 hover:text-sky-700"
+      className="inline-flex min-h-11 items-center rounded-xl px-4 text-sm font-medium text-slate-600 transition-all hover:bg-sky-50 hover:text-sky-700"
     >
       {children}
     </Link>

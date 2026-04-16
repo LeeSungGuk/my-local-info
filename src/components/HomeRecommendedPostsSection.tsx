@@ -24,7 +24,7 @@ export default function HomeRecommendedPostsSection({ posts }: { posts: Post[] }
           </div>
           <Link
             href="/blog"
-            className="hidden rounded-full border border-sky-200 bg-white px-4 py-2 text-sm font-semibold text-sky-700 transition-colors hover:bg-sky-50 sm:inline-flex"
+            className="hidden min-h-11 items-center rounded-full border border-sky-200 bg-white px-4 text-sm font-semibold text-sky-700 transition-colors hover:bg-sky-50 sm:inline-flex"
           >
             전체 글 보기
           </Link>
@@ -69,7 +69,7 @@ export default function HomeRecommendedPostsSection({ posts }: { posts: Post[] }
         <div className="mt-6 sm:hidden">
           <Link
             href="/blog"
-            className="inline-flex rounded-full border border-sky-200 bg-white px-4 py-2 text-sm font-semibold text-sky-700 transition-colors hover:bg-sky-50"
+            className="inline-flex min-h-11 items-center rounded-full border border-sky-200 bg-white px-4 text-sm font-semibold text-sky-700 transition-colors hover:bg-sky-50"
           >
             전체 글 보기
           </Link>

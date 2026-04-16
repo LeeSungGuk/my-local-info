@@ -2,6 +2,8 @@ import Link from "next/link";
 
 const contactEmail = "jin3137@gmail.com";
 const contactEmailHref = `mailto:${contactEmail}`;
+const footerLinkClassName =
+  "inline-flex min-h-11 min-w-11 items-center text-sm text-slate-400 transition-colors hover:text-sky-300";
 
 export default function Footer() {
   return (
@@ -34,7 +36,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/"
-                  className="text-sm text-slate-400 transition-colors hover:text-sky-300"
+                  className={footerLinkClassName}
                 >
                   홈
                 </Link>
@@ -42,7 +44,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/events"
-                  className="text-sm text-slate-400 transition-colors hover:text-sky-300"
+                  className={footerLinkClassName}
                 >
                   행사/축제
                 </Link>
@@ -50,7 +52,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/benefits"
-                  className="text-sm text-slate-400 transition-colors hover:text-sky-300"
+                  className={footerLinkClassName}
                 >
                   지원금/혜택
                 </Link>
@@ -58,7 +60,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/blog"
-                  className="text-sm text-slate-400 transition-colors hover:text-sky-300"
+                  className={footerLinkClassName}
                 >
                   블로그
                 </Link>
@@ -66,7 +68,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/search"
-                  className="text-sm text-slate-400 transition-colors hover:text-sky-300"
+                  className={footerLinkClassName}
                 >
                   통합 검색
                 </Link>
@@ -81,7 +83,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/notice"
-                  className="text-sm text-slate-400 transition-colors hover:text-sky-300"
+                  className={footerLinkClassName}
                 >
                   서비스 안내
                 </Link>
@@ -89,7 +91,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/privacy"
-                  className="text-sm text-slate-400 transition-colors hover:text-sky-300"
+                  className={footerLinkClassName}
                 >
                   개인정보처리방침
                 </Link>
@@ -97,7 +99,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/disclosure"
-                  className="text-sm text-slate-400 transition-colors hover:text-sky-300"
+                  className={footerLinkClassName}
                 >
                   광고·분석 고지
                 </Link>
@@ -105,7 +107,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/contact"
-                  className="text-sm text-slate-400 transition-colors hover:text-sky-300"
+                  className={footerLinkClassName}
                 >
                   문의 및 정정 요청
                 </Link>
@@ -113,7 +115,7 @@ export default function Footer() {
               <li>
                 <a
                   href={contactEmailHref}
-                  className="text-sm text-slate-400 transition-colors hover:text-sky-300"
+                  className={footerLinkClassName}
                 >
                   {contactEmail}
                 </a>
@@ -123,7 +125,7 @@ export default function Footer() {
                   href="https://github.com/LeeSungGuk/my-local-info/issues"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm text-slate-400 transition-colors hover:text-sky-300"
+                  className={footerLinkClassName}
                 >
                   GitHub Issues
                 </a>
@@ -133,7 +135,7 @@ export default function Footer() {
                   href="https://data.seoul.go.kr"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm text-slate-400 transition-colors hover:text-sky-300"
+                  className={footerLinkClassName}
                 >
                   서울 열린데이터광장
                 </a>
@@ -143,7 +145,7 @@ export default function Footer() {
                   href="https://data.go.kr"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm text-slate-400 transition-colors hover:text-sky-300"
+                  className={footerLinkClassName}
                 >
                   공공데이터포털
                 </a>
