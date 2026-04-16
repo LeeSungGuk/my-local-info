@@ -1,9 +1,13 @@
 import Link from "next/link";
 import AdBanner from "@/components/AdBanner";
+import HomeSituationSection from "@/components/HomeSituationSection";
+import HomeRecommendedPostsSection from "@/components/HomeRecommendedPostsSection";
 import HomeEventsSection from "@/components/HomeEventsSection";
 import HomeBenefitsSection from "@/components/HomeBenefitsSection";
 import HomeSeoulSummary from "@/components/HomeSeoulSummary";
 import HomeUnifiedSearch from "@/components/HomeUnifiedSearch";
+import { getAllPosts } from "@/lib/posts";
+import { getAllSituations } from "@/lib/situations";
 import { getBenefitsIndex, getAllBenefits } from "@/lib/public-benefits";
 import { getAllEvents, getEventsIndex } from "@/lib/seoul-events";
 import { getHomeSummaryMetrics } from "@/lib/home-summary";
@@ -13,17 +17,20 @@ const siteUrl = "https://my-local-info-6ny.pages.dev";
 const homeAdSlot = process.env.NEXT_PUBLIC_ADSENSE_SLOT_HOME?.trim() ?? "";
 
 export default async function Home() {
-  const [allEvents, allBenefits, eventsIndex, benefitsIndex] = await Promise.all([
+  const [allEvents, allBenefits, eventsIndex, benefitsIndex, allPosts] = await Promise.all([
     getAllEvents(),
     getAllBenefits(),
     getEventsIndex(),
     getBenefitsIndex(),
+    Promise.resolve(getAllPosts()),
   ]);
   const featuredEvents = sortEventsByStartDate(
     filterVisibleEvents(allEvents, getTodayInSeoul())
   ).slice(0, 6);
   const featuredBenefits = allBenefits.slice(0, 4);
   const summary = getHomeSummaryMetrics(allEvents, allBenefits);
+  const situations = getAllSituations();
+  const recommendedPosts = allPosts.slice(0, 3);
   const homeStructuredData = {
     "@context": "https://schema.org",
     "@graph": [
@@ -99,25 +106,29 @@ export default async function Home() {
         <div className="relative z-10 mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-28">
           <div className="text-center">
             <span className="mb-6 inline-block rounded-full border border-white/15 bg-white/10 px-4 py-1.5 text-sm font-medium shadow-sm backdrop-blur-sm">
-              🌙 서울 로컬 생활 가이드
+              서울 상황별 나들이 가이드
             </span>
             <h1 className="mb-6 text-3xl font-extrabold leading-tight tracking-tight sm:text-5xl">
-              서울의 행사와 생활 정보를
+              검색 여러 번 하지 않아도
               <br />
-              <span className="text-cyan-100">한눈에 확인하세요</span>
+              <span className="text-cyan-100">서울 나들이 코스를 고를 수 있게</span>
             </h1>
             <p className="mx-auto max-w-2xl text-lg leading-relaxed text-sky-50 sm:text-xl">
-              오늘의 서울을 조금 더 가볍고 선명하게 만날 수 있도록,
+              아이와, 비 오는 날, 무료·저비용처럼 실제 고민에서 출발해
               <br />
-              일상에 닿는 행사와 혜택을 한곳에 담았습니다.
+              공식 확인 링크와 함께 서울 코스를 고를 수 있게 돕습니다.
             </p>
           </div>
         </div>
       </section>
 
-      <section className="relative z-20 mx-auto -mt-12 max-w-6xl px-4 sm:-mt-16 sm:px-6">
+      <HomeSituationSection situations={situations} />
+
+      <section className="relative z-20 mx-auto max-w-6xl px-4 pb-12 sm:px-6">
         <HomeUnifiedSearch />
       </section>
+
+      <HomeRecommendedPostsSection posts={recommendedPosts} />
 
       <HomeSeoulSummary summary={summary} />
 
