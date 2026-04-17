@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-04-17T07:48:38+09:00",
+  "lastGeneratedAt": "2026-04-18T07:48:28+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -144,9 +144,9 @@
         "서울데이트"
       ],
       "origin": "seed",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-04-15T00:00:00+09:00",
-      "usedAt": null
+      "usedAt": "2026-04-18T07:48:28+09:00"
     },
     {
       "id": "seoul-after-work-two-hour-course",
