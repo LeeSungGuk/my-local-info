@@ -69,6 +69,7 @@ jobs:
           NEXT_PUBLIC_ADSENSE_SLOT_HOME: ${{ secrets.NEXT_PUBLIC_ADSENSE_SLOT_HOME }}
           NEXT_PUBLIC_ADSENSE_SLOT_BLOG: ${{ secrets.NEXT_PUBLIC_ADSENSE_SLOT_BLOG }}
           NEXT_PUBLIC_COUPANG_PARTNER_ID: ${{ secrets.NEXT_PUBLIC_COUPANG_PARTNER_ID }}
+          NEXT_PUBLIC_GA_ID: ${{ secrets.NEXT_PUBLIC_GA_ID }}
 
       - name: Deploy to Cloudflare Pages
         run: npx wrangler pages deploy out --project-name=my-local-info
@@ -101,6 +102,7 @@ jobs:
           NEXT_PUBLIC_ADSENSE_SLOT_HOME: ${{ secrets.NEXT_PUBLIC_ADSENSE_SLOT_HOME }}
           NEXT_PUBLIC_ADSENSE_SLOT_BLOG: ${{ secrets.NEXT_PUBLIC_ADSENSE_SLOT_BLOG }}
           NEXT_PUBLIC_COUPANG_PARTNER_ID: ${{ secrets.NEXT_PUBLIC_COUPANG_PARTNER_ID }}
+          NEXT_PUBLIC_GA_ID: ${{ secrets.NEXT_PUBLIC_GA_ID }}
 
       - name: Deploy to Cloudflare Pages
         run: npx wrangler pages deploy out --project-name=my-local-info
