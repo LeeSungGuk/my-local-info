@@ -1,10 +1,8 @@
-import fs from "fs";
-import path from "path";
 import type { MetadataRoute } from "next";
 import { getAllSituations } from "@/lib/situations";
+import { getAllPosts } from "@/lib/posts";
 
 const siteUrl = "https://my-local-info-6ny.pages.dev";
-const postsDirectory = path.join(process.cwd(), "src/content/posts");
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -23,23 +21,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(),
   }));
 
-  if (!fs.existsSync(postsDirectory)) {
-    return [...staticRoutes, ...situationRoutes];
-  }
-
-  const blogRoutes: MetadataRoute.Sitemap = fs
-    .readdirSync(postsDirectory)
-    .filter((fileName) => fileName.endsWith(".md"))
-    .map((fileName) => {
-      const fullPath = path.join(postsDirectory, fileName);
-      const stats = fs.statSync(fullPath);
-      const slug = fileName.replace(/\.md$/, "");
-
-      return {
-        url: `${siteUrl}/blog/${slug}`,
-        lastModified: stats.mtime,
-      };
-    });
+  const blogRoutes: MetadataRoute.Sitemap = getAllPosts().map((post) => ({
+    url: `${siteUrl}/blog/${post.slug}`,
+    lastModified: post.updatedAt || post.date || new Date(),
+  }));
 
   return [...staticRoutes, ...situationRoutes, ...blogRoutes];
 }

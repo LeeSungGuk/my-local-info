@@ -17,9 +17,10 @@ const shouldLoadAdSenseScript = shouldRenderAdSenseScript({
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "서울시 생활 정보",
+  name: "서울 상황별 나들이 가이드",
   url: siteUrl,
-  description: "서울 시민을 위한 지역 행사, 축제, 지원금, 혜택 정보",
+  description:
+    "아이와 갈 곳, 비 오는 날, 무료·저비용 코스처럼 상황별로 서울 나들이 장소와 공식 정보를 정리합니다.",
 };
 
 const geistSans = Geist({
@@ -34,15 +35,15 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "서울시 생활 정보 | 행사·혜택·지원금 안내",
+  title: "서울 상황별 나들이 가이드 | 무료·가족·비 오는 날 코스",
   description:
-    "서울 시민을 위한 지역 행사, 축제, 지원금, 혜택 정보를 매일 업데이트합니다.",
+    "아이와 갈 곳, 비 오는 날, 무료·저비용 코스처럼 상황별로 서울 나들이 장소와 공식 정보를 정리합니다.",
   openGraph: {
-    title: "서울시 생활 정보 | 행사·혜택·지원금 안내",
+    title: "서울 상황별 나들이 가이드 | 무료·가족·비 오는 날 코스",
     description:
-      "서울 시민을 위한 지역 행사, 축제, 지원금, 혜택 정보를 매일 업데이트합니다.",
+      "아이와 갈 곳, 비 오는 날, 무료·저비용 코스처럼 상황별로 서울 나들이 장소와 공식 정보를 정리합니다.",
     url: siteUrl,
-    siteName: "서울시 생활 정보",
+    siteName: "서울 상황별 나들이 가이드",
     locale: "ko_KR",
     type: "website",
   },
