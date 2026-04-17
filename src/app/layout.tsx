@@ -4,8 +4,11 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getNormalizedAdSenseId, shouldRenderAdSenseScript } from "@/lib/adsense-config";
+import { getNormalizedGaId, shouldRenderGaScript } from "@/lib/ga-config";
 
 const siteUrl = "https://my-local-info-6ny.pages.dev";
+const gaId = getNormalizedGaId(process.env.NEXT_PUBLIC_GA_ID);
+const shouldLoadGaScript = shouldRenderGaScript(gaId);
 const adSenseId = getNormalizedAdSenseId(process.env.NEXT_PUBLIC_ADSENSE_ID);
 const shouldLoadAdSenseScript = shouldRenderAdSenseScript({
   adSenseId,
@@ -57,6 +60,24 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <head>
+        {shouldLoadGaScript ? (
+          <>
+            <script
+              async
+              src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
+            />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+window.dataLayer = window.dataLayer || [];
+function gtag(){window.dataLayer.push(arguments);}
+gtag("js", new Date());
+gtag("config", ${JSON.stringify(gaId)});
+`,
+              }}
+            />
+          </>
+        ) : null}
         {shouldLoadAdSenseScript ? (
           <script
             async
