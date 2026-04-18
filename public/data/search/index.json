@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-04-17T22:48:43.614Z",
+  "generatedAt": "2026-04-18T22:47:48.016Z",
   "counts": {
     "event": 405,
     "benefit": 1078,
-    "blog": 6
+    "blog": 7
   },
   "items": [
     {
@@ -2565,7 +2565,7 @@
       "startDate": "2026-04-04",
       "endDate": "2026-04-18",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true
     },
     {
@@ -2602,7 +2602,7 @@
       "startDate": "2026-04-04",
       "endDate": "2026-04-18",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true
     },
     {
@@ -3529,7 +3529,7 @@
       "startDate": "2026-04-08",
       "endDate": "2026-04-18",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true
     },
     {
@@ -5393,7 +5393,7 @@
       "startDate": "2026-04-11",
       "endDate": "2026-04-18",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true
     },
     {
@@ -7656,7 +7656,7 @@
       "startDate": "2026-04-17",
       "endDate": "2026-04-18",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false
     },
     {
@@ -7691,7 +7691,7 @@
       "startDate": "2026-04-17",
       "endDate": "2026-04-18",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true
     },
     {
@@ -7726,7 +7726,7 @@
       "startDate": "2026-04-17",
       "endDate": "2026-04-18",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false
     },
     {
@@ -8091,7 +8091,7 @@
       "startDate": "2026-04-18",
       "endDate": "2026-04-18",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true
     },
     {
@@ -8128,7 +8128,7 @@
       "startDate": "2026-04-18",
       "endDate": "2026-04-18",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true
     },
     {
@@ -8163,7 +8163,7 @@
       "startDate": "2026-04-18",
       "endDate": "2026-04-18",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true
     },
     {
@@ -8200,7 +8200,7 @@
       "startDate": "2026-04-18",
       "endDate": "2026-04-18",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true
     },
     {
@@ -8237,7 +8237,7 @@
       "startDate": "2026-04-18",
       "endDate": "2026-04-18",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true
     },
     {
@@ -8274,7 +8274,7 @@
       "startDate": "2026-04-18",
       "endDate": "2026-04-18",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true
     },
     {
@@ -8311,7 +8311,7 @@
       "startDate": "2026-04-18",
       "endDate": "2026-04-18",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false
     },
     {
@@ -8346,7 +8346,7 @@
       "startDate": "2026-04-18",
       "endDate": "2026-04-18",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true
     },
     {
@@ -8383,7 +8383,7 @@
       "startDate": "2026-04-18",
       "endDate": "2026-04-18",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true
     },
     {
@@ -8418,7 +8418,7 @@
       "startDate": "2026-04-18",
       "endDate": "2026-04-18",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false
     },
     {
@@ -8453,7 +8453,7 @@
       "startDate": "2026-04-18",
       "endDate": "2026-04-18",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false
     },
     {
@@ -8488,7 +8488,7 @@
       "startDate": "2026-04-18",
       "endDate": "2026-04-18",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false
     },
     {
@@ -57711,6 +57711,48 @@
       "startDate": "",
       "endDate": "",
       "updatedAt": "2026-04-18",
+      "isActive": true,
+      "isFree": false
+    },
+    {
+      "id": "2026-04-19-seoul-after-work-course",
+      "type": "blog",
+      "typeLabel": "블로그",
+      "title": "퇴근 후 2시간, 도심 속 여유를 찾는 서울 산책 코스 추천",
+      "summary": "바쁜 일상 속에서 짧은 시간 동안 서울의 야경과 분위기를 즐길 수 있는 도심형 산책 코스를 제안합니다.",
+      "category": "정보",
+      "district": "",
+      "tags": [
+        "퇴근후",
+        "서울저녁",
+        "2시간코스",
+        "직장인추천",
+        "서울산책"
+      ],
+      "keywords": [
+        "블로그",
+        "서울",
+        "퇴근 후 2시간",
+        "도심 속 여유를 찾는 서울 산책 코스 추천",
+        "바쁜 일상 속에서 짧은 시간 동안 서울의 야경과 분위기를 즐길 수 있는 도심형 산책 코스를 제안합니다.",
+        "퇴근후",
+        "서울저녁",
+        "2시간코스",
+        "직장인추천",
+        "서울산책",
+        "하루의 업무를 마치고 집으로 곧장 향하기에는 아쉬운 저녁",
+        "멀리 떠나지 않고도 서울 도심 안에서 충분한 휴식을 취할 수 있는 방법이 있습니다. 서울의 중심부는 대중교통이 편리할 뿐만 아니라 주요 명소들이 밀집해 있어 2시간 남짓한 짧은 시간으로도 알찬 코스를 구성할 수 있습니다. 삭막한 빌딩 숲 사이에서 계절의 변화를 느끼고 야경을 감상하며 하루를 마무리하기 좋은 코스를 소개합니다.",
+        "### 퇴근 후 이 코스를 추천하는 3가지 이유",
+        "첫째",
+        "접근성과 시간 효율성입니다. 오늘 소개하는 장소들은 지하철역과 인접해 있어 퇴근 후 이동 시"
+      ],
+      "href": "/blog/2026-04-19-seoul-after-work-course",
+      "provider": "서울시티",
+      "venue": "",
+      "dateLabel": "2026-04-19",
+      "startDate": "",
+      "endDate": "",
+      "updatedAt": "2026-04-19",
       "isActive": true,
       "isFree": false
     }
