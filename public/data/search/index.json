@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-04-18T22:47:48.016Z",
+  "generatedAt": "2026-04-19T22:48:05.282Z",
   "counts": {
     "event": 405,
     "benefit": 1078,
-    "blog": 7
+    "blog": 8
   },
   "items": [
     {
@@ -1249,7 +1249,7 @@
       "startDate": "2026-04-02",
       "endDate": "2026-04-19",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false
     },
     {
@@ -3566,7 +3566,7 @@
       "startDate": "2026-04-08",
       "endDate": "2026-04-19",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true
     },
     {
@@ -5942,7 +5942,7 @@
       "startDate": "2026-04-12",
       "endDate": "2026-04-19",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true
     },
     {
@@ -5980,7 +5980,7 @@
       "startDate": "2026-04-12",
       "endDate": "2026-04-19",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true
     },
     {
@@ -6345,7 +6345,7 @@
       "startDate": "2026-04-14",
       "endDate": "2026-04-19",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true
     },
     {
@@ -7761,7 +7761,7 @@
       "startDate": "2026-04-17",
       "endDate": "2026-04-19",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false
     },
     {
@@ -8525,7 +8525,7 @@
       "startDate": "2026-04-18",
       "endDate": "2026-04-19",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true
     },
     {
@@ -8560,7 +8560,7 @@
       "startDate": "2026-04-18",
       "endDate": "2026-04-19",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true
     },
     {
@@ -8595,7 +8595,7 @@
       "startDate": "2026-04-18",
       "endDate": "2026-04-19",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false
     },
     {
@@ -8630,7 +8630,7 @@
       "startDate": "2026-04-18",
       "endDate": "2026-04-19",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false
     },
     {
@@ -8776,7 +8776,7 @@
       "startDate": "2026-04-19",
       "endDate": "2026-04-19",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true
     },
     {
@@ -57753,6 +57753,49 @@
       "startDate": "",
       "endDate": "",
       "updatedAt": "2026-04-19",
+      "isActive": true,
+      "isFree": false
+    },
+    {
+      "id": "2026-04-20-seoul-solo-weekend-guide",
+      "type": "blog",
+      "typeLabel": "블로그",
+      "title": "혼자여도 충분한 주말, 서울에서 즐기는 오롯한 휴식 코스",
+      "summary": "서울 도심 속에서 타인의 시선을 신경 쓰지 않고 혼자만의 시간을 오롯이 즐길 수 있는 산책로와 문화 공간을 소개합니다.",
+      "category": "정보",
+      "district": "",
+      "tags": [
+        "혼자서울",
+        "서울혼놀",
+        "주말추천",
+        "서울산책",
+        "서울정보"
+      ],
+      "keywords": [
+        "블로그",
+        "서울",
+        "혼자여도 충분한 주말",
+        "서울에서 즐기는 오롯한 휴식 코스",
+        "서울 도심 속에서 타인의 시선을 신경 쓰지 않고 혼자만의 시간을 오롯이 즐길 수 있는 산책로와 문화 공간을 소개합니다.",
+        "혼자서울",
+        "서울혼놀",
+        "주말추천",
+        "서울산책",
+        "서울정보",
+        "📍 주말을 맞아 혼자만의 시간을 계획하고 있다면 서울만큼 매력적인 곳도 없습니다. 복잡한 도심 한복판에서도 타인의 시선을 신경 쓰지 않고 나만의 속도로 머물 수 있는 공간들이 많기 때문입니다. 이번 글에서는 혼자 움직여도 어색하지 않고",
+        "오히려 혼자일 때 그 매력이 배가되는 서울의 장소들을 묶어 소개합니다.",
+        "### 나홀로 서울 나들이를 추천하는 3가지 이유",
+        "첫째",
+        "나만의 속도를 온전히 유지할 수 있습니다. 일행과 보폭을 맞출 필요 없이 발길 닿는 대로 걷고",
+        "마음에 드는 풍경 앞에서 원하는 만큼 머무는 자유를 누릴 수 있습니다"
+      ],
+      "href": "/blog/2026-04-20-seoul-solo-weekend-guide",
+      "provider": "서울시티",
+      "venue": "",
+      "dateLabel": "2026-04-20",
+      "startDate": "",
+      "endDate": "",
+      "updatedAt": "2026-04-20",
       "isActive": true,
       "isFree": false
     }
