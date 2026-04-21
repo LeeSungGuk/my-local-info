@@ -10,17 +10,873 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-04-17T22:48:16.994Z",
+    "collectedAt": "2026-04-21T22:47:57.014Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10922,
-    "fetchedCount": 1113,
-    "activeCount": 1078,
-    "expiredCount": 35,
+    "availableCount": 10928,
+    "fetchedCount": 1111,
+    "activeCount": 1077,
+    "expiredCount": 34,
     "deduplicatedCount": 0,
     "filterMode": "서울 소관기관",
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-O00023100003",
+      "sourceId": "O00023100003",
+      "title": "청풍유스호스텔 이용요금 감면",
+      "field": "문화·환경",
+      "provider": "동대문구시설관리공단",
+      "providerType": "자치구",
+      "district": "동대문구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 청풍유스호스텔 이용료 감면(20% ~ 100%)\n\n- 동대문구 소년소녀 가장(100%)\n\n- 장애인(50%)\n\n- 기초생활보장 수급자(50%)\n\n- 국가유공자(50%)\n\n- 다둥이가족(50%)\n\n- 자원봉사자증 소지자(20%) -> 동대문구 우수자원봉사자\n\n※ 사…",
+      "summary": "동대문구시설관리공단에서 제공하는 문화·환경 혜택입니다. 취약계층, 유공자, 자원봉사자, 다둥이가정 대상 청풍유호스텔 이용요금 감면(대상별 상이)",
+      "supportType": "시설이용||현금(감면)",
+      "supportSummary": "○ 청풍유스호스텔 이용료 감면(20% ~ 100%)\n\n- 「서울특별시 동대문구 청풍유스호스텔 설치 및 운영조례」에 따른 동대문구 소년소녀 가장(100%)\n    ※ 가족실 1실에 한하며 연 2회 이내 사용가능 \n\n-「장애인복지법」에 의한 장애인복지카드를 소지한 사람(…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청",
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00023100003",
+      "onlineUrl": "https://chpungyh.co.kr/",
+      "inquiry": [
+        "동대문구시설관리공단 청풍유스호스텔/043-652-9090"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-O00023100001",
+      "sourceId": "O00023100001",
+      "title": "체육시설 이용요금 감면(동대문구체육관)",
+      "field": "문화·환경",
+      "provider": "동대문구시설관리공단",
+      "providerType": "자치구",
+      "district": "동대문구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 체육문화 프로그램 수강료 감면(5% ~ 50%)\n\n- 장애인(50%)\n\n- 국민기초생활보장 수급자(30%)\n\n- 국가유공자(50%)\n\n- 만65세 이상 어르신(20%)\n\n- 병역 명문가(20%) -> 동대문구민 대상\n\n- 우수자원봉사자(20%) -> 동대문구 우수…",
+      "summary": "동대문구시설관리공단에서 제공하는 문화·환경 혜택입니다. 취약계층, 유공자, 봉사자, 다둥이 등 체육문화 프로그램 수강료 감면(대상별 상이)",
+      "supportType": "기타(교육)||시설이용",
+      "supportSummary": "○ 체육문화 프로그램 수강료 감면(5% ~ 50%)\n\n-「장애인복지법」에 의한 장애인복지카드를 소지한 사람(50%)\n\n-「국민기초생활 보장법」에 의한 국민기초생활보장 수급자(30%)\n\n-「국가유공자 등 예우 및 지원에 관한 법률」에 의한 국가유공자(50%)\n\n-  만…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00023100001",
+      "onlineUrl": "",
+      "inquiry": [
+        "동대문구시설관리공단 체육관팀/02-2247-9611"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-305000000283",
+      "sourceId": "305000000283",
+      "title": "(국가유공자)인플루엔자 백신 및 접종 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 동대문구",
+      "providerType": "자치구",
+      "district": "동대문구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "관내 지역주민 중 국가유공자 본인",
+      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 국가유공자 인플루엔자 예방접종 지원",
+      "supportType": "서비스(의료)",
+      "supportSummary": "국가유공자 인플루엔자 예방접종",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000283",
+      "onlineUrl": "",
+      "inquiry": [
+        "건강관리과/02-2127-5194"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2025-12-09"
+    },
+    {
+      "id": "gov-benefit-305000000284",
+      "sourceId": "305000000284",
+      "title": "(기초생활수급자)인플루엔자 백신 및 접종 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 동대문구",
+      "providerType": "자치구",
+      "district": "동대문구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "14세~64세 동대문구민 중 기초생활수급자 인플루엔자 예방접종",
+      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 기초생활수급자 인플루엔자 예방접종 지원",
+      "supportType": "서비스(의료)",
+      "supportSummary": "14세~64세 동대문구민 중 기초생활수급자 인플루엔자 예방접종",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000284",
+      "onlineUrl": "",
+      "inquiry": [
+        "건강관리과/02-2127-5194"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2025-12-09"
+    },
+    {
+      "id": "gov-benefit-305000000282",
+      "sourceId": "305000000282",
+      "title": "(장애인)인플루엔자 백신 및 접종 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 동대문구",
+      "providerType": "자치구",
+      "district": "동대문구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "관내지역주민으로 14~64세 장애정도가 심한장애인(구1~3급)",
+      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 장애인 인플루엔자 예방접종 지원",
+      "supportType": "서비스(의료)",
+      "supportSummary": "장애인 인플루엔자 예방접종",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000282",
+      "onlineUrl": "",
+      "inquiry": [
+        "건강관리과/02-2127-5194"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2025-12-09"
+    },
+    {
+      "id": "gov-benefit-305000000290",
+      "sourceId": "305000000290",
+      "title": "1차진료(내과) 서비스",
+      "field": "보건·의료",
+      "provider": "서울특별시 동대문구",
+      "providerType": "자치구",
+      "district": "동대문구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "만15세 이상 전 주민",
+      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 1차진료 및 검사 지원",
+      "supportType": "서비스(의료)",
+      "supportSummary": "ㅇ만성질환, 성인병 중심 진료\n - 고혈압, 고지혈증, 당뇨 등 만성질환\n - 관절염, 요통 등에 대한 약·물리치료 처방 : 정형외과적 검사 제외\n - 급성 인후두염(감기), 소화장애 등 경증 질환 : 전문 검사 제외\n - 일반적인 임상병리 검사(혈액, 소변검사) :…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000290",
+      "onlineUrl": "",
+      "inquiry": [
+        "동대문구보건소 내과진료실/02-2127-5370",
+        "동대문구보건소 내과진료실/02-2127-5371"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2025-12-10"
+    },
+    {
+      "id": "gov-benefit-305000000293",
+      "sourceId": "305000000293",
+      "title": "구강보건서비스",
+      "field": "보건·의료",
+      "provider": "서울특별시 동대문구",
+      "providerType": "자치구",
+      "district": "동대문구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "동대문구 거주 만 4세이상 주민",
+      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 아동,청소년, 노인, 장애인 등에게 구강보건서비스 지원",
+      "supportType": "서비스(의료)",
+      "supportSummary": "ㅇ대상 : 동대문구 거주 만 4세이상 주민\nㅇ진료내용\n  - 치아홈메우기(관내 초등학생 건전한 영구치 큰 어금니)\n  - 급성 치주질환 치료\n  - 치아마모증 치료(보험재료)\n  - 초기 충치치료(보험재료)\n  - 단순발치)\n\n*진료제외 : 신경치료, 스케일링, 난발…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000293",
+      "onlineUrl": "",
+      "inquiry": [
+        "동대문구보건소 치과/02-2127-5422",
+        "동대문구보건소 치과/02-2127-5367",
+        "동대문구보건소 치과/02-2127-5362"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2025-12-10"
+    },
+    {
+      "id": "gov-benefit-305000000101",
+      "sourceId": "305000000101",
+      "title": "노인 성인용 보행기 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 동대문구",
+      "providerType": "자치구",
+      "district": "동대문구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 만65세 이상 기초생황수급(생계º의료)대상자 중 장기요양등급외 판정자 또는거동이 불편하여 성인용 보행기가 필요한 어르신",
+      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 장기요양 등급외 판정을 받은 저소득 어르신에게 보행기 지원",
+      "supportType": "현물",
+      "supportSummary": "○ 대상자에게 성인용 보행기 1대 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000101",
+      "onlineUrl": "",
+      "inquiry": [
+        "동행과/02-2127-4411"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-305000000285",
+      "sourceId": "305000000285",
+      "title": "대상포진 예방접종 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 동대문구",
+      "providerType": "자치구",
+      "district": "동대문구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "동대문구  65세 이상 기초생활수급자 및 차상위계층 중 대상포진 예방접종 미접종자",
+      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 대상포진 예방접종 1회 지원",
+      "supportType": "서비스(의료)",
+      "supportSummary": "접종일 현재 동대문구에 주민등록을 두고 있는\n65세 이상 구민 중 기초생활수급자 및 차상위계층 대상포진 예방접종 1회 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000285",
+      "onlineUrl": "",
+      "inquiry": [
+        "동대문구보건소 예방접종실/02-2127-4942"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2025-12-10"
+    },
+    {
+      "id": "gov-benefit-305000000288",
+      "sourceId": "305000000288",
+      "title": "동대문구 1인가구 청년 건강검진",
+      "field": "보건·의료",
+      "provider": "서울특별시 동대문구",
+      "providerType": "자치구",
+      "district": "동대문구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "만 19~39세 동대문구 거주 청년 1인 가구(*주민등록등본 기준)",
+      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 건강관리에 소홀하기 쉬운 청년층 1인 가구 건강검진 무료지원(동대문구에 주민등록을 둔 자)",
+      "supportType": "서비스(의료)",
+      "supportSummary": "ㅇ검진대상 : 동대문구에 주민등록이 되어있는 19~39세 1인 가구 청년\n*연나이 기준, 당해연도 국가건강검진 대상자 제외\nㅇ운영시간 : 평일 09:00~11:00\nㅇ검진비용 : 무료\nㅇ검진장소 : 동대문구보건소(접수처 : 보건소 1층 감염병진료실)\nㅇ준비사항\n  -…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000288",
+      "onlineUrl": "",
+      "inquiry": [
+        "동대문구보건소 감염병진료실/02-2127-5453"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2025-12-10"
+    },
+    {
+      "id": "gov-benefit-305000000295",
+      "sourceId": "305000000295",
+      "title": "동대문구 성병진단검사",
+      "field": "보건·의료",
+      "provider": "서울특별시 동대문구",
+      "providerType": "자치구",
+      "district": "동대문구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "검사를 희망하는 동대문구민",
+      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. HIV/AIDS 조기발견",
+      "supportType": "서비스(의료)",
+      "supportSummary": "ㅇ검진 대상 : 검사를 희망하는 동대문구민\n- 신분증 필수 지참 (주민등록증, 운전면허증, 외국인일 경우 외국인등록증-여권불가)\n- 정기검진대상자(유흥접객원 등 의무검진 대상자) 포함\n\nㅇ진료 및 검사항목\n남성 : 매독, 임질, HIV / 여성 : 매독, HIV\n\nㅇ…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000295",
+      "onlineUrl": "",
+      "inquiry": [
+        "동대문구보건소 감염병진료실/02-2127-5262",
+        "동대문구보건소 감염병진료실/02-2127-5453",
+        "동대문구보건소 감염병진료실/02-2127-5272"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2025-12-10"
+    },
+    {
+      "id": "gov-benefit-305000000297",
+      "sourceId": "305000000297",
+      "title": "동대문구 암환자 가발 구입비 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 동대문구",
+      "providerType": "자치구",
+      "district": "동대문구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "- 신청일 현재 6개월이상 동대문구에 주민등록상 주소를 두고 실제 거주하는 자\n - 보건복지부 「암환자에 대한 의료비 지원 기준 등에 관한 고시」의 지원기준에 적합한 자\n - 항암치료 중 탈모가 심하여 가발이 필요하다는 의사소견서를 제출한 자",
+      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 항암치료 과정에서 육체적 고통과 함께 탈모증세로 인하여 심한 정신적 고통을 겪고 있는 암환자에게 자존감 및 치료의지를 강화",
+      "supportType": "현금",
+      "supportSummary": "ㅇ대상 : 암환자 의료비 지원대상자 중, 항암치료에 의한 탈모로 가발이 필요한 자로서 아래 조건을 모두 만족하는 \n1) 신청일 기준 6개월 이상 서울특별시 동대문구에 주민등록을 두고 지급완료일까지 실제로 거주하는 18세 이상인 암환자\n2) 보건복지부「암환자에 대한 의…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000297",
+      "onlineUrl": "",
+      "inquiry": [
+        "보건행정과/02-2127-5139"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2025-12-10"
+    },
+    {
+      "id": "gov-benefit-305000000291",
+      "sourceId": "305000000291",
+      "title": "보건소 한방진료 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 동대문구",
+      "providerType": "자치구",
+      "district": "동대문구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "만15세 이상 전 구민",
+      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 만 15세 이상 전 구민에게 한방진료 제공",
+      "supportType": "서비스(의료)",
+      "supportSummary": "ㅇ진료내용 : 한방건강상담 및 한방보험약제 처방 침, 부항 등 한방요법 진료\n  * 보험에 해당하지 않는 첩약 처방, 조제는 진료내용 범위에 포함되지 않음\nㅇ진료시간 : 매주 월요일 ~ 금요일(오전 9시~오후 6시)\nㅇ대상 : 만 15세이상 전 주민\nㅇ무료진료 : 만…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000291",
+      "onlineUrl": "",
+      "inquiry": [
+        "동대문구보건소 한방과/02-2127-5375"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2025-12-10"
+    },
+    {
+      "id": "gov-benefit-305000000292",
+      "sourceId": "305000000292",
+      "title": "보제원 한방이동진료실 운영",
+      "field": "보건·의료",
+      "provider": "서울특별시 동대문구",
+      "providerType": "자치구",
+      "district": "동대문구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "무료진료 : 만 65세 이상 서울시민 및 의료급여수급권자,장애인 1~3급, 국가유공자 본인 등.\n무료상담 : 일반 내 · 외국인 누구나 가능",
+      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 한방진료 및 상담 지원",
+      "supportType": "서비스(의료)",
+      "supportSummary": "ㅇ진료내용 : 한방건강상담 및 한방보험약제 처방 침, 부항 등 한방요법 진료\nㅇ진료시간 : 매주 화요일~토요일(오전 9시~오후 6시)\nㅇ대상\n  - 무료진료 : 만 65세 이상 서울시민 및 의료급여수급권자,장애인 1~3급, 국가유공자 본인 등.\n  - 무료상담 : 일…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000292",
+      "onlineUrl": "",
+      "inquiry": [
+        "보제원 한방이동진료실/02-969-9242"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2025-12-10"
+    },
+    {
+      "id": "gov-benefit-305000000277",
+      "sourceId": "305000000277",
+      "title": "한의약 치매 건강증진사업",
+      "field": "보건·의료",
+      "provider": "서울특별시 동대문구",
+      "providerType": "자치구",
+      "district": "동대문구",
+      "userType": "개인",
+      "deadlineText": "2025년 대상자 모집 마감",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "동대문구민 60세 이상 참여 희망자 ※ 단, 치매환자 및 치매안심센터 서비스 이용자 제외",
+      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 어르신 대상으로 치매 및 뇌혈관질환 등을 예방하기 위해 한의학적 기술을 사용하여 건강생활 습관 유지 및 행복한 노년생활 향상에 도모하고자 함",
+      "supportType": "서비스(의료)",
+      "supportSummary": "? 대    상 : 동대문구민 60세 이상 참여 희망자 \n                   ※ 단, 치매환자 및 치매안심센터 서비스 이용자 제외  \n \n? 모집인원 : 45명(선착순)\n\n? 지원기준 : 선정검사 후 인지장애 위험군으로 분류된 자 \n\n? 지원내용 : 총…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "기타 온라인신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000277",
+      "onlineUrl": "https://www.ddm.go.kr/health/index.do",
+      "inquiry": [
+        "보건소 건강관리과/02-2127-4635"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2025-07-30"
+    },
+    {
+      "id": "gov-benefit-305000000287",
+      "sourceId": "305000000287",
+      "title": "B형간염 유료 예방접종 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 동대문구",
+      "providerType": "자치구",
+      "district": "동대문구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 항원항체검사 결과 음성인 자",
+      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. B형간염 예방접종을 통한 지역사회 집단면역 증진",
+      "supportType": "서비스(의료)",
+      "supportSummary": "○ 항원항체검사 결과 음성인 접종희망자를 대상으로 유료 B형간염 예방접종 제공\n\n○ 접종방법:  0~1~6개월(총3회 접종)\n\n○ 수수료 : 회당 6,900원\n ※ 접종 수수료 변동 가능",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000287",
+      "onlineUrl": "",
+      "inquiry": [
+        "동대문구보건소 예방접종실/02-2127-4942"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2025-12-10"
+    },
+    {
+      "id": "gov-benefit-305000000152",
+      "sourceId": "305000000152",
+      "title": "대학생 학습멘토링 프로그램 운영",
+      "field": "보육·교육",
+      "provider": "서울특별시 동대문구",
+      "providerType": "자치구",
+      "district": "동대문구",
+      "userType": "개인",
+      "deadlineText": "3,  9월 모집",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○  관내 초중고, 지역아동센터 및 우리동네키움센터 소속 학생\n - 모집 기간 중 관내 초중고, 지역아동센터 및 키움센터의 추천을 통한 학생 모집",
+      "summary": "서울특별시 동대문구에서 제공하는 보육·교육 혜택입니다. ○ 대학 재학생과 관내 초중고생, 관내 지역아동센터 및 우리동네 키움센터를 연계하여 학습 서비스 제공\n  -  상반기,  하반기 연 2회 운영",
+      "supportType": "기타(교육)",
+      "supportSummary": "○ 대학 재학생과 관내 초중고생, 관내 지역아동센터 및 우리동네 키움센터를 연계하여 학습 서비스 제공\n  -  상반기,  하반기 연 2회 운영",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000152",
+      "onlineUrl": "",
+      "inquiry": [
+        "동대문구청 교육지원과/02-2127-5199"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2022-07-22"
+    },
+    {
+      "id": "gov-benefit-O00023100004",
+      "sourceId": "O00023100004",
+      "title": "독서실 이용료 면제 및 감면(동대문구시설관리공단)",
+      "field": "보육·교육",
+      "provider": "동대문구시설관리공단",
+      "providerType": "자치구",
+      "district": "동대문구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 독서실 사용료 면제(100%) 및 사물함 사용료 감면(50%)\n\n - 저소득 가정의 청소년\n\n - 국가유공자 가정의 청소년\n\n - 5.18민주유공자 가정의 청소년\n\n - 저소득 한부모가족의 청소년\n\n - 아동복지법에 따라 소년,소녀 가정으로 선정된 사람\n\n - 사…",
+      "summary": "동대문구시설관리공단에서 제공하는 보육·교육 혜택입니다. 사회적 취약계층 청소년 대상 구립 청소년독서실 사용료 감면",
+      "supportType": "시설이용||현금(감면)",
+      "supportSummary": "○ 청소년독서실 사용료 면제(100%) 및 감면(사물함 사용료 50%) \n\n - 「국민기초생활 보장법」에 따른 저소득 가정의 청소년\n\n - 「국가유공자 등 예우 및 지원에 관한 법률」에 따른 국가유공자 가정의 청소년\n\n - 「5.18민주유공자예우에 관한법률」에 따른…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00023100004",
+      "onlineUrl": "",
+      "inquiry": [
+        "동대문구시설관리공단 공공사업팀/02-6925-2275"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-305000000296",
+      "sourceId": "305000000296",
+      "title": "인터넷 수능방송 지원(강남인강)",
+      "field": "보육·교육",
+      "provider": "서울특별시 동대문구",
+      "providerType": "자치구",
+      "district": "동대문구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "동대문구 거주 또는 동대문구 소재 학교 재학중인 중고등학생",
+      "summary": "서울특별시 동대문구에서 제공하는 보육·교육 혜택입니다. 강남구 인터넷 수능방송(강남인강) 이용 지원",
+      "supportType": "기타(교육)||이용권",
+      "supportSummary": "강남구 인터넷 수능방송[강남인강] 1년 수강료 일부 지원\n - 취약계층 : 연 가입비 전액 지원\n(수급자, 차상위계층, 장애인, 한부모가족, 유공자, 하교밖청소년, 북한이탈주민 등)\n - 일반 : 연 가입비 중 일부 지원  ※ 학생 자부담금 : 10,000원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000296",
+      "onlineUrl": "",
+      "inquiry": [
+        "교육정책과/02-2127-5199"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2025-12-10"
+    },
+    {
+      "id": "gov-benefit-305000000173",
+      "sourceId": "305000000173",
+      "title": "저소득층 아동 체험행사",
+      "field": "보육·교육",
+      "provider": "서울특별시 동대문구",
+      "providerType": "자치구",
+      "district": "동대문구",
+      "userType": "개인",
+      "deadlineText": "유선 문의",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○「국민기초생활보장법」에 의한 국민기초생활보장 수급자 및 차상위 계층 가정의 아동(만 6~18세 미만)\n\n○「한부모복지법」에 의한 저소득 한부모 가정의 아동(만 6~18세 미만)",
+      "summary": "서울특별시 동대문구에서 제공하는 보육·교육 혜택입니다. 관내 저소득층 아동을 대상으로 다양한 체험행사 실시",
+      "supportType": "기타",
+      "supportSummary": "○ 저소득층 아동 체험행사\n    - 관내 저소득층  아동을 대상으로 다양한 체험행사 실시",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000173",
+      "onlineUrl": "",
+      "inquiry": [
+        "동대문구청 아동청소년과/02-2127-4404"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2023-02-13"
+    },
+    {
+      "id": "gov-benefit-305000000129",
+      "sourceId": "305000000129",
+      "title": "다문화 자녀 문화예술 프로그램",
+      "field": "생활안정",
+      "provider": "서울특별시 동대문구",
+      "providerType": "자치구",
+      "district": "동대문구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "다문화자녀 오케스트라 (다문화가족 자녀 15명 내외)\n\n다문화가족 자녀 연극단 '어울마당' (다문화가족 자녀 15명 내외 )",
+      "summary": "서울특별시 동대문구에서 제공하는 생활안정 혜택입니다. 다문화가족 청소년에게 문화 예술 활동기회를 제공하여 다문화 청소년들의 사회성향상과 성장도모",
+      "supportType": "기타",
+      "supportSummary": "다문화가족 자녀 오케스트라 ‘심포니 오브 주니어’\n- 다문화가족 자녀 15명 내외 대상 음악교육 진행\n- 비다문화가족 청소년 악기 멘토 자원봉사자 모집\n- 강사 및 자원봉사자 간담회 및 위촉식 1회 진행\n- 참여자 오디션 및 인터뷰 1회 진행\n- 참여자 오리엔테이션…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "기타 온라인신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000129",
+      "onlineUrl": "https://ddmhfc.familynet.or.kr/center/index.do",
+      "inquiry": [
+        "출산다문화팀/02-2127-5083"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2022-05-23"
+    },
+    {
+      "id": "gov-benefit-O00021500002",
+      "sourceId": "O00021500002",
+      "title": "서울교통공사 조례시설물 우선 임대지원",
+      "field": "고용·창업",
+      "provider": "서울교통공사",
+      "providerType": "서울 공공기관",
+      "district": "서울특별시",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "장애인, 65세이상 노인, 한부모가족의 모 또는 부, 독립．국가유공자 및 유가족, 북한이탈주민 중 국민기초생활보장법에 의한 수급자 및 미과세 대상자",
+      "summary": "서울교통공사에서 제공하는 고용·창업 혜택입니다. 1~8호선 역구내 조례대상시설물 임대차 계약 우선자격 부여",
+      "supportType": "기타",
+      "supportSummary": "『서울시 공공시설내의 매점 및 식음료용 자동판매기 설치 계약에 관한 조례』에 의거, 서울시에 주민등록되어 있는 장애인, 노인, 한부모가족의 모 또는 부, 독립, 국가유공자 및 유가족, 북한이탈주민 중 기초생활수급자 및 미과세 대상자에게 1~8호선 역구내 조례대상시설물…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00021500002",
+      "onlineUrl": "www.seoulmetro.co.kr",
+      "inquiry": [
+        "부대사업처/02-6311-9296"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-O00021500001",
+      "sourceId": "O00021500001",
+      "title": "기관사 체험 행사",
+      "field": "보육·교육",
+      "provider": "서울교통공사",
+      "providerType": "서울 공공기관",
+      "district": "서울특별시",
+      "userType": "개인",
+      "deadlineText": "매년 내부사정에 따라 상이(행사 약 3주전 공고 , 일주일 이내 신청접수)",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "초등학생 이상 청소년 및 일반인",
+      "summary": "서울교통공사에서 제공하는 보육·교육 혜택입니다. 초등학생 이상 시민에게 기관사 일일 체험행사",
+      "supportType": "기타",
+      "supportSummary": "○ 일일 지하철 기관사 체험 \n - 전동차 모의운전연습기를 활용한 안전교육 및 체험\n - 서울지하철 임시열차 운행을 통해 참가시민 대상 기관사 업무 및 객실 방송 체험",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00021500001",
+      "onlineUrl": "http://www.seoulmetro.co.kr",
+      "inquiry": [
+        "서울교통공사 승무지원처/02-6311-9678"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-611000000111",
+      "sourceId": "611000000111",
+      "title": "저소득층 스포츠 영재 지원",
+      "field": "보육·교육",
+      "provider": "서울특별시",
+      "providerType": "서울시",
+      "district": "서울특별시",
+      "userType": "개인",
+      "deadlineText": "서울시체육회 공고절차에 따라 신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 초중고 저득득층선수(기초수급자, 차상위계층, 저소득 한무모, 소년소녀가장, 장애가정, 다문화 가정 선수 등)",
+      "summary": "서울특별시에서 제공하는 보육·교육 혜택입니다. 저소득층 학생선수에게 장학금 지원",
+      "supportType": "현금(장학금)",
+      "supportSummary": "○ 저소득층 학생선수 장학금 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "신청불필요"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000111",
+      "onlineUrl": "",
+      "inquiry": [
+        "체육정책과/02-120"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-O00021500004",
+      "sourceId": "O00021500004",
+      "title": "차량사업소 견학",
+      "field": "보육·교육",
+      "provider": "서울교통공사",
+      "providerType": "서울 공공기관",
+      "district": "서울특별시",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 차량사업소 견학을 희망하는 자\n - 어린이 및 중·고생, 성인 및 유관기간 등",
+      "summary": "서울교통공사에서 제공하는 보육·교육 혜택입니다. 신청한 국민에게 차량사업소 견학 프로그램 제공 및 안전설비 설명",
+      "supportType": "시설이용",
+      "supportSummary": "○ 전동차에 대해 궁금한 시민들에게 차량사업소 견학 프로그램 제공 및 전동차 안전설비 설명\n - 차량사업소 시설현황 및 업무 안내\n - 전동차 시스템/기기 설명 등 \n - 차량사업소 경/중정비 현장 견학\n - 비상시 행동요령(열차 출입문 개폐방법 및 소화기 사용방법…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00021500004",
+      "onlineUrl": "https://seoulmetro.co.kr",
+      "inquiry": [
+        "차량운영처/02-6311-9662"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-611000019617",
+      "sourceId": "611000019617",
+      "title": "서울 청년 마음건강 지원 사업",
+      "field": "보호·돌봄",
+      "provider": "서울특별시",
+      "providerType": "서울시",
+      "district": "서울특별시",
+      "userType": "개인",
+      "deadlineText": "분기별 모집(1월, 3월, 7월, 9월)",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "서울시 거주 만 19세~39세 청년\n('26년 기준 : 1986년생~2007년생)",
+      "summary": "서울특별시에서 제공하는 보호·돌봄 혜택입니다. 우울·불안 등 다양한 정서적 어려움을 겪는 청년을 대상으로 유형별 맞춤 서비스 제공과 체계적 사후 관리 지원을 통하여 청년 마음건강 증진을 도모하고자 함",
+      "supportType": "기타(상담)",
+      "supportSummary": "ㅇ 1:1 심층 심리상담 (최대 6회) + 유형별 사후관리 지원\n   － (마음검진) 사전 심리검사(2종) 및 심층상담을 통한 마음상태 유형 분류\n   － (자기이해상담) 유형군별 1:1 맞춤 상담 지원(최대 6회)\n   － (사후관리) 유형군별 상담 후속 프로그램…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000019617",
+      "onlineUrl": "https://youth.seoul.go.kr/mainA.do",
+      "inquiry": [
+        "서울시 청년사업담당관/02-2133-4329",
+        "서울광역청년센터/02-6358-0641"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2025-07-02"
+    },
+    {
+      "id": "gov-benefit-611000000145",
+      "sourceId": "611000000145",
+      "title": "저소득어르신급식지원",
+      "field": "생활안정",
+      "provider": "서울특별시",
+      "providerType": "서울시",
+      "district": "서울특별시",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 만 60세 이상 결식우려 기초생활수급자 및 저소득 어르신(경로식당)\n○ 만 65세 이상 결식우려 기초생활수급자 및 저소득 어르신(도시락배달, 밑반찬배달)",
+      "summary": "서울특별시에서 제공하는 생활안정 혜택입니다. 거동불편, 경제적 어려움 등으로 결식우려가 있는 어르신에게 무료급식을 지원하여 기본적인 영양 보장",
+      "supportType": "현금(감면)",
+      "supportSummary": "○ 저소득 어르신 급식지원사업\n\n○ 지원대상 : 만 60세 이상 결식우려 기초생활수급자 및 저소득 어르신\n - 경로식당 만 60세 이상\n - 도시락∙밑반찬배달 만 65세 이상\n\n○ 지원내용 : 주중 경로식당 이용, 도시락배달, 밑반찬배달",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000145",
+      "onlineUrl": "",
+      "inquiry": [
+        "다산콜센터/02-120"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-611000019624",
+      "sourceId": "611000019624",
+      "title": "자녀출산 무주택가구 주거비 지원",
+      "field": "임신·출산",
+      "provider": "서울특별시",
+      "providerType": "서울시",
+      "district": "서울특별시",
+      "userType": "가구",
+      "deadlineText": "'26.2.2.~6.30.(상반기) ※하반기는 7월 별도 공고 예정",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "➊ 기본 자격요건\n ㅇ (신청가구)  서울시 거주 무주택 출산(입양)가구의 부 또는 모\n       ※ 부 또는 모 중 한 명 이상은 대한민국 국민이어야 함\n    ① 2025.1.1.이후 출산가구  (입양아는 신청일 기준 출생일로부터 48개월 이하인 아동)…",
+      "summary": "서울특별시에서 제공하는 임신·출산 혜택입니다. 수도권 대비 주거비가 높은 서울에서 자녀를 출산한 가구에 주거비를 지원하여 경제적 부담을 완화하고 ‘안정적인 서울살이’를 지원",
+      "supportType": "현금",
+      "supportSummary": "ㅇ 지원대상 : 서울시 거주 자녀 출산(입양) 무주택 가구(2025.1.1.이후 출산)\n ㅇ 지원단위 : 출산 가구당 지원 \n ㅇ 지원내용 : 월 최대 30만원 주거비 지원(2년간 최대 720만원)\n  - 전세(임차)보증금 대출 이자 또는 월세 납부에 대해 월 최대…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000019624",
+      "onlineUrl": "https://umppa.seoul.go.kr/hmpg/sprt/bzin/bzmgComtDetail.do?biz_mng_no=197DA8F773AAE8DCE063A6022162FF67",
+      "inquiry": [
+        "서울시 여성가족재단/1533-1465",
+        "서울시 120다산콜/02-120"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2025-07-14"
+    },
+    {
+      "id": "gov-benefit-611000019637",
+      "sourceId": "611000019637",
+      "title": "새빛주택 지원사업",
+      "field": "주거·자립",
+      "provider": "서울특별시",
+      "providerType": "서울시",
+      "district": "서울특별시",
+      "userType": "개인",
+      "deadlineText": "공고일 ~ 9. 30.(화) ※ 단, 차열도장은 8.29.까지",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 대상주택 :「건축법」에 따른 사용 승인 후 15년 이상 경과하고 공시 가격이  3 억원 이하인 서울 소재 주택\n\n○ 신청자격 : 주택 소유자 또는 소유자의 위임을 받은 임차인 - 세입자 신청 시 4년 이상 주거 보장(주택임대차 보장 상생 협약서 징구)",
+      "summary": "서울특별시에서 제공하는 주거·자립 혜택입니다. 노후 주택의 온실가스 배출량을 감소와 거주 시민의 에너지 비용 부담 완화",
+      "supportType": "현금",
+      "supportSummary": "○ 창호․조명 : 에너지 효율 개선 순 공사비의 70%이내 지원(최대 5백만 원)\n\n※ 기초생활수급자, 차상위계층 거주 주택 순 공사비의 90% 우선 지원\n\n※ 단독․다가구 최대 5백만 원/다세대․아파트 최대 3백만 원\n\n○ 차열도장 : 주택 옥상, 지붕, 외벽에 차…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000019637",
+      "onlineUrl": "https://brp.eseoul.go.kr/FUND/A_01_01_000.aspx",
+      "inquiry": [
+        "서울시 저탄소건물지원센터/02-2133-1192",
+        "서울시 저탄소건물지원센터/02-2133-1193",
+        "서울시 저탄소건물지원센터/02-2133-9700"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2025-09-22"
+    },
+    {
+      "id": "gov-benefit-O00023700003",
+      "sourceId": "O00023700003",
+      "title": "산모건강증진센터 산후조리원 이용료 감면",
+      "field": "임신·출산",
+      "provider": "서울특별시 송파구",
+      "providerType": "자치구",
+      "district": "송파구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "전국 산모 및 신생아(송파구민 1순위)",
+      "summary": "서울특별시 송파구에서 제공하는 임신·출산 혜택입니다. 사회적 취약계층에게 산후조리원 이용요금 감면(대상별 상이)",
+      "supportType": "현금(감면)",
+      "supportSummary": "○ 이용료 감면\n - 「국민기초생활보장법」에 따른국민기초생활수급자 또는 차상위 계층-해당 이용료의 30%감면\n - 셋째아 이상을 출산한 산모-해당 이용료의 30%감면\n - 「장애인복지법」에 따른장애정도가 심한 장애에 해당하는 사람 -해당 이용료의 20%감면\n - 「국…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00023700003",
+      "onlineUrl": "https://www.songpamom.or.kr/",
+      "inquiry": [
+        "생애건강과/02-2147-5144"
+      ],
+      "updatedAt": "2026-04-21",
+      "registeredAt": "2022-07-15"
+    },
     {
       "id": "gov-benefit-315000000289",
       "sourceId": "315000000289",
@@ -476,34 +1332,6 @@
       ],
       "updatedAt": "2026-04-03",
       "registeredAt": "2025-12-22"
-    },
-    {
-      "id": "gov-benefit-O00023700003",
-      "sourceId": "O00023700003",
-      "title": "산모건강증진센터 산후조리원 이용료 감면",
-      "field": "임신·출산",
-      "provider": "서울특별시 송파구",
-      "providerType": "자치구",
-      "district": "송파구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "전국 산모 및 신생아(송파구민 1순위)",
-      "summary": "서울특별시 송파구에서 제공하는 임신·출산 혜택입니다. 사회적 취약계층에게 산후조리원 이용요금 감면(대상별 상이)",
-      "supportType": "현금(감면)",
-      "supportSummary": "○ 이용료 감면\n - 「국민기초생활보장법」에 따른국민기초생활수급자 또는 차상위 계층-해당 이용료의 30%감면\n - 셋째아 이상을 출산한 산모-해당 이용료의 30%감면\n - 「장애인복지법」에 따른장애정도가 심한 장애에 해당하는 사람 -해당 이용료의 20%감면\n - 「국…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00023700003",
-      "onlineUrl": "https://www.songpamom.or.kr/",
-      "inquiry": [
-        "생애건강과/02-2147-5144"
-      ],
-      "updatedAt": "2026-04-02",
-      "registeredAt": "2022-07-15"
     },
     {
       "id": "gov-benefit-322000000113",
@@ -3459,66 +4287,6 @@
       "registeredAt": "2022-07-15"
     },
     {
-      "id": "gov-benefit-305000000277",
-      "sourceId": "305000000277",
-      "title": "한의약 치매 건강증진사업",
-      "field": "보건·의료",
-      "provider": "서울특별시 동대문구",
-      "providerType": "자치구",
-      "district": "동대문구",
-      "userType": "개인",
-      "deadlineText": "2025년 대상자 모집 마감",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "동대문구민 60세 이상 참여 희망자 ※ 단, 치매환자 및 치매안심센터 서비스 이용자 제외",
-      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 어르신 대상으로 치매 및 뇌혈관질환 등을 예방하기 위해 한의학적 기술을 사용하여 건강생활 습관 유지 및 행복한 노년생활 향상에 도모하고자 함",
-      "supportType": "서비스(의료)",
-      "supportSummary": "? 대    상 : 동대문구민 60세 이상 참여 희망자 \n                   ※ 단, 치매환자 및 치매안심센터 서비스 이용자 제외  \n \n? 모집인원 : 45명(선착순)\n\n? 지원기준 : 선정검사 후 인지장애 위험군으로 분류된 자 \n\n? 지원내용 : 총…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "기타 온라인신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000277",
-      "onlineUrl": "https://www.ddm.go.kr/health/index.do",
-      "inquiry": [
-        "보건소 건강관리과/02-2127-4635"
-      ],
-      "updatedAt": "2026-03-05",
-      "registeredAt": "2025-07-30"
-    },
-    {
-      "id": "gov-benefit-305000000129",
-      "sourceId": "305000000129",
-      "title": "다문화 자녀 문화예술 프로그램",
-      "field": "생활안정",
-      "provider": "서울특별시 동대문구",
-      "providerType": "자치구",
-      "district": "동대문구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "다문화자녀 오케스트라 (다문화가족 자녀 15명 내외)\n\n다문화가족 자녀 연극단 '어울마당' (다문화가족 자녀 15명 내외 )",
-      "summary": "서울특별시 동대문구에서 제공하는 생활안정 혜택입니다. 다문화가족 청소년에게 문화 예술 활동기회를 제공하여 다문화 청소년들의 사회성향상과 성장도모",
-      "supportType": "기타",
-      "supportSummary": "다문화가족 자녀 오케스트라 ‘심포니 오브 주니어’\n- 다문화가족 자녀 15명 내외 대상 음악교육 진행\n- 비다문화가족 청소년 악기 멘토 자원봉사자 모집\n- 강사 및 자원봉사자 간담회 및 위촉식 1회 진행\n- 참여자 오디션 및 인터뷰 1회 진행\n- 참여자 오리엔테이션…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "기타 온라인신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000129",
-      "onlineUrl": "https://ddmhfc.familynet.or.kr/center/index.do",
-      "inquiry": [
-        "출산다문화팀/02-2127-5083"
-      ],
-      "updatedAt": "2026-03-05",
-      "registeredAt": "2022-05-23"
-    },
-    {
       "id": "gov-benefit-321000000105",
       "sourceId": "321000000105",
       "title": "취약계층 인플루엔자 예방접종 지원",
@@ -3966,35 +4734,6 @@
       ],
       "updatedAt": "2026-03-05",
       "registeredAt": "2024-08-06"
-    },
-    {
-      "id": "gov-benefit-320000000116",
-      "sourceId": "320000000116",
-      "title": "장애인가정 양육지원금 지급",
-      "field": "보호·돌봄",
-      "provider": "서울특별시 관악구",
-      "providerType": "자치구",
-      "district": "관악구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "여성장애인 또는 남성장애인의 배우자가 2022년 1월 1일 이후 출산한 만 7세 미만의 아동을 양육하면서 신청일 기준 1년 전부터 관악구에 주민등록을 두고 거주하는 자",
-      "summary": "서울특별시 관악구에서 제공하는 보호·돌봄 혜택입니다. 장애인가정 양육지원금 지급",
-      "supportType": "현금",
-      "supportSummary": "○ 장애인가정 양육지원금 지급\n - 지원대상 : 여성장애인 또는 남성장애인의 배우자가 2022년 1월 1일 이후, 출산한 만 7세 미만의 아동을 양육하면서 신청일 기준 1년 전부터 현재까지 관악구에 주민등록을 두고 거주하는 자\n - 지원금액 : 매월 10만원 지급(1…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000116",
-      "onlineUrl": "",
-      "inquiry": [
-        "관악구 장애인복지과/02-879-6021"
-      ],
-      "updatedAt": "2026-03-04",
-      "registeredAt": "2023-08-23"
     },
     {
       "id": "gov-benefit-312000000107",
@@ -4619,90 +5358,6 @@
       "onlineUrl": "",
       "inquiry": [
         "복지정책과/02-2116-3664"
-      ],
-      "updatedAt": "2026-02-26",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-305000000101",
-      "sourceId": "305000000101",
-      "title": "노인 성인용 보행기 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 동대문구",
-      "providerType": "자치구",
-      "district": "동대문구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 만65세 이상 기초생황수급(생계º의료)대상자 중 장기요양등급외 판정자 또는거동이 불편하여 성인용 보행기가 필요한 어르신",
-      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 장기요양 등급외 판정을 받은 저소득 어르신에게 보행기 지원",
-      "supportType": "현물",
-      "supportSummary": "○ 대상자에게 성인용 보행기 1대 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000101",
-      "onlineUrl": "",
-      "inquiry": [
-        "동행과/02-2127-4411"
-      ],
-      "updatedAt": "2026-02-26",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-305000000173",
-      "sourceId": "305000000173",
-      "title": "저소득층 아동 체험행사",
-      "field": "보육·교육",
-      "provider": "서울특별시 동대문구",
-      "providerType": "자치구",
-      "district": "동대문구",
-      "userType": "개인",
-      "deadlineText": "유선 문의",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○「국민기초생활보장법」에 의한 국민기초생활보장 수급자 및 차상위 계층 가정의 아동(만 6~18세 미만)\n\n○「한부모복지법」에 의한 저소득 한부모 가정의 아동(만 6~18세 미만)",
-      "summary": "서울특별시 동대문구에서 제공하는 보육·교육 혜택입니다. 관내 저소득층 아동을 대상으로 다양한 체험행사 실시",
-      "supportType": "기타",
-      "supportSummary": "○ 저소득층 아동 체험행사\n    - 관내 저소득층  아동을 대상으로 다양한 체험행사 실시",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000173",
-      "onlineUrl": "",
-      "inquiry": [
-        "동대문구청 아동청소년과/02-2127-4404"
-      ],
-      "updatedAt": "2026-02-26",
-      "registeredAt": "2023-02-13"
-    },
-    {
-      "id": "gov-benefit-611000000145",
-      "sourceId": "611000000145",
-      "title": "저소득어르신급식지원",
-      "field": "생활안정",
-      "provider": "서울특별시",
-      "providerType": "서울시",
-      "district": "서울특별시",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 만 60세 이상 결식우려 기초생활수급자 및 저소득 어르신(경로식당)\n○ 만 65세 이상 결식우려 기초생활수급자 및 저소득 어르신(도시락배달, 밑반찬배달)",
-      "summary": "서울특별시에서 제공하는 생활안정 혜택입니다. 거동불편, 경제적 어려움 등으로 결식우려가 있는 어르신에게 무료급식을 지원하여 기본적인 영양 보장",
-      "supportType": "기타||현금(감면)",
-      "supportSummary": "○ 저소득 어르신 급식지원사업\n\n○ 지원대상 : 만 60세 이상 결식우려 기초생활수급자 및 저소득 어르신\n - 경로식당 만 60세 이상\n - 도시락∙밑반찬배달 만 65세 이상\n\n○ 지원내용 : 주중 경로식당 이용, 도시락배달, 밑반찬배달",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000145",
-      "onlineUrl": "",
-      "inquiry": [
-        "다산콜센터/02-120"
       ],
       "updatedAt": "2026-02-26",
       "registeredAt": "2021-09-23"
@@ -5866,35 +6521,6 @@
       "registeredAt": "2022-07-15"
     },
     {
-      "id": "gov-benefit-611000019624",
-      "sourceId": "611000019624",
-      "title": "자녀출산 무주택가구 주거비 지원",
-      "field": "임신·출산",
-      "provider": "서울특별시",
-      "providerType": "서울시",
-      "district": "서울특별시",
-      "userType": "가구",
-      "deadlineText": "'26.2.2.~6.30.(상반기) ※하반기는 7월 별도 공고 예정",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "➊ 기본 자격요건\n ㅇ (신청가구)  서울시 거주 무주택 출산(입양)가구의 부 또는 모\n       ※ 부 또는 모 중 한 명 이상은 대한민국 국민이어야 함\n    ① 2025.1.1.이후 출산가구  (입양아는 신청일 기준 출생일로부터 48개월 이하인 아동)…",
-      "summary": "서울특별시에서 제공하는 임신·출산 혜택입니다. 수도권 대비 주거비가 높은 서울에서 자녀를 출산한 가구에 주거비를 지원하여 경제적 부담을 완화하고 ‘안정적인 서울살이’를 지원",
-      "supportType": "현금",
-      "supportSummary": "ㅇ 지원대상 : 서울시 거주 자녀 출산(입양) 무주택 가구(2025.1.1.이후 출산)\n ㅇ 지원단위 : 출산 가구당 지원 \n ㅇ 지원내용 : 월 최대 30만원 주거비 지원(2년간 최대 720만원)\n  - 전세(임차)보증금 대출 이자 또는 월세 납부에 대해 월 최대…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000019624",
-      "onlineUrl": "https://umppa.seoul.go.kr/hmpg/sprt/bzin/bzmgComtDetail.do?biz_mng_no=197DA8F773AAE8DCE063A6022162FF67",
-      "inquiry": [
-        "서울시 여성가족재단/1533-1465",
-        "서울시 120다산콜/02-120"
-      ],
-      "updatedAt": "2026-02-24",
-      "registeredAt": "2025-07-14"
-    },
-    {
       "id": "gov-benefit-304000000130",
       "sourceId": "304000000130",
       "title": "광진형 긴급복지 지원",
@@ -6656,34 +7282,6 @@
       ],
       "updatedAt": "2026-02-10",
       "registeredAt": "2024-12-22"
-    },
-    {
-      "id": "gov-benefit-305000000152",
-      "sourceId": "305000000152",
-      "title": "대학생 학습멘토링 프로그램 운영",
-      "field": "보육·교육",
-      "provider": "서울특별시 동대문구",
-      "providerType": "자치구",
-      "district": "동대문구",
-      "userType": "개인",
-      "deadlineText": "3,  9월 모집",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○  관내 초중고, 지역아동센터 및 우리동네키움센터 소속 학생\n - 모집 기간 중 관내 초중고, 지역아동센터 및 키움센터의 추천을 통한 학생 모집",
-      "summary": "서울특별시 동대문구에서 제공하는 보육·교육 혜택입니다. ○ 대학 재학생과 관내 초중고생, 관내 지역아동센터 및 우리동네 키움센터를 연계하여 학습 서비스 제공\n  -  상반기,  하반기 연 2회 운영",
-      "supportType": "기타(교육)",
-      "supportSummary": "○ 대학 재학생과 관내 초중고생, 관내 지역아동센터 및 우리동네 키움센터를 연계하여 학습 서비스 제공\n  -  상반기,  하반기 연 2회 운영",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000152",
-      "onlineUrl": "",
-      "inquiry": [
-        "동대문구청 교육지원과/02-2127-5199"
-      ],
-      "updatedAt": "2026-02-10",
-      "registeredAt": "2022-07-22"
     },
     {
       "id": "gov-benefit-312000000108",
@@ -7589,347 +8187,6 @@
       ],
       "updatedAt": "2026-02-09",
       "registeredAt": "2024-12-22"
-    },
-    {
-      "id": "gov-benefit-305000000283",
-      "sourceId": "305000000283",
-      "title": "(국가유공자)인플루엔자 백신 및 접종 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 동대문구",
-      "providerType": "자치구",
-      "district": "동대문구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "관내 지역주민 중 국가유공자 본인",
-      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 국가유공자 인플루엔자 예방접종 지원",
-      "supportType": "서비스(의료)",
-      "supportSummary": "국가유공자 인플루엔자 예방접종",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000283",
-      "onlineUrl": "",
-      "inquiry": [
-        "건강관리과/02-2127-5194"
-      ],
-      "updatedAt": "2026-02-09",
-      "registeredAt": "2025-12-09"
-    },
-    {
-      "id": "gov-benefit-305000000284",
-      "sourceId": "305000000284",
-      "title": "(기초생활수급자)인플루엔자 백신 및 접종 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 동대문구",
-      "providerType": "자치구",
-      "district": "동대문구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "14세~64세 동대문구민 중 기초생활수급자 인플루엔자 예방접종",
-      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 기초생활수급자 인플루엔자 예방접종 지원",
-      "supportType": "서비스(의료)",
-      "supportSummary": "14세~64세 동대문구민 중 기초생활수급자 인플루엔자 예방접종",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000284",
-      "onlineUrl": "",
-      "inquiry": [
-        "건강관리과/02-2127-5194"
-      ],
-      "updatedAt": "2026-02-09",
-      "registeredAt": "2025-12-09"
-    },
-    {
-      "id": "gov-benefit-305000000282",
-      "sourceId": "305000000282",
-      "title": "(장애인)인플루엔자 백신 및 접종 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 동대문구",
-      "providerType": "자치구",
-      "district": "동대문구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "관내지역주민으로 14~64세 장애정도가 심한장애인(구1~3급)",
-      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 장애인 인플루엔자 예방접종 지원",
-      "supportType": "서비스(의료)",
-      "supportSummary": "장애인 인플루엔자 예방접종",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000282",
-      "onlineUrl": "",
-      "inquiry": [
-        "건강관리과/02-2127-5194"
-      ],
-      "updatedAt": "2026-02-09",
-      "registeredAt": "2025-12-09"
-    },
-    {
-      "id": "gov-benefit-305000000290",
-      "sourceId": "305000000290",
-      "title": "1차진료(내과) 서비스",
-      "field": "보건·의료",
-      "provider": "서울특별시 동대문구",
-      "providerType": "자치구",
-      "district": "동대문구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "만15세 이상 전 주민",
-      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 1차진료 및 검사 지원",
-      "supportType": "서비스(의료)",
-      "supportSummary": "ㅇ만성질환, 성인병 중심 진료\n - 고혈압, 고지혈증, 당뇨 등 만성질환\n - 관절염, 요통 등에 대한 약·물리치료 처방 : 정형외과적 검사 제외\n - 급성 인후두염(감기), 소화장애 등 경증 질환 : 전문 검사 제외\n - 일반적인 임상병리 검사(혈액, 소변검사) :…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000290",
-      "onlineUrl": "",
-      "inquiry": [
-        "동대문구보건소 내과진료실/02-2127-5370",
-        "동대문구보건소 내과진료실/02-2127-5371"
-      ],
-      "updatedAt": "2026-02-09",
-      "registeredAt": "2025-12-10"
-    },
-    {
-      "id": "gov-benefit-305000000293",
-      "sourceId": "305000000293",
-      "title": "구강보건서비스",
-      "field": "보건·의료",
-      "provider": "서울특별시 동대문구",
-      "providerType": "자치구",
-      "district": "동대문구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "동대문구 거주 만 4세이상 주민",
-      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 아동,청소년, 노인, 장애인 등에게 구강보건서비스 지원",
-      "supportType": "서비스(의료)",
-      "supportSummary": "ㅇ대상 : 동대문구 거주 만 4세이상 주민\nㅇ진료내용\n  - 치아홈메우기(관내 초등학생 건전한 영구치 큰 어금니)\n  - 급성 치주질환 치료\n  - 치아마모증 치료(보험재료)\n  - 초기 충치치료(보험재료)\n  - 단순발치)\n\n*진료제외 : 신경치료, 스케일링, 난발…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000293",
-      "onlineUrl": "",
-      "inquiry": [
-        "동대문구보건소 치과/02-2127-5422",
-        "동대문구보건소 치과/02-2127-5367",
-        "동대문구보건소 치과/02-2127-5362"
-      ],
-      "updatedAt": "2026-02-09",
-      "registeredAt": "2025-12-10"
-    },
-    {
-      "id": "gov-benefit-305000000285",
-      "sourceId": "305000000285",
-      "title": "대상포진 예방접종 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 동대문구",
-      "providerType": "자치구",
-      "district": "동대문구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "동대문구  65세 이상 기초생활수급자 및 차상위계층 중 대상포진 예방접종 미접종자",
-      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 대상포진 예방접종 1회 지원",
-      "supportType": "서비스(의료)",
-      "supportSummary": "접종일 현재 동대문구에 주민등록을 두고 있는\n65세 이상 구민 중 기초생활수급자 및 차상위계층 대상포진 예방접종 1회 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000285",
-      "onlineUrl": "",
-      "inquiry": [
-        "동대문구보건소 예방접종실/02-2127-4942"
-      ],
-      "updatedAt": "2026-02-09",
-      "registeredAt": "2025-12-10"
-    },
-    {
-      "id": "gov-benefit-305000000288",
-      "sourceId": "305000000288",
-      "title": "동대문구 1인가구 청년 건강검진",
-      "field": "보건·의료",
-      "provider": "서울특별시 동대문구",
-      "providerType": "자치구",
-      "district": "동대문구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "만 19~39세 동대문구 거주 청년 1인 가구(*주민등록등본 기준)",
-      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 건강관리에 소홀하기 쉬운 청년층 1인 가구 건강검진 무료지원(동대문구에 주민등록을 둔 자)",
-      "supportType": "서비스(의료)",
-      "supportSummary": "ㅇ검진대상 : 동대문구에 주민등록이 되어있는 19~39세 1인 가구 청년\n*연나이 기준, 당해연도 국가건강검진 대상자 제외\nㅇ운영시간 : 평일 09:00~11:00\nㅇ검진비용 : 무료\nㅇ검진장소 : 동대문구보건소(접수처 : 보건소 1층 감염병진료실)\nㅇ준비사항\n  -…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000288",
-      "onlineUrl": "",
-      "inquiry": [
-        "동대문구보건소 감염병진료실/02-2127-5453"
-      ],
-      "updatedAt": "2026-02-09",
-      "registeredAt": "2025-12-10"
-    },
-    {
-      "id": "gov-benefit-305000000295",
-      "sourceId": "305000000295",
-      "title": "동대문구 성병진단검사",
-      "field": "보건·의료",
-      "provider": "서울특별시 동대문구",
-      "providerType": "자치구",
-      "district": "동대문구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "검사를 희망하는 동대문구민",
-      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. HIV/AIDS 조기발견",
-      "supportType": "서비스(의료)",
-      "supportSummary": "ㅇ검진 대상 : 검사를 희망하는 동대문구민\n- 신분증 필수 지참 (주민등록증, 운전면허증, 외국인일 경우 외국인등록증-여권불가)\n- 정기검진대상자(유흥접객원 등 의무검진 대상자) 포함\n\nㅇ진료 및 검사항목\n남성 : 매독, 임질, HIV / 여성 : 매독, HIV\n\nㅇ…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000295",
-      "onlineUrl": "",
-      "inquiry": [
-        "동대문구보건소 감염병진료실/02-2127-5262",
-        "동대문구보건소 감염병진료실/02-2127-5453",
-        "동대문구보건소 감염병진료실/02-2127-5272"
-      ],
-      "updatedAt": "2026-02-09",
-      "registeredAt": "2025-12-10"
-    },
-    {
-      "id": "gov-benefit-305000000291",
-      "sourceId": "305000000291",
-      "title": "보건소 한방진료 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 동대문구",
-      "providerType": "자치구",
-      "district": "동대문구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "만15세 이상 전 구민",
-      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 만 15세 이상 전 구민에게 한방진료 제공",
-      "supportType": "서비스(의료)",
-      "supportSummary": "ㅇ진료내용 : 한방건강상담 및 한방보험약제 처방 침, 부항 등 한방요법 진료\n  * 보험에 해당하지 않는 첩약 처방, 조제는 진료내용 범위에 포함되지 않음\nㅇ진료시간 : 매주 월요일 ~ 금요일(오전 9시~오후 6시)\nㅇ대상 : 만 15세이상 전 주민\nㅇ무료진료 : 만…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000291",
-      "onlineUrl": "",
-      "inquiry": [
-        "동대문구보건소 한방과/02-2127-5375"
-      ],
-      "updatedAt": "2026-02-09",
-      "registeredAt": "2025-12-10"
-    },
-    {
-      "id": "gov-benefit-305000000292",
-      "sourceId": "305000000292",
-      "title": "보제원 한방이동진료실 운영",
-      "field": "보건·의료",
-      "provider": "서울특별시 동대문구",
-      "providerType": "자치구",
-      "district": "동대문구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "무료진료 : 만 65세 이상 서울시민 및 의료급여수급권자,장애인 1~3급, 국가유공자 본인 등.\n무료상담 : 일반 내 · 외국인 누구나 가능",
-      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 한방진료 및 상담 지원",
-      "supportType": "서비스(의료)",
-      "supportSummary": "ㅇ진료내용 : 한방건강상담 및 한방보험약제 처방 침, 부항 등 한방요법 진료\nㅇ진료시간 : 매주 화요일~토요일(오전 9시~오후 6시)\nㅇ대상\n  - 무료진료 : 만 65세 이상 서울시민 및 의료급여수급권자,장애인 1~3급, 국가유공자 본인 등.\n  - 무료상담 : 일…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000292",
-      "onlineUrl": "",
-      "inquiry": [
-        "보제원 한방이동진료실/02-969-9242"
-      ],
-      "updatedAt": "2026-02-09",
-      "registeredAt": "2025-12-10"
-    },
-    {
-      "id": "gov-benefit-305000000287",
-      "sourceId": "305000000287",
-      "title": "B형간염 유료 예방접종 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 동대문구",
-      "providerType": "자치구",
-      "district": "동대문구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 항원항체검사 결과 음성인 자",
-      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. B형간염 예방접종을 통한 지역사회 집단면역 증진",
-      "supportType": "서비스(의료)",
-      "supportSummary": "○ 항원항체검사 결과 음성인 접종희망자를 대상으로 유료 B형간염 예방접종 제공\n\n○ 접종방법:  0~1~6개월(총3회 접종)\n\n○ 수수료 : 회당 6,900원\n ※ 접종 수수료 변동 가능",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000287",
-      "onlineUrl": "",
-      "inquiry": [
-        "동대문구보건소 예방접종실/02-2127-4942"
-      ],
-      "updatedAt": "2026-02-09",
-      "registeredAt": "2025-12-10"
-    },
-    {
-      "id": "gov-benefit-305000000296",
-      "sourceId": "305000000296",
-      "title": "인터넷 수능방송 지원(강남인강)",
-      "field": "보육·교육",
-      "provider": "서울특별시 동대문구",
-      "providerType": "자치구",
-      "district": "동대문구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "동대문구 거주 또는 동대문구 소재 학교 재학중인 중고등학생",
-      "summary": "서울특별시 동대문구에서 제공하는 보육·교육 혜택입니다. 강남구 인터넷 수능방송(강남인강) 이용 지원",
-      "supportType": "기타(교육)||이용권",
-      "supportSummary": "강남구 인터넷 수능방송[강남인강] 1년 수강료 일부 지원\n - 취약계층 : 연 가입비 전액 지원\n(수급자, 차상위계층, 장애인, 한부모가족, 유공자, 하교밖청소년, 북한이탈주민 등)\n - 일반 : 연 가입비 중 일부 지원  ※ 학생 자부담금 : 10,000원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000296",
-      "onlineUrl": "",
-      "inquiry": [
-        "교육정책과/02-2127-5199"
-      ],
-      "updatedAt": "2026-02-09",
-      "registeredAt": "2025-12-10"
     },
     {
       "id": "gov-benefit-B37003100017",
@@ -8950,37 +9207,6 @@
       ],
       "updatedAt": "2026-02-06",
       "registeredAt": "2022-07-15"
-    },
-    {
-      "id": "gov-benefit-611000019637",
-      "sourceId": "611000019637",
-      "title": "새빛주택 지원사업",
-      "field": "주거·자립",
-      "provider": "서울특별시",
-      "providerType": "서울시",
-      "district": "서울특별시",
-      "userType": "개인",
-      "deadlineText": "공고일 ~ 9. 30.(화) ※ 단, 차열도장은 8.29.까지",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 대상주택 :「건축법」에 따른 사용 승인 후 15년 이상 경과하고 공시 가격이  3 억원 이하인 서울 소재 주택\n\n○ 신청자격 : 주택 소유자 또는 소유자의 위임을 받은 임차인 - 세입자 신청 시 4년 이상 주거 보장(주택임대차 보장 상생 협약서 징구)",
-      "summary": "서울특별시에서 제공하는 주거·자립 혜택입니다. 노후 주택의 온실가스 배출량을 감소와 거주 시민의 에너지 비용 부담 완화",
-      "supportType": "현금",
-      "supportSummary": "○ 창호․조명 : 에너지 효율 개선 순 공사비의 70%이내 지원(최대 5백만 원)\n\n※ 기초생활수급자, 차상위계층 거주 주택 순 공사비의 90% 우선 지원\n\n※ 단독․다가구 최대 5백만 원/다세대․아파트 최대 3백만 원\n\n○ 차열도장 : 주택 옥상, 지붕, 외벽에 차…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000019637",
-      "onlineUrl": "https://brp.eseoul.go.kr/FUND/A_01_01_000.aspx",
-      "inquiry": [
-        "서울시 저탄소건물지원센터/02-2133-1192",
-        "서울시 저탄소건물지원센터/02-2133-1193",
-        "서울시 저탄소건물지원센터/02-2133-9700"
-      ],
-      "updatedAt": "2026-02-06",
-      "registeredAt": "2025-09-22"
     },
     {
       "id": "gov-benefit-323000000115",
@@ -12349,35 +12575,6 @@
       ],
       "updatedAt": "2026-02-04",
       "registeredAt": "2022-07-15"
-    },
-    {
-      "id": "gov-benefit-611000019617",
-      "sourceId": "611000019617",
-      "title": "서울 청년 마음건강 지원 사업",
-      "field": "보호·돌봄",
-      "provider": "서울특별시",
-      "providerType": "서울시",
-      "district": "서울특별시",
-      "userType": "개인",
-      "deadlineText": "분기별 모집(1월, 4월, 6월, 9월)",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "서울시 거주 만 19세~39세 청년\n('26년 기준 : 1986년생~2007년생)",
-      "summary": "서울특별시에서 제공하는 보호·돌봄 혜택입니다. 우울·불안 등 다양한 정서적 어려움을 겪는 청년을 대상으로 유형별 맞춤 서비스 제공과 체계적 사후 관리 지원을 통하여 청년 마음건강 증진을 도모하고자 함",
-      "supportType": "기타(상담)",
-      "supportSummary": "ㅇ 1:1 심층 심리상담 (최대 6회) + 유형별 사후관리 지원\n   － (마음검진) 사전 심리검사(2종) 및 심층상담을 통한 마음상태 유형 분류\n   － (자기이해상담) 유형군별 1:1 맞춤 상담 지원(최대 6회)\n   － (사후관리) 유형군별 상담 후속 프로그램…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000019617",
-      "onlineUrl": "https://youth.seoul.go.kr/mainA.do",
-      "inquiry": [
-        "서울시 청년사업담당관/02-2133-4329",
-        "서울광역청년센터/02-6358-0641"
-      ],
-      "updatedAt": "2026-02-04",
-      "registeredAt": "2025-07-02"
     },
     {
       "id": "gov-benefit-611000000155",
@@ -22261,34 +22458,6 @@
       "registeredAt": "2022-11-28"
     },
     {
-      "id": "gov-benefit-O00021500001",
-      "sourceId": "O00021500001",
-      "title": "기관사 체험 행사",
-      "field": "보육·교육",
-      "provider": "서울교통공사",
-      "providerType": "서울 공공기관",
-      "district": "서울특별시",
-      "userType": "개인",
-      "deadlineText": "매년 내부사정에 따라 상이(행사 약 3주전 공고 , 일주일 이내 신청접수)",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "초등학생 이상 청소년 및 일반인",
-      "summary": "서울교통공사에서 제공하는 보육·교육 혜택입니다. 초등학생 이상 시민에게 기관사 일일 체험행사",
-      "supportType": "기타",
-      "supportSummary": "○ 일일 지하철 기관사 체험 \n - 전동차 모의운전연습기를 활용한 안전교육 및 체험\n - 서울지하철 임시열차 운행을 통해 참가시민 대상 기관사 업무 및 객실 방송 체험",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00021500001",
-      "onlineUrl": "http://www.seoulmetro.co.kr",
-      "inquiry": [
-        "서울교통공사 승무지원처/02-6311-9678"
-      ],
-      "updatedAt": "2026-01-28",
-      "registeredAt": "2022-07-15"
-    },
-    {
       "id": "gov-benefit-303000000323",
       "sourceId": "303000000323",
       "title": "실내공기질 측정기 대여",
@@ -25202,36 +25371,6 @@
       "registeredAt": "2022-07-14"
     },
     {
-      "id": "gov-benefit-O00023100003",
-      "sourceId": "O00023100003",
-      "title": "청풍유스호스텔 이용요금 감면",
-      "field": "문화·환경",
-      "provider": "동대문구시설관리공단",
-      "providerType": "자치구",
-      "district": "동대문구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 청풍유스호스텔 이용료 감면(20% ~ 100%)\n\n- 동대문구 소년소녀 가장(100%)\n\n- 장애인(50%)\n\n- 기초생활보장 수급자(50%)\n\n- 국가유공자(50%)\n\n- 다둥이가족(50%)\n\n- 자원봉사자증 소지자(20%) -> 동대문구 우수자원봉사자\n\n※ 사…",
-      "summary": "동대문구시설관리공단에서 제공하는 문화·환경 혜택입니다. 취약계층, 유공자, 자원봉사자, 다둥이가정 대상 청풍유호스텔 이용요금 감면(대상별 상이)",
-      "supportType": "시설이용||현금(감면)",
-      "supportSummary": "○ 청풍유스호스텔 이용료 감면(20% ~ 100%)\n\n- 「서울특별시 동대문구 청풍유스호스텔 설치 및 운영조례」에 따른 동대문구 소년소녀 가장(100%)\n    ※ 가족실 1실에 한하며 연 2회 이내 사용가능 \n\n-「장애인복지법」에 의한 장애인복지카드를 소지한 사람(…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청",
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00023100003",
-      "onlineUrl": "https://chpungyh.co.kr/",
-      "inquiry": [
-        "동대문구시설관리공단 청풍유스호스텔/043-652-9090"
-      ],
-      "updatedAt": "2026-01-26",
-      "registeredAt": "2022-07-15"
-    },
-    {
       "id": "gov-benefit-O00023100005",
       "sourceId": "O00023100005",
       "title": "체육시설 이용요금 감면(구민체육센터)",
@@ -25255,34 +25394,6 @@
       "onlineUrl": "",
       "inquiry": [
         "동대문구시설관리공단 구민체육센터/02-2247-9772"
-      ],
-      "updatedAt": "2026-01-26",
-      "registeredAt": "2022-07-15"
-    },
-    {
-      "id": "gov-benefit-O00023100001",
-      "sourceId": "O00023100001",
-      "title": "체육시설 이용요금 감면(동대문구체육관)",
-      "field": "문화·환경",
-      "provider": "동대문구시설관리공단",
-      "providerType": "자치구",
-      "district": "동대문구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 체육문화 프로그램 수강료 감면(5% ~ 50%)\n\n- 장애인(50%)\n\n- 국민기초생활보장 수급자(30%)\n\n- 국가유공자(50%)\n\n- 만65세 이상 어르신(20%)\n\n- 병역 명문가(20%) -> 동대문구민 대상\n\n- 우수자원봉사자(20%) -> 동대문구 우수…",
-      "summary": "동대문구시설관리공단에서 제공하는 문화·환경 혜택입니다. 취약계층, 유공자, 봉사자, 다둥이 등 체육문화 프로그램 수강료 감면(대상별 상이)",
-      "supportType": "기타(교육)||시설이용",
-      "supportSummary": "○ 체육문화 프로그램 수강료 감면(5% ~ 50%)\n\n-「장애인복지법」에 의한 장애인복지카드를 소지한 사람(50%)\n\n-「국민기초생활 보장법」에 의한 국민기초생활보장 수급자(30%)\n\n-「국가유공자 등 예우 및 지원에 관한 법률」에 의한 국가유공자(50%)\n\n-  만…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00023100001",
-      "onlineUrl": "",
-      "inquiry": [
-        "동대문구시설관리공단 체육관팀/02-2247-9611"
       ],
       "updatedAt": "2026-01-26",
       "registeredAt": "2022-07-15"
@@ -25399,34 +25510,6 @@
       ],
       "updatedAt": "2026-01-26",
       "registeredAt": "2022-04-21"
-    },
-    {
-      "id": "gov-benefit-305000000297",
-      "sourceId": "305000000297",
-      "title": "동대문구 암환자 가발 구입비 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 동대문구",
-      "providerType": "자치구",
-      "district": "동대문구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "- 신청일 현재 6개월이상 동대문구에 주민등록상 주소를 두고 실제 거주하는 자\n - 보건복지부 「암환자에 대한 의료비 지원 기준 등에 관한 고시」의 지원기준에 적합한 자\n - 항암치료 중 탈모가 심하여 가발이 필요하다는 의사소견서를 제출한 자",
-      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 항암치료 과정에서 육체적 고통과 함께 탈모증세로 인하여 심한 정신적 고통을 겪고 있는 암환자에게 자존감 및 치료의지를 강화",
-      "supportType": "현금",
-      "supportSummary": "ㅇ대상 : 암환자 의료비 지원대상자 중, 항암치료에 의한 탈모로 가발이 필요한 자로서 아래 조건을 모두 만족하는 \n1) 신청일 기준 6개월 이상 서울특별시 동대문구에 주민등록을 두고 지급완료일까지 실제로 거주하는 18세 이상인 암환자\n2) 보건복지부「암환자에 대한 의…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000297",
-      "onlineUrl": "",
-      "inquiry": [
-        "보건행정과/02-2127-5139"
-      ],
-      "updatedAt": "2026-01-26",
-      "registeredAt": "2025-12-10"
     },
     {
       "id": "gov-benefit-305000000163",
@@ -25570,34 +25653,6 @@
       ],
       "updatedAt": "2026-01-26",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-O00023100004",
-      "sourceId": "O00023100004",
-      "title": "독서실 이용료 면제 및 감면(동대문구시설관리공단)",
-      "field": "보육·교육",
-      "provider": "동대문구시설관리공단",
-      "providerType": "자치구",
-      "district": "동대문구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 독서실 사용료 면제(100%) 및 사물함 사용료 감면(50%)\n\n - 저소득 가정의 청소년\n\n - 국가유공자 가정의 청소년\n\n - 5.18민주유공자 가정의 청소년\n\n - 저소득 한부모가족의 청소년\n\n - 아동복지법에 따라 소년,소녀 가정으로 선정된 사람\n\n - 사…",
-      "summary": "동대문구시설관리공단에서 제공하는 보육·교육 혜택입니다. 사회적 취약계층 청소년 대상 구립 청소년독서실 사용료 감면",
-      "supportType": "시설이용||현금(감면)",
-      "supportSummary": "○ 청소년독서실 사용료 면제(100%) 및 감면(사물함 사용료 50%) \n\n - 「국민기초생활 보장법」에 따른 저소득 가정의 청소년\n\n - 「국가유공자 등 예우 및 지원에 관한 법률」에 따른 국가유공자 가정의 청소년\n\n - 「5.18민주유공자예우에 관한법률」에 따른…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00023100004",
-      "onlineUrl": "",
-      "inquiry": [
-        "동대문구시설관리공단 공공사업팀/02-6925-2275"
-      ],
-      "updatedAt": "2026-01-26",
-      "registeredAt": "2022-07-15"
     },
     {
       "id": "gov-benefit-305000000153",
@@ -28452,62 +28507,6 @@
       "registeredAt": "2022-07-12"
     },
     {
-      "id": "gov-benefit-O00021500002",
-      "sourceId": "O00021500002",
-      "title": "서울교통공사 조례시설물 우선 임대지원",
-      "field": "고용·창업",
-      "provider": "서울교통공사",
-      "providerType": "서울 공공기관",
-      "district": "서울특별시",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "장애인, 65세이상 노인, 한부모가족의 모 또는 부, 독립．국가유공자 및 유가족, 북한이탈주민 중 국민기초생활보장법에 의한 수급자 및 미과세 대상자",
-      "summary": "서울교통공사에서 제공하는 고용·창업 혜택입니다. 1~8호선 역구내 조례대상시설물 임대차 계약 우선자격 부여",
-      "supportType": "기타",
-      "supportSummary": "『서울시 공공시설내의 매점 및 식음료용 자동판매기 설치 계약에 관한 조례』에 의거, 서울시에 주민등록되어 있는 장애인, 노인, 한부모가족의 모 또는 부, 독립, 국가유공자 및 유가족, 북한이탈주민 중 기초생활수급자 및 미과세 대상자에게 1~8호선 역구내 조례대상시설물…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00021500002",
-      "onlineUrl": "www.seoulmetro.co.kr",
-      "inquiry": [
-        "부대사업처/02-6311-9296"
-      ],
-      "updatedAt": "2026-01-22",
-      "registeredAt": "2022-07-15"
-    },
-    {
-      "id": "gov-benefit-O00021500004",
-      "sourceId": "O00021500004",
-      "title": "차량사업소 견학",
-      "field": "보육·교육",
-      "provider": "서울교통공사",
-      "providerType": "서울 공공기관",
-      "district": "서울특별시",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 차량사업소 견학을 희망하는 자\n - 어린이 및 중·고생, 성인 및 유관기간 등",
-      "summary": "서울교통공사에서 제공하는 보육·교육 혜택입니다. 신청한 국민에게 차량사업소 견학 프로그램 제공 및 안전설비 설명",
-      "supportType": "시설이용",
-      "supportSummary": "○ 전동차에 대해 궁금한 시민들에게 차량사업소 견학 프로그램 제공 및 전동차 안전설비 설명\n - 차량사업소 시설현황 및 업무 안내\n - 전동차 시스템/기기 설명 등 \n - 차량사업소 경/중정비 현장 견학\n - 비상시 행동요령(열차 출입문 개폐방법 및 소화기 사용방법…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00021500004",
-      "onlineUrl": "https://seoulmetro.co.kr",
-      "inquiry": [
-        "차량운영처/02-6311-9662"
-      ],
-      "updatedAt": "2026-01-22",
-      "registeredAt": "2022-07-15"
-    },
-    {
       "id": "gov-benefit-611000000128",
       "sourceId": "611000000128",
       "title": "서울형 기초보장제도 생계급여 등 지원",
@@ -30266,34 +30265,6 @@
       "onlineUrl": "",
       "inquiry": [
         "관할 주민센터/02-120"
-      ],
-      "updatedAt": "2025-11-27",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-611000000111",
-      "sourceId": "611000000111",
-      "title": "저소득층 스포츠 영재 지원",
-      "field": "보육·교육",
-      "provider": "서울특별시",
-      "providerType": "서울시",
-      "district": "서울특별시",
-      "userType": "개인",
-      "deadlineText": "서울시체육회 공고절차에 따라 신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 초중고 저득득층선수(기초수급자, 차상위계층, 저소득 한보모, 소년소녀가장, 장애가정, 다문화 가정 선수 등)",
-      "summary": "서울특별시에서 제공하는 보육·교육 혜택입니다. 저소득층 학생선수에게 장학금 지원",
-      "supportType": "현금(장학금)",
-      "supportSummary": "○ 저소득층 학생선수 장학금 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "신청불필요"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000111",
-      "onlineUrl": "",
-      "inquiry": [
-        "체육정책과/02-120"
       ],
       "updatedAt": "2025-11-27",
       "registeredAt": "2021-09-23"

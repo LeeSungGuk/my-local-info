@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-04-21T07:49:35+09:00",
+  "lastGeneratedAt": "2026-04-22T07:48:07+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -240,9 +240,9 @@
         "서울코스"
       ],
       "origin": "seed",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-04-15T00:00:00+09:00",
-      "usedAt": null
+      "usedAt": "2026-04-22T07:48:07+09:00"
     },
     {
       "id": "seoul-palace-walk-guide",
