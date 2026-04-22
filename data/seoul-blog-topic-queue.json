@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-04-22T07:48:07+09:00",
+  "lastGeneratedAt": "2026-04-23T07:49:19+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -264,9 +264,9 @@
         "서울추천"
       ],
       "origin": "seed",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-04-15T00:00:00+09:00",
-      "usedAt": null
+      "usedAt": "2026-04-23T07:49:19+09:00"
     },
     {
       "id": "seoul-museum-day-course",
