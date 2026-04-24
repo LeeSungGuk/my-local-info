@@ -13,8 +13,9 @@ import { getBenefitsIndex, getAllBenefits } from "@/lib/public-benefits";
 import { getAllEvents, getEventsIndex } from "@/lib/seoul-events";
 import { getHomeSummaryMetrics } from "@/lib/home-summary";
 import { filterVisibleEvents, getTodayInSeoul, sortEventsByStartDate } from "@/lib/event-visibility";
+import { SITE_URL } from "@/lib/site-config";
 
-const siteUrl = "https://my-local-info-6ny.pages.dev";
+const siteUrl = SITE_URL;
 const homeAdSlot = process.env.NEXT_PUBLIC_ADSENSE_SLOT_HOME?.trim() ?? "";
 
 export default async function Home() {

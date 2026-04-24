@@ -9,8 +9,9 @@ import {
   getSituationBySlug,
   type SituationAccent,
 } from "@/lib/situations";
+import { SITE_URL } from "@/lib/site-config";
 
-const siteUrl = "https://my-local-info-6ny.pages.dev";
+const siteUrl = SITE_URL;
 
 interface PageProps {
   params: Promise<{

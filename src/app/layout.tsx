@@ -5,8 +5,9 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getNormalizedAdSenseId, shouldRenderAdSenseScript } from "@/lib/adsense-config";
 import { getNormalizedGaId, shouldRenderGaScript } from "@/lib/ga-config";
+import { SITE_URL } from "@/lib/site-config";
 
-const siteUrl = "https://my-local-info-6ny.pages.dev";
+const siteUrl = SITE_URL;
 const gaId = getNormalizedGaId(process.env.NEXT_PUBLIC_GA_ID);
 const shouldLoadGaScript = shouldRenderGaScript(gaId);
 const adSenseId = getNormalizedAdSenseId(process.env.NEXT_PUBLIC_ADSENSE_ID);

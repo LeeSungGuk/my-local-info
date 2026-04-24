@@ -1,8 +1,9 @@
 import type { MetadataRoute } from "next";
 import { getAllSituations } from "@/lib/situations";
 import { getAllPosts } from "@/lib/posts";
+import { SITE_URL } from "@/lib/site-config";
 
-const siteUrl = "https://my-local-info-6ny.pages.dev";
+const siteUrl = SITE_URL;
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {

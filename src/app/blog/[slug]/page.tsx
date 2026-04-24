@@ -6,8 +6,9 @@ import { getPostBySlug, getAllPosts } from "@/lib/posts";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { notFound } from "next/navigation";
+import { SITE_URL } from "@/lib/site-config";
 
-const siteUrl = "https://my-local-info-6ny.pages.dev";
+const siteUrl = SITE_URL;
 const siteName = "서울시 생활 정보";
 const blogAdSlot = process.env.NEXT_PUBLIC_ADSENSE_SLOT_BLOG?.trim() ?? "";
 
