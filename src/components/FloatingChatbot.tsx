@@ -13,6 +13,14 @@ type ChatMessage = {
   text: string;
 };
 
+type AdminChatMessage = {
+  id?: string | number;
+  sender?: string;
+  text?: string;
+  message?: string;
+  content?: string;
+};
+
 type FloatingChatbotProps = {
   items: ChatItem[];
 };
@@ -22,14 +30,93 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [inputValue, setInputValue] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const [isHumanMode, setIsHumanMode] = useState(false);
   const nextId = useRef(1);
+  const seenAdminMessageIds = useRef(new Set<string>());
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
 
+  useEffect(() => {
+    if (!isHumanMode) {
+      return;
+    }
+
+    const pollAdminMessages = async () => {
+      try {
+        const response = await fetch("/api/chat-poll");
+
+        if (!response.ok) {
+          return;
+        }
+
+        const data = await response.json();
+        const rawMessages = Array.isArray(data.messages)
+          ? data.messages
+          : Array.isArray(data)
+            ? data
+            : [];
+        const adminMessages = rawMessages
+          .filter((message: AdminChatMessage) => message.sender === "admin")
+          .map((message: AdminChatMessage, index: number) => {
+            const text = message.text || message.message || message.content || "";
+            const id = String(message.id ?? `${text}-${index}`);
+
+            return {
+              id,
+              text,
+            };
+          })
+          .filter((message: { id: string; text: string }) => {
+            return message.text && !seenAdminMessageIds.current.has(message.id);
+          });
+
+        if (adminMessages.length === 0) {
+          return;
+        }
+
+        adminMessages.forEach((message: { id: string }) => {
+          seenAdminMessageIds.current.add(message.id);
+        });
+
+        setMessages((currentMessages) => [
+          ...currentMessages,
+          ...adminMessages.map((message: { text: string }) => ({
+            id: nextId.current++,
+            role: "bot" as const,
+            text: message.text,
+          })),
+        ]);
+      } catch {
+        // Polling failures are ignored so the chat UI stays usable.
+      }
+    };
+
+    pollAdminMessages();
+    const intervalId = window.setInterval(pollAdminMessages, 2000);
+
+    return () => window.clearInterval(intervalId);
+  }, [isHumanMode]);
+
+  const handleHumanModeClick = () => {
+    setIsHumanMode(true);
+    setMessages((currentMessages) => [
+      ...currentMessages,
+      {
+        id: nextId.current++,
+        role: "bot",
+        text: "상담원 연결을 요청했습니다. 메시지를 남겨주시면 확인 후 답변드리겠습니다.",
+      },
+    ]);
+  };
+
   const handleQuestionClick = (item: ChatItem) => {
+    if (isHumanMode) {
+      return;
+    }
+
     const userMessage: ChatMessage = {
       id: nextId.current++,
       role: "user",
@@ -68,13 +155,19 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
     setIsLoading(true);
 
     try {
-      const response = await fetch("/api/chat", {
+      const response = await fetch(isHumanMode ? "/api/chat-human" : "/api/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ question }),
+        body: JSON.stringify(
+          isHumanMode ? { sender: "user", message: question } : { question },
+        ),
       });
+
+      if (isHumanMode) {
+        return;
+      }
 
       const data = await response.json();
       const answer =
@@ -91,6 +184,19 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
         },
       ]);
     } catch {
+      if (isHumanMode) {
+        setMessages((currentMessages) => [
+          ...currentMessages,
+          {
+            id: nextId.current++,
+            role: "bot",
+            text: "메시지를 전송하지 못했습니다. 잠시 후 다시 시도해주세요.",
+          },
+        ]);
+
+        return;
+      }
+
       setMessages((currentMessages) => [
         ...currentMessages,
         {
@@ -117,10 +223,12 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
       >
         <header className="flex items-center justify-between border-b border-slate-200 bg-white px-5 py-4">
           <div>
-            <h2 className="text-base font-bold text-slate-950">AI 상담원</h2>
+            <h2 className="text-base font-bold text-slate-950">
+              {isHumanMode ? "상담원 대기" : "AI 상담원"}
+            </h2>
             <p className="mt-0.5 flex items-center gap-1.5 text-xs font-medium text-slate-500">
               <span className="h-2 w-2 rounded-full bg-emerald-500" />
-              온라인
+              {isHumanMode ? "상담원 연결 대기 중" : "온라인"}
             </p>
           </div>
           <button
@@ -182,23 +290,37 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
 
         <div className="border-t border-slate-200 bg-white p-3 pb-24 sm:pb-3">
           <div className="grid gap-2">
-            {items.map((item) => (
-              <button
-                key={item.question}
-                type="button"
-                onClick={() => handleQuestionClick(item)}
-                className="w-full rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-left text-sm font-medium text-slate-700 transition-colors hover:border-blue-200 hover:bg-blue-50 hover:text-blue-700"
-              >
-                {item.question}
-              </button>
-            ))}
+            {isHumanMode
+              ? null
+              : items.map((item) => (
+                  <button
+                    key={item.question}
+                    type="button"
+                    onClick={() => handleQuestionClick(item)}
+                    className="w-full rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-left text-sm font-medium text-slate-700 transition-colors hover:border-blue-200 hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    {item.question}
+                  </button>
+                ))}
           </div>
+          <button
+            type="button"
+            onClick={handleHumanModeClick}
+            disabled={isHumanMode}
+            className="mt-3 w-full rounded-xl border border-blue-200 bg-blue-50 px-3 py-2.5 text-sm font-semibold text-blue-700 transition-colors hover:bg-blue-100 disabled:cursor-default disabled:border-slate-200 disabled:bg-slate-100 disabled:text-slate-500"
+          >
+            {isHumanMode ? "상담원 연결 대기 중" : "상담원 연결"}
+          </button>
           <form onSubmit={handleSubmit} className="mt-3 flex gap-2">
             <input
               type="text"
               value={inputValue}
               onChange={(event) => setInputValue(event.target.value)}
-              placeholder="직접 질문을 입력하세요"
+              placeholder={
+                isHumanMode
+                  ? "상담원에게 보낼 메시지"
+                  : "직접 질문을 입력하세요"
+              }
               className="min-w-0 flex-1 rounded-xl border border-slate-200 bg-slate-50 px-3 py-2.5 text-sm text-slate-900 outline-none transition-colors placeholder:text-slate-400 focus:border-blue-300 focus:bg-white focus:ring-2 focus:ring-blue-100"
               disabled={isLoading}
             />
