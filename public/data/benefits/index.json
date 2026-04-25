@@ -10,9 +10,9 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-04-24T22:47:58.372Z",
+    "collectedAt": "2026-04-25T22:47:58.653Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10916,
+    "availableCount": 10919,
     "fetchedCount": 1114,
     "activeCount": 1075,
     "expiredCount": 39,
@@ -21,6 +21,119 @@
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-317000000123",
+      "sourceId": "317000000123",
+      "title": "우수 학습동아리 지원",
+      "field": "생활안정",
+      "provider": "서울특별시 금천구",
+      "providerType": "자치구",
+      "district": "금천구",
+      "userType": "개인",
+      "deadlineText": "매년 상반기",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "❍ 관내 활동 중인 자발적 학습모임 중 다음 요건을 갖춘 팀 \n  - 5명 이상의 성인 학습자로 구성(금천구민 70% 이상) \n  - 금천구 교육포털에 학습동아리로 등록 \n    ※ 미등록 동아리는 등록 후 신청 가능(금천구 교육포털-네트워크-학습동아리 신청)…",
+      "summary": "서울특별시 금천구에서 제공하는 생활안정 혜택입니다. ❍ 자발적 학습 모임의 성장과 지역사회 공헌활동 촉진 \n❍ 지속 가능한 학습모임을 위한 발전 전략 수립 \n❍ 네트워크 강화로 상호 학습 및 교류 활성화",
+      "supportType": "현금",
+      "supportSummary": "* 사 업 명  : 우수 학습동아리 지원사업\n* 사업기간 : 매년 5 ~ 11월\n* 공고기간 : 매년 2 ~ 4월 중\n* 공모대상 : 5인 이상으로 구성된 자발적 학습모임(학습동아리) 20여 개 \n* 사업내용 : 지역사회 공헌활동을 위한 강사료, 재료비 등 경비 지원…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/317000000123",
+      "onlineUrl": "https://www.losims.go.kr",
+      "inquiry": [
+        "교육지원과/02-2627-2237",
+        "교육지원과/02-2627-2239"
+      ],
+      "updatedAt": "2026-04-25",
+      "registeredAt": "2023-03-16"
+    },
+    {
+      "id": "gov-benefit-310000000123",
+      "sourceId": "310000000123",
+      "title": "북한이탈주민 교육비 지원",
+      "field": "보육·교육",
+      "provider": "서울특별시 노원구",
+      "providerType": "자치구",
+      "district": "노원구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 노원구 거주 취약계층 북한이탈주민",
+      "summary": "서울특별시 노원구에서 제공하는 보육·교육 혜택입니다. 북한이탈주민의 지역사회 적응과 안정적인 정착을 위한 직업훈련 교육비 및 자녀 방문학습지 지원 사업을 추진하여\n균등한 교육 및 자립의 기회를 제공하고, 삶의 질 향상에 도움을 주고자 함.",
+      "supportType": "기타(교육)",
+      "supportSummary": "○ 직업훈련 교육비 지원\n  - 노원여성인력개발센터 : 요양보호사,ITQ, 정리수납과정, 바리스타교육 등  \n  - 북부기술교육원 : 조경기능사, 건축도장기능사, 자동차정비기능사, 도배기능사 등\n○ 자녀 벙문학습지 지원\n  - 국어, 영어, 수학, 숫자, 과학, 한자…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/310000000123",
+      "onlineUrl": "",
+      "inquiry": [
+        "복지정책과/02-2116-3646"
+      ],
+      "updatedAt": "2026-04-25",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-318000000414",
+      "sourceId": "318000000414",
+      "title": "취약계층을 위한 공공일자리 제공",
+      "field": "고용·창업",
+      "provider": "서울특별시 영등포구",
+      "providerType": "자치구",
+      "district": "영등포구",
+      "userType": "개인",
+      "deadlineText": "상반기 사업(전년도 11~12월 중), 하반기 사업(당해년도 5월 중)",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 사업대상: 청년, 중장년, 어르신, 장애인, 노숙인, 취약계층 등\n   - 만18세 이상 구민으로 재산이 4억9,900만원 이하이면서 소득이 기준중위소득 85%이하인 자",
+      "summary": "서울특별시 영등포구에서 제공하는 고용·창업 혜택입니다. 근로능력이 있는 저소득 취업취약계층을 대상으로 공공분야 일자리를 제공하여 최소한의 생계 보장 및 민간 취업기회 확대를 통한 주민생활 안정 도모\n사업 참야자가 다른 사회적 약자를 돕는 ‘자조·자립’기반을 마련함으로서 사회안전망을 강화하고 공공성을 실현",
+      "supportType": "서비스(일자리)",
+      "supportSummary": "○ 추진근거: 2026년 서울 동행일자리 사업 종합지침(2025.11.)\n○ 사업기간: 2026. 1. ~ 12.(상․하반기)\n○ 사업대상: 청년, 중장년, 어르신, 장애인, 노숙인, 취약계층 등\n   - 만18세 이상 구민으로 재산이 4억9,900만원 이하이면서 소…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000414",
+      "onlineUrl": "",
+      "inquiry": [
+        "일자리경제과/02-2670-4124"
+      ],
+      "updatedAt": "2026-04-25",
+      "registeredAt": "2025-11-24"
+    },
+    {
+      "id": "gov-benefit-300000000164",
+      "sourceId": "300000000164",
+      "title": "종로구 동행일자리사업",
+      "field": "생활안정",
+      "provider": "서울특별시 종로구",
+      "providerType": "자치구",
+      "district": "종로구",
+      "userType": "개인",
+      "deadlineText": "매년 5월 또는 11월",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "사업개시일 현재 만 18세 이상의 근로능력이 있는 서울시민으로서\n- 실업자 또는 정기 소득이 없는 일용근로자로서 구직 등록을 한 자\n- 행정기관 또는 공신력 있는 기관에서 노숙인 또는 쪽방주민임이 증명된 자\n- 가족 합산 재산(주택, 토지, 건축물, 자동차 등)이 4…",
+      "summary": "서울특별시 종로구에서 제공하는 생활안정 혜택입니다. 취업취약계층에게 공공일자리 제공",
+      "supportType": "서비스(일자리)",
+      "supportSummary": "○ 동행일자리사업 개요\n 저소득 취업취약 계층에게 지역사회에 필요한 공공일자리를 직접 제공하여 생계를 한시적으로 지원하고 자활 의지를 향상시켜 민간일자리로의 취업을 지원하는 사업입니다.\n\n 1. 신청방법\n  - 종로구민 : 주민등록 소재지 동주민센터 방문 신청\n  -…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000164",
+      "onlineUrl": "",
+      "inquiry": [
+        "종로구 일자리정책과/02-2148-2305"
+      ],
+      "updatedAt": "2026-04-25",
+      "registeredAt": "2022-11-01"
+    },
     {
       "id": "gov-benefit-O00022300006",
       "sourceId": "O00022300006",
@@ -9818,34 +9931,6 @@
       "registeredAt": "2025-11-24"
     },
     {
-      "id": "gov-benefit-318000000414",
-      "sourceId": "318000000414",
-      "title": "취약계층을 위한 공공일자리 제공",
-      "field": "고용·창업",
-      "provider": "서울특별시 영등포구",
-      "providerType": "자치구",
-      "district": "영등포구",
-      "userType": "개인",
-      "deadlineText": "상반기 사업(전년도 11~12월 중), 하반기 사업(당해년도 5월 중)",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 사업대상: 청년, 중장년, 어르신, 장애인, 노숙인, 취약계층 등\n   - 만18세 이상 구민으로 재산이 4억9,900만원 이하이면서 소득이 기준중위소득 85%이하인 자",
-      "summary": "서울특별시 영등포구에서 제공하는 고용·창업 혜택입니다. 근로능력이 있는 저소득 취업취약계층을 대상으로 공공분야 일자리를 제공하여 최소한의 생계 보장 및 민간 취업기회 확대를 통한 주민생활 안정 도모\n사업 참야자가 다른 사회적 약자를 돕는 ‘자조·자립’기반을 마련함으로서 사회안전망을 강화하고 공공성을 실현",
-      "supportType": "서비스(일자리)",
-      "supportSummary": "○ 추진근거: 2026년 서울 동행일자리 사업 종합지침(2025.11.)\n○ 사업기간: 2026. 1. ~ 12.(상․하반기)\n○ 사업대상: 청년, 중장년, 어르신, 장애인, 노숙인, 취약계층 등\n   - 만18세 이상 구민으로 재산이 4억9,900만원 이하이면서 소…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000414",
-      "onlineUrl": "",
-      "inquiry": [
-        "일자리경제과/02-2670-4124"
-      ],
-      "updatedAt": "2026-03-18",
-      "registeredAt": "2025-11-24"
-    },
-    {
       "id": "gov-benefit-O00368400003",
       "sourceId": "O00368400003",
       "title": "독서 장학금",
@@ -11065,34 +11150,6 @@
       ],
       "updatedAt": "2026-03-06",
       "registeredAt": "2022-11-02"
-    },
-    {
-      "id": "gov-benefit-310000000123",
-      "sourceId": "310000000123",
-      "title": "북한이탈주민 교육비 지원",
-      "field": "보육·교육",
-      "provider": "서울특별시 노원구",
-      "providerType": "자치구",
-      "district": "노원구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 노원구 거주 취약계층 북한이탈주민",
-      "summary": "서울특별시 노원구에서 제공하는 보육·교육 혜택입니다. 북한이탈주민의 지역사회 적응과 안정적인 정착을 위한 직업훈련 교육비 및 자녀 방문학습지 지원 사업을 추진하여\n균등한 교육 및 자립의 기회를 제공하고, 삶의 질 향상에 도움을 주고자 함.",
-      "supportType": "기타(교육)",
-      "supportSummary": "○ 직업훈련 교육비 지원\n  - 노원여성인력개발센터 : 요양보호사,ITQ, 정리수납과정, 바리스타교육 등  \n  - 북부기술교육원 : 조경기능사, 건축도장기능사, 자동차정비기능사, 도배기능사 등\n○ 자녀 벙문학습지 지원\n  - 국어, 영어, 수학, 숫자, 과학, 한자…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/310000000123",
-      "onlineUrl": "",
-      "inquiry": [
-        "복지정책과/02-2116-3646"
-      ],
-      "updatedAt": "2026-03-05",
-      "registeredAt": "2021-09-23"
     },
     {
       "id": "gov-benefit-O00023000003",
@@ -13580,35 +13637,6 @@
       ],
       "updatedAt": "2026-02-12",
       "registeredAt": "2022-07-15"
-    },
-    {
-      "id": "gov-benefit-317000000123",
-      "sourceId": "317000000123",
-      "title": "우수 학습동아리 지원",
-      "field": "생활안정",
-      "provider": "서울특별시 금천구",
-      "providerType": "자치구",
-      "district": "금천구",
-      "userType": "개인",
-      "deadlineText": "매년 상반기",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "❍ 관내 활동 중인 자발적 학습모임 중 다음 요건을 갖춘 팀 \n  - 5명 이상의 성인 학습자로 구성(금천구민 60% 이상) \n  - 금천구 교육포털에 학습동아리로 등록 \n    ※ 미등록 동아리는 등록 후 신청 가능(금천구 교육포털-네트워크-학습동아리 신청)…",
-      "summary": "서울특별시 금천구에서 제공하는 생활안정 혜택입니다. ❍ 자발적 학습 모임의 성장과 지역사회 공헌활동 촉진 \n❍ 지속 가능한 학습모임을 위한 발전 전략 수립 \n❍ 네트워크 강화로 상호 학습 및 교류 활성화",
-      "supportType": "현금",
-      "supportSummary": "* 사 업 명  : 우수 학습동아리 지원사업\n* 사업기간 : 매년 5 ~ 11월\n* 공고기간 : 매년 2 ~ 4월 중\n* 공모대상 : 5인 이상으로 구성된 자발적 학습모임(학습동아리) 20여 개 \n* 사업내용 : 지역사회 공헌활동을 위한 강사료, 재료비 등 경비 지원…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/317000000123",
-      "onlineUrl": "https://www.losims.go.kr",
-      "inquiry": [
-        "교육지원과/02-2627-2237",
-        "교육지원과/02-2627-2239"
-      ],
-      "updatedAt": "2026-02-11",
-      "registeredAt": "2023-03-16"
     },
     {
       "id": "gov-benefit-B37003100018",
@@ -27879,34 +27907,6 @@
       ],
       "updatedAt": "2026-01-27",
       "registeredAt": "2022-07-13"
-    },
-    {
-      "id": "gov-benefit-300000000164",
-      "sourceId": "300000000164",
-      "title": "종로구 동행일자리사업",
-      "field": "생활안정",
-      "provider": "서울특별시 종로구",
-      "providerType": "자치구",
-      "district": "종로구",
-      "userType": "개인",
-      "deadlineText": "매년 5월 또는 11월",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "사업개시일 현재 만 18세 이상의 근로능력이 있는 서울시민으로서\n- 실업자 또는 정기 소득이 없는 일용근로자로서 구직 등록을 한 자\n- 행정기관 또는 공신력 있는 기관에서 노숙인 또는 쪽방주민임이 증명된 자\n- 가족 합산 재산(주택, 토지, 건축물, 자동차 등)이 4…",
-      "summary": "서울특별시 종로구에서 제공하는 생활안정 혜택입니다. 취업취약계층에게 공공일자리 제공",
-      "supportType": "서비스(일자리)",
-      "supportSummary": "○ 동행일자리사업 개요\n 저소득 취업취약 계층에게 지역사회에 필요한 공공일자리를 직접 제공하여 생계를 한시적으로 지원하고 자활 의지를 향상시켜 민간일자리로의 취업을 지원하는 사업입니다.\n\n 1. 신청방법\n  - 종로구민 : 주민등록 소재지 동주민센터 방문 신청\n  -…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000164",
-      "onlineUrl": "",
-      "inquiry": [
-        "종로구 일자리정책과/02-2148-2305"
-      ],
-      "updatedAt": "2026-01-27",
-      "registeredAt": "2022-11-01"
     },
     {
       "id": "gov-benefit-300000000153",
