@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/build-search-index.js",
     "build": "npm run build:search-index && next build",
     "start": "next start",
     "lint": "eslint",
