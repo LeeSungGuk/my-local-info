@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { type FormEvent, useEffect, useRef, useState } from "react";
 
 type ChatItem = {
   question: string;
@@ -20,6 +20,8 @@ type FloatingChatbotProps = {
 export default function FloatingChatbot({ items }: FloatingChatbotProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<ChatMessage[]>([]);
+  const [inputValue, setInputValue] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
   const nextId = useRef(1);
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
 
@@ -44,6 +46,62 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
       userMessage,
       botMessage,
     ]);
+  };
+
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+
+    const question = inputValue.trim();
+
+    if (!question || isLoading) {
+      return;
+    }
+
+    const userMessage: ChatMessage = {
+      id: nextId.current++,
+      role: "user",
+      text: question,
+    };
+
+    setInputValue("");
+    setMessages((currentMessages) => [...currentMessages, userMessage]);
+    setIsLoading(true);
+
+    try {
+      const response = await fetch("/api/chat", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ question }),
+      });
+
+      const data = await response.json();
+      const answer =
+        response.ok && typeof data.answer === "string"
+          ? data.answer
+          : "AI 답변을 불러오지 못했습니다.";
+
+      setMessages((currentMessages) => [
+        ...currentMessages,
+        {
+          id: nextId.current++,
+          role: "bot",
+          text: answer,
+        },
+      ]);
+    } catch {
+      setMessages((currentMessages) => [
+        ...currentMessages,
+        {
+          id: nextId.current++,
+          role: "bot",
+          text: "AI 답변을 불러오지 못했습니다.",
+        },
+      ]);
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
@@ -109,6 +167,15 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
                 </p>
               </div>
             ))}
+            {isLoading ? (
+              <div className="flex justify-start">
+                <div className="flex items-center gap-2 rounded-2xl rounded-tl-md bg-white px-4 py-3 shadow-sm">
+                  <span className="h-2 w-2 animate-bounce rounded-full bg-slate-400 [animation-delay:-0.2s]" />
+                  <span className="h-2 w-2 animate-bounce rounded-full bg-slate-400 [animation-delay:-0.1s]" />
+                  <span className="h-2 w-2 animate-bounce rounded-full bg-slate-400" />
+                </div>
+              </div>
+            ) : null}
             <div ref={messagesEndRef} />
           </div>
         </div>
@@ -126,6 +193,36 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
               </button>
             ))}
           </div>
+          <form onSubmit={handleSubmit} className="mt-3 flex gap-2">
+            <input
+              type="text"
+              value={inputValue}
+              onChange={(event) => setInputValue(event.target.value)}
+              placeholder="직접 질문을 입력하세요"
+              className="min-w-0 flex-1 rounded-xl border border-slate-200 bg-slate-50 px-3 py-2.5 text-sm text-slate-900 outline-none transition-colors placeholder:text-slate-400 focus:border-blue-300 focus:bg-white focus:ring-2 focus:ring-blue-100"
+              disabled={isLoading}
+            />
+            <button
+              type="submit"
+              disabled={!inputValue.trim() || isLoading}
+              className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-blue-600 text-white transition-colors hover:bg-blue-700 disabled:cursor-not-allowed disabled:bg-slate-300"
+              aria-label="질문 전송"
+            >
+              <svg
+                aria-hidden="true"
+                className="h-5 w-5"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="m22 2-7 20-4-9-9-4Z" />
+                <path d="M22 2 11 13" />
+              </svg>
+            </button>
+          </form>
         </div>
       </section>
 
