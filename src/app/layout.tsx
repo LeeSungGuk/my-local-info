@@ -3,9 +3,11 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import FloatingChatbot from "@/components/FloatingChatbot";
 import { getNormalizedAdSenseId, shouldRenderAdSenseScript } from "@/lib/adsense-config";
 import { getNormalizedGaId, shouldRenderGaScript } from "@/lib/ga-config";
 import { SITE_URL } from "@/lib/site-config";
+import chatData from "../../chat-data.json";
 
 const siteUrl = SITE_URL;
 const gaId = getNormalizedGaId(process.env.NEXT_PUBLIC_GA_ID);
@@ -98,6 +100,7 @@ gtag("config", ${JSON.stringify(gaId)});
         <Header />
         <main className="min-h-screen">{children}</main>
         <Footer />
+        <FloatingChatbot items={chatData} />
       </body>
     </html>
   );
