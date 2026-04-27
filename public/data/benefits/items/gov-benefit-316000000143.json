@@ -13,7 +13,7 @@
   "targetSummary": "구로구에서 보호중인 가정위탁아동",
   "summary": "서울특별시 구로구에서 제공하는 보호·돌봄 혜택입니다. 명절,연말을 맞아 가정위탁 아동들이 따뜻한 명절을 맞이할 수 있도록 위문금 지원",
   "supportType": "현금",
-  "supportSummary": "연 3회(설날,추서석,연말) 1인당 30,000원",
+  "supportSummary": "연 3회(설날,추석,연말) 1인당 30,000원",
   "receptionAgency": "접수기관 정보 없음",
   "applicationMethodTypes": [
     "직접입력"
@@ -23,14 +23,14 @@
   "inquiry": [
     "아동청소년과/02-860-5416"
   ],
-  "updatedAt": "2026-02-02",
+  "updatedAt": "2026-04-27",
   "registeredAt": "2025-11-14",
   "viewCount": 107,
-  "collectedAt": "2026-04-26T22:48:13.225Z",
+  "collectedAt": "2026-04-27T22:50:08.593Z",
   "purpose": "명절,연말을 맞아 가정위탁 아동들이 따뜻한 명절을 맞이할 수 있도록 위문금 지원",
   "target": "구로구에서 보호중인 가정위탁아동",
   "selectionCriteria": "",
-  "supportContent": "연 3회(설날,추서석,연말) 1인당 30,000원",
+  "supportContent": "연 3회(설날,추석,연말) 1인당 30,000원",
   "applicationMethod": "구청에서 취합",
   "documents": "해당없음",
   "officialDocuments": "해당없음",

@@ -16,17 +16,17 @@
   "supportSummary": "각 동주민센터 및 구청에 설치된 EM 보급기를 통하여 악취 저감 및 수질 정화 효과가 있는 EM 발효액을 무상으로 제공",
   "receptionAgency": "접수기관 정보 없음",
   "applicationMethodTypes": [
-    "방문신청"
+    "신청불필요"
   ],
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000180",
   "onlineUrl": "",
   "inquiry": [
     "광진구 환경과/02-450-7801"
   ],
-  "updatedAt": "2026-01-30",
+  "updatedAt": "2026-04-27",
   "registeredAt": "2021-11-05",
-  "viewCount": 2958,
-  "collectedAt": "2026-04-26T22:48:13.225Z",
+  "viewCount": 2960,
+  "collectedAt": "2026-04-27T22:50:08.593Z",
   "purpose": "EM 발효액 무상 제공",
   "target": "광진구 구민 누구나",
   "selectionCriteria": "",

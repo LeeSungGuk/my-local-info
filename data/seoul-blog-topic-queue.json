@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-04-27T07:48:24+09:00",
+  "lastGeneratedAt": "2026-04-28T07:50:20+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -384,9 +384,9 @@
         "가족나들이"
       ],
       "origin": "seed",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-04-15T00:00:00+09:00",
-      "usedAt": null
+      "usedAt": "2026-04-28T07:50:20+09:00"
     },
     {
       "id": "seoul-university-area-light-walk",

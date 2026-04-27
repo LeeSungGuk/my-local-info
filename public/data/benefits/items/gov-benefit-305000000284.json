@@ -10,10 +10,10 @@
   "deadlineText": "접수기관 별 상이",
   "deadlineSortKey": "9999-12-31",
   "isAlwaysOpen": false,
-  "targetSummary": "14세~64세 동대문구민 중 기초생활수급자 인플루엔자 예방접종",
+  "targetSummary": "15세~64세 동대문구민 중 기초생활수급자 인플루엔자 예방접종",
   "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 기초생활수급자 인플루엔자 예방접종 지원",
   "supportType": "서비스(의료)",
-  "supportSummary": "14세~64세 동대문구민 중 기초생활수급자 인플루엔자 예방접종",
+  "supportSummary": "15세~64세 동대문구민 중 기초생활수급자 인플루엔자 예방접종",
   "receptionAgency": "접수기관 정보 없음",
   "applicationMethodTypes": [
     "방문신청"
@@ -23,14 +23,14 @@
   "inquiry": [
     "건강관리과/02-2127-5194"
   ],
-  "updatedAt": "2026-04-21",
+  "updatedAt": "2026-04-27",
   "registeredAt": "2025-12-09",
   "viewCount": 60,
-  "collectedAt": "2026-04-26T22:48:13.225Z",
+  "collectedAt": "2026-04-27T22:50:08.593Z",
   "purpose": "기초생활수급자 인플루엔자 예방접종 지원",
-  "target": "14세~64세 동대문구민 중 기초생활수급자 인플루엔자 예방접종",
+  "target": "15세~64세 동대문구민 중 기초생활수급자 인플루엔자 예방접종",
   "selectionCriteria": "",
-  "supportContent": "14세~64세 동대문구민 중 기초생활수급자 인플루엔자 예방접종",
+  "supportContent": "15세~64세 동대문구민 중 기초생활수급자 인플루엔자 예방접종",
   "applicationMethod": "신분증, 수급자증명서 등을 지참 후 관내 위탁의료기관에서 접종",
   "documents": "신분증, 수급자증명서 등",
   "officialDocuments": "해당없음",
@@ -38,6 +38,6 @@
   "legalBasis": [],
   "ordinance": "서울특별시 동대문구 인플루엔자 무료 예방접종 및 위탁에 관한 조례",
   "inquiryText": "건강관리과/02-2127-5194",
-  "ageMin": 14,
+  "ageMin": 15,
   "ageMax": 64
 }
