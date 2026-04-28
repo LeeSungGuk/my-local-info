@@ -31,6 +31,7 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
   const [inputValue, setInputValue] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [isHumanMode, setIsHumanMode] = useState(false);
+  const [isSuggestionOpen, setIsSuggestionOpen] = useState(false);
   const nextId = useRef(1);
   const seenAdminMessageIds = useRef(new Set<string>());
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
@@ -107,7 +108,7 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
       {
         id: nextId.current++,
         role: "bot",
-        text: "상담원 연결을 요청했습니다. 메시지를 남겨주시면 확인 후 답변드리겠습니다.",
+        text: "문의 내용을 남길 수 있어요. 답변이 필요한 내용은 확인 후 안내드리겠습니다.",
       },
     ]);
   };
@@ -133,6 +134,7 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
       userMessage,
       botMessage,
     ]);
+    setIsSuggestionOpen(false);
   };
 
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
@@ -212,123 +214,26 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
 
   return (
     <div className="fixed inset-x-4 bottom-4 z-[70] sm:inset-x-auto sm:right-6 sm:bottom-6">
-      <section
-        aria-label="AI 상담 채팅창"
-        className={[
-          "fixed inset-0 flex h-dvh w-screen flex-col overflow-hidden bg-white shadow-2xl transition-all duration-300 ease-out sm:inset-auto sm:right-6 sm:bottom-24 sm:h-[500px] sm:w-[360px] sm:rounded-2xl sm:border sm:border-slate-200",
-          isOpen
-            ? "pointer-events-auto translate-y-0 scale-100 opacity-100"
-            : "pointer-events-none translate-y-4 scale-95 opacity-0",
-        ].join(" ")}
-      >
-        <header className="flex items-center justify-between border-b border-slate-200 bg-white px-5 py-4">
-          <div>
-            <h2 className="text-base font-bold text-slate-950">
-              {isHumanMode ? "상담원 대기" : "AI 상담원"}
-            </h2>
-            <p className="mt-0.5 flex items-center gap-1.5 text-xs font-medium text-slate-500">
-              <span className="h-2 w-2 rounded-full bg-emerald-500" />
-              {isHumanMode ? "상담원 연결 대기 중" : "온라인"}
-            </p>
-          </div>
-          <button
-            type="button"
-            aria-label="채팅창 닫기"
-            onClick={() => setIsOpen(false)}
-            className="inline-flex h-10 w-10 items-center justify-center rounded-full text-slate-500 transition-colors hover:bg-slate-100 hover:text-slate-900"
-          >
-            <svg
-              aria-hidden="true"
-              className="h-5 w-5"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path d="M18 6 6 18" />
-              <path d="m6 6 12 12" />
-            </svg>
-          </button>
-        </header>
-
-        <div className="flex-1 overflow-y-auto bg-slate-100 px-4 py-5">
-          <div className="space-y-3">
-            {messages.map((message) => (
-              <div
-                key={message.id}
-                className={[
-                  "flex",
-                  message.role === "user" ? "justify-end" : "justify-start",
-                ].join(" ")}
-              >
-                <p
-                  className={[
-                    "max-w-[78%] rounded-2xl px-4 py-2.5 text-sm leading-relaxed shadow-sm",
-                    message.role === "user"
-                      ? "rounded-tr-md bg-blue-600 text-white"
-                      : "rounded-tl-md bg-white text-slate-800",
-                  ].join(" ")}
-                >
-                  {message.text}
-                </p>
-              </div>
-            ))}
-            {isLoading ? (
-              <div className="flex justify-start">
-                <div className="flex items-center gap-2 rounded-2xl rounded-tl-md bg-white px-4 py-3 shadow-sm">
-                  <span className="h-2 w-2 animate-bounce rounded-full bg-slate-400 [animation-delay:-0.2s]" />
-                  <span className="h-2 w-2 animate-bounce rounded-full bg-slate-400 [animation-delay:-0.1s]" />
-                  <span className="h-2 w-2 animate-bounce rounded-full bg-slate-400" />
-                </div>
-              </div>
-            ) : null}
-            <div ref={messagesEndRef} />
-          </div>
-        </div>
-
-        <div className="border-t border-slate-200 bg-white p-3 pb-24 sm:pb-3">
-          <div className="grid gap-2">
-            {isHumanMode
-              ? null
-              : items.map((item) => (
-                  <button
-                    key={item.question}
-                    type="button"
-                    onClick={() => handleQuestionClick(item)}
-                    className="w-full rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-left text-sm font-medium text-slate-700 transition-colors hover:border-blue-200 hover:bg-blue-50 hover:text-blue-700"
-                  >
-                    {item.question}
-                  </button>
-                ))}
-          </div>
-          <button
-            type="button"
-            onClick={handleHumanModeClick}
-            disabled={isHumanMode}
-            className="mt-3 w-full rounded-xl border border-blue-200 bg-blue-50 px-3 py-2.5 text-sm font-semibold text-blue-700 transition-colors hover:bg-blue-100 disabled:cursor-default disabled:border-slate-200 disabled:bg-slate-100 disabled:text-slate-500"
-          >
-            {isHumanMode ? "상담원 연결 대기 중" : "상담원 연결"}
-          </button>
-          <form onSubmit={handleSubmit} className="mt-3 flex gap-2">
-            <input
-              type="text"
-              value={inputValue}
-              onChange={(event) => setInputValue(event.target.value)}
-              placeholder={
-                isHumanMode
-                  ? "상담원에게 보낼 메시지"
-                  : "직접 질문을 입력하세요"
-              }
-              className="min-w-0 flex-1 rounded-xl border border-slate-200 bg-slate-50 px-3 py-2.5 text-sm text-slate-900 outline-none transition-colors placeholder:text-slate-400 focus:border-blue-300 focus:bg-white focus:ring-2 focus:ring-blue-100"
-              disabled={isLoading}
-            />
+      {isOpen ? (
+        <section
+          aria-label="서울 정보 도우미 채팅창"
+          className="animate-fade-in fixed inset-0 flex h-dvh w-screen flex-col overflow-hidden bg-white shadow-2xl sm:inset-auto sm:right-6 sm:bottom-4 sm:h-[456px] sm:w-[332px] sm:rounded-2xl sm:border sm:border-sky-100"
+        >
+          <header className="flex items-center justify-between border-b border-sky-100 bg-white px-5 py-4">
+            <div>
+              <h2 className="text-base font-bold text-slate-950">
+                {isHumanMode ? "문의 남기기" : "서울 정보 도우미"}
+              </h2>
+              <p className="mt-0.5 flex items-center gap-1.5 text-xs font-medium text-slate-500">
+                <span className="h-2 w-2 rounded-full bg-cyan-500" />
+                {isHumanMode ? "확인 후 안내" : "공식 정보 기준 안내"}
+              </p>
+            </div>
             <button
-              type="submit"
-              disabled={!inputValue.trim() || isLoading}
-              className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-blue-600 text-white transition-colors hover:bg-blue-700 disabled:cursor-not-allowed disabled:bg-slate-300"
-              aria-label="질문 전송"
+              type="button"
+              aria-label="채팅창 닫기"
+              onClick={() => setIsOpen(false)}
+              className="inline-flex h-10 w-10 items-center justify-center rounded-full text-slate-500 transition-colors hover:bg-sky-50 hover:text-slate-900"
             >
               <svg
                 aria-hidden="true"
@@ -340,37 +245,200 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
                 strokeLinecap="round"
                 strokeLinejoin="round"
               >
-                <path d="m22 2-7 20-4-9-9-4Z" />
-                <path d="M22 2 11 13" />
+                <path d="M18 6 6 18" />
+                <path d="m6 6 12 12" />
               </svg>
             </button>
-          </form>
-        </div>
-      </section>
+          </header>
 
-      <button
-        type="button"
-        aria-label={isOpen ? "채팅창 닫기" : "채팅창 열기"}
-        aria-expanded={isOpen}
-        onClick={() => setIsOpen((current) => !current)}
-        className="ml-auto flex h-16 w-16 items-center justify-center rounded-full bg-blue-600 text-white shadow-xl shadow-blue-950/20 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200"
-      >
-        <svg
-          aria-hidden="true"
-          className="h-8 w-8"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
+          <div className="flex-1 overflow-y-auto bg-sky-50/60 px-4 py-5">
+            <div className="space-y-3">
+              {!isHumanMode && messages.length === 0 ? (
+                <div className="space-y-3">
+                  <div className="flex justify-start">
+                    <p className="max-w-[84%] rounded-2xl rounded-tl-md bg-white px-4 py-2.5 text-sm leading-relaxed text-slate-800 shadow-sm ring-1 ring-sky-100/70">
+                      원하는 조건을 고르거나 직접 질문해 주세요.
+                    </p>
+                  </div>
+                  <div className="grid gap-2">
+                    {items.map((item) => (
+                      <button
+                        key={item.question}
+                        type="button"
+                        onClick={() => handleQuestionClick(item)}
+                        className="w-full rounded-xl border border-sky-100 bg-white px-3 py-2.5 text-left text-sm font-medium text-slate-700 shadow-sm transition-colors hover:border-sky-200 hover:bg-sky-50 hover:text-sky-800"
+                      >
+                        {item.question}
+                      </button>
+                    ))}
+                    <button
+                      type="button"
+                      onClick={handleHumanModeClick}
+                      className="w-full rounded-xl border border-cyan-200 bg-cyan-50 px-3 py-2.5 text-left text-sm font-semibold text-cyan-800 shadow-sm transition-colors hover:bg-cyan-100"
+                    >
+                      문의 남기기
+                    </button>
+                  </div>
+                </div>
+              ) : null}
+              {messages.map((message) => (
+                <div
+                  key={message.id}
+                  className={[
+                    "flex",
+                    message.role === "user" ? "justify-end" : "justify-start",
+                  ].join(" ")}
+                >
+                  <p
+                    className={[
+                      "max-w-[84%] rounded-2xl px-4 py-2.5 text-sm leading-relaxed shadow-sm",
+                      message.role === "user"
+                        ? "rounded-tr-md bg-sky-600 text-white"
+                        : "rounded-tl-md bg-white text-slate-800 ring-1 ring-sky-100/70",
+                    ].join(" ")}
+                  >
+                    {message.text}
+                  </p>
+                </div>
+              ))}
+              {isLoading ? (
+                <div className="flex justify-start">
+                  <div className="flex items-center gap-2 rounded-2xl rounded-tl-md bg-white px-4 py-3 shadow-sm ring-1 ring-sky-100/70">
+                    <span className="h-2 w-2 animate-bounce rounded-full bg-slate-400 [animation-delay:-0.2s]" />
+                    <span className="h-2 w-2 animate-bounce rounded-full bg-slate-400 [animation-delay:-0.1s]" />
+                    <span className="h-2 w-2 animate-bounce rounded-full bg-slate-400" />
+                  </div>
+                </div>
+              ) : null}
+              <div ref={messagesEndRef} />
+            </div>
+          </div>
+
+          <div className="border-t border-sky-100 bg-white p-4 pb-[calc(1rem+env(safe-area-inset-bottom))] sm:p-3">
+            {isHumanMode || messages.length === 0 ? null : (
+              <div className="rounded-2xl border border-sky-100 bg-sky-50/80">
+                <button
+                  type="button"
+                  onClick={() => setIsSuggestionOpen((current) => !current)}
+                  aria-expanded={isSuggestionOpen}
+                  className="flex w-full items-center justify-between px-3 py-2.5 text-left text-sm font-semibold text-slate-700"
+                >
+                  <span>추천 질문</span>
+                  <span className="flex items-center gap-2 text-xs text-slate-500">
+                    {isSuggestionOpen ? "접기" : "보기"}
+                    <svg
+                      aria-hidden="true"
+                      className={[
+                        "h-4 w-4 transition-transform",
+                        isSuggestionOpen ? "rotate-180" : "",
+                      ].join(" ")}
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="m6 9 6 6 6-6" />
+                    </svg>
+                  </span>
+                </button>
+                <div
+                  className={[
+                    "grid gap-2 overflow-y-auto px-3 transition-all duration-200",
+                    isSuggestionOpen
+                      ? "max-h-44 pb-3 opacity-100"
+                      : "max-h-0 opacity-0",
+                  ].join(" ")}
+                >
+                  {items.map((item) => (
+                    <button
+                      key={item.question}
+                      type="button"
+                      onClick={() => handleQuestionClick(item)}
+                      className="w-full rounded-xl border border-sky-100 bg-white px-3 py-2.5 text-left text-sm font-medium text-slate-700 transition-colors hover:border-sky-200 hover:bg-sky-50 hover:text-sky-800"
+                    >
+                      {item.question}
+                    </button>
+                  ))}
+                  <button
+                    type="button"
+                    onClick={handleHumanModeClick}
+                    className="w-full rounded-xl border border-cyan-200 bg-cyan-50 px-3 py-2.5 text-left text-sm font-semibold text-cyan-800 transition-colors hover:bg-cyan-100"
+                  >
+                    문의 남기기
+                  </button>
+                </div>
+              </div>
+            )}
+            {isHumanMode ? (
+              <div className="rounded-xl border border-sky-100 bg-sky-50 px-3 py-2.5 text-center text-sm font-semibold text-slate-500">
+                문의 내용을 입력해 주세요
+              </div>
+            ) : null}
+            <form onSubmit={handleSubmit} className="mt-3 flex gap-2">
+              <input
+                type="text"
+                value={inputValue}
+                onChange={(event) => setInputValue(event.target.value)}
+                placeholder={
+                  isHumanMode
+                    ? "문의 내용을 입력하세요"
+                    : "서울 정보에 대해 질문하세요"
+                }
+                className="min-w-0 flex-1 rounded-xl border border-sky-100 bg-slate-50 px-3 py-2.5 text-sm text-slate-900 outline-none transition-colors placeholder:text-slate-400 focus:border-sky-300 focus:bg-white focus:ring-2 focus:ring-sky-100"
+                disabled={isLoading}
+              />
+              <button
+                type="submit"
+                disabled={!inputValue.trim() || isLoading}
+                className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-sky-600 text-white transition-colors hover:bg-sky-700 disabled:cursor-not-allowed disabled:bg-slate-300"
+                aria-label="질문 전송"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="h-5 w-5"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="m22 2-7 20-4-9-9-4Z" />
+                  <path d="M22 2 11 13" />
+                </svg>
+              </button>
+            </form>
+          </div>
+        </section>
+      ) : null}
+
+      {!isOpen ? (
+        <button
+          type="button"
+          aria-label="서울 정보 도우미 열기"
+          aria-expanded={isOpen}
+          onClick={() => setIsOpen(true)}
+          className="ml-auto flex h-14 w-14 items-center justify-center rounded-full bg-sky-600 text-white shadow-lg shadow-sky-950/20 transition-all duration-200 hover:-translate-y-0.5 hover:bg-sky-700 focus:outline-none focus:ring-4 focus:ring-sky-200"
         >
-          <path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7A8.4 8.4 0 0 1 4 11.5a8.5 8.5 0 0 1 17 0Z" />
-          <path d="M9 10h.01" />
-          <path d="M12 10h.01" />
-          <path d="M15 10h.01" />
-        </svg>
-      </button>
+          <svg
+            aria-hidden="true"
+            className="h-7 w-7"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7A8.4 8.4 0 0 1 4 11.5a8.5 8.5 0 0 1 17 0Z" />
+            <path d="M9 10h.01" />
+            <path d="M12 10h.01" />
+            <path d="M15 10h.01" />
+          </svg>
+        </button>
+      ) : null}
     </div>
   );
 }
