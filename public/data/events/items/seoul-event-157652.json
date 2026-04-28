@@ -1,7 +1,7 @@
 {
   "id": "seoul-event-157652",
   "sourceId": "157652",
-  "title": "2025 문화가 흐르는 서울광장 [개막공연]",
+  "title": "2026 문화가 흐르는 서울광장 [개막공연]",
   "category": "콘서트",
   "district": "중구",
   "venue": "서울광장",
@@ -14,7 +14,7 @@
   "isFree": true,
   "organizer": "서울시청",
   "inquiry": "홈페이지 참고",
-  "imageUrl": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=693f2f3c4ff84d5798e64ba3dbbd9051&thumb=Y",
+  "imageUrl": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1b528df0c90847c5a74b9110b2d2dd28&thumb=Y",
   "detailUrl": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157652&menuNo=200008",
   "summary": "중구 · 서울광장에서 열리는 콘서트 행사입니다. 무료로 참여할 수 있는 행사입니다.",
   "organizerUrl": "https://cultureseoul.co.kr/2026/",
@@ -25,5 +25,5 @@
   "latitude": 37.5653338689441,
   "longitude": 126.97769782752,
   "registeredAt": "2026-04-27",
-  "collectedAt": "2026-04-27T22:50:02.820Z"
+  "collectedAt": "2026-04-28T22:50:19.475Z"
 }
