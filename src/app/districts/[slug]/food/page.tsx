@@ -2,13 +2,19 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import FoodIntentCard from "@/components/food/FoodIntentCard";
+import FoodPlaceCard from "@/components/food/FoodPlaceCard";
 import FoodSourceNotice from "@/components/food/FoodSourceNotice";
 import {
   getAllDistricts,
   getDistrictBySlug,
   getDistrictSlugs,
 } from "@/lib/districts";
-import { getFoodIntentsByDistrict } from "@/lib/food";
+import {
+  getFoodDistrictEditorialBySlug,
+  getFoodIndex,
+  getFoodIntentsByDistrict,
+  getFoodPlacesByDistrictSlug,
+} from "@/lib/food";
 
 interface PageProps {
   params: Promise<{
@@ -46,6 +52,9 @@ export default async function DistrictFoodPage({ params }: PageProps) {
   }
 
   const intents = getFoodIntentsByDistrict(slug);
+  const editorial = getFoodDistrictEditorialBySlug(slug);
+  const foodIndex = await getFoodIndex();
+  const places = await getFoodPlacesByDistrictSlug(slug);
   const otherDistricts = getAllDistricts()
     .filter((item) => item.slug !== district.slug)
     .slice(0, 4);
@@ -78,11 +87,84 @@ export default async function DistrictFoodPage({ params }: PageProps) {
           </p>
         </section>
 
+        {editorial ? (
+          <section className="mt-10 rounded-3xl border border-emerald-100 bg-white p-6 shadow-soft sm:p-8">
+            <p className="text-sm font-bold uppercase tracking-[0.16em] text-emerald-600">
+              Editorial Guide
+            </p>
+            <h2 className="mt-2 text-2xl font-extrabold text-slate-950">
+              {editorial.title}
+            </h2>
+            <p className="mt-4 max-w-4xl text-sm leading-7 text-slate-600 sm:text-base">
+              {editorial.description}
+            </p>
+            <div className="mt-5 flex flex-wrap gap-2">
+              {editorial.routeHints.map((hint) => (
+                <span
+                  key={hint}
+                  className="rounded-full bg-emerald-50 px-3 py-1.5 text-sm font-bold text-emerald-700"
+                >
+                  {hint}
+                </span>
+              ))}
+            </div>
+          </section>
+        ) : null}
+
+        <section className="mt-10">
+          <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
+            <div>
+              <p className="text-sm font-bold uppercase tracking-[0.16em] text-emerald-600">
+                Open Data
+              </p>
+              <h2 className="mt-2 text-2xl font-extrabold text-slate-950">
+                {district.name} 음식점 후보
+              </h2>
+              <p className="mt-3 max-w-3xl text-sm leading-6 text-slate-600">
+                서울 열린데이터 일반음식점 인허가 정보에서 영업 상태로 확인된
+                가게입니다. 맛집 순위가 아니라 동네와 업태가 한쪽으로 몰리지
+                않도록 정리한 동선 검토용 후보로 봐 주세요.
+              </p>
+            </div>
+            {places.length > 0 ? (
+              <div className="rounded-2xl bg-emerald-50 px-4 py-3 text-sm font-bold text-emerald-700">
+                {places.length.toLocaleString("ko-KR")}곳
+              </div>
+            ) : null}
+          </div>
+          {places.length > 0 ? (
+            <div className="mt-6 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+              {places.map((place) => (
+                <FoodPlaceCard key={place.id} place={place} />
+              ))}
+            </div>
+          ) : (
+            <div className="mt-6 rounded-3xl border border-dashed border-emerald-200 bg-white p-10 text-center">
+              <h2 className="text-xl font-bold text-slate-950">
+                아직 수집된 음식점 후보가 없습니다.
+              </h2>
+              <p className="mt-3 text-slate-600">
+                오전 7시 30분 자동 동기화 후 서울 열린데이터 기반 후보가 표시됩니다.
+              </p>
+            </div>
+          )}
+        </section>
+
         {intents.length > 0 ? (
-          <section className="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
-            {intents.map((intent) => (
-              <FoodIntentCard key={intent.id} intent={intent} />
-            ))}
+          <section className="mt-14">
+            <div>
+              <p className="text-sm font-bold uppercase tracking-[0.16em] text-slate-500">
+                Search Links
+              </p>
+              <h2 className="mt-2 text-2xl font-extrabold text-slate-950">
+                동선별 식사 검색
+              </h2>
+            </div>
+            <div className="mt-6 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+              {intents.map((intent) => (
+                <FoodIntentCard key={intent.id} intent={intent} />
+              ))}
+            </div>
           </section>
         ) : (
           <section className="mt-10 rounded-3xl border border-dashed border-emerald-200 bg-white p-10 text-center">
@@ -96,7 +178,7 @@ export default async function DistrictFoodPage({ params }: PageProps) {
         )}
 
         <section className="mt-10 grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
-          <FoodSourceNotice />
+          <FoodSourceNotice source={foodIndex.source} />
           <div className="rounded-3xl border border-slate-100 bg-white p-6 shadow-soft">
             <h2 className="text-xl font-extrabold text-slate-950">
               다른 구 먹거리 보기

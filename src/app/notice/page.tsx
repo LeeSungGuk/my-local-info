@@ -40,6 +40,7 @@ export default function NoticePage() {
           <ul className="space-y-3 text-sm leading-7 text-slate-600 sm:text-base">
             <li>행사·축제: 서울 열린데이터광장의 서울시 문화행사 정보를 기준으로 정리합니다.</li>
             <li>지원금·혜택: 공공데이터포털의 대한민국 공공서비스(혜택) 정보를 기준으로 서울 관련 항목만 선별합니다.</li>
+            <li>먹거리: 서울 열린데이터광장의 서울시 일반음식점 인허가 정보를 기준으로 영업 상태 후보를 정리합니다.</li>
             <li>블로그: 서울 생활형 탐색을 돕는 정보성 콘텐츠이며, 공식 공고문 자체를 대체하지 않습니다.</li>
           </ul>
         </NoticeSection>
@@ -51,7 +52,8 @@ export default function NoticePage() {
           <ul className="space-y-3 text-sm leading-7 text-slate-600 sm:text-base">
             <li>행사 데이터는 서울 열린데이터광장 `서울시 문화행사 정보`를 사용합니다.</li>
             <li>혜택 데이터는 공공데이터포털 `행정안전부_대한민국 공공서비스(혜택) 정보`를 사용합니다.</li>
-            <li>행사와 혜택은 현재 기준으로 매일 오전 7시 30분(KST) 동기화를 목표로 운영합니다.</li>
+            <li>먹거리 데이터는 서울 열린데이터광장 `서울시 일반음식점 인허가 정보`를 사용합니다.</li>
+            <li>행사, 혜택, 먹거리는 현재 기준으로 매일 오전 7시 30분(KST) 동기화를 목표로 운영합니다.</li>
             <li>혜택은 중복 항목을 추가하지 않고, 신청기한이 지난 데이터는 정리합니다.</li>
           </ul>
         </NoticeSection>
