@@ -1,9 +1,9 @@
 # AGENTS.md
 
 ## Project Summary
-- This repository is a `Next.js` App Router project for organizing local community information, centered on Seongnam city content.
+- This repository is a `Next.js` App Router project for organizing Seoul local information under the Seoulcity product direction.
 - The app mixes two content sources:
-  - structured JSON data in `public/data/local-info.json`
+  - structured JSON data under `public/data/events`, `public/data/benefits`, `public/data/food`, and `public/data/search`
   - Markdown blog posts in `src/content/posts`
 - UI text is primarily Korean, so preserve existing tone and wording unless a change is explicitly requested.
 
@@ -18,8 +18,9 @@
 - `src/components`: reusable UI components
 - `src/lib/posts.ts`: Markdown post loading and parsing
 - `src/content/posts`: blog post Markdown files with frontmatter
-- `public/data/local-info.json`: local events and benefits dataset rendered on the home page
-- `scripts/fetch-public-data.js`: script for collecting public data
+- `public/data/events`: Seoul event dataset rendered on event and home pages
+- `public/data/benefits`: public benefit dataset rendered on benefit and home pages
+- `public/data/food`: Seoul food place dataset rendered on food pages
 - `scripts/generate-blog-post.js`: script for generating blog content from collected data
 
 ## Content Conventions
@@ -35,7 +36,7 @@
 
 ## Data and Safety Notes
 - Treat `.env.local` and any API keys as sensitive. Never expose secrets in code, docs, or sample outputs.
-- `scripts/fetch-public-data.js` requires `PUBLIC_DATA_API_KEY`, and `scripts/generate-blog-post.js` requires `GEMINI_API_KEY`. Do not assume the data-generation scripts are runnable unless those environment variables are configured.
+- `scripts/fetch-seoul-events.js` and `scripts/fetch-seoul-food.js` require `SEOUL_OPEN_DATA_API_KEY`, `scripts/fetch-public-benefits.js` requires `PUBLIC_DATA_API_KEY`, and `scripts/generate-blog-post.js` requires `GEMINI_API_KEY`. Do not assume the data-generation scripts are runnable unless those environment variables are configured.
 - Do not commit generated artifacts or dependency directories. Respect `.gitignore` and keep it updated if new generated output appears.
 - Avoid changing `package-lock.json` unless dependency changes are necessary for the task.
 
@@ -44,7 +45,7 @@
 - Start dev server: `npm run dev`
 - Lint: `npm run lint`
 - Production build: `npm run build`
-- Data scripts also require environment setup: `PUBLIC_DATA_API_KEY` for `scripts/fetch-public-data.js` and `GEMINI_API_KEY` for `scripts/generate-blog-post.js`
+- Data scripts also require environment setup: `SEOUL_OPEN_DATA_API_KEY` for Seoul Open Data scripts, `PUBLIC_DATA_API_KEY` for public benefits, and `GEMINI_API_KEY` for `scripts/generate-blog-post.js`
 
 ## Agent Expectations
 - Before larger changes, inspect the relevant route, component, and data source together so fixes address root cause.
