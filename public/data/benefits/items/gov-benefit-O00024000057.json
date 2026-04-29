@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-O00024000057",
+  "sourceId": "O00024000057",
+  "title": "이태원초등학교수영장 프로그램 할인(가임여성)",
+  "field": "문화·환경",
+  "provider": "용산구시설관리공단",
+  "providerType": "자치구",
+  "district": "용산구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "신분증에 적힌 생년월일이 만 13세 이상 만 55세 이하인 여성",
+  "summary": "용산구시설관리공단에서 제공하는 문화·환경 혜택입니다. 가임여성에게 수영 프로그램 이용요금 10%감면",
+  "supportType": "시설이용",
+  "supportSummary": "수영 프로그램에 한하여 만 13세 이상 만 55세 이하 여성 10% 할인",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00024000057",
+  "onlineUrl": "",
+  "inquiry": [
+    "이태원초등학교수영장/02-797-2492"
+  ],
+  "updatedAt": "2026-04-29",
+  "registeredAt": "2026-02-09",
+  "viewCount": 0,
+  "collectedAt": "2026-04-29T22:50:48.682Z",
+  "purpose": "가임여성에게 수영 프로그램 이용요금 10%감면",
+  "target": "신분증에 적힌 생년월일이 만 13세 이상 만 55세 이하인 여성",
+  "selectionCriteria": "",
+  "supportContent": "수영 프로그램에 한하여 만 13세 이상 만 55세 이하 여성 10% 할인",
+  "applicationMethod": "○ 방문 신청\n -이태원초등학교수영장 직접 방문 후 해당 서류 제출",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "",
+  "inquiryText": "이태원초등학교수영장/02-797-2492",
+  "ageMin": 13,
+  "ageMax": 55
+}

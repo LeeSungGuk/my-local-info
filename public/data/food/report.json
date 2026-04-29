@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T08:14:27.671Z",
+  "generatedAt": "2026-04-29T22:51:06.140Z",
   "source": {
     "provider": "서울 열린데이터광장",
     "dataset": "서울시 일반음식점 인허가 정보",
@@ -18,9 +18,9 @@
   },
   "changes": {
     "previousSelectedCount": 300,
-    "addedCount": 156,
-    "removedCount": 156,
-    "unchangedCount": 144
+    "addedCount": 0,
+    "removedCount": 0,
+    "unchangedCount": 300
   },
   "quality": {
     "averageScore": 69,

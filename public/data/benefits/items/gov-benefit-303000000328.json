@@ -16,6 +16,7 @@
   "supportSummary": "○ 성동구에 주민등록을 두고 거주하는 국가보훈대상자에게 매달 10일 보훈예우수당(7만원) 지급",
   "receptionAgency": "접수기관 정보 없음",
   "applicationMethodTypes": [
+    "정부24온라인신청",
     "방문신청"
   ],
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000328",
@@ -23,10 +24,10 @@
   "inquiry": [
     "복지정책과/02-2286-5019"
   ],
-  "updatedAt": "2026-01-28",
+  "updatedAt": "2026-04-29",
   "registeredAt": "2025-10-28",
   "viewCount": 70,
-  "collectedAt": "2026-04-28T22:50:26.294Z",
+  "collectedAt": "2026-04-29T22:50:48.682Z",
   "purpose": "국가보훈대상자에게 보훈예우수당(월 7만원) 지원",
   "target": "○ 보훈예우수당\n- 성동구 거주 국가보훈대상자(국가유공자 본인 또는 선순위유족)",
   "selectionCriteria": "",

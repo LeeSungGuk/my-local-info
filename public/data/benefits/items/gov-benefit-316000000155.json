@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-316000000155",
+  "sourceId": "316000000155",
+  "title": "원어민 영어방학특강",
+  "field": "보육·교육",
+  "provider": "서울특별시 구로구",
+  "providerType": "자치구",
+  "district": "구로구",
+  "userType": "개인",
+  "deadlineText": "접수기관 별 상이",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "구로구 관내 초등학생",
+  "summary": "서울특별시 구로구에서 제공하는 보육·교육 혜택입니다. 원어민 영어방학특강(겨울, 여름)\n- 초등학생 대상 1~2주간 원어민 영어수업",
+  "supportType": "기타(교육)",
+  "supportSummary": "원어민 영어방학특강(겨울, 여름)\n- 초등학생 대상 1~2주간 원어민 영어수업",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/316000000155",
+  "onlineUrl": "https://www.guro.go.kr/edu/study/",
+  "inquiry": [
+    "학습지원센터/02-860-3031"
+  ],
+  "updatedAt": "2026-04-29",
+  "registeredAt": "2025-11-28",
+  "viewCount": 0,
+  "collectedAt": "2026-04-29T22:50:48.682Z",
+  "purpose": "원어민 영어방학특강(겨울, 여름)\n- 초등학생 대상 1~2주간 원어민 영어수업",
+  "target": "구로구 관내 초등학생",
+  "selectionCriteria": "",
+  "supportContent": "원어민 영어방학특강(겨울, 여름)\n- 초등학생 대상 1~2주간 원어민 영어수업",
+  "applicationMethod": "학습지원센터 홈페이지 회원가입 후 신청",
+  "documents": "관내 증빙 서류",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 구로구 학습지원센터 설치 및 운영에 관한 조례",
+  "inquiryText": "학습지원센터/02-860-3031",
+  "ageMin": 6,
+  "ageMax": 13
+}

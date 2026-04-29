@@ -12,7 +12,7 @@
   "isAlwaysOpen": true,
   "targetSummary": "○ 의료급여 수급자 및 기타의료급여수급자",
   "summary": "서울특별시 동작구에서 제공하는 보건·의료 혜택입니다. 의료급여 수급자 등에게 장기요양보험 본인부담금 지원",
-  "supportType": "현금",
+  "supportType": "현금(감면)",
   "supportSummary": "○ 의료급여수급자의 장기요양보험 본인부담금 지원",
   "receptionAgency": "접수기관 정보 없음",
   "applicationMethodTypes": [
@@ -21,12 +21,12 @@
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000101",
   "onlineUrl": "",
   "inquiry": [
-    "어르신정책과/02-820-9673"
+    "어르신정책과/02-820-9115"
   ],
-  "updatedAt": "2026-01-30",
+  "updatedAt": "2026-04-29",
   "registeredAt": "2021-09-23",
-  "viewCount": 739,
-  "collectedAt": "2026-04-28T22:50:26.294Z",
+  "viewCount": 740,
+  "collectedAt": "2026-04-29T22:50:48.682Z",
   "purpose": "의료급여 수급자 등에게 장기요양보험 본인부담금 지원",
   "target": "○ 의료급여 수급자 및 기타의료급여수급자",
   "selectionCriteria": "",
@@ -40,7 +40,7 @@
     "노인장기요양보험법(제40조, 제2항)"
   ],
   "ordinance": "",
-  "inquiryText": "어르신정책과/02-820-9673",
+  "inquiryText": "어르신정책과/02-820-9115",
   "ageMin": 65,
   "ageMax": 120
 }

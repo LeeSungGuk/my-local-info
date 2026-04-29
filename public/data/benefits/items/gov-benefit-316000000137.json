@@ -21,12 +21,12 @@
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/316000000137",
   "onlineUrl": "",
   "inquiry": [
-    "장애인복지과/02-860-2143"
+    "장애인복지과/02-860-2345"
   ],
-  "updatedAt": "2026-02-03",
+  "updatedAt": "2026-04-29",
   "registeredAt": "2025-11-13",
   "viewCount": 87,
-  "collectedAt": "2026-04-28T22:50:26.294Z",
+  "collectedAt": "2026-04-29T22:50:48.682Z",
   "purpose": "전동보장구(전동휠체어, 전동스쿠터) 이용 장애인을 대상으로 전용보험을 지원하여 이동권을 향상하고, 경제적인 부담을 완화함으로써 장애인의 사회활동 참여를 촉진하고자 함",
   "target": "관내 등록장애인 및 65세 이상 노인 중 전동보장구 이용자",
   "selectionCriteria": "",
@@ -39,7 +39,7 @@
     "장애인복지법(제9조)"
   ],
   "ordinance": "",
-  "inquiryText": "장애인복지과/02-860-2143",
+  "inquiryText": "장애인복지과/02-860-2345",
   "ageMin": 65,
   "ageMax": 120
 }

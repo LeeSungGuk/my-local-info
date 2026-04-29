@@ -21,12 +21,12 @@
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/316000000112",
   "onlineUrl": "",
   "inquiry": [
-    "장애인복지과/02-860-2143"
+    "장애인복지과/02-860-2345"
   ],
-  "updatedAt": "2026-02-03",
+  "updatedAt": "2026-04-29",
   "registeredAt": "2021-09-23",
-  "viewCount": 725,
-  "collectedAt": "2026-04-28T22:50:26.294Z",
+  "viewCount": 727,
+  "collectedAt": "2026-04-29T22:50:48.682Z",
   "purpose": "장애인에게 재활보조기구 수리비용 지원",
   "target": "○ 전동휠체어, 전동스쿠터, 수동휠체어의 수리가 필요한 관내 등록장애인",
   "selectionCriteria": "",
@@ -41,7 +41,7 @@
     "장애인복지법(제65조)"
   ],
   "ordinance": "",
-  "inquiryText": "장애인복지과/02-860-2143",
+  "inquiryText": "장애인복지과/02-860-2345",
   "ageMin": 0,
   "ageMax": 120
 }

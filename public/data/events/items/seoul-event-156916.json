@@ -17,7 +17,7 @@
   "imageUrl": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=94950c28bee44177bf2bff226fec0dc4&thumb=Y",
   "detailUrl": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156916&menuNo=200010",
   "summary": "성동구 · 서울숲 일대에서 열리는 축제-자연/경관 행사입니다. 무료로 참여할 수 있는 행사입니다.",
-  "organizerUrl": "https://gov.seoul.go.kr/festa/garden/",
+  "organizerUrl": "https://www.seoul.go.kr/festa/garden/",
   "ticketType": "기관",
   "description": "",
   "performer": "",
@@ -25,5 +25,5 @@
   "latitude": 37.5430701468405,
   "longitude": 127.041799099222,
   "registeredAt": "2026-03-04",
-  "collectedAt": "2026-04-28T22:50:19.475Z"
+  "collectedAt": "2026-04-29T22:50:41.045Z"
 }

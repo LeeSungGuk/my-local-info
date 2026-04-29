@@ -1,7 +1,7 @@
 {
   "id": "gov-benefit-O00083200003",
   "sourceId": "O00083200003",
-  "title": "예술창작지원 서비스",
+  "title": "예술창작지원",
   "field": "문화·환경",
   "provider": "서울문화재단",
   "providerType": "서울 공공기관",
@@ -21,12 +21,12 @@
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00083200003",
   "onlineUrl": "scas.kr",
   "inquiry": [
-    "예술지원1팀/02-3290-7461"
+    "공연예술지원팀/02-304-0235"
   ],
-  "updatedAt": "2025-12-02",
+  "updatedAt": "2026-04-29",
   "registeredAt": "2022-07-15",
-  "viewCount": 670,
-  "collectedAt": "2026-04-28T22:50:26.294Z",
+  "viewCount": 673,
+  "collectedAt": "2026-04-29T22:50:48.682Z",
   "purpose": "예술 전 분야의 경력 단계별 예술인 및 단체 대상 창작활동 지원",
   "target": "창작자",
   "selectionCriteria": "",
@@ -37,7 +37,7 @@
   "identityDocuments": "해당없음",
   "legalBasis": [],
   "ordinance": "서울특별시 재단법인 서울문화재단 설립 및 운영에 관한 조례",
-  "inquiryText": "예술지원1팀/02-3290-7461",
+  "inquiryText": "공연예술지원팀/02-304-0235",
   "ageMin": 0,
   "ageMax": 0
 }

@@ -22,12 +22,12 @@
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/302000000112",
   "onlineUrl": "http://www.bokjiro.go.kr",
   "inquiry": [
-    "사회복지과/02-2199-7112"
+    "사회복지과/02-2199-7111"
   ],
-  "updatedAt": "2026-02-09",
+  "updatedAt": "2026-04-29",
   "registeredAt": "2021-09-23",
-  "viewCount": 936,
-  "collectedAt": "2026-04-28T22:50:26.294Z",
+  "viewCount": 938,
+  "collectedAt": "2026-04-29T22:50:48.682Z",
   "purpose": "출산 장애인 가정에 출산지원금 지급",
   "target": "○ 출생일 기준, 장애인으로 등록된 부 또는 모가 용산구 관내 주민등록을 두고 3개월 이상 거주한 자\n     (단, 출생일 기준 거주기간이 3개월 미만인 경우 3개월 이상된 때에 지급대상)",
   "selectionCriteria": "",
@@ -38,7 +38,7 @@
   "identityDocuments": "해당없음",
   "legalBasis": [],
   "ordinance": "서울특별시 용산구 장애인가정 출산지원금 지급에 관한 조례",
-  "inquiryText": "사회복지과/02-2199-7112",
+  "inquiryText": "사회복지과/02-2199-7111",
   "ageMin": 18,
   "ageMax": 44
 }

@@ -7,7 +7,7 @@
   "providerType": "자치구",
   "district": "동작구",
   "userType": "소상공인",
-  "deadlineText": "매년 상반기(3~4월)",
+  "deadlineText": "매년 상반기(3~4월) 하반기(8~9월)",
   "deadlineSortKey": "9999-12-31",
   "isAlwaysOpen": false,
   "targetSummary": "동작구 소재지의 상시근로자 5인 미만의 소상공인 개인서비스업 자영업자",
@@ -21,12 +21,12 @@
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000149",
   "onlineUrl": "",
   "inquiry": [
-    "동작구청 경제정책과/02-820-9324"
+    "동작구청 경제정책과/02-820-9333"
   ],
-  "updatedAt": "2026-02-04",
+  "updatedAt": "2026-04-29",
   "registeredAt": "2023-11-14",
-  "viewCount": 1315,
-  "collectedAt": "2026-04-28T22:50:26.294Z",
+  "viewCount": 1317,
+  "collectedAt": "2026-04-29T22:50:48.682Z",
   "purpose": "착한가격업소 운영 및 지원을 통한 서민경제생활 부담 완화 및 물가안정 분위기 확산",
   "target": "동작구 소재지의 상시근로자 5인 미만의 소상공인 개인서비스업 자영업자",
   "selectionCriteria": "",
@@ -37,7 +37,7 @@
   "identityDocuments": "해당없음",
   "legalBasis": [],
   "ordinance": "서울특별시 동작구 착한가격업소 지원 및 관리에 관한 조례(제5조)",
-  "inquiryText": "동작구청 경제정책과/02-820-9324",
+  "inquiryText": "동작구청 경제정책과/02-820-9333",
   "ageMin": 0,
   "ageMax": 0
 }
