@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { getAllDistricts } from "@/lib/districts";
 import { getAllSituations } from "@/lib/situations";
 import { getAllPosts } from "@/lib/posts";
 import { SITE_URL } from "@/lib/site-config";
@@ -16,7 +17,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${siteUrl}/blog`,
       lastModified: new Date(),
     },
+    {
+      url: `${siteUrl}/districts`,
+      lastModified: new Date(),
+    },
   ];
+  const districtRoutes: MetadataRoute.Sitemap = getAllDistricts().map((district) => ({
+    url: `${siteUrl}/districts/${district.slug}`,
+    lastModified: new Date(),
+  }));
+
   const situationRoutes: MetadataRoute.Sitemap = getAllSituations().map((situation) => ({
     url: `${siteUrl}${situation.href}`,
     lastModified: new Date(),
@@ -27,5 +37,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: post.updatedAt || post.date || new Date(),
   }));
 
-  return [...staticRoutes, ...situationRoutes, ...blogRoutes];
+  return [...staticRoutes, ...districtRoutes, ...situationRoutes, ...blogRoutes];
 }

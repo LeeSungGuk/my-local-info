@@ -51,6 +51,14 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href="/districts"
+                  className={footerLinkClassName}
+                >
+                  구별 가이드
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/benefits"
                   className={footerLinkClassName}
                 >
