@@ -13,14 +13,6 @@ type ChatMessage = {
   text: string;
 };
 
-type AdminChatMessage = {
-  id?: string | number;
-  sender?: string;
-  text?: string;
-  message?: string;
-  content?: string;
-};
-
 type FloatingChatbotProps = {
   items: ChatItem[];
 };
@@ -30,94 +22,15 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [inputValue, setInputValue] = useState("");
   const [isLoading, setIsLoading] = useState(false);
-  const [isHumanMode, setIsHumanMode] = useState(false);
   const [isSuggestionOpen, setIsSuggestionOpen] = useState(false);
   const nextId = useRef(1);
-  const seenAdminMessageIds = useRef(new Set<string>());
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
 
-  useEffect(() => {
-    if (!isHumanMode) {
-      return;
-    }
-
-    const pollAdminMessages = async () => {
-      try {
-        const response = await fetch("/api/chat-poll");
-
-        if (!response.ok) {
-          return;
-        }
-
-        const data = await response.json();
-        const rawMessages = Array.isArray(data.messages)
-          ? data.messages
-          : Array.isArray(data)
-            ? data
-            : [];
-        const adminMessages = rawMessages
-          .filter((message: AdminChatMessage) => message.sender === "admin")
-          .map((message: AdminChatMessage, index: number) => {
-            const text = message.text || message.message || message.content || "";
-            const id = String(message.id ?? `${text}-${index}`);
-
-            return {
-              id,
-              text,
-            };
-          })
-          .filter((message: { id: string; text: string }) => {
-            return message.text && !seenAdminMessageIds.current.has(message.id);
-          });
-
-        if (adminMessages.length === 0) {
-          return;
-        }
-
-        adminMessages.forEach((message: { id: string }) => {
-          seenAdminMessageIds.current.add(message.id);
-        });
-
-        setMessages((currentMessages) => [
-          ...currentMessages,
-          ...adminMessages.map((message: { text: string }) => ({
-            id: nextId.current++,
-            role: "bot" as const,
-            text: message.text,
-          })),
-        ]);
-      } catch {
-        // Polling failures are ignored so the chat UI stays usable.
-      }
-    };
-
-    pollAdminMessages();
-    const intervalId = window.setInterval(pollAdminMessages, 2000);
-
-    return () => window.clearInterval(intervalId);
-  }, [isHumanMode]);
-
-  const handleHumanModeClick = () => {
-    setIsHumanMode(true);
-    setMessages((currentMessages) => [
-      ...currentMessages,
-      {
-        id: nextId.current++,
-        role: "bot",
-        text: "문의 내용을 남길 수 있어요. 답변이 필요한 내용은 확인 후 안내드리겠습니다.",
-      },
-    ]);
-  };
-
   const handleQuestionClick = (item: ChatItem) => {
-    if (isHumanMode) {
-      return;
-    }
-
     const userMessage: ChatMessage = {
       id: nextId.current++,
       role: "user",
@@ -157,19 +70,13 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
     setIsLoading(true);
 
     try {
-      const response = await fetch(isHumanMode ? "/api/chat-human" : "/api/chat", {
+      const response = await fetch("/api/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(
-          isHumanMode ? { sender: "user", message: question } : { question },
-        ),
+        body: JSON.stringify({ question }),
       });
-
-      if (isHumanMode) {
-        return;
-      }
 
       const data = await response.json();
       const answer =
@@ -186,19 +93,6 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
         },
       ]);
     } catch {
-      if (isHumanMode) {
-        setMessages((currentMessages) => [
-          ...currentMessages,
-          {
-            id: nextId.current++,
-            role: "bot",
-            text: "메시지를 전송하지 못했습니다. 잠시 후 다시 시도해주세요.",
-          },
-        ]);
-
-        return;
-      }
-
       setMessages((currentMessages) => [
         ...currentMessages,
         {
@@ -222,11 +116,11 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
           <header className="flex items-center justify-between border-b border-sky-100 bg-white px-5 py-4">
             <div>
               <h2 className="text-base font-bold text-slate-950">
-                {isHumanMode ? "문의 남기기" : "서울 정보 도우미"}
+                서울 정보 도우미
               </h2>
               <p className="mt-0.5 flex items-center gap-1.5 text-xs font-medium text-slate-500">
                 <span className="h-2 w-2 rounded-full bg-cyan-500" />
-                {isHumanMode ? "확인 후 안내" : "공식 정보 기준 안내"}
+                공식 정보 기준 안내
               </p>
             </div>
             <button
@@ -253,7 +147,7 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
 
           <div className="flex-1 overflow-y-auto bg-sky-50/60 px-4 py-5">
             <div className="space-y-3">
-              {!isHumanMode && messages.length === 0 ? (
+              {messages.length === 0 ? (
                 <div className="space-y-3">
                   <div className="flex justify-start">
                     <p className="max-w-[84%] rounded-2xl rounded-tl-md bg-white px-4 py-2.5 text-sm leading-relaxed text-slate-800 shadow-sm ring-1 ring-sky-100/70">
@@ -271,13 +165,6 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
                         {item.question}
                       </button>
                     ))}
-                    <button
-                      type="button"
-                      onClick={handleHumanModeClick}
-                      className="w-full rounded-xl border border-cyan-200 bg-cyan-50 px-3 py-2.5 text-left text-sm font-semibold text-cyan-800 shadow-sm transition-colors hover:bg-cyan-100"
-                    >
-                      문의 남기기
-                    </button>
                   </div>
                 </div>
               ) : null}
@@ -315,7 +202,7 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
           </div>
 
           <div className="border-t border-sky-100 bg-white p-4 pb-[calc(1rem+env(safe-area-inset-bottom))] sm:p-3">
-            {isHumanMode || messages.length === 0 ? null : (
+            {messages.length === 0 ? null : (
               <div className="rounded-2xl border border-sky-100 bg-sky-50/80">
                 <button
                   type="button"
@@ -361,31 +248,15 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
                       {item.question}
                     </button>
                   ))}
-                  <button
-                    type="button"
-                    onClick={handleHumanModeClick}
-                    className="w-full rounded-xl border border-cyan-200 bg-cyan-50 px-3 py-2.5 text-left text-sm font-semibold text-cyan-800 transition-colors hover:bg-cyan-100"
-                  >
-                    문의 남기기
-                  </button>
                 </div>
               </div>
             )}
-            {isHumanMode ? (
-              <div className="rounded-xl border border-sky-100 bg-sky-50 px-3 py-2.5 text-center text-sm font-semibold text-slate-500">
-                문의 내용을 입력해 주세요
-              </div>
-            ) : null}
             <form onSubmit={handleSubmit} className="mt-3 flex gap-2">
               <input
                 type="text"
                 value={inputValue}
                 onChange={(event) => setInputValue(event.target.value)}
-                placeholder={
-                  isHumanMode
-                    ? "문의 내용을 입력하세요"
-                    : "서울 정보에 대해 질문하세요"
-                }
+                placeholder="서울 정보에 대해 질문하세요"
                 className="min-w-0 flex-1 rounded-xl border border-sky-100 bg-slate-50 px-3 py-2.5 text-sm text-slate-900 outline-none transition-colors placeholder:text-slate-400 focus:border-sky-300 focus:bg-white focus:ring-2 focus:ring-sky-100"
                 disabled={isLoading}
               />
