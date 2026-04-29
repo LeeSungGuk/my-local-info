@@ -4,7 +4,7 @@ import {
   getAllDistricts,
   type DistrictGuide,
   type DistrictSlug,
-} from "@/lib/districts";
+} from "./districts.ts";
 
 export interface FoodIntent {
   id: string;

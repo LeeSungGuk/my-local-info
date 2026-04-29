@@ -3,7 +3,7 @@ import SearchResultsView from "@/components/SearchResultsView";
 
 export const metadata = {
   title: "통합 검색 | 서울시티",
-  description: "서울시 행사, 혜택, 블로그를 한 번에 검색하세요.",
+  description: "서울시 행사, 혜택, 먹거리, 블로그를 한 번에 검색하세요.",
 };
 
 export default function SearchPage() {

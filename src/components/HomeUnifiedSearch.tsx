@@ -11,6 +11,7 @@ const EMPTY_INDEX: SearchIndexData = {
   counts: {
     event: 0,
     benefit: 0,
+    food: 0,
     blog: 0,
   },
   items: [],
@@ -22,6 +23,8 @@ function typeBadgeClassName(type: string) {
       return "bg-sky-100 text-sky-700";
     case "benefit":
       return "bg-blue-100 text-blue-700";
+    case "food":
+      return "bg-emerald-100 text-emerald-700";
     case "blog":
       return "bg-indigo-100 text-indigo-700";
     default:
@@ -149,12 +152,8 @@ export default function HomeUnifiedSearch() {
               빠른 검색 결과
             </div>
             <div className="divide-y divide-slate-100">
-              {suggestions.map((item) => (
-                <Link
-                  key={`${item.type}-${item.id}`}
-                  href={item.href}
-                  className="block px-4 py-3 transition-colors hover:bg-slate-50"
-                >
+              {suggestions.map((item) => {
+                const content = (
                   <div className="flex flex-col gap-2">
                     <div className="flex items-start justify-between gap-3">
                       <div className="flex min-w-0 flex-wrap items-center gap-2">
@@ -180,8 +179,32 @@ export default function HomeUnifiedSearch() {
                       {item.summary}
                     </p>
                   </div>
-                </Link>
-              ))}
+                );
+
+                if (item.isExternal) {
+                  return (
+                    <a
+                      key={`${item.type}-${item.id}`}
+                      href={item.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block px-4 py-3 transition-colors hover:bg-slate-50"
+                    >
+                      {content}
+                    </a>
+                  );
+                }
+
+                return (
+                  <Link
+                    key={`${item.type}-${item.id}`}
+                    href={item.href}
+                    className="block px-4 py-3 transition-colors hover:bg-slate-50"
+                  >
+                    {content}
+                  </Link>
+                );
+              })}
             </div>
           </div>
         ) : null}
@@ -189,7 +212,7 @@ export default function HomeUnifiedSearch() {
 
       <div className="mt-3 flex flex-col items-center gap-3 px-2 sm:flex-row sm:justify-between">
         <p className="text-center text-sm font-medium text-sky-50 sm:text-left">
-          행사, 혜택, 블로그를 한 번에 검색할 수 있습니다.
+          행사, 혜택, 먹거리, 블로그를 한 번에 검색할 수 있습니다.
         </p>
         <div className="flex flex-wrap items-center justify-center gap-2 text-xs text-sky-100">
           <span className="rounded-full border border-white/15 bg-slate-950/20 px-3 py-1">
@@ -197,6 +220,9 @@ export default function HomeUnifiedSearch() {
           </span>
           <span className="rounded-full border border-white/15 bg-slate-950/20 px-3 py-1">
             혜택 {index.counts.benefit}건
+          </span>
+          <span className="rounded-full border border-white/15 bg-slate-950/20 px-3 py-1">
+            먹거리 {index.counts.food}건
           </span>
           <span className="rounded-full border border-white/15 bg-slate-950/20 px-3 py-1">
             블로그 {index.counts.blog}건

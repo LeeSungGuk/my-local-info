@@ -156,6 +156,8 @@ export function getSearchTypeLabel(type: SearchItemType) {
       return "행사";
     case "benefit":
       return "혜택";
+    case "food":
+      return "먹거리";
     case "blog":
       return "블로그";
   }

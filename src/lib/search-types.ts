@@ -1,4 +1,4 @@
-export type SearchItemType = "event" | "benefit" | "blog";
+export type SearchItemType = "event" | "benefit" | "food" | "blog";
 
 export interface SearchIndexItem {
   id: string;
@@ -19,6 +19,7 @@ export interface SearchIndexItem {
   updatedAt: string;
   isActive: boolean;
   isFree: boolean;
+  isExternal: boolean;
 }
 
 export interface SearchIndexData {

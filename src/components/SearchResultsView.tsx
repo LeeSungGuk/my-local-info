@@ -11,6 +11,7 @@ const EMPTY_INDEX: SearchIndexData = {
   counts: {
     event: 0,
     benefit: 0,
+    food: 0,
     blog: 0,
   },
   items: [],
@@ -20,6 +21,7 @@ const SEARCH_TYPE_OPTIONS = [
   { label: "전체", value: "all" },
   { label: "행사", value: "event" },
   { label: "혜택", value: "benefit" },
+  { label: "먹거리", value: "food" },
   { label: "블로그", value: "blog" },
 ] as const;
 
@@ -29,6 +31,8 @@ function typeClassName(type: SearchIndexItem["type"]) {
       return "bg-sky-100 text-sky-700";
     case "benefit":
       return "bg-blue-100 text-blue-700";
+    case "food":
+      return "bg-emerald-100 text-emerald-700";
     case "blog":
       return "bg-indigo-100 text-indigo-700";
   }
@@ -40,6 +44,8 @@ function cardAccentClassName(type: SearchIndexItem["type"]) {
       return "from-sky-400 to-blue-500";
     case "benefit":
       return "from-blue-400 to-indigo-500";
+    case "food":
+      return "from-emerald-400 to-teal-500";
     case "blog":
       return "from-cyan-400 to-sky-500";
   }
@@ -255,7 +261,7 @@ export default function SearchResultsView() {
         ) : (
           <>
             <h1 className="mt-5 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-5xl">
-              서울의 행사, 혜택, 정보글을
+              서울의 행사, 혜택, 먹거리와 정보글을
               <br />
               한 번에 찾아보세요
             </h1>
@@ -311,7 +317,7 @@ export default function SearchResultsView() {
                 )}
               </h2>
               <p className="mt-2 text-sm leading-relaxed text-slate-600">
-                행사, 혜택, 블로그를 한 번에 검색합니다. 지역과 유형을 함께 좁히면 더 빨리 찾을 수 있습니다.
+                행사, 혜택, 먹거리, 블로그를 한 번에 검색합니다. 지역과 유형을 함께 좁히면 더 빨리 찾을 수 있습니다.
               </p>
             </div>
             <div className="rounded-2xl bg-sky-50 px-4 py-3 text-right text-sm font-semibold text-sky-700">
@@ -396,9 +402,20 @@ export default function SearchResultsView() {
                         </span>
                       ))}
                     </div>
-                    <Link href={item.href} className="text-sm font-semibold text-sky-700 hover:text-sky-800">
-                      자세히 보기
-                    </Link>
+                    {item.isExternal ? (
+                      <a
+                        href={item.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm font-semibold text-sky-700 hover:text-sky-800"
+                      >
+                        카카오맵에서 보기
+                      </a>
+                    ) : (
+                      <Link href={item.href} className="text-sm font-semibold text-sky-700 hover:text-sky-800">
+                        자세히 보기
+                      </Link>
+                    )}
                   </div>
                 </div>
               </article>
