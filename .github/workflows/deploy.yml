@@ -12,7 +12,7 @@ permissions:
   contents: write
 
 jobs:
-  # ─── 스케줄/수동 실행: 행사/혜택/먹거리 수집 → 서울 정보글 생성 → 커밋 → 빌드 → 배포 ───
+  # ─── 스케줄/수동 실행: 행사/혜택/먹거리 수집 → 서울 정보글 생성 → 검증 → 커밋 → 배포 ───
   update-and-deploy:
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
@@ -53,8 +53,20 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
-      - name: Build search index
-        run: npm run build:search-index
+      - name: Lint
+        run: npm run lint
+
+      - name: Test
+        run: npm test
+
+      - name: Build
+        run: npm run build
+        env:
+          NEXT_PUBLIC_ADSENSE_ID: ${{ secrets.NEXT_PUBLIC_ADSENSE_ID }}
+          NEXT_PUBLIC_ADSENSE_SLOT_HOME: ${{ secrets.NEXT_PUBLIC_ADSENSE_SLOT_HOME }}
+          NEXT_PUBLIC_ADSENSE_SLOT_BLOG: ${{ secrets.NEXT_PUBLIC_ADSENSE_SLOT_BLOG }}
+          NEXT_PUBLIC_COUPANG_PARTNER_ID: ${{ secrets.NEXT_PUBLIC_COUPANG_PARTNER_ID }}
+          NEXT_PUBLIC_GA_ID: ${{ secrets.NEXT_PUBLIC_GA_ID }}
 
       - name: Commit and push changes
         run: |
@@ -68,22 +80,13 @@ jobs:
             git push
           fi
 
-      - name: Build
-        run: npm run build
-        env:
-          NEXT_PUBLIC_ADSENSE_ID: ${{ secrets.NEXT_PUBLIC_ADSENSE_ID }}
-          NEXT_PUBLIC_ADSENSE_SLOT_HOME: ${{ secrets.NEXT_PUBLIC_ADSENSE_SLOT_HOME }}
-          NEXT_PUBLIC_ADSENSE_SLOT_BLOG: ${{ secrets.NEXT_PUBLIC_ADSENSE_SLOT_BLOG }}
-          NEXT_PUBLIC_COUPANG_PARTNER_ID: ${{ secrets.NEXT_PUBLIC_COUPANG_PARTNER_ID }}
-          NEXT_PUBLIC_GA_ID: ${{ secrets.NEXT_PUBLIC_GA_ID }}
-
       - name: Deploy to Cloudflare Pages
         run: npx wrangler pages deploy out --project-name=my-local-info
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
-  # ─── push 실행: 빌드 → 배포만 ───
+  # ─── push 실행: 검증 → 빌드 → 배포 ───
   deploy-only:
     if: github.event_name == 'push'
     runs-on: ubuntu-latest
@@ -100,6 +103,12 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Test
+        run: npm test
 
       - name: Build
         run: npm run build
