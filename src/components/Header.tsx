@@ -42,6 +42,7 @@ export default function Header() {
             <NavLink href="/">홈</NavLink>
             <NavLink href="/#situations">상황별 코스</NavLink>
             <NavLink href="/districts">구별 가이드</NavLink>
+            <NavLink href="/food">먹거리</NavLink>
             <NavLink href="/events">행사/축제</NavLink>
             <NavLink href="/benefits">지원금/혜택</NavLink>
             <NavLink href="/blog">블로그</NavLink>
@@ -113,6 +114,9 @@ export default function Header() {
                 </MobileNavLink>
                 <MobileNavLink href="/districts" onClick={() => setIsMenuOpen(false)}>
                   🗺️ 구별 가이드
+                </MobileNavLink>
+                <MobileNavLink href="/food" onClick={() => setIsMenuOpen(false)}>
+                  🍽️ 먹거리
                 </MobileNavLink>
                 <MobileNavLink href="/events" onClick={() => setIsMenuOpen(false)}>
                   🎉 행사/축제

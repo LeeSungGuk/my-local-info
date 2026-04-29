@@ -59,6 +59,14 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href="/food"
+                  className={footerLinkClassName}
+                >
+                  먹거리
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/benefits"
                   className={footerLinkClassName}
                 >

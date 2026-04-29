@@ -12,6 +12,7 @@ import {
 } from "@/lib/districts";
 import { filterVisibleEvents, getTodayInSeoul, sortEventsByStartDate } from "@/lib/event-visibility";
 import { sortBenefits } from "@/lib/benefit-utils";
+import { getDistrictFoodHref, getFoodIntentsByDistrict } from "@/lib/food";
 import { getAllPosts, type Post } from "@/lib/posts";
 import { SITE_URL } from "@/lib/site-config";
 import { getEventsIndex, type SeoulEventSummary } from "@/lib/seoul-events";
@@ -76,6 +77,7 @@ export default async function DistrictDetailPage({ params }: PageProps) {
     benefitsIndex.items.filter((benefit) => matchesDistrictBenefit(district, benefit))
   ).slice(0, 4);
   const relatedPosts = getRelatedPosts(district, posts);
+  const foodIntents = getFoodIntentsByDistrict(district.slug).slice(0, 2);
   const otherDistricts = getAllDistricts()
     .filter((item) => item.slug !== district.slug)
     .slice(0, 4);
@@ -330,6 +332,44 @@ export default async function DistrictDetailPage({ params }: PageProps) {
               benefitCollectedAt={benefitsIndex.source.collectedAt}
             />
           </div>
+        </section>
+
+        <section className="mt-10 rounded-3xl border border-emerald-100 bg-white p-6 shadow-soft sm:p-8">
+          <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
+            <div>
+              <p className="text-sm font-bold uppercase tracking-[0.16em] text-emerald-600">
+                Food
+              </p>
+              <h2 className="mt-2 text-2xl font-extrabold text-slate-950">
+                나들이 전후 식사도 같이 보기
+              </h2>
+            </div>
+            <Link
+              href={getDistrictFoodHref(district)}
+              className="inline-flex min-h-11 items-center rounded-xl border border-emerald-200 px-4 text-sm font-bold text-emerald-700 transition-colors hover:bg-emerald-50"
+            >
+              {district.name} 먹거리 보기
+            </Link>
+          </div>
+          {foodIntents.length > 0 ? (
+            <div className="mt-6 grid gap-4 md:grid-cols-2">
+              {foodIntents.map((intent) => (
+                <Link
+                  key={intent.id}
+                  href={getDistrictFoodHref(district)}
+                  className="rounded-2xl border border-emerald-100 bg-emerald-50/40 p-5 transition-colors hover:border-emerald-200 hover:bg-emerald-50"
+                >
+                  <p className="font-bold text-slate-950">{intent.title}</p>
+                  <p className="mt-2 text-sm font-semibold text-emerald-700">
+                    {intent.area}
+                  </p>
+                  <p className="mt-3 line-clamp-2 text-sm leading-6 text-slate-600">
+                    {intent.description}
+                  </p>
+                </Link>
+              ))}
+            </div>
+          ) : null}
         </section>
 
         <section className="mt-10 rounded-3xl border border-slate-100 bg-white p-6 shadow-soft sm:p-8">

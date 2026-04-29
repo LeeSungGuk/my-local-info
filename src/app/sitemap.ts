@@ -21,9 +21,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${siteUrl}/districts`,
       lastModified: new Date(),
     },
+    {
+      url: `${siteUrl}/food`,
+      lastModified: new Date(),
+    },
   ];
   const districtRoutes: MetadataRoute.Sitemap = getAllDistricts().map((district) => ({
     url: `${siteUrl}/districts/${district.slug}`,
+    lastModified: new Date(),
+  }));
+  const districtFoodRoutes: MetadataRoute.Sitemap = getAllDistricts().map((district) => ({
+    url: `${siteUrl}/districts/${district.slug}/food`,
     lastModified: new Date(),
   }));
 
@@ -37,5 +45,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: post.updatedAt || post.date || new Date(),
   }));
 
-  return [...staticRoutes, ...districtRoutes, ...situationRoutes, ...blogRoutes];
+  return [
+    ...staticRoutes,
+    ...districtRoutes,
+    ...districtFoodRoutes,
+    ...situationRoutes,
+    ...blogRoutes,
+  ];
 }
