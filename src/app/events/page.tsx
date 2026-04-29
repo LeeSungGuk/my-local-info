@@ -1,6 +1,5 @@
-import Link from "next/link";
-import { Suspense } from "react";
 import EventsCatalog from "@/components/EventsCatalog";
+import { filterVisibleEvents, getTodayInSeoul, sortEventsByStartDate } from "@/lib/event-visibility";
 import { getAllEvents } from "@/lib/seoul-events";
 
 export const metadata = {
@@ -9,7 +8,8 @@ export const metadata = {
 };
 
 export default async function EventsPage() {
-  const events = await getAllEvents();
+  const today = getTodayInSeoul();
+  const events = sortEventsByStartDate(filterVisibleEvents(await getAllEvents(), today));
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-sky-50 via-white to-white">
@@ -50,9 +50,7 @@ export default async function EventsPage() {
             </p>
           </div>
         ) : (
-          <Suspense fallback={<CatalogFallback message="행사 목록을 불러오는 중입니다." />}>
-            <EventsCatalog events={events} />
-          </Suspense>
+          <EventsCatalog events={events} today={today} />
         )}
       </section>
     </div>
@@ -61,20 +59,11 @@ export default async function EventsPage() {
 
 function QuickLink({ href, label }: { href: string; label: string }) {
   return (
-    <Link
+    <a
       href={href}
       className="inline-flex items-center rounded-full border border-sky-200 bg-white px-4 py-2.5 text-sm font-semibold text-sky-700 shadow-sm transition-colors hover:border-sky-300 hover:bg-sky-50"
     >
       {label}
-    </Link>
-  );
-}
-
-function CatalogFallback({ message }: { message: string }) {
-  return (
-    <div className="rounded-2xl border border-sky-100 bg-white p-10 text-center">
-      <p className="text-lg font-semibold text-gray-900">{message}</p>
-      <p className="mt-2 text-sm text-gray-600">필터 조건을 준비하고 있습니다.</p>
-    </div>
+    </a>
   );
 }

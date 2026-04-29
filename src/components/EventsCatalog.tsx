@@ -1,11 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useSearchParams } from "next/navigation";
-import { useState } from "react";
-import { filterVisibleEvents, sortEventsByStartDate } from "@/lib/event-visibility";
+import { useMemo, useState, useSyncExternalStore } from "react";
 import { isIndoorEvent, isOngoingEvent } from "@/lib/home-summary";
-import { useTodayInSeoul } from "@/lib/use-today-in-seoul";
 
 interface EventItem {
   id: string;
@@ -26,6 +23,25 @@ const EVENT_VIEW_LABELS: Record<string, string> = {
   free: "무료 행사",
   indoor: "실내 추천",
 };
+const URL_CHANGE_EVENT = "events-catalog-url-change";
+
+function subscribeToSearchParams(callback: () => void) {
+  window.addEventListener("popstate", callback);
+  window.addEventListener(URL_CHANGE_EVENT, callback);
+
+  return () => {
+    window.removeEventListener("popstate", callback);
+    window.removeEventListener(URL_CHANGE_EVENT, callback);
+  };
+}
+
+function getSearchParamsSnapshot() {
+  return window.location.search;
+}
+
+function getServerSearchParamsSnapshot() {
+  return "";
+}
 
 function formatEventPeriod(event: Pick<EventItem, "startDate" | "endDate">) {
   if (!event.startDate && !event.endDate) {
@@ -41,27 +57,28 @@ function formatEventPeriod(event: Pick<EventItem, "startDate" | "endDate">) {
 
 export default function EventsCatalog({
   events,
+  today,
 }: {
   events: EventItem[];
+  today: string;
 }) {
-  const [selectedDistrict, setSelectedDistrict] = useState(ALL_DISTRICTS);
-  const [visibleCount, setVisibleCount] = useState(24);
+  const [pagination, setPagination] = useState({
+    filterKey: "",
+    visibleCount: 24,
+  });
   const [isMobileFiltersOpen, setIsMobileFiltersOpen] = useState(false);
-  const searchParams = useSearchParams();
-  const today = useTodayInSeoul();
+  const searchParamsSnapshot = useSyncExternalStore(
+    subscribeToSearchParams,
+    getSearchParamsSnapshot,
+    getServerSearchParamsSnapshot,
+  );
+  const searchParams = useMemo(
+    () => new URLSearchParams(searchParamsSnapshot),
+    [searchParamsSnapshot],
+  );
 
-  if (!today) {
-    return (
-      <div className="rounded-2xl border border-sky-100 bg-white p-10 text-center">
-        <p className="text-lg font-semibold text-gray-900">행사 목록을 불러오는 중입니다.</p>
-        <p className="mt-2 text-sm text-gray-600">오늘 날짜 기준으로 노출 대상을 계산하고 있습니다.</p>
-      </div>
-    );
-  }
-
-  const visibleEvents = sortEventsByStartDate(filterVisibleEvents(events, today));
   const selectedView = searchParams.get("view") || "";
-  const baseEvents = visibleEvents.filter((event) => {
+  const baseEvents = events.filter((event) => {
     if (selectedView === "ongoing") {
       return isOngoingEvent(event, today);
     }
@@ -83,6 +100,13 @@ export default function EventsCatalog({
   }, {});
 
   const districts = Object.keys(districtCounts).sort((a, b) => a.localeCompare(b, "ko"));
+  const districtParam = searchParams.get("district") || ALL_DISTRICTS;
+  const selectedDistrict = districtParam === ALL_DISTRICTS || districtCounts[districtParam]
+    ? districtParam
+    : ALL_DISTRICTS;
+  const filterKey = `${selectedView}:${selectedDistrict}`;
+  const visibleCount =
+    pagination.filterKey === filterKey ? pagination.visibleCount : 24;
 
   const filteredEvents =
     selectedDistrict === ALL_DISTRICTS
@@ -97,8 +121,28 @@ export default function EventsCatalog({
   ].join(" · ");
 
   function selectDistrict(nextDistrict: string) {
-    setSelectedDistrict(nextDistrict);
-    setVisibleCount(24);
+    const nextParams = new URLSearchParams(window.location.search);
+
+    if (nextDistrict === ALL_DISTRICTS) {
+      nextParams.delete("district");
+    } else {
+      nextParams.set("district", nextDistrict);
+    }
+
+    const nextQuery = nextParams.toString();
+    const nextUrl = nextQuery
+      ? `${window.location.pathname}?${nextQuery}`
+      : window.location.pathname;
+
+    window.history.replaceState(null, "", nextUrl);
+    window.dispatchEvent(new Event(URL_CHANGE_EVENT));
+    setIsMobileFiltersOpen(false);
+  }
+
+  function resetCatalogFilters() {
+    window.history.replaceState(null, "", "/events");
+    window.dispatchEvent(new Event(URL_CHANGE_EVENT));
+    setIsMobileFiltersOpen(false);
   }
 
   function renderFilterPanel() {
@@ -121,7 +165,14 @@ export default function EventsCatalog({
         {EVENT_VIEW_LABELS[selectedView] ? (
           <div className="mt-6 rounded-xl border border-sky-200 bg-sky-50 px-4 py-4 text-sm leading-relaxed text-sky-800">
             현재 보기: <strong>{EVENT_VIEW_LABELS[selectedView]}</strong>
-            <Link href="/events" className="ml-2 font-semibold underline underline-offset-4">
+            <Link
+              href="/events"
+              onClick={(event) => {
+                event.preventDefault();
+                resetCatalogFilters();
+              }}
+              className="ml-2 font-semibold underline underline-offset-4"
+            >
               전체로 돌아가기
             </Link>
           </div>
@@ -273,7 +324,12 @@ export default function EventsCatalog({
               <div className="mt-8 flex justify-center">
                 <button
                   type="button"
-                  onClick={() => setVisibleCount((prev) => prev + 24)}
+                  onClick={() =>
+                    setPagination({
+                      filterKey,
+                      visibleCount: visibleCount + 24,
+                    })
+                  }
                   className="inline-flex items-center rounded-full border border-sky-200 bg-white px-6 py-3 text-sm font-semibold text-sky-700 shadow-sm transition-colors hover:bg-sky-50"
                 >
                   행사 더 보기
