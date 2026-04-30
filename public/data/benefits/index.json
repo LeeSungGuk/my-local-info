@@ -10,17 +10,698 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-04-29T22:50:48.682Z",
+    "collectedAt": "2026-04-30T22:50:01.753Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10937,
-    "fetchedCount": 1116,
-    "activeCount": 1082,
+    "availableCount": 10929,
+    "fetchedCount": 1117,
+    "activeCount": 1083,
     "expiredCount": 34,
     "deduplicatedCount": 0,
     "filterMode": "서울 소관기관",
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-308000000116",
+      "sourceId": "308000000116",
+      "title": "효도지원금 지원",
+      "field": "보호·돌봄",
+      "provider": "서울특별시 강북구",
+      "providerType": "자치구",
+      "district": "강북구",
+      "userType": "개인",
+      "deadlineText": "26.9.1.~26.9.18.",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 매년 1월 1일 현재 서울특별시 강북구에 1년 이상 주민등록을 두고 거주하는 효행가정\n   - 효행가정 : 효행대상자와 그 직계비속이 서울특별시 강북구에서 동일한 세대를 이루고 생계를 같이하는 가정\n   - 효행대상자 : 효도지원금을 지급하는 날이 속하는 해 12…",
+      "summary": "서울특별시 강북구에서 제공하는 보호·돌봄 혜택입니다. 효행가정에 효도지원금 지급",
+      "supportType": "현금",
+      "supportSummary": "○ 효행가정에 예산의 범위 내에서 매년 20만 원 지급\n   - 효행대상자가 부부일 경우 매년 40만 원 지급\n   - 매년 1월 1일 기준 지원 대상자 선정\n   - 최초 대상자 선정 후 지급일 이전에 사망하여도 지급(1회)",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/308000000116",
+      "onlineUrl": "",
+      "inquiry": [
+        "어르신·장애인과/02-901-6655"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-308000000125",
+      "sourceId": "308000000125",
+      "title": "찾아가는 맞춤형 주거환경 개선 지원",
+      "field": "주거·자립",
+      "provider": "서울특별시 강북구",
+      "providerType": "자치구",
+      "district": "강북구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 강북구 내 주거취약 홀몸어르신",
+      "summary": "서울특별시 강북구에서 제공하는 주거·자립 혜택입니다. 주거취약 홀몸어르신에게 환경 개선 등 서비스 지원",
+      "supportType": "서비스(돌봄)",
+      "supportSummary": "○ 지역 내 주거취약계층 어르신의 생활환경 개선 및 지원\n - 정리정돈, 인식개선교육, 가정 내 시설물 교체 및  개보수 등\n\n○ 맞춤형 정리정돈 서비스 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/308000000125",
+      "onlineUrl": "",
+      "inquiry": [
+        "어르신·장애인과/02-901-6657"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-320000000119",
+      "sourceId": "320000000119",
+      "title": "국가보훈대상자 보훈수당",
+      "field": "생활안정",
+      "provider": "서울특별시 관악구",
+      "providerType": "자치구",
+      "district": "관악구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 보훈예우수당\n   - 지급대상: 관악구에 거주하는 국가유공자 본인 및 선순위 유족\n   - 지 급 액: 월 7만원\n   - 지급방법: 지급대상자 본인 실명의 계좌입금\n\n○ 배우자복지수당\n   - 지급대상: 관악구에 거주하는 사망한 참전유공자의 배우자\n   - 지…",
+      "summary": "서울특별시 관악구에서 제공하는 생활안정 혜택입니다. 국가유공자 및 선순위유족에게 매월 25일 보훈수당 지급",
+      "supportType": "현금",
+      "supportSummary": "○ 보훈예우수당\n   - 지급대상: 관악구에 거주하는 국가유공자 본인 및 선순위 유족\n   - 지 급 액: 월 8만원\n   - 지급방법: 지급대상자 본인 실명의 계좌입금\n\n○ 배우자복지수당\n   - 지급대상: 관악구에 거주하는 사망한 참전유공자의 배우자 (보훈예우수당…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000119",
+      "onlineUrl": "",
+      "inquiry": [
+        "복지정책과/02-879-5854"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2023-08-23"
+    },
+    {
+      "id": "gov-benefit-320000000121",
+      "sourceId": "320000000121",
+      "title": "국가보훈대상자 사망위로금",
+      "field": "생활안정",
+      "provider": "서울특별시 관악구",
+      "providerType": "자치구",
+      "district": "관악구",
+      "userType": "개인",
+      "deadlineText": "사망 후 1년 이내 신청가능",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "- 지급대상: 보훈대상자 유족\n- 지급액: 20만원",
+      "summary": "서울특별시 관악구에서 제공하는 생활안정 혜택입니다. (구)국가보훈대상자 사망위로금 지급, (시)국가유공자 사망조의금 지급",
+      "supportType": "현금",
+      "supportSummary": "○ (구)사망위로금 지급\n   - 관악구에 1년 이상 거주한 국가보훈대상자 사망시 유족에서 사망위로금 지급\n   - 지 급 액 : 20만원\n   - 지급시기 : 신청서 접수 후 2주 이내\n   - 사망후 1년 이내 신청 가능\n\n○ (시) 국가유공자 사망조의금 지급…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000121",
+      "onlineUrl": "",
+      "inquiry": [
+        "복지정책과/879-5854"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2023-08-23"
+    },
+    {
+      "id": "gov-benefit-320000000120",
+      "sourceId": "320000000120",
+      "title": "국가보훈대상자 위문금 지원",
+      "field": "생활안정",
+      "provider": "서울특별시 관악구",
+      "providerType": "자치구",
+      "district": "관악구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "구 위문금: 국가보훈대상자(매회 3만원)\n시 위문금: 독립유공자손자녀 또는 선순위유족의 형제자매 등(시기별, 대상별 금액 상이)",
+      "summary": "서울특별시 관악구에서 제공하는 생활안정 혜택입니다. 국가보훈대상자에게 명절 및 호국보훈의 달 위문금 지급",
+      "supportType": "현금",
+      "supportSummary": "구 위문금: 관악구에 거주하는 국가보훈대상자에게 설날, 추석, 호국보훈의 달(6월) 위문금 지급\n시 위문금: 독립유공자손자녀 등에게 3.1절, 광복절, 호국보훈의 달(6월) 위문금 지급",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000120",
+      "onlineUrl": "",
+      "inquiry": [
+        "복지정책과/879-5854"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2023-08-23"
+    },
+    {
+      "id": "gov-benefit-320000000299",
+      "sourceId": "320000000299",
+      "title": "관악구 깡충깡충 성장양육지원금",
+      "field": "임신·출산",
+      "provider": "서울특별시 관악구",
+      "providerType": "자치구",
+      "district": "관악구",
+      "userType": "개인",
+      "deadlineText": "대상영유아의 생일부터 6개월 이내 신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "2세, 3세, 4세 대상영유아의 보호자  (※ 2가지 요건 충족한 자)\n\n1. 대상 영유아 : 관악구에 주민등록을 두고 실제 거주하는 2세, 3세, 4세\n\n2. 보호자 : 대상 영유아의 지원대상이 되는 날(생일도래일)을 기준으로 6개월 전부터 계속하여 관악구에 주민등…",
+      "summary": "서울특별시 관악구에서 제공하는 임신·출산 혜택입니다. 2세, 3세, 4세 영유아에 대한 깡충깡충 성장양육지원금(관악사랑상품권) 지원을 통해 경제적 부담 경감 및 출산장려 분위기 조성",
+      "supportType": "현물",
+      "supportSummary": "지원금액: 해당연령 각 1회  관악사랑상품권 30만 원 지원\n\n지급방법 : 신청인 본인 명의 핸드폰에 모바일 서울 pay+앱을 통해 관악사랑상품권 지급\n\n지급일자: 신청일 기준 익월 20일",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000299",
+      "onlineUrl": "",
+      "inquiry": [
+        "성평등가족과/02-879-6133"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2024-08-07"
+    },
+    {
+      "id": "gov-benefit-320000000108",
+      "sourceId": "320000000108",
+      "title": "지역화폐(관악사랑상품권)",
+      "field": "행정·안전",
+      "provider": "서울특별시 관악구",
+      "providerType": "자치구",
+      "district": "관악구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 관악사랑상품권 가맹점 및 소비자",
+      "summary": "서울특별시 관악구에서 제공하는 행정·안전 혜택입니다. 관악구 내 서울사랑상품권 가맹점에서 사용 가능한 모바일 관악사랑상품권 발행을 통한 지역 상권 활성화 기여",
+      "supportType": "이용권",
+      "supportSummary": "○ 사업내용\n - 서울페이+ 앱에서 모바일 상품권 구매\n - 구매 시 할인 및 페이백 제공 등 할인 혜택 제공\n - 관내 서울페이 가맹점에서 사용\n - 1인당 구매한도 및 보유한도: 월 50만 원/150만 원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000108",
+      "onlineUrl": "",
+      "inquiry": [
+        "지역상권활성화과/02-879-5743"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-304000000169",
+      "sourceId": "304000000169",
+      "title": "1차진료 및 무료진료 서비스",
+      "field": "보건·의료",
+      "provider": "서울특별시 광진구",
+      "providerType": "자치구",
+      "district": "광진구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "만15세 이상 주민",
+      "summary": "서울특별시 광진구에서 제공하는 보건·의료 혜택입니다. 1차진료 및 검사 지원",
+      "supportType": "서비스(의료)",
+      "supportSummary": "○ 진료내용\n  - 만성질환중심 1차 진료(고혈압, 당뇨, 이상지질혈증) 및 검사 \n  - 한방진료실(한방진료 상담, 침 등의 시술 및 한방과립제 투약)\n○ 진료시간 : 월 ~ 금 , 오전9시 ~ 오후6시 ※ 점심시간(12:00 ~ 13:00) 에는 진료, 검사가 불…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000169",
+      "onlineUrl": "",
+      "inquiry": [
+        "광진구보건소 내과진료실/02-450-1590",
+        "광진구 보건의료과/02-450-1567"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2021-11-05"
+    },
+    {
+      "id": "gov-benefit-304000000176",
+      "sourceId": "304000000176",
+      "title": "구강진료 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 광진구",
+      "providerType": "자치구",
+      "district": "광진구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "광진구 구민으로서 의료급여, 65세이상 어르신",
+      "summary": "서울특별시 광진구에서 제공하는 보건·의료 혜택입니다. 광진구 구민 중 65세 이상 어르신, 의료급여 대상 구강검진 및 예방진료 시행하여 의료접근성 향상 및  구강관리 향상 위함",
+      "supportType": "서비스(의료)",
+      "supportSummary": "충치치료, 발치 등의 기본치료와 구강검진 및 상담, 치주질환 예방을 위한 구강관리 교육, 불소양치용액 배부 등",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000176",
+      "onlineUrl": "",
+      "inquiry": [
+        "광진구 보건의료과/02-450-1949"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2021-11-05"
+    },
+    {
+      "id": "gov-benefit-304000000179",
+      "sourceId": "304000000179",
+      "title": "어린이 불소도포",
+      "field": "보건·의료",
+      "provider": "서울특별시 광진구",
+      "providerType": "자치구",
+      "district": "광진구",
+      "userType": "개인||법인/시설/단체",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "광진구 구민으로서 어린이(6세~16세) 및 관내 어린이집·유치원",
+      "summary": "서울특별시 광진구에서 제공하는 보건·의료 혜택입니다. 광진구 어린이(6~16세) 및 어린이집·유치원 대상 구강검진과 불소도포를 시행하여 충치를 예방하기 위함",
+      "supportType": "서비스(의료)",
+      "supportSummary": "어린이 구강 불소도포 서비스(예약제)",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000179",
+      "onlineUrl": "",
+      "inquiry": [
+        "광진구 보건의료과/02-450-1949"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2021-11-05"
+    },
+    {
+      "id": "gov-benefit-304000000177",
+      "sourceId": "304000000177",
+      "title": "장애인 치과진료",
+      "field": "보건·의료",
+      "provider": "서울특별시 광진구",
+      "providerType": "자치구",
+      "district": "광진구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "광진구 구민으로서 장애인",
+      "summary": "서울특별시 광진구에서 제공하는 보건·의료 혜택입니다. 광진구 장애인 대상 구강검진 및 예방진료 시행하여 의료접근성 향상 및 구강관리 향상 위함",
+      "supportType": "서비스(의료)",
+      "supportSummary": "충치치료, 잇몸치료, 발치 등 일반 구강진료(예약제)\n  -  1,3주 목요일 오전(09:30 ~ 12:00)",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000177",
+      "onlineUrl": "",
+      "inquiry": [
+        "광진구 보건의료과/02-450-1949"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2021-11-05"
+    },
+    {
+      "id": "gov-benefit-304000000178",
+      "sourceId": "304000000178",
+      "title": "치아홈메우기 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 광진구",
+      "providerType": "자치구",
+      "district": "광진구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "광진구 구민으로서 의료급여, 차상위 건강보험전환자, 다문화가정, 지역아동센터 이용자",
+      "summary": "서울특별시 광진구에서 제공하는 보건·의료 혜택입니다. 치아의 구조에서 씹는 면에 있는  좁고 깊은 틈을  메꾸어주어 치아우식증(충치)을 예방하기 위함",
+      "supportType": "서비스(의료)",
+      "supportSummary": "치아홈 메우기 구강진료 서비스",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000178",
+      "onlineUrl": "",
+      "inquiry": [
+        "광진구 보건의료과/02-450-1949"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2021-11-05"
+    },
+    {
+      "id": "gov-benefit-304000000229",
+      "sourceId": "304000000229",
+      "title": "폐렴구균 단백결합 백신 예방접종 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 광진구",
+      "providerType": "자치구",
+      "district": "광진구",
+      "userType": "개인",
+      "deadlineText": "2026.1. ~ 2026.12.",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 광진구민  65세 이상 기초생활수급자\n○ 폐렴구균 단백결합 백신 예방접종 미접종자",
+      "summary": "서울특별시 광진구에서 제공하는 보건·의료 혜택입니다. 광진구민 65세이상 기초생활수급자 중 미접종자에게 폐렴구균 단백결합 백신  예방접종 지원",
+      "supportType": "서비스(의료)",
+      "supportSummary": "폐렴구균 단백결합 백신 예방접종 1회 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000229",
+      "onlineUrl": "",
+      "inquiry": [
+        "건강관리과/02-450-1958"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2024-02-13"
+    },
+    {
+      "id": "gov-benefit-310000000114",
+      "sourceId": "310000000114",
+      "title": "노원구 저소득층 소규모 집수리 지원",
+      "field": "생활안정",
+      "provider": "서울특별시 노원구",
+      "providerType": "자치구",
+      "district": "노원구",
+      "userType": "개인",
+      "deadlineText": "매년 2~9월 (예산 마감 시 종료)",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 기초수급자, 차상위계층, 일반 저소득가구",
+      "summary": "서울특별시 노원구에서 제공하는 생활안정 혜택입니다. 기초수급자 등 저소득층에 소규모 집수리 지원",
+      "supportType": "현물",
+      "supportSummary": "○ 도배, 장판, 창호 등 소규모 집수리 지원을 통해 저소득층 주거위기가구 주거환경 개선 및 삶의 질 향상",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/310000000114",
+      "onlineUrl": "",
+      "inquiry": [
+        "복지정책과/02-2116-3664"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-310000000117",
+      "sourceId": "310000000117",
+      "title": "장애인 이동기기 수리비 지원",
+      "field": "생활안정",
+      "provider": "서울특별시 노원구",
+      "providerType": "자치구",
+      "district": "노원구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 장애인",
+      "summary": "서울특별시 노원구에서 제공하는 생활안정 혜택입니다. 장애인 전동스쿠터,전동휠체어,수동휠체어 이동기기 수리비 지원",
+      "supportType": "현금(감면)",
+      "supportSummary": "○ 장애인의 수동휠체어, 전동휠체어, 전동스쿠터 수리비 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/310000000117",
+      "onlineUrl": "",
+      "inquiry": [
+        "장애인복지과/02-2116-3327"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-319000000157",
+      "sourceId": "319000000157",
+      "title": "교육나눔 영어교실 운영",
+      "field": "보육·교육",
+      "provider": "서울특별시 동작구",
+      "providerType": "자치구",
+      "district": "동작구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "ㅇ 저소득층 : 국민기초생활수급자. 차상위계층, 법정한부모 가정 초등학생\nㅇ 틈새계층 : 기타 경제적 곤란 가정 학생 중 기관장 추천자 및 다자녀·다문화가정 초등학생",
+      "summary": "서울특별시 동작구에서 제공하는 보육·교육 혜택입니다. 저소득층 및 틈새계층 초등학생을 대상으로 영어 실용교육 실시 \n영어교육 격차를 해소하고 교육소외계층의 교육복지 실현",
+      "supportType": "기타(교육)",
+      "supportSummary": "ㅇ 우리마을 교육나눔 영어교실 운영\n - 거점별 대면형 실용영어 프로그램 7개반\n - 원어민 화상영어 프로그램 4개반",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000157",
+      "onlineUrl": "",
+      "inquiry": [
+        "동작구청 교육정책과/02-820-9189"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2023-11-23"
+    },
+    {
+      "id": "gov-benefit-319000000144",
+      "sourceId": "319000000144",
+      "title": "교통약자 무료셔틀버스(동작복지카) 운영",
+      "field": "생활안정",
+      "provider": "서울특별시 동작구",
+      "providerType": "자치구",
+      "district": "동작구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "교통약자 : 어르신, 장애인, 임산부, 영유아 등",
+      "summary": "서울특별시 동작구에서 제공하는 생활안정 혜택입니다. 대중교통 사각지대에 거주하는 교통약자를 위해 복지, 행정기관 등의 이동 접근성 및 편의성 증진",
+      "supportType": "기타",
+      "supportSummary": "- 사업기간 : 연중\n- 사업대상 : 65세 이상 어르신, 장애인, 임산부 등 교통약자\n- 운행지역 : 상도2,4동 / 사당2,3동 / 사당4,5동 / 노량진1,흑석동\n- 운행차량 : 총 9대(5개 노선 : 4개 노선별 2대씩 운행 / 1개 노선 1대 운행)\n- 운행…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "신청불필요"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000144",
+      "onlineUrl": "",
+      "inquiry": [
+        "대한민국동작주식회사/02-3280-9919"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2023-11-13"
+    },
+    {
+      "id": "gov-benefit-319000000138",
+      "sourceId": "319000000138",
+      "title": "동작구 입학준비금 지원",
+      "field": "생활안정",
+      "provider": "서울특별시 동작구",
+      "providerType": "자치구",
+      "district": "동작구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 초,중,고등학교 1학년 입학생\n - 동작구 소재 학교 입학생\n - 동작구민 중 서울시 외 타 시도 학교 입학생",
+      "summary": "서울특별시 동작구에서 제공하는 생활안정 혜택입니다. 학교 입학을 준비하며 학생들에게 '입학에 필요한 물품' 구입을 위한 비용 지원(제로페이 모바일 포인트 지급)",
+      "supportType": "기타",
+      "supportSummary": "○ 동작구 입학준비금 지원\n - 사업기간 : 2025. 2~12월\n - 대       상 : 초,중,고등학교 1학년 입학생\n - 지원금액 : 1인당 초등학생 200천원, 중, 고등학생 300천원\n - 지원내용 : 학교 입학을 준비하며 학생들에게 '입학에 필요한 물품'…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청",
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000138",
+      "onlineUrl": "https://start.sen.go.kr/",
+      "inquiry": [
+        "동작구청 교육정책과/02-820-9189"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2022-07-12"
+    },
+    {
+      "id": "gov-benefit-319000000108",
+      "sourceId": "319000000108",
+      "title": "보훈대상자 사망위로금 지급",
+      "field": "생활안정",
+      "provider": "서울특별시 동작구",
+      "providerType": "자치구",
+      "district": "동작구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 동작구에 주민등록을 두고 거주하는 국가보훈대상자(보훈예우수당, 배우자복지수당 지급 대상) 유족\n ※ 보훈처에서 사망 일시금 등 수령시 대상에서 제외",
+      "summary": "서울특별시 동작구에서 제공하는 생활안정 혜택입니다. 보훈대상자가 사망 시 유족 1인에게 사망위로금 지급",
+      "supportType": "현금",
+      "supportSummary": "○ 동작구에 주민등록을 두고 거주하는 국가보훈대상자 사망시 유족 1인에게 위로금(20만원) 지급",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000108",
+      "onlineUrl": "",
+      "inquiry": [
+        "복지정책과/02-820-9041"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-319000000125",
+      "sourceId": "319000000125",
+      "title": "보훈대상자 위문금 지급",
+      "field": "생활안정",
+      "provider": "서울특별시 동작구",
+      "providerType": "자치구",
+      "district": "동작구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 동작구에 주민등록을 두고 거주하는 국가보훈대상자(보훈예우수당 지급 대상자)",
+      "summary": "서울특별시 동작구에서 제공하는 생활안정 혜택입니다. 국가보훈대상자 등에게 명절, 보훈의달에 위문금 지급",
+      "supportType": "현금",
+      "supportSummary": "○ 동작구에 주민등록을 두고 거주하는 국가보훈대상자에게 설, 보훈의달, 추석에 각 5만원씩 위문금 지급",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000125",
+      "onlineUrl": "",
+      "inquiry": [
+        "복지정책과/02-820-9041"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-313000000161",
+      "sourceId": "313000000161",
+      "title": "입양축하금 지원",
+      "field": "보호·돌봄",
+      "provider": "서울특별시 마포구",
+      "providerType": "자치구",
+      "district": "마포구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "◌ 국내입양에 관한 특별법에 따라 아동을 입양한 양부모\n - 소득 및 재산기준 없음",
+      "summary": "서울특별시 마포구에서 제공하는 보호·돌봄 혜택입니다. 입양아동의 양부모에게 입양축하금을 지급하여 입양을 축하함과 동시에 국내 입양 활성화에 이바지하고자 함",
+      "supportType": "현금",
+      "supportSummary": "◌ 입양축하금 지급\n - 입양아동 1명당 200만원 지원\n - 금액은 장애 여부와 상관없이 동일함.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000161",
+      "onlineUrl": "",
+      "inquiry": [
+        "마포구청 가족정책과/02-3153-8618"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2025-07-18"
+    },
+    {
+      "id": "gov-benefit-611000019625",
+      "sourceId": "611000019625",
+      "title": "서울청년문화패스",
+      "field": "문화·환경",
+      "provider": "서울특별시",
+      "providerType": "서울시",
+      "district": "서울특별시",
+      "userType": "개인",
+      "deadlineText": "공고문, 보도자료 등을 통해 공지",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "ㅇ 연령요건 : 21세~23세 청년('26년 기준, 2003~2005년생)\n - 의무복무 제대군인은 복무기간별 최대 3년 이내 지원연령 가산\nㅇ 주거요건 : 신청일 기준 주민등록상, 외국인등록대장상 서울 거주\nㅇ 소득요건 : 생애 최초 수혜자만 신청 가능, 건강보험료…",
+      "summary": "서울특별시에서 제공하는 문화·환경 혜택입니다. 공연예술(연극, 뮤지컬, 클래식·오페라, 발레·무용, 국악, 전시 등)관람 지원",
+      "supportType": "이용권",
+      "supportSummary": "사회에 첫 발을 내딛는 21~23세 청년들에게 연극, 뮤지컬, 클래식·오페라, 발레·무용, 국악, 전시 등 문화예술 공연 관람 기회를 제공하고 문화예술분야 활성화를 위해 문화이용권을 지원하는 사업",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000019625",
+      "onlineUrl": "https://youth.seoul.go.kr/",
+      "inquiry": [
+        "서울청년문화패스 콜센터/1533-3427"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2025-07-15"
+    },
+    {
+      "id": "gov-benefit-321000000104",
+      "sourceId": "321000000104",
+      "title": "양·한방 진료 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 서초구",
+      "providerType": "자치구",
+      "district": "서초구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 만 15세 이상 시민",
+      "summary": "서울특별시 서초구에서 제공하는 보건·의료 혜택입니다. 건상상담 및 진료, 투약 등을 통한 질병예방 및 구민의 건강증진 도모",
+      "supportType": "서비스(의료)",
+      "supportSummary": "○ 만 15세 이상 진료를 원하는 시민에게 양·한방 진료, 의료서비스 제공\n\n  - 고혈압, 당뇨, 고지혈증 진료 및 처방증 발행\n -  금연약 처방\n -  성병검사, 당화혈색소 검사",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/321000000104",
+      "onlineUrl": "",
+      "inquiry": [
+        "의료지원과/02-2155-8105"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-321000000105",
+      "sourceId": "321000000105",
+      "title": "취약계층 인플루엔자 예방접종 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 서초구",
+      "providerType": "자치구",
+      "district": "서초구",
+      "userType": "개인",
+      "deadlineText": "2026년 10월(하반기~)",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "① 「국민기초생활 보장법」에 따른 수급자\n② 「장애인복지법」에 따른 장애의 정도가 심한장애인\n③ 「국가유공자 등 예우 및 지원에 관한 법률」에 따른 국가유공자, 그 유족 및 가족\n④ 「보훈보상대상자 지원에 관한 법률」에 따른 보훈보상대상자, 그 유족 및 가족 \n⑤ 「…",
+      "summary": "서울특별시 서초구에서 제공하는 보건·의료 혜택입니다. ○서초구민 취약계층(기초생활수급자, 심한장애, 국가유공자 등)  대상으로 계절인플루엔자 무료 예방접종을 시행하여 취약계층 건강보호를 도모",
+      "supportType": "서비스(의료)",
+      "supportSummary": "○서초구민 취약계층(기초생활수급자, 심한장애, 국가유공자 등)  대상으로 계절인플루엔자 무료 예방접종",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "신청불필요"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/321000000105",
+      "onlineUrl": "",
+      "inquiry": [
+        "건강관리과/02-2155-8066"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2021-09-23"
+    },
     {
       "id": "gov-benefit-323000000135",
       "sourceId": "323000000135",
@@ -49,6 +730,628 @@
       ],
       "updatedAt": "2026-04-30",
       "registeredAt": "2026-02-05"
+    },
+    {
+      "id": "gov-benefit-314000000265",
+      "sourceId": "314000000265",
+      "title": "양천구 공항소음피해지역 주민 상담심리 지원(상담서비스 제공)",
+      "field": "보건·의료",
+      "provider": "서울특별시 양천구",
+      "providerType": "자치구",
+      "district": "양천구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "양천구 공항소음대책지역(인근지역 포함) 거주 주민\n(동일사업 기수혜자 및 양천구 타 상담,심리 프로그램 진행 중인 자 제외)",
+      "summary": "서울특별시 양천구에서 제공하는 보건·의료 혜택입니다. 항공기 소음에 노출되어 스트레스, 우울, 불안 등의 피해를 겪고 있는 주민에게 상담서비스를 제공하여 심리적 안정 및 마음건강 회복 등 삶의 질 향상을 도모",
+      "supportType": "기타(상담)",
+      "supportSummary": "공항소음피해지역 주민 상담서비스 제공",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000265",
+      "onlineUrl": "https://www.yangcheon.go.kr/airportnoise/airportnoise/counselingSupport/csPreCheck.do",
+      "inquiry": [
+        "양천구청 환경과/02-2084-5472"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2025-11-05"
+    },
+    {
+      "id": "gov-benefit-314000000107",
+      "sourceId": "314000000107",
+      "title": "양천구 장학금 지원",
+      "field": "보육·교육",
+      "provider": "서울특별시 양천구",
+      "providerType": "자치구",
+      "district": "양천구",
+      "userType": "개인",
+      "deadlineText": "8월~9월 중 (홈페이지 참조)",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 공통자격 : 공고일 기준 1년 이상 양천구에 거주한 초·중·고·대학생으로 장학금별 자격조건을 충족하는 자\n - 일반장학생(고·대학생) : 소득인정액이 기준중위소득 100%이내(대학생 한국장학재단 학자금 지원구간 5구간 이내)\n - 성적우수장학생(고등학생) : 직전…",
+      "summary": "서울특별시 양천구에서 제공하는 보육·교육 혜택입니다. 초·중·고·대학생에게 장학금 지원",
+      "supportType": "현금(장학금)",
+      "supportSummary": "○  공고일 기준 1년 이상 양천구에 거주한 초·중·고·대학생 중 장학금별 자격조건을 충족하는 학생을 대상으로 장학금 지원\n\n○ 1인당 지원금액 (*2024년 기준으로 지원금액은 변동가능)\n - 초·중학생 30만원 / 고등학생 60만원 \n - 대학생 : 50만원~최대…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000107",
+      "onlineUrl": "",
+      "inquiry": [
+        "양천구청 교육과/02-2620-3119"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-318000000414",
+      "sourceId": "318000000414",
+      "title": "취약계층을 위한 공공일자리 제공",
+      "field": "고용·창업",
+      "provider": "서울특별시 영등포구",
+      "providerType": "자치구",
+      "district": "영등포구",
+      "userType": "개인",
+      "deadlineText": "상반기 사업(전년도 11~12월 중), 하반기 사업(당해년도 5월 중)",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 사업대상: 청년, 중장년, 어르신, 장애인, 노숙인, 취약계층 등\n   - 만18세 이상 구민으로 재산이 4억9,900만원 이하이면서 소득이 기준중위소득 85%이하인 자",
+      "summary": "서울특별시 영등포구에서 제공하는 고용·창업 혜택입니다. 근로능력이 있는 저소득 취업취약계층을 대상으로 공공분야 일자리를 제공하여 최소한의 생계 보장 및 민간 취업기회 확대를 통한 주민생활 안정 도모\n사업 참야자가 다른 사회적 약자를 돕는 ‘자조·자립’기반을 마련함으로서 사회안전망을 강화하고 공공성을 실현",
+      "supportType": "서비스(일자리)",
+      "supportSummary": "○ 추진근거: 2026년 서울 동행일자리 사업 종합지침(2025.11.)\n○ 사업기간: 2026. 1. ~ 12.(상․하반기)\n○ 사업대상: 청년, 중장년, 어르신, 장애인, 노숙인, 취약계층 등\n   - 만18세 이상 구민으로 재산이 4억9,900만원 이하이면서 소…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000414",
+      "onlineUrl": "",
+      "inquiry": [
+        "일자리경제과/02-2670-4124"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2025-11-24"
+    },
+    {
+      "id": "gov-benefit-318000000117",
+      "sourceId": "318000000117",
+      "title": "저소득 주민 건강보험료 등 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 영등포구",
+      "providerType": "자치구",
+      "district": "영등포구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 노인, 장애인, 한부모 등 저소득가정",
+      "summary": "서울특별시 영등포구에서 제공하는 보건·의료 혜택입니다. 노인, 장애인, 한부모 등 저소득가정에 국민건강보험료 및 장기요양보험료 지원",
+      "supportType": "현금(보험)",
+      "supportSummary": "○ 노령이나 장애 등으로 인하여 생활에 어려움을 겪고 있으나 「국민기초생활보장법」 제7조제1항제1호 및 제3호에 따른 생계,의료급여 수급자에 해당하지 않는 저소득주민에게 국민건강보험료 및 장기요양보험료를 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "신청불필요"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000117",
+      "onlineUrl": "",
+      "inquiry": [
+        "생활보장과/02-2670-4070"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-318000000105",
+      "sourceId": "318000000105",
+      "title": "다문화 장학금 지원",
+      "field": "보육·교육",
+      "provider": "재단법인영등포구미래교육재단",
+      "providerType": "자치구",
+      "district": "영등포구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 영등포구 관내 중학교 다문화가정 학생",
+      "summary": "재단법인영등포구미래교육재단에서 제공하는 보육·교육 혜택입니다. 다문화가정 학생에게 장학금 지원",
+      "supportType": "현금(장학금)",
+      "supportSummary": "○ 관내 중학교 재학생으로 학교장이 추천한 다문화가정 학생에게 장학금 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000105",
+      "onlineUrl": "",
+      "inquiry": [
+        "미래교육재단/02-2670-3072"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-O00368400003",
+      "sourceId": "O00368400003",
+      "title": "독서 장학금",
+      "field": "보육·교육",
+      "provider": "재단법인영등포구미래교육재단",
+      "providerType": "자치구",
+      "district": "영등포구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 영등포구 관내 초등학교 학생",
+      "summary": "재단법인영등포구미래교육재단에서 제공하는 보육·교육 혜택입니다. 영등포구 도서관 통합회원으로 평가지표에 의해 추천된 학생 장학금 지원",
+      "supportType": "현금(장학금)",
+      "supportSummary": "○ 영등포구 도서관 통합회원으로 평가지표에 의해 추천된 학생 장학금 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00368400003",
+      "onlineUrl": "",
+      "inquiry": [
+        "영등포구미래교육재단/02-2670-3072"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2025-01-31"
+    },
+    {
+      "id": "gov-benefit-O00368400002",
+      "sourceId": "O00368400002",
+      "title": "성적도약 장학금 지원",
+      "field": "보육·교육",
+      "provider": "재단법인영등포구미래교육재단",
+      "providerType": "자치구",
+      "district": "영등포구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 영등포구 관내 고등학교 학생",
+      "summary": "재단법인영등포구미래교육재단에서 제공하는 보육·교육 혜택입니다. 선발직전 학기 성적이 평균석차 백분율 30% 이상 향상한 학생 장학금 지원",
+      "supportType": "현금(장학금)",
+      "supportSummary": "○ 선발직전 학기 성적이 평균석차 백분율 30% 이상 향상한 학생 장학금 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00368400002",
+      "onlineUrl": "",
+      "inquiry": [
+        "미래교육재단/02-2670-3072"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2025-01-31"
+    },
+    {
+      "id": "gov-benefit-318000000106",
+      "sourceId": "318000000106",
+      "title": "성적우수 장학금 지원",
+      "field": "보육·교육",
+      "provider": "재단법인영등포구미래교육재단",
+      "providerType": "자치구",
+      "district": "영등포구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 영등포구 관내 고등학교 2, 3학년 학생",
+      "summary": "재단법인영등포구미래교육재단에서 제공하는 보육·교육 혜택입니다. 성적이 우수한 고등학교 2, 3학년생 학생에게 장학금 지원",
+      "supportType": "현금(장학금)",
+      "supportSummary": "○ 관내 고등학교 재학생으로 선발 직전 학년 성적이 평균석차 백분율 5% 이내에 해당되는고등학교 2~3학년생 학생에게 장학금 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000106",
+      "onlineUrl": "",
+      "inquiry": [
+        "미래교육재단/02-2670-3071"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-318000000103",
+      "sourceId": "318000000103",
+      "title": "영등포 장학금 지원",
+      "field": "보육·교육",
+      "provider": "재단법인영등포구미래교육재단",
+      "providerType": "자치구",
+      "district": "영등포구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 영등포구 관내 초, 중, 고등학교 학생, 관내 거주 대학생",
+      "summary": "재단법인영등포구미래교육재단에서 제공하는 보육·교육 혜택입니다. 재산, 거주기간 등을 고려해 학생에게 장학금 지원",
+      "supportType": "현금(장학금)",
+      "supportSummary": "○ 관내 초중고등학교 재학생 및 거주하는 대학생으로 재산정도, 영등포 거주기간 등을 고려해 심사기준에 따라 장학금 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000103",
+      "onlineUrl": "",
+      "inquiry": [
+        "미래교육재단/02-2670-3072"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-318000000102",
+      "sourceId": "318000000102",
+      "title": "인재육성 장학금 지원",
+      "field": "보육·교육",
+      "provider": "재단법인영등포구미래교육재단",
+      "providerType": "자치구",
+      "district": "영등포구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 영등포구 관내 고등학교 학생",
+      "summary": "재단법인영등포구미래교육재단에서 제공하는 보육·교육 혜택입니다. 성적이 우수한 고등학생에게 인재육성장학금 지원",
+      "supportType": "현금(장학금)",
+      "supportSummary": "○ 관내 중학교를 졸업하고 관내 고등학교에 입학한 상위 4% 이내 1학년 학생과, 인재육성장학생으로 기 선발된 학생 중 전년도 성적 상위 5%이내  2~3학년 학생에게 장학금 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000102",
+      "onlineUrl": "",
+      "inquiry": [
+        "미래교육재단/02-2670-3072"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-318000000104",
+      "sourceId": "318000000104",
+      "title": "지정 장학금 지원",
+      "field": "보육·교육",
+      "provider": "재단법인영등포구미래교육재단",
+      "providerType": "자치구",
+      "district": "영등포구",
+      "userType": "개인",
+      "deadlineText": "장학금 지정기탁자가 있을 때",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 지정자의사에 따른 수혜자",
+      "summary": "재단법인영등포구미래교육재단에서 제공하는 보육·교육 혜택입니다. 기탁자의 의사에따라 수혜자를 정해 장학금 지원",
+      "supportType": "현금(장학금)",
+      "supportSummary": "○ 기탁자의 의사에 따라 수혜자를 정해 장학금 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000104",
+      "onlineUrl": "",
+      "inquiry": [
+        "미래교육재단/02-2670-3072"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-318000000111",
+      "sourceId": "318000000111",
+      "title": "특기 장학금 지원",
+      "field": "보육·교육",
+      "provider": "재단법인영등포구미래교육재단",
+      "providerType": "자치구",
+      "district": "영등포구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 영등포구 관내 초, 중, 고등학교 학생",
+      "summary": "재단법인영등포구미래교육재단에서 제공하는 보육·교육 혜택입니다. 전국 또는 광역 단위 대회에 입상한 특기자 초·중·고교생에게 장학금 지원",
+      "supportType": "현금(장학금)",
+      "supportSummary": "○ 전국단위 체육(단체 구기종목)에서 3위권  이상 입상한 학생 또는 광역단위 체육(단체 구기종목)에서 4위권 이상 입상한 학생 장학금 지원\n○ 전국단위 체육(개인종목)문화, 예술, 기능, 수학, 과학대회에서 3위권 이상 입상한 학생 장학금 지원\n○ 성적 산출 어려운…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000111",
+      "onlineUrl": "",
+      "inquiry": [
+        "미래교육재단/02-2670-3072"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-O00368400004",
+      "sourceId": "O00368400004",
+      "title": "특성화고 자격증 취득 장학금",
+      "field": "보육·교육",
+      "provider": "재단법인영등포구미래교육재단",
+      "providerType": "자치구",
+      "district": "영등포구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 영등포구 관내 고등학교 학생",
+      "summary": "재단법인영등포구미래교육재단에서 제공하는 보육·교육 혜택입니다. 자격증 취득 개수 등을 고려하여 추천된 고등학생 장학금 지원",
+      "supportType": "현금(장학금)",
+      "supportSummary": "○ 자격증 취득 개수 등을 고려하여 추천된 고등학생 장학금 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00368400004",
+      "onlineUrl": "",
+      "inquiry": [
+        "영등포구미래교육재단/02-2670-3072"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2025-01-31"
+    },
+    {
+      "id": "gov-benefit-318000000112",
+      "sourceId": "318000000112",
+      "title": "기초수급자 명절 위문금 지급",
+      "field": "보호·돌봄",
+      "provider": "서울특별시 영등포구",
+      "providerType": "자치구",
+      "district": "영등포구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 생계급여, 의료급여",
+      "summary": "서울특별시 영등포구에서 제공하는 보호·돌봄 혜택입니다. 생계, 의료급여 수급자에게 명절 위문금 지급",
+      "supportType": "현금",
+      "supportSummary": "○ 기초생계·의료급여 수급자 가구당 시비3만원 구비 1만원 추가 지급(설, 추석 연 2회)",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "신청불필요"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000112",
+      "onlineUrl": "",
+      "inquiry": [
+        "생활보장과/02-2670-3387"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-318000000114",
+      "sourceId": "318000000114",
+      "title": "기초수급자 유료방송 이용요금 지원",
+      "field": "행정·안전",
+      "provider": "서울특별시 영등포구",
+      "providerType": "자치구",
+      "district": "영등포구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 생계급여, 의료급여 수급자 중 만 70세 이상",
+      "summary": "서울특별시 영등포구에서 제공하는 행정·안전 혜택입니다. 만 70세 이상 수급자에게 CMB유료방송 이용요금 지원",
+      "supportType": "현금",
+      "supportSummary": "○ 기초생계·의료급여 수급자 중 만 70세 이상 신청자에 CMB유료방송 이용요금 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000114",
+      "onlineUrl": "",
+      "inquiry": [
+        "생활보장과/02-2670-3387"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-302000000103",
+      "sourceId": "302000000103",
+      "title": "보호대상아동 지원",
+      "field": "보육·교육",
+      "provider": "서울특별시 용산구",
+      "providerType": "자치구",
+      "district": "용산구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 가정위탁 보호아동, 아동복지시설 생활아동, 아동복지시설",
+      "summary": "서울특별시 용산구에서 제공하는 보육·교육 혜택입니다. 가정위탁보호 아동 등을 대상으로 양육비, 위문금 등 지원",
+      "supportType": "현금",
+      "supportSummary": "○ 서비스내용\n - 가정위탁 보호아동 양육비\n - 아동복지시설 가정의 달 위문\n - 가정위탁 보호아동 생일 격려금\n - 가정위탁 보호아동 연말 위문금\n - 가정위탁 보호아동 졸업 축하금\n - 아동 양육시설 명절 위문(설·추석)\n - 가정위탁 보호아동 가정의 달 위문금…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "신청불필요"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/302000000103",
+      "onlineUrl": "",
+      "inquiry": [
+        "아동청소년과/02-2199-7033"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-311000000131",
+      "sourceId": "311000000131",
+      "title": "청년 창업인의 집 운영",
+      "field": "고용·창업",
+      "provider": "서울특별시 은평구",
+      "providerType": "자치구",
+      "district": "은평구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "전년도 도시근로자 월평균 소득 70% 이하에 해당하는 만19세이상 만 39세 이하 청년",
+      "summary": "서울특별시 은평구에서 제공하는 고용·창업 혜택입니다. 청년 (예비)창업자들의 창업보육 및 주거시설 문제 해결을 위한 '청년 창업인의 집' 운영",
+      "supportType": "시설이용",
+      "supportSummary": "청년 창업인의 집 운영\n- (예비)창업인들의 주거공간 지원\n- 월평균 소득 등 심사를 통한 입주자 선정",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000131",
+      "onlineUrl": "",
+      "inquiry": [
+        "사회적경제과/02-351-6905"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2022-10-25"
+    },
+    {
+      "id": "gov-benefit-311000000147",
+      "sourceId": "311000000147",
+      "title": "구민 정보화교육",
+      "field": "보육·교육",
+      "provider": "서울특별시 은평구",
+      "providerType": "자치구",
+      "district": "은평구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "은평구 구민이면 누구나",
+      "summary": "서울특별시 은평구에서 제공하는 보육·교육 혜택입니다. 급변하는 디지털 시대에 구민의 실생활에 도움이 되는 다양한 정보화 교육 기회를 제공하여 디지털 역량강화 및 정보 격차해소에 기여하고자 함.",
+      "supportType": "기타(교육)",
+      "supportSummary": "3월부터 12월까지 구민의 정보화 격차 해소 및 디지털역량 강화를 위한 교육 기회를 제공하여 실생활에 도움이 될 수 있도록 지원합니다.\n\nㅇ 구민 정보화교육 안내\n  - 기간 : 2025. 3월 ~ 12월(1개월 과정)\n  - 교육장소 : 은평문화예술회관 지하1층 제…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000147",
+      "onlineUrl": "",
+      "inquiry": [
+        "스마트정보과/02-351-6352"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2022-11-04"
+    },
+    {
+      "id": "gov-benefit-311000000225",
+      "sourceId": "311000000225",
+      "title": "1인가구 전입 생활 지원 은빛SOL 라이프",
+      "field": "생활안정",
+      "provider": "서울특별시 은평구",
+      "providerType": "자치구",
+      "district": "은평구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "타 시도, 타 구에서 은평구로 전입한 청년, 중장년(1961-2006년생) 1인가구",
+      "summary": "서울특별시 은평구에서 제공하는 생활안정 혜택입니다. 은평구로 전입한 청년, 중장년 1인가구에게 안내서와 생활 물품을 포함한 웰컴행복박스 지원을 통해 취약 정보의 접근성 강화 및 전입 환경 적응을 지원하여 건강한 돌봄 공동체를 조성",
+      "supportType": "현물",
+      "supportSummary": "은평구로 전입한 청년, 중장년 1인가구에게 안내서와 생활 물품을 포함한 웰컴행복박스 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000225",
+      "onlineUrl": "",
+      "inquiry": [
+        "은평구청/0000"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2024-12-20"
+    },
+    {
+      "id": "gov-benefit-311000000120",
+      "sourceId": "311000000120",
+      "title": "국가보훈대상자 보훈예우수당",
+      "field": "생활안정",
+      "provider": "서울특별시 은평구",
+      "providerType": "자치구",
+      "district": "은평구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 은평구에 주민등록을 두고 1개월 이상 계속하여 거주한 순국선열, 애국지사, 전몰군경, 전상군경, 순직군경, 공상군경, 무공수훈자, 보국수훈자, 6·25참전 재일학도의용군인, 4·19혁명사망자, 4·19혁명부상자, 4·19혁명공로자, 순직공무원, 공상공무원, 국가사…",
+      "summary": "서울특별시 은평구에서 제공하는 생활안정 혜택입니다. 국가보훈대상자에게 예우수당 지원",
+      "supportType": "현금",
+      "supportSummary": "○ 은평구에 1개월 이상 계속하여 주민등록을 둔 국가보훈대상자에게 월 7만원 현금지급\n\n ※ 다른 조례에 따라 보훈 관련 수당을 지급받는 경우 중복지원 불가\n      ex) 서울시 보훈수당과 중복 지급 불가\n\n ※ 제대군인은 중기복무 이상 국가보훈처에 등록된 대상으…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000120",
+      "onlineUrl": "",
+      "inquiry": [
+        "복지정책과/02-351-7016"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-311000000117",
+      "sourceId": "311000000117",
+      "title": "다자녀 출산용품 교환권 지원",
+      "field": "임신·출산",
+      "provider": "서울특별시 은평구",
+      "providerType": "자치구",
+      "district": "은평구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 은평구에 주소를 둔(출생일로부터 지원 신청일까지 은평구 거주) 둘째이상 출산가정(출생일로부터 1년이내 신청)\n○ 출생일로부터 1년 이내 관할 동 주민센터 방문 신청",
+      "summary": "서울특별시 은평구에서 제공하는 임신·출산 혜택입니다. ○ 저출생 대응을 위해 다자녀 가정에 실질적 혜택을 제공하는 출산지원 사업을 추진함으로써 출산, 양육 친화적 환경 조성에 기여하고자 함.",
+      "supportType": "이용권",
+      "supportSummary": "○ 은평구에 주소를 둔(출생일로부터 지원 신청일까지 은평구 거주) 둘째이상 출산가정에 15만원 출산용품교환권 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000117",
+      "onlineUrl": "",
+      "inquiry": [
+        "가족정책과/02-351-6223"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-311000000231",
+      "sourceId": "311000000231",
+      "title": "찾아가는 「감정평가사 상담제」 운영",
+      "field": "주거·자립",
+      "provider": "서울특별시 은평구",
+      "providerType": "자치구",
+      "district": "은평구",
+      "userType": "개인||법인/시설/단체",
+      "deadlineText": "1차 : '26. 3. 18. ~ 4. 6. / 2차: '26. 4. 30. ~ 5. 29. / 3차: '26. 9. 1. ~ 9. 22. / 4차: '26. 10. 29. ~ 11. 27.",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 은평구 토지소유자 또는 이해관계인 등",
+      "summary": "서울특별시 은평구에서 제공하는 주거·자립 혜택입니다. 개별공시지가 관련 민원이 집중되는 의견제출‧이의신청 기간에 전문가인 감정평가사와 직접 상담하여 개별공시지가에 불만과 궁금증 해소",
+      "supportType": "기타(상담)",
+      "supportSummary": "○  찾아가는 「감정평가사 상담제」 주요 상담 내용\n - 2026년 1월 1일, 7월 1일 기준 열람지가 및 결정지가에 대한 내용\n - 표준지 선정 및 지가산정 절차 등에 관한 내용\n - 개별공시지가 제도에 관한 전반적인 내용 등",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000231",
+      "onlineUrl": "",
+      "inquiry": [
+        "은평구청 부동산정보과/02-351-6803"
+      ],
+      "updatedAt": "2026-04-30",
+      "registeredAt": "2025-11-25"
     },
     {
       "id": "gov-benefit-O00022300002",
@@ -1290,34 +2593,6 @@
       ],
       "updatedAt": "2026-04-29",
       "registeredAt": "2022-10-27"
-    },
-    {
-      "id": "gov-benefit-319000000144",
-      "sourceId": "319000000144",
-      "title": "교통약자 무료셔틀버스(동작복지카) 운영",
-      "field": "생활안정",
-      "provider": "서울특별시 동작구",
-      "providerType": "자치구",
-      "district": "동작구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "교통약자 : 어르신, 장애인, 임산부, 영유아 등",
-      "summary": "서울특별시 동작구에서 제공하는 생활안정 혜택입니다. 대중교통 사각지대에 거주하는 교통약자를 위해 복지, 행정기관 등의 이동 접근성 및 편의성 증진",
-      "supportType": "기타",
-      "supportSummary": "- 사업기간 : 연중\n- 사업대상 : 65세 이상 어르신, 장애인, 임산부 등 교통약자\n- 운행지역 : 상도2,4동 / 사당2,3동 / 사당4,5동 / 노량진1,흑석동\n- 운행차량 : 총 9대(5개 노선 : 4개 노선별 2대씩 운행 / 1개 노선 1대 운행)\n- 운행…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "신청불필요"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000144",
-      "onlineUrl": "",
-      "inquiry": [
-        "대한민국동작주식회사/02-3280-9919"
-      ],
-      "updatedAt": "2026-04-29",
-      "registeredAt": "2023-11-13"
     },
     {
       "id": "gov-benefit-319000000112",
@@ -8214,34 +9489,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-318000000414",
-      "sourceId": "318000000414",
-      "title": "취약계층을 위한 공공일자리 제공",
-      "field": "고용·창업",
-      "provider": "서울특별시 영등포구",
-      "providerType": "자치구",
-      "district": "영등포구",
-      "userType": "개인",
-      "deadlineText": "상반기 사업(전년도 11~12월 중), 하반기 사업(당해년도 5월 중)",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 사업대상: 청년, 중장년, 어르신, 장애인, 노숙인, 취약계층 등\n   - 만18세 이상 구민으로 재산이 4억9,900만원 이하이면서 소득이 기준중위소득 85%이하인 자",
-      "summary": "서울특별시 영등포구에서 제공하는 고용·창업 혜택입니다. 근로능력이 있는 저소득 취업취약계층을 대상으로 공공분야 일자리를 제공하여 최소한의 생계 보장 및 민간 취업기회 확대를 통한 주민생활 안정 도모\n사업 참야자가 다른 사회적 약자를 돕는 ‘자조·자립’기반을 마련함으로서 사회안전망을 강화하고 공공성을 실현",
-      "supportType": "서비스(일자리)",
-      "supportSummary": "○ 추진근거: 2026년 서울 동행일자리 사업 종합지침(2025.11.)\n○ 사업기간: 2026. 1. ~ 12.(상․하반기)\n○ 사업대상: 청년, 중장년, 어르신, 장애인, 노숙인, 취약계층 등\n   - 만18세 이상 구민으로 재산이 4억9,900만원 이하이면서 소…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000414",
-      "onlineUrl": "",
-      "inquiry": [
-        "일자리경제과/02-2670-4124"
-      ],
-      "updatedAt": "2026-04-25",
-      "registeredAt": "2025-11-24"
-    },
-    {
       "id": "gov-benefit-300000000164",
       "sourceId": "300000000164",
       "title": "종로구 동행일자리사업",
@@ -14074,36 +15321,6 @@
       "registeredAt": "2022-07-15"
     },
     {
-      "id": "gov-benefit-320000000299",
-      "sourceId": "320000000299",
-      "title": "관악구 깡충깡충 성장양육지원금",
-      "field": "임신·출산",
-      "provider": "서울특별시 관악구",
-      "providerType": "자치구",
-      "district": "관악구",
-      "userType": "개인",
-      "deadlineText": "대상영유아의 생일부터 6개월 이내 신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "2세, 3세, 4세 대상영유아의 보호자  (※ 2가지 요건 충족한 자)\n\n1. 대상 영유아 : 관악구에 주민등록을 두고 실제 거주하는 2세, 3세, 4세\n\n2. 보호자 : 대상 영유아의 지원대상이 되는 날(생일도래일)을 기준으로 6개월 전부터 계속하여 관악구에 주민등…",
-      "summary": "서울특별시 관악구에서 제공하는 임신·출산 혜택입니다. 2세, 3세, 4세 영유아에 대한 깡충깡충 성장양육지원금(관악사랑상품권) 지원을 통해 경제적 부담 경감 및 출산장려 분위기 조성",
-      "supportType": "현물",
-      "supportSummary": "지원금액: 해당연령 각 1회  관악사랑상품권 30만 원 지원\n\n지급방법 : 신청인 본인 명의 핸드폰에 모바일 서울 pay+앱을 통해 관악사랑상품권 지급\n\n지급일자: 신청일 기준 익월 20일",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000299",
-      "onlineUrl": "",
-      "inquiry": [
-        "성평등가족과/02-879-6133"
-      ],
-      "updatedAt": "2026-04-22",
-      "registeredAt": "2024-08-07"
-    },
-    {
       "id": "gov-benefit-320000000302",
       "sourceId": "320000000302",
       "title": "관악구 출생축하용품 지원",
@@ -17249,34 +18466,6 @@
       "registeredAt": "2025-11-03"
     },
     {
-      "id": "gov-benefit-O00368400003",
-      "sourceId": "O00368400003",
-      "title": "독서 장학금",
-      "field": "보육·교육",
-      "provider": "재단법인영등포구미래교육재단",
-      "providerType": "자치구",
-      "district": "영등포구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 영등포구 관내 초등학교 학생",
-      "summary": "재단법인영등포구미래교육재단에서 제공하는 보육·교육 혜택입니다. 영등포구 도서관 통합회원으로 평가지표에 의해 추천된 학생 장학금 지원",
-      "supportType": "현금(장학금)",
-      "supportSummary": "○ 영등포구 도서관 통합회원으로 평가지표에 의해 추천된 학생 장학금 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00368400003",
-      "onlineUrl": "",
-      "inquiry": [
-        "영등포구미래교육재단/02-2670-3072"
-      ],
-      "updatedAt": "2026-03-18",
-      "registeredAt": "2025-01-31"
-    },
-    {
       "id": "gov-benefit-301000000141",
       "sourceId": "301000000141",
       "title": "서울특별시 중구 구민 생활안전보험",
@@ -17412,34 +18601,6 @@
       "onlineUrl": "",
       "inquiry": [
         "건강관리과/02-2155-8186"
-      ],
-      "updatedAt": "2026-03-09",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-318000000105",
-      "sourceId": "318000000105",
-      "title": "다문화 장학금 지원",
-      "field": "보육·교육",
-      "provider": "재단법인영등포구미래교육재단",
-      "providerType": "자치구",
-      "district": "영등포구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 영등포구 관내 중학교 다문화가정 학생",
-      "summary": "재단법인영등포구미래교육재단에서 제공하는 보육·교육 혜택입니다. 다문화가정 학생에게 장학금 지원",
-      "supportType": "현금(장학금)",
-      "supportSummary": "○ 관내 중학교 재학생으로 학교장이 추천한 다문화가정 학생에게 장학금 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000105",
-      "onlineUrl": "",
-      "inquiry": [
-        "미래교육재단/02-2670-3072"
       ],
       "updatedAt": "2026-03-09",
       "registeredAt": "2021-09-23"
@@ -17987,34 +19148,6 @@
       "registeredAt": "2022-07-15"
     },
     {
-      "id": "gov-benefit-321000000105",
-      "sourceId": "321000000105",
-      "title": "취약계층 인플루엔자 예방접종 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 서초구",
-      "providerType": "자치구",
-      "district": "서초구",
-      "userType": "개인",
-      "deadlineText": "2026년 10월(하반기~)",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "① 「국민기초생활 보장법」에 따른 수급자\n② 「장애인복지법」에 따른 장애의 정도가 심한장애인\n③ 「국가유공자 등 예우 및 지원에 관한 법률」에 따른 국가유공자, 그 유족 및 가족\n④ 「보훈보상대상자 지원에 관한 법률」에 따른 보훈보상대상자, 그 유족 및 가족 \n⑤ 「…",
-      "summary": "서울특별시 서초구에서 제공하는 보건·의료 혜택입니다. ○서초구민 취약계층(기초생활수급자, 심한장애, 국가유공자 등)  대상으로 계절인플루엔자 무료 예방접종을 시행하여 취약계층 건강보호를 도모",
-      "supportType": "서비스(의료)",
-      "supportSummary": "○서초구민 취약계층(기초생활수급자, 심한장애, 국가유공자 등)  대상으로 계절인플루엔자 무료 예방접종",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "신청불필요"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/321000000105",
-      "onlineUrl": "",
-      "inquiry": [
-        "건강관리과/02-2155-8066"
-      ],
-      "updatedAt": "2026-03-05",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-312000000107",
       "sourceId": "312000000107",
       "title": "다자녀가족 둘째아 이상 초등학교 입학축하상품권 지원",
@@ -18246,34 +19379,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-310000000114",
-      "sourceId": "310000000114",
-      "title": "노원구 저소득층 소규모 집수리 지원",
-      "field": "생활안정",
-      "provider": "서울특별시 노원구",
-      "providerType": "자치구",
-      "district": "노원구",
-      "userType": "개인",
-      "deadlineText": "매년 3~9월 (예산 마감 시 종료)",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 기초수급자, 차상위계층, 일반 저소득가구",
-      "summary": "서울특별시 노원구에서 제공하는 생활안정 혜택입니다. 기초수급자 등 저소득층에 소규모 집수리 지원",
-      "supportType": "현물",
-      "supportSummary": "○ 도배, 장판, 창호 등 소규모 집수리 지원을 통해 저소득층 주거위기가구 주거환경 개선 및 삶의 질 향상",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/310000000114",
-      "onlineUrl": "",
-      "inquiry": [
-        "복지정책과/02-2116-3664"
-      ],
-      "updatedAt": "2026-02-26",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-307000000175",
       "sourceId": "307000000175",
       "title": "[성북구]난임부부 약제비 지원(난임시술 이후 원외약제비 청구)",
@@ -18413,34 +19518,6 @@
       ],
       "updatedAt": "2026-02-26",
       "registeredAt": "2022-07-06"
-    },
-    {
-      "id": "gov-benefit-311000000131",
-      "sourceId": "311000000131",
-      "title": "청년 창업인의 집 운영",
-      "field": "고용·창업",
-      "provider": "서울특별시 은평구",
-      "providerType": "자치구",
-      "district": "은평구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "전년도 도시근로자 월평균 소득 70% 이하에 해당하는 만19세이상 만 39세 이하 청년",
-      "summary": "서울특별시 은평구에서 제공하는 고용·창업 혜택입니다. 청년 (예비)창업자들의 창업보육 및 주거시설 문제 해결을 위한 '청년 창업인의 집' 운영",
-      "supportType": "시설이용",
-      "supportSummary": "청년 창업인의 집 운영\n- (예비)창업인들의 주거공간 지원\n- 월평균 소득 등 심사를 통한 입주자 선정",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000131",
-      "onlineUrl": "",
-      "inquiry": [
-        "사회적경제과/02-351-6905"
-      ],
-      "updatedAt": "2026-02-26",
-      "registeredAt": "2022-10-25"
     },
     {
       "id": "gov-benefit-O00022600041",
@@ -19231,34 +20308,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-304000000178",
-      "sourceId": "304000000178",
-      "title": "치아홈메우기 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 광진구",
-      "providerType": "자치구",
-      "district": "광진구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "광진구 구민으로서 의료급여, 차상위 건강보험전환자, 다문화가정, 지역아동센터 이용자",
-      "summary": "서울특별시 광진구에서 제공하는 보건·의료 혜택입니다. 치아의 구조에서 씹는 면에 있는  좁고 깊은 틈을  메꾸어주어 치아우식증(충치)을 예방하기 위함",
-      "supportType": "서비스(의료)",
-      "supportSummary": "치아홈 메우기 구강진료 서비스",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000178",
-      "onlineUrl": "",
-      "inquiry": [
-        "광진구 보건의료과/02-450-1949"
-      ],
-      "updatedAt": "2026-02-20",
-      "registeredAt": "2021-11-05"
-    },
-    {
       "id": "gov-benefit-312000000124",
       "sourceId": "312000000124",
       "title": "장애인 이동기기 수리비 지원사업",
@@ -19282,91 +20331,6 @@
       "onlineUrl": "",
       "inquiry": [
         "생활보장과/02-330-1942"
-      ],
-      "updatedAt": "2026-02-20",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-311000000225",
-      "sourceId": "311000000225",
-      "title": "1인가구 전입 생활 지원 은빛SOL 라이프",
-      "field": "생활안정",
-      "provider": "서울특별시 은평구",
-      "providerType": "자치구",
-      "district": "은평구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "타 시도, 타 구에서 은평구로 전입한 청년, 중장년(1961-2006년생) 1인가구",
-      "summary": "서울특별시 은평구에서 제공하는 생활안정 혜택입니다. 은평구로 전입한 청년, 중장년 1인가구에게 안내서와 생활 물품을 포함한 웰컴행복박스 지원을 통해 취약 정보의 접근성 강화 및 전입 환경 적응을 지원하여 건강한 돌봄 공동체를 조성",
-      "supportType": "현물",
-      "supportSummary": "은평구로 전입한 청년, 중장년 1인가구에게 안내서와 생활 물품을 포함한 웰컴행복박스 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000225",
-      "onlineUrl": "",
-      "inquiry": [
-        "은평구청/0000"
-      ],
-      "updatedAt": "2026-02-20",
-      "registeredAt": "2024-12-20"
-    },
-    {
-      "id": "gov-benefit-311000000120",
-      "sourceId": "311000000120",
-      "title": "국가보훈대상자 보훈예우수당",
-      "field": "생활안정",
-      "provider": "서울특별시 은평구",
-      "providerType": "자치구",
-      "district": "은평구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 은평구에 주민등록을 두고 1개월 이상 계속하여 거주한 순국선열, 애국지사, 전몰군경, 전상군경, 순직군경, 공상군경, 무공수훈자, 보국수훈자, 6·25참전 재일학도의용군인, 4·19혁명사망자, 4·19혁명부상자, 4·19혁명공로자, 순직공무원, 공상공무원, 국가사…",
-      "summary": "서울특별시 은평구에서 제공하는 생활안정 혜택입니다. 국가보훈대상자에게 예우수당 지원",
-      "supportType": "현금",
-      "supportSummary": "○ 은평구에 1개월 이상 계속하여 주민등록을 둔 국가보훈대상자에게 월 7만원 현금지급\n\n ※ 다른 조례에 따라 보훈 관련 수당을 지급받는 경우 중복지원 불가\n      ex) 서울시 보훈수당과 중복 지급 불가\n\n ※ 제대군인은 중기복무 이상 국가보훈처에 등록된 대상으…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000120",
-      "onlineUrl": "",
-      "inquiry": [
-        "복지정책과/02-351-7016"
-      ],
-      "updatedAt": "2026-02-20",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-311000000117",
-      "sourceId": "311000000117",
-      "title": "다자녀 출산용품 교환권 지원",
-      "field": "임신·출산",
-      "provider": "서울특별시 은평구",
-      "providerType": "자치구",
-      "district": "은평구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 은평구에 주소를 둔(출생일로부터 지원 신청일까지 은평구 거주) 둘째이상 출산가정(출생일로부터 1년이내 신청)\n○ 출생일로부터 1년 이내 관할 동 주민센터 방문 신청",
-      "summary": "서울특별시 은평구에서 제공하는 임신·출산 혜택입니다. ○ 저출생 대응을 위해 다자녀 가정에 실질적 혜택을 제공하는 출산지원 사업을 추진함으로써 출산, 양육 친화적 환경 조성에 기여하고자 함.",
-      "supportType": "이용권",
-      "supportSummary": "○ 은평구에 주소를 둔(출생일로부터 지원 신청일까지 은평구 거주) 둘째이상 출산가정에 15만원 출산용품교환권 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000117",
-      "onlineUrl": "",
-      "inquiry": [
-        "가족정책과/02-351-6223"
       ],
       "updatedAt": "2026-02-20",
       "registeredAt": "2021-09-23"
@@ -20846,34 +21810,6 @@
       "registeredAt": "2025-11-25"
     },
     {
-      "id": "gov-benefit-302000000103",
-      "sourceId": "302000000103",
-      "title": "보호대상아동 지원",
-      "field": "보육·교육",
-      "provider": "서울특별시 용산구",
-      "providerType": "자치구",
-      "district": "용산구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 가정위탁 보호아동, 아동복지시설 생활아동, 아동복지시설",
-      "summary": "서울특별시 용산구에서 제공하는 보육·교육 혜택입니다. 가정위탁보호 아동 등을 대상으로 양육비, 위문금 등 지원",
-      "supportType": "현금",
-      "supportSummary": "○ 서비스내용\n - 가정위탁 보호아동 양육비\n - 아동복지시설 가정의 달 위문\n - 가정위탁 보호아동 생일 격려금\n - 가정위탁 보호아동 연말 위문금\n - 가정위탁 보호아동 졸업 축하금\n - 아동 양육시설 명절 위문(설·추석)\n - 가정위탁 보호아동 가정의 달 위문금…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "신청불필요"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/302000000103",
-      "onlineUrl": "",
-      "inquiry": [
-        "아동청소년과/02-2199-7033"
-      ],
-      "updatedAt": "2026-02-06",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-322000000118",
       "sourceId": "322000000118",
       "title": "강남구 저소득주민 명절위문금 지원",
@@ -22061,91 +22997,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-320000000119",
-      "sourceId": "320000000119",
-      "title": "국가보훈대상자 보훈수당",
-      "field": "생활안정",
-      "provider": "서울특별시 관악구",
-      "providerType": "자치구",
-      "district": "관악구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 보훈예우수당\n   - 지급대상: 관악구에 거주하는 국가유공자 본인 및 선순위 유족\n   - 지 급 액: 월 7만원\n   - 지급방법: 지급대상자 본인 실명의 계좌입금\n\n○ 배우자복지수당\n   - 지급대상: 관악구에 거주하는 사망한 참전유공자의 배우자\n   - 지…",
-      "summary": "서울특별시 관악구에서 제공하는 생활안정 혜택입니다. 국가유공자 및 선순위유족에게 매월 25일 보훈수당 지급",
-      "supportType": "현금",
-      "supportSummary": "○ 보훈예우수당\n   - 지급대상: 관악구에 거주하는 국가유공자 본인 및 선순위 유족\n   - 지 급 액: 월 8만원\n   - 지급방법: 지급대상자 본인 실명의 계좌입금\n\n○ 배우자복지수당\n   - 지급대상: 관악구에 거주하는 사망한 참전유공자의 배우자 (보훈예우수당…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000119",
-      "onlineUrl": "",
-      "inquiry": [
-        "복지정책과/02-879-5854"
-      ],
-      "updatedAt": "2026-02-04",
-      "registeredAt": "2023-08-23"
-    },
-    {
-      "id": "gov-benefit-320000000121",
-      "sourceId": "320000000121",
-      "title": "국가보훈대상자 사망위로금",
-      "field": "생활안정",
-      "provider": "서울특별시 관악구",
-      "providerType": "자치구",
-      "district": "관악구",
-      "userType": "개인",
-      "deadlineText": "사망 후 1년 이내 신청가능",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "- 지급대상: 보훈대상자 유족\n- 지급액: 20만원",
-      "summary": "서울특별시 관악구에서 제공하는 생활안정 혜택입니다. (구)국가보훈대상자 사망위로금 지급, (시)국가유공자 사망조의금 지급",
-      "supportType": "현금",
-      "supportSummary": "○ (구)사망위로금 지급\n   - 관악구에 1년 이상 거주한 국가보훈대상자 사망시 유족에서 사망위로금 지급\n   - 지 급 액 : 20만원\n   - 지급시기 : 신청서 접수 후 2주 이내\n   - 사망후 1년 이내 신청 가능\n\n○ (시) 국가유공자 사망조의금 지급…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000121",
-      "onlineUrl": "",
-      "inquiry": [
-        "복지정책과/879-5854"
-      ],
-      "updatedAt": "2026-02-04",
-      "registeredAt": "2023-08-23"
-    },
-    {
-      "id": "gov-benefit-320000000120",
-      "sourceId": "320000000120",
-      "title": "국가보훈대상자 위문금 지원",
-      "field": "생활안정",
-      "provider": "서울특별시 관악구",
-      "providerType": "자치구",
-      "district": "관악구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "구 위문금: 국가보훈대상자(매회 3만원)\n시 위문금: 독립유공자손자녀 또는 선순위유족의 형제자매 등(시기별, 대상별 금액 상이)",
-      "summary": "서울특별시 관악구에서 제공하는 생활안정 혜택입니다. 국가보훈대상자에게 명절 및 호국보훈의 달 위문금 지급",
-      "supportType": "현금",
-      "supportSummary": "구 위문금: 관악구에 거주하는 국가보훈대상자에게 설날, 추석, 호국보훈의 달(6월) 위문금 지급\n시 위문금: 독립유공자손자녀 등에게 3.1절, 광복절, 호국보훈의 달(6월) 위문금 지급",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000120",
-      "onlineUrl": "",
-      "inquiry": [
-        "복지정책과/879-5854"
-      ],
-      "updatedAt": "2026-02-04",
-      "registeredAt": "2023-08-23"
-    },
-    {
       "id": "gov-benefit-309000000131",
       "sourceId": "309000000131",
       "title": "장애인 무료 구강진료",
@@ -22367,63 +23218,6 @@
       "onlineUrl": "",
       "inquiry": [
         "지역경제과/02-2091-2897"
-      ],
-      "updatedAt": "2026-02-04",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-319000000108",
-      "sourceId": "319000000108",
-      "title": "보훈대상자 사망위로금 지급",
-      "field": "생활안정",
-      "provider": "서울특별시 동작구",
-      "providerType": "자치구",
-      "district": "동작구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 동작구에 주민등록을 두고 거주하는 국가보훈대상자 유족\n ※ 보훈처에서 사망 일시금 등 수령시 대상에서 제외",
-      "summary": "서울특별시 동작구에서 제공하는 생활안정 혜택입니다. 보훈대상자가 사망 시 유족 1인에게 사망위로금 지급",
-      "supportType": "현금",
-      "supportSummary": "○ 동작구에 주민등록을 두고 거주하는 국가보훈대상자 사망시 유족 1인에게 위로금(20만원) 지급",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000108",
-      "onlineUrl": "",
-      "inquiry": [
-        "복지정책과/02-820-9040"
-      ],
-      "updatedAt": "2026-02-04",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-319000000125",
-      "sourceId": "319000000125",
-      "title": "보훈대상자 위문금 지급",
-      "field": "생활안정",
-      "provider": "서울특별시 동작구",
-      "providerType": "자치구",
-      "district": "동작구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 동작구에 주민등록을 두고 거주하는 국가보훈대상자",
-      "summary": "서울특별시 동작구에서 제공하는 생활안정 혜택입니다. 국가보훈대상자 등에게 명절, 보훈의달에 위문금 지급",
-      "supportType": "현금",
-      "supportSummary": "○ 동작구에 주민등록을 두고 거주하는 국가보훈대상자에게 설, 보훈의달, 추석에 각 5만원씩 위문금 지급",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000125",
-      "onlineUrl": "",
-      "inquiry": [
-        "복지정책과/02-820-9040"
       ],
       "updatedAt": "2026-02-04",
       "registeredAt": "2021-09-23"
@@ -23579,34 +24373,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-318000000112",
-      "sourceId": "318000000112",
-      "title": "기초수급자 명절 위문금 지급",
-      "field": "보호·돌봄",
-      "provider": "서울특별시 영등포구",
-      "providerType": "자치구",
-      "district": "영등포구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 생계급여, 의료급여",
-      "summary": "서울특별시 영등포구에서 제공하는 보호·돌봄 혜택입니다. 생계, 의료급여 수급자에게 명절 위문금 지급",
-      "supportType": "현금",
-      "supportSummary": "○ 기초생계·의료급여 수급자 가구당 시비3만원 구비 1만원 추가 지급(설, 추석 연 2회)",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "신청불필요"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000112",
-      "onlineUrl": "",
-      "inquiry": [
-        "생활보장과/02-2670-3387"
-      ],
-      "updatedAt": "2026-02-04",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-300000000149",
       "sourceId": "300000000149",
       "title": "취업 상담·알선 서비스 제공(종로 일자리플러스센터 운영)",
@@ -24428,34 +25194,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-308000000116",
-      "sourceId": "308000000116",
-      "title": "효도지원금 지원",
-      "field": "보호·돌봄",
-      "provider": "서울특별시 강북구",
-      "providerType": "자치구",
-      "district": "강북구",
-      "userType": "개인",
-      "deadlineText": "26.9.1.~26.9.18.",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 매년 1월 1일 현재 서울특별시 강북구에 1년 이상 주민등록을 두고 거주하는 효행가정\n   - 효행가정 : 효행대상자와 그 직계비속이 서울특별시 강북구에서 동일한 세대를 이루고 생계를 같이하는 가정\n   - 효행대상자 : 효도지원금을 지급하는 날이 속하는 해 12…",
-      "summary": "서울특별시 강북구에서 제공하는 보호·돌봄 혜택입니다. 효행가정에 효도지원금 지급",
-      "supportType": "현금",
-      "supportSummary": "○ 효행가정에 예산의 범위 내에서 매년 20만 원 지급\n   - 효행대상자가 부부일 경우 매년 40만 원 지급\n   - 매년 1월 1일 기준 지원 대상자 선정\n   - 최초 대상자 선정 후 지급일 이전에 사망하여도 지급(1회)",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/308000000116",
-      "onlineUrl": "",
-      "inquiry": [
-        "어르신·장애인과/02-901-6655"
-      ],
-      "updatedAt": "2026-02-02",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-308000000121",
       "sourceId": "308000000121",
       "title": "강북구 보훈예우수당  지급",
@@ -24592,34 +25330,6 @@
       "onlineUrl": "",
       "inquiry": [
         "청소년과/02-901-2525"
-      ],
-      "updatedAt": "2026-02-02",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-308000000125",
-      "sourceId": "308000000125",
-      "title": "찾아가는 맞춤형 주거환경 개선 지원",
-      "field": "주거·자립",
-      "provider": "서울특별시 강북구",
-      "providerType": "자치구",
-      "district": "강북구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 강북구 내 주거취약 홀몸어르신",
-      "summary": "서울특별시 강북구에서 제공하는 주거·자립 혜택입니다. 주거취약 홀몸어르신에게 환경 개선 등 서비스 지원",
-      "supportType": "서비스(돌봄)",
-      "supportSummary": "○ 지역 내 주거취약계층 어르신의 생활환경 개선 및 지원\n - 정리정돈, 인식개선교육, 가정 내 시설물 교체 및  개보수 등\n\n○ 맞춤형 정리정돈 서비스 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/308000000125",
-      "onlineUrl": "",
-      "inquiry": [
-        "어르신·장애인과/02-901-6657"
       ],
       "updatedAt": "2026-02-02",
       "registeredAt": "2021-09-23"
@@ -24938,63 +25648,6 @@
       ],
       "updatedAt": "2026-02-02",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-310000000117",
-      "sourceId": "310000000117",
-      "title": "장애인 이동기기 수리비 지원",
-      "field": "생활안정",
-      "provider": "서울특별시 노원구",
-      "providerType": "자치구",
-      "district": "노원구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 장애인",
-      "summary": "서울특별시 노원구에서 제공하는 생활안정 혜택입니다. 장애인 전동스쿠터,전동휠체어,수동휠체어 이동기기 수리비 지원",
-      "supportType": "현금(감면)",
-      "supportSummary": "○ 장애인의 수동휠체어, 전동휠체어, 전동스쿠터 수리비 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/310000000117",
-      "onlineUrl": "",
-      "inquiry": [
-        "장애인복지과/02-2116-3327"
-      ],
-      "updatedAt": "2026-02-02",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-313000000161",
-      "sourceId": "313000000161",
-      "title": "입양축하금 지원",
-      "field": "보호·돌봄",
-      "provider": "서울특별시 마포구",
-      "providerType": "자치구",
-      "district": "마포구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "◌ 국내입양에 관한 특별법에 따라 아동을 입양한 양부모\n - 소득 및 재산기준 없음",
-      "summary": "서울특별시 마포구에서 제공하는 보호·돌봄 혜택입니다. 입양아동의 양부모에게 입양축하금을 지급하여 입양을 축하함과 동시에 국내 입양 활성화에 이바지하고자 함",
-      "supportType": "현금",
-      "supportSummary": "◌ 입양축하금 지급\n - 입양아동 1명당 200만원 지원\n - 금액은 장애 여부와 상관없이 동일함.",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000161",
-      "onlineUrl": "",
-      "inquiry": [
-        "마포구청 가족정책과/02-3153-8618"
-      ],
-      "updatedAt": "2026-02-02",
-      "registeredAt": "2025-07-18"
     },
     {
       "id": "gov-benefit-313000000126",
@@ -25539,34 +26192,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-320000000108",
-      "sourceId": "320000000108",
-      "title": "지역화폐(관악사랑상품권)",
-      "field": "행정·안전",
-      "provider": "서울특별시 관악구",
-      "providerType": "자치구",
-      "district": "관악구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 관악사랑상품권 가맹점 및 소비자",
-      "summary": "서울특별시 관악구에서 제공하는 행정·안전 혜택입니다. 관악구 내 서울사랑상품권 가맹점에서 사용 가능한 모바일 관악사랑상품권 발행을 통한 지역 상권 활성화 기여",
-      "supportType": "이용권",
-      "supportSummary": "○ 사업내용\n - 서울페이+ 앱에서 모바일 상품권 구매\n - 구매 시 할인 및 페이백 제공 등 할인 혜택 제공\n - 관내 서울페이 가맹점에서 사용\n - 1인당 구매한도 및 보유한도: 월 50만 원/150만 원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000108",
-      "onlineUrl": "",
-      "inquiry": [
-        "지역상권활성화과/02-879-5743"
-      ],
-      "updatedAt": "2026-01-30",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-O00022600034",
       "sourceId": "O00022600034",
       "title": "문화체육시설 이용요금 감면(2자녀)",
@@ -25901,34 +26526,6 @@
       ],
       "updatedAt": "2026-01-30",
       "registeredAt": "2021-11-05"
-    },
-    {
-      "id": "gov-benefit-304000000229",
-      "sourceId": "304000000229",
-      "title": "폐렴구균 단백결합 백신 예방접종 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 광진구",
-      "providerType": "자치구",
-      "district": "광진구",
-      "userType": "개인",
-      "deadlineText": "2026.1. ~ 2026.12.",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 광진구민  65세 이상 기초생활수급자\n○ 폐렴구균 단백결합 백신 예방접종 미접종자",
-      "summary": "서울특별시 광진구에서 제공하는 보건·의료 혜택입니다. 광진구민 65세이상 기초생활수급자 중 미접종자에게 폐렴구균 단백결합 백신  예방접종 지원",
-      "supportType": "서비스(의료)",
-      "supportSummary": "폐렴구균 단백결합 백신 예방접종 1회 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000229",
-      "onlineUrl": "",
-      "inquiry": [
-        "건강관리과/02-450-1958"
-      ],
-      "updatedAt": "2026-01-30",
-      "registeredAt": "2024-02-13"
     },
     {
       "id": "gov-benefit-O00022600014",
@@ -26324,36 +26921,6 @@
       ],
       "updatedAt": "2026-01-30",
       "registeredAt": "2022-07-15"
-    },
-    {
-      "id": "gov-benefit-319000000138",
-      "sourceId": "319000000138",
-      "title": "동작구 입학준비금 지원",
-      "field": "생활안정",
-      "provider": "서울특별시 동작구",
-      "providerType": "자치구",
-      "district": "동작구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 초,중,고등학교 1학년 입학생\n - 동작구 소재 학교 입학생\n - 동작구민 중 서울시 외 타 시도 학교 입학생",
-      "summary": "서울특별시 동작구에서 제공하는 생활안정 혜택입니다. 학교 입학을 준비하며 학생들에게 '입학에 필요한 물품' 구입을 위한 비용 지원(제로페이 모바일 포인트 지급)",
-      "supportType": "기타",
-      "supportSummary": "○ 동작구 입학준비금 지원\n - 사업기간 : 2025. 2~12월\n - 대       상 : 초,중,고등학교 1학년 입학생\n - 지원금액 : 1인당 초등학생 200천원, 중, 고등학생 300천원\n - 지원내용 : 학교 입학을 준비하며 학생들에게 '입학에 필요한 물품'…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청",
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000138",
-      "onlineUrl": "https://start.sen.go.kr/",
-      "inquiry": [
-        "동작구청 교육정책과/02-820-9189"
-      ],
-      "updatedAt": "2026-01-30",
-      "registeredAt": "2022-07-12"
     },
     {
       "id": "gov-benefit-313000000111",
@@ -27445,120 +28012,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-304000000169",
-      "sourceId": "304000000169",
-      "title": "1차진료 및 무료진료 서비스",
-      "field": "보건·의료",
-      "provider": "서울특별시 광진구",
-      "providerType": "자치구",
-      "district": "광진구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "만15세 이상 주민",
-      "summary": "서울특별시 광진구에서 제공하는 보건·의료 혜택입니다. 1차진료 및 검사 지원",
-      "supportType": "서비스(의료)",
-      "supportSummary": "○ 진료내용\n  - 만성질환중심 1차 진료(고혈압, 당뇨, 이상지질혈증) 및 검사 \n  - 한방진료실(한방진료 상담, 침 등의 시술 및 한방과립제 투약)\n○ 진료시간 : 월 ~ 금 , 오전9시 ~ 오후6시 ※ 점심시간(12:00 ~ 13:00) 에는 진료, 검사가 불…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000169",
-      "onlineUrl": "",
-      "inquiry": [
-        "광진구보건소 내과진료실/02-450-1590",
-        "광진구 보건의료과/02-450-1567"
-      ],
-      "updatedAt": "2026-01-29",
-      "registeredAt": "2021-11-05"
-    },
-    {
-      "id": "gov-benefit-304000000176",
-      "sourceId": "304000000176",
-      "title": "구강진료 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 광진구",
-      "providerType": "자치구",
-      "district": "광진구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "광진구 구민으로서 의료급여, 65세이상 어르신",
-      "summary": "서울특별시 광진구에서 제공하는 보건·의료 혜택입니다. 광진구 구민 중 65세 이상 어르신, 의료급여 대상 구강검진 및 예방진료 시행하여 의료접근성 향상 및  구강관리 향상 위함",
-      "supportType": "서비스(의료)",
-      "supportSummary": "충치치료, 발치 등의 기본치료와 구강검진 및 상담, 치주질환 예방을 위한 구강관리 교육, 불소양치용액 배부 등",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000176",
-      "onlineUrl": "",
-      "inquiry": [
-        "광진구 보건의료과/02-450-1949"
-      ],
-      "updatedAt": "2026-01-29",
-      "registeredAt": "2021-11-05"
-    },
-    {
-      "id": "gov-benefit-304000000179",
-      "sourceId": "304000000179",
-      "title": "어린이 불소도포",
-      "field": "보건·의료",
-      "provider": "서울특별시 광진구",
-      "providerType": "자치구",
-      "district": "광진구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "광진구 구민으로서 어린이(6세~16세)",
-      "summary": "서울특별시 광진구에서 제공하는 보건·의료 혜택입니다. 광진구 어린이(6~16세) 대상 구강검진과 불소도포를 시행하여 충치를 예방하기 위함",
-      "supportType": "서비스(의료)",
-      "supportSummary": "어린이 구강 불소도포 서비스(예약제)",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000179",
-      "onlineUrl": "",
-      "inquiry": [
-        "광진구 보건의료과/02-450-1949"
-      ],
-      "updatedAt": "2026-01-29",
-      "registeredAt": "2021-11-05"
-    },
-    {
-      "id": "gov-benefit-304000000177",
-      "sourceId": "304000000177",
-      "title": "장애인 치과진료",
-      "field": "보건·의료",
-      "provider": "서울특별시 광진구",
-      "providerType": "자치구",
-      "district": "광진구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "광진구 구민으로서 장애인",
-      "summary": "서울특별시 광진구에서 제공하는 보건·의료 혜택입니다. 광진구 장애인 대상 구강검진 및 예방진료 시행하여 의료접근성 향상 및 구강관리 향상 위함",
-      "supportType": "서비스(의료)",
-      "supportSummary": "충치치료, 잇몸치료, 발치 등 일반 구강진료(예약제)\n  -  1,3주 목요일 오전(09:30 ~ 12:00)",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000177",
-      "onlineUrl": "",
-      "inquiry": [
-        "광진구 보건의료과/02-450-1949"
-      ],
-      "updatedAt": "2026-01-29",
-      "registeredAt": "2021-11-05"
-    },
-    {
       "id": "gov-benefit-304000000182",
       "sourceId": "304000000182",
       "title": "생활공구 무료대여 서비스",
@@ -27695,34 +28148,6 @@
       "onlineUrl": "",
       "inquiry": [
         "서울시청 복지정책과/02-2133-7334"
-      ],
-      "updatedAt": "2026-01-29",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-321000000104",
-      "sourceId": "321000000104",
-      "title": "양·한방 진료 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 서초구",
-      "providerType": "자치구",
-      "district": "서초구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 만 15세 이상 시민",
-      "summary": "서울특별시 서초구에서 제공하는 보건·의료 혜택입니다. 건상상담 및 진료, 투약 등을 통한 질병예방 및 구민의 건강증진 도모",
-      "supportType": "서비스(의료)",
-      "supportSummary": "○ 만 15세 이상 진료를 원하는 시민에게 양·한방 진료, 의료서비스 제공\n\n  - 고혈압, 당뇨, 고지혈증 진료 및 처방증 발행\n -  금연약 처방\n -  성병검사, 당화혈색소 검사",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/321000000104",
-      "onlineUrl": "",
-      "inquiry": [
-        "의료지원과/02-2155-8105"
       ],
       "updatedAt": "2026-01-29",
       "registeredAt": "2021-09-23"
@@ -28354,34 +28779,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-314000000265",
-      "sourceId": "314000000265",
-      "title": "양천구 공항소음피해지역 주민 상담심리 지원(상담서비스 제공)",
-      "field": "보건·의료",
-      "provider": "서울특별시 양천구",
-      "providerType": "자치구",
-      "district": "양천구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "양천구 공항소음대책지역(인근지역 포함) 거주 주민\n(동일사업 기수혜자 및 양천구 타 상담,심리 프로그램 진행 중인 자 제외)",
-      "summary": "서울특별시 양천구에서 제공하는 보건·의료 혜택입니다. 항공기 소음에 노출되어 스트레스, 우울, 불안 등의 피해를 겪고 있는 주민에게 상담서비스를 제공하여 심리적 안정 및 마음건강 회복 등 삶의 질 향상을 도모",
-      "supportType": "기타(상담)",
-      "supportSummary": "공항소음피해지역 주민 상담서비스 제공",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000265",
-      "onlineUrl": "",
-      "inquiry": [
-        "양천구청 환경과/02-2084-5472"
-      ],
-      "updatedAt": "2026-01-28",
-      "registeredAt": "2025-11-05"
-    },
-    {
       "id": "gov-benefit-O00023800005",
       "sourceId": "O00023800005",
       "title": "거주자우선주차 요금감면",
@@ -28887,91 +29284,6 @@
       "onlineUrl": "",
       "inquiry": [
         "거주지 보건소/02-120"
-      ],
-      "updatedAt": "2026-01-27",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-314000000107",
-      "sourceId": "314000000107",
-      "title": "양천구 장학금 지원",
-      "field": "보육·교육",
-      "provider": "서울특별시 양천구",
-      "providerType": "자치구",
-      "district": "양천구",
-      "userType": "개인",
-      "deadlineText": "8월~9월 중 (홈페이지 참조)",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 공통자격 : 공고일 기준 1년 이상 양천구에 거주한 초·중·고·대학생으로 장학금별 자격조건을 충족하는 자\n - 일반장학생(고·대학생) : 소득인정액이 기준중위소득 100%이내(대학생 한국장학재단 학자금 지원구간 5구간 이내)\n - 성적우수장학생(고등학생) : 직전…",
-      "summary": "서울특별시 양천구에서 제공하는 보육·교육 혜택입니다. 초·중·고·대학생에게 장학금 지원",
-      "supportType": "현금(장학금)",
-      "supportSummary": "○  공고일 기준 1년 이상 양천구에 거주한 초·중·고·대학생 중 장학금별 자격조건을 충족하는 학생을 대상으로 장학금 지원\n\n○ 1인당 지원금액 (*2024년 기준으로 지원금액은 변동가능)\n - 초·중학생 30만원 / 고등학생 60만원 \n - 대학생 : 50만원~최대…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000107",
-      "onlineUrl": "",
-      "inquiry": [
-        "양천구청 교육과/02-2620-3119"
-      ],
-      "updatedAt": "2026-01-27",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-318000000117",
-      "sourceId": "318000000117",
-      "title": "저소득 주민 건강보험료 등 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 영등포구",
-      "providerType": "자치구",
-      "district": "영등포구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 노인, 장애인, 한부모 등 저소득가정",
-      "summary": "서울특별시 영등포구에서 제공하는 보건·의료 혜택입니다. 노인, 장애인, 한부모 등 저소득가정에 국민건강보험료 및 장기요양보험료 지원",
-      "supportType": "현금(보험)",
-      "supportSummary": "○ 노령이나 장애 등으로 인하여 생활에 어려움을 겪고 있으나 「국민기초생활보장법」 제7조제1항제1호 및 제3호에 따른 생계,의료급여 수급자에 해당하지 않는 저소득주민에게 국민건강보험료 및 장기요양보험료를 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "신청불필요"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000117",
-      "onlineUrl": "",
-      "inquiry": [
-        "생활보장과/02-2670-4070"
-      ],
-      "updatedAt": "2026-01-27",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-318000000114",
-      "sourceId": "318000000114",
-      "title": "기초수급자 유료방송 이용요금 지원",
-      "field": "행정·안전",
-      "provider": "서울특별시 영등포구",
-      "providerType": "자치구",
-      "district": "영등포구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 생계급여, 의료급여 수급자 중 만 70세 이상",
-      "summary": "서울특별시 영등포구에서 제공하는 행정·안전 혜택입니다. 만 70세 이상 수급자에게 CMB유료방송 이용요금 지원",
-      "supportType": "현금",
-      "supportSummary": "○ 기초생계·의료급여 수급자 중 만 70세 이상 신청자에 CMB유료방송 이용요금 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000114",
-      "onlineUrl": "",
-      "inquiry": [
-        "생활보장과/02-2670-3387"
       ],
       "updatedAt": "2026-01-27",
       "registeredAt": "2021-09-23"
@@ -29700,34 +30012,6 @@
       "registeredAt": "2022-10-26"
     },
     {
-      "id": "gov-benefit-611000019625",
-      "sourceId": "611000019625",
-      "title": "서울청년문화패스",
-      "field": "문화·환경",
-      "provider": "서울특별시",
-      "providerType": "서울시",
-      "district": "서울특별시",
-      "userType": "개인",
-      "deadlineText": "공고문, 보도자료 등을 통해 공지",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "ㅇ 연령요건 : 21세~23세 청년('26년 기준, 2003~2005년생)\n - 의무복무 제대군인은 복무기간별 최대 3년 이내 지원연령 가산\nㅇ 주거요건 : 신청일 기준 주민등록상, 외국인등록대장상 서울 거주\nㅇ 소득요건 : 생애 최초 수혜자만 신청 가능, 건강보험료…",
-      "summary": "서울특별시에서 제공하는 문화·환경 혜택입니다. 공연예술(연극, 뮤지컬, 클래식·오페라, 발레·무용, 국악, 전시 등)관람 지원",
-      "supportType": "이용권",
-      "supportSummary": "사회에 첫 발을 내딛는 21~23세 청년들에게 연극, 뮤지컬, 클래식·오페라, 발레·무용, 국악, 전시 등 문화예술 공연 관람 기회를 제공하고 문화예술분야 활성화를 위해 문화이용권을 지원하는 사업",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000019625",
-      "onlineUrl": "https://youth.seoul.go.kr/",
-      "inquiry": [
-        "서울청년문화패스 콜센터/1533-3427"
-      ],
-      "updatedAt": "2026-01-23",
-      "registeredAt": "2025-07-15"
-    },
-    {
       "id": "gov-benefit-611000000114",
       "sourceId": "611000000114",
       "title": "독립유공생활지원수당",
@@ -29869,202 +30153,6 @@
       "registeredAt": "2025-06-30"
     },
     {
-      "id": "gov-benefit-O00368400002",
-      "sourceId": "O00368400002",
-      "title": "성적도약 장학금 지원",
-      "field": "보육·교육",
-      "provider": "재단법인영등포구미래교육재단",
-      "providerType": "자치구",
-      "district": "영등포구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 영등포구 관내 고등학교 학생",
-      "summary": "재단법인영등포구미래교육재단에서 제공하는 보육·교육 혜택입니다. 선발직전 학기 성적이 평균석차 백분율 30% 이상 향상한 학생 장학금 지원",
-      "supportType": "현금(장학금)",
-      "supportSummary": "○ 선발직전 학기 성적이 평균석차 백분율 30% 이상 향상한 학생 장학금 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00368400002",
-      "onlineUrl": "",
-      "inquiry": [
-        "미래교육재단/02-2670-3072"
-      ],
-      "updatedAt": "2026-01-23",
-      "registeredAt": "2025-01-31"
-    },
-    {
-      "id": "gov-benefit-318000000106",
-      "sourceId": "318000000106",
-      "title": "성적우수 장학금 지원",
-      "field": "보육·교육",
-      "provider": "재단법인영등포구미래교육재단",
-      "providerType": "자치구",
-      "district": "영등포구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 영등포구 관내 고등학교 2, 3학년 학생",
-      "summary": "재단법인영등포구미래교육재단에서 제공하는 보육·교육 혜택입니다. 성적이 우수한 고등학교 2, 3학년생 학생에게 장학금 지원",
-      "supportType": "현금(장학금)",
-      "supportSummary": "○ 관내 고등학교 재학생으로 선발 직전 학년 성적이 평균석차 백분율 5% 이내에 해당되는고등학교 2~3학년생 학생에게 장학금 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000106",
-      "onlineUrl": "",
-      "inquiry": [
-        "미래교육재단/02-2670-3071"
-      ],
-      "updatedAt": "2026-01-23",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-318000000103",
-      "sourceId": "318000000103",
-      "title": "영등포 장학금 지원",
-      "field": "보육·교육",
-      "provider": "재단법인영등포구미래교육재단",
-      "providerType": "자치구",
-      "district": "영등포구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 영등포구 관내 초, 중, 고등학교 학생, 관내 거주 대학생",
-      "summary": "재단법인영등포구미래교육재단에서 제공하는 보육·교육 혜택입니다. 재산, 거주기간 등을 고려해 학생에게 장학금 지원",
-      "supportType": "현금(장학금)",
-      "supportSummary": "○ 관내 초중고등학교 재학생 및 거주하는 대학생으로 재산정도, 영등포 거주기간 등을 고려해 심사기준에 따라 장학금 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000103",
-      "onlineUrl": "",
-      "inquiry": [
-        "미래교육재단/02-2670-3072"
-      ],
-      "updatedAt": "2026-01-23",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-318000000102",
-      "sourceId": "318000000102",
-      "title": "인재육성 장학금 지원",
-      "field": "보육·교육",
-      "provider": "재단법인영등포구미래교육재단",
-      "providerType": "자치구",
-      "district": "영등포구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 영등포구 관내 고등학교 학생",
-      "summary": "재단법인영등포구미래교육재단에서 제공하는 보육·교육 혜택입니다. 성적이 우수한 고등학생에게 인재육성장학금 지원",
-      "supportType": "현금(장학금)",
-      "supportSummary": "○ 관내 중학교를 졸업하고 관내 고등학교에 입학한 상위 4% 이내 1학년 학생과, 인재육성장학생으로 기 선발된 학생 중 전년도 성적 상위 5%이내  2~3학년 학생에게 장학금 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000102",
-      "onlineUrl": "",
-      "inquiry": [
-        "미래교육재단/02-2670-3072"
-      ],
-      "updatedAt": "2026-01-23",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-318000000104",
-      "sourceId": "318000000104",
-      "title": "지정 장학금 지원",
-      "field": "보육·교육",
-      "provider": "재단법인영등포구미래교육재단",
-      "providerType": "자치구",
-      "district": "영등포구",
-      "userType": "개인",
-      "deadlineText": "장학금 지정기탁자가 있을 때",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 지정자의사에 따른 수혜자",
-      "summary": "재단법인영등포구미래교육재단에서 제공하는 보육·교육 혜택입니다. 기탁자의 의사에따라 수혜자를 정해 장학금 지원",
-      "supportType": "현금(장학금)",
-      "supportSummary": "○ 기탁자의 의사에 따라 수혜자를 정해 장학금 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000104",
-      "onlineUrl": "",
-      "inquiry": [
-        "미래교육재단/02-2670-3072"
-      ],
-      "updatedAt": "2026-01-23",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-318000000111",
-      "sourceId": "318000000111",
-      "title": "특기 장학금 지원",
-      "field": "보육·교육",
-      "provider": "재단법인영등포구미래교육재단",
-      "providerType": "자치구",
-      "district": "영등포구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 영등포구 관내 초, 중, 고등학교 학생",
-      "summary": "재단법인영등포구미래교육재단에서 제공하는 보육·교육 혜택입니다. 전국 또는 광역 단위 대회에 입상한 특기자 초·중·고교생에게 장학금 지원",
-      "supportType": "현금(장학금)",
-      "supportSummary": "○ 전국단위 체육(단체 구기종목)에서 3위권  이상 입상한 학생 또는 광역단위 체육(단체 구기종목)에서 4위권 이상 입상한 학생 장학금 지원\n○ 전국단위 체육(개인종목)문화, 예술, 기능, 수학, 과학대회에서 3위권 이상 입상한 학생 장학금 지원\n○ 성적 산출 어려운…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000111",
-      "onlineUrl": "",
-      "inquiry": [
-        "미래교육재단/02-2670-3072"
-      ],
-      "updatedAt": "2026-01-23",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-O00368400004",
-      "sourceId": "O00368400004",
-      "title": "특성화고 자격증 취득 장학금",
-      "field": "보육·교육",
-      "provider": "재단법인영등포구미래교육재단",
-      "providerType": "자치구",
-      "district": "영등포구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 영등포구 관내 고등학교 학생",
-      "summary": "재단법인영등포구미래교육재단에서 제공하는 보육·교육 혜택입니다. 자격증 취득 개수 등을 고려하여 추천된 고등학생 장학금 지원",
-      "supportType": "현금(장학금)",
-      "supportSummary": "○ 자격증 취득 개수 등을 고려하여 추천된 고등학생 장학금 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00368400004",
-      "onlineUrl": "",
-      "inquiry": [
-        "영등포구미래교육재단/02-2670-3072"
-      ],
-      "updatedAt": "2026-01-23",
-      "registeredAt": "2025-01-31"
-    },
-    {
       "id": "gov-benefit-318000000416",
       "sourceId": "318000000416",
       "title": "지방세 불복청구 선정대리인 무료지원",
@@ -30090,65 +30178,6 @@
         "감사담당관/02-2670-3026"
       ],
       "updatedAt": "2026-01-23",
-      "registeredAt": "2025-11-25"
-    },
-    {
-      "id": "gov-benefit-311000000147",
-      "sourceId": "311000000147",
-      "title": "구민 정보화교육",
-      "field": "보육·교육",
-      "provider": "서울특별시 은평구",
-      "providerType": "자치구",
-      "district": "은평구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "은평구 구민이면 누구나",
-      "summary": "서울특별시 은평구에서 제공하는 보육·교육 혜택입니다. 급변하는 디지털 시대에 구민의 실생활에 도움이 되는 다양한 정보화 교육 기회를 제공하여 디지털 역량강화 및 정보 격차해소에 기여하고자 함.",
-      "supportType": "기타(교육)",
-      "supportSummary": "3월부터 12월까지 구민의 정보화 격차 해소 및 디지털역량 강화를 위한 교육 기회를 제공하여 실생활에 도움이 될 수 있도록 지원합니다.\n\nㅇ 구민 정보화교육 안내\n  - 기간 : 2025. 3월 ~ 12월(1개월 과정)\n  - 교육장소 : 은평문화예술회관 지하1층 제…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000147",
-      "onlineUrl": "",
-      "inquiry": [
-        "스마트정보과/02-351-6352"
-      ],
-      "updatedAt": "2026-01-19",
-      "registeredAt": "2022-11-04"
-    },
-    {
-      "id": "gov-benefit-311000000231",
-      "sourceId": "311000000231",
-      "title": "찾아가는 「감정평가사 상담제」 운영",
-      "field": "주거·자립",
-      "provider": "서울특별시 은평구",
-      "providerType": "자치구",
-      "district": "은평구",
-      "userType": "개인||법인/시설/단체",
-      "deadlineText": "1차 : '26. 3. 18. ~ 4. 6. / 2차: '26. 4. 30. ~ 5. 29. / 3차: '26. 9. 1. ~ 9. 22. / 4차: '26. 10. 29. ~ 11. 27.",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 은평구 토지소유자 또는 이해관계인 등",
-      "summary": "서울특별시 은평구에서 제공하는 주거·자립 혜택입니다. 개별공시지가 관련 민원이 집중되는 의견제출‧이의신청 기간에 전문가인 감정평가사와 직접 상담하여 개별공시지가에 불만과 궁금증 해소",
-      "supportType": "기타(상담)",
-      "supportSummary": "○  찾아가는 「감정평가사 상담제」 주요 상담 내용\n - 2026년 1월 1일, 7월 1일 기준 열람지가 및 결정지가에 대한 내용\n - 표준지 선정 및 지가산정 절차 등에 관한 내용\n - 개별공시지가 제도에 관한 전반적인 내용 등",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000231",
-      "onlineUrl": "",
-      "inquiry": [
-        "은평구청 부동산정보과/02-351-6803"
-      ],
-      "updatedAt": "2026-01-19",
       "registeredAt": "2025-11-25"
     },
     {
