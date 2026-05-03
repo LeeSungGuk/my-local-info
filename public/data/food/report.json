@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-02T22:48:53.363Z",
+  "generatedAt": "2026-05-03T22:48:50.713Z",
   "source": {
     "provider": "서울 열린데이터광장",
     "dataset": "서울시 일반음식점 인허가 정보",
@@ -7,7 +7,7 @@
     "officialUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
     "availableCount": 532915,
     "fetchedCount": 532915,
-    "activeCount": 120704,
+    "activeCount": 120696,
     "selectedCount": 300,
     "sampleMode": false,
     "pageSize": 1000,
@@ -18,9 +18,9 @@
   },
   "changes": {
     "previousSelectedCount": 300,
-    "addedCount": 96,
-    "removedCount": 96,
-    "unchangedCount": 204
+    "addedCount": 22,
+    "removedCount": 22,
+    "unchangedCount": 278
   },
   "quality": {
     "averageScore": 69,
@@ -251,7 +251,7 @@
     {
       "name": "광진구",
       "selectedCount": 12,
-      "areaCount": 7,
+      "areaCount": 5,
       "categoryCount": 5,
       "topAreas": [
         {
@@ -263,12 +263,12 @@
           "count": 3
         },
         {
-          "name": "중곡동",
-          "count": 2
+          "name": "화양동",
+          "count": 3
         },
         {
-          "name": "광장동",
-          "count": 1
+          "name": "능동",
+          "count": 2
         },
         {
           "name": "군자동",
@@ -277,20 +277,20 @@
       ],
       "topCategories": [
         {
-          "name": "경양식",
-          "count": 4
-        },
-        {
           "name": "한식",
           "count": 4
         },
         {
-          "name": "일식",
+          "name": "경양식",
+          "count": 3
+        },
+        {
+          "name": "분식",
           "count": 2
         },
         {
-          "name": "식육(숯불구이)",
-          "count": 1
+          "name": "일식",
+          "count": 2
         },
         {
           "name": "중국식",
@@ -939,14 +939,14 @@
       "name": "금천구",
       "selectedCount": 12,
       "areaCount": 4,
-      "categoryCount": 4,
+      "categoryCount": 5,
       "topAreas": [
         {
-          "name": "독산동",
+          "name": "가산동",
           "count": 5
         },
         {
-          "name": "가산동",
+          "name": "독산동",
           "count": 3
         },
         {
@@ -961,15 +961,19 @@
       "topCategories": [
         {
           "name": "한식",
-          "count": 6
-        },
-        {
-          "name": "식육(숯불구이)",
-          "count": 3
+          "count": 5
         },
         {
           "name": "중국식",
+          "count": 3
+        },
+        {
+          "name": "분식",
           "count": 2
+        },
+        {
+          "name": "식육(숯불구이)",
+          "count": 1
         },
         {
           "name": "일식",
