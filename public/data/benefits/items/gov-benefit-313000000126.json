@@ -21,12 +21,13 @@
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000126",
   "onlineUrl": "",
   "inquiry": [
-    "마포구 주택상생과/02-3153-9331"
+    "마포구 주택상생과/02-3153-9331",
+    "마포구 주택상생과/02-3153-9304"
   ],
-  "updatedAt": "2026-02-02",
+  "updatedAt": "2026-05-04",
   "registeredAt": "2024-08-05",
-  "viewCount": 4673,
-  "collectedAt": "2026-05-01T22:49:24.316Z",
+  "viewCount": 4677,
+  "collectedAt": "2026-05-04T22:50:24.199Z",
   "purpose": "저소득층의 전세사기 피해 예방 및 안정된 주거환경 조성",
   "target": "전연령",
   "selectionCriteria": "",
@@ -39,7 +40,7 @@
     "주거기본법(제15조)"
   ],
   "ordinance": "",
-  "inquiryText": "마포구 주택상생과/02-3153-9331",
+  "inquiryText": "마포구 주택상생과/02-3153-9331||마포구 주택상생과/02-3153-9304",
   "ageMin": 0,
   "ageMax": 120
 }

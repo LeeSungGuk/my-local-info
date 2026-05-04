@@ -21,23 +21,23 @@
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000112",
   "onlineUrl": "",
   "inquiry": [
-    "자립지원과/02-2620-4679"
+    "생활보장과/02-2620-4677"
   ],
-  "updatedAt": "2026-01-29",
+  "updatedAt": "2026-05-04",
   "registeredAt": "2021-09-23",
-  "viewCount": 855,
-  "collectedAt": "2026-05-01T22:49:24.316Z",
+  "viewCount": 856,
+  "collectedAt": "2026-05-04T22:50:24.199Z",
   "purpose": "저소득노인 세대에 국민건강보험료 지원",
   "target": "○ 매월 보험료 부과금액이 보건복지부가 고시한 최저보험료 이하인 독거노인 및 노부부세대",
   "selectionCriteria": "",
   "supportContent": "○ 매월 보험료 부과금액이 보건복지부가 고시한 최저보험료 이하인 독거노인 및 노부부세대의 건강보험료 지원",
-  "applicationMethod": "○ 기타 \n - 자립지원과 전화 문의",
+  "applicationMethod": "○ 기타 \n - 생활보장과 전화 문의",
   "documents": "해당없음",
   "officialDocuments": "해당없음",
   "identityDocuments": "해당없음",
   "legalBasis": [],
   "ordinance": "서울특별시 양천구 저소득계층 국민건강보험료 등 지원에 관한 조례",
-  "inquiryText": "자립지원과/02-2620-4679",
+  "inquiryText": "생활보장과/02-2620-4677",
   "ageMin": 65,
   "ageMax": 120
 }

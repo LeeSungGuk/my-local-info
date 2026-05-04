@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-05-04T08:07:22+09:00",
+  "lastGeneratedAt": "2026-05-05T08:07:38+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -552,9 +552,9 @@
         "서울추천"
       ],
       "origin": "seed",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-04-15T00:00:00+09:00",
-      "usedAt": null
+      "usedAt": "2026-05-05T08:07:38+09:00"
     },
     {
       "id": "seoul-weekday-afternoon-quiet",
