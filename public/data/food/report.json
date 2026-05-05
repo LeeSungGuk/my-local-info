@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T22:50:42.971Z",
+  "generatedAt": "2026-05-05T22:50:44.346Z",
   "source": {
     "provider": "서울 열린데이터광장",
     "dataset": "서울시 일반음식점 인허가 정보",
@@ -7,7 +7,7 @@
     "officialUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
     "availableCount": 532915,
     "fetchedCount": 532915,
-    "activeCount": 120696,
+    "activeCount": 120689,
     "selectedCount": 300,
     "sampleMode": false,
     "pageSize": 1000,
@@ -18,9 +18,9 @@
   },
   "changes": {
     "previousSelectedCount": 300,
-    "addedCount": 0,
-    "removedCount": 0,
-    "unchangedCount": 300
+    "addedCount": 12,
+    "removedCount": 12,
+    "unchangedCount": 288
   },
   "quality": {
     "averageScore": 69,
@@ -892,10 +892,10 @@
       "name": "구로구",
       "selectedCount": 12,
       "areaCount": 6,
-      "categoryCount": 3,
+      "categoryCount": 4,
       "topAreas": [
         {
-          "name": "개봉동",
+          "name": "고척동",
           "count": 3
         },
         {
@@ -903,30 +903,34 @@
           "count": 3
         },
         {
-          "name": "오류동",
+          "name": "개봉동",
           "count": 2
         },
         {
-          "name": "항동",
+          "name": "신도림동",
           "count": 2
         },
         {
-          "name": "고척동",
+          "name": "가리봉동",
           "count": 1
         }
       ],
       "topCategories": [
         {
-          "name": "분식",
+          "name": "한식",
           "count": 4
+        },
+        {
+          "name": "분식",
+          "count": 3
         },
         {
           "name": "중국식",
-          "count": 4
+          "count": 3
         },
         {
-          "name": "한식",
-          "count": 4
+          "name": "일식",
+          "count": 2
         }
       ],
       "quality": {
