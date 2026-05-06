@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-05-06T08:08:06+09:00",
+  "lastGeneratedAt": "2026-05-07T07:59:14+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -600,9 +600,9 @@
         "서울추천"
       ],
       "origin": "seed",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-04-15T00:00:00+09:00",
-      "usedAt": null
+      "usedAt": "2026-05-07T07:59:14+09:00"
     },
     {
       "id": "seoul-photo-walk-local",
@@ -722,6 +722,195 @@
       "origin": "seed",
       "status": "pending",
       "createdAt": "2026-04-15T00:00:00+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-pet-friendly-park-walk",
+      "titleHint": "반려견과 함께 눈치 보지 않고 뛰놀기 좋은 서울 공원",
+      "topicCategory": "반려견동반",
+      "angle": "반려견 놀이터 시설이 잘 갖춰져 있거나 산책로가 넓은 공원 추천",
+      "places": [
+        "보라매공원 반려견 놀이터",
+        "월드컵공원 반려견 놀이터",
+        "어린이대공원 반려견 놀이터"
+      ],
+      "tags": [
+        "애견산책",
+        "반려동물",
+        "서울공원",
+        "강아지나들이"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-05-07T07:59:14+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-retro-industrial-vibe",
+      "titleHint": "과거와 현재가 섞인 을지로·종로 특유의 '힙한' 분위기 코스",
+      "topicCategory": "동네분위기",
+      "angle": "오래된 상가와 트렌디한 공간이 공존하는 독특한 골목 분위기 탐방",
+      "places": [
+        "세운상가",
+        "을지로 조명거리",
+        "방산시장"
+      ],
+      "tags": [
+        "을지로",
+        "레트로",
+        "도심출사",
+        "골목탐방"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-05-07T07:59:14+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-design-architecture-tour",
+      "titleHint": "건축물의 미학을 감상하며 걷는 서울 디자인 투어",
+      "topicCategory": "문화생활",
+      "angle": "세계적인 건축가들이 설계했거나 구조가 독특해 보는 재미가 있는 공간",
+      "places": [
+        "DDP(동대문디자인플라자)",
+        "이화여자대학교 ECC",
+        "서울공예박물관"
+      ],
+      "tags": [
+        "건축물",
+        "디자인",
+        "서울여행",
+        "사진맛집"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-05-07T07:59:14+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-underground-walkway-course",
+      "titleHint": "비 오거나 추운 날 밖으로 나가지 않고 걷는 서울 지하 연결로",
+      "topicCategory": "실내나들이",
+      "angle": "지하철역과 상권이 길게 연결되어 날씨 제약 없이 걷기 좋은 루트",
+      "places": [
+        "을지로 지하보도",
+        "종각 지하쇼핑센터",
+        "고속터미널 파미에스테이션"
+      ],
+      "tags": [
+        "지하보도",
+        "실내산책",
+        "쇼핑몰",
+        "날씨독립"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-05-07T07:59:14+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-beginner-hiking-trail",
+      "titleHint": "등산화 없어도 가볍게 오를 수 있는 서울 초보 등산 코스",
+      "topicCategory": "액티비티",
+      "angle": "운동화 차림으로도 충분히 정상 뷰를 즐길 수 있는 완만한 산책로",
+      "places": [
+        "인왕산",
+        "안산 자락길",
+        "아차산"
+      ],
+      "tags": [
+        "초보등산",
+        "산책코스",
+        "서울전망",
+        "운동"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-05-07T07:59:14+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-meditation-silence-space",
+      "titleHint": "도심 속 소음에서 잠시 벗어나 생각 정리하기 좋은 공간",
+      "topicCategory": "휴식공간",
+      "angle": "종교와 상관없이 누구나 조용히 머물며 명상하거나 쉴 수 있는 곳",
+      "places": [
+        "조계사",
+        "진관사",
+        "길상사"
+      ],
+      "tags": [
+        "명상",
+        "조용한곳",
+        "힐링",
+        "생각정리"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-05-07T07:59:14+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-specialized-hobby-market",
+      "titleHint": "먹거리 말고 '진짜 취향'을 찾는 서울 전문 시장 추천",
+      "topicCategory": "시장추천",
+      "angle": "빈티지 의류, 악기, 전자제품 등 특정 취미에 특화된 전통 시장",
+      "places": [
+        "동묘 벼룩시장",
+        "낙원악기상가",
+        "용산 전자상가"
+      ],
+      "tags": [
+        "취미생활",
+        "전문시장",
+        "빈티지",
+        "쇼핑"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-05-07T07:59:14+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-campus-picnic-vibe",
+      "titleHint": "학생이 아니어도 괜찮아, 경치 예쁜 서울 대학교 캠퍼스 산책",
+      "topicCategory": "동네추천",
+      "angle": "역사적인 건물이나 넓은 호수가 있어 시민들이 산책하기 좋은 캠퍼스",
+      "places": [
+        "경희대학교 평화의전당",
+        "성균관대학교 명륜당",
+        "건국대학교 일감호"
+      ],
+      "tags": [
+        "캠퍼스",
+        "산책",
+        "가을풍경",
+        "나들이"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-05-07T07:59:14+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-late-night-lifestyle-space",
+      "titleHint": "밤이 더 활기찬 사람들을 위한 서울 심야 활동 공간",
+      "topicCategory": "생활공간",
+      "angle": "늦은 밤이나 새벽에도 운영하여 야행성 시민들이 이용하기 좋은 장소",
+      "places": [
+        "동대문 야시장",
+        "강남 심야책방",
+        "24시 무인카페"
+      ],
+      "tags": [
+        "심야",
+        "야행성",
+        "서울밤",
+        "새벽공간"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-05-07T07:59:14+09:00",
       "usedAt": null
     }
   ]
