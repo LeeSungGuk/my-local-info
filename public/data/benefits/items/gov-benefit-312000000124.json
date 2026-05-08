@@ -12,7 +12,7 @@
   "isAlwaysOpen": true,
   "targetSummary": "○ 국민기초생활수급자 및 차상위계층 - 연간 40만원 지원\n○ 비수급계층 - 연간 27만원 지원",
   "summary": "서울특별시 서대문구에서 제공하는 보건·의료 혜택입니다. 장애인의 주요 이동수단인 휠체어 등 이동기기에 대한 수리비를 지원하여 장애인 가정의 경제적 부담을 완화하고, 이동약자의 이동권을 보장하여 사회참여를 촉진하고자 함",
-  "supportType": "기타||현금",
+  "supportType": "현금",
   "supportSummary": "○ 관내 등록 장애인에게 이동기기(휠체어, 스쿠터)의 부품 등 교체 및 수리비용 지원",
   "receptionAgency": "접수기관 정보 없음",
   "applicationMethodTypes": [
@@ -21,12 +21,12 @@
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/312000000124",
   "onlineUrl": "",
   "inquiry": [
-    "생활보장과/02-330-1942"
+    "생활보장과/02-330-1266"
   ],
-  "updatedAt": "2026-02-20",
+  "updatedAt": "2026-05-08",
   "registeredAt": "2021-09-23",
   "viewCount": 739,
-  "collectedAt": "2026-05-06T22:50:11.312Z",
+  "collectedAt": "2026-05-08T22:50:20.574Z",
   "purpose": "장애인의 주요 이동수단인 휠체어 등 이동기기에 대한 수리비를 지원하여 장애인 가정의 경제적 부담을 완화하고, 이동약자의 이동권을 보장하여 사회참여를 촉진하고자 함",
   "target": "○ 국민기초생활수급자 및 차상위계층 - 연간 40만원 지원\n○ 비수급계층 - 연간 27만원 지원",
   "selectionCriteria": "",
@@ -37,7 +37,7 @@
   "identityDocuments": "해당없음",
   "legalBasis": [],
   "ordinance": "서울특별시 서대문구 장애인 이동기기 수리 지원에 관한 조례",
-  "inquiryText": "생활보장과/02-330-1942",
+  "inquiryText": "생활보장과/02-330-1266",
   "ageMin": 0,
   "ageMax": 120
 }

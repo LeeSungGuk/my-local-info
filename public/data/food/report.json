@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-06T22:50:24.438Z",
+  "generatedAt": "2026-05-08T22:50:36.814Z",
   "source": {
     "provider": "서울 열린데이터광장",
     "dataset": "서울시 일반음식점 인허가 정보",
@@ -7,7 +7,7 @@
     "officialUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
     "availableCount": 532915,
     "fetchedCount": 532915,
-    "activeCount": 120648,
+    "activeCount": 120639,
     "selectedCount": 300,
     "sampleMode": false,
     "pageSize": 1000,
@@ -18,9 +18,9 @@
   },
   "changes": {
     "previousSelectedCount": 300,
-    "addedCount": 41,
-    "removedCount": 41,
-    "unchangedCount": 259
+    "addedCount": 24,
+    "removedCount": 24,
+    "unchangedCount": 276
   },
   "quality": {
     "averageScore": 69,
@@ -797,11 +797,11 @@
       "categoryCount": 5,
       "topAreas": [
         {
-          "name": "목동",
+          "name": "신정동",
           "count": 5
         },
         {
-          "name": "신정동",
+          "name": "목동",
           "count": 4
         },
         {
@@ -812,22 +812,22 @@
       "topCategories": [
         {
           "name": "한식",
-          "count": 5
+          "count": 7
         },
         {
-          "name": "일식",
-          "count": 3
+          "name": "중국식",
+          "count": 2
         },
         {
           "name": "냉면집",
-          "count": 2
+          "count": 1
         },
         {
           "name": "분식",
           "count": 1
         },
         {
-          "name": "식육(숯불구이)",
+          "name": "일식",
           "count": 1
         }
       ],
@@ -1253,40 +1253,40 @@
       "name": "송파구",
       "selectedCount": 12,
       "areaCount": 7,
-      "categoryCount": 6,
+      "categoryCount": 5,
       "topAreas": [
         {
+          "name": "문정동",
+          "count": 3
+        },
+        {
           "name": "방이동",
-          "count": 3
+          "count": 2
         },
         {
-          "name": "송파동",
-          "count": 3
+          "name": "삼전동",
+          "count": 2
         },
         {
-          "name": "잠실동",
+          "name": "석촌동",
           "count": 2
         },
         {
           "name": "가락동",
           "count": 1
-        },
-        {
-          "name": "문정동",
-          "count": 1
         }
       ],
       "topCategories": [
+        {
+          "name": "분식",
+          "count": 4
+        },
         {
           "name": "한식",
           "count": 4
         },
         {
           "name": "일식",
-          "count": 3
-        },
-        {
-          "name": "중국식",
           "count": 2
         },
         {
@@ -1294,7 +1294,7 @@
           "count": 1
         },
         {
-          "name": "분식",
+          "name": "중국식",
           "count": 1
         }
       ],

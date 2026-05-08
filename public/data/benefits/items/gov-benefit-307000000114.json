@@ -21,12 +21,12 @@
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000114",
   "onlineUrl": "",
   "inquiry": [
-    "복지정책과/02-2241-2305"
+    "복지정책과/02-2241-2307"
   ],
-  "updatedAt": "2026-02-26",
+  "updatedAt": "2026-05-07",
   "registeredAt": "2021-09-23",
-  "viewCount": 5841,
-  "collectedAt": "2026-05-06T22:50:11.312Z",
+  "viewCount": 5847,
+  "collectedAt": "2026-05-08T22:50:20.574Z",
   "purpose": "국가유공자 또는 유족에게 사망위로금, 명절위문금, 예우수당 등 지원",
   "target": "○ 국가유공자 본인 또는 선순위유족 1인",
   "selectionCriteria": "",
@@ -37,7 +37,7 @@
   "identityDocuments": "해당없음",
   "legalBasis": [],
   "ordinance": "서울특별시 성북구 국가보훈대상자 예우 및 지원에 관한 조례",
-  "inquiryText": "복지정책과/02-2241-2305",
+  "inquiryText": "복지정책과/02-2241-2307",
   "ageMin": 0,
   "ageMax": 120
 }

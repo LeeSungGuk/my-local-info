@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-05-07T07:59:14+09:00",
+  "lastGeneratedAt": "2026-05-09T08:06:42+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -624,9 +624,9 @@
         "서울추천"
       ],
       "origin": "seed",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-04-15T00:00:00+09:00",
-      "usedAt": null
+      "usedAt": "2026-05-09T08:06:42+09:00"
     },
     {
       "id": "seoul-rainy-evening-date-indoor",
