@@ -43,8 +43,38 @@ function loadEnvFile(filePath) {
 
 loadEnvFile(ENV_FILE_PATH);
 
-const API_KEY = process.env.SEOUL_OPEN_DATA_API_KEY || process.env.PUBLIC_DATA_API_KEY || "sample";
+function normalizeEventsDataMode(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase();
+}
+
+function resolveEventsApiConfig(env = process.env) {
+  const mode = normalizeEventsDataMode(env.EVENTS_DATA_MODE);
+  const fetchFailureMode = normalizeEventsDataMode(env.EVENTS_FETCH_FAILURE_MODE);
+  const seoulOpenDataApiKey = String(env.SEOUL_OPEN_DATA_API_KEY || "").trim();
+  const sampleMode = mode === "sample" || seoulOpenDataApiKey === "sample";
+  const skipMode = mode === "skip" && !seoulOpenDataApiKey;
+
+  return {
+    apiKey: sampleMode ? "sample" : seoulOpenDataApiKey,
+    mode,
+    fetchFailureMode: fetchFailureMode === "keep-existing" ? "keep-existing" : "fail",
+    sampleMode,
+    skipMode,
+    hasSeoulOpenDataApiKey: Boolean(seoulOpenDataApiKey && seoulOpenDataApiKey !== "sample"),
+  };
+}
+
+const API_CONFIG = resolveEventsApiConfig(process.env);
+const API_KEY = API_CONFIG.apiKey;
+const SAMPLE_MODE = API_CONFIG.sampleMode;
+const SKIP_MODE = API_CONFIG.skipMode;
+const FETCH_FAILURE_MODE = API_CONFIG.fetchFailureMode;
 const START_DATE_FILTER = process.env.EVENTS_START_DATE || "2026-04-01";
+const PAGE_SIZE = Number(process.env.EVENTS_PAGE_SIZE || (SAMPLE_MODE ? 5 : 1000));
+const REQUEST_TIMEOUT_MS = Number(process.env.EVENTS_REQUEST_TIMEOUT_MS || 30000);
+const REQUEST_RETRY_COUNT = Number(process.env.EVENTS_REQUEST_RETRY_COUNT || 2);
 
 function toDateOnly(value) {
   if (!value) {
@@ -231,55 +261,177 @@ function isAfterStartDateFilter(event) {
   return event.startDate >= START_DATE_FILTER;
 }
 
-async function fetchEvents(startIndex, endIndex) {
-  const endpoint = `${API_BASE}/${encodeURIComponent(API_KEY)}/json/${SERVICE_NAME}/${startIndex}/${endIndex}/`;
-  const response = await fetch(endpoint);
+function createFetchError(message, { retryable = false, cause } = {}) {
+  const error = new Error(message);
+  error.retryable = retryable;
 
-  if (!response.ok) {
-    throw new Error(`서울 Open API 오류: ${response.status} ${response.statusText}`);
+  if (cause) {
+    error.cause = cause;
   }
 
-  const responseText = await response.text();
+  return error;
+}
 
+function formatFetchError(error) {
+  const cause = error?.cause;
+  const parts = [error?.message || "알 수 없는 네트워크 오류"];
+
+  if (cause?.code) {
+    parts.push(`code=${cause.code}`);
+  }
+
+  if (cause?.syscall) {
+    parts.push(`syscall=${cause.syscall}`);
+  }
+
+  if (cause?.hostname) {
+    parts.push(`host=${cause.hostname}`);
+  }
+
+  if (cause?.address) {
+    parts.push(`address=${cause.address}`);
+  }
+
+  if (cause?.port) {
+    parts.push(`port=${cause.port}`);
+  }
+
+  return parts.join(" ");
+}
+
+function parseSeoulOpenApiErrorText(responseText) {
+  const compactText = String(responseText || "")
+    .replace(/\s+/g, " ")
+    .trim();
+  const codeMatch = compactText.match(/<CODE><!\[CDATA\[(.*?)\]\]><\/CODE>|<CODE>(.*?)<\/CODE>/);
+  const messageMatch = compactText.match(/<MESSAGE><!\[CDATA\[(.*?)\]\]><\/MESSAGE>|<MESSAGE>(.*?)<\/MESSAGE>/);
+  const code = codeMatch?.[1] || codeMatch?.[2] || "";
+  const message = messageMatch?.[1] || messageMatch?.[2] || "";
+
+  return {
+    code,
+    message,
+    compactText,
+  };
+}
+
+function parseEventsPayload(responseText) {
   if (responseText.trim().startsWith("<")) {
-    const compactXml = responseText.replace(/\s+/g, " ").trim();
-    throw new Error(`서울 Open API가 JSON 대신 XML 응답을 반환했습니다: ${compactXml.slice(0, 200)}`);
+    const parsedError = parseSeoulOpenApiErrorText(responseText);
+    const reason = [parsedError.code, parsedError.message].filter(Boolean).join(" ");
+
+    throw createFetchError(
+      reason
+        ? `서울 Open API 응답 오류: ${reason}`
+        : `서울 Open API가 JSON 대신 XML 응답을 반환했습니다: ${parsedError.compactText.slice(0, 200)}`
+    );
   }
 
-  const json = JSON.parse(responseText);
+  let json;
+
+  try {
+    json = JSON.parse(responseText);
+  } catch (error) {
+    throw createFetchError(`서울 Open API JSON 파싱 실패: ${error.message}`);
+  }
+
   const payload = json[SERVICE_NAME];
 
   if (!payload) {
-    throw new Error("서울 Open API 응답 형식이 예상과 다릅니다.");
+    if (json.RESULT?.CODE) {
+      throw createFetchError(`서울 Open API 응답 오류: ${json.RESULT.CODE} ${json.RESULT.MESSAGE}`);
+    }
+
+    throw createFetchError("서울 Open API 응답 형식이 예상과 다릅니다.");
   }
 
   if (payload.RESULT?.CODE && payload.RESULT.CODE !== "INFO-000") {
-    throw new Error(`서울 Open API 응답 오류: ${payload.RESULT.CODE} ${payload.RESULT.MESSAGE}`);
+    throw createFetchError(`서울 Open API 응답 오류: ${payload.RESULT.CODE} ${payload.RESULT.MESSAGE}`);
   }
 
   return payload;
 }
 
+function sleep(ms) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  });
+}
+
+async function fetchEventsOnce(startIndex, endIndex) {
+  const endpoint = `${API_BASE}/${encodeURIComponent(API_KEY)}/json/${SERVICE_NAME}/${startIndex}/${endIndex}/`;
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+  let response;
+
+  try {
+    response = await fetch(endpoint, { signal: controller.signal });
+  } catch (error) {
+    throw createFetchError(`서울 Open API 네트워크 오류: ${formatFetchError(error)}`, {
+      retryable: true,
+      cause: error,
+    });
+  } finally {
+    clearTimeout(timeout);
+  }
+
+  if (!response.ok) {
+    throw createFetchError(`서울 Open API HTTP 오류: ${response.status} ${response.statusText}`, {
+      retryable: response.status === 429 || response.status >= 500,
+    });
+  }
+
+  const responseText = await response.text();
+  return parseEventsPayload(responseText);
+}
+
+async function fetchEvents(startIndex, endIndex) {
+  let lastError;
+
+  for (let attempt = 1; attempt <= REQUEST_RETRY_COUNT + 1; attempt += 1) {
+    try {
+      return await fetchEventsOnce(startIndex, endIndex);
+    } catch (error) {
+      lastError = error;
+
+      if (!error.retryable || attempt > REQUEST_RETRY_COUNT) {
+        break;
+      }
+
+      console.warn(
+        `⚠️ 서울 Open API 재시도 ${attempt}/${REQUEST_RETRY_COUNT}: ${startIndex}-${endIndex} (${error.message})`
+      );
+      await sleep(1000 * attempt);
+    }
+  }
+
+  throw lastError;
+}
+
 async function main() {
   try {
-    const usesPublicDataFallback = !process.env.SEOUL_OPEN_DATA_API_KEY && Boolean(process.env.PUBLIC_DATA_API_KEY);
-    const sampleMode = API_KEY === "sample";
-    const pageSize = sampleMode ? 5 : 1000;
+    if (SKIP_MODE) {
+      console.log("ℹ️ 서울시 행사 데이터 수집을 건너뜁니다. EVENTS_DATA_MODE=skip");
+      return;
+    }
+
+    if (!API_KEY) {
+      console.error("❌ 서울시 행사 데이터 수집 실패: SEOUL_OPEN_DATA_API_KEY가 필요합니다.");
+      console.error("   로컬 샘플 실행은 EVENTS_DATA_MODE=sample npm run fetch:seoul-events 로 실행하세요.");
+      process.exit(1);
+    }
+
     const collectedAt = new Date().toISOString();
 
     console.log("📡 서울시 문화행사 Open API 호출 중...");
 
-    if (usesPublicDataFallback) {
-      console.log("ℹ️ SEOUL_OPEN_DATA_API_KEY가 없어 PUBLIC_DATA_API_KEY 값을 사용합니다.");
-    }
-
-    const firstPayload = await fetchEvents(1, pageSize);
+    const firstPayload = await fetchEvents(1, PAGE_SIZE);
     const availableCount = Number(firstPayload.list_total_count || 0);
     const rows = [...(firstPayload.row || [])];
 
-    if (!sampleMode) {
-      for (let startIndex = pageSize + 1; startIndex <= availableCount; startIndex += pageSize) {
-        const endIndex = Math.min(startIndex + pageSize - 1, availableCount);
+    if (!SAMPLE_MODE) {
+      for (let startIndex = PAGE_SIZE + 1; startIndex <= availableCount; startIndex += PAGE_SIZE) {
+        const endIndex = Math.min(startIndex + PAGE_SIZE - 1, availableCount);
         const payload = await fetchEvents(startIndex, endIndex);
         rows.push(...(payload.row || []));
       }
@@ -329,7 +481,7 @@ async function main() {
         collectedAt,
         availableCount,
         fetchedCount: summaries.length,
-        sampleMode,
+        sampleMode: SAMPLE_MODE,
         startDateFilter: START_DATE_FILTER,
       },
       items: summaries,
@@ -346,11 +498,37 @@ async function main() {
     console.log(`- 전체 제공 건수: ${availableCount}`);
     console.log(`- ${START_DATE_FILTER} 이후 필터 통과 건수: ${normalizedEvents.length}`);
     console.log(`- 현재 저장 총건수: ${summaries.length}`);
-    console.log(`- 샘플 모드: ${sampleMode ? "예" : "아니오"}`);
+    console.log(`- 샘플 모드: ${SAMPLE_MODE ? "예" : "아니오"}`);
   } catch (error) {
+    const existingIndex = loadExistingIndex();
+    const existingItems = Array.isArray(existingIndex?.items) ? existingIndex.items : [];
+
+    if (FETCH_FAILURE_MODE === "keep-existing" && error.retryable && existingItems.length > 0) {
+      console.warn("⚠️ 서울시 행사 데이터 수집에 실패해 기존 행사 데이터를 유지합니다.");
+      console.warn(`- 실패 원인: ${error.message}`);
+      console.warn(`- 기존 저장 총건수: ${existingItems.length}`);
+      return;
+    }
+
     console.error("❌ 서울시 행사 데이터 수집 실패:", error.message);
     process.exit(1);
   }
 }
 
-main();
+if (require.main === module) {
+  main();
+}
+
+module.exports = {
+  buildEventId,
+  buildSummaryRecord,
+  detectIsFree,
+  fetchEvents,
+  formatFetchError,
+  normalizeEvent,
+  parseEventsPayload,
+  parseSeoulOpenApiErrorText,
+  resolveEventsApiConfig,
+  sortEvents,
+  toDateOnly,
+};

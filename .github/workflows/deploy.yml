@@ -34,8 +34,8 @@ jobs:
         run: npm run fetch:seoul-events
         env:
           SEOUL_OPEN_DATA_API_KEY: ${{ secrets.SEOUL_OPEN_DATA_API_KEY }}
-          PUBLIC_DATA_API_KEY: ${{ secrets.PUBLIC_DATA_API_KEY }}
           EVENTS_START_DATE: "2026-04-01"
+          EVENTS_FETCH_FAILURE_MODE: "keep-existing"
 
       - name: Fetch public benefits
         run: npm run fetch:public-benefits
