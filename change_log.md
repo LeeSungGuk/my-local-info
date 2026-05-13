@@ -1,5 +1,34 @@
 # 변경 기록 (Change Log)
 
+## 2026-05-12
+
+### 서울시 행사 데이터 수집 실패 대응 강화
+- **커밋**: `8c1b170c fix: harden Seoul event fetch workflow`
+- **문제**: GitHub Actions의 `Fetch Seoul events` 단계에서 `fetch failed`로 종료되어 배포가 막힘
+- **원인 판단**:
+  - 행사 데이터가 비어 있는 문제가 아니라, 서울 열린데이터광장 Open API에 HTTP 응답을 받기 전 실패한 네트워크 계층 오류로 판단
+  - 인증키 오류는 보통 `INFO-100` 같은 Open API 오류 응답으로 구분 가능
+- **수정 파일**:
+  - `.github/workflows/deploy.yml`
+  - `scripts/fetch-seoul-events.js`
+  - `scripts/fetch-seoul-events.test.js`
+  - `docs/seoul-event-fetch-workflow.md`
+- **주요 변경**:
+  - 서울 행사 수집에서 `PUBLIC_DATA_API_KEY` fallback 제거
+  - `SEOUL_OPEN_DATA_API_KEY`만 서울 열린데이터광장 키로 사용
+  - `EVENTS_DATA_MODE=sample|skip` 실행 모드 추가
+  - 요청 타임아웃과 재시도 로직 추가
+  - XML 오류 응답의 `CODE`, `MESSAGE` 파싱 추가
+  - 네트워크 오류 로그에 `code`, `syscall`, `host` 등 진단 정보 출력
+  - CI에 `EVENTS_FETCH_FAILURE_MODE=keep-existing` 적용해 일시적 네트워크 실패 시 기존 행사 데이터를 유지
+- **검증 완료**:
+  - `npm test`
+  - `npm run lint`
+  - `npm run build`
+- **상세 문서**: `docs/seoul-event-fetch-workflow.md`
+
+---
+
 ## 2026-03-17
 
 ### 1. 프로젝트 설계도 작성
