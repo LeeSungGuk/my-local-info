@@ -9,6 +9,8 @@ const {
   isActiveFoodPlace,
   limitFoodPlacesByDistrict,
   normalizeFoodPlace,
+  parseFoodPayload,
+  parseSeoulOpenApiErrorText,
   resolveFoodApiConfig,
   sortFoodPlaces,
 } = require("./fetch-seoul-food.js");
@@ -38,6 +40,43 @@ test("supports explicit sample and skip modes when the Seoul food API key is mis
   assert.equal(sampleConfig.sampleMode, true);
   assert.equal(skipConfig.apiKey, "");
   assert.equal(skipConfig.skipMode, true);
+});
+
+test("supports keep-existing mode for temporary Seoul food fetch failures", () => {
+  const defaultConfig = resolveFoodApiConfig({
+    SEOUL_OPEN_DATA_API_KEY: "seoul-open-data-key",
+  });
+  const keepExistingConfig = resolveFoodApiConfig({
+    SEOUL_OPEN_DATA_API_KEY: "seoul-open-data-key",
+    FOOD_FETCH_FAILURE_MODE: "keep-existing",
+  });
+  const invalidModeConfig = resolveFoodApiConfig({
+    SEOUL_OPEN_DATA_API_KEY: "seoul-open-data-key",
+    FOOD_FETCH_FAILURE_MODE: "ignore-everything",
+  });
+
+  assert.equal(defaultConfig.fetchFailureMode, "fail");
+  assert.equal(keepExistingConfig.fetchFailureMode, "keep-existing");
+  assert.equal(invalidModeConfig.fetchFailureMode, "fail");
+});
+
+test("extracts Seoul Open API XML errors for food fetches", () => {
+  const parsed = parseSeoulOpenApiErrorText(
+    "<RESULT><CODE>INFO-100</CODE><MESSAGE><![CDATA[인증키가 유효하지 않습니다.]]></MESSAGE></RESULT>"
+  );
+
+  assert.equal(parsed.code, "INFO-100");
+  assert.equal(parsed.message, "인증키가 유효하지 않습니다.");
+});
+
+test("parseFoodPayload rejects XML Open API errors with actionable messages", () => {
+  assert.throws(
+    () =>
+      parseFoodPayload(
+        "<RESULT><CODE>INFO-100</CODE><MESSAGE><![CDATA[인증키가 유효하지 않습니다.]]></MESSAGE></RESULT>"
+      ),
+    /서울 Open API 응답 오류: INFO-100 인증키가 유효하지 않습니다./
+  );
 });
 
 test("normalizes an active Seoul Open Data food row", () => {

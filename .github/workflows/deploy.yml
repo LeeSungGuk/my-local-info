@@ -47,6 +47,9 @@ jobs:
         env:
           SEOUL_OPEN_DATA_API_KEY: ${{ secrets.SEOUL_OPEN_DATA_API_KEY }}
           FOOD_MAX_PLACES_PER_DISTRICT: "12"
+          FOOD_FETCH_FAILURE_MODE: "keep-existing"
+          FOOD_REQUEST_TIMEOUT_MS: "60000"
+          FOOD_REQUEST_RETRY_COUNT: "3"
 
       - name: Generate blog post
         run: node scripts/generate-blog-post.js

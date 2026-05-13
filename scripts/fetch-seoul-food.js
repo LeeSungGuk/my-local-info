@@ -90,6 +90,7 @@ function normalizeFoodDataMode(value) {
 
 function resolveFoodApiConfig(env = process.env) {
   const mode = normalizeFoodDataMode(env.FOOD_DATA_MODE);
+  const fetchFailureMode = normalizeFoodDataMode(env.FOOD_FETCH_FAILURE_MODE);
   const seoulOpenDataApiKey = String(env.SEOUL_OPEN_DATA_API_KEY || "").trim();
   const sampleMode = mode === "sample" || seoulOpenDataApiKey === "sample";
   const skipMode = mode === "skip" && !seoulOpenDataApiKey;
@@ -97,6 +98,7 @@ function resolveFoodApiConfig(env = process.env) {
   return {
     apiKey: sampleMode ? "sample" : seoulOpenDataApiKey,
     mode,
+    fetchFailureMode: fetchFailureMode === "keep-existing" ? "keep-existing" : "fail",
     sampleMode,
     skipMode,
     hasSeoulOpenDataApiKey: Boolean(seoulOpenDataApiKey && seoulOpenDataApiKey !== "sample"),
@@ -107,6 +109,7 @@ const API_CONFIG = resolveFoodApiConfig(process.env);
 const API_KEY = API_CONFIG.apiKey;
 const SAMPLE_MODE = API_CONFIG.sampleMode;
 const SKIP_MODE = API_CONFIG.skipMode;
+const FETCH_FAILURE_MODE = API_CONFIG.fetchFailureMode;
 const PAGE_SIZE = Number(process.env.FOOD_PAGE_SIZE || (SAMPLE_MODE ? 5 : 1000));
 const MAX_PAGES = Number(process.env.FOOD_MAX_PAGES || 0);
 const MAX_PLACES_PER_DISTRICT = Number(process.env.FOOD_MAX_PLACES_PER_DISTRICT || 12);
@@ -613,6 +616,103 @@ function loadExistingIndex() {
   }
 }
 
+function createFetchError(message, { retryable = false, cause } = {}) {
+  const error = new Error(message);
+  error.retryable = retryable;
+
+  if (cause) {
+    error.cause = cause;
+  }
+
+  return error;
+}
+
+function formatFetchError(error) {
+  const cause = error?.cause;
+  const parts = [error?.message || "알 수 없는 네트워크 오류"];
+
+  if (cause?.code) {
+    parts.push(`code=${cause.code}`);
+  }
+
+  if (cause?.syscall) {
+    parts.push(`syscall=${cause.syscall}`);
+  }
+
+  if (cause?.hostname) {
+    parts.push(`host=${cause.hostname}`);
+  }
+
+  if (cause?.address) {
+    parts.push(`address=${cause.address}`);
+  }
+
+  if (cause?.port) {
+    parts.push(`port=${cause.port}`);
+  }
+
+  return parts.join(" ");
+}
+
+function parseSeoulOpenApiErrorText(responseText) {
+  const compactText = String(responseText || "")
+    .replace(/\s+/g, " ")
+    .trim();
+  const codeMatch = compactText.match(/<CODE><!\[CDATA\[(.*?)\]\]><\/CODE>|<CODE>(.*?)<\/CODE>/);
+  const messageMatch = compactText.match(/<MESSAGE><!\[CDATA\[(.*?)\]\]><\/MESSAGE>|<MESSAGE>(.*?)<\/MESSAGE>/);
+  const code = codeMatch?.[1] || codeMatch?.[2] || "";
+  const message = messageMatch?.[1] || messageMatch?.[2] || "";
+
+  return {
+    code,
+    message,
+    compactText,
+  };
+}
+
+function parseFoodPayload(responseText) {
+  if (responseText.trim().startsWith("<")) {
+    const parsedError = parseSeoulOpenApiErrorText(responseText);
+    const reason = [parsedError.code, parsedError.message].filter(Boolean).join(" ");
+
+    throw createFetchError(
+      reason
+        ? `서울 Open API 응답 오류: ${reason}`
+        : `서울 Open API가 JSON 대신 XML 응답을 반환했습니다: ${parsedError.compactText.slice(0, 200)}`
+    );
+  }
+
+  let json;
+
+  try {
+    json = JSON.parse(responseText);
+  } catch (error) {
+    throw createFetchError(`서울 Open API JSON 파싱 실패: ${error.message}`);
+  }
+
+  const payload = json[SERVICE_NAME];
+
+  if (!payload) {
+    if (json.RESULT?.CODE) {
+      throw createFetchError(`서울 Open API 응답 오류: ${json.RESULT.CODE} ${json.RESULT.MESSAGE}`);
+    }
+
+    throw createFetchError("서울 Open API 응답 형식이 예상과 다릅니다.");
+  }
+
+  if (payload.RESULT?.CODE && payload.RESULT.CODE !== "INFO-000") {
+    throw createFetchError(`서울 Open API 응답 오류: ${payload.RESULT.CODE} ${payload.RESULT.MESSAGE}`);
+  }
+
+  return payload;
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  });
+}
+
 async function fetchFoodRowsOnce(startIndex, endIndex) {
   const endpoint = `${API_BASE}/${encodeURIComponent(API_KEY)}/json/${SERVICE_NAME}/${startIndex}/${endIndex}/`;
   const controller = new AbortController();
@@ -622,37 +722,23 @@ async function fetchFoodRowsOnce(startIndex, endIndex) {
 
   try {
     response = await fetch(endpoint, { signal: controller.signal });
+  } catch (error) {
+    throw createFetchError(`서울 Open API 네트워크 오류: ${formatFetchError(error)}`, {
+      retryable: true,
+      cause: error,
+    });
   } finally {
     clearTimeout(timeout);
   }
 
   if (!response.ok) {
-    throw new Error(`서울 Open API 오류: ${response.status} ${response.statusText}`);
+    throw createFetchError(`서울 Open API HTTP 오류: ${response.status} ${response.statusText}`, {
+      retryable: response.status === 429 || response.status >= 500,
+    });
   }
 
   const responseText = await response.text();
-
-  if (responseText.trim().startsWith("<")) {
-    const compactXml = responseText.replace(/\s+/g, " ").trim();
-    throw new Error(`서울 Open API가 JSON 대신 XML 응답을 반환했습니다: ${compactXml.slice(0, 200)}`);
-  }
-
-  const json = JSON.parse(responseText);
-  const payload = json[SERVICE_NAME];
-
-  if (!payload) {
-    if (json.RESULT?.CODE) {
-      throw new Error(`서울 Open API 응답 오류: ${json.RESULT.CODE} ${json.RESULT.MESSAGE}`);
-    }
-
-    throw new Error("서울 Open API 응답 형식이 예상과 다릅니다.");
-  }
-
-  if (payload.RESULT?.CODE && payload.RESULT.CODE !== "INFO-000") {
-    throw new Error(`서울 Open API 응답 오류: ${payload.RESULT.CODE} ${payload.RESULT.MESSAGE}`);
-  }
-
-  return payload;
+  return parseFoodPayload(responseText);
 }
 
 async function fetchFoodRows(startIndex, endIndex) {
@@ -664,13 +750,14 @@ async function fetchFoodRows(startIndex, endIndex) {
     } catch (error) {
       lastError = error;
 
-      if (attempt > REQUEST_RETRY_COUNT) {
+      if (!error.retryable || attempt > REQUEST_RETRY_COUNT) {
         break;
       }
 
       console.warn(
         `⚠️ 서울 Open API 재시도 ${attempt}/${REQUEST_RETRY_COUNT}: ${startIndex}-${endIndex} (${error.message})`
       );
+      await sleep(1000 * attempt);
     }
   }
 
@@ -834,6 +921,16 @@ async function main() {
     console.log(`- 샘플 모드: ${SAMPLE_MODE ? "예" : "아니오"}`);
     console.log("- 수집 리포트: public/data/food/report.json");
   } catch (error) {
+    const existingIndex = loadExistingIndex();
+    const existingItems = Array.isArray(existingIndex?.items) ? existingIndex.items : [];
+
+    if (FETCH_FAILURE_MODE === "keep-existing" && error.retryable && existingItems.length > 0) {
+      console.warn("⚠️ 서울시 먹거리 데이터 수집에 실패해 기존 먹거리 데이터를 유지합니다.");
+      console.warn(`- 실패 원인: ${error.message}`);
+      console.warn(`- 기존 저장 총건수: ${existingItems.length}`);
+      return;
+    }
+
     console.error("❌ 서울시 먹거리 데이터 수집 실패:", error.message);
     process.exit(1);
   }
@@ -852,6 +949,8 @@ module.exports = {
   isActiveFoodPlace,
   limitFoodPlacesByDistrict,
   normalizeFoodPlace,
+  parseFoodPayload,
+  parseSeoulOpenApiErrorText,
   resolveFoodApiConfig,
   sortFoodPlaces,
   toDateOnly,
