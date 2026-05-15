@@ -21,12 +21,12 @@
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000112",
   "onlineUrl": "",
   "inquiry": [
-    "아동청소년과/02-2600-5496"
+    "아동청소년과/02-2600-6715"
   ],
-  "updatedAt": "2026-01-29",
+  "updatedAt": "2026-05-15",
   "registeredAt": "2021-09-23",
   "viewCount": 825,
-  "collectedAt": "2026-05-13T22:52:55.257Z",
+  "collectedAt": "2026-05-15T22:50:14.492Z",
   "purpose": "국내에서 출생한 요보호아동의 해외 입양을 억제하고, 국내 입양을 촉진시켜 요보호아동의 건전한 양육 지원",
   "target": "○ 입양기관의 알선을 받아 18세 미만 아동을 입양한 가정\n\n○ 입양신고일 기준 6개월 전부터 강서구에 주민등록을 두고 실제 거주",
   "selectionCriteria": "",
@@ -36,8 +36,8 @@
   "officialDocuments": "해당없음",
   "identityDocuments": "해당없음",
   "legalBasis": [],
-  "ordinance": "서울특별시 강서구 입양가정 지원에 관한 조례",
-  "inquiryText": "아동청소년과/02-2600-5496",
+  "ordinance": "서울특별시 강서구 입양아동 및 입양가정 지원에 관한 조례",
+  "inquiryText": "아동청소년과/02-2600-6715",
   "ageMin": 18,
   "ageMax": 44
 }
