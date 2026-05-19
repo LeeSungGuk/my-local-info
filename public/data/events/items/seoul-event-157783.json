@@ -2,7 +2,7 @@
   "id": "seoul-event-157783",
   "sourceId": "157783",
   "title": "2026 서울시 태권도 공연",
-  "category": "기타",
+  "category": "축제-문화/예술",
   "district": "중구",
   "venue": "남산골한옥마을, DDP(동대문디자인플라자) 등",
   "startDate": "2026-05-09",
@@ -15,8 +15,8 @@
   "organizer": "서울시청",
   "inquiry": "02-6204-2923",
   "imageUrl": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=292cefda02074a1bba028aea65b48755&thumb=Y",
-  "detailUrl": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157783&menuNo=200013",
-  "summary": "중구 · 남산골한옥마을, DDP(동대문디자인플라자) 등에서 열리는 기타 행사입니다. 무료로 참여할 수 있는 행사입니다.",
+  "detailUrl": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157783&menuNo=200010",
+  "summary": "중구 · 남산골한옥마을, DDP(동대문디자인플라자) 등에서 열리는 축제-문화/예술 행사입니다. 무료로 참여할 수 있는 행사입니다.",
   "organizerUrl": "https://www.instagram.com/p/DXJHEnTii_j/",
   "ticketType": "기관",
   "description": "",
@@ -25,5 +25,5 @@
   "latitude": 37.559304933707146,
   "longitude": 126.994440072131,
   "registeredAt": "2026-05-08",
-  "collectedAt": "2026-05-18T22:50:37.243Z"
+  "collectedAt": "2026-05-19T22:52:50.000Z"
 }
