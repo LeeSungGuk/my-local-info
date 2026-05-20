@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-05-20T08:10:19+09:00",
+  "lastGeneratedAt": "2026-05-21T08:18:05+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -804,9 +804,9 @@
         "날씨독립"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-05-07T07:59:14+09:00",
-      "usedAt": null
+      "usedAt": "2026-05-21T08:18:05+09:00"
     },
     {
       "id": "seoul-beginner-hiking-trail",
@@ -911,6 +911,186 @@
       "origin": "ai",
       "status": "pending",
       "createdAt": "2026-05-07T07:59:14+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-city-running-routes",
+      "titleHint": "러닝 크루가 아니어도 달리기 좋은 서울 러닝 코스",
+      "topicCategory": "액티비티",
+      "angle": "복잡한 도심을 벗어나 탁 트인 시야를 확보하며 달릴 수 있는 정비된 코스 위주로 제안",
+      "places": [
+        "양재천 산책로",
+        "중랑천 장미거리",
+        "여의도공원 루프코스"
+      ],
+      "tags": [
+        "오운완",
+        "서울러닝",
+        "야간운동"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-05-21T08:18:05+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-stationery-and-prop-shops",
+      "titleHint": "다꾸족과 소품 덕후를 위한 서울 문구 투어",
+      "topicCategory": "취향나들이",
+      "angle": "대형 서점과는 다른 독창적인 감성과 디자인 굿즈를 만날 수 있는 편집숍 중심",
+      "places": [
+        "연남동 소품샵 거리",
+        "성수동 포인트오브뷰",
+        "서촌 원모어백"
+      ],
+      "tags": [
+        "다이어리꾸미기",
+        "소품샵투어",
+        "디자인굿즈"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-05-21T08:18:05+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-traditional-tea-and-calm",
+      "titleHint": "커피 대신 차 한 잔, 고즈넉한 서울 전통 찻집",
+      "topicCategory": "휴식공간",
+      "angle": "현대적인 카페의 소음에서 벗어나 조용히 대화하거나 사색하기 좋은 한옥 기반 찻집",
+      "places": [
+        "성북동 수연산방",
+        "인사동 차마시는뜰",
+        "은평한옥마을 1인1잔"
+      ],
+      "tags": [
+        "전통찻집",
+        "한옥카페",
+        "사색하기좋은곳"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-05-21T08:18:05+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-hidden-small-streams-walk",
+      "titleHint": "한강보다 가깝고 한적한 우리 동네 '작은 천' 산책로",
+      "topicCategory": "동네추천",
+      "angle": "인파가 몰리는 한강 대신 거주지 인접 지역에서 가볍게 물소리를 들으며 걷는 생활 밀착형 경로",
+      "places": [
+        "불광천",
+        "당현천",
+        "우이천"
+      ],
+      "tags": [
+        "동네산책",
+        "로컬명소",
+        "물멍"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-05-21T08:18:05+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-vinyl-and-music-vibe",
+      "titleHint": "지지직거리는 감성, 바이닐(LP)로 음악 듣기 좋은 곳",
+      "topicCategory": "취향나들이",
+      "angle": "스트리밍 대신 직접 레코드를 고르고 청음하며 아날로그 감성에 젖는 공간",
+      "places": [
+        "현대카드 뮤직라이브러리",
+        "용산 바이닐앤플라스틱",
+        "신촌 곱창전골"
+      ],
+      "tags": [
+        "LP바",
+        "바이닐",
+        "음악감상"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-05-21T08:18:05+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-global-village-trip",
+      "titleHint": "여권 없이 떠나는 서울 속 작은 외국 마을",
+      "topicCategory": "동네분위기",
+      "angle": "특정 국가의 문화와 식재료, 분위기가 강하게 형성된 이국적인 동네 탐방",
+      "places": [
+        "서래마을 프랑스거리",
+        "이촌동 재팬타운",
+        "대림동 차이나타운"
+      ],
+      "tags": [
+        "이국적인동네",
+        "서울속외국",
+        "해외여행기분"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-05-21T08:18:05+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-free-city-observatories",
+      "titleHint": "높은 곳에서 내려다보는 서울, 무료 개방 전망대",
+      "topicCategory": "뷰포인트",
+      "angle": "비싼 입장료를 내는 타워 대신 공공기관이나 빌딩에서 운영하는 숨겨진 무료 조망 지점",
+      "places": [
+        "서소문청사 정동전망대",
+        "서울시청 하늘광장",
+        "마포구청 하늘도서관"
+      ],
+      "tags": [
+        "무료전망대",
+        "도시전경",
+        "가성비나들이"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-05-21T08:18:05+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-hobby-workshop-districts",
+      "titleHint": "무언가 직접 만들어보고 싶을 때 찾는 공방 거리",
+      "topicCategory": "생활취향",
+      "angle": "원데이 클래스나 취미 생활을 위한 작업실이 밀집되어 있어 배움의 즐거움을 주는 곳",
+      "places": [
+        "망원동 가죽공방거리",
+        "후암동 향수공방",
+        "을지로 도자기작업실"
+      ],
+      "tags": [
+        "원데이클래스",
+        "취미생활",
+        "나만의굿즈"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-05-21T08:18:05+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-eco-friendly-zero-waste",
+      "titleHint": "지구를 생각하는 서울러를 위한 제로웨이스트 숍",
+      "topicCategory": "생활지능",
+      "angle": "플라스틱 없이 장을 보거나 친환경 생필품을 직접 체험하고 구매할 수 있는 거점",
+      "places": [
+        "망원 알맹상점",
+        "상도동 지구샵",
+        "용답동 서울새활용플라자"
+      ],
+      "tags": [
+        "제로웨이스트",
+        "친환경라이프",
+        "가치소비"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-05-21T08:18:05+09:00",
       "usedAt": null
     }
   ]
