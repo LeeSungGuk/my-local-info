@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-05-21T08:18:05+09:00",
+  "lastGeneratedAt": "2026-05-22T08:12:11+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -825,9 +825,9 @@
         "운동"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-05-07T07:59:14+09:00",
-      "usedAt": null
+      "usedAt": "2026-05-22T08:12:11+09:00"
     },
     {
       "id": "seoul-meditation-silence-space",
