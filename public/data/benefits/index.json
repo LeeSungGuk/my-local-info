@@ -10,12 +10,12 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-05-15T22:50:14.492Z",
+    "collectedAt": "2026-05-22T22:50:52.452Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10946,
-    "fetchedCount": 1122,
-    "activeCount": 1088,
-    "expiredCount": 34,
+    "availableCount": 10945,
+    "fetchedCount": 1123,
+    "activeCount": 1087,
+    "expiredCount": 36,
     "deduplicatedCount": 0,
     "filterMode": "서울 소관기관",
     "pageSize": 1000
@@ -24044,35 +24044,6 @@
       ],
       "updatedAt": "2026-04-22",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-315000000289",
-      "sourceId": "315000000289",
-      "title": "가정용 음식물처리기(소형감량기) 구매 지원",
-      "field": "문화·환경",
-      "provider": "서울특별시 강서구",
-      "providerType": "자치구",
-      "district": "강서구",
-      "userType": "가구",
-      "deadlineText": "2026.05.18~2026.05.22",
-      "deadlineSortKey": "2026-05-22",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 공고일 기준 6개월 이상 주민등록상 거주지가 서울특별시 강서구인 주민\n ○ 세대당 1대 지원\n      - 세대분리의 경우에도 동일 주소지 내 중복지원 불가\n ○ 2026. 1. 1. 이후 구매한 제품으로 품질인증과 안전인증을 받은 가정용 감량기(음식물처리기)",
-      "summary": "서울특별시 강서구에서 제공하는 문화·환경 혜택입니다. 가정용 음식물류폐기물 소형감량기 구매 보조금을 지원하여 발생원의 원천 감량을 통한 음식물쓰레기의 지속 가능한 감량을 유도하고자 함",
-      "supportType": "현금",
-      "supportSummary": "□ 사업내용: 가정용 음식물류폐기물 소형감량기 구매 비용 지원\n □ 지원대상: 공고일 기준 6개월 이상 주민등록상 강서구 거주 구민\n   ※ (지원제외) 음식물쓰레기 분쇄 후 하수관 통해 배출하는 '주방용 오물분쇄기'\n □ 지원금액: 소형감량기 구매 금액의 30% 지…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000289",
-      "onlineUrl": "",
-      "inquiry": [
-        "강서구청 자원순환과/02-2600-4077"
-      ],
-      "updatedAt": "2026-04-22",
-      "registeredAt": "2025-12-09"
     },
     {
       "id": "gov-benefit-315000000267",
