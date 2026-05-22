@@ -4,6 +4,8 @@ const test = require("node:test");
 
 const {
   detectIsFree,
+  getTodayInSeoul,
+  isVisibleEventOnDate,
   normalizeEvent,
   parseEventsPayload,
   parseSeoulOpenApiErrorText,
@@ -99,4 +101,24 @@ test("normalizes a Seoul cultural event row", () => {
 test("detects paid event fee text even when the source flag says free", () => {
   assert.equal(detectIsFree({ IS_FREE: "무료", USE_FEE: "정가 15,000원" }), false);
   assert.equal(detectIsFree({ IS_FREE: "", USE_FEE: "무료" }), true);
+});
+
+test("formats today's date in Seoul timezone", () => {
+  assert.equal(getTodayInSeoul(new Date("2026-05-21T15:30:00.000Z")), "2026-05-22");
+});
+
+test("filters out events that ended before the visibility date", () => {
+  assert.equal(
+    isVisibleEventOnDate({ startDate: "2026-05-20", endDate: "2026-05-21" }, "2026-05-22"),
+    false
+  );
+  assert.equal(
+    isVisibleEventOnDate({ startDate: "2026-05-20", endDate: "2026-05-22" }, "2026-05-22"),
+    true
+  );
+  assert.equal(
+    isVisibleEventOnDate({ startDate: "2026-05-23", endDate: "" }, "2026-05-22"),
+    true
+  );
+  assert.equal(isVisibleEventOnDate({ startDate: "", endDate: "" }, "2026-05-22"), false);
 });

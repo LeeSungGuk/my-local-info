@@ -75,6 +75,26 @@ const START_DATE_FILTER = process.env.EVENTS_START_DATE || "2026-04-01";
 const PAGE_SIZE = Number(process.env.EVENTS_PAGE_SIZE || (SAMPLE_MODE ? 5 : 1000));
 const REQUEST_TIMEOUT_MS = Number(process.env.EVENTS_REQUEST_TIMEOUT_MS || 30000);
 const REQUEST_RETRY_COUNT = Number(process.env.EVENTS_REQUEST_RETRY_COUNT || 2);
+const EVENT_VISIBILITY_DATE = process.env.EVENTS_VISIBLE_ON || getTodayInSeoul();
+
+function getDatePart(formatter, date, type) {
+  return formatter.formatToParts(date).find((part) => part.type === type)?.value || "";
+}
+
+function getTodayInSeoul(date = new Date()) {
+  const formatter = new Intl.DateTimeFormat("en-US", {
+    timeZone: "Asia/Seoul",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  });
+
+  const year = getDatePart(formatter, date, "year");
+  const month = getDatePart(formatter, date, "month");
+  const day = getDatePart(formatter, date, "day");
+
+  return `${year}-${month}-${day}`;
+}
 
 function toDateOnly(value) {
   if (!value) {
@@ -261,6 +281,16 @@ function isAfterStartDateFilter(event) {
   return event.startDate >= START_DATE_FILTER;
 }
 
+function isVisibleEventOnDate(event, today = EVENT_VISIBILITY_DATE) {
+  const effectiveEndDate = event.endDate || event.startDate;
+
+  if (!effectiveEndDate) {
+    return false;
+  }
+
+  return effectiveEndDate >= today;
+}
+
 function createFetchError(message, { retryable = false, cause } = {}) {
   const error = new Error(message);
   error.retryable = retryable;
@@ -437,10 +467,13 @@ async function main() {
       }
     }
 
-    const normalizedEvents = rows
+    const eventsAfterStartDate = rows
       .map((row) => normalizeEvent(row, collectedAt))
-      .filter(isAfterStartDateFilter)
+      .filter(isAfterStartDateFilter);
+    const normalizedEvents = eventsAfterStartDate
+      .filter((event) => isVisibleEventOnDate(event, EVENT_VISIBILITY_DATE))
       .sort(sortEvents);
+    const expiredByVisibilityCount = eventsAfterStartDate.length - normalizedEvents.length;
 
     const existingIndex = loadExistingIndex();
     const summaries = normalizedEvents.map(buildSummaryRecord);
@@ -483,6 +516,8 @@ async function main() {
         fetchedCount: summaries.length,
         sampleMode: SAMPLE_MODE,
         startDateFilter: START_DATE_FILTER,
+        visibilityFilter: "endDateOrStartDate >= todayInSeoul",
+        expiredByVisibilityCount,
       },
       items: summaries,
     };
@@ -496,7 +531,8 @@ async function main() {
 
     console.log(`✅ 서울시 행사 데이터 저장 완료`);
     console.log(`- 전체 제공 건수: ${availableCount}`);
-    console.log(`- ${START_DATE_FILTER} 이후 필터 통과 건수: ${normalizedEvents.length}`);
+    console.log(`- ${START_DATE_FILTER} 이후 필터 통과 건수: ${eventsAfterStartDate.length}`);
+    console.log(`- ${EVENT_VISIBILITY_DATE} 기준 종료 행사 제거 건수: ${expiredByVisibilityCount}`);
     console.log(`- 현재 저장 총건수: ${summaries.length}`);
     console.log(`- 샘플 모드: ${SAMPLE_MODE ? "예" : "아니오"}`);
   } catch (error) {
@@ -525,6 +561,8 @@ module.exports = {
   detectIsFree,
   fetchEvents,
   formatFetchError,
+  getTodayInSeoul,
+  isVisibleEventOnDate,
   normalizeEvent,
   parseEventsPayload,
   parseSeoulOpenApiErrorText,
