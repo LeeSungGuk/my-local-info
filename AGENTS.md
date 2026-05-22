@@ -51,3 +51,19 @@
 - Before larger changes, inspect the relevant route, component, and data source together so fixes address root cause.
 - When touching content flow, verify whether the source of truth is JSON, Markdown, or a generation script before editing.
 - If a task involves latest public information or policy details, verify freshness externally before updating content.
+
+## Documentation Rules
+- README is the project entry point. Keep it aligned with the current service purpose, commands, data sources, deployment flow, and document locations.
+- PRDs live under `docs/prd/*_prd.md`. When product scope, target users, success criteria, or non-goals change, update the relevant PRD first.
+- SRS documents live under `docs/srs/*_srs.md` and should trace requirements back to the relevant PRD sections.
+- Agent-only reusable workflows live under `.agent/workflow/*_prompt.md`; keep workflow outputs out of `.omo/` and `.antigravitycli/`.
+- Product/user-facing documents live under `docs/`; do not store agent-only workflow prompts there.
+- Use `.agent/workflow/prd_to_srs_prompt.md` when converting a PRD into an SRS for this project.
+- Use `.agent/workflow/prd_to_srs_review_prompt.md` when reviewing whether a generated SRS satisfies its source PRD.
+- Date-based work history lives under `history/YYYY-MM-DD.md`. Add new history entries only when the user asks for a work record or change summary.
+- `history/README.md` should link to every dated history file.
+- User-visible or release-level changes belong in `change_log.md`; do not use it for every small implementation detail.
+- Data pipeline changes should be documented in a dedicated docs file, for example `docs/DATA_PIPELINE.md`, once that document exists.
+- Operations and automation changes should be documented in a dedicated docs file, for example `docs/OPERATIONS.md`, once that document exists.
+- Do not use `.omo/` or `.antigravitycli/` as source-of-truth documentation. Those folders are tool/session metadata.
+- When updating docs, preserve concise Korean wording for user-facing explanations and avoid exposing `.env.local` values or API keys.
