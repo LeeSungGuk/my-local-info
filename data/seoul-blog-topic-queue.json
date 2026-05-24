@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-05-24T08:08:57+09:00",
+  "lastGeneratedAt": "2026-05-25T08:09:40+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -888,9 +888,9 @@
         "나들이"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-05-07T07:59:14+09:00",
-      "usedAt": null
+      "usedAt": "2026-05-25T08:09:40+09:00"
     },
     {
       "id": "seoul-late-night-lifestyle-space",
