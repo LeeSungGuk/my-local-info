@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-05-25T08:09:40+09:00",
+  "lastGeneratedAt": "2026-05-26T08:07:07+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -909,9 +909,9 @@
         "새벽공간"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-05-07T07:59:14+09:00",
-      "usedAt": null
+      "usedAt": "2026-05-26T08:07:07+09:00"
     },
     {
       "id": "seoul-city-running-routes",
