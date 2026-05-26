@@ -56,7 +56,7 @@ function loadEnvFile(filePath) {
 
 loadEnvFile(ENV_FILE_PATH);
 
-const BLOG_GENERATION_MODEL = "gemini-3-flash-preview";
+const BLOG_GENERATION_MODEL = "gemini-3.5-flash";
 const TOPIC_GENERATION_MODEL = process.env.GEMINI_BLOG_TOPIC_MODEL || BLOG_GENERATION_MODEL;
 const MINIMUM_PENDING_TOPICS = Number(process.env.BLOG_TOPIC_MIN_PENDING || 7);
 const TARGET_PENDING_TOPICS = Number(process.env.BLOG_TOPIC_TARGET_PENDING || 15);
