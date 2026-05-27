@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-05-26T22:57:11.515Z",
+  "generatedAt": "2026-05-27T23:02:19.808Z",
   "source": {
     "provider": "서울 열린데이터광장",
     "dataset": "서울시 일반음식점 인허가 정보",
     "service": "LOCALDATA_072404",
     "officialUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-    "availableCount": 533319,
-    "fetchedCount": 533319,
-    "activeCount": 120535,
+    "availableCount": 533322,
+    "fetchedCount": 533322,
+    "activeCount": 120531,
     "selectedCount": 300,
     "sampleMode": false,
     "pageSize": 1000,
@@ -18,9 +18,9 @@
   },
   "changes": {
     "previousSelectedCount": 300,
-    "addedCount": 0,
-    "removedCount": 0,
-    "unchangedCount": 300
+    "addedCount": 1,
+    "removedCount": 1,
+    "unchangedCount": 299
   },
   "quality": {
     "averageScore": 69,
@@ -252,7 +252,7 @@
       "name": "광진구",
       "selectedCount": 12,
       "areaCount": 6,
-      "categoryCount": 4,
+      "categoryCount": 5,
       "topAreas": [
         {
           "name": "구의동",
@@ -281,16 +281,20 @@
           "count": 4
         },
         {
-          "name": "경양식",
-          "count": 3
-        },
-        {
           "name": "일식",
           "count": 3
         },
         {
+          "name": "경양식",
+          "count": 2
+        },
+        {
           "name": "중국식",
           "count": 2
+        },
+        {
+          "name": "분식",
+          "count": 1
         }
       ],
       "quality": {
