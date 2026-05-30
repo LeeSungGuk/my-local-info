@@ -13,7 +13,7 @@
 
 - `docs/prd/seoulcity_prd.md`: 제품 범위, 사용자, 목표, 요구사항의 기준 문서
 - `README.md`: 프로젝트 구조와 실행·배포 맥락을 확인하기 위한 보조 문서
-- `.agent/workflow/prd_to_srs_prompt.md`: 이 SRS의 생성 기준 워크플로우
+- `.agents/workflow/prd_to_srs_prompt.md`: 이 SRS의 생성 기준 워크플로우
 
 이 문서는 PRD를 제품 요구사항의 source of truth로 사용합니다. README와 워크플로우 문서는 저장 위치와 프로젝트 맥락을 확인하는 용도로만 참조했습니다.
 
@@ -481,7 +481,7 @@ erDiagram
 ## 14. Assumptions
 
 - 서울시티의 현재 배포 방향은 정적 사이트 구조를 유지하는 것입니다.
-- SRS의 요구사항 ID 체계는 `.agent/workflow/prd_to_srs_prompt.md`의 `REQ-FUNC`, `REQ-NF`, `REQ-IF`, `REQ-DATA`, `REQ-CON` 형식을 따릅니다.
+- SRS의 요구사항 ID 체계는 `.agents/workflow/prd_to_srs_prompt.md`의 `REQ-FUNC`, `REQ-NF`, `REQ-IF`, `REQ-DATA`, `REQ-CON` 형식을 따릅니다.
 - README는 프로젝트 구조와 실행·배포 맥락을 확인하는 보조 문서이며, 제품 요구사항의 최종 기준은 PRD입니다.
 - 정량 KPI의 목표값은 PRD에 확정되어 있지 않으므로 이 SRS는 KPI 후보를 추적 대상으로만 반영합니다.
 - 챗봇은 PRD의 현재 포함 범위에 있으나, 확장 범위는 PRD의 열린 질문으로 남아 있습니다.
