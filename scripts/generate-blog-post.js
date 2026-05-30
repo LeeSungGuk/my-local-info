@@ -115,21 +115,100 @@ function sanitizeGeneratedFilename(value, fallback = "") {
   return sanitized || fallback;
 }
 
+function normalizeGeneratedBody(value) {
+  return String(value || "")
+    .replace(/\\r\\n/g, "\n")
+    .replace(/\\n/g, "\n")
+    .trim();
+}
+
+function normalizeGeneratedFilename(value, today, fallback = "") {
+  const sanitized = sanitizeGeneratedFilename(value, fallback);
+  const todayPrefix = `${today}-`;
+
+  if (!sanitized) {
+    return "";
+  }
+
+  if (sanitized.startsWith(todayPrefix)) {
+    return sanitized;
+  }
+
+  const withoutDatePrefix = sanitized.replace(/^\d{4}-\d{2}-\d{2}-/, "");
+  return sanitizeGeneratedFilename(`${todayPrefix}${withoutDatePrefix}`, fallback);
+}
+
 function extractJsonObjectText(value) {
   const normalized = stripMarkdownCodeFence(value);
   const objectStartIndex = normalized.indexOf("{");
-  const objectEndIndex = normalized.lastIndexOf("}");
 
-  if (objectStartIndex === -1 || objectEndIndex === -1 || objectEndIndex < objectStartIndex) {
+  if (objectStartIndex === -1) {
     throw new Error("블로그 생성 응답에서 JSON 객체를 찾지 못했습니다.");
   }
 
-  return normalized.slice(objectStartIndex, objectEndIndex + 1);
+  let depth = 0;
+  let isInsideString = false;
+  let isEscaped = false;
+
+  for (let index = objectStartIndex; index < normalized.length; index += 1) {
+    const character = normalized[index];
+
+    if (isEscaped) {
+      isEscaped = false;
+      continue;
+    }
+
+    if (isInsideString && character === "\\") {
+      isEscaped = true;
+      continue;
+    }
+
+    if (character === '"') {
+      isInsideString = !isInsideString;
+      continue;
+    }
+
+    if (isInsideString) {
+      continue;
+    }
+
+    if (character === "{") {
+      depth += 1;
+      continue;
+    }
+
+    if (character === "}") {
+      depth -= 1;
+
+      if (depth === 0) {
+        return normalized.slice(objectStartIndex, index + 1);
+      }
+    }
+  }
+
+  throw new Error("블로그 생성 응답에서 완전한 JSON 객체를 찾지 못했습니다.");
+}
+
+function getResponsePreview(value, maxLength = 500) {
+  const preview = String(value || "")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  return preview.length > maxLength ? `${preview.slice(0, maxLength)}...` : preview;
 }
 
 function parseGeneratedBlogPostResponse(value, options = {}) {
   const fallbackFilename = sanitizeGeneratedFilename(options.fallbackFilename || "");
-  const parsed = JSON.parse(extractJsonObjectText(value));
+  const today = typeof options.today === "string" ? options.today.trim() : "";
+  let parsed;
+
+  try {
+    parsed = JSON.parse(extractJsonObjectText(value));
+  } catch (error) {
+    throw new Error(
+      `블로그 생성 응답 JSON 파싱 실패: ${error.message}. 응답 미리보기: ${getResponsePreview(value)}`
+    );
+  }
 
   if (!parsed || Array.isArray(parsed) || typeof parsed !== "object") {
     throw new Error("블로그 생성 응답이 JSON 객체가 아닙니다.");
@@ -137,8 +216,10 @@ function parseGeneratedBlogPostResponse(value, options = {}) {
 
   const title = typeof parsed.title === "string" ? parsed.title.trim() : "";
   const summary = typeof parsed.summary === "string" ? parsed.summary.trim() : "";
-  const body = typeof parsed.body === "string" ? parsed.body.trim() : "";
-  const filename = sanitizeGeneratedFilename(parsed.filename, fallbackFilename);
+  const body = typeof parsed.body === "string" ? normalizeGeneratedBody(parsed.body) : "";
+  const filename = today
+    ? normalizeGeneratedFilename(parsed.filename, today, fallbackFilename)
+    : sanitizeGeneratedFilename(parsed.filename, fallbackFilename);
 
   if (!title) {
     throw new Error("블로그 생성 응답의 title이 비어있습니다.");
@@ -390,7 +471,8 @@ async function maybeReplenishTopicQueue(queue, posts, nowIso) {
   }
 }
 
-async function generateBlogPost(topic, today) {
+async function generateBlogPost(topic, today, options = {}) {
+  const fetchImpl = options.fetchImpl || fetch;
   const prompt = `아래 주제를 바탕으로 서울 전용 정보성 블로그 글을 작성해줘.
 
 주제 정보:
@@ -427,13 +509,24 @@ ${JSON.stringify(topic, null, 2)}
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${BLOG_GENERATION_MODEL}:generateContent?key=${process.env.GEMINI_API_KEY}`;
 
   console.log(`🤖 Gemini AI로 서울 정보글 생성 중... (${topic.id}, ${BLOG_GENERATION_MODEL})`);
-  const res = await fetch(url, {
+  const res = await fetchImpl(url, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
       contents: [{ parts: [{ text: prompt }] }],
       generationConfig: {
         responseMimeType: "application/json",
+        responseSchema: {
+          type: "OBJECT",
+          required: ["title", "summary", "body", "filename"],
+          properties: {
+            title: { type: "STRING" },
+            summary: { type: "STRING" },
+            body: { type: "STRING" },
+            filename: { type: "STRING" },
+          },
+          propertyOrdering: ["title", "summary", "body", "filename"],
+        },
       },
     }),
   });
@@ -443,7 +536,14 @@ ${JSON.stringify(topic, null, 2)}
   }
 
   const json = await res.json();
-  const text = json.candidates?.[0]?.content?.parts?.[0]?.text || "";
+  const candidate = json.candidates?.[0];
+  const finishReason = candidate?.finishReason;
+
+  if (finishReason && finishReason !== "STOP") {
+    throw new Error(`Gemini 응답이 정상 종료되지 않았습니다: ${finishReason}`);
+  }
+
+  const text = candidate?.content?.parts?.[0]?.text || "";
 
   if (!text) {
     throw new Error("Gemini 응답이 비어있습니다.");
@@ -455,6 +555,7 @@ ${JSON.stringify(topic, null, 2)}
 function savePost(geminiResponse, today, topic) {
   const parsedPayload = parseGeneratedBlogPostResponse(geminiResponse, {
     fallbackFilename: `${today}-${topic.id}`,
+    today,
   });
 
   if (!fs.existsSync(POSTS_DIR)) {
