@@ -4,7 +4,7 @@ import CoupangBanner from "@/components/CoupangBanner";
 import { getAllPosts } from "@/lib/posts";
 
 export const metadata = {
-  title: "서울 생활 정보 블로그 | 서울시티",
+  title: "서울 생활 정보 블로그 | Seoul City",
   description: "서울에서 가볼만한 곳, 동네별 추천 코스, 취향별 서울 정보를 정리한 서울 전용 정보글을 확인하세요.",
 };
 
