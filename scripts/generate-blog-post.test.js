@@ -17,6 +17,7 @@ const { parseTopicCandidatesText } = require("./blog-topic-generator");
 const {
   appendOfficialSourceLinks,
   createGeneratedPostMarkdown,
+  generateBlogPost,
   getMissingOfficialPlaceNames,
   parseGeneratedBlogPostResponse,
   reportMissingOfficialPlaceSources,
@@ -225,6 +226,92 @@ test("parseGeneratedBlogPostResponse extracts blog fields from fenced JSON outpu
     body: "서울에서 아이와 하루를 보내려면 이동 부담과 체험 밀도를 함께 봐야 합니다.\n\n### 추천 코스\n서울상상나라와 어린이대공원을 묶으면 실내외 균형이 좋습니다.",
     filename: "2026-04-16-seoul-family-weekend-course",
   });
+});
+
+test("parseGeneratedBlogPostResponse ignores model text after the first complete JSON object", () => {
+  const response = `{
+  "title": "서울 전통찻집에서 조용히 쉬는 법",
+  "summary": "차분하게 쉬기 좋은 서울 전통찻집 코스를 정리합니다.",
+  "body": "복잡한 일정 대신 따뜻한 차 한 잔으로 쉬는 코스입니다.",
+  "filename": "2026-04-16-seoul-traditional-tea-and-calm"
+}
+{
+  "note": "추가 설명"
+}`;
+
+  assert.deepEqual(parseGeneratedBlogPostResponse(response), {
+    title: "서울 전통찻집에서 조용히 쉬는 법",
+    summary: "차분하게 쉬기 좋은 서울 전통찻집 코스를 정리합니다.",
+    body: "복잡한 일정 대신 따뜻한 차 한 잔으로 쉬는 코스입니다.",
+    filename: "2026-04-16-seoul-traditional-tea-and-calm",
+  });
+});
+
+test("parseGeneratedBlogPostResponse normalizes escaped body newlines and enforces today's filename prefix", () => {
+  const response = JSON.stringify({
+    title: "서울 전통찻집에서 조용히 쉬는 법",
+    summary: "차분하게 쉬기 좋은 서울 전통찻집 코스를 정리합니다.",
+    body: "첫 문단\\n\\n### 소제목\\n본문",
+    filename: "2026-05-21-seoul-traditional-tea-and-calm",
+  });
+
+  assert.deepEqual(
+    parseGeneratedBlogPostResponse(response, {
+      fallbackFilename: "2026-05-30-seoul-traditional-tea-and-calm",
+      today: "2026-05-30",
+    }),
+    {
+      title: "서울 전통찻집에서 조용히 쉬는 법",
+      summary: "차분하게 쉬기 좋은 서울 전통찻집 코스를 정리합니다.",
+      body: "첫 문단\n\n### 소제목\n본문",
+      filename: "2026-05-30-seoul-traditional-tea-and-calm",
+    }
+  );
+});
+
+test("generateBlogPost sends a JSON schema and rejects truncated Gemini responses", async () => {
+  let requestBody;
+
+  await assert.rejects(
+    () =>
+      generateBlogPost(
+        {
+          id: "seoul-traditional-tea-and-calm",
+          titleHint: "서울 전통찻집에서 조용히 쉬는 법",
+          tags: ["서울찻집"],
+        },
+        "2026-04-16",
+        {
+          async fetchImpl(_url, options) {
+            requestBody = JSON.parse(options.body);
+            return {
+              ok: true,
+              async json() {
+                return {
+                  candidates: [
+                    {
+                      finishReason: "MAX_TOKENS",
+                      content: {
+                        parts: [{ text: '{"title":"잘린 응답"}' }],
+                      },
+                    },
+                  ],
+                };
+              },
+            };
+          },
+        }
+      ),
+    /Gemini 응답이 정상 종료되지 않았습니다: MAX_TOKENS/
+  );
+
+  assert.equal(requestBody.generationConfig.responseMimeType, "application/json");
+  assert.deepEqual(requestBody.generationConfig.responseSchema.required, [
+    "title",
+    "summary",
+    "body",
+    "filename",
+  ]);
 });
 
 test("createGeneratedPostMarkdown assembles frontmatter in code from JSON payload", () => {
