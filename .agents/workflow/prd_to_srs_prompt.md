@@ -4,12 +4,12 @@
 
 ## 권장 설정 위치
 
-- 워크플로우 원본: `.agent/workflow/prd_to_srs_prompt.md`
+- 워크플로우 원본: `.agents/workflow/prd_to_srs_prompt.md`
 - PRD 입력 문서: `docs/prd/*_prd.md`
 - SRS 출력 문서: `docs/srs/*_srs.md`
 - 운영 규칙: `AGENTS.md`의 `Documentation Rules`
 
-`.agent/workflow/`는 에이전트 전용 워크플로우 위치입니다. `.omo/`와 `.antigravitycli/`는 도구/세션 메타데이터이므로 프롬프트나 SRS의 기준 위치로 사용하지 않습니다.
+`.agents/workflow/`는 에이전트 전용 워크플로우 위치입니다. `.omo/`와 `.antigravitycli/`는 도구/세션 메타데이터이므로 프롬프트나 SRS의 기준 위치로 사용하지 않습니다.
 
 ## Prompt
 

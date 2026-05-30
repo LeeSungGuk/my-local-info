@@ -4,13 +4,13 @@
 
 ## 권장 설정 위치
 
-- 워크플로우 원본: `.agent/workflow/prd_to_srs_review_prompt.md`
+- 워크플로우 원본: `.agents/workflow/prd_to_srs_review_prompt.md`
 - PRD 입력 문서: `docs/prd/*_prd.md`
 - SRS 검토 대상: `docs/srs/*_srs.md`
-- PRD to SRS 생성 워크플로우: `.agent/workflow/prd_to_srs_prompt.md`
+- PRD to SRS 생성 워크플로우: `.agents/workflow/prd_to_srs_prompt.md`
 - 운영 규칙: `AGENTS.md`의 `Documentation Rules`
 
-`.agent/workflow/`는 에이전트 전용 워크플로우 위치입니다. `.omo/`와 `.antigravitycli/`는 도구/세션 메타데이터이므로 프롬프트나 검토 결과의 기준 위치로 사용하지 않습니다.
+`.agents/workflow/`는 에이전트 전용 워크플로우 위치입니다. `.omo/`와 `.antigravitycli/`는 도구/세션 메타데이터이므로 프롬프트나 검토 결과의 기준 위치로 사용하지 않습니다.
 
 ## Prompt
 
@@ -37,7 +37,7 @@ The product language is primarily Korean. Preserve concise, natural Korean wordi
 
 - Source PRD path: `<prd-path>`
 - Generated SRS path: `<srs-path>`
-- Optional reference workflow: `.agent/workflow/prd_to_srs_prompt.md`
+- Optional reference workflow: `.agents/workflow/prd_to_srs_prompt.md`
 - Optional supporting artifacts: `<supporting-artifacts>`
 
 Use the PRD as the source of truth for product scope, users, goals, non-goals, success criteria, and open questions.
@@ -167,7 +167,7 @@ For every diagram, verify:
 
 ### 7. ISO 29148 Structure Gate
 
-Check whether the SRS follows the agreed project structure from `.agent/workflow/prd_to_srs_prompt.md`:
+Check whether the SRS follows the agreed project structure from `.agents/workflow/prd_to_srs_prompt.md`:
 
 - Document Control
 - References
