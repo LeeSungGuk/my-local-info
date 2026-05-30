@@ -58,6 +58,7 @@
 - SRS documents live under `docs/srs/*_srs.md` and should trace requirements back to the relevant PRD sections.
 - Agent-only reusable workflows live under `.agents/workflow/*_prompt.md`; keep workflow outputs out of `.omo/` and `.antigravitycli/`.
 - Agent-only common rules live under `.agents/rules/*_RULES.md`.
+- Before writing or changing docs/code, check applicable common rules under `.agents/rules/*_RULES.md`, especially security rules for secrets, public data, rendering, CI, and deployment output.
 - Product/user-facing documents live under `docs/`; do not store agent-only workflow prompts there.
 - Use `.agents/workflow/prd_to_srs_prompt.md` when converting a PRD into an SRS for this project.
 - Use `.agents/workflow/prd_to_srs_review_prompt.md` when reviewing whether a generated SRS satisfies its source PRD.
