@@ -52,3 +52,9 @@ next-env.d.ts
 out/
 output/
 .omx/
+
+
+.idea
+.junie
+.playwright
+.wrangler
