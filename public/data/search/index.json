@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-27T00:00:00.000Z",
+  "generatedAt": "2026-05-30T00:00:00.000Z",
   "counts": {
     "event": 359,
     "benefit": 1087,
     "food": 300,
-    "blog": 40
+    "blog": 41
   },
   "items": [
     {
@@ -601,7 +601,7 @@
       "startDate": "2026-04-03",
       "endDate": "2026-05-29",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -862,7 +862,7 @@
       "startDate": "2026-04-08",
       "endDate": "2026-05-27",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false,
       "isExternal": false
     },
@@ -1864,7 +1864,7 @@
       "startDate": "2026-04-16",
       "endDate": "2026-05-28",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false,
       "isExternal": false
     },
@@ -2610,7 +2610,7 @@
       "startDate": "2026-04-24",
       "endDate": "2026-05-29",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -4135,7 +4135,7 @@
       "startDate": "2026-05-06",
       "endDate": "2026-05-27",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -4172,7 +4172,7 @@
       "startDate": "2026-05-06",
       "endDate": "2026-05-27",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -4320,7 +4320,7 @@
       "startDate": "2026-05-07",
       "endDate": "2026-05-28",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -5180,7 +5180,7 @@
       "startDate": "2026-05-13",
       "endDate": "2026-05-27",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -5291,7 +5291,7 @@
       "startDate": "2026-05-14",
       "endDate": "2026-05-28",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -5328,7 +5328,7 @@
       "startDate": "2026-05-14",
       "endDate": "2026-05-28",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -5923,7 +5923,7 @@
       "startDate": "2026-05-20",
       "endDate": "2026-05-27",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -6556,7 +6556,7 @@
       "startDate": "2026-05-27",
       "endDate": "2026-05-27",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -6593,7 +6593,7 @@
       "startDate": "2026-05-27",
       "endDate": "2026-05-27",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -6631,7 +6631,7 @@
       "startDate": "2026-05-27",
       "endDate": "2026-05-27",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false,
       "isExternal": false
     },
@@ -6668,7 +6668,7 @@
       "startDate": "2026-05-27",
       "endDate": "2026-05-27",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -6706,7 +6706,7 @@
       "startDate": "2026-05-27",
       "endDate": "2026-05-27",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false,
       "isExternal": false
     },
@@ -6744,7 +6744,7 @@
       "startDate": "2026-05-27",
       "endDate": "2026-05-27",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false,
       "isExternal": false
     },
@@ -6781,7 +6781,7 @@
       "startDate": "2026-05-27",
       "endDate": "2026-05-27",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -6818,7 +6818,7 @@
       "startDate": "2026-05-27",
       "endDate": "2026-05-27",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -6856,7 +6856,7 @@
       "startDate": "2026-05-27",
       "endDate": "2026-05-27",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false,
       "isExternal": false
     },
@@ -6894,7 +6894,7 @@
       "startDate": "2026-05-27",
       "endDate": "2026-05-27",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false,
       "isExternal": false
     },
@@ -6931,7 +6931,7 @@
       "startDate": "2026-05-27",
       "endDate": "2026-05-27",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -6969,7 +6969,7 @@
       "startDate": "2026-05-27",
       "endDate": "2026-05-27",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false,
       "isExternal": false
     },
@@ -7006,7 +7006,7 @@
       "startDate": "2026-05-27",
       "endDate": "2026-05-27",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -7157,7 +7157,7 @@
       "startDate": "2026-05-28",
       "endDate": "2026-05-28",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -7195,7 +7195,7 @@
       "startDate": "2026-05-28",
       "endDate": "2026-05-28",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false,
       "isExternal": false
     },
@@ -7232,7 +7232,7 @@
       "startDate": "2026-05-28",
       "endDate": "2026-05-28",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -7269,7 +7269,7 @@
       "startDate": "2026-05-28",
       "endDate": "2026-05-28",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -7307,7 +7307,7 @@
       "startDate": "2026-05-28",
       "endDate": "2026-05-28",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false,
       "isExternal": false
     },
@@ -7345,7 +7345,7 @@
       "startDate": "2026-05-28",
       "endDate": "2026-05-28",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false,
       "isExternal": false
     },
@@ -7531,7 +7531,7 @@
       "startDate": "2026-05-29",
       "endDate": "2026-05-29",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -7568,7 +7568,7 @@
       "startDate": "2026-05-29",
       "endDate": "2026-05-29",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -7606,7 +7606,7 @@
       "startDate": "2026-05-29",
       "endDate": "2026-05-29",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false,
       "isExternal": false
     },
@@ -7644,7 +7644,7 @@
       "startDate": "2026-05-29",
       "endDate": "2026-05-29",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false,
       "isExternal": false
     },
@@ -7681,7 +7681,7 @@
       "startDate": "2026-05-29",
       "endDate": "2026-05-29",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -7719,7 +7719,7 @@
       "startDate": "2026-05-29",
       "endDate": "2026-05-29",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false,
       "isExternal": false
     },
@@ -7757,7 +7757,7 @@
       "startDate": "2026-05-29",
       "endDate": "2026-05-29",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false,
       "isExternal": false
     },
@@ -7795,7 +7795,7 @@
       "startDate": "2026-05-29",
       "endDate": "2026-05-29",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false,
       "isExternal": false
     },
@@ -74006,6 +74006,41 @@
       "startDate": "",
       "endDate": "",
       "updatedAt": "2026-05-27",
+      "isActive": true,
+      "isFree": false,
+      "isExternal": false
+    },
+    {
+      "id": "2026-05-30-seoul-stationery-tour",
+      "type": "blog",
+      "typeLabel": "블로그",
+      "title": "다꾸족과 소품 덕후를 위한 서울 문구 투어 코스 3곳",
+      "summary": "대형 서점에서는 찾기 힘든 독창적인 디자인 감성과 나만의 취향을 채워줄 서울의 감성 문구 및 소품숍 코스를 소개합니다.",
+      "category": "정보",
+      "district": "",
+      "tags": [
+        "다이어리꾸미기",
+        "소품샵투어",
+        "디자인굿즈"
+      ],
+      "keywords": [
+        "블로그",
+        "서울",
+        "다꾸족과 소품 덕후를 위한 서울 문구 투어 코스 3곳",
+        "대형 서점에서는 찾기 힘든 독창적인 디자인 감성과 나만의 취향을 채워줄 서울의 감성 문구 및 소품숍 코스를 소개합니다.",
+        "정보",
+        "다이어리꾸미기",
+        "소품샵투어",
+        "디자인굿즈",
+        "나만의 다이어리를 꾸미는 ‘다꾸족’과 작고 귀여운 소품에 열광하는 이들에게 서울은 보물창고와도 같은 도시입니다. 대형 서점의 정형화된 문구류에서 벗어나, 창작자의 개성이 담긴 독창적인 감성을 만날 수 있는 서울의 대표적인 소품숍과 문구 편집숍 거리를 소개합니다. 📝 서울 문구 투어를 추천하는 세 가지 이유 첫째, 독창적인 디자인과 브랜드의 발견입니다. 대기업 기성품에서는 볼 수 없는 독립 디자이너와 일러스트레이터들의 개성 넘치는 굿즈를 실물로 보고 구매할 수 있습니다. 둘째, 공간이 주는 시각적 즐거움입니다. 단순히 물건을 파는 것을 넘어 공간 자체의 인테리어와 디스플레이, 그리고 고유한 큐레이션 방식을 감상하며 새로운 영감을 얻을 수 있습니다. 셋째, 골목길 탐방의 묘미입니다. 소품숍들이 위치한 골목 곳곳의 맛집, 카페와 연계해 서울의 매력적인 동네를 깊이 있게 경험하는 하루 코스를 완성할 수 있습니다. 📍 취향에 따라 골라 가는 매력적인 공간 3곳 연남동 소품샵 거리 경의선숲길을 따라 아기자기하게 형성된 연남동 골목길은 다꾸족의 성지입니다. 귀여운 캐릭터 스티커, 메모지, 마스킹 테이프 등 아날로그 감성이 가득한 다이어리 꾸미기 용품을 판매하는 개성 넘치는 매장들이 촘촘히 모여 있어 도보로 둘러보기에 제격입니다. 성수동 포인트오브뷰 ‘창작자를 위한 도구’를 제안하는 이곳은 클래식하고 고급스러운 감성의 문구 편집숍입니다. 단순한"
+      ],
+      "href": "/blog/2026-05-30-seoul-stationery-tour",
+      "provider": "서울시티",
+      "venue": "",
+      "dateLabel": "2026-05-30",
+      "startDate": "",
+      "endDate": "",
+      "updatedAt": "2026-05-30",
       "isActive": true,
       "isFree": false,
       "isExternal": false
