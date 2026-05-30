@@ -56,10 +56,11 @@
 - README is the project entry point. Keep it aligned with the current service purpose, commands, data sources, deployment flow, and document locations.
 - PRDs live under `docs/prd/*_prd.md`. When product scope, target users, success criteria, or non-goals change, update the relevant PRD first.
 - SRS documents live under `docs/srs/*_srs.md` and should trace requirements back to the relevant PRD sections.
-- Agent-only reusable workflows live under `.agent/workflow/*_prompt.md`; keep workflow outputs out of `.omo/` and `.antigravitycli/`.
+- Agent-only reusable workflows live under `.agents/workflow/*_prompt.md`; keep workflow outputs out of `.omo/` and `.antigravitycli/`.
+- Agent-only common rules live under `.agents/rules/*_RULES.md`.
 - Product/user-facing documents live under `docs/`; do not store agent-only workflow prompts there.
-- Use `.agent/workflow/prd_to_srs_prompt.md` when converting a PRD into an SRS for this project.
-- Use `.agent/workflow/prd_to_srs_review_prompt.md` when reviewing whether a generated SRS satisfies its source PRD.
+- Use `.agents/workflow/prd_to_srs_prompt.md` when converting a PRD into an SRS for this project.
+- Use `.agents/workflow/prd_to_srs_review_prompt.md` when reviewing whether a generated SRS satisfies its source PRD.
 - Date-based work history lives under `history/YYYY-MM-DD.md`. Add new history entries only when the user asks for a work record or change summary.
 - `history/README.md` should link to every dated history file.
 - User-visible or release-level changes belong in `change_log.md`; do not use it for every small implementation detail.

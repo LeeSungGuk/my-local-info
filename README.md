@@ -158,6 +158,7 @@ GitHub Actions는 다음 흐름으로 동작합니다.
 - `change_log.md`: 주요 변경 기록
 - `docs/prd/`: 제품 요구사항 문서
 - `docs/srs/`: PRD에서 변환한 소프트웨어 요구사항 명세
+- `.agents/rules/SECURITY_RULES.md`: 웹 개발 기본 보안 규칙
 - `docs/`: SEO, 수집 워크플로우 등 보조 문서
 - `AGENTS.md`: 에이전트 작업 원칙과 프로젝트 구조
 
