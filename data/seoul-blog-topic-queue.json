@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-05-31T08:06:01+09:00",
+  "lastGeneratedAt": "2026-06-01T08:06:32+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -989,9 +989,9 @@
         "물멍"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-05-21T08:18:05+09:00",
-      "usedAt": null
+      "usedAt": "2026-06-01T08:06:32+09:00"
     },
     {
       "id": "seoul-vinyl-and-music-vibe",
@@ -1091,6 +1091,195 @@
       "origin": "ai",
       "status": "pending",
       "createdAt": "2026-05-21T08:18:05+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-independent-bookshops",
+      "titleHint": "대형문고 대신 동네 감성 가득한 서울 독립서점 투어",
+      "topicCategory": "취향나들이",
+      "angle": "대형 서점이 주지 못하는 주인장의 독특한 큐레이션과 아늑한 공간 감성을 느끼며 책을 고를 수 있는 로컬 동네 책방 탐방 코스",
+      "places": [
+        "연남동 헬로인디북스",
+        "해방촌 고요서사",
+        "서촌 역사책방"
+      ],
+      "tags": [
+        "독립서점",
+        "책방투어",
+        "동네감성",
+        "취향소비"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-06-01T08:06:32+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-hanok-libraries",
+      "titleHint": "은은한 솔향과 책 냄새가 어우러지는 서울 한옥 도서관 추천",
+      "topicCategory": "휴식공간",
+      "angle": "현대적인 콘크리트 도서관에서 벗어나 고즈넉한 기와지붕 아래 마룻바닥에 앉아 조용히 사색과 독서를 즐길 수 있는 힐링 공간",
+      "places": [
+        "청운문학도서관",
+        "구로 글마루한옥어린이도서관",
+        "종로 도담도담한옥도서관"
+      ],
+      "tags": [
+        "한옥도서관",
+        "고즈넉한곳",
+        "이색도서관",
+        "서울힐링스팟"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-06-01T08:06:32+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-hidden-picnic-spots",
+      "titleHint": "북적이는 한강을 피해 여유를 만끽하는 서울 숨은 피크닉 명소",
+      "topicCategory": "휴식공간",
+      "angle": "인파로 가득 찬 여의도나 뚝섬 한강공원 대신 넓고 쾌적한 잔디밭에서 한적하게 돗자리를 펴고 쉴 수 있는 도심 속 대체지",
+      "places": [
+        "용산가족공원",
+        "선유도공원",
+        "상암 노을공원"
+      ],
+      "tags": [
+        "피크닉스팟",
+        "한적한공원",
+        "돗자리나들이",
+        "주말휴식"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-06-01T08:06:32+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-history-alleys",
+      "titleHint": "시간이 멈춘 듯한 서울의 역사 깊은 옛 골목길 산책",
+      "topicCategory": "도심산책",
+      "angle": "화려한 빌딩숲 바로 이면에 숨겨진, 구한말부터 근현대까지 서울 서민들의 삶과 흔적이 고스란히 남아 있는 레트로 골목 투어",
+      "places": [
+        "돈의문박물관마을",
+        "서촌 통인동 골목길",
+        "인사동 피맛골"
+      ],
+      "tags": [
+        "역사골목",
+        "근현대서울",
+        "도심산책로",
+        "시간여행"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-06-01T08:06:32+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-indoor-greenhouses",
+      "titleHint": "비가 와도 싱그러운 초록빛을 만나는 서울 실내 온실 투어",
+      "topicCategory": "실내나들이",
+      "angle": "날씨가 흐리거나 미세먼지가 심한 날에도 따뜻하고 쾌적하게 사계절 내내 울창한 아열대 식물과 꽃을 감상할 수 있는 온실 데이트",
+      "places": [
+        "서울식물원 온실",
+        "어린이대공원 식물원",
+        "창경궁 대온실"
+      ],
+      "tags": [
+        "실내온실",
+        "식물원데이트",
+        "비오는날추천",
+        "초록힐링"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-06-01T08:06:32+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-night-walk-cityscape",
+      "titleHint": "밤바람 맞으며 가볍게 걷기 좋은 서울 야간 도보 산책길",
+      "topicCategory": "야간산책",
+      "angle": "높은 산을 오르지 않고도 평탄하게 정비된 길을 따라 화려한 도심의 조명과 은은한 가로등 불빛 속을 안전하게 걸을 수 있는 밤길 코스",
+      "places": [
+        "동대문 한양도성길",
+        "청계천 도보길",
+        "반포 한강빛물결길"
+      ],
+      "tags": [
+        "서울야경",
+        "밤산책",
+        "도심야간도보",
+        "데이트코스"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-06-01T08:06:32+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-artists-heritage-walk",
+      "titleHint": "근현대 문인과 예술가의 옛 숨결을 느끼는 서울 가옥 산책",
+      "topicCategory": "문화생활",
+      "angle": "유명 미술관 대신 거장들이 실제로 거주하며 예술적 영감을 얻었던 집과 집터를 찾아 고요하게 그들의 자취를 음미해보는 감성 기행",
+      "places": [
+        "성북동 이태준 가옥",
+        "서촌 이상의집",
+        "종로 박노수미술관"
+      ],
+      "tags": [
+        "예술가생가",
+        "문학기행",
+        "감성산책",
+        "서울인문학"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-06-01T08:06:32+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-forest-therapy-shelters",
+      "titleHint": "빌딩 숲에서 벗어나 진짜 나무 사이에서 '숲멍'하기 좋은 쉼터",
+      "topicCategory": "휴식공간",
+      "angle": "도심 한복판에서 멀지 않으면서도 울창한 나무 그늘과 편안한 선베드, 덱이 마련되어 있어 조용히 산림욕과 명상을 즐길 수 있는 숲속 특화지",
+      "places": [
+        "서대문 안산 자락길 메타세쿼이아숲",
+        "남산공원 소나무 힐링숲",
+        "일자산 허브천문공원"
+      ],
+      "tags": [
+        "숲멍",
+        "산림욕쉼터",
+        "자연치유",
+        "피톤치드"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-06-01T08:06:32+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-specialty-diy-markets",
+      "titleHint": "금손들의 아지트, 나만의 취미와 소품을 위한 서울 부자재 시장",
+      "topicCategory": "시장추천",
+      "angle": "일반 먹거리나 의류 시장이 아닌 가죽, 꽃, 패브릭, 향료 등 DIY 취미 생활과 홈데코를 위한 온갖 재료를 저렴하게 도매가로 만나는 특화 시장",
+      "places": [
+        "동대문 종합시장",
+        "양재 꽃시장",
+        "방산 종합시장"
+      ],
+      "tags": [
+        "부자재시장",
+        "DIY취미",
+        "셀프인테리어",
+        "이색시장"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-06-01T08:06:32+09:00",
       "usedAt": null
     }
   ]
