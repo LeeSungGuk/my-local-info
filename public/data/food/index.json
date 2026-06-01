@@ -6,11 +6,11 @@
     "region": "서울특별시",
     "officialUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
     "apiBase": "http://openapi.seoul.go.kr:8088",
-    "collectedAt": "2026-05-31T22:51:01.734Z",
+    "collectedAt": "2026-06-01T23:10:56.687Z",
     "syncSchedule": "매일 오전 7시 30분",
     "availableCount": 533550,
     "fetchedCount": 533550,
-    "activeCount": 120552,
+    "activeCount": 120551,
     "selectedCount": 300,
     "sampleMode": false,
     "maxPlacesPerDistrict": 12,
@@ -41,7 +41,7 @@
       "mapSearchQuery": "서울특별시 강남구 강남대로124길 3-6",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3220000-101-2026-00525",
@@ -62,7 +62,7 @@
       "mapSearchQuery": "서울특별시 강남구 논현로175길 25",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3220000-101-2026-00532",
@@ -83,7 +83,7 @@
       "mapSearchQuery": "서울특별시 강남구 언주로 408",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3220000-101-2026-00533",
@@ -104,7 +104,7 @@
       "mapSearchQuery": "서울특별시 강남구 테헤란로55길 18",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3080000-101-2026-00125",
@@ -125,7 +125,7 @@
       "mapSearchQuery": "서울특별시 강북구 삼양로46길 4",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3200000-101-2026-00262",
@@ -146,7 +146,7 @@
       "mapSearchQuery": "서울특별시 관악구 관악로12길 33",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3040000-101-2026-00180",
@@ -167,7 +167,7 @@
       "mapSearchQuery": "서울특별시 광진구 광나루로 369",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3160000-101-2026-00171",
@@ -188,7 +188,7 @@
       "mapSearchQuery": "서울특별시 구로구 중앙로 9",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3100000-101-2026-00138",
@@ -209,7 +209,7 @@
       "mapSearchQuery": "서울특별시 노원구 공릉로41나길 31",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3100000-101-2026-00139",
@@ -230,7 +230,7 @@
       "mapSearchQuery": "서울특별시 노원구 상계로9가길 17",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3050000-101-2026-00178",
@@ -251,7 +251,7 @@
       "mapSearchQuery": "서울특별시 동대문구 이문로 120",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3050000-101-2026-00179",
@@ -272,7 +272,7 @@
       "mapSearchQuery": "서울특별시 동대문구 천호대로77길 123",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3190000-101-2026-00096",
@@ -293,7 +293,7 @@
       "mapSearchQuery": "서울특별시 동작구 여의대방로 136",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3190000-101-2026-00097",
@@ -314,7 +314,7 @@
       "mapSearchQuery": "서울특별시 동작구 동작대로29길 42",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3130000-101-2026-00373",
@@ -335,7 +335,7 @@
       "mapSearchQuery": "서울특별시 마포구 월드컵북로 402",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3130000-101-2026-00377",
@@ -356,7 +356,7 @@
       "mapSearchQuery": "서울특별시 마포구 망원로11길 29",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3130000-101-2026-00376",
@@ -377,7 +377,7 @@
       "mapSearchQuery": "서울특별시 마포구 양화로3길 37",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3130000-101-2026-00379",
@@ -398,7 +398,7 @@
       "mapSearchQuery": "서울특별시 마포구 모래내로1길 3",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3130000-101-2026-00374",
@@ -419,7 +419,7 @@
       "mapSearchQuery": "서울특별시 마포구 동교로 256-10",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3210000-101-2026-00249",
@@ -440,7 +440,7 @@
       "mapSearchQuery": "서울특별시 서초구 강남대로79길 48",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3030000-101-2026-00163",
@@ -461,7 +461,7 @@
       "mapSearchQuery": "서울특별시 성동구 광나루로 323",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3030000-101-2026-00164",
@@ -482,7 +482,7 @@
       "mapSearchQuery": "서울특별시 성동구 상원10길 8-1",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3070000-101-2026-00183",
@@ -503,7 +503,7 @@
       "mapSearchQuery": "서울특별시 성북구 돌곶이로30길 24",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3230000-101-2026-00348",
@@ -524,7 +524,7 @@
       "mapSearchQuery": "서울특별시 송파구 법원로8길 13",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3230000-101-2026-00347",
@@ -545,7 +545,7 @@
       "mapSearchQuery": "서울특별시 송파구 법원로 114",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3180000-101-2026-00363",
@@ -566,7 +566,7 @@
       "mapSearchQuery": "서울특별시 영등포구 여의대방로23길 18",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3180000-101-2026-00365",
@@ -587,7 +587,7 @@
       "mapSearchQuery": "서울특별시 영등포구 국회대로50길 20",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3180000-101-2026-00364",
@@ -608,7 +608,7 @@
       "mapSearchQuery": "서울특별시 영등포구 국제금융로8길 31",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3020000-101-2026-00212",
@@ -629,7 +629,7 @@
       "mapSearchQuery": "서울특별시 용산구 신흥로22길 4",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3020000-101-2026-00213",
@@ -650,7 +650,7 @@
       "mapSearchQuery": "서울특별시 용산구 한남대로27가길 13",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3000000-101-2026-00133",
@@ -671,7 +671,7 @@
       "mapSearchQuery": "서울특별시 종로구 종로36나길 16",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3000000-101-2026-00132",
@@ -692,7 +692,7 @@
       "mapSearchQuery": "서울특별시 종로구 삼일대로 428",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3000000-101-2026-00134",
@@ -713,7 +713,7 @@
       "mapSearchQuery": "서울특별시 종로구 새문안로 85",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3010000-101-2026-00308",
@@ -734,7 +734,7 @@
       "mapSearchQuery": "서울특별시 중구 을지로12길 28",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3060000-101-2026-00167",
@@ -755,7 +755,7 @@
       "mapSearchQuery": "서울특별시 중랑구 중랑역로 221",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3060000-101-2026-00168",
@@ -776,7 +776,7 @@
       "mapSearchQuery": "서울특별시 중랑구 망우로32길 42",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3180000-101-2026-00358",
@@ -797,7 +797,7 @@
       "mapSearchQuery": "서울특별시 영등포구 63로 50",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3080000-101-2026-00112",
@@ -818,7 +818,7 @@
       "mapSearchQuery": "서울특별시 강북구 도봉로95길 31",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3200000-101-2026-00242",
@@ -839,7 +839,7 @@
       "mapSearchQuery": "서울특별시 관악구 봉천로4길 48",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3200000-101-2026-00196",
@@ -860,7 +860,7 @@
       "mapSearchQuery": "서울특별시 관악구 남부순환로233길 16",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3110000-101-2026-00120",
@@ -881,7 +881,7 @@
       "mapSearchQuery": "서울특별시 은평구 역말로 37-6",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3180000-101-2026-00222",
@@ -902,7 +902,7 @@
       "mapSearchQuery": "서울특별시 영등포구 국회대로37길 25",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3050000-101-2025-00272",
@@ -923,7 +923,7 @@
       "mapSearchQuery": "서울특별시 동대문구 전농로 99",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3170000-101-2025-00131",
@@ -944,7 +944,7 @@
       "mapSearchQuery": "서울특별시 금천구 벚꽃로 244",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3110000-101-2025-00103",
@@ -965,7 +965,7 @@
       "mapSearchQuery": "서울특별시 은평구 연서로 287",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3150000-101-2024-00770",
@@ -986,7 +986,7 @@
       "mapSearchQuery": "서울특별시 강서구 강서로16길 27",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3190000-101-2024-00205",
@@ -1007,7 +1007,7 @@
       "mapSearchQuery": "서울특별시 동작구 국사봉길 74",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3050000-101-2024-00319",
@@ -1028,7 +1028,7 @@
       "mapSearchQuery": "서울특별시 동대문구 답십리로 302",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3230000-101-2024-00574",
@@ -1049,7 +1049,7 @@
       "mapSearchQuery": "서울특별시 송파구 송파대로30길 11",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3230000-101-2024-00390",
@@ -1070,7 +1070,7 @@
       "mapSearchQuery": "서울특별시 송파구 올림픽로32길 10",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3070000-101-2024-00218",
@@ -1091,7 +1091,7 @@
       "mapSearchQuery": "서울특별시 성북구 보국문로 91",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3230000-101-2024-00328",
@@ -1112,7 +1112,7 @@
       "mapSearchQuery": "서울특별시 송파구 올림픽로32길 10-1",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3210000-101-2024-00204",
@@ -1133,7 +1133,7 @@
       "mapSearchQuery": "서울특별시 서초구 방배천로4길 15-2",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3050000-101-2024-00086",
@@ -1154,7 +1154,7 @@
       "mapSearchQuery": "서울특별시 동대문구 경동시장로9나길 12",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3240000-101-2023-00444",
@@ -1175,7 +1175,7 @@
       "mapSearchQuery": "서울특별시 강동구 올림픽로 763",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3210000-101-2023-00481",
@@ -1196,7 +1196,7 @@
       "mapSearchQuery": "서울특별시 서초구 서래로5길 33",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3200000-101-2022-00534",
@@ -1217,7 +1217,7 @@
       "mapSearchQuery": "서울특별시 관악구 국회단지2길 40",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3020000-101-2022-00442",
@@ -1238,7 +1238,7 @@
       "mapSearchQuery": "서울특별시 용산구 이태원로 134",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3150000-101-2022-00331",
@@ -1259,7 +1259,7 @@
       "mapSearchQuery": "서울특별시 강서구 강서로 395",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3100000-101-2021-00296",
@@ -1280,7 +1280,7 @@
       "mapSearchQuery": "서울특별시 노원구 상계로9가길 2",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3030000-101-2021-00355",
@@ -1301,7 +1301,7 @@
       "mapSearchQuery": "서울특별시 성동구 왕십리로4길 26-14",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3040000-101-2021-00227",
@@ -1322,7 +1322,7 @@
       "mapSearchQuery": "서울특별시 광진구 아차산로 218",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3210000-101-2021-00234",
@@ -1343,7 +1343,7 @@
       "mapSearchQuery": "서울특별시 서초구 방배천로6길 33-1",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3190000-101-2021-00004",
@@ -1364,7 +1364,7 @@
       "mapSearchQuery": "서울특별시 동작구 국사봉길 74",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3220000-101-2020-00368",
@@ -1385,7 +1385,7 @@
       "mapSearchQuery": "서울특별시 강남구 도산대로 152",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3110000-101-2019-00324",
@@ -1406,7 +1406,7 @@
       "mapSearchQuery": "서울특별시 은평구 진관3로 11",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3020000-101-2019-00102",
@@ -1427,7 +1427,7 @@
       "mapSearchQuery": "서울특별시 용산구 이태원로 143-9",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3000000-101-2018-00174",
@@ -1448,7 +1448,7 @@
       "mapSearchQuery": "서울특별시 종로구 대학로11길 43",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3230000-101-2017-00716",
@@ -1469,7 +1469,7 @@
       "mapSearchQuery": "서울특별시 송파구 양재대로 932",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3130000-101-2016-01065",
@@ -1490,7 +1490,7 @@
       "mapSearchQuery": "서울특별시 마포구 월드컵북로44길 72",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3170000-101-2014-00279",
@@ -1511,7 +1511,7 @@
       "mapSearchQuery": "서울특별시 금천구 독산로 320",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3240000-101-2013-00218",
@@ -1532,7 +1532,7 @@
       "mapSearchQuery": "서울특별시 강동구 구천면로 233",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3040000-101-2012-00307",
@@ -1553,7 +1553,7 @@
       "mapSearchQuery": "서울특별시 광진구 능동로47길 37",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3110000-101-2005-00091",
@@ -1574,7 +1574,7 @@
       "mapSearchQuery": "서울특별시 은평구 연서로29길 20-17",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3240000-101-2002-13215",
@@ -1595,7 +1595,7 @@
       "mapSearchQuery": "서울특별시 강동구 올림픽로70길 52",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3070000-101-2001-10981",
@@ -1616,7 +1616,7 @@
       "mapSearchQuery": "서울특별시 성북구 동소문로22길 29-2",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3040000-101-2001-09517",
@@ -1637,7 +1637,7 @@
       "mapSearchQuery": "서울특별시 광진구 용마산로1길 111",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3030000-101-1999-06079",
@@ -1658,7 +1658,7 @@
       "mapSearchQuery": "서울특별시 성동구 마장로42길 2",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3140000-101-1998-01956",
@@ -1679,7 +1679,7 @@
       "mapSearchQuery": "서울특별시 양천구 목동동로10길 24",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3210000-101-1996-13489",
@@ -1700,7 +1700,7 @@
       "mapSearchQuery": "서울특별시 서초구 효령로 314",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3080000-101-1981-00948",
@@ -1721,7 +1721,7 @@
       "mapSearchQuery": "서울특별시 강북구 한천로139길 35",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3080000-101-2026-00122",
@@ -1742,7 +1742,7 @@
       "mapSearchQuery": "서울특별시 강북구 한천로 962",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3150000-101-2026-00316",
@@ -1763,7 +1763,7 @@
       "mapSearchQuery": "서울특별시 강서구 마곡중앙6로 21",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3200000-101-2026-00260",
@@ -1784,7 +1784,7 @@
       "mapSearchQuery": "서울특별시 관악구 신원로3길 30",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3040000-101-2026-00177",
@@ -1805,7 +1805,7 @@
       "mapSearchQuery": "서울특별시 광진구 긴고랑로2길 42",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3040000-101-2026-00179",
@@ -1826,7 +1826,7 @@
       "mapSearchQuery": "서울특별시 광진구 군자로 160",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3040000-101-2026-00176",
@@ -1847,7 +1847,7 @@
       "mapSearchQuery": "서울특별시 광진구 동일로20길 115",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3040000-101-2026-00175",
@@ -1868,7 +1868,7 @@
       "mapSearchQuery": "서울특별시 광진구 광나루로26길 21",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3160000-101-2026-00169",
@@ -1889,7 +1889,7 @@
       "mapSearchQuery": "서울특별시 구로구 디지털로 288",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3050000-101-2026-00177",
@@ -1910,7 +1910,7 @@
       "mapSearchQuery": "서울특별시 동대문구 천호대로45가길 30",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3190000-101-2026-00095",
@@ -1931,7 +1931,7 @@
       "mapSearchQuery": "서울특별시 동작구 여의대방로 134-1",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3130000-101-2026-00371",
@@ -1952,7 +1952,7 @@
       "mapSearchQuery": "서울특별시 마포구 마포대로 196",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3130000-101-2026-00372",
@@ -1973,7 +1973,7 @@
       "mapSearchQuery": "서울특별시 마포구 월드컵북로 352-10",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3120000-101-2026-00178",
@@ -1994,7 +1994,7 @@
       "mapSearchQuery": "서울특별시 서대문구 연세로5나길 33",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3210000-101-2026-00240",
@@ -2015,7 +2015,7 @@
       "mapSearchQuery": "서울특별시 서초구 반포대로28길 70",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3030000-101-2026-00162",
@@ -2036,7 +2036,7 @@
       "mapSearchQuery": "서울특별시 성동구 상원길 50-31",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3010000-101-2026-00306",
@@ -2057,7 +2057,7 @@
       "mapSearchQuery": "서울특별시 중구 다산로 207",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3060000-101-2026-00166",
@@ -2078,7 +2078,7 @@
       "mapSearchQuery": "서울특별시 중랑구 동일로129길 43",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3060000-101-2026-00165",
@@ -2099,7 +2099,7 @@
       "mapSearchQuery": "서울특별시 중랑구 봉우재로41길 29",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3150000-101-2026-00315",
@@ -2120,7 +2120,7 @@
       "mapSearchQuery": "서울특별시 강서구 마곡중앙로 143",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3040000-101-2026-00119",
@@ -2141,7 +2141,7 @@
       "mapSearchQuery": "서울특별시 광진구 능동로3길 19",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3200000-101-2026-00170",
@@ -2162,7 +2162,7 @@
       "mapSearchQuery": "서울특별시 관악구 남부순환로180길 9",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3010000-101-2026-00128",
@@ -2183,7 +2183,7 @@
       "mapSearchQuery": "서울특별시 중구 을지로18길 23-1",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3070000-101-2026-00045",
@@ -2204,7 +2204,7 @@
       "mapSearchQuery": "서울특별시 성북구 솔샘로6길 62",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3040000-101-2025-00423",
@@ -2225,7 +2225,7 @@
       "mapSearchQuery": "서울특별시 광진구 동일로22길 80",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3100000-101-2025-00304",
@@ -2246,7 +2246,7 @@
       "mapSearchQuery": "서울특별시 노원구 상계로 55",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3210000-101-2025-00026",
@@ -2267,7 +2267,7 @@
       "mapSearchQuery": "서울특별시 서초구 서초대로 286",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3230000-101-2024-00892",
@@ -2288,7 +2288,7 @@
       "mapSearchQuery": "서울특별시 송파구 양재대로 1222",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3060000-101-2024-00155",
@@ -2309,7 +2309,7 @@
       "mapSearchQuery": "서울특별시 중랑구 중랑역로 38",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3140000-101-2024-00143",
@@ -2330,7 +2330,7 @@
       "mapSearchQuery": "서울특별시 양천구 중앙로43길 27-2",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3010000-101-2023-00587",
@@ -2351,7 +2351,7 @@
       "mapSearchQuery": "서울특별시 중구 삼일대로 363",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3150000-101-2023-00698",
@@ -2372,7 +2372,7 @@
       "mapSearchQuery": "서울특별시 강서구 초록마을로2길 42",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3100000-101-2023-00147",
@@ -2393,7 +2393,7 @@
       "mapSearchQuery": "서울특별시 노원구 공릉로 156",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3010000-101-2023-00021",
@@ -2414,7 +2414,7 @@
       "mapSearchQuery": "서울특별시 중구 다동길 46",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3220000-101-2022-01138",
@@ -2435,7 +2435,7 @@
       "mapSearchQuery": "서울특별시 강남구 언주로148길 14",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3080000-101-2021-00183",
@@ -2456,7 +2456,7 @@
       "mapSearchQuery": "서울특별시 강북구 노해로 17",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3180000-101-2021-00365",
@@ -2477,7 +2477,7 @@
       "mapSearchQuery": "서울특별시 영등포구 국제금융로8길 34",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3220000-101-2021-00654",
@@ -2498,7 +2498,7 @@
       "mapSearchQuery": "서울특별시 강남구 일원로 81",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3220000-101-2021-00656",
@@ -2519,7 +2519,7 @@
       "mapSearchQuery": "서울특별시 강남구 일원로 81",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3160000-101-2019-00372",
@@ -2540,7 +2540,7 @@
       "mapSearchQuery": "서울특별시 구로구 신도림로21길 25",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3080000-101-2019-00215",
@@ -2561,7 +2561,7 @@
       "mapSearchQuery": "서울특별시 강북구 덕릉로 92",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3240000-101-2018-00336",
@@ -2582,7 +2582,7 @@
       "mapSearchQuery": "서울특별시 강동구 천호대로 1135",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3070000-101-2018-00102",
@@ -2603,7 +2603,7 @@
       "mapSearchQuery": "서울특별시 성북구 안암로 81-4",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3180000-101-2018-00023",
@@ -2624,7 +2624,7 @@
       "mapSearchQuery": "서울특별시 영등포구 대림로29길 37",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3130000-101-2014-00519",
@@ -2645,7 +2645,7 @@
       "mapSearchQuery": "서울특별시 마포구 어울마당로 132-1",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3090000-101-2012-00235",
@@ -2666,7 +2666,7 @@
       "mapSearchQuery": "서울특별시 도봉구 도봉로150다길 16",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3020000-101-2011-00151",
@@ -2687,7 +2687,7 @@
       "mapSearchQuery": "서울특별시 용산구 이태원로16길 11",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3050000-101-2009-00268",
@@ -2708,7 +2708,7 @@
       "mapSearchQuery": "서울특별시 동대문구 이문로 17-26",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3070000-101-1999-09369",
@@ -2729,7 +2729,7 @@
       "mapSearchQuery": "서울특별시 성북구 동소문로20가길 14",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3220000-101-2026-00511",
@@ -2750,7 +2750,7 @@
       "mapSearchQuery": "서울특별시 강남구 봉은사로30길 73",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3220000-101-2026-00514",
@@ -2771,7 +2771,7 @@
       "mapSearchQuery": "서울특별시 강남구 압구정로10길 28",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3240000-101-2026-00175",
@@ -2792,7 +2792,7 @@
       "mapSearchQuery": "서울특별시 강동구 천중로32길 51",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3170000-101-2026-00109",
@@ -2813,7 +2813,7 @@
       "mapSearchQuery": "서울특별시 금천구 디지털로10길 69",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3170000-101-2026-00107",
@@ -2834,7 +2834,7 @@
       "mapSearchQuery": "서울특별시 금천구 시흥대로39길 16",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3090000-101-2026-00073",
@@ -2855,7 +2855,7 @@
       "mapSearchQuery": "서울특별시 도봉구 덕릉로60길 24",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3090000-101-2026-00074",
@@ -2876,7 +2876,7 @@
       "mapSearchQuery": "서울특별시 도봉구 도당로27길 27",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3090000-101-2026-00072",
@@ -2897,7 +2897,7 @@
       "mapSearchQuery": "서울특별시 도봉구 도봉로145나길 3",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3050000-101-2026-00171",
@@ -2918,7 +2918,7 @@
       "mapSearchQuery": "서울특별시 동대문구 한빛로 58-1",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3120000-101-2026-00175",
@@ -2939,7 +2939,7 @@
       "mapSearchQuery": "서울특별시 서대문구 홍은중앙로8길 20",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3120000-101-2026-00173",
@@ -2960,7 +2960,7 @@
       "mapSearchQuery": "서울특별시 서대문구 가재울로8길 26",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3030000-101-2026-00153",
@@ -2981,7 +2981,7 @@
       "mapSearchQuery": "서울특별시 성동구 성수이로 32-19",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3110000-101-2026-00157",
@@ -3002,7 +3002,7 @@
       "mapSearchQuery": "서울특별시 은평구 연서로 261-5",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3000000-101-2026-00126",
@@ -3023,7 +3023,7 @@
       "mapSearchQuery": "서울특별시 종로구 지봉로 81",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3010000-101-2026-00299",
@@ -3044,7 +3044,7 @@
       "mapSearchQuery": "서울특별시 중구 퇴계로39길 9",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3130000-101-2026-00351",
@@ -3065,7 +3065,7 @@
       "mapSearchQuery": "서울특별시 마포구 동교로38안길 3",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3160000-101-2026-00156",
@@ -3086,7 +3086,7 @@
       "mapSearchQuery": "서울특별시 구로구 디지털로33길 50",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3020000-101-2026-00199",
@@ -3107,7 +3107,7 @@
       "mapSearchQuery": "서울특별시 용산구 새창로 126-1",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3060000-101-2026-00079",
@@ -3128,7 +3128,7 @@
       "mapSearchQuery": "서울특별시 중랑구 면목로42길 5",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3240000-101-2026-00082",
@@ -3149,7 +3149,7 @@
       "mapSearchQuery": "서울특별시 강동구 암사길 3",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3150000-101-2025-00408",
@@ -3170,7 +3170,7 @@
       "mapSearchQuery": "서울특별시 강서구 화곡로20길 41",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3110000-101-2025-00151",
@@ -3191,7 +3191,7 @@
       "mapSearchQuery": "서울특별시 은평구 연서로10길 23",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3240000-101-2025-00173",
@@ -3212,7 +3212,7 @@
       "mapSearchQuery": "서울특별시 강동구 양재대로114길 26",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3160000-101-2025-00119",
@@ -3233,7 +3233,7 @@
       "mapSearchQuery": "서울특별시 구로구 디지털로33길 27",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3130000-101-2025-00137",
@@ -3254,7 +3254,7 @@
       "mapSearchQuery": "서울특별시 마포구 대흥로 57",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3160000-101-2025-00015",
@@ -3275,7 +3275,7 @@
       "mapSearchQuery": "서울특별시 구로구 부일로15길 29",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3190000-101-2024-00055",
@@ -3296,7 +3296,7 @@
       "mapSearchQuery": "서울특별시 동작구 여의대방로36길 105",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3150000-101-2024-00029",
@@ -3317,7 +3317,7 @@
       "mapSearchQuery": "서울특별시 강서구 금낭화로 146",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3000000-101-2023-00342",
@@ -3338,7 +3338,7 @@
       "mapSearchQuery": "서울특별시 종로구 서순라길 89-7",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3170000-101-2023-00179",
@@ -3359,7 +3359,7 @@
       "mapSearchQuery": "서울특별시 금천구 가산로7길 12",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3010000-101-2023-00277",
@@ -3380,7 +3380,7 @@
       "mapSearchQuery": "서울특별시 중구 마른내로6길 6",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3230000-101-2023-00153",
@@ -3401,7 +3401,7 @@
       "mapSearchQuery": "서울특별시 송파구 동남로6길 3",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3060000-101-2021-00337",
@@ -3422,7 +3422,7 @@
       "mapSearchQuery": "서울특별시 중랑구 용마산로 508",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3020000-101-2021-00188",
@@ -3443,7 +3443,7 @@
       "mapSearchQuery": "서울특별시 용산구 한강대로62길 45-25",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3070000-101-2021-00024",
@@ -3464,7 +3464,7 @@
       "mapSearchQuery": "서울특별시 성북구 종암로18길 16",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3220000-101-2019-00922",
@@ -3485,7 +3485,7 @@
       "mapSearchQuery": "서울특별시 강남구 봉은사로63길 7",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3040000-101-2017-00191",
@@ -3506,7 +3506,7 @@
       "mapSearchQuery": "서울특별시 광진구 아차산로29길 67",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3210000-101-2015-00335",
@@ -3527,7 +3527,7 @@
       "mapSearchQuery": "서울특별시 서초구 사평대로22길 9",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3000000-101-2010-00230",
@@ -3548,7 +3548,7 @@
       "mapSearchQuery": "서울특별시 종로구 지봉로 81",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3230000-101-2002-17313",
@@ -3569,7 +3569,7 @@
       "mapSearchQuery": "서울특별시 송파구 성내천로32길 20-3",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3210000-101-1993-13977",
@@ -3590,7 +3590,7 @@
       "mapSearchQuery": "서울특별시 서초구 신반포로45길 9-4",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3160000-101-2026-00161",
@@ -3611,7 +3611,7 @@
       "mapSearchQuery": "서울특별시 구로구 경인로 367",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3100000-101-2026-00135",
@@ -3632,7 +3632,7 @@
       "mapSearchQuery": "서울특별시 노원구 석계로1길 22",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3050000-101-2026-00169",
@@ -3653,7 +3653,7 @@
       "mapSearchQuery": "서울특별시 동대문구 장한로 199",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3130000-101-2026-00349",
@@ -3674,7 +3674,7 @@
       "mapSearchQuery": "서울특별시 마포구 신촌로 150",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3030000-101-2026-00150",
@@ -3695,7 +3695,7 @@
       "mapSearchQuery": "서울특별시 성동구 왕십리광장로 17",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3070000-101-2026-00163",
@@ -3716,7 +3716,7 @@
       "mapSearchQuery": "서울특별시 성북구 화랑로 92",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3070000-101-2026-00168",
@@ -3737,7 +3737,7 @@
       "mapSearchQuery": "서울특별시 성북구 성북로8가길 1",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3230000-101-2026-00338",
@@ -3758,7 +3758,7 @@
       "mapSearchQuery": "서울특별시 송파구 올림픽로 329",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3140000-101-2026-00170",
@@ -3779,7 +3779,7 @@
       "mapSearchQuery": "서울특별시 양천구 신목로12길 17",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3180000-101-2026-00338",
@@ -3800,7 +3800,7 @@
       "mapSearchQuery": "서울특별시 영등포구 도림로 438-8",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3120000-101-2026-00167",
@@ -3821,7 +3821,7 @@
       "mapSearchQuery": "서울특별시 서대문구 수색로2길 6",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3020000-101-2026-00135",
@@ -3842,7 +3842,7 @@
       "mapSearchQuery": "서울특별시 용산구 원효로 269",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3070000-101-2023-00171",
@@ -3863,7 +3863,7 @@
       "mapSearchQuery": "서울특별시 성북구 보문로32길 44",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3020000-101-2022-00263",
@@ -3884,7 +3884,7 @@
       "mapSearchQuery": "서울특별시 용산구 한강대로7길 10-13",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3190000-101-2021-00237",
@@ -3905,7 +3905,7 @@
       "mapSearchQuery": "서울특별시 동작구 노들로 674",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3100000-101-2021-00188",
@@ -3926,7 +3926,7 @@
       "mapSearchQuery": "서울특별시 노원구 동일로180길 37-5",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3000000-101-2020-00008",
@@ -3947,7 +3947,7 @@
       "mapSearchQuery": "서울특별시 종로구 돈화문로11다길 25",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3110000-101-2018-00164",
@@ -3968,7 +3968,7 @@
       "mapSearchQuery": "서울특별시 은평구 진관1로 21-39",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3230000-101-2014-00314",
@@ -3989,7 +3989,7 @@
       "mapSearchQuery": "서울특별시 송파구 올림픽로8길 20",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3000000-101-2011-00285",
@@ -4010,7 +4010,7 @@
       "mapSearchQuery": "서울특별시 종로구 돈화문로9가길 10-2",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3120000-101-2002-00216",
@@ -4031,7 +4031,7 @@
       "mapSearchQuery": "서울특별시 서대문구 충정로 43-4",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3000000-101-1985-06181",
@@ -4052,7 +4052,7 @@
       "mapSearchQuery": "서울특별시 종로구 종로 277",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3220000-101-2026-00499",
@@ -4073,7 +4073,7 @@
       "mapSearchQuery": "서울특별시 강남구 압구정로72길 11",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3240000-101-2026-00173",
@@ -4094,7 +4094,7 @@
       "mapSearchQuery": "서울특별시 강동구 진황도로47길 15",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3120000-101-2026-00172",
@@ -4115,7 +4115,7 @@
       "mapSearchQuery": "서울특별시 서대문구 신촌로37길 16",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3030000-101-2026-00148",
@@ -4136,7 +4136,7 @@
       "mapSearchQuery": "서울특별시 성동구 고산자로8길 20-1",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3230000-101-2026-00336",
@@ -4157,7 +4157,7 @@
       "mapSearchQuery": "서울특별시 송파구 올림픽로 329",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3000000-101-2026-00124",
@@ -4178,7 +4178,7 @@
       "mapSearchQuery": "서울특별시 종로구 청계천로 53",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3120000-101-2026-00159",
@@ -4199,7 +4199,7 @@
       "mapSearchQuery": "서울특별시 서대문구 명지대1길 34",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3000000-101-2026-00033",
@@ -4220,7 +4220,7 @@
       "mapSearchQuery": "서울특별시 종로구 서순라길 89-26",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3090000-101-2024-00136",
@@ -4241,7 +4241,7 @@
       "mapSearchQuery": "서울특별시 도봉구 해등로 130",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3120000-101-2023-00001",
@@ -4262,7 +4262,7 @@
       "mapSearchQuery": "서울특별시 서대문구 증가로24라길 38",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3140000-101-2020-00354",
@@ -4283,7 +4283,7 @@
       "mapSearchQuery": "서울특별시 양천구 남부순환로83길 17",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3170000-101-2018-00270",
@@ -4304,7 +4304,7 @@
       "mapSearchQuery": "서울특별시 금천구 시흥대로 291",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3210000-101-2015-00564",
@@ -4325,7 +4325,7 @@
       "mapSearchQuery": "서울특별시 서초구 동광로12가길 3",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3060000-101-2004-00266",
@@ -4346,7 +4346,7 @@
       "mapSearchQuery": "서울특별시 중랑구 봉화산로56길 86",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3190000-101-1999-03487",
@@ -4367,7 +4367,7 @@
       "mapSearchQuery": "서울특별시 동작구 상도로61가길 2",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3020000-101-1987-06167",
@@ -4388,7 +4388,7 @@
       "mapSearchQuery": "서울특별시 용산구 한강대로62가길 20",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3180000-101-1986-04751",
@@ -4409,7 +4409,7 @@
       "mapSearchQuery": "서울특별시 영등포구 가마산로 408",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3070000-101-1984-04736",
@@ -4430,7 +4430,7 @@
       "mapSearchQuery": "서울특별시 성북구 보문로34길 77",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3090000-101-2026-00071",
@@ -4451,7 +4451,7 @@
       "mapSearchQuery": "서울특별시 도봉구 우이천로32길 14",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3120000-101-2026-00170",
@@ -4472,7 +4472,7 @@
       "mapSearchQuery": "서울특별시 서대문구 가좌로 102",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3210000-101-2026-00213",
@@ -4493,7 +4493,7 @@
       "mapSearchQuery": "서울특별시 서초구 신반포로47길 33-3",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3140000-101-2026-00165",
@@ -4514,7 +4514,7 @@
       "mapSearchQuery": "서울특별시 양천구 월정로29길 23",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3010000-101-2026-00261",
@@ -4535,7 +4535,7 @@
       "mapSearchQuery": "서울특별시 중구 다산로 274",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3010000-101-2026-00259",
@@ -4556,7 +4556,7 @@
       "mapSearchQuery": "서울특별시 중구 마른내로 27",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3240000-101-2025-00243",
@@ -4577,7 +4577,7 @@
       "mapSearchQuery": "서울특별시 강동구 아리수로93나길 76",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3100000-101-2013-00256",
@@ -4598,7 +4598,7 @@
       "mapSearchQuery": "서울특별시 노원구 공릉로59가길 29-1",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3140000-101-2003-00333",
@@ -4619,7 +4619,7 @@
       "mapSearchQuery": "서울특별시 양천구 신월로15길 16",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3110000-101-2001-08127",
@@ -4640,7 +4640,7 @@
       "mapSearchQuery": "서울특별시 은평구 응암로9길 11",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3190000-101-1995-04851",
@@ -4661,7 +4661,7 @@
       "mapSearchQuery": "서울특별시 동작구 흑석로 99",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3040000-101-2026-00169",
@@ -4682,7 +4682,7 @@
       "mapSearchQuery": "서울특별시 광진구 아차산로62길 3",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3120000-101-2026-00169",
@@ -4703,7 +4703,7 @@
       "mapSearchQuery": "서울특별시 서대문구 연희맛로 3-4",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3080000-101-2024-00131",
@@ -4724,7 +4724,7 @@
       "mapSearchQuery": "서울특별시 강북구 솔샘로64길 24-3",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3070000-101-2021-00356",
@@ -4745,7 +4745,7 @@
       "mapSearchQuery": "서울특별시 성북구 서경로 60",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3160000-101-2026-00157",
@@ -4766,7 +4766,7 @@
       "mapSearchQuery": "서울특별시 구로구 경인로 208",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3090000-101-2026-00066",
@@ -4787,7 +4787,7 @@
       "mapSearchQuery": "서울특별시 도봉구 노해로63길 84-9",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3030000-101-2026-00146",
@@ -4808,7 +4808,7 @@
       "mapSearchQuery": "서울특별시 성동구 왕십리광장로 17",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3030000-101-2026-00145",
@@ -4829,7 +4829,7 @@
       "mapSearchQuery": "서울특별시 성동구 뚝섬로 404",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3140000-101-2026-00163",
@@ -4850,7 +4850,7 @@
       "mapSearchQuery": "서울특별시 양천구 목동중앙서로6길 20-19",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3110000-101-2026-00148",
@@ -4871,7 +4871,7 @@
       "mapSearchQuery": "서울특별시 은평구 연서로28길 11",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3010000-101-2026-00251",
@@ -4892,7 +4892,7 @@
       "mapSearchQuery": "서울특별시 중구 청계천로 360",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3030000-101-2026-00094",
@@ -4913,7 +4913,7 @@
       "mapSearchQuery": "서울특별시 성동구 동일로 143",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3180000-101-2024-00607",
@@ -4934,7 +4934,7 @@
       "mapSearchQuery": "서울특별시 영등포구 당산로49길 3",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3180000-101-2023-00527",
@@ -4955,7 +4955,7 @@
       "mapSearchQuery": "서울특별시 영등포구 가마산로69가길 2",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3010000-101-2023-00206",
@@ -4976,7 +4976,7 @@
       "mapSearchQuery": "서울특별시 중구 퇴계로81길 18",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3180000-101-2023-00232",
@@ -4997,7 +4997,7 @@
       "mapSearchQuery": "서울특별시 영등포구 영등포로 20-1",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3210000-101-2021-00271",
@@ -5018,7 +5018,7 @@
       "mapSearchQuery": "서울특별시 서초구 신반포로 177",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3010000-101-2016-00141",
@@ -5039,7 +5039,7 @@
       "mapSearchQuery": "서울특별시 중구 다산로 126",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3190000-101-2014-00203",
@@ -5060,7 +5060,7 @@
       "mapSearchQuery": "서울특별시 동작구 만양로 100",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3020000-101-2008-00133",
@@ -5081,7 +5081,7 @@
       "mapSearchQuery": "서울특별시 용산구 한강대로39길 2-7",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3100000-101-1991-06054",
@@ -5102,7 +5102,7 @@
       "mapSearchQuery": "서울특별시 노원구 한글비석로 269",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3120000-101-1973-07155",
@@ -5123,7 +5123,7 @@
       "mapSearchQuery": "서울특별시 서대문구 연희맛로 16",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3240000-101-2024-00073",
@@ -5144,7 +5144,7 @@
       "mapSearchQuery": "서울특별시 강동구 고덕로83길 32",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3110000-101-2025-00328",
@@ -5165,7 +5165,7 @@
       "mapSearchQuery": "서울특별시 은평구 응암로21가길 11",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3110000-101-2025-00290",
@@ -5186,7 +5186,7 @@
       "mapSearchQuery": "서울특별시 은평구 서오릉로11길 3",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3110000-101-2025-00277",
@@ -5207,7 +5207,7 @@
       "mapSearchQuery": "서울특별시 은평구 갈현로 256",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3060000-101-2025-00312",
@@ -5228,7 +5228,7 @@
       "mapSearchQuery": "서울특별시 중랑구 용마산로113길 32",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3060000-101-2025-00311",
@@ -5249,7 +5249,7 @@
       "mapSearchQuery": "서울특별시 중랑구 면목로48길 25",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3060000-101-2025-00302",
@@ -5270,7 +5270,7 @@
       "mapSearchQuery": "서울특별시 중랑구 용마산로 670",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3060000-101-2025-00283",
@@ -5291,7 +5291,7 @@
       "mapSearchQuery": "서울특별시 중랑구 동일로123길 5",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3120000-101-2022-00157",
@@ -5312,7 +5312,7 @@
       "mapSearchQuery": "서울특별시 서대문구 통일로9안길 20-2",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3240000-101-2025-00466",
@@ -5333,7 +5333,7 @@
       "mapSearchQuery": "서울특별시 강동구 고덕로 399",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3240000-101-2025-00456",
@@ -5354,7 +5354,7 @@
       "mapSearchQuery": "서울특별시 강동구 양재대로 1360",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3170000-101-2021-00112",
@@ -5375,7 +5375,7 @@
       "mapSearchQuery": "서울특별시 금천구 탑골로 5",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3140000-101-2022-00252",
@@ -5396,7 +5396,7 @@
       "mapSearchQuery": "서울특별시 양천구 목동동로 393",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3020000-101-2017-00389",
@@ -5417,7 +5417,7 @@
       "mapSearchQuery": "서울특별시 용산구 한강대로46길 19",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3140000-101-2025-00359",
@@ -5438,7 +5438,7 @@
       "mapSearchQuery": "서울특별시 양천구 목동동로 233-1",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3160000-101-2025-00374",
@@ -5459,7 +5459,7 @@
       "mapSearchQuery": "서울특별시 구로구 오류로 86",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3160000-101-2025-00371",
@@ -5480,7 +5480,7 @@
       "mapSearchQuery": "서울특별시 구로구 중앙로15길 126",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3160000-101-2025-00340",
@@ -5501,7 +5501,7 @@
       "mapSearchQuery": "서울특별시 구로구 신도림로 16",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3160000-101-2025-00308",
@@ -5522,7 +5522,7 @@
       "mapSearchQuery": "서울특별시 구로구 개봉로24길 46",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3170000-101-2025-00279",
@@ -5543,7 +5543,7 @@
       "mapSearchQuery": "서울특별시 금천구 남부순환로 1364",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3170000-101-2025-00265",
@@ -5564,7 +5564,7 @@
       "mapSearchQuery": "서울특별시 금천구 시흥대로2길 8",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3170000-101-2017-00230",
@@ -5585,7 +5585,7 @@
       "mapSearchQuery": "서울특별시 금천구 벚꽃로 30",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3150000-101-2025-00694",
@@ -5606,7 +5606,7 @@
       "mapSearchQuery": "서울특별시 강서구 공항대로51길 17-7",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3150000-101-2025-00647",
@@ -5627,7 +5627,7 @@
       "mapSearchQuery": "서울특별시 강서구 공항대로 308-7",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3150000-101-2025-00640",
@@ -5648,7 +5648,7 @@
       "mapSearchQuery": "서울특별시 강서구 강서로52길 43",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3150000-101-2025-00636",
@@ -5669,7 +5669,7 @@
       "mapSearchQuery": "서울특별시 강서구 양천로14길 24",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3150000-101-2025-00633",
@@ -5690,7 +5690,7 @@
       "mapSearchQuery": "서울특별시 강서구 공항대로 653-9",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3100000-101-2026-00103",
@@ -5711,7 +5711,7 @@
       "mapSearchQuery": "서울특별시 노원구 한글비석로 57",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3100000-101-2026-00100",
@@ -5732,7 +5732,7 @@
       "mapSearchQuery": "서울특별시 노원구 동일로204가길 34",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3100000-101-2026-00099",
@@ -5753,7 +5753,7 @@
       "mapSearchQuery": "서울특별시 노원구 중계로 202",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3050000-101-2026-00139",
@@ -5774,7 +5774,7 @@
       "mapSearchQuery": "서울특별시 동대문구 왕산로9길 23",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3050000-101-2024-00266",
@@ -5795,7 +5795,7 @@
       "mapSearchQuery": "서울특별시 동대문구 답십리로60길 74",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3190000-101-2004-00041",
@@ -5816,7 +5816,7 @@
       "mapSearchQuery": "서울특별시 동작구 동작대로25길 40",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3050000-101-2026-00137",
@@ -5837,7 +5837,7 @@
       "mapSearchQuery": "서울특별시 동대문구 왕산로 214",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3030000-101-2026-00120",
@@ -5858,7 +5858,7 @@
       "mapSearchQuery": "서울특별시 성동구 왕십리로24나길 14",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3190000-101-2026-00074",
@@ -5879,7 +5879,7 @@
       "mapSearchQuery": "서울특별시 동작구 흑석로 81-4",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3090000-101-2025-00199",
@@ -5900,7 +5900,7 @@
       "mapSearchQuery": "서울특별시 도봉구 도봉로156길 9",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3090000-101-2025-00062",
@@ -5921,7 +5921,7 @@
       "mapSearchQuery": "서울특별시 도봉구 도당로 7",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3090000-101-2020-00180",
@@ -5942,7 +5942,7 @@
       "mapSearchQuery": "서울특별시 도봉구 해등로 164",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3200000-101-2026-00168",
@@ -5963,7 +5963,7 @@
       "mapSearchQuery": "서울특별시 관악구 남현4길 22",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3200000-101-2026-00126",
@@ -5984,7 +5984,7 @@
       "mapSearchQuery": "서울특별시 관악구 남현3길 8",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3200000-101-2026-00119",
@@ -6005,7 +6005,7 @@
       "mapSearchQuery": "서울특별시 관악구 승방4길 20",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3080000-101-2013-00264",
@@ -6026,7 +6026,7 @@
       "mapSearchQuery": "서울특별시 강북구 도봉로96나길 16",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3090000-101-2020-00143",
@@ -6047,7 +6047,7 @@
       "mapSearchQuery": "서울특별시 도봉구 도봉로180길 20",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3090000-101-2010-00109",
@@ -6068,7 +6068,7 @@
       "mapSearchQuery": "서울특별시 도봉구 도봉산3길 73",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3080000-101-2021-00053",
@@ -6089,7 +6089,7 @@
       "mapSearchQuery": "서울특별시 강북구 도봉로98길 40",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3080000-101-2021-00220",
@@ -6110,7 +6110,7 @@
       "mapSearchQuery": "서울특별시 강북구 삼양로 689",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3080000-101-2017-00279",
@@ -6131,7 +6131,7 @@
       "mapSearchQuery": "서울특별시 강북구 삼양로173길 47",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3080000-101-2013-00016",
@@ -6152,7 +6152,7 @@
       "mapSearchQuery": "서울특별시 강북구 삼양로 541",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3200000-101-2026-00161",
@@ -6173,7 +6173,7 @@
       "mapSearchQuery": "서울특별시 관악구 신림로14길 3",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3200000-101-2026-00011",
@@ -6194,7 +6194,7 @@
       "mapSearchQuery": "서울특별시 관악구 장군봉1길 56",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3200000-101-2026-00008",
@@ -6215,7 +6215,7 @@
       "mapSearchQuery": "서울특별시 관악구 장군봉1길 56",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3170000-101-2026-00105",
@@ -6236,7 +6236,7 @@
       "mapSearchQuery": "서울특별시 금천구 독산로 84",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3170000-101-2026-00108",
@@ -6257,7 +6257,7 @@
       "mapSearchQuery": "서울특별시 금천구 가산디지털2로 142-16",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3140000-101-2025-00197",
@@ -6278,7 +6278,7 @@
       "mapSearchQuery": "서울특별시 양천구 중앙로32길 21",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3140000-101-2025-00021",
@@ -6299,7 +6299,7 @@
       "mapSearchQuery": "서울특별시 양천구 신정중앙로 68",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     },
     {
       "id": "seoul-food-3140000-101-2026-00166",
@@ -6320,7 +6320,7 @@
       "mapSearchQuery": "서울특별시 양천구 오목로 129",
       "sourceLabel": "서울 열린데이터광장 일반음식점 인허가 정보",
       "sourceUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-      "collectedAt": "2026-05-31T22:51:01.734Z"
+      "collectedAt": "2026-06-01T23:10:56.687Z"
     }
   ]
 }

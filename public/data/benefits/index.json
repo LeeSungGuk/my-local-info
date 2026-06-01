@@ -10,9 +10,9 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-05-30T22:50:27.594Z",
+    "collectedAt": "2026-06-01T23:10:42.256Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10957,
+    "availableCount": 10954,
     "fetchedCount": 1125,
     "activeCount": 1089,
     "expiredCount": 36,
@@ -21,6 +21,65 @@
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-320000000119",
+      "sourceId": "320000000119",
+      "title": "국가보훈대상자 보훈수당",
+      "field": "생활안정",
+      "provider": "서울특별시 관악구",
+      "providerType": "자치구",
+      "district": "관악구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 보훈예우수당\n   - 지급대상: 관악구에 거주하는 국가유공자 본인 및 선순위 유족\n   - 지 급 액: 월 8만원\n   - 지급방법: 지급대상자 본인 실명의 계좌입금\n\n○ 배우자복지수당\n   - 지급대상: 관악구에 거주하는 사망한 참전유공자의 배우자\n   - 지…",
+      "summary": "서울특별시 관악구에서 제공하는 생활안정 혜택입니다. 국가유공자 및 선순위유족에게 매월 25일 보훈수당 지급",
+      "supportType": "현금",
+      "supportSummary": "○ 보훈예우수당\n   - 지급대상: 관악구에 거주하는 국가유공자 본인 및 선순위 유족\n   - 지 급 액: 월 8만원\n   - 지급방법: 지급대상자 본인 실명의 계좌입금\n\n○ 배우자복지수당\n   - 지급대상: 관악구에 거주하는 사망한 참전유공자의 배우자 (보훈예우수당…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000119",
+      "onlineUrl": "",
+      "inquiry": [
+        "복지정책과/02-879-5854"
+      ],
+      "updatedAt": "2026-06-01",
+      "registeredAt": "2023-08-23"
+    },
+    {
+      "id": "gov-benefit-302000000121",
+      "sourceId": "302000000121",
+      "title": "전문가 무료상담 서비스",
+      "field": "행정·안전",
+      "provider": "서울특별시 용산구",
+      "providerType": "자치구",
+      "district": "용산구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "용산구민, 용산구 소재 사업자(근로자), 건축주 용산구청 직원 등",
+      "summary": "서울특별시 용산구에서 제공하는 행정·안전 혜택입니다. 법률·세무 등 구민생활 밀접분야에 대해 전문가 상담실을 운영함으로써 구민 권익 보호 및 권리 구제에 기여",
+      "supportType": "기타(상담)",
+      "supportSummary": "○ 전문가 무료상담 서비스 \n  - 장소 : 용산구청 전문가 무료상담실 (2층) \n  - 대상 : 용산구민, 관내 사업자 및 근로자 등 \n  - 운영요일 : 매주 화~목\n  - 상담분야 \n    ㆍ대면상담 : 5가지 (법률, 세무, 건축, 부동산, 법무)\n    ㆍ온…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "기타 온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/302000000121",
+      "onlineUrl": "https://www.yongsan.go.kr/portal/bbs/B0000207/selectList.do?menuNo=201024",
+      "inquiry": [
+        "용산구청 민원여권과/02-2199-6524"
+      ],
+      "updatedAt": "2026-06-01",
+      "registeredAt": "2025-07-11"
+    },
     {
       "id": "gov-benefit-304000000158",
       "sourceId": "304000000158",
@@ -9852,35 +9911,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-320000000119",
-      "sourceId": "320000000119",
-      "title": "국가보훈대상자 보훈수당",
-      "field": "생활안정",
-      "provider": "서울특별시 관악구",
-      "providerType": "자치구",
-      "district": "관악구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 보훈예우수당\n   - 지급대상: 관악구에 거주하는 국가유공자 본인 및 선순위 유족\n   - 지 급 액: 월 7만원\n   - 지급방법: 지급대상자 본인 실명의 계좌입금\n\n○ 배우자복지수당\n   - 지급대상: 관악구에 거주하는 사망한 참전유공자의 배우자\n   - 지…",
-      "summary": "서울특별시 관악구에서 제공하는 생활안정 혜택입니다. 국가유공자 및 선순위유족에게 매월 25일 보훈수당 지급",
-      "supportType": "현금",
-      "supportSummary": "○ 보훈예우수당\n   - 지급대상: 관악구에 거주하는 국가유공자 본인 및 선순위 유족\n   - 지 급 액: 월 8만원\n   - 지급방법: 지급대상자 본인 실명의 계좌입금\n\n○ 배우자복지수당\n   - 지급대상: 관악구에 거주하는 사망한 참전유공자의 배우자 (보훈예우수당…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000119",
-      "onlineUrl": "",
-      "inquiry": [
-        "복지정책과/02-879-5854"
-      ],
-      "updatedAt": "2026-04-30",
-      "registeredAt": "2023-08-23"
-    },
-    {
       "id": "gov-benefit-320000000121",
       "sourceId": "320000000121",
       "title": "국가보훈대상자 사망위로금",
@@ -18630,36 +18660,6 @@
       ],
       "updatedAt": "2026-04-27",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-302000000121",
-      "sourceId": "302000000121",
-      "title": "전문가 무료상담 서비스",
-      "field": "행정·안전",
-      "provider": "서울특별시 용산구",
-      "providerType": "자치구",
-      "district": "용산구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "용산구민, 용산구 소재 사업자(근로자), 건축주 용산구청 직원 등",
-      "summary": "서울특별시 용산구에서 제공하는 행정·안전 혜택입니다. 법률·세무 등 구민생활 밀접분야에 대해 전문가 상담실을 운영함으로써 구민 권익 보호 및 권리 구제에 기여",
-      "supportType": "기타(상담)",
-      "supportSummary": "○ 전문가 무료상담 서비스 \n  - 장소 : 용산구청 전문가 무료상담실 (2층) \n  - 대상 : 용산구민, 관내 사업자 및 근로자 등 \n  - 운영요일 : 매주 화~목\n  - 상담분야 \n    ㆍ대면상담 : 5가지 (법률, 세무, 건축, 부동산, 법무)\n    ㆍ온…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "기타 온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/302000000121",
-      "onlineUrl": "https://www.yongsan.go.kr/portal/bbs/B0000207/selectList.do?menuNo=201024",
-      "inquiry": [
-        "용산구청 민원여권과/02-2199-6524"
-      ],
-      "updatedAt": "2026-04-27",
-      "registeredAt": "2025-07-11"
     },
     {
       "id": "gov-benefit-300000000107",

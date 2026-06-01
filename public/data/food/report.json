@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T22:51:01.734Z",
+  "generatedAt": "2026-06-01T23:10:56.687Z",
   "source": {
     "provider": "서울 열린데이터광장",
     "dataset": "서울시 일반음식점 인허가 정보",
@@ -7,7 +7,7 @@
     "officialUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
     "availableCount": 533550,
     "fetchedCount": 533550,
-    "activeCount": 120552,
+    "activeCount": 120551,
     "selectedCount": 300,
     "sampleMode": false,
     "pageSize": 1000,
@@ -18,9 +18,9 @@
   },
   "changes": {
     "previousSelectedCount": 300,
-    "addedCount": 94,
-    "removedCount": 94,
-    "unchangedCount": 206
+    "addedCount": 0,
+    "removedCount": 0,
+    "unchangedCount": 300
   },
   "quality": {
     "averageScore": 69,
