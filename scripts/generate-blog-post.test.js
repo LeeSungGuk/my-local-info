@@ -22,6 +22,7 @@ const {
   parseGeneratedBlogPostResponse,
   reportMissingOfficialPlaceSources,
   resolveOfficialPlaceLinks,
+  shouldKeepExistingOnBlogGenerationFailure,
 } = require("./generate-blog-post");
 
 function createTempQueuePath() {
@@ -312,6 +313,90 @@ test("generateBlogPost sends a JSON schema and rejects truncated Gemini response
     "body",
     "filename",
   ]);
+});
+
+test("generateBlogPost retries retryable Gemini API failures before succeeding", async () => {
+  let requestCount = 0;
+  const retryDelays = [];
+
+  const response = await generateBlogPost(
+    {
+      id: "seoul-global-village-trip",
+      titleHint: "서울 속 세계 문화 산책",
+      tags: ["서울산책"],
+    },
+    "2026-06-04",
+    {
+      retryCount: 1,
+      retryBaseDelayMs: 1,
+      retryMaxDelayMs: 1,
+      sleepImpl(delayMs) {
+        retryDelays.push(delayMs);
+        return Promise.resolve();
+      },
+      async fetchImpl() {
+        requestCount += 1;
+
+        if (requestCount === 1) {
+          return {
+            ok: false,
+            status: 429,
+            statusText: "Too Many Requests",
+            headers: {
+              get(name) {
+                return name.toLowerCase() === "retry-after" ? "1" : null;
+              },
+            },
+            async text() {
+              return '{"error":{"message":"quota exceeded"}}';
+            },
+          };
+        }
+
+        return {
+          ok: true,
+          async json() {
+            return {
+              candidates: [
+                {
+                  finishReason: "STOP",
+                  content: {
+                    parts: [{ text: '{"title":"서울 속 세계 문화 산책"}' }],
+                  },
+                },
+              ],
+            };
+          },
+        };
+      },
+    }
+  );
+
+  assert.equal(requestCount, 2);
+  assert.deepEqual(retryDelays, [1]);
+  assert.equal(response, '{"title":"서울 속 세계 문화 산책"}');
+});
+
+test("shouldKeepExistingOnBlogGenerationFailure enables only explicit keep-existing modes", () => {
+  assert.equal(shouldKeepExistingOnBlogGenerationFailure("keep-existing"), true);
+  assert.equal(shouldKeepExistingOnBlogGenerationFailure("keep_existing"), true);
+  assert.equal(shouldKeepExistingOnBlogGenerationFailure("skip"), true);
+  assert.equal(shouldKeepExistingOnBlogGenerationFailure("fail"), false);
+  assert.equal(shouldKeepExistingOnBlogGenerationFailure(""), false);
+  assert.equal(
+    shouldKeepExistingOnBlogGenerationFailure(
+      "keep-existing",
+      new Error("Gemini API 오류: 429 Too Many Requests")
+    ),
+    true
+  );
+  assert.equal(
+    shouldKeepExistingOnBlogGenerationFailure(
+      "keep-existing",
+      new Error("환경변수 GEMINI_API_KEY가 설정되지 않았습니다.")
+    ),
+    false
+  );
 });
 
 test("createGeneratedPostMarkdown assembles frontmatter in code from JSON payload", () => {

@@ -61,6 +61,21 @@ const TOPIC_GENERATION_MODEL = process.env.GEMINI_BLOG_TOPIC_MODEL || BLOG_GENER
 const MINIMUM_PENDING_TOPICS = Number(process.env.BLOG_TOPIC_MIN_PENDING || 7);
 const TARGET_PENDING_TOPICS = Number(process.env.BLOG_TOPIC_TARGET_PENDING || 15);
 const MAX_TOPIC_GENERATION_BATCH = Number(process.env.BLOG_TOPIC_MAX_BATCH || 10);
+const GEMINI_REQUEST_RETRY_COUNT = Number(process.env.GEMINI_REQUEST_RETRY_COUNT || 3);
+const GEMINI_REQUEST_RETRY_BASE_DELAY_MS = Number(process.env.GEMINI_REQUEST_RETRY_BASE_DELAY_MS || 2000);
+const GEMINI_REQUEST_RETRY_MAX_DELAY_MS = Number(process.env.GEMINI_REQUEST_RETRY_MAX_DELAY_MS || 30000);
+
+class GeminiApiError extends Error {
+  constructor({ status, statusText, body }) {
+    const bodyPreview = getResponsePreview(body, 300);
+    const suffix = bodyPreview ? `. 응답: ${bodyPreview}` : "";
+    super(`Gemini API 오류: ${status} ${statusText}${suffix}`);
+    this.name = "GeminiApiError";
+    this.status = status;
+    this.statusText = statusText;
+    this.body = body;
+  }
+}
 
 function getSeoulDateParts(date = new Date()) {
   const formatter = new Intl.DateTimeFormat("en-CA", {
@@ -195,6 +210,138 @@ function getResponsePreview(value, maxLength = 500) {
     .trim();
 
   return preview.length > maxLength ? `${preview.slice(0, maxLength)}...` : preview;
+}
+
+function isRetryableGeminiStatus(status) {
+  return status === 429 || (status >= 500 && status < 600);
+}
+
+function parseRetryAfterMs(headers) {
+  const retryAfter =
+    typeof headers?.get === "function" ? headers.get("retry-after") || headers.get("Retry-After") : "";
+
+  if (!retryAfter) {
+    return null;
+  }
+
+  const retryAfterSeconds = Number(retryAfter);
+
+  if (Number.isFinite(retryAfterSeconds) && retryAfterSeconds >= 0) {
+    return retryAfterSeconds * 1000;
+  }
+
+  const retryAfterDateMs = Date.parse(retryAfter);
+
+  if (Number.isFinite(retryAfterDateMs)) {
+    return Math.max(0, retryAfterDateMs - Date.now());
+  }
+
+  return null;
+}
+
+function getGeminiRetryDelayMs({ attempt, retryAfterMs, baseDelayMs, maxDelayMs }) {
+  if (retryAfterMs !== null) {
+    return Math.min(retryAfterMs, maxDelayMs);
+  }
+
+  return Math.min(baseDelayMs * 2 ** attempt, maxDelayMs);
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  });
+}
+
+async function readResponseText(response) {
+  if (typeof response?.text !== "function") {
+    return "";
+  }
+
+  try {
+    return await response.text();
+  } catch {
+    return "";
+  }
+}
+
+async function fetchGeminiJson(url, requestOptions, options = {}) {
+  const fetchImpl = options.fetchImpl || fetch;
+  const retryCount =
+    typeof options.retryCount === "number" ? options.retryCount : GEMINI_REQUEST_RETRY_COUNT;
+  const retryBaseDelayMs =
+    typeof options.retryBaseDelayMs === "number"
+      ? options.retryBaseDelayMs
+      : GEMINI_REQUEST_RETRY_BASE_DELAY_MS;
+  const retryMaxDelayMs =
+    typeof options.retryMaxDelayMs === "number"
+      ? options.retryMaxDelayMs
+      : GEMINI_REQUEST_RETRY_MAX_DELAY_MS;
+  const sleepImpl = options.sleepImpl || sleep;
+
+  for (let attempt = 0; attempt <= retryCount; attempt += 1) {
+    const response = await fetchImpl(url, requestOptions);
+
+    if (response.ok) {
+      return response.json();
+    }
+
+    const responseText = await readResponseText(response);
+    const error = new GeminiApiError({
+      status: response.status,
+      statusText: response.statusText,
+      body: responseText,
+    });
+
+    if (!isRetryableGeminiStatus(response.status) || attempt === retryCount) {
+      throw error;
+    }
+
+    const delayMs = getGeminiRetryDelayMs({
+      attempt,
+      retryAfterMs: parseRetryAfterMs(response.headers),
+      baseDelayMs: retryBaseDelayMs,
+      maxDelayMs: retryMaxDelayMs,
+    });
+    console.warn(
+      `⚠️ Gemini API ${response.status} 응답. ${Math.round(delayMs / 1000)}초 후 재시도합니다. (${attempt + 1}/${retryCount})`
+    );
+    await sleepImpl(delayMs);
+  }
+
+  throw new Error("Gemini API 요청 재시도 처리에 실패했습니다.");
+}
+
+function isRecoverableBlogGenerationError(error) {
+  if (error instanceof GeminiApiError) {
+    return true;
+  }
+
+  const message = String(error?.message || "");
+  return (
+    message.includes("Gemini API 오류") ||
+    message.includes("Gemini 응답") ||
+    message.includes("Gemini 주제 응답") ||
+    message.includes("블로그 생성 응답")
+  );
+}
+
+function shouldKeepExistingOnBlogGenerationFailure(
+  mode = process.env.BLOG_GENERATION_FAILURE_MODE || "fail",
+  error = null
+) {
+  const normalizedMode = String(mode || "")
+    .trim()
+    .toLowerCase()
+    .replace(/_/g, "-");
+
+  const isKeepExistingMode = normalizedMode === "keep-existing" || normalizedMode === "skip";
+
+  if (!isKeepExistingMode) {
+    return false;
+  }
+
+  return error ? isRecoverableBlogGenerationError(error) : true;
 }
 
 function parseGeneratedBlogPostResponse(value, options = {}) {
@@ -509,33 +656,37 @@ ${JSON.stringify(topic, null, 2)}
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${BLOG_GENERATION_MODEL}:generateContent?key=${process.env.GEMINI_API_KEY}`;
 
   console.log(`🤖 Gemini AI로 서울 정보글 생성 중... (${topic.id}, ${BLOG_GENERATION_MODEL})`);
-  const res = await fetchImpl(url, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      contents: [{ parts: [{ text: prompt }] }],
-      generationConfig: {
-        responseMimeType: "application/json",
-        responseSchema: {
-          type: "OBJECT",
-          required: ["title", "summary", "body", "filename"],
-          properties: {
-            title: { type: "STRING" },
-            summary: { type: "STRING" },
-            body: { type: "STRING" },
-            filename: { type: "STRING" },
+  const json = await fetchGeminiJson(
+    url,
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        contents: [{ parts: [{ text: prompt }] }],
+        generationConfig: {
+          responseMimeType: "application/json",
+          responseSchema: {
+            type: "OBJECT",
+            required: ["title", "summary", "body", "filename"],
+            properties: {
+              title: { type: "STRING" },
+              summary: { type: "STRING" },
+              body: { type: "STRING" },
+              filename: { type: "STRING" },
+            },
+            propertyOrdering: ["title", "summary", "body", "filename"],
           },
-          propertyOrdering: ["title", "summary", "body", "filename"],
         },
-      },
-    }),
-  });
-
-  if (!res.ok) {
-    throw new Error(`Gemini API 오류: ${res.status} ${res.statusText}`);
-  }
-
-  const json = await res.json();
+      }),
+    },
+    {
+      fetchImpl,
+      retryCount: options.retryCount,
+      retryBaseDelayMs: options.retryBaseDelayMs,
+      retryMaxDelayMs: options.retryMaxDelayMs,
+      sleepImpl: options.sleepImpl,
+    }
+  );
   const candidate = json.candidates?.[0];
   const finishReason = candidate?.finishReason;
 
@@ -618,6 +769,12 @@ async function main() {
   } catch (error) {
     console.error("❌ 오류 발생:", error.message);
     console.log("기존 파일을 유지합니다.");
+
+    if (shouldKeepExistingOnBlogGenerationFailure(undefined, error)) {
+      console.warn("⚠️ BLOG_GENERATION_FAILURE_MODE=keep-existing 설정에 따라 배포를 계속 진행합니다.");
+      return;
+    }
+
     process.exit(1);
   }
 }
@@ -628,6 +785,7 @@ if (require.main === module) {
 
 module.exports = {
   appendOfficialSourceLinks,
+  fetchGeminiJson,
   generateBlogPost,
   getExistingPosts,
   getMissingOfficialPlaceNames,
@@ -642,4 +800,5 @@ module.exports = {
   reportMissingOfficialPlaceSources,
   resolveOfficialPlaceLinks,
   savePost,
+  shouldKeepExistingOnBlogGenerationFailure,
 };
