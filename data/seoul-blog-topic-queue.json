@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-06-02T08:30:15+09:00",
+  "lastGeneratedAt": "2026-06-05T11:14:41+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -1029,9 +1029,9 @@
         "해외여행기분"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-05-21T08:18:05+09:00",
-      "usedAt": null
+      "usedAt": "2026-06-05T11:14:41+09:00"
     },
     {
       "id": "seoul-free-city-observatories",
