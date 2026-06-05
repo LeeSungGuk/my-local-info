@@ -10,6 +10,7 @@ const {
   parseEventsPayload,
   parseSeoulOpenApiErrorText,
   resolveEventsApiConfig,
+  resolveEventsStartDate,
 } = require("./fetch-seoul-events.js");
 
 test("does not reuse the public data API key as a Seoul events API key", () => {
@@ -105,6 +106,14 @@ test("detects paid event fee text even when the source flag says free", () => {
 
 test("formats today's date in Seoul timezone", () => {
   assert.equal(getTodayInSeoul(new Date("2026-05-21T15:30:00.000Z")), "2026-05-22");
+});
+
+test("resolves event start date from env or today's date in Seoul", () => {
+  assert.equal(
+    resolveEventsStartDate({ EVENTS_START_DATE: "2026-04-01" }, new Date("2026-05-21T15:30:00.000Z")),
+    "2026-04-01"
+  );
+  assert.equal(resolveEventsStartDate({}, new Date("2026-05-21T15:30:00.000Z")), "2026-05-22");
 });
 
 test("filters out events that ended before the visibility date", () => {

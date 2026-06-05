@@ -5,14 +5,15 @@ on:
     branches:
       - main
   schedule:
-    - cron: '30 22 * * *'  # 매일 UTC 22:30 = 한국시간 오전 7:30, 행사/혜택/먹거리 동기화 + 서울 정보글 1건 생성
+    - cron: '30 22 * * *'  # 매일 UTC 22:30 = 한국시간 오전 7:30, 행사/혜택 동기화 + 서울 정보글 1건 생성
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  # ─── 스케줄/수동 실행: 행사/혜택/먹거리 수집 → 서울 정보글 생성 → 검증 → 커밋 → 배포 ───
+  # ─── 스케줄/수동 실행: 행사/혜택 수집 → 서울 정보글 생성 → 검증 → 커밋 → 배포 ───
+  # 음식점 인허가 데이터는 조회량이 커서 한국시간 매월 1일 또는 수동 실행에서만 수집합니다.
   update-and-deploy:
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
@@ -30,11 +31,21 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Resolve scheduled sync scope
+        id: sync-scope
+        run: |
+          seoul_day="$(TZ=Asia/Seoul date +%d)"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$seoul_day" = "01" ]; then
+            echo "run_food=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run_food=false" >> "$GITHUB_OUTPUT"
+          fi
+          echo "seoul_day=$seoul_day" >> "$GITHUB_OUTPUT"
+
       - name: Fetch Seoul events
         run: npm run fetch:seoul-events
         env:
           SEOUL_OPEN_DATA_API_KEY: ${{ secrets.SEOUL_OPEN_DATA_API_KEY }}
-          EVENTS_START_DATE: "2026-04-01"
           EVENTS_FETCH_FAILURE_MODE: "keep-existing"
 
       - name: Fetch public benefits
@@ -43,6 +54,7 @@ jobs:
           PUBLIC_DATA_API_KEY: ${{ secrets.PUBLIC_DATA_API_KEY }}
 
       - name: Fetch Seoul food places
+        if: steps.sync-scope.outputs.run_food == 'true'
         run: npm run fetch:seoul-food
         env:
           SEOUL_OPEN_DATA_API_KEY: ${{ secrets.SEOUL_OPEN_DATA_API_KEY }}
@@ -50,6 +62,10 @@ jobs:
           FOOD_FETCH_FAILURE_MODE: "keep-existing"
           FOOD_REQUEST_TIMEOUT_MS: "60000"
           FOOD_REQUEST_RETRY_COUNT: "3"
+
+      - name: Skip Seoul food places
+        if: steps.sync-scope.outputs.run_food != 'true'
+        run: echo "일반음식점 데이터는 한국시간 매월 1일 또는 수동 실행에서만 수집합니다."
 
       - name: Generate blog post
         run: node scripts/generate-blog-post.js

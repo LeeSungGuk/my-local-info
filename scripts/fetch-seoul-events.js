@@ -71,7 +71,7 @@ const API_KEY = API_CONFIG.apiKey;
 const SAMPLE_MODE = API_CONFIG.sampleMode;
 const SKIP_MODE = API_CONFIG.skipMode;
 const FETCH_FAILURE_MODE = API_CONFIG.fetchFailureMode;
-const START_DATE_FILTER = process.env.EVENTS_START_DATE || "2026-04-01";
+const START_DATE_FILTER = resolveEventsStartDate(process.env);
 const PAGE_SIZE = Number(process.env.EVENTS_PAGE_SIZE || (SAMPLE_MODE ? 5 : 1000));
 const REQUEST_TIMEOUT_MS = Number(process.env.EVENTS_REQUEST_TIMEOUT_MS || 30000);
 const REQUEST_RETRY_COUNT = Number(process.env.EVENTS_REQUEST_RETRY_COUNT || 2);
@@ -94,6 +94,11 @@ function getTodayInSeoul(date = new Date()) {
   const day = getDatePart(formatter, date, "day");
 
   return `${year}-${month}-${day}`;
+}
+
+function resolveEventsStartDate(env = process.env, date = new Date()) {
+  const configuredStartDate = String(env.EVENTS_START_DATE || "").trim();
+  return configuredStartDate || getTodayInSeoul(date);
 }
 
 function toDateOnly(value) {
@@ -567,6 +572,7 @@ module.exports = {
   parseEventsPayload,
   parseSeoulOpenApiErrorText,
   resolveEventsApiConfig,
+  resolveEventsStartDate,
   sortEvents,
   toDateOnly,
 };
