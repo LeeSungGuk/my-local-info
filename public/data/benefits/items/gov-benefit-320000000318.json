@@ -1,0 +1,47 @@
+{
+  "id": "gov-benefit-320000000318",
+  "sourceId": "320000000318",
+  "title": "국내 입양가정 입양축하금 지원",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 관악구",
+  "providerType": "자치구",
+  "district": "관악구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 「국내입양에 관한 특별법」에 의해 보호대상아동을 신규 입양한 가정",
+  "summary": "서울특별시 관악구에서 제공하는 보호·돌봄 혜택입니다. 보호대상아동이 입양된 후 가정생활에 원만하게 적응할 수 있도록 입양가정을 지원함으로써 국내입양을 활성화하고 입양아동의 권익과 복지를 증진하고자 함.",
+  "supportType": "현금",
+  "supportSummary": "○ 초기 양육비용 부담을 완화하고 안정적인 양육지원을 위해 입양축하금 지원\n- 200만원(1회)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "정부24온라인신청",
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000318",
+  "onlineUrl": "",
+  "inquiry": [
+    "관악구청(아동청소년과)/02-879-6145"
+  ],
+  "updatedAt": "2026-06-05",
+  "registeredAt": "2026-06-01",
+  "viewCount": 0,
+  "collectedAt": "2026-06-05T22:52:12.462Z",
+  "purpose": "보호대상아동이 입양된 후 가정생활에 원만하게 적응할 수 있도록 입양가정을 지원함으로써 국내입양을 활성화하고 입양아동의 권익과 복지를 증진하고자 함.",
+  "target": "○ 「국내입양에 관한 특별법」에 의해 보호대상아동을 신규 입양한 가정",
+  "selectionCriteria": "",
+  "supportContent": "○ 초기 양육비용 부담을 완화하고 안정적인 양육지원을 위해 입양축하금 지원\n- 200만원(1회)",
+  "applicationMethod": "○ 온라인 신청 \n- 정부24 온라인 신청\n- 문의:  관악구청 아동청소년과 아동보호팀(관악구 관악로 145, 별관 5층)",
+  "documents": "○ 신청인의 신분증명서(주민등록증, 운전면허증, 여권 등) 사본 1부\n○ 신청인 통장 사본 1부\n○ 입양아동임을 증명하는 서류(확정증명서 등) 1부",
+  "officialDocuments": "○ 주민등록등본",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "국내입양에 관한 특별법 시행령",
+    "국내입양에 관한 특별법 시행규칙"
+  ],
+  "ordinance": "서울특별시 입양가정 지원에 관한 조례",
+  "inquiryText": "관악구청(아동청소년과)/02-879-6145",
+  "ageMin": 19,
+  "ageMax": 120
+}
