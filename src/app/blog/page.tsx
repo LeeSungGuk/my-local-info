@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import CoupangBanner from "@/components/CoupangBanner";
 import { getAllPosts } from "@/lib/posts";
 
 export const metadata = {
@@ -87,8 +86,6 @@ export default function BlogListPage() {
                 </article>
               ))}
             </div>
-
-            <CoupangBanner className="mt-10" />
           </>
         )}
       </div>
