@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-06-07T07:51:34+09:00",
+  "lastGeneratedAt": "2026-06-08T07:51:49+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -1089,9 +1089,9 @@
         "가치소비"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-05-21T08:18:05+09:00",
-      "usedAt": null
+      "usedAt": "2026-06-08T07:51:49+09:00"
     },
     {
       "id": "seoul-independent-bookshops",
