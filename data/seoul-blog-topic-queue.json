@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-06-11T08:05:41+09:00",
+  "lastGeneratedAt": "2026-06-12T08:05:34+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -1173,9 +1173,9 @@
         "시간여행"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-06-01T08:06:32+09:00",
-      "usedAt": null
+      "usedAt": "2026-06-12T08:05:34+09:00"
     },
     {
       "id": "seoul-indoor-greenhouses",
@@ -1280,6 +1280,199 @@
       "origin": "ai",
       "status": "pending",
       "createdAt": "2026-06-01T08:06:32+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-vintage-book-hunting",
+      "titleHint": "헌책방 특유의 종이 냄새를 맡으며 보물찾기 하기 좋은 서울 책방 거리",
+      "topicCategory": "취향나들이",
+      "angle": "대형서점에서는 살 수 없는 단종된 도서나 옛 감성의 옛날 책을 헌책방에서 찾아보는 아날로그 취향의 시간",
+      "places": [
+        "청계천 헌책방거리",
+        "송파 서울책보고",
+        "신촌 글벗서점"
+      ],
+      "tags": [
+        "헌책방",
+        "아날로그감성",
+        "책방투어",
+        "서울책보고",
+        "빈티지"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-06-12T08:05:34+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-museum-gardens",
+      "titleHint": "전시를 보지 않아도 좋은, 수려한 조경을 품은 서울 미술관·박물관 야외 정원",
+      "topicCategory": "휴식공간",
+      "angle": "북적이는 공원 대안으로 조각품과 잘 가꿔진 자연 조경을 조용히 감상하며 마음을 차분히 정리할 수 있는 쉼터",
+      "places": [
+        "국립중앙박물관 거울못 정원",
+        "소마미술관 야외조각공원",
+        "서울시립미술관 서소문본관 야외정원"
+      ],
+      "tags": [
+        "미술관정원",
+        "야외조각공원",
+        "조용한쉼터",
+        "정원산책"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-06-12T08:05:34+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-hillside-view-cafes",
+      "titleHint": "가파른 언덕 위에서만 누릴 수 있는 탁 트인 서울 시티뷰 카페 거리",
+      "topicCategory": "뷰포인트",
+      "angle": "골목길 끝 고지대에 위치하여 막힘없는 서울 도심 전경을 한눈에 조망할 수 있는 뷰 맛집 골목 탐방",
+      "places": [
+        "창신동 낙산성곽길 카페거리",
+        "해방촌 신흥시장 루프탑 카페",
+        "부암동 산모퉁이 카페 일대"
+      ],
+      "tags": [
+        "루프탑카페",
+        "전망좋은카페",
+        "시티뷰",
+        "언덕길산책",
+        "성곽길"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-06-12T08:05:34+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-kidult-retro-play",
+      "titleHint": "어린 시절 추억 여행, 키덜트를 위한 서울 레트로 완구 및 오락 성지",
+      "topicCategory": "생활취향",
+      "angle": "피규어, 프라모델, 레트로 게임 등 추억 속 장난감을 구경하고 나만의 전리품을 수집하는 어른이들을 위한 장소",
+      "places": [
+        "창신동 문구완구시장",
+        "국제전자센터 피규어 상가",
+        "신도림 테크노마트 레트로 게임숍"
+      ],
+      "tags": [
+        "키덜트",
+        "레트로게임",
+        "완구시장",
+        "피규어",
+        "추억여행"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-06-12T08:05:34+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-public-rooftop-gardens",
+      "titleHint": "빌딩 숲 한가운데 숨겨진 무료 공중정원, 서울 빌딩 옥상 쉼터",
+      "topicCategory": "무료코스",
+      "angle": "도심 속 고층 빌딩 상층부에 마련되어 아는 사람만 조용히 찾아가 도심 풍경을 즐기며 숨을 돌리는 공개 옥상 정원",
+      "places": [
+        "대한민국역사박물관 황토마루 정원",
+        "세운상가 세운옥상",
+        "서울역 옥상정원"
+      ],
+      "tags": [
+        "옥상정원",
+        "도심휴식",
+        "숨겨진명소",
+        "무료전망대"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-06-12T08:05:34+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-historical-waterfront-walk",
+      "titleHint": "포구와 나루터의 흔적을 따라 걷는 서울 한강 옛길 산책",
+      "topicCategory": "도심산책",
+      "angle": "과거 활발하게 배들이 드나들던 한강 나루터 유적을 걸어보며 한강의 역사와 시원한 강바람을 동시에 즐기는 인문학적 걷기길",
+      "places": [
+        "마포나루터터",
+        "광나루 한강공원 한강옛길",
+        "양화진 나루터터"
+      ],
+      "tags": [
+        "한강옛길",
+        "나루터터",
+        "역사산책",
+        "도보코스"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-06-12T08:05:34+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-exotic-grocery-shopping",
+      "titleHint": "요리 유튜버들이 비밀리에 찾는 서울 속 이색 해외 식재료 마트 투어",
+      "topicCategory": "생활취향",
+      "angle": "해외 여행에서 맛보았던 독특한 소스, 향신료, 아시안 푸드 재료를 서울 도심에서 손쉽게 구할 수 있는 수입 식품점 탐방",
+      "places": [
+        "이태원 외국인 식자재 마트",
+        "대림동 중앙시장 식자재 매장",
+        "동대문 중앙아시아거리 식품점"
+      ],
+      "tags": [
+        "이색식재료",
+        "수입마트",
+        "세계식료품",
+        "해외식자재"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-06-12T08:05:34+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-renovated-art-spaces",
+      "titleHint": "낡은 공장과 시설의 예술적 변신, 서울 업사이클링 복합문화공간",
+      "topicCategory": "문화생활",
+      "angle": "어두운 산업화 시대의 공장이나 인프라 시설을 세련되게 리모델링하여 전시와 카페를 함께 즐길 수 있는 이색 예술 기지",
+      "places": [
+        "문래창작촌",
+        "마포 문화비축기지",
+        "성수동 연무장길 복합문화공간"
+      ],
+      "tags": [
+        "업사이클링",
+        "복합문화공간",
+        "도시재생",
+        "전시공간"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-06-12T08:05:34+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-night-temple-peace",
+      "titleHint": "화려한 네온사인 옆 고요함, 도심 속 사찰의 고즈넉한 저녁 산책",
+      "topicCategory": "야간산책",
+      "angle": "종교와 무관하게 하루 일과를 끝낸 늦은 오후나 초저녁 시간, 경내를 가볍게 거닐며 지친 마음을 위로받을 수 있는 도심 사찰 코스",
+      "places": [
+        "삼성동 봉은사",
+        "수유동 화계사",
+        "우이동 도선사"
+      ],
+      "tags": [
+        "사찰산책",
+        "저녁휴식",
+        "마음챙김",
+        "힐링코스",
+        "야간사찰"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-06-12T08:05:34+09:00",
       "usedAt": null
     }
   ]

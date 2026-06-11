@@ -14,7 +14,7 @@
   "isFree": true,
   "organizer": "서울시청",
   "inquiry": "1800-4746",
-  "imageUrl": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=f0dc18e8f2be4aa5bb99b1349d96027f&thumb=Y",
+  "imageUrl": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=57ac51f6fcab467eb7dc43fa3d969ab4&thumb=Y",
   "detailUrl": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157635&menuNo=200010",
   "summary": "서초구 · 반포한강공원 달빛광장에서 열리는 축제-전통/역사 행사입니다. 무료로 참여할 수 있는 행사입니다.",
   "organizerUrl": "https://www.seoulgugak.com/",
@@ -25,5 +25,5 @@
   "latitude": 37.5097694752014,
   "longitude": 126.995269636407,
   "registeredAt": "2026-04-27",
-  "collectedAt": "2026-06-10T23:05:13.376Z"
+  "collectedAt": "2026-06-11T23:05:08.804Z"
 }
