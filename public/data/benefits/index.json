@@ -10,9 +10,9 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-06-11T23:05:16.754Z",
+    "collectedAt": "2026-06-12T23:01:15.655Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10963,
+    "availableCount": 10959,
     "fetchedCount": 1127,
     "activeCount": 1091,
     "expiredCount": 36,
@@ -21,6 +21,63 @@
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-B37003100004",
+      "sourceId": "B37003100004",
+      "title": "스포츠산업 예비초기 및 창업도약 프로그램(창업보육지원)",
+      "field": "고용·창업",
+      "provider": "서울올림픽기념국민체육진흥공단",
+      "providerType": "서울 공공기관",
+      "district": "서울특별시",
+      "userType": "개인||법인/시설/단체",
+      "deadlineText": "매년 2~3월",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "ㅇ예비초기: 스포츠산업 예비창업자 ~ 3년 미만 창업기업\nㅇ창업도약: 3년 이상 ~ 7년 미만 창업기업\nㅇ사회적기업: 스포츠산업 예비창업자 ~ 7년 미만 창업기업",
+      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 고용·창업 혜택입니다. 스포츠산업분야 7년 미만 (예비)창업자 육성지원",
+      "supportType": "현금",
+      "supportSummary": "ㅇ지원내용\n - 창업단계별 필요한 맞춤 교육 및 보육, 멘토링 지원\n - 마케팅, 시제품 제작, 특허출원 등 사업화 지원금 제공\n - 스포츠산업 통합 네트워킹데이, 글로벌 진출지원 및 투자유치 기회 등 제공\n\nㅇ지원방법\n - 전국 창업지원센터를 통한 보육 및 사업화…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100004",
+      "onlineUrl": "spobiz.kspo.or.kr",
+      "inquiry": [
+        "창업지원팀/02-410-1757",
+        "창업지원팀/02-410-1753"
+      ],
+      "updatedAt": "2026-06-12",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-B37003100006",
+      "sourceId": "B37003100006",
+      "title": "스포츠코리아랩 운영(창업종합지원)",
+      "field": "보육·교육",
+      "provider": "서울올림픽기념국민체육진흥공단",
+      "providerType": "서울 공공기관",
+      "district": "서울특별시",
+      "userType": "법인/시설/단체",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 스포츠 관련 재화 또는 서비스*를 통해 부가가치를 창출하는 중소기업\n * 전체 매출액 중 스포츠산업(용품제조, 서비스, 시설) 비중 30% 이상\n * 7년 미만 창업기업",
+      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 보육·교육 혜택입니다. ○ 스포츠산업체 경쟁력 강화 및 체계적 지원을 위한 종합 인프라 구축\n○ 스포츠산업 혁신성장을 위한 차별화된 통합지원으로 산업 생태계조성",
+      "supportType": "기타(교육)",
+      "supportSummary": "○ 목적\n - 스포츠산업체 경쟁력 강화 및 체계적 지원을 위한 종합 인프라 구축\n - 스포츠산업 혁신성장을 위한 차별화된 통합지원으로 산업 생태계조성\n\n○ 스포츠기업 사무공간 및 보육프로그램 제공\n - (공유오피스) 개방좌석(36개석) 이용 가능\n  ·  사용방법 :…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100006",
+      "onlineUrl": "spobiz.kspo.or.kr",
+      "inquiry": [
+        "스포츠코리아랩/02-410-1593"
+      ],
+      "updatedAt": "2026-06-12",
+      "registeredAt": "2022-07-15"
+    },
     {
       "id": "gov-benefit-611000019610",
       "sourceId": "611000019610",
@@ -27755,35 +27812,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-B37003100004",
-      "sourceId": "B37003100004",
-      "title": "스포츠산업 예비초기 및 창업도약 프로그램(창업보육지원)",
-      "field": "고용·창업",
-      "provider": "서울올림픽기념국민체육진흥공단",
-      "providerType": "서울 공공기관",
-      "district": "서울특별시",
-      "userType": "개인||법인/시설/단체",
-      "deadlineText": "매년 2~3월",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "ㅇ예비초기: 스포츠산업 예비창업자 ~ 3년 미만 창업기업\nㅇ창업도약: 3년 이상 ~ 7년 미만 창업기업\nㅇ사회적기업: 스포츠산업 예비창업자 ~ 7년 미만 창업기업",
-      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 고용·창업 혜택입니다. 스포츠산업분야 7년 미만 (예비)창업자 육성지원",
-      "supportType": "현금",
-      "supportSummary": "ㅇ지원내용\n - 창업단계별 필요한 맞춤 교육 및 보육, 멘토링 지원\n - 마케팅, 시제품 제작, 특허출원 등 사업화 지원금 제공\n - 스포츠산업 통합 네트워킹데이, 글로벌 진출지원 및 투자유치 기회 등 제공\n\nㅇ지원방법\n - 전국 창업지원센터를 통한 보육 및 사업화…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100004",
-      "onlineUrl": "spobiz.kspo.or.kr",
-      "inquiry": [
-        "창업지원팀/02-410-1757",
-        "창업지원팀/02-410-1753"
-      ],
-      "updatedAt": "2026-02-12",
-      "registeredAt": "2022-07-15"
-    },
-    {
       "id": "gov-benefit-B37003100018",
       "sourceId": "B37003100018",
       "title": "스포츠꿈나무특기장려금",
@@ -27923,34 +27951,6 @@
       ],
       "updatedAt": "2026-02-09",
       "registeredAt": "2024-12-22"
-    },
-    {
-      "id": "gov-benefit-B37003100006",
-      "sourceId": "B37003100006",
-      "title": "스포츠코리아랩(SKL) : 스포츠산업체 경쟁력 강화 및 체계적 지원을 위한 종합 인프라 구축 지원",
-      "field": "보육·교육",
-      "provider": "서울올림픽기념국민체육진흥공단",
-      "providerType": "서울 공공기관",
-      "district": "서울특별시",
-      "userType": "법인/시설/단체",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 스포츠 관련 재화 또는 서비스*를 통해 부가가치를 창출하는 중소기업\n * 전체 매출액 중 스포츠산업(용품제조, 서비스, 시설) 비중 30% 이상\n * 7년 미만 창업기업",
-      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 보육·교육 혜택입니다. ○ 스포츠산업체 경쟁력 강화 및 체계적 지원을 위한 종합 인프라 구축\n○ 스포츠산업 혁신성장을 위한 차별화된 통합지원으로 산업 생태계조성",
-      "supportType": "기타(교육)||시설이용",
-      "supportSummary": "○ 목적\n - 스포츠산업체 경쟁력 강화 및 체계적 지원을 위한 종합 인프라 구축\n - 스포츠산업 혁신성장을 위한 차별화된 통합지원으로 산업 생태계조성\n\n○ 스포츠기업 사무공간 및 보육프로그램 제공\n - (공유오피스) 개방좌석(36개석) 이용 가능\n  ·  사용방법 :…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100006",
-      "onlineUrl": "spobiz.kspo.or.kr",
-      "inquiry": [
-        "스포츠코리아랩/02-410-1948"
-      ],
-      "updatedAt": "2026-02-09",
-      "registeredAt": "2022-07-15"
     },
     {
       "id": "gov-benefit-317000000118",
