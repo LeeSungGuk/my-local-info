@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-06-18T08:02:38+09:00",
+  "lastGeneratedAt": "2026-06-19T08:10:46+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -1321,9 +1321,9 @@
         "정원산책"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-06-12T08:05:34+09:00",
-      "usedAt": null
+      "usedAt": "2026-06-19T08:10:46+09:00"
     },
     {
       "id": "seoul-hillside-view-cafes",
