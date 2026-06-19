@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-06-19T08:10:46+09:00",
+  "lastGeneratedAt": "2026-06-20T07:50:17+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -1343,9 +1343,9 @@
         "성곽길"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-06-12T08:05:34+09:00",
-      "usedAt": null
+      "usedAt": "2026-06-20T07:50:17+09:00"
     },
     {
       "id": "seoul-kidult-retro-play",
