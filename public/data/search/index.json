@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-21T00:00:00.000Z",
+  "generatedAt": "2026-06-22T00:00:00.000Z",
   "counts": {
     "event": 170,
     "benefit": 1091,
     "food": 300,
-    "blog": 61
+    "blog": 62
   },
   "items": [
     {
@@ -675,7 +675,7 @@
       "startDate": "2026-06-20",
       "endDate": "2026-06-21",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -713,7 +713,7 @@
       "startDate": "2026-06-20",
       "endDate": "2026-06-21",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false,
       "isExternal": false
     },
@@ -863,7 +863,7 @@
       "startDate": "2026-06-21",
       "endDate": "2026-06-21",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -901,7 +901,7 @@
       "startDate": "2026-06-21",
       "endDate": "2026-06-21",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false,
       "isExternal": false
     },
@@ -938,7 +938,7 @@
       "startDate": "2026-06-21",
       "endDate": "2026-06-21",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -67903,6 +67903,43 @@
       "startDate": "",
       "endDate": "",
       "updatedAt": "2026-06-21",
+      "isActive": true,
+      "isFree": false,
+      "isExternal": false
+    },
+    {
+      "id": "2026-06-22-seoul-rooftop-gardens",
+      "type": "blog",
+      "typeLabel": "블로그",
+      "title": "빌딩 숲 속 숨은 쉼터, 서울 도심 무료 옥상 정원 3곳",
+      "summary": "바쁜 일상 속에서 잠시 숨을 돌리고 도심 풍경을 감상할 수 있는 서울의 숨겨진 무료 공중정원을 소개합니다.",
+      "category": "정보",
+      "district": "",
+      "tags": [
+        "옥상정원",
+        "도심휴식",
+        "숨겨진명소",
+        "무료전망대"
+      ],
+      "keywords": [
+        "블로그",
+        "서울",
+        "빌딩 숲 속 숨은 쉼터, 서울 도심 무료 옥상 정원 3곳",
+        "바쁜 일상 속에서 잠시 숨을 돌리고 도심 풍경을 감상할 수 있는 서울의 숨겨진 무료 공중정원을 소개합니다.",
+        "정보",
+        "옥상정원",
+        "도심휴식",
+        "숨겨진명소",
+        "무료전망대",
+        "🌆 빌딩 숲 사이에서 만나는 초록빛 여유, 서울의 옥상 정원 고층 빌딩이 빽빽하게 들어선 서울 도심 한복판, 바쁘게 움직이는 사람들 머리 위로 아는 사람만 찾아가는 비밀스러운 정원들이 있습니다. 고개를 조금만 돌려 위를 바라보면, 번잡한 소음에서 벗어나 탁 트인 하늘과 도심 전망을 무료로 즐길 수 있는 옥상 쉼터가 숨어 있습니다. 일상 속 잔잔한 휴식을 선사하는 서울의 대표적인 무료 공중정원 세 곳을 소개합니다. 📍 도심 속 뷰포인트, 추천 옥상 정원 3곳 대한민국역사박물관 황토마루 정원 광화문 광장 옆에 위치한 대한민국역사박물관의 상층부에는 '황토마루 정원'이 마련되어 있습니다. 이곳에 올라서면 경복궁의 전경과 청와대, 그리고 북악산의 능선이 한눈에 들어옵니다. 전통과 현대가 어우러진 서울의 가장 상징적인 풍경을 조용히 감상할 수 있는 최적의 장소입니다. 세운상가 세운옥상 종로와 을지로의 경계에 우뚝 솟은 세운상가 옥상으로 올라가면 넓게 트인 '세운옥상'을 만날 수 있습니다. 남산타워를 배경으로 끝없이 펼쳐진 종묘의 녹음과 오래된 을지로 일대의 지붕들이 묘하게 대비되는 독특한 풍경을 자랑합니다. 뉴트로한 감성과 함께 서울의 과거와 현재를 동시에 조망하기 좋습니다. 서울역 옥상정원 서울역 폐철길을 활용한 공중보행길인 서울로 7017과 바로 연결되는 서울역 옥상정원은 여행의 시작과 끝에 들르기 좋은 쉼터입니다. 바쁘게 오가는 기차와"
+      ],
+      "href": "/blog/2026-06-22-seoul-rooftop-gardens",
+      "provider": "서울시티",
+      "venue": "",
+      "dateLabel": "2026-06-22",
+      "startDate": "",
+      "endDate": "",
+      "updatedAt": "2026-06-22",
       "isActive": true,
       "isFree": false,
       "isExternal": false

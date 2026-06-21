@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-06-21T07:53:58+09:00",
+  "lastGeneratedAt": "2026-06-22T07:53:55+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -1386,9 +1386,9 @@
         "무료전망대"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-06-12T08:05:34+09:00",
-      "usedAt": null
+      "usedAt": "2026-06-22T07:53:55+09:00"
     },
     {
       "id": "seoul-historical-waterfront-walk",
