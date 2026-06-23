@@ -2,6 +2,8 @@ const jsonHeaders = {
   "Content-Type": "application/json; charset=utf-8",
 };
 
+const WORKERS_AI_MODEL = "@cf/meta/llama-3.1-8b-instruct-fast";
+
 function stripMarkdown(value) {
   return String(value || "")
     .replace(/```[\s\S]*?```/g, " ")
@@ -99,8 +101,17 @@ export async function onRequestPost({ request, env }) {
       );
     }
 
+    if (!env.AI || typeof env.AI.run !== "function") {
+      console.error("Workers AI binding is not configured for /api/chat.");
+
+      return Response.json(
+        { error: "AI 서비스 설정을 확인해 주세요." },
+        { status: 503, headers: jsonHeaders },
+      );
+    }
+
     const blogData = await getRelevantBlogData(request, question);
-    const result = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
+    const result = await env.AI.run(WORKERS_AI_MODEL, {
       messages: [
         {
           role: "system",
@@ -121,7 +132,7 @@ export async function onRequestPost({ request, env }) {
 
     return Response.json({ answer }, { headers: jsonHeaders });
   } catch (error) {
-    console.error(error);
+    console.error("Failed to generate AI chat response.", error);
 
     return Response.json(
       { error: "AI 답변을 불러오지 못했습니다." },
