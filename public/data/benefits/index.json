@@ -10,9 +10,9 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-06-22T23:03:06.820Z",
+    "collectedAt": "2026-06-24T22:54:38.463Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10967,
+    "availableCount": 10968,
     "fetchedCount": 1128,
     "activeCount": 1092,
     "expiredCount": 36,
@@ -21,6 +21,98 @@
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-O00023300003",
+      "sourceId": "O00023300003",
+      "title": "거주자우선주차 및 시설 공영주차장 주차요금 감면",
+      "field": "생활안정",
+      "provider": "마포구시설관리공단",
+      "providerType": "자치구",
+      "district": "마포구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 장애인 : 장애인 자동차 표지를 부착하고 장애인이 탑승하여 장애인등록증을 제시한 경우\n\n○ 국가유공상이자 : 국가보훈처장이 발행한 국가유공자증을 소지한 사람\n\n○ 고엽제후유의증 환자 : 고엽제후유의증 환자로서 국가보훈처장이 발행한 증서를 소지한 자\n\n○ 의상자 및…",
+      "summary": "마포구시설관리공단에서 제공하는 생활안정 혜택입니다. 국가유공자, 한부모, 장애인 등에게 거주자우선주차 및 시설 공영주차장 주차요금 감면",
+      "supportType": "현금(감면)",
+      "supportSummary": "○ 거주자우선주차 및 시설 공영주차장 주차요금 감면\n - 80% 할인\n  · 장애인, 국가유공상이자, 고엽제후유의증 환자, 의상자 및 의사자 유족, 참전유공자\n\n - 50% 할인\n  · 저공해차량, 경차, 다둥이 행복카드 소지자, 한부모가족\n\n - 20% 할인\n  ·…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00023300003",
+      "onlineUrl": "https://eparking.mfmc.or.kr/",
+      "inquiry": [
+        "주차관리부/02-300-5042",
+        "주차관리부/02-300-5043",
+        "주차관리부/02-300-5044",
+        "주차관리부/02-300-5045",
+        "주차관리부/02-300-5041"
+      ],
+      "updatedAt": "2026-06-24",
+      "registeredAt": "2022-11-29"
+    },
+    {
+      "id": "gov-benefit-322000000107",
+      "sourceId": "322000000107",
+      "title": "강남구 산후건강관리비용 지원사업(본인부담금 환급)",
+      "field": "임신·출산",
+      "provider": "서울특별시 강남구",
+      "providerType": "자치구",
+      "district": "강남구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 신청일 기준 1년 전부터 부 또는 모가 주민등록상 강남구에 신청일까지 계속 거주            \n     *강남구에 거주한 기간이 1년 미만인 사람의 경우 계속하여 거주한 기간이 1년이 지나면 지원대상이 됨(단, 전입일이 출생일 보다 빨라야 됨) \n○ 출생자…",
+      "summary": "서울특별시 강남구에서 제공하는 임신·출산 혜택입니다. 산모신생아 건강관리 바우처 이용이 끝난 출산가정에 본인부담금  지원",
+      "supportType": "현금",
+      "supportSummary": "산모신생아 건강관리 서비스 이용 후 본인부담금 지원(최대 100만원 한도내 1회  지원)",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/322000000107",
+      "onlineUrl": "",
+      "inquiry": [
+        "건강관리과/02-3423-7230",
+        "건강관리과/02-3423-7261"
+      ],
+      "updatedAt": "2026-06-23",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-300000000163",
+      "sourceId": "300000000163",
+      "title": "역사문화미관지구 내 한옥의 지방세 감면",
+      "field": "문화·환경",
+      "provider": "서울특별시 종로구",
+      "providerType": "자치구",
+      "district": "종로구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "제4조(한옥에 대한 감면) 「국토의 계획 및 이용에 관한 법률 시행령」제31조제2항제1호다목에 따른 특화경관지구 내 또는「서울특별시 한옥 등 건축자산의 진흥에 관한 조례」제16조에 따라 등록된 한옥으로서 과세기준일 현재 기와·처마 및 문양 등이 한국 고유의 건축양식으…",
+      "summary": "서울특별시 종로구에서 제공하는 문화·환경 혜택입니다. 한옥에 대한 감면",
+      "supportType": "현금(감면)",
+      "supportSummary": "한옥에 대한 감면\n(역사미관지구내한옥, 서울시에 등록한 한옥 감면)",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "신청불필요"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000163",
+      "onlineUrl": "",
+      "inquiry": [
+        "최정문/0221481614"
+      ],
+      "updatedAt": "2026-06-23",
+      "registeredAt": "2022-11-01"
+    },
     {
       "id": "gov-benefit-306000000243",
       "sourceId": "306000000243",
@@ -3793,34 +3885,6 @@
       ],
       "updatedAt": "2026-05-11",
       "registeredAt": "2022-07-13"
-    },
-    {
-      "id": "gov-benefit-300000000163",
-      "sourceId": "300000000163",
-      "title": "역사문화미관지구 내 한옥의 지방세 감면",
-      "field": "문화·환경",
-      "provider": "서울특별시 종로구",
-      "providerType": "자치구",
-      "district": "종로구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "제4조(한옥에 대한 감면) 「국토의 계획 및 이용에 관한 법률 시행령」제31조제2항제1호다목에 따른 특화경관지구 내 또는「서울특별시 한옥 등 건축자산의 진흥에 관한 조례」제16조에 따라 등록된 한옥으로서 과세기준일 현재 기와·처마 및 문양 등이 한국 고유의 건축양식으…",
-      "summary": "서울특별시 종로구에서 제공하는 문화·환경 혜택입니다. 한옥에 대한 감면",
-      "supportType": "현금(감면)",
-      "supportSummary": "한옥에 대한 감면\n(역사미관지구내한옥, 서울시에 등록한 한옥 감면)",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000163",
-      "onlineUrl": "",
-      "inquiry": [
-        "최정문/0221481614"
-      ],
-      "updatedAt": "2026-05-11",
-      "registeredAt": "2022-11-01"
     },
     {
       "id": "gov-benefit-O00024200001",
@@ -23611,39 +23675,6 @@
       "registeredAt": "2022-05-30"
     },
     {
-      "id": "gov-benefit-O00023300003",
-      "sourceId": "O00023300003",
-      "title": "거주자우선주차 및 시설 공영주차장 주차요금 감면",
-      "field": "생활안정",
-      "provider": "마포구시설관리공단",
-      "providerType": "자치구",
-      "district": "마포구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 장애인 : 장애인 자동차 표지를 부착하고 장애인이 탑승하여 장애인등록증을 제시한 경우\n\n○ 국가유공상이자 : 국가보훈처장이 발행한 국가유공자증을 소지한 사람\n\n○ 고엽제후유의증 환자 : 고엽제후유의증 환자로서 국가보훈처장이 발행한 증서를 소지한 자\n\n○ 의상자 및…",
-      "summary": "마포구시설관리공단에서 제공하는 생활안정 혜택입니다. 국가유공자, 한부모, 장애인 등에게 거주자우선주차 및 시설 공영주차장 주차요금 감면",
-      "supportType": "현금(감면)",
-      "supportSummary": "○ 거주자우선주차 및 시설 공영주차장 주차요금 감면\n - 80% 할인\n  · 장애인, 국가유공상이자, 고엽제후유의증 환자, 의상자 및 의사자 유족, 참전유공자\n\n - 50% 할인\n  · 저공해차량, 경차, 다둥이 행복카드 소지자, 한부모가족\n\n - 20% 할인\n  ·…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00023300003",
-      "onlineUrl": "https://eparking.mfmc.or.kr/",
-      "inquiry": [
-        "주차관리부/02-300-5042",
-        "주차관리부/02-300-5043",
-        "주차관리부/02-300-5044",
-        "주차관리부/02-300-5045",
-        "주차관리부/02-300-5041"
-      ],
-      "updatedAt": "2026-04-23",
-      "registeredAt": "2022-11-29"
-    },
-    {
       "id": "gov-benefit-O00023300001",
       "sourceId": "O00023300001",
       "title": "공영주차장 이용요금 감면",
@@ -24747,37 +24778,6 @@
       "onlineUrl": "",
       "inquiry": [
         "장애인복지과/02-3423-5891"
-      ],
-      "updatedAt": "2026-04-22",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-322000000107",
-      "sourceId": "322000000107",
-      "title": "강남구 산후건강관리비용 지원사업(본인부담금 환급)",
-      "field": "임신·출산",
-      "provider": "서울특별시 강남구",
-      "providerType": "자치구",
-      "district": "강남구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 신청일 기준 1년 전부터 부 또는 모가 주민등록상 강남구에 신청일까지 계속 거주            \n     *강남구에 거주한 기간이 1년 미만인 사람의 경우 계속하여 거주한 기간이 1년이 지나면 지원대상이 됨(단, 전입일이 출생일 보다 빨라야 됨) \n○ 출생자…",
-      "summary": "서울특별시 강남구에서 제공하는 임신·출산 혜택입니다. 산모신생아 건강관리 바우처 이용이 끝난 출산가정에 본인부담금  지원",
-      "supportType": "현금",
-      "supportSummary": "산모신생아 건강관리 서비스 이용 후 본인부담금 지원(최대 100만원 한도내 1회  지원)",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/322000000107",
-      "onlineUrl": "",
-      "inquiry": [
-        "건강관리과/02-3423-7230",
-        "건강관리과/02-3423-7261"
       ],
       "updatedAt": "2026-04-22",
       "registeredAt": "2021-09-23"
