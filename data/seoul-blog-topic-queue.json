@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-06-25T07:54:52+09:00",
+  "lastGeneratedAt": "2026-06-26T08:00:55+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -1449,9 +1449,9 @@
         "전시공간"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-06-12T08:05:34+09:00",
-      "usedAt": null
+      "usedAt": "2026-06-26T08:00:55+09:00"
     },
     {
       "id": "seoul-night-temple-peace",

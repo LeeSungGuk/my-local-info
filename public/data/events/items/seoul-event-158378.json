@@ -13,7 +13,7 @@
   "fee": "무료",
   "isFree": true,
   "organizer": "서울시청",
-  "inquiry": "02-2133-2561",
+  "inquiry": "(운영문의) 010-5965-9171",
   "imageUrl": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=07cfb341e5934c7582884c709c513b12&thumb=Y",
   "detailUrl": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158378&menuNo=200011",
   "summary": "마포구 · 기행, 강연별 상이에서 열리는 교육/체험 행사입니다. 무료로 참여할 수 있는 행사입니다.",
@@ -25,5 +25,5 @@
   "latitude": 37.5637954434775,
   "longitude": 126.908201874198,
   "registeredAt": "2026-06-24",
-  "collectedAt": "2026-06-24T22:54:29.706Z"
+  "collectedAt": "2026-06-25T23:00:33.656Z"
 }
