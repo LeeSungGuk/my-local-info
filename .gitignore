@@ -41,7 +41,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .gstack/
+.agents/
 .playwright-mcp
+.playwright/
 .omo/
 .claude/
 .wrangler/
@@ -52,9 +54,3 @@ next-env.d.ts
 out/
 output/
 .omx/
-
-
-.idea
-.junie
-.playwright
-.wrangler

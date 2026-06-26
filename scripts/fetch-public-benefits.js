@@ -72,7 +72,29 @@ function loadEnvFile(filePath) {
 
 loadEnvFile(ENV_FILE_PATH);
 
-const API_KEY = process.env.PUBLIC_DATA_API_KEY || "";
+function normalizePublicBenefitsDataMode(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase();
+}
+
+function resolvePublicBenefitsApiConfig(env = process.env) {
+  const fetchFailureMode = normalizePublicBenefitsDataMode(env.PUBLIC_BENEFITS_FETCH_FAILURE_MODE);
+  const publicDataApiKey = String(env.PUBLIC_DATA_API_KEY || "").trim();
+
+  return {
+    apiKey: publicDataApiKey,
+    fetchFailureMode: fetchFailureMode === "keep-existing" ? "keep-existing" : "fail",
+    hasPublicDataApiKey: Boolean(publicDataApiKey),
+  };
+}
+
+const API_CONFIG = resolvePublicBenefitsApiConfig(process.env);
+const API_KEY = API_CONFIG.apiKey;
+const FETCH_FAILURE_MODE = API_CONFIG.fetchFailureMode;
+const REQUEST_TIMEOUT_MS = Number(process.env.PUBLIC_BENEFITS_REQUEST_TIMEOUT_MS || 30000);
+const REQUEST_RETRY_COUNT = Number(process.env.PUBLIC_BENEFITS_REQUEST_RETRY_COUNT || 2);
+const REQUEST_RETRY_BASE_DELAY_MS = Number(process.env.PUBLIC_BENEFITS_REQUEST_RETRY_BASE_DELAY_MS || 1000);
 
 function normalizeText(value) {
   if (value === null || value === undefined) {
@@ -363,25 +385,137 @@ function loadExistingIndex() {
   }
 }
 
-async function fetchPagedDataset(endpoint) {
+function createFetchError(message, { retryable = false, cause } = {}) {
+  const error = new Error(message);
+  error.retryable = retryable;
+
+  if (cause) {
+    error.cause = cause;
+  }
+
+  return error;
+}
+
+function formatFetchError(error) {
+  const cause = error?.cause;
+  const parts = [error?.message || "알 수 없는 네트워크 오류"];
+
+  if (cause?.code) {
+    parts.push(`code=${cause.code}`);
+  }
+
+  if (cause?.syscall) {
+    parts.push(`syscall=${cause.syscall}`);
+  }
+
+  if (cause?.hostname) {
+    parts.push(`host=${cause.hostname}`);
+  }
+
+  if (cause?.address) {
+    parts.push(`address=${cause.address}`);
+  }
+
+  if (cause?.port) {
+    parts.push(`port=${cause.port}`);
+  }
+
+  return parts.join(" ");
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  });
+}
+
+async function fetchDatasetPageOnce(endpoint, page, options = {}) {
+  const {
+    apiKey = API_KEY,
+    fetchImpl = fetch,
+    pageSize = PAGE_SIZE,
+    timeoutMs = REQUEST_TIMEOUT_MS,
+  } = options;
+  const url = new URL(`${API_BASE}/${endpoint}`);
+  url.searchParams.set("page", String(page));
+  url.searchParams.set("perPage", String(pageSize));
+  url.searchParams.set("returnType", "JSON");
+  url.searchParams.set("serviceKey", apiKey);
+
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
+  let response;
+
+  try {
+    response = await fetchImpl(url, { signal: controller.signal });
+  } catch (error) {
+    const reason =
+      error?.name === "AbortError"
+        ? `요청 시간이 ${timeoutMs}ms를 초과했습니다`
+        : formatFetchError(error);
+
+    throw createFetchError(`공공데이터포털 ${endpoint} 네트워크 오류: ${reason}`, {
+      retryable: true,
+      cause: error,
+    });
+  } finally {
+    clearTimeout(timeout);
+  }
+
+  if (!response.ok) {
+    throw createFetchError(`공공데이터포털 ${endpoint} HTTP 오류: ${response.status} ${response.statusText}`, {
+      retryable: response.status === 429 || response.status >= 500,
+    });
+  }
+
+  try {
+    return await response.json();
+  } catch (error) {
+    throw createFetchError(`공공데이터포털 ${endpoint} JSON 파싱 실패: ${error.message}`, {
+      cause: error,
+    });
+  }
+}
+
+async function fetchDatasetPage(endpoint, page, options = {}) {
+  const {
+    retryBaseDelayMs = REQUEST_RETRY_BASE_DELAY_MS,
+    retryCount = REQUEST_RETRY_COUNT,
+    sleepImpl = sleep,
+    onRetry = (attempt, maxRetries, retryEndpoint, retryPage, error) => {
+      console.warn(
+        `⚠️ 공공데이터포털 재시도 ${attempt}/${maxRetries}: ${retryEndpoint} page ${retryPage} (${error.message})`
+      );
+    },
+  } = options;
+  let lastError;
+
+  for (let attempt = 1; attempt <= retryCount + 1; attempt += 1) {
+    try {
+      return await fetchDatasetPageOnce(endpoint, page, options);
+    } catch (error) {
+      lastError = error;
+
+      if (!error.retryable || attempt > retryCount) {
+        break;
+      }
+
+      onRetry(attempt, retryCount, endpoint, page, error);
+      await sleepImpl(retryBaseDelayMs * attempt);
+    }
+  }
+
+  throw lastError;
+}
+
+async function fetchPagedDataset(endpoint, options = {}) {
+  const { pageSize = PAGE_SIZE } = options;
   let page = 1;
   let totalCount = 0;
   const rows = [];
 
   while (true) {
-    const url = new URL(`${API_BASE}/${endpoint}`);
-    url.searchParams.set("page", String(page));
-    url.searchParams.set("perPage", String(PAGE_SIZE));
-    url.searchParams.set("returnType", "JSON");
-    url.searchParams.set("serviceKey", API_KEY);
-
-    const response = await fetch(url);
-
-    if (!response.ok) {
-      throw new Error(`공공데이터포털 ${endpoint} 오류: ${response.status} ${response.statusText}`);
-    }
-
-    const json = await response.json();
+    const json = await fetchDatasetPage(endpoint, page, options);
 
     if (page === 1) {
       totalCount = Number(json.totalCount || 0);
@@ -390,7 +524,7 @@ async function fetchPagedDataset(endpoint) {
     const items = Array.isArray(json.data) ? json.data : [];
     rows.push(...items);
 
-    if (items.length < PAGE_SIZE || rows.length >= totalCount) {
+    if (items.length < pageSize || rows.length >= totalCount) {
       break;
     }
 
@@ -515,9 +649,38 @@ async function main() {
     console.log(`- 만료 제거 건수: ${expiredCount}`);
     console.log(`- 현재 노출 대상 건수: ${summaries.length}`);
   } catch (error) {
+    const existingIndex = loadExistingIndex();
+    const existingItems = Array.isArray(existingIndex?.items) ? existingIndex.items : [];
+
+    if (FETCH_FAILURE_MODE === "keep-existing" && error.retryable && existingItems.length > 0) {
+      console.warn("⚠️ 공공 혜택 데이터 수집에 실패해 기존 혜택 데이터를 유지합니다.");
+      console.warn(`- 실패 원인: ${error.message}`);
+      console.warn(`- 기존 저장 총건수: ${existingItems.length}`);
+      return;
+    }
+
     console.error("❌ 공공 혜택 데이터 수집 실패:", error.message);
     process.exit(1);
   }
 }
 
-main();
+if (require.main === module) {
+  main();
+}
+
+module.exports = {
+  buildDeadlineSortKey,
+  buildSummaryRecord,
+  createBenefitId,
+  dedupeBenefits,
+  extractDistrict,
+  fetchPagedDataset,
+  formatFetchError,
+  getTodayInSeoul,
+  isExpiredBenefit,
+  isSeoulProvider,
+  normalizeBenefit,
+  resolvePublicBenefitsApiConfig,
+  sortBenefits,
+  toDateOnly,
+};

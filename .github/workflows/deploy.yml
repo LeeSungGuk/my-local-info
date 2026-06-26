@@ -52,6 +52,9 @@ jobs:
         run: npm run fetch:public-benefits
         env:
           PUBLIC_DATA_API_KEY: ${{ secrets.PUBLIC_DATA_API_KEY }}
+          PUBLIC_BENEFITS_FETCH_FAILURE_MODE: "keep-existing"
+          PUBLIC_BENEFITS_REQUEST_TIMEOUT_MS: "60000"
+          PUBLIC_BENEFITS_REQUEST_RETRY_COUNT: "3"
 
       - name: Fetch Seoul food places
         if: steps.sync-scope.outputs.run_food == 'true'
