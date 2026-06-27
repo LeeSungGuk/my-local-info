@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-06-27T07:54:11+09:00",
+  "lastGeneratedAt": "2026-06-28T07:51:11+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -1492,9 +1492,9 @@
         "라이딩"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-06-21T07:53:58+09:00",
-      "usedAt": null
+      "usedAt": "2026-06-28T07:51:11+09:00"
     },
     {
       "id": "seoul-public-foot-baths",
