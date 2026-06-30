@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-06-30T07:50:21+09:00",
+  "lastGeneratedAt": "2026-07-01T08:13:09+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -1555,9 +1555,9 @@
         "교육형나들이"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-06-21T07:53:58+09:00",
-      "usedAt": null
+      "usedAt": "2026-07-01T08:13:09+09:00"
     },
     {
       "id": "seoul-public-coworking-spaces",
@@ -1662,6 +1662,195 @@
       "origin": "ai",
       "status": "pending",
       "createdAt": "2026-06-21T07:53:58+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-public-hanok-lounges",
+      "titleHint": "도서관이 아니어도 좋아, 누구나 무료로 쉬어가는 서울 공공 한옥 쉼터",
+      "topicCategory": "휴식공간",
+      "angle": "전통 한옥의 고즈넉한 정취를 느끼며 무료로 편히 앉아 쉴 수 있는 열린 문화 휴식 공간을 소개합니다.",
+      "places": [
+        "북촌문화센터",
+        "서촌 상촌재",
+        "부암동 무계원"
+      ],
+      "tags": [
+        "한옥쉼터",
+        "무료입장",
+        "전통감성",
+        "종로가볼만한곳"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-07-01T08:13:09+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-vegan-friendly-neighborhoods",
+      "titleHint": "비건이 아니어도 반할 맛, 서울의 대표적인 비건 친화 골목과 맛집 탐방",
+      "topicCategory": "생활취향",
+      "angle": "속 편하고 건강한 한 끼를 찾는 이들을 위해 맛과 분위기를 모두 잡은 서울의 비건 미식 거리를 안내합니다.",
+      "places": [
+        "망원동 비건 골목",
+        "해방촌 비건 거리",
+        "연남동 비건 베이커리 타운"
+      ],
+      "tags": [
+        "비건푸드",
+        "망원동맛집",
+        "비건베이커리",
+        "친환경라이프"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-07-01T08:13:09+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-underground-shopping-malls",
+      "titleHint": "폭염과 한파에도 끄떡없는 실내 도보 쇼핑, 서울 주요 지하상가 투어",
+      "topicCategory": "실내대안",
+      "angle": "날씨에 구애받지 않고 쾌적하게 걸으며 가성비 좋은 옷과 소품을 득템할 수 있는 서울의 대형 지하상가 코스입니다.",
+      "places": [
+        "영등포역 지하쇼핑센터",
+        "강남역 지하쇼핑센터",
+        "종각 지하쇼핑센터"
+      ],
+      "tags": [
+        "실내쇼핑",
+        "지하상가",
+        "가성비쇼핑",
+        "날씨대안"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-07-01T08:13:09+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-companion-plant-healing-shops",
+      "titleHint": "초보 식집사를 위한 구원투수, 서울 반려식물 병원 및 플랜트 편집숍",
+      "topicCategory": "생활취향",
+      "angle": "죽어가는 식물을 진단해주고 이색 초록 식물들을 분양받을 수 있는 식물 집사들의 전문 아지트를 소개합니다.",
+      "places": [
+        "양재 반려식물 병원",
+        "수서 식물관PH",
+        "합정 가든어스"
+      ],
+      "tags": [
+        "식집사",
+        "반려식물",
+        "그린인테리어",
+        "이색공간"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-07-01T08:13:09+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-free-cultural-archives",
+      "titleHint": "하루 종일 머물러도 무료! 방대한 영화·미술·만화 자료를 품은 공공 아카이브실",
+      "topicCategory": "무료코스",
+      "angle": "지갑은 가볍게, 지식과 감성은 풍성하게 채울 수 있는 서울의 숨겨진 무료 미디어 및 미술 아카이브 공간입니다.",
+      "places": [
+        "명동 만화의집",
+        "상암 한국영상자료원 시네마테크",
+        "평창동 서울시립 미술아카이브"
+      ],
+      "tags": [
+        "실내데이트",
+        "무료문화생활",
+        "아카이브",
+        "비오는날추천"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-07-01T08:13:09+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-scenic-hillside-stairs",
+      "titleHint": "숨이 조금 가빠도 괜찮아, 서울 도심 전경이 한눈에 들어오는 계단 명소",
+      "topicCategory": "뷰포인트",
+      "angle": "가파른 골목길을 따라 올라가면 마주하는 탁 트인 서울 전망과 이국적인 감성의 계단길 산책 코스입니다.",
+      "places": [
+        "이화동 벽화마을 계단길",
+        "해방촌 108계단",
+        "낙산공원 성곽길 계단"
+      ],
+      "tags": [
+        "전망좋은곳",
+        "골목길산책",
+        "야경명소",
+        "출사지추천"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-07-01T08:13:09+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-dog-playgrounds-parks",
+      "titleHint": "목줄 없이 마음껏 뛰놀자! 서울 시내 무료 반려견 전용 놀이터",
+      "topicCategory": "휴식공간",
+      "angle": "오직 반려견과 반려인을 위해 안전 펜스와 놀이기구를 갖춘 서울시 운영 반려견 오프리쉬(Off-leash) 파크를 정리했습니다.",
+      "places": [
+        "월드컵공원 반려견놀이터",
+        "보라매공원 반려견놀이터",
+        "어린이대공원 반려견놀이터"
+      ],
+      "tags": [
+        "반려견놀이터",
+        "애견동반",
+        "보라매공원",
+        "댕댕이놀이터"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-07-01T08:13:09+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-architectural-masterpieces",
+      "titleHint": "거장의 숨결이 살아있는 공간, 보기만 해도 영감이 떠오르는 서울 이색 건축 투어",
+      "topicCategory": "문화생활",
+      "angle": "세계적인 건축가들이 디자인한 서울의 공공 건축물로, 무료 관람이 가능해 사진 찍고 영감을 얻기 좋은 곳들입니다.",
+      "places": [
+        "동대문디자인플라자(DDP)",
+        "이화여대 ECC",
+        "서울공예박물관"
+      ],
+      "tags": [
+        "건축투어",
+        "사진맛집",
+        "디자인공간",
+        "실내나들이"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-07-01T08:13:09+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-modern-traditional-desserts",
+      "titleHint": "약과와 개성주악의 세련된 변신, 트렌디하게 즐기는 서울 모던 한과 디저트 숍",
+      "topicCategory": "취향나들이",
+      "angle": "전통 떡과 한과를 현대적인 감각으로 재해석하여 젊은 세대의 입맛을 사로잡은 세련된 코리안 디저트 맛집입니다.",
+      "places": [
+        "서촌 합",
+        "청담 강정이넘치는하루",
+        "연희동 연경당"
+      ],
+      "tags": [
+        "전통디저트",
+        "개성주악",
+        "K디저트",
+        "카페투어"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-07-01T08:13:09+09:00",
       "usedAt": null
     }
   ]
