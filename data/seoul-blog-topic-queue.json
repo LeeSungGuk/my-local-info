@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-07-01T08:13:09+09:00",
+  "lastGeneratedAt": "2026-07-02T07:55:10+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -1576,9 +1576,9 @@
         "노트북작업"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-06-21T07:53:58+09:00",
-      "usedAt": null
+      "usedAt": "2026-07-02T07:55:10+09:00"
     },
     {
       "id": "seoul-barrier-free-forest-walks",

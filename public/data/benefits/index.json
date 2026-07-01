@@ -10,7 +10,7 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-06-30T22:56:28.935Z",
+    "collectedAt": "2026-07-01T22:54:54.948Z",
     "syncSchedule": "매일 오전 7시 30분",
     "availableCount": 10968,
     "fetchedCount": 1127,
@@ -33,7 +33,7 @@
       "deadlineText": "상시신청",
       "deadlineSortKey": "9999-12-31",
       "isAlwaysOpen": true,
-      "targetSummary": "출산모 신청일 기준 90일(초입 산입) 이상 계속 서울 거주,  출생자녀 신청일 기준 서울 거주 및 서울시 출생신고(2026.7.1일 부터 시행)\n· 대한민국 국적의 자녀를 출산한 외국인 산모",
+      "targetSummary": "신청일 기준 90일 이상 서울에 거주하고 있는 출산모",
       "summary": "서울특별시에서 제공하는 임신·출산 혜택입니다. 산모가 임신 및 출산과정에서 겪은 정서적, 육체적 피로를 빠르게 회복할 수 있도록 지원",
       "supportType": "이용권",
       "supportSummary": "⦁ 지원금액 : 자녀 수에 따른 차등지원\n   ※ 첫째 100만원, 둘째 120만원, 셋째 이상 150만원\n   ※ 다태아 유·사산 산모의 경우 단태아 기준 100만원 \n\n⦁ 거주요건 : 출산모 신청일 기준 90일(초입 산입) 이상 계속 서울 거주,  출생아 신청일…",
@@ -46,7 +46,7 @@
       "inquiry": [
         "다산콜센터/120"
       ],
-      "updatedAt": "2026-06-30",
+      "updatedAt": "2026-07-01",
       "registeredAt": "2025-06-11"
     },
     {
