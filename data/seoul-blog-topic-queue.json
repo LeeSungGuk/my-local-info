@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-07-02T07:55:10+09:00",
+  "lastGeneratedAt": "2026-07-03T07:52:24+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -1597,9 +1597,9 @@
         "숲길나들이"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-06-21T07:53:58+09:00",
-      "usedAt": null
+      "usedAt": "2026-07-03T07:52:24+09:00"
     },
     {
       "id": "seoul-university-art-museums",
