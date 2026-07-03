@@ -4,7 +4,7 @@
   "title": "[서울디자인재단] DDP 상생마켓: 서울패션허브 SUMMER MARKET",
   "category": "기타",
   "district": "중구",
-  "venue": "DDP 어울림광장",
+  "venue": "DDP 어울림광장 교각 아래",
   "startDate": "2026-07-04",
   "endDate": "2026-07-05",
   "dateText": "2026-07-04~2026-07-05",
@@ -13,10 +13,10 @@
   "fee": "무료",
   "isFree": true,
   "organizer": "서울디자인재단",
-  "inquiry": "070-4032-7118",
-  "imageUrl": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=36467da0be234cd6861167ac676499c9&thumb=Y",
+  "inquiry": "02-6270-1280",
+  "imageUrl": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=8193ca15320941ff87280ac84f9753a8&thumb=Y",
   "detailUrl": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158394&menuNo=200013",
-  "summary": "중구 · DDP 어울림광장에서 열리는 기타 행사입니다. 무료로 참여할 수 있는 행사입니다.",
+  "summary": "중구 · DDP 어울림광장 교각 아래에서 열리는 기타 행사입니다. 무료로 참여할 수 있는 행사입니다.",
   "organizerUrl": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=757&boardno=16&bbstopno=757&act=view&subno=",
   "ticketType": "기관",
   "description": "",
@@ -25,5 +25,5 @@
   "latitude": 37.56735731522952,
   "longitude": 127.00977973484339,
   "registeredAt": "2026-06-26",
-  "collectedAt": "2026-07-02T22:51:48.823Z"
+  "collectedAt": "2026-07-03T23:36:29.835Z"
 }
