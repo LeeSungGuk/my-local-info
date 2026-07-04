@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-07-04T08:36:57+09:00",
+  "lastGeneratedAt": "2026-07-05T08:33:50+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -1639,9 +1639,9 @@
         "카메라수리"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-06-21T07:53:58+09:00",
-      "usedAt": null
+      "usedAt": "2026-07-05T08:33:50+09:00"
     },
     {
       "id": "seoul-early-morning-markets",
