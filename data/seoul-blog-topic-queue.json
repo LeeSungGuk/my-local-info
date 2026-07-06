@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-07-06T08:37:16+09:00",
+  "lastGeneratedAt": "2026-07-07T08:39:51+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -1681,9 +1681,9 @@
         "종로가볼만한곳"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-07-01T08:13:09+09:00",
-      "usedAt": null
+      "usedAt": "2026-07-07T08:39:51+09:00"
     },
     {
       "id": "seoul-vegan-friendly-neighborhoods",
