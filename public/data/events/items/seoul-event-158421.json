@@ -14,7 +14,7 @@
   "isFree": false,
   "organizer": "세종문화회관",
   "inquiry": "02-399-1000",
-  "imageUrl": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a81c2782c8e94aa8b0da125871c8f84a&thumb=Y",
+  "imageUrl": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=44d1de1715b1483c9b8dda0ac32b1768&thumb=Y",
   "detailUrl": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158421&menuNo=200008",
   "summary": "종로구 · 세종S씨어터에서 열리는 무용 행사입니다. 지정석 55,000원 자유석 45,000원",
   "organizerUrl": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?performIdx=37077&menuNo=200320",
@@ -25,5 +25,5 @@
   "latitude": 37.5726241,
   "longitude": 126.9760053,
   "registeredAt": "2026-06-26",
-  "collectedAt": "2026-07-06T23:39:18.274Z"
+  "collectedAt": "2026-07-07T23:30:46.009Z"
 }

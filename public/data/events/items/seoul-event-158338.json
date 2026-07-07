@@ -14,7 +14,7 @@
   "isFree": false,
   "organizer": "세종문화회관",
   "inquiry": "02-399-1000",
-  "imageUrl": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=f39ef77f89d844ce8fb8e29086c36813&thumb=Y",
+  "imageUrl": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bc1acc6025a24cba9976d0443f15858a&thumb=Y",
   "detailUrl": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158338&menuNo=200008",
   "summary": "종로구 · 세종S씨어터에서 열리는 국악 행사입니다. 1층석 45,000원 2층석 35,000원",
   "organizerUrl": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?performIdx=37192&menuNo=200320",
@@ -25,5 +25,5 @@
   "latitude": 37.5726241,
   "longitude": 126.9760053,
   "registeredAt": "2026-06-19",
-  "collectedAt": "2026-07-06T23:39:18.274Z"
+  "collectedAt": "2026-07-07T23:30:46.009Z"
 }

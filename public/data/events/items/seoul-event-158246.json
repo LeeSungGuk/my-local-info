@@ -14,7 +14,7 @@
   "isFree": true,
   "organizer": "서울역사박물관",
   "inquiry": "02-724-0724",
-  "imageUrl": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=c1f81d668a5649069f976f1df2b2b602&thumb=Y",
+  "imageUrl": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=504caf944a314f089d9de743e41f3aed&thumb=Y",
   "detailUrl": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=158246&menuNo=200009",
   "summary": "종로구 · 서울역사박물관 기획전시실 B / 한양도성박물관 기획전시실에서 열리는 전시/미술 행사입니다. 무료로 참여할 수 있는 행사입니다.",
   "organizerUrl": "https://museum.seoul.go.kr/www/board/NR_boardView.do?sortName=&q_listType=THUMBNAIL&searchVal=&bbsCd=1002&endDt=&searchKey=TITLE___1002&sso=ok&regPwd=N&museumCd=&pageType=&sortOrder=&q_exhSttus=next&startDt=&currentPage=&seq=20260615104640628&ctgCd=&showSummaryYn=N",
@@ -25,5 +25,5 @@
   "latitude": 37.570507525011855,
   "longitude": 126.97052372473162,
   "registeredAt": "2026-06-15",
-  "collectedAt": "2026-07-06T23:39:18.274Z"
+  "collectedAt": "2026-07-07T23:30:46.009Z"
 }
