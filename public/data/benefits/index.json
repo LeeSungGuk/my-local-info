@@ -10,9 +10,9 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-07-07T23:31:05.323Z",
+    "collectedAt": "2026-07-08T23:38:05.609Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10965,
+    "availableCount": 10966,
     "fetchedCount": 1128,
     "activeCount": 1092,
     "expiredCount": 36,
@@ -21,6 +21,92 @@
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-O00081600006",
+      "sourceId": "O00081600006",
+      "title": "2026년 서울시 장애인 평생교육이용권 지원(2차)",
+      "field": "보육·교육",
+      "provider": "(재)서울특별시평생교육진흥원",
+      "providerType": "서울시",
+      "district": "서울특별시",
+      "userType": "개인",
+      "deadlineText": "2026.07.09~2026.07.27",
+      "deadlineSortKey": "2026-07-27",
+      "isAlwaysOpen": false,
+      "targetSummary": "ㅇ 신청자격 : 주민등록상 서울에 거주하는 19세 이상 등록장애인(「장애인복지법」 제32조)\n  \nㅇ 지원규모 : 156명[저소득층(기초생활수급자, 차상위계층 등) 우선 선정]   \n - 성북구 제외 24개 자치구\n - 종로구(1명), 중구(11명), 용산구(3명),…",
+      "summary": "(재)서울특별시평생교육진흥원에서 제공하는 보육·교육 혜택입니다. 서울시 거주 장애인이 평생교육을 통해 역량을 개발하고 적극적으로 사회에 참여하도록 19세 이상 등록 장애인 학습자에게 평생교육 수강료 및 교재비 지원",
+      "supportType": "이용권",
+      "supportSummary": "- 신청기간 : 2026. 7. 9.(목) 10:00 ~ 7. 27.(월) 18:00\n\n(신청기간 전에 신청하지 않도록 유의해주시기 바랍니다. 신청기간 중 신청 필수)\n\n- 신청대상 : 주민등록상 서울에 거주하는 19세 이상 '장애인복지법'상 등록 장애인…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00081600006",
+      "onlineUrl": "",
+      "inquiry": [
+        "장애인 평생교육이용권 상담콜센터/1668-0420",
+        "서울시평생교육진흥원 평생교육이용권 상담콜센터/1551-4777"
+      ],
+      "updatedAt": "2026-07-08",
+      "registeredAt": "2026-07-02"
+    },
+    {
+      "id": "gov-benefit-611000019624",
+      "sourceId": "611000019624",
+      "title": "자녀출산 무주택가구 주거비 지원",
+      "field": "임신·출산",
+      "provider": "서울특별시",
+      "providerType": "서울시",
+      "district": "서울특별시",
+      "userType": "가구",
+      "deadlineText": "'26.7.1.~12.31.(하반기) ※'27년 모집은 별도 공고 예정",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "➊ 기본 자격요건\n ㅇ (신청가구)  서울시 거주 무주택 출산(입양)가구의 부 또는 모\n       ※ 부 또는 모 중 한 명 이상은 대한민국 국민이어야 함\n    ① 출산 후 1년 이내 신청  (입양아는 신청일 기준 출생일로부터 48개월 이하인 아동)\n    ② 신…",
+      "summary": "서울특별시에서 제공하는 임신·출산 혜택입니다. 수도권 대비 주거비가 높은 서울에서 자녀를 출산한 가구에 주거비를 지원하여 경제적 부담을 완화하고 ‘안정적인 서울살이’를 지원",
+      "supportType": "현금",
+      "supportSummary": "ㅇ 지원대상 : 서울시 거주 자녀 출산(입양) 무주택 가구(※출산 후 1년 이내 신청, 입양은 신청일 기준 출생일로부터 48개월 이하)\n ㅇ 지원단위 : 출산 가구당 지원 \n ㅇ 지원내용 : 월 최대 30만원 주거비 지원(2년간 최대 720만원)\n  - 전세(임차)보…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000019624",
+      "onlineUrl": "https://umppa.seoul.go.kr/hmpg/sprt/bzin/bzmgComtDetail.do?biz_mng_no=197DA8F773AAE8DCE063A6022162FF67",
+      "inquiry": [
+        "서울시 여성가족재단/1533-1465",
+        "서울시 120다산콜/02-120"
+      ],
+      "updatedAt": "2026-07-08",
+      "registeredAt": "2025-07-14"
+    },
+    {
+      "id": "gov-benefit-306000000239",
+      "sourceId": "306000000239",
+      "title": "출산축하용품 지원",
+      "field": "임신·출산",
+      "provider": "서울특별시 중랑구",
+      "providerType": "자치구",
+      "district": "중랑구",
+      "userType": "가구",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "- 지원대상 :  2026년 1월 1일 이후 출생한 우리구 모든 출생아\n  - 지원자격 : 중랑구 거주 12개월 이상, 출생일로부터 6개월 이내 신청\n  ㆍ거주 기간 미충족 시 중랑구 거주 12개월이 되는 날부터 지원 대상, 충족일부터 6개월 이내 신청",
+      "summary": "서울특별시 중랑구에서 제공하는 임신·출산 혜택입니다. 초기 육아용품 지원을 통해 출산가정의 양육 부담 완화와 안정적인 양육환경 조성 유도\n출산 가정에 구민 전용 출산․육아용품 온라인몰 포인트를 지급하여 \n필요한 물품을 직접 선택하는 이용자 맞춤형 서비스 제공",
+      "supportType": "현물",
+      "supportSummary": "○ 2026년 1월 1일 이후 출산한 출산 가정에 출산.육아용품 전용 온라인몰 포인트 10만원 지급",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/306000000239",
+      "onlineUrl": "https://www.jungnang.go.kr/portal/main/contents.do?menuNo=201500",
+      "inquiry": [
+        "보육지원과/02-2094-1792"
+      ],
+      "updatedAt": "2026-07-08",
+      "registeredAt": "2026-05-20"
+    },
     {
       "id": "gov-benefit-315000000107",
       "sourceId": "315000000107",
@@ -50,35 +136,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-O00081600006",
-      "sourceId": "O00081600006",
-      "title": "2026년 서울시 장애인 평생교육이용권 지원(2차)",
-      "field": "보육·교육",
-      "provider": "(재)서울특별시평생교육진흥원",
-      "providerType": "서울시",
-      "district": "서울특별시",
-      "userType": "개인",
-      "deadlineText": "2026.07.09~2026.07.27",
-      "deadlineSortKey": "2026-07-27",
-      "isAlwaysOpen": false,
-      "targetSummary": "ㅇ 신청자격 : 주민등록상 서울에 거주하는 19세 이상 등록장애인(「장애인복지법」 제32조)\n  \nㅇ 지원규모 : 156명[저소득층(기초생활수급자, 차상위계층 등) 우선 선정]   \n - 성북구 제외 24개 자치구\n - 종로구(1명), 중구(11명), 용산구(3명),…",
-      "summary": "(재)서울특별시평생교육진흥원에서 제공하는 보육·교육 혜택입니다. 서울시 거주 장애인이 평생교육을 통해 역량을 개발하고 적극적으로 사회에 참여하도록 19세 이상 등록 장애인 학습자에게 평생교육 수강료 및 교재비 지원",
-      "supportType": "이용권",
-      "supportSummary": "- 신청기간 : 2026. 7. 9.(목) 10:00 ~ 7. 27.(월) 18:00\n\n(신청기간 전에 신청하지 않도록 유의해주시기 바랍니다. 신청기간 중 신청 필수)\n\n- 신청대상 : 주민등록상 서울에 거주하는 19세 이상 '장애인복지법'상 등록 장애인…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00081600006",
-      "onlineUrl": "",
-      "inquiry": [
-        "장애인 평생교육이용권 상담콜센터/1668-0420",
-        "서울시평생교육진흥원 평생교육이용권 상담콜센터/1551-4777"
-      ],
-      "updatedAt": "2026-07-07",
-      "registeredAt": "2026-07-02"
-    },
-    {
       "id": "gov-benefit-321000000125",
       "sourceId": "321000000125",
       "title": "요보호여성 지원",
@@ -105,34 +162,6 @@
       ],
       "updatedAt": "2026-07-06",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-306000000239",
-      "sourceId": "306000000239",
-      "title": "출산축하용품 지원",
-      "field": "임신·출산",
-      "provider": "서울특별시 중랑구",
-      "providerType": "자치구",
-      "district": "중랑구",
-      "userType": "가구",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "- 지원대상 :  2026년 1월 1일 이후 출생한 우리구 모든 출생아\n  - 지원자격 : 중랑구 거주 12개월 이상, 출생일로부터 6개월 이내 신청\n  ㆍ거주 기간 미충족 시 중랑구 거주 12개월이 되는 날부터 지원 대상, 충족일부터 6개월 이내 신청",
-      "summary": "서울특별시 중랑구에서 제공하는 임신·출산 혜택입니다. 초기 육아용품 지원을 통해 출산가정의 양육 부담 완화와 안정적인 양육환경 조성 유도\n출산 가정에 구민 전용 출산․육아용품 온라인몰 포인트를 지급하여 \n필요한 물품을 직접 선택하는 이용자 맞춤형 서비스 제공",
-      "supportType": "현물",
-      "supportSummary": "○ 2026년 1월 1일 이후 출산한 출산 가정에 출산.육아용품 전용 온라인몰 포인트 10만원 지급",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/306000000239",
-      "onlineUrl": "https://www.jungnang.go.kr/portal/main/contents.do?menuNo=201500",
-      "inquiry": [
-        "보육지원과/02-2094-1792"
-      ],
-      "updatedAt": "2026-07-06",
-      "registeredAt": "2026-05-20"
     },
     {
       "id": "gov-benefit-322000000108",
@@ -26702,35 +26731,6 @@
       ],
       "updatedAt": "2026-04-21",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-611000019624",
-      "sourceId": "611000019624",
-      "title": "자녀출산 무주택가구 주거비 지원",
-      "field": "임신·출산",
-      "provider": "서울특별시",
-      "providerType": "서울시",
-      "district": "서울특별시",
-      "userType": "가구",
-      "deadlineText": "'26.2.2.~6.30.(상반기) ※하반기는 7월 별도 공고 예정",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "➊ 기본 자격요건\n ㅇ (신청가구)  서울시 거주 무주택 출산(입양)가구의 부 또는 모\n       ※ 부 또는 모 중 한 명 이상은 대한민국 국민이어야 함\n    ① 2025.1.1.이후 출산가구  (입양아는 신청일 기준 출생일로부터 48개월 이하인 아동)…",
-      "summary": "서울특별시에서 제공하는 임신·출산 혜택입니다. 수도권 대비 주거비가 높은 서울에서 자녀를 출산한 가구에 주거비를 지원하여 경제적 부담을 완화하고 ‘안정적인 서울살이’를 지원",
-      "supportType": "현금",
-      "supportSummary": "ㅇ 지원대상 : 서울시 거주 자녀 출산(입양) 무주택 가구(2025.1.1.이후 출산)\n ㅇ 지원단위 : 출산 가구당 지원 \n ㅇ 지원내용 : 월 최대 30만원 주거비 지원(2년간 최대 720만원)\n  - 전세(임차)보증금 대출 이자 또는 월세 납부에 대해 월 최대…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000019624",
-      "onlineUrl": "https://umppa.seoul.go.kr/hmpg/sprt/bzin/bzmgComtDetail.do?biz_mng_no=197DA8F773AAE8DCE063A6022162FF67",
-      "inquiry": [
-        "서울시 여성가족재단/1533-1465",
-        "서울시 120다산콜/02-120"
-      ],
-      "updatedAt": "2026-04-21",
-      "registeredAt": "2025-07-14"
     },
     {
       "id": "gov-benefit-611000019637",
