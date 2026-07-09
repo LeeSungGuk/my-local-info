@@ -16,6 +16,7 @@
   "supportSummary": "접종일 현재 동대문구에 주민등록을 두고 있는\n임신 27주 이상 36주 이내의 임신부 및\n임신기간에 접종하지 않은 분만 2주 이내 산모에게 백일해 백신 접종",
   "receptionAgency": "접수기관 정보 없음",
   "applicationMethodTypes": [
+    "정부24온라인신청",
     "방문신청"
   ],
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000286",
@@ -23,10 +24,10 @@
   "inquiry": [
     "동대문구보건소 예방접종실/02-2127-4942"
   ],
-  "updatedAt": "2026-04-23",
+  "updatedAt": "2026-07-09",
   "registeredAt": "2025-12-10",
-  "viewCount": 108,
-  "collectedAt": "2026-07-08T23:38:05.609Z",
+  "viewCount": 109,
+  "collectedAt": "2026-07-09T23:46:49.661Z",
   "purpose": "임신부 대상 백일해 예방접종 지원을 통해 태어날 아기를 감염병으로부터 보호",
   "target": "접종일 현재 동대문구에 주민등록을 두고 있는\n임신 27주 이상 36주 이내의 임신부 및\n임신기간에 접종하지 않은 분만 2주 이내 산모",
   "selectionCriteria": "",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-07-09T08:38:19+09:00",
+  "lastGeneratedAt": "2026-07-10T08:47:01+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -1744,9 +1744,9 @@
         "이색공간"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-07-01T08:13:09+09:00",
-      "usedAt": null
+      "usedAt": "2026-07-10T08:47:01+09:00"
     },
     {
       "id": "seoul-free-cultural-archives",
@@ -1851,6 +1851,204 @@
       "origin": "ai",
       "status": "pending",
       "createdAt": "2026-07-01T08:13:09+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-analog-vinyl-record-shops",
+      "titleHint": "디지털 대신 바늘이 긁는 소리, 서울 레트로 LP·레코드숍 투어",
+      "topicCategory": "생활취향",
+      "angle": "음악을 귀로 듣는 것을 넘어 손으로 만지고 소유하는 경험을 원하는 아날로그 감성 러버들을 위한 서울 LP 매장 안내",
+      "places": [
+        "회현지하쇼핑센터 LP상가",
+        "이태원 현대카드 바이닐앤플라스틱",
+        "신촌 돌레코드"
+      ],
+      "tags": [
+        "LP샵",
+        "레코드숍",
+        "아날로그감성",
+        "음악감상",
+        "서울투어"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-07-10T08:47:01+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-stationery-journaling-shops",
+      "titleHint": "다꾸러와 문구 덕후의 성지, 감성 가득한 서울 이색 소품·문방구 탐방",
+      "topicCategory": "생활취향",
+      "angle": "아기자기한 엽서, 스티커부터 아날로그 만년필까지 나만의 기록 공간을 채워줄 서울의 감성 문구점 추천",
+      "places": [
+        "성수동 포인트오브뷰",
+        "망원동 제로스페이스",
+        "연남동 오브젝트"
+      ],
+      "tags": [
+        "문구점",
+        "다이어리꾸미기",
+        "소품숍",
+        "감성소품",
+        "서울디자인"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-07-10T08:47:01+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-scenic-running-tracks",
+      "titleHint": "퇴근 후 가볍게 달리기 좋은 서울 도심 속 야간 러닝 명소",
+      "topicCategory": "액티비티",
+      "angle": "바쁜 일상 속 건강을 챙기고 싶은 러너들을 위해 야간 조명이 잘 갖춰지고 풍경이 아름다운 서울의 러닝 코스 제안",
+      "places": [
+        "여의도공원 러닝트랙",
+        "뚝섬한강공원 수변광장 코스",
+        "중랑천 장미터널 길"
+      ],
+      "tags": [
+        "러닝코스",
+        "야간러닝",
+        "도심운동",
+        "조깅코스",
+        "오운완"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-07-10T08:47:01+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-traditional-tea-rooms",
+      "titleHint": "커피 대신 차 한 잔의 여유, 마음을 차분히 가라앉히는 서울 다도 쉼터",
+      "topicCategory": "휴식공간",
+      "angle": "카페인의 자극에서 벗어나 은은한 차 향과 함께 조용히 대화를 나누거나 명상하기 좋은 서울의 찻집과 티룸",
+      "places": [
+        "인사동 아름다운차박물관",
+        "성북동 수연산방",
+        "서촌 티하우스 레몬"
+      ],
+      "tags": [
+        "전통찻집",
+        "티하우스",
+        "다도체험",
+        "정적인휴식",
+        "서울찻집"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-07-10T08:47:01+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-musical-fountains",
+      "titleHint": "시원한 물줄기와 음악의 만남, 돗자리 깔고 감상하는 서울 무료 음악분수",
+      "topicCategory": "무료코스",
+      "angle": "지출 없이도 야외에서 낭만적인 저녁 시간을 보낼 수 있는 서울의 대표적인 야외 음악분수 명소 소개",
+      "places": [
+        "반포한강공원 달빛무지개분수",
+        "예술의전당 세계음악분수",
+        "보라매공원 음악분수"
+      ],
+      "tags": [
+        "음악분수",
+        "무료입장",
+        "한강데이트",
+        "야외공연",
+        "가성비나들이"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-07-10T08:47:01+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-fragrance-incense-shops",
+      "titleHint": "기분 좋은 향기로 공간을 채우는 서울 감성 향수·인센스 편집숍",
+      "topicCategory": "생활취향",
+      "angle": "나만의 고유한 향을 찾거나 지친 마음에 안정을 주는 향기 테라피 아이템을 만날 수 있는 서울의 향 전문 매장",
+      "places": [
+        "서촌 그랑핸드",
+        "인사동 아포테케 프래그런스",
+        "삼청동 탬버린즈 플래그십스토어"
+      ],
+      "tags": [
+        "향수공방",
+        "인센스스틱",
+        "디퓨저",
+        "향기테라피",
+        "감성편집숍"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-07-10T08:47:01+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-beginner-bouldering-spots",
+      "titleHint": "중력을 거스르는 짜릿함, 초보자도 쉽게 도전하는 서울 실내외 클라이밍장",
+      "topicCategory": "액티비티",
+      "angle": "새로운 취미를 찾거나 전신 근력 운동을 원하는 입문자들을 위한 서울의 친절하고 접근성 좋은 클라이밍 공간",
+      "places": [
+        "뚝섬한강공원 인공암벽장",
+        "신촌 피커스 클라이밍",
+        "종로 클라이밍파크"
+      ],
+      "tags": [
+        "실내클라이밍",
+        "볼더링",
+        "이색스포츠",
+        "직장인취미",
+        "실내운동"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-07-10T08:47:01+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-market-street-food-tour",
+      "titleHint": "만 원짜리 한 장으로 배부른 행복, 서울 전통시장 대표 길거리 간식 지도",
+      "topicCategory": "시장추천",
+      "angle": "부담 없는 가격으로 서울의 활기찬 시장 분위기를 느끼며 대표적인 간식을 맛볼 수 있는 먹거리 투어 가이드",
+      "places": [
+        "망원시장 고추튀김 골목",
+        "광장시장 빈대떡·육회 거리",
+        "통인시장 엽전도시락"
+      ],
+      "tags": [
+        "시장먹거리",
+        "길거리음식",
+        "전통시장",
+        "만원의행복",
+        "가성비맛집"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-07-10T08:47:01+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-indoor-amusement-zones",
+      "titleHint": "궂은 날씨에도 시간 순삭, 친구 연인과 내기하기 좋은 서울 실내 이색 놀이터",
+      "topicCategory": "실내대안",
+      "angle": "비가 오거나 미세먼지가 심한 날, 지루함 없이 활동적으로 액티비티와 게임을 즐길 수 있는 서울 대형 실내 놀이 공간",
+      "places": [
+        "홍대 보드게임 카페거리",
+        "강남역 방탈출 카페 타운",
+        "수유동 다이나믹메이즈"
+      ],
+      "tags": [
+        "실내데이트",
+        "액티비티",
+        "방탈출카페",
+        "보드게임",
+        "비오는날가볼만한곳"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-07-10T08:47:01+09:00",
       "usedAt": null
     }
   ]

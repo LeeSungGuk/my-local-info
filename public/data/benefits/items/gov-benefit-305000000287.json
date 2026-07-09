@@ -16,6 +16,7 @@
   "supportSummary": "○ 항원항체검사 결과 음성인 접종희망자를 대상으로 유료 B형간염 예방접종 제공\n\n○ 접종방법:  0~1~6개월(총3회 접종)\n\n○ 수수료 : 회당 6,900원\n ※ 접종 수수료 변동 가능",
   "receptionAgency": "접수기관 정보 없음",
   "applicationMethodTypes": [
+    "정부24온라인신청",
     "방문신청"
   ],
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000287",
@@ -23,10 +24,10 @@
   "inquiry": [
     "동대문구보건소 예방접종실/02-2127-4942"
   ],
-  "updatedAt": "2026-04-27",
+  "updatedAt": "2026-07-09",
   "registeredAt": "2025-12-10",
-  "viewCount": 133,
-  "collectedAt": "2026-07-08T23:38:05.609Z",
+  "viewCount": 134,
+  "collectedAt": "2026-07-09T23:46:49.661Z",
   "purpose": "B형간염 예방접종을 통한 지역사회 집단면역 증진",
   "target": "○ 항원항체검사 결과 음성인 자",
   "selectionCriteria": "",
