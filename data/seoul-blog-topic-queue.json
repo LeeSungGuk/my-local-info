@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-07-10T08:47:01+09:00",
+  "lastGeneratedAt": "2026-07-11T08:31:57+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -1765,9 +1765,9 @@
         "비오는날추천"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-07-01T08:13:09+09:00",
-      "usedAt": null
+      "usedAt": "2026-07-11T08:31:57+09:00"
     },
     {
       "id": "seoul-scenic-hillside-stairs",
