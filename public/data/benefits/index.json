@@ -10,9 +10,9 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-07-12T23:29:04.362Z",
+    "collectedAt": "2026-07-13T23:27:28.309Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10974,
+    "availableCount": 10976,
     "fetchedCount": 1127,
     "activeCount": 1094,
     "expiredCount": 33,
@@ -21,6 +21,121 @@
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-315000000285",
+      "sourceId": "315000000285",
+      "title": "(강서구)임산부 건강관리 서비스 지원",
+      "field": "임신·출산",
+      "provider": "서울특별시 강서구",
+      "providerType": "자치구",
+      "district": "강서구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 관내 주민등록을 둔 임산부",
+      "summary": "서울특별시 강서구에서 제공하는 임신·출산 혜택입니다. 임산부에게 엽산제, 철분제, 임신초기검사, 기형아검사, 당뇨검사, 유축기 대여 등 지원",
+      "supportType": "서비스(의료)",
+      "supportSummary": "○ 임산부에게 엽산제 및 철분제 지원\n○ 관내 주민등록을 둔 임산부에게 임신초기검사, 기형아검사, 당뇨검사 등 지원\n - 임신초기검사(혈액검사,소변검사) : 10주 이전\n - 임산부 기형아검사 : 16~18주 2차 쿼드검사\n - 임신성 당뇨검사 : 24주~28주\n○…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000285",
+      "onlineUrl": "",
+      "inquiry": [
+        "건강관리과/02-2600-5499",
+        "건강관리과/02-2600-5917"
+      ],
+      "updatedAt": "2026-07-13",
+      "registeredAt": "2025-12-08"
+    },
+    {
+      "id": "gov-benefit-304000000234",
+      "sourceId": "304000000234",
+      "title": "2026년 광진구 청년을 위한 청년문화생활 바우처 지원사업 신청",
+      "field": "문화·환경",
+      "provider": "서울특별시 광진구",
+      "providerType": "자치구",
+      "district": "광진구",
+      "userType": "개인",
+      "deadlineText": "2026.07.01~2026.07.15",
+      "deadlineSortKey": "2026-07-15",
+      "isAlwaysOpen": false,
+      "targetSummary": "다.지원대상:아래 자격 요건을 모두 충족하는 자*연1회 지원(기 수혜자 제외)\n\n연령: 24~29세※1997 ~2002년생(생일 도래 무관)\n\n거주: 신청일 기준광진구에1년 이상주민등록을 하고 거주 중인 자\n\n소득: 가구기준중위소득120%이하\n\n\n※제외대상:문화누리카…",
+      "summary": "서울특별시 광진구에서 제공하는 문화·환경 혜택입니다. 고물가와 취업난 속에서 경제적 자립에 어려움을 겪는 청년들을 지원하기 위해\n취업 준비와 소득 공백으로 문화생활을 누리기 어려운 지역 청년들을 지원하기 위해",
+      "supportType": "이용권",
+      "supportSummary": "1.사업내용\n\n가.사 업 명:광진구 청년문화생활바우처 지원사업\n\n나.신청기간: 2026. 7. 1. ~ 7.15.\n\n다.지원대상:아래 자격 요건을 모두 충족하는 자*연1회 지원(기 수혜자 제외)\n\n연령: 24~29세※1997 ~2002년생(생일 도래 무관)\n\n거주:…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000234",
+      "onlineUrl": "https://www.gwangjin.go.kr/portal/main/contents.do?menuNo=200043",
+      "inquiry": [
+        "광진구청 일자리청년과/02-450-7067"
+      ],
+      "updatedAt": "2026-07-13",
+      "registeredAt": "2026-07-09"
+    },
+    {
+      "id": "gov-benefit-305000000101",
+      "sourceId": "305000000101",
+      "title": "노인 성인용 보행기 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 동대문구",
+      "providerType": "자치구",
+      "district": "동대문구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 만65세 이상 기초생황수급(생계º의료)대상자 중 장기요양등급외 판정자 또는거동이 불편하여 성인용 보행기가 필요한 어르신",
+      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 장기요양 등급외 판정을 받은 저소득 어르신에게 보행기 지원",
+      "supportType": "현물",
+      "supportSummary": "○ 대상자에게 성인용 보행기 1대 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000101",
+      "onlineUrl": "",
+      "inquiry": [
+        "동행과/02-2127-4411"
+      ],
+      "updatedAt": "2026-07-13",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-O00081600006",
+      "sourceId": "O00081600006",
+      "title": "2026년 서울시 장애인 평생교육이용권 지원(2차)",
+      "field": "보육·교육",
+      "provider": "(재)서울특별시평생교육진흥원",
+      "providerType": "서울시",
+      "district": "서울특별시",
+      "userType": "개인",
+      "deadlineText": "2026.07.09~2026.07.27",
+      "deadlineSortKey": "2026-07-27",
+      "isAlwaysOpen": false,
+      "targetSummary": "ㅇ 신청자격 : 주민등록상 서울에 거주하는 19세 이상 등록장애인(「장애인복지법」 제32조)\n  \nㅇ 지원규모 : 156명[저소득층(기초생활수급자, 차상위계층 등) 우선 선정]   \n - 성북구 제외 24개 자치구\n - 종로구(1명), 중구(11명), 용산구(3명),…",
+      "summary": "(재)서울특별시평생교육진흥원에서 제공하는 보육·교육 혜택입니다. 서울시 거주 장애인이 평생교육을 통해 역량을 개발하고 적극적으로 사회에 참여하도록 19세 이상 등록 장애인 학습자에게 평생교육 수강료 및 교재비 지원",
+      "supportType": "이용권",
+      "supportSummary": "- 신청기간 : 2026. 7. 9.(목) 10:00 ~ 7. 27.(월) 18:00\n\n(신청기간 전에 신청하지 않도록 유의해주시기 바랍니다. 신청기간 중 신청 필수)\n\n- 신청대상 : 주민등록상 서울에 거주하는 19세 이상 '장애인복지법'상 등록 장애인…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00081600006",
+      "onlineUrl": "",
+      "inquiry": [
+        "장애인 평생교육이용권 상담콜센터/1668-0420",
+        "서울시평생교육진흥원 평생교육이용권 상담콜센터/1551-4777"
+      ],
+      "updatedAt": "2026-07-13",
+      "registeredAt": "2026-07-02"
+    },
     {
       "id": "gov-benefit-321000000142",
       "sourceId": "321000000142",
@@ -46,7 +161,7 @@
       "inquiry": [
         "서초구청/0221556640"
       ],
-      "updatedAt": "2026-07-12",
+      "updatedAt": "2026-07-13",
       "registeredAt": "2026-07-08"
     },
     {
@@ -77,34 +192,6 @@
       ],
       "updatedAt": "2026-07-10",
       "registeredAt": "2023-10-23"
-    },
-    {
-      "id": "gov-benefit-304000000234",
-      "sourceId": "304000000234",
-      "title": "2026년 광진구 청년을 위한 청년문화생활 바우처 지원사업 신청",
-      "field": "문화·환경",
-      "provider": "서울특별시 광진구",
-      "providerType": "자치구",
-      "district": "광진구",
-      "userType": "개인",
-      "deadlineText": "2026.07.01~2026.07.15",
-      "deadlineSortKey": "2026-07-15",
-      "isAlwaysOpen": false,
-      "targetSummary": "다.지원대상:아래 자격 요건을 모두 충족하는 자*연1회 지원(기 수혜자 제외)\n\n연령: 24~29세※1997 ~2002년생(생일 도래 무관)\n\n거주: 신청일 기준광진구에1년 이상주민등록을 하고 거주 중인 자\n\n소득: 가구기준중위소득120%이하\n\n\n※제외대상:문화누리카…",
-      "summary": "서울특별시 광진구에서 제공하는 문화·환경 혜택입니다. 고물가와 취업난 속에서 경제적 자립에 어려움을 겪는 청년들을 지원하기 위해\n취업 준비와 소득 공백으로 문화생활을 누리기 어려운 지역 청년들을 지원하기 위해",
-      "supportType": "이용권",
-      "supportSummary": "1.사업내용\n\n가.사 업 명:광진구 청년문화생활바우처 지원사업\n\n나.신청기간: 2026. 7. 1. ~ 7.15.\n\n다.지원대상:아래 자격 요건을 모두 충족하는 자*연1회 지원(기 수혜자 제외)\n\n연령: 24~29세※1997 ~2002년생(생일 도래 무관)\n\n거주:…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000234",
-      "onlineUrl": "https://www.gwangjin.go.kr/portal/main/contents.do?menuNo=200043",
-      "inquiry": [
-        "광진구청 일자리청년과/02-450-7067"
-      ],
-      "updatedAt": "2026-07-10",
-      "registeredAt": "2026-07-09"
     },
     {
       "id": "gov-benefit-305000000119",
@@ -221,36 +308,6 @@
       ],
       "updatedAt": "2026-07-09",
       "registeredAt": "2025-12-10"
-    },
-    {
-      "id": "gov-benefit-O00081600006",
-      "sourceId": "O00081600006",
-      "title": "2026년 서울시 장애인 평생교육이용권 지원(2차)",
-      "field": "보육·교육",
-      "provider": "(재)서울특별시평생교육진흥원",
-      "providerType": "서울시",
-      "district": "서울특별시",
-      "userType": "개인",
-      "deadlineText": "2026.07.09~2026.07.27",
-      "deadlineSortKey": "2026-07-27",
-      "isAlwaysOpen": false,
-      "targetSummary": "ㅇ 신청자격 : 주민등록상 서울에 거주하는 19세 이상 등록장애인(「장애인복지법」 제32조)\n  \nㅇ 지원규모 : 156명[저소득층(기초생활수급자, 차상위계층 등) 우선 선정]   \n - 성북구 제외 24개 자치구\n - 종로구(1명), 중구(11명), 용산구(3명),…",
-      "summary": "(재)서울특별시평생교육진흥원에서 제공하는 보육·교육 혜택입니다. 서울시 거주 장애인이 평생교육을 통해 역량을 개발하고 적극적으로 사회에 참여하도록 19세 이상 등록 장애인 학습자에게 평생교육 수강료 및 교재비 지원",
-      "supportType": "이용권",
-      "supportSummary": "- 신청기간 : 2026. 7. 9.(목) 10:00 ~ 7. 27.(월) 18:00\n\n(신청기간 전에 신청하지 않도록 유의해주시기 바랍니다. 신청기간 중 신청 필수)\n\n- 신청대상 : 주민등록상 서울에 거주하는 19세 이상 '장애인복지법'상 등록 장애인…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00081600006",
-      "onlineUrl": "",
-      "inquiry": [
-        "장애인 평생교육이용권 상담콜센터/1668-0420",
-        "서울시평생교육진흥원 평생교육이용권 상담콜센터/1551-4777"
-      ],
-      "updatedAt": "2026-07-09",
-      "registeredAt": "2026-07-02"
     },
     {
       "id": "gov-benefit-321000000102",
@@ -21881,35 +21938,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-315000000285",
-      "sourceId": "315000000285",
-      "title": "(강서구)임산부 건강관리 서비스 지원",
-      "field": "임신·출산",
-      "provider": "서울특별시 강서구",
-      "providerType": "자치구",
-      "district": "강서구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 관내 주민등록을 둔 임산부",
-      "summary": "서울특별시 강서구에서 제공하는 임신·출산 혜택입니다. 임산부에게 엽산제, 철분제, 임신초기검사, 기형아검사, 당뇨검사, 유축기 대여 등 지원",
-      "supportType": "서비스(의료)",
-      "supportSummary": "○ 임산부에게 엽산제 및 철분제 지원\n○ 관내 주민등록을 둔 임산부에게 임신초기검사, 기형아검사, 당뇨검사 등 지원\n - 임신초기검사(혈액검사,소변검사) : 10주 이전\n - 임산부 기형아검사 : 16~18주 2차 쿼드검사\n - 임신성 당뇨검사 : 24주~28주\n○…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000285",
-      "onlineUrl": "",
-      "inquiry": [
-        "건강관리과/02-2600-5499",
-        "건강관리과/02-2600-5917"
-      ],
-      "updatedAt": "2026-04-23",
-      "registeredAt": "2025-12-08"
-    },
-    {
       "id": "gov-benefit-315000000264",
       "sourceId": "315000000264",
       "title": "무인민원발급기 수수료 일부 면제",
@@ -26422,34 +26450,6 @@
       ],
       "updatedAt": "2026-04-21",
       "registeredAt": "2022-07-15"
-    },
-    {
-      "id": "gov-benefit-305000000101",
-      "sourceId": "305000000101",
-      "title": "노인 성인용 보행기 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 동대문구",
-      "providerType": "자치구",
-      "district": "동대문구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 만65세 이상 기초생황수급(생계º의료)대상자 중 장기요양등급외 판정자 또는거동이 불편하여 성인용 보행기가 필요한 어르신",
-      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 장기요양 등급외 판정을 받은 저소득 어르신에게 보행기 지원",
-      "supportType": "현물",
-      "supportSummary": "○ 대상자에게 성인용 보행기 1대 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000101",
-      "onlineUrl": "",
-      "inquiry": [
-        "동행과/02-2127-4411"
-      ],
-      "updatedAt": "2026-04-21",
-      "registeredAt": "2021-09-23"
     },
     {
       "id": "gov-benefit-305000000288",

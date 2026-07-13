@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-07-13T08:29:17+09:00",
+  "lastGeneratedAt": "2026-07-14T08:27:40+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -1828,9 +1828,9 @@
         "실내나들이"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-07-01T08:13:09+09:00",
-      "usedAt": null
+      "usedAt": "2026-07-14T08:27:40+09:00"
     },
     {
       "id": "seoul-modern-traditional-desserts",
