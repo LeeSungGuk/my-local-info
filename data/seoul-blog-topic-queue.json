@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-07-14T08:27:40+09:00",
+  "lastGeneratedAt": "2026-07-15T08:27:02+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -1849,9 +1849,9 @@
         "카페투어"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-07-01T08:13:09+09:00",
-      "usedAt": null
+      "usedAt": "2026-07-15T08:27:02+09:00"
     },
     {
       "id": "seoul-analog-vinyl-record-shops",
