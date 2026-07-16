@@ -1,7 +1,7 @@
 {
   "id": "gov-benefit-313000000155",
   "sourceId": "313000000155",
-  "title": "청년 면접정장 대여사업",
+  "title": "(마포구)청년 면접정장 대여사업",
   "field": "생활안정",
   "provider": "서울특별시 마포구",
   "providerType": "자치구",
@@ -23,10 +23,10 @@
   "inquiry": [
     "고용협력과/02-3153-8643"
   ],
-  "updatedAt": "2026-05-08",
+  "updatedAt": "2026-07-16",
   "registeredAt": "2025-07-11",
-  "viewCount": 208,
-  "collectedAt": "2026-07-15T23:31:24.282Z",
+  "viewCount": 209,
+  "collectedAt": "2026-07-16T23:27:07.945Z",
   "purpose": "청년들의 구직활동에 따른 경제적 부담 경감",
   "target": "마포구 구직청년",
   "selectionCriteria": "",
