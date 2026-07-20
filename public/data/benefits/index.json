@@ -10,9 +10,9 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-07-16T23:27:07.945Z",
+    "collectedAt": "2026-07-20T23:32:46.461Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10977,
+    "availableCount": 10979,
     "fetchedCount": 1129,
     "activeCount": 1094,
     "expiredCount": 35,
@@ -21,6 +21,91 @@
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-324000000319",
+      "sourceId": "324000000319",
+      "title": "강동구 구민안전보험",
+      "field": "행정·안전",
+      "provider": "서울특별시 강동구",
+      "providerType": "자치구",
+      "district": "강동구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "지역 주민 모두",
+      "summary": "서울특별시 강동구에서 제공하는 행정·안전 혜택입니다. 일상생활에서 발생할 수 있는 우발적 사고 및 재난으로부터 인적 피해 등을 지원",
+      "supportType": "현금(보험)",
+      "supportSummary": "65세 이상 또는 취약게층(기초생활수급자, 차상위, 한부모)이 상해의 직접 결과로 4주 이상 진단 받은 경우 상해진단위로금(교통상해 제외) 10만원\n\n대중교통 이용 중 교통사고로 발생한 상해로 부상등급별 부상등급을 받은 경우 대중교통상해 부상치료비(택시, 전세버스 제…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/324000000319",
+      "onlineUrl": "",
+      "inquiry": [
+        "구민안전보험 상담센터/1522-3556"
+      ],
+      "updatedAt": "2026-07-20",
+      "registeredAt": "2024-12-22"
+    },
+    {
+      "id": "gov-benefit-309000000282",
+      "sourceId": "309000000282",
+      "title": "출생축하용품 지원",
+      "field": "임신·출산",
+      "provider": "서울특별시 도봉구",
+      "providerType": "자치구",
+      "district": "도봉구",
+      "userType": "개인",
+      "deadlineText": "출생신고일로부터 6개월 이내 신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "2026년 1월 1일 이후 출생아",
+      "summary": "서울특별시 도봉구에서 제공하는 임신·출산 혜택입니다. 출산가구의 경제적 부담의 경감 및 출산 양육 친화적인 사회분위기 조성",
+      "supportType": "현물",
+      "supportSummary": "출생축하용품 지급: 기저귀, 방수패드, 아기양말, 턱받이",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/309000000282",
+      "onlineUrl": "",
+      "inquiry": [
+        "가족정책과/02-2091-3143"
+      ],
+      "updatedAt": "2026-07-20",
+      "registeredAt": "2024-02-07"
+    },
+    {
+      "id": "gov-benefit-301000000142",
+      "sourceId": "301000000142",
+      "title": "(서울 중구) 난임부부 시술 약제비 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 중구",
+      "providerType": "자치구",
+      "district": "중구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "난임부부 시술비 지원사업 대상자 중 해당지원회차의 정부지원금 잔액이 남은 자 (중구민만 가능)",
+      "summary": "서울특별시 중구에서 제공하는 보건·의료 혜택입니다. 난임부부에게 체외수정(신선배아, 동결배아), 인공수정 등 건강보험 본인부담 및 비급여 일부를 지원하여\n경제적 부담을 경감시킴으로써 난임부부가 희망하는 자녀를 갖도록 지원",
+      "supportType": "현금",
+      "supportSummary": "○ 난임부부 시술비 중 약제비 일부 지원\nㅁ 지원내용\n시술과 직접적 관련 있는 원외약처방을 받은 경우 시술확인서, 처방전, 약제비 영수증 등 제출시\n일부 본인부담금, 비급여(전액본인부담금 포함) 약제비에 대하여 난임 시술비 지원 금액 한도 내에서 지급 가능\n＃ 지원금…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/301000000142",
+      "onlineUrl": "",
+      "inquiry": [
+        "중구보건소/02-3396-6357"
+      ],
+      "updatedAt": "2026-07-20",
+      "registeredAt": "2025-01-23"
+    },
     {
       "id": "gov-benefit-305000000147",
       "sourceId": "305000000147",
@@ -21768,34 +21853,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-324000000319",
-      "sourceId": "324000000319",
-      "title": "강동구 구민안전보험",
-      "field": "행정·안전",
-      "provider": "서울특별시 강동구",
-      "providerType": "자치구",
-      "district": "강동구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "지역 주민 모두",
-      "summary": "서울특별시 강동구에서 제공하는 행정·안전 혜택입니다. 일상생활에서 발생할 수 있는 우발적 사고 및 재난으로부터 인적 피해 등을 지원",
-      "supportType": "현금(보험)",
-      "supportSummary": "65세 이상 또는 취약게층(기초생활수급자, 차상위, 한부모)이 상해의 직접 결과로 4주 이상 진단 받은 경우 상해진단위로금(교통상해 제외) 10만원\n\n대중교통 이용 중 교통사고로 발생한 상해로 부상등급별 부상등급을 받은 경우 대중교통상해 부상치료비(택시, 전세버스 제…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/324000000319",
-      "onlineUrl": "",
-      "inquiry": [
-        "구민안전보험 상담센터/1522-3556"
-      ],
-      "updatedAt": "2026-04-23",
-      "registeredAt": "2024-12-22"
-    },
-    {
       "id": "gov-benefit-315000000284",
       "sourceId": "315000000284",
       "title": "생태전환교육 지원",
@@ -27081,34 +27138,6 @@
       "registeredAt": "2025-11-13"
     },
     {
-      "id": "gov-benefit-309000000282",
-      "sourceId": "309000000282",
-      "title": "출생축하용품 지원",
-      "field": "임신·출산",
-      "provider": "서울특별시 도봉구",
-      "providerType": "자치구",
-      "district": "도봉구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "2024년 1월 1일 이후 출생아",
-      "summary": "서울특별시 도봉구에서 제공하는 임신·출산 혜택입니다. 출산가구의 경제적 부담의 경감 및 출산 양육 친화적인 사회분위기 조성",
-      "supportType": "현물",
-      "supportSummary": "출생축하용품 지급: 기저귀, 방수패드, 아기양말, 턱받이",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/309000000282",
-      "onlineUrl": "",
-      "inquiry": [
-        "가족정책과/02-2091-3143"
-      ],
-      "updatedAt": "2026-04-08",
-      "registeredAt": "2024-02-07"
-    },
-    {
       "id": "gov-benefit-611000000144",
       "sourceId": "611000000144",
       "title": "취업날개 서비스",
@@ -28779,35 +28808,6 @@
       ],
       "updatedAt": "2026-02-05",
       "registeredAt": "2022-10-28"
-    },
-    {
-      "id": "gov-benefit-301000000142",
-      "sourceId": "301000000142",
-      "title": "(서울 중구) 난임부부 시술 약제비 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 중구",
-      "providerType": "자치구",
-      "district": "중구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "난임부부 시술비 지원사업 대상자 중 해당지원회차의 정부지원금 잔액이 남은 자 (중구민만 가능)",
-      "summary": "서울특별시 중구에서 제공하는 보건·의료 혜택입니다. 난임부부에게 체외수정(신선배아, 동결배아), 인공수정 등 건강보험 본인부담 및 비급여 일부를 지원하여\n경제적 부담을 경감시킴으로써 난임부부가 희망하는 자녀를 갖도록 지원",
-      "supportType": "현금",
-      "supportSummary": "○ 난임부부 시술비 중 약제비 일부 지원\nㅁ 지원내용\n시술과 직접적 관련 있는 원외약처방을 받은 경우 시술확인서, 처방전, 약제비 영수증 등 제출시\n일부 본인부담금, 비급여(전액본인부담금 포함) 약제비에 대하여 난임 시술비 지원 금액 한도 내에서 지급 가능\n＃ 지원금…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/301000000142",
-      "onlineUrl": "",
-      "inquiry": [
-        "중구보건소/02-3396-6357"
-      ],
-      "updatedAt": "2026-02-05",
-      "registeredAt": "2025-01-23"
     },
     {
       "id": "gov-benefit-301000000111",
