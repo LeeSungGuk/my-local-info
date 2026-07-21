@@ -10,11 +10,11 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-07-20T23:32:46.461Z",
+    "collectedAt": "2026-07-21T23:30:48.238Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10979,
-    "fetchedCount": 1129,
-    "activeCount": 1094,
+    "availableCount": 10978,
+    "fetchedCount": 1128,
+    "activeCount": 1093,
     "expiredCount": 35,
     "deduplicatedCount": 0,
     "filterMode": "서울 소관기관",
@@ -135,34 +135,6 @@
       ],
       "updatedAt": "2026-07-16",
       "registeredAt": "2022-07-13"
-    },
-    {
-      "id": "gov-benefit-313000000127",
-      "sourceId": "313000000127",
-      "title": "(마포구)청년 취업준비 비용 지원사업",
-      "field": "고용·창업",
-      "provider": "서울특별시 마포구",
-      "providerType": "자치구",
-      "district": "마포구",
-      "userType": "개인",
-      "deadlineText": "2026.02.02~2026.12.11",
-      "deadlineSortKey": "2026-12-11",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 신청대상: 19세~39세 청년 중 아래 요건 모두 충족하는 자\n  - 연령 : 신청일 기준 19세 ~ 39세 이하\n  - 주소 : 신청일 기준 마포구에 주민등록을 두고 있는 청년\n  - 미취업 : 신청일 기준 미취업자 및 사업자등록사실이 없는 자\n    *민간 취…",
-      "summary": "서울특별시 마포구에서 제공하는 고용·창업 혜택입니다. 청년들의 능력개발과 구직활동 촉진",
-      "supportType": "현금",
-      "supportSummary": "○ 지원내용: 1인당 최대 10만원\n  – 자격시험 응시비용 및 면접 헤어·메이크업 비용 최대 10만원 이내 실비 지원\n   ※ 당해연도 실시한 자격시험 및 면접 응시 횟수 제한 없으나, 통합 1회 신청\n ○ 지원분야\n  – 응시료: 어학 19종, 한국사능력검정시험…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000127",
-      "onlineUrl": "",
-      "inquiry": [
-        "마포구청 고용협력과 청년지원팀/02-3153-8643"
-      ],
-      "updatedAt": "2026-07-16",
-      "registeredAt": "2024-12-20"
     },
     {
       "id": "gov-benefit-313000000155",
