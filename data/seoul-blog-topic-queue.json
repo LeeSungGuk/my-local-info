@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-07-22T08:31:00+09:00",
+  "lastGeneratedAt": "2026-07-23T08:32:08+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -2025,9 +2025,9 @@
         "가성비맛집"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-07-10T08:47:01+09:00",
-      "usedAt": null
+      "usedAt": "2026-07-23T08:32:08+09:00"
     },
     {
       "id": "seoul-indoor-amusement-zones",
