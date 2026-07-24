@@ -10,9 +10,9 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-07-21T23:30:48.238Z",
+    "collectedAt": "2026-07-24T23:34:44.944Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10978,
+    "availableCount": 10981,
     "fetchedCount": 1128,
     "activeCount": 1093,
     "expiredCount": 35,
@@ -21,6 +21,207 @@
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-O00023300003",
+      "sourceId": "O00023300003",
+      "title": "거주자우선주차 및 시설 공영주차장 주차요금 감면",
+      "field": "생활안정",
+      "provider": "마포구시설관리공단",
+      "providerType": "자치구",
+      "district": "마포구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 장애인 : 장애인 자동차 표지를 부착하고 장애인이 탑승하여 장애인등록증을 제시한 경우\n\n○ 국가유공상이자 : 국가보훈처장이 발행한 국가유공자증을 소지한 사람\n\n○ 고엽제후유의증 환자 : 고엽제후유의증 환자로서 국가보훈처장이 발행한 증서를 소지한 자\n\n○ 의상자 및…",
+      "summary": "마포구시설관리공단에서 제공하는 생활안정 혜택입니다. 국가유공자, 한부모, 장애인 등에게 거주자우선주차 및 시설 공영주차장 주차요금 감면",
+      "supportType": "현금(감면)",
+      "supportSummary": "○ 거주자우선주차 및 시설 공영주차장 주차요금 감면\n - 80% 할인\n  · 장애인, 국가유공상이자, 고엽제후유의증 환자, 의상자 및 의사자 유족, 참전유공자\n\n - 50% 할인\n  · 저공해차량, 경차, 다둥이 행복카드 소지자, 한부모가족\n\n - 20% 할인\n  ·…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00023300003",
+      "onlineUrl": "https://eparking.mfmc.or.kr/",
+      "inquiry": [
+        "주차관리부/02-300-5042",
+        "주차관리부/02-300-5043",
+        "주차관리부/02-300-5044",
+        "주차관리부/02-300-5045",
+        "주차관리부/02-300-5041"
+      ],
+      "updatedAt": "2026-07-24",
+      "registeredAt": "2022-11-29"
+    },
+    {
+      "id": "gov-benefit-O00023300001",
+      "sourceId": "O00023300001",
+      "title": "공영주차장 이용요금 감면",
+      "field": "생활안정",
+      "provider": "마포구시설관리공단",
+      "providerType": "자치구",
+      "district": "마포구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 장애인 : 장애인 자동차 표지를 부착하고 장애인이 탑승하여 장애인등록증을 제시한 경우\n\n○ 국가유공상이자 : 국가보훈처장이 발행한 국가유공자증을 소지한 사람\n\n○ 고엽제후유의증 환자 : 고엽제후유의증 환자로서 국가보훈처장이 발행한 증서를 소지한 자\n\n○ 참전유공자…",
+      "summary": "마포구시설관리공단에서 제공하는 생활안정 혜택입니다. 국가유공자, 한부모가족, 장애인 등에게 공영주차장 이용요금 감면(대상별 상이)",
+      "supportType": "현금(감면)",
+      "supportSummary": "○ 마포구 공영주차장 주차요금 감면\n - 80% 할인 \n  · 장애인, 국가유공상이자, 고엽제후유의증 환자, 의상자 및 의사자 유족, 참전유공자\n\n - 50% 할인 \n  · 저공해차량, 경차, 다둥이 행복카드 소지자, 한부모가족\n\n - 20% 할인\n  · 마포구자원봉…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00023300001",
+      "onlineUrl": "",
+      "inquiry": [
+        "주차관리부/02-300-5053"
+      ],
+      "updatedAt": "2026-07-24",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-O00023300002",
+      "sourceId": "O00023300002",
+      "title": "체육시설 이용요금 감면",
+      "field": "생활안정",
+      "provider": "마포구시설관리공단",
+      "providerType": "자치구",
+      "district": "마포구",
+      "userType": "개인",
+      "deadlineText": "매월 21일부터 말일까지",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "- 국가유공자 : 국가보훈처장이 발행한 국가유공자증을 소지한 사람\n\n- 기초생활수급자 : 기초수급자증명서를 제시한 경우\n\n- 장애인 : 장애인복지카드를 제시한 경우\n\n- 서울시 다자녀 : 다둥이행복카드를 제시한 경우\n\n- 마포구 병역명문가예우 : 병역명문가 소지자…",
+      "summary": "마포구시설관리공단에서 제공하는 생활안정 혜택입니다. 국가유공자, 기초생활수급자, 장애인 등에게 마포주민편익시설 이용요금 감면",
+      "supportType": "현금(감면)",
+      "supportSummary": "마포주민편익시설 이용요금 감면\n- 체육시설 이용요금 감면(50%) :  국가유공자, 기초생활수급자, 장애인, 서울시 다자녀, 마포구 병역명문가예우\n- 체육시설 이용요금 감면(20%) : 이용료 3개월분 이상 선납",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00023300002",
+      "onlineUrl": "",
+      "inquiry": [
+        "마포구시설관리공단/02-306-3281"
+      ],
+      "updatedAt": "2026-07-24",
+      "registeredAt": "2022-11-28"
+    },
+    {
+      "id": "gov-benefit-B55101400003",
+      "sourceId": "B55101400003",
+      "title": "스포츠 액셀러레이팅 프로그램 지원(창업투자지원)",
+      "field": "고용·창업",
+      "provider": "서울올림픽기념국민체육진흥공단",
+      "providerType": "서울 공공기관",
+      "district": "서울특별시",
+      "userType": "법인/시설/단체",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "스포츠산업분야(스포츠테크, 산업 간 융복합, 헬스케어 등 포함) 창업 7년 미만 기업 중 투자 유치를 목표로 역량 강화를 희망하는 기업\n * 예비창업자 지원 불가 (신산업분야는 10년 미만까지)",
+      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 고용·창업 혜택입니다. 스포츠산업(융복합, 헬스케어 등 포함) 7년 미만 기업 대상 투자유치 지원(직접/후속투자)",
+      "supportType": "현금",
+      "supportSummary": "○ (창업투자지원) 스포츠 액셀러레이팅 프로그램 지원사업\n - 주요내용 : 스포츠산업분야(스포츠테크, 산업간 융복합, 헬스케어 등 포함) 창업기업 대상 투자유치 역량강화 프로그램 및 지원금 지원\n - 지원대상 : 기창업자~7년 미만 창업기업 (신산업분야는 10년 미만…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B55101400003",
+      "onlineUrl": "https://spobiz.kspo.or.kr/",
+      "inquiry": [
+        "국민체육진흥공단 창업지원팀/02-410-1756"
+      ],
+      "updatedAt": "2026-07-24",
+      "registeredAt": "2022-11-09"
+    },
+    {
+      "id": "gov-benefit-B37003100019",
+      "sourceId": "B37003100019",
+      "title": "스포츠산업 예비 선도기업 육성 지원",
+      "field": "고용·창업",
+      "provider": "서울올림픽기념국민체육진흥공단",
+      "providerType": "서울 공공기관",
+      "district": "서울특별시",
+      "userType": "법인/시설/단체",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 중소기업기본법에 의한 중소기업\n - 국내 스포츠 용품 제조업, 서비스업,시설업 업력\n - 총 매출액 중 스포츠산업 비중 10%이상\n - 결산년도 매출액이 (스포츠용품 제조업) 8억 초과 ~ 80억 이하/(스포츠 서비스업 및 시설업) 3억 초과 ~ 30억 이하",
+      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 고용·창업 혜택입니다. 영세한 중소 스포츠 기업에게 맞춤형 컨설팅 지원",
+      "supportType": "기타(상담)",
+      "supportSummary": "○ 영세한 중소스포츠기업 대상 맞춤형 컨설팅 지원으로 경영환경 개선\n\n○ 성장동력확보(컨설팅) 및 사업기반지원(제품제작,마케팅,자문 등) 관련 맞춤형 지원제공(최대 1억원 내, 과제 수는 3개이내로 제한)",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100019",
+      "onlineUrl": "spobiz.kspo.or.kr",
+      "inquiry": [
+        "글로벌성장지원팀/02-410-1542"
+      ],
+      "updatedAt": "2026-07-24",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-B37003100007",
+      "sourceId": "B37003100007",
+      "title": "스포츠용품 시험 및 국내인증(KISS)",
+      "field": "고용·창업",
+      "provider": "서울올림픽기념국민체육진흥공단",
+      "providerType": "서울 공공기관",
+      "district": "서울특별시",
+      "userType": "법인/시설/단체",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "국내 스포츠용품 생산 업체",
+      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 고용·창업 혜택입니다. 스포츠용품 생산업체에게 시험 및 인증 지원",
+      "supportType": "기술지원",
+      "supportSummary": "○ 스포츠용품 특화된 품질 성능 시험으로 영세한 국내 스포츠산업 육성 기반 조성\n\n○ 브랜드 가치 제고를 위해 다양한 스포츠용품을 대상으로 품질 평가 및 KISS 인증 마크 부여",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100007",
+      "onlineUrl": "G4B.go.kr",
+      "inquiry": [
+        "기술혁신팀/031-284-9564"
+      ],
+      "updatedAt": "2026-07-24",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-B37003100005",
+      "sourceId": "B37003100005",
+      "title": "스포츠과학분야 견학 프로그램",
+      "field": "보육·교육",
+      "provider": "서울올림픽기념국민체육진흥공단",
+      "providerType": "서울 공공기관",
+      "district": "서울특별시",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "자유학기제 및 체육분야 진로 탐색 학생(중,고,대학생)",
+      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 보육·교육 혜택입니다. 학생 대상으로 스포츠과학분야 소개",
+      "supportType": "시설이용",
+      "supportSummary": "스포츠과학(운동역학, 운동생리학) 분야 소개 및 진로탐색 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100005",
+      "onlineUrl": "",
+      "inquiry": [
+        "스포츠과학연구실/02-970-9528"
+      ],
+      "updatedAt": "2026-07-24",
+      "registeredAt": "2022-07-15"
+    },
     {
       "id": "gov-benefit-324000000319",
       "sourceId": "324000000319",
@@ -682,39 +883,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-O00023300003",
-      "sourceId": "O00023300003",
-      "title": "거주자우선주차 및 시설 공영주차장 주차요금 감면",
-      "field": "생활안정",
-      "provider": "마포구시설관리공단",
-      "providerType": "자치구",
-      "district": "마포구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 장애인 : 장애인 자동차 표지를 부착하고 장애인이 탑승하여 장애인등록증을 제시한 경우\n\n○ 국가유공상이자 : 국가보훈처장이 발행한 국가유공자증을 소지한 사람\n\n○ 고엽제후유의증 환자 : 고엽제후유의증 환자로서 국가보훈처장이 발행한 증서를 소지한 자\n\n○ 의상자 및…",
-      "summary": "마포구시설관리공단에서 제공하는 생활안정 혜택입니다. 국가유공자, 한부모, 장애인 등에게 거주자우선주차 및 시설 공영주차장 주차요금 감면",
-      "supportType": "현금(감면)",
-      "supportSummary": "○ 거주자우선주차 및 시설 공영주차장 주차요금 감면\n - 80% 할인\n  · 장애인, 국가유공상이자, 고엽제후유의증 환자, 의상자 및 의사자 유족, 참전유공자\n\n - 50% 할인\n  · 저공해차량, 경차, 다둥이 행복카드 소지자, 한부모가족\n\n - 20% 할인\n  ·…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00023300003",
-      "onlineUrl": "https://eparking.mfmc.or.kr/",
-      "inquiry": [
-        "주차관리부/02-300-5042",
-        "주차관리부/02-300-5043",
-        "주차관리부/02-300-5044",
-        "주차관리부/02-300-5045",
-        "주차관리부/02-300-5041"
-      ],
-      "updatedAt": "2026-06-24",
-      "registeredAt": "2022-11-29"
-    },
-    {
       "id": "gov-benefit-322000000107",
       "sourceId": "322000000107",
       "title": "강남구 산후건강관리비용 지원사업(본인부담금 환급)",
@@ -856,34 +1024,6 @@
       "onlineUrl": "spobiz.kspo.or.kr",
       "inquiry": [
         "기업금융지원팀/1566-4573"
-      ],
-      "updatedAt": "2026-06-15",
-      "registeredAt": "2022-07-15"
-    },
-    {
-      "id": "gov-benefit-B37003100007",
-      "sourceId": "B37003100007",
-      "title": "스포츠용품 시험 및 국내인증(KISS)",
-      "field": "고용·창업",
-      "provider": "서울올림픽기념국민체육진흥공단",
-      "providerType": "서울 공공기관",
-      "district": "서울특별시",
-      "userType": "법인/시설/단체",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "국내 스포츠용품 생산 업체",
-      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 고용·창업 혜택입니다. 스포츠용품 생산업체에게 시험 및 인증 지원",
-      "supportType": "기술지원",
-      "supportSummary": "○ 스포츠용품 특화된 품질 성능 시험으로 영세한 국내 스포츠산업 육성 기반 조성\n\n○ 브랜드 가치 제고를 위해 다양한 스포츠용품을 대상으로 품질 평가 및 KISS 인증 마크 부여",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100007",
-      "onlineUrl": "G4B.go.kr",
-      "inquiry": [
-        "기술혁신팀/031-284-9564"
       ],
       "updatedAt": "2026-06-15",
       "registeredAt": "2022-07-15"
@@ -1032,34 +1172,6 @@
       ],
       "updatedAt": "2026-06-09",
       "registeredAt": "2024-08-07"
-    },
-    {
-      "id": "gov-benefit-B55101400003",
-      "sourceId": "B55101400003",
-      "title": "스포츠 액셀러레이팅 프로그램 지원(창업투자지원)",
-      "field": "고용·창업",
-      "provider": "서울올림픽기념국민체육진흥공단",
-      "providerType": "서울 공공기관",
-      "district": "서울특별시",
-      "userType": "법인/시설/단체",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "스포츠산업분야(스포츠테크, 산업 간 융복합, 헬스케어 등 포함) 창업 7년 미만 기업 중 투자 유치를 목표로 역량 강화를 희망하는 기업\n * 예비창업자 지원 불가 (신산업분야는 10년 미만까지)",
-      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 고용·창업 혜택입니다. 스포츠산업(융복합, 헬스케어 등 포함) 7년 미만 기업 대상 투자유치 지원(직접/후속투자)",
-      "supportType": "현금",
-      "supportSummary": "○ (창업투자지원) 스포츠 액셀러레이팅 프로그램 지원사업\n - 주요내용 : 스포츠산업분야(스포츠테크, 산업간 융복합, 헬스케어 등 포함) 창업기업 대상 투자유치 역량강화 프로그램 및 지원금 지원\n - 지원대상 : 기창업자~7년 미만 창업기업 (신산업분야는 10년 미만…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B55101400003",
-      "onlineUrl": "https://spobiz.kspo.or.kr/",
-      "inquiry": [
-        "국민체육진흥공단 창업지원팀/02-410-1756"
-      ],
-      "updatedAt": "2026-06-09",
-      "registeredAt": "2022-11-09"
     },
     {
       "id": "gov-benefit-B37003100002",
@@ -1343,62 +1455,6 @@
         "KSPO체력인증센터/1644-7110"
       ],
       "updatedAt": "2026-06-08",
-      "registeredAt": "2022-07-15"
-    },
-    {
-      "id": "gov-benefit-B37003100005",
-      "sourceId": "B37003100005",
-      "title": "스포츠과학분야 견학 프로그램",
-      "field": "보육·교육",
-      "provider": "서울올림픽기념국민체육진흥공단",
-      "providerType": "서울 공공기관",
-      "district": "서울특별시",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "자유학기제 및 체육분야 진로 탐색 학생(중,고,대학생)",
-      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 보육·교육 혜택입니다. 학생 대상으로 스포츠과학분야 소개",
-      "supportType": "시설이용",
-      "supportSummary": "스포츠과학(운동역학, 운동생리학) 분야 소개 및 진로탐색 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100005",
-      "onlineUrl": "",
-      "inquiry": [
-        "스포츠과학연구실/02-970-9528"
-      ],
-      "updatedAt": "2026-06-08",
-      "registeredAt": "2022-07-15"
-    },
-    {
-      "id": "gov-benefit-B37003100019",
-      "sourceId": "B37003100019",
-      "title": "스포츠산업 예비 선도기업 육성 지원",
-      "field": "고용·창업",
-      "provider": "서울올림픽기념국민체육진흥공단",
-      "providerType": "서울 공공기관",
-      "district": "서울특별시",
-      "userType": "법인/시설/단체",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 중소기업기본법에 의한 중소기업\n - 국내 스포츠 용품 제조업, 서비스업,시설업 업력\n - 총 매출액 중 스포츠산업 비중 10%이상\n - 결산년도 매출액이 (스포츠용품 제조업) 8억 초과 ~ 80억 이하/(스포츠 서비스업 및 시설업) 3억 초과 ~ 30억 이하",
-      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 고용·창업 혜택입니다. 영세한 중소 스포츠 기업에게 맞춤형 컨설팅 지원",
-      "supportType": "기타(상담)",
-      "supportSummary": "○ 영세한 중소스포츠기업 대상 맞춤형 컨설팅 지원으로 경영환경 개선\n\n○ 성장동력확보(컨설팅) 및 사업기반지원(제품제작,마케팅,자문 등) 관련 맞춤형 지원제공(최대 1억원 내, 과제 수는 3개이내로 제한)",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100019",
-      "onlineUrl": "spobiz.kspo.or.kr",
-      "inquiry": [
-        "글로벌성장지원팀/02-410-1542"
-      ],
-      "updatedAt": "2026-06-05",
       "registeredAt": "2022-07-15"
     },
     {
@@ -23850,62 +23906,6 @@
       ],
       "updatedAt": "2026-04-23",
       "registeredAt": "2022-05-30"
-    },
-    {
-      "id": "gov-benefit-O00023300001",
-      "sourceId": "O00023300001",
-      "title": "공영주차장 이용요금 감면",
-      "field": "생활안정",
-      "provider": "마포구시설관리공단",
-      "providerType": "자치구",
-      "district": "마포구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 장애인 : 장애인 자동차 표지를 부착하고 장애인이 탑승하여 장애인등록증을 제시한 경우\n\n○ 국가유공상이자 : 국가보훈처장이 발행한 국가유공자증을 소지한 사람\n\n○ 고엽제후유의증 환자 : 고엽제후유의증 환자로서 국가보훈처장이 발행한 증서를 소지한 자\n\n○ 참전유공자…",
-      "summary": "마포구시설관리공단에서 제공하는 생활안정 혜택입니다. 국가유공자, 한부모가족, 장애인 등에게 공영주차장 이용요금 감면(대상별 상이)",
-      "supportType": "현금(감면)",
-      "supportSummary": "○ 마포구 공영주차장 주차요금 감면\n - 80% 할인 \n  · 장애인, 국가유공상이자, 고엽제후유의증 환자, 의상자 및 의사자 유족, 참전유공자\n\n - 50% 할인 \n  · 저공해차량, 경차, 다둥이 행복카드 소지자, 한부모가족\n\n - 20% 할인\n  · 마포구자원봉…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00023300001",
-      "onlineUrl": "",
-      "inquiry": [
-        "주차관리부/02-300-5053"
-      ],
-      "updatedAt": "2026-04-23",
-      "registeredAt": "2022-07-15"
-    },
-    {
-      "id": "gov-benefit-O00023300002",
-      "sourceId": "O00023300002",
-      "title": "체육시설 이용요금 감면",
-      "field": "생활안정",
-      "provider": "마포구시설관리공단",
-      "providerType": "자치구",
-      "district": "마포구",
-      "userType": "개인",
-      "deadlineText": "매월 21일부터 말일까지",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "- 국가유공자 : 국가보훈처장이 발행한 국가유공자증을 소지한 사람\n\n- 기초생활수급자 : 기초수급자증명서를 제시한 경우\n\n- 장애인 : 장애인복지카드를 제시한 경우\n\n- 서울시 다자녀 : 다둥이행복카드를 제시한 경우\n\n- 마포구 병역명문가예우 : 병역명문가 소지자…",
-      "summary": "마포구시설관리공단에서 제공하는 생활안정 혜택입니다. 국가유공자, 기초생활수급자, 장애인 등에게 마포주민편익시설 이용요금 감면",
-      "supportType": "현금(감면)",
-      "supportSummary": "마포주민편익시설 이용요금 감면\n- 체육시설 이용요금 감면(50%) :  국가유공자, 기초생활수급자, 장애인, 서울시 다자녀, 마포구 병역명문가예우\n- 체육시설 이용요금 감면(20%) : 이용료 3개월분 이상 선납",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00023300002",
-      "onlineUrl": "",
-      "inquiry": [
-        "마포구시설관리공단/02-306-3281"
-      ],
-      "updatedAt": "2026-04-23",
-      "registeredAt": "2022-11-28"
     },
     {
       "id": "gov-benefit-313000000110",
