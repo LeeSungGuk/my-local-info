@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-07-25T08:34:59+09:00",
+  "lastGeneratedAt": "2026-07-26T08:32:38+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -2089,9 +2089,9 @@
         "한옥도서관"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-07-19T08:29:03+09:00",
-      "usedAt": null
+      "usedAt": "2026-07-26T08:32:38+09:00"
     },
     {
       "id": "seoul-cozy-music-listening-bars",
