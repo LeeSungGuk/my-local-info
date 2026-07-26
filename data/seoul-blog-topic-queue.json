@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-07-26T08:32:38+09:00",
+  "lastGeneratedAt": "2026-07-27T08:30:48+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -2110,9 +2110,9 @@
         "아날로그감성"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-07-19T08:29:03+09:00",
-      "usedAt": null
+      "usedAt": "2026-07-27T08:30:48+09:00"
     },
     {
       "id": "seoul-zero-waste-refill-shops",
