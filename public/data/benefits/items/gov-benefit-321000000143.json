@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-321000000143",
+  "sourceId": "321000000143",
+  "title": "서초구 무료법률상담 지원",
+  "field": "행정·안전",
+  "provider": "서울특별시 서초구",
+  "providerType": "자치구",
+  "district": "서초구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "서초구 주민 및 직장인",
+  "summary": "서울특별시 서초구에서 제공하는 행정·안전 혜택입니다. 복잡·다양해지는 생활 속 법률문제에 대해 구민에게 신속하고 접근성 높은 전문가 자문을 제공",
+  "supportType": "기타(상담)",
+  "supportSummary": "○ 이용 대상 : 서초구 주민 및 직장인\n○ 상담 분야 : 법률,  세무, 건축, 법무, 노무, 변리\n○ 상담 방법 : 방문 · 전화 · 온라인(서면) 상담\n○ 운영 시간 : 평일 10:00~12:00, 14:00~17:00 (공휴일 제외)\n○ 상담 장소 : 오케이민…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/321000000143",
+  "onlineUrl": "https://www.seocho.go.kr/site/seocho/ex/consult/ConsultScheduleFCalendar.do?searchCsuType=V",
+  "inquiry": [
+    "서초구청 오케이민원센터/02-2155-6271"
+  ],
+  "updatedAt": "2026-07-28",
+  "registeredAt": "2026-07-09",
+  "viewCount": 0,
+  "collectedAt": "2026-07-28T23:31:32.744Z",
+  "purpose": "복잡·다양해지는 생활 속 법률문제에 대해 구민에게 신속하고 접근성 높은 전문가 자문을 제공",
+  "target": "서초구 주민 및 직장인",
+  "selectionCriteria": "",
+  "supportContent": "○ 이용 대상 : 서초구 주민 및 직장인\n○ 상담 분야 : 법률,  세무, 건축, 법무, 노무, 변리\n○ 상담 방법 : 방문 · 전화 · 온라인(서면) 상담\n○ 운영 시간 : 평일 10:00~12:00, 14:00~17:00 (공휴일 제외)\n○ 상담 장소 : 오케이민원센터 내 OK생활상담실\n○ 이용 방법 : 구 홈페이지(온라인) 사전예약\n    ※ 신청방법(예외): 온라인 이용이 어려운 대상자(노약자·장애인 등 디지털 취약계층)에 한하여 유선신청 허용",
+  "applicationMethod": "○ 구 홈페이지(온라인) 사전예약\n    ※ 신청방법(예외): 온라인 이용이 어려운 대상자(노약자·장애인 등 디지털 취약계층)에 한하여 유선신청 가능",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 서초구 무료법률상담 운영 조례",
+  "inquiryText": "서초구청 오케이민원센터/02-2155-6271",
+  "ageMin": 18,
+  "ageMax": 120
+}
