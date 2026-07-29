@@ -21,12 +21,12 @@
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/310000000119",
   "onlineUrl": "",
   "inquiry": [
-    "가족정책과/02-2116-3715"
+    "보육가족과/02-2116-3715"
   ],
-  "updatedAt": "2026-04-29",
+  "updatedAt": "2026-07-29",
   "registeredAt": "2021-09-23",
-  "viewCount": 2361,
-  "collectedAt": "2026-07-28T23:31:32.744Z",
+  "viewCount": 2365,
+  "collectedAt": "2026-07-29T23:32:32.446Z",
   "purpose": "미혼 한부모, 한부모가족 등에게 냉·난방비 지원",
   "target": "○ 미혼한부모 냉방비,난방비 지원\n - 법정 미혼 한부모가족\n\n○ 한부모가족복지시설 입소자 명절위문금 지원\n - 한부모가족복지시설 입소 중인 한부모가족",
   "selectionCriteria": "",
@@ -37,7 +37,7 @@
   "identityDocuments": "해당없음",
   "legalBasis": [],
   "ordinance": "서울특별시 노원구 한부모가족 지원에 관한 조례(제6조)",
-  "inquiryText": "가족정책과/02-2116-3715",
+  "inquiryText": "보육가족과/02-2116-3715",
   "ageMin": 19,
   "ageMax": 120
 }

@@ -21,12 +21,12 @@
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/310000000115",
   "onlineUrl": "",
   "inquiry": [
-    "가족정책과/02-2116-3715"
+    "보육가족과/02-2116-3715"
   ],
-  "updatedAt": "2026-04-29",
+  "updatedAt": "2026-07-29",
   "registeredAt": "2021-09-23",
-  "viewCount": 1192,
-  "collectedAt": "2026-07-28T23:31:32.744Z",
+  "viewCount": 1194,
+  "collectedAt": "2026-07-29T23:32:32.446Z",
   "purpose": "저소득 한부모가족의 자녀를 대상으로 방문학습 지원",
   "target": "○ 법정 저소득한부모가족 4세 ~ 12세 자녀",
   "selectionCriteria": "",
@@ -37,7 +37,7 @@
   "identityDocuments": "해당없음",
   "legalBasis": [],
   "ordinance": "서울특별시 노원구 한부모가족 지원에 관한 조례",
-  "inquiryText": "가족정책과/02-2116-3715",
+  "inquiryText": "보육가족과/02-2116-3715",
   "ageMin": 4,
   "ageMax": 12
 }
