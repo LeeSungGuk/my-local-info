@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-319000000175",
+  "sourceId": "319000000175",
+  "title": "이미용업소 시설개선 지원",
+  "field": "생활안정",
+  "provider": "서울특별시 동작구",
+  "providerType": "자치구",
+  "district": "동작구",
+  "userType": "소상공인",
+  "deadlineText": "공고 안내 후 신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 관내 3년이상 운영중인 이미용업소",
+  "summary": "서울특별시 동작구에서 제공하는 생활안정 혜택입니다. 관내 이·미용업소의 노후화된 시설개선을 지원하여 영세 영업자의 부담을 덜고 위생서비스 수준 향상 및 구민건강 증진을 도모",
+  "supportType": "시설이용",
+  "supportSummary": "관내 이·미용업소의 영업에 필요한 시설개선비 지원(세면대, 샴푸의자, 도배, 간판 등)\n*자세한 사항은 관련 공고 확인",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000175",
+  "onlineUrl": "",
+  "inquiry": [
+    "동작구보건소 보건행정과/02-820-9478"
+  ],
+  "updatedAt": "2026-07-30",
+  "registeredAt": "2025-11-18",
+  "viewCount": 0,
+  "collectedAt": "2026-07-30T23:34:20.796Z",
+  "purpose": "관내 이·미용업소의 노후화된 시설개선을 지원하여 영세 영업자의 부담을 덜고 위생서비스 수준 향상 및 구민건강 증진을 도모",
+  "target": "○ 관내 3년이상 운영중인 이미용업소",
+  "selectionCriteria": "",
+  "supportContent": "관내 이·미용업소의 영업에 필요한 시설개선비 지원(세면대, 샴푸의자, 도배, 간판 등)\n*자세한 사항은 관련 공고 확인",
+  "applicationMethod": "○ 방문신청(동작구보건소 보건행정과)",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 동작구 위생업소 지원에 관한 조례",
+  "inquiryText": "동작구보건소 보건행정과/02-820-9478",
+  "ageMin": 0,
+  "ageMax": 0
+}
