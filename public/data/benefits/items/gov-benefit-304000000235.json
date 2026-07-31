@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-304000000235",
+  "sourceId": "304000000235",
+  "title": "민원약자를 위한 원스톱 밀착 동행서비스",
+  "field": "행정·안전",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "통합민원실 방문 민원약자(고령자, 장애인, 임산부, 아동 등)",
+  "summary": "서울특별시 광진구에서 제공하는 행정·안전 혜택입니다. 민원처리에 어려음을 겪는 민원취약계층(어르신, 외국인, 장애인 등) 대상으로 민원 전 과정을 맞춤형을 지원하여 행정접근성 향상으로 구민만족도 기여",
+  "supportType": "기타||기타(상담)",
+  "supportSummary": "민원약자가 통합민원실에 방문 시 전담 도우미가 민원 접수부터 완료까지 전 과정을 1:1로 동행하면서 지원하는 밀착형 원스톱 서비스 제공",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "정부24온라인신청",
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000235",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구청 민원여권과/02-450-7173"
+  ],
+  "updatedAt": "2026-08-01",
+  "registeredAt": "2026-07-16",
+  "viewCount": 0,
+  "collectedAt": "2026-07-31T23:32:17.345Z",
+  "purpose": "민원처리에 어려음을 겪는 민원취약계층(어르신, 외국인, 장애인 등) 대상으로 민원 전 과정을 맞춤형을 지원하여 행정접근성 향상으로 구민만족도 기여",
+  "target": "통합민원실 방문 민원약자(고령자, 장애인, 임산부, 아동 등)",
+  "selectionCriteria": "",
+  "supportContent": "민원약자가 통합민원실에 방문 시 전담 도우미가 민원 접수부터 완료까지 전 과정을 1:1로 동행하면서 지원하는 밀착형 원스톱 서비스 제공",
+  "applicationMethod": "방문, 온라인,유선 등",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "민원 처리에 관한 법률(제11조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "광진구청 민원여권과/02-450-7173",
+  "ageMin": 0,
+  "ageMax": 120
+}

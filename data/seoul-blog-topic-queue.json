@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-07-31T08:34:33+09:00",
+  "lastGeneratedAt": "2026-08-01T08:51:18+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -2215,9 +2215,9 @@
         "서울의자연"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-07-19T08:29:03+09:00",
-      "usedAt": null
+      "usedAt": "2026-08-01T08:51:18+09:00"
     },
     {
       "id": "seoul-specialized-food-alleys",
