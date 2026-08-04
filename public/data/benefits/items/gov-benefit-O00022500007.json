@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-O00022500007",
+  "sourceId": "O00022500007",
+  "title": "거주자우선주차 배점 가산점(임산부 및 영유아 보육 세대) 제공",
+  "field": "생활안정",
+  "provider": "서울특별시관악구시설관리공단",
+  "providerType": "서울시",
+  "district": "관악구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 관악구 관내 거주자\n  - 임산부(출산 후 6개월까지): 본인명의 차량에 임산부 자동차 표지를 부착한 임산부 \n  - 영유아 : 만 7세 이하 영유아 2명 보육 세대 및 만 7세 이하 영유아 3명 보육 세대",
+  "summary": "서울특별시관악구시설관리공단에서 제공하는 생활안정 혜택입니다. - 임산부·영유아 가정 대상 거주자우선주차 가산점 부여\n- 배정 기회 확대",
+  "supportType": "시설이용",
+  "supportSummary": "○  거주자우선주차 배점 시 기본점수에 가산점 추가\n  - 임산부(출산 후 6개월까지) 5점\n  - 영유아 2명 보육 세대 5점, \n  - 영유아 3명 보육 세대 10점",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022500007",
+  "onlineUrl": "https://parking.gwanakgongdan.or.kr",
+  "inquiry": [
+    "주차사업팀/02-2081-2600"
+  ],
+  "updatedAt": "2026-08-04",
+  "registeredAt": "2026-04-23",
+  "viewCount": 0,
+  "collectedAt": "2026-08-04T23:34:13.820Z",
+  "purpose": "- 임산부·영유아 가정 대상 거주자우선주차 가산점 부여\n- 배정 기회 확대",
+  "target": "○ 관악구 관내 거주자\n  - 임산부(출산 후 6개월까지): 본인명의 차량에 임산부 자동차 표지를 부착한 임산부 \n  - 영유아 : 만 7세 이하 영유아 2명 보육 세대 및 만 7세 이하 영유아 3명 보육 세대",
+  "selectionCriteria": "",
+  "supportContent": "○  거주자우선주차 배점 시 기본점수에 가산점 추가\n  - 임산부(출산 후 6개월까지) 5점\n  - 영유아 2명 보육 세대 5점, \n  - 영유아 3명 보육 세대 10점",
+  "applicationMethod": "○  신청접수: 관악구시설관리공단 거주자우선주차 홈페이지 \n○  신청방법: 개인별 가산점 항목 선택\n○  증빙서류:  별도 첨부 문서 등록",
+  "documents": "○ 관악구 보건소 발급 임산부 자동차 표지 사본\n○ 세대를 같이하는 주민등록등본 사본",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "저출산ㆍ고령사회기본법"
+  ],
+  "ordinance": "",
+  "inquiryText": "주차사업팀/02-2081-2600",
+  "ageMin": 0,
+  "ageMax": 120
+}

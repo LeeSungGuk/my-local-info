@@ -1,0 +1,48 @@
+{
+  "id": "gov-benefit-316000000163",
+  "sourceId": "316000000163",
+  "title": "저소득층 눈의료비 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 구로구",
+  "providerType": "자치구",
+  "district": "구로구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "국민기초생활보장법에 따른 수급자 또는 차상위계층(60세 이상)",
+  "summary": "서울특별시 구로구에서 제공하는 보건·의료 혜택입니다. 60세 이상 저소득층 노인의 안질환 조기발견하고 적기에 치료함으로써 노인들의 실명 예방 및 일상생활 가능한 시력 유지",
+  "supportType": "서비스(의료)",
+  "supportSummary": "1. 안 검진\n  - 시력검사, 안압검사 등 안 검진 지원(한도액 있음)\n2. 개안 수술비 지원\n  - 녹내장, 백내장, 망막질환 수술비 지원(한도액 있음)",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/316000000163",
+  "onlineUrl": "",
+  "inquiry": [
+    "구로구보건소/028602437"
+  ],
+  "updatedAt": "2026-08-04",
+  "registeredAt": "2026-04-30",
+  "viewCount": 0,
+  "collectedAt": "2026-08-04T23:34:13.820Z",
+  "purpose": "60세 이상 저소득층 노인의 안질환 조기발견하고 적기에 치료함으로써 노인들의 실명 예방 및 일상생활 가능한 시력 유지",
+  "target": "국민기초생활보장법에 따른 수급자 또는 차상위계층(60세 이상)",
+  "selectionCriteria": "",
+  "supportContent": "1. 안 검진\n  - 시력검사, 안압검사 등 안 검진 지원(한도액 있음)\n2. 개안 수술비 지원\n  - 녹내장, 백내장, 망막질환 수술비 지원(한도액 있음)",
+  "applicationMethod": "보건소 방문신청(신분증 지참)",
+  "documents": "의료지원 신청서 및 개인수집동의서\n행정정보 공동이용 사전동의서\n수술명이 기재된 진단서 또는 소견서\n수급자 증명서",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "노인복지법",
+    "노인복지법",
+    "노인복지법",
+    "노인복지법(제27조의4)"
+  ],
+  "ordinance": "",
+  "inquiryText": "구로구보건소/028602437",
+  "ageMin": 60,
+  "ageMax": 120
+}

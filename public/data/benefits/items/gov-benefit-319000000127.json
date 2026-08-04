@@ -21,12 +21,12 @@
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000127",
   "onlineUrl": "",
   "inquiry": [
-    "동작구청 경제정책과/02-820-9321"
+    "동작구청 경제정책과/02-820-9323"
   ],
-  "updatedAt": "2026-04-24",
+  "updatedAt": "2026-08-04",
   "registeredAt": "2021-09-23",
-  "viewCount": 1669,
-  "collectedAt": "2026-08-03T23:38:19.537Z",
+  "viewCount": 1670,
+  "collectedAt": "2026-08-04T23:34:13.820Z",
   "purpose": "저소득주민에게 소득 및 생활안정기금 융자 및 희망자금 지원",
   "target": "동작구에 주민등록이 되어 있는 저소득 주민",
   "selectionCriteria": "",
@@ -37,7 +37,7 @@
   "identityDocuments": "해당없음",
   "legalBasis": [],
   "ordinance": "서울특별시 동작구 주민소득지원 및 생활안정기금 운용·관리 조례||서울특별시 동작구 주민소득지원 및 생활안정기금 운용·관리 조례 시행규칙",
-  "inquiryText": "동작구청 경제정책과/02-820-9321",
+  "inquiryText": "동작구청 경제정책과/02-820-9323",
   "ageMin": 0,
   "ageMax": 120
 }
