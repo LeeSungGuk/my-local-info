@@ -16,23 +16,23 @@
   "supportSummary": "○ 중학교 2, 3학년 및 고등학교 2학년 학생 결핵 이동검진",
   "receptionAgency": "접수기관 정보 없음",
   "applicationMethodTypes": [
-    "방문신청"
+    "직접입력"
   ],
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000104",
   "onlineUrl": "",
   "inquiry": [
-    "결핵실/02-2241-6036",
-    "결핵실/02-2241-6039"
+    "결핵실/02-2241-6077",
+    "결핵실/02-2241-6036"
   ],
-  "updatedAt": "2026-05-11",
+  "updatedAt": "2026-08-07",
   "registeredAt": "2021-09-23",
-  "viewCount": 950,
-  "collectedAt": "2026-08-07T01:37:11.974Z",
+  "viewCount": 953,
+  "collectedAt": "2026-08-07T23:07:24.274Z",
   "purpose": "중학교 2, 3학년 및 고등학교 2학년 학생에게 결핵 검진 지원",
   "target": "○ 중학교2, 3학년 및 고등학교 2학년 학생",
   "selectionCriteria": "",
   "supportContent": "○ 중학교 2, 3학년 및 고등학교 2학년 학생 결핵 이동검진",
-  "applicationMethod": "○ 방문 신청\n - 보건소 : 거주지 관할 보건소 방문",
+  "applicationMethod": "- 거주지 관할 보건소 담당자 유선 상담",
   "documents": "해당없음",
   "officialDocuments": "해당없음",
   "identityDocuments": "해당없음",
@@ -40,7 +40,7 @@
     "결핵예방법"
   ],
   "ordinance": "",
-  "inquiryText": "결핵실/02-2241-6036||결핵실/02-2241-6039",
+  "inquiryText": "결핵실/02-2241-6077||결핵실/02-2241-6036",
   "ageMin": 0,
   "ageMax": 120
 }
