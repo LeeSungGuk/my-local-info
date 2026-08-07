@@ -21,12 +21,12 @@
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/308000000114",
   "onlineUrl": "",
   "inquiry": [
-    "각동주민센터 복지담당/02-901-6672"
+    "각동주민센터 복지담당/02-901-6671"
   ],
-  "updatedAt": "2026-04-28",
+  "updatedAt": "2026-08-06",
   "registeredAt": "2021-09-23",
-  "viewCount": 1430,
-  "collectedAt": "2026-08-05T23:30:10.454Z",
+  "viewCount": 1432,
+  "collectedAt": "2026-08-07T01:37:11.974Z",
   "purpose": "강북구 거주 저소득 독거노인, 장애정도가 심한 장애인에 맞춤형 세탁서비스 지원",
   "target": "○ 강북구 거주 65세 이상 저소득 독거노인(기초생활수급자, 차상위), 장애정도가 심한 장애인",
   "selectionCriteria": "",
@@ -37,7 +37,7 @@
   "identityDocuments": "해당없음",
   "legalBasis": [],
   "ordinance": "서울특별시 강북구 노인복지 기본 조례||서울특별시 강북구 장애인가족 지원 조례",
-  "inquiryText": "각동주민센터 복지담당/02-901-6672",
+  "inquiryText": "각동주민센터 복지담당/02-901-6671",
   "ageMin": 0,
   "ageMax": 120
 }

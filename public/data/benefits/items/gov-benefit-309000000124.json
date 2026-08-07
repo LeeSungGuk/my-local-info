@@ -12,7 +12,7 @@
   "isAlwaysOpen": true,
   "targetSummary": "○ 관내 임산부 및 영유아",
   "summary": "서울특별시 도봉구에서 제공하는 임신·출산 혜택입니다. 임산부ㆍ영유아의 체계적인 건강관리 및 맞춤형 모자건강증진 프로그램 운영을 통해 여성과 어린이 건강증진 도모",
-  "supportType": "기타(교육)||서비스(의료)",
+  "supportType": "서비스(의료)",
   "supportSummary": "○ 임신초기검사(모성검사) 시행\n○ 임신 중(16~18주) 태아 기형 여부 확인 위해 쿼드검사 시행\n○ 모자건강프로그램 운영(출산준비교실, 육아교실)",
   "receptionAgency": "접수기관 정보 없음",
   "applicationMethodTypes": [
@@ -24,10 +24,10 @@
   "inquiry": [
     "지역보건과/02-2091-4554"
   ],
-  "updatedAt": "2026-05-04",
+  "updatedAt": "2026-08-06",
   "registeredAt": "2021-09-23",
-  "viewCount": 2474,
-  "collectedAt": "2026-08-05T23:30:10.454Z",
+  "viewCount": 2476,
+  "collectedAt": "2026-08-07T01:37:11.974Z",
   "purpose": "임산부ㆍ영유아의 체계적인 건강관리 및 맞춤형 모자건강증진 프로그램 운영을 통해 여성과 어린이 건강증진 도모",
   "target": "○ 관내 임산부 및 영유아",
   "selectionCriteria": "",
@@ -37,9 +37,9 @@
   "officialDocuments": "해당없음",
   "identityDocuments": "해당없음",
   "legalBasis": [
+    "저출산ㆍ고령사회기본법(제9조)",
     "모자보건법",
-    "모자보건법(제3조)",
-    "저출산ㆍ고령사회기본법(제9조)"
+    "모자보건법(제3조)"
   ],
   "ordinance": "",
   "inquiryText": "지역보건과/02-2091-4554",

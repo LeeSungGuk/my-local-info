@@ -22,25 +22,25 @@
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000105",
   "onlineUrl": "",
   "inquiry": [
-    "광진구 사회복지장애인과/02-450-7626"
+    "광진구 장애인복지과/02-450-7626"
   ],
-  "updatedAt": "2026-08-05",
+  "updatedAt": "2026-08-06",
   "registeredAt": "2021-09-23",
-  "viewCount": 958,
-  "collectedAt": "2026-08-05T23:30:10.454Z",
+  "viewCount": 961,
+  "collectedAt": "2026-08-07T01:37:11.974Z",
   "purpose": "장애로 인해 어려움을 겪고 있는 장애인 가정의 자녀 양육 부담을 경감하기 위함",
   "target": "본인 또는 배우자가 출산한 만 7세 미만의 아동을 양육하면서 신청일 기준으로 1년 전부터 계속하여 광진구에 주민등록을 두고 거주하는 장애인(2022.7. 조례개정)",
   "selectionCriteria": "",
   "supportContent": "양육지원금은 신청을 한 날이 속하는 달부터 7세가 되는 날이 속하는 달의 전달까지 매월 10만원 지급",
   "applicationMethod": "관할 동주민센터 방문 신청",
-  "documents": "1. 장애인 양육지원금 신청서 2. 장애인증명서 또는 장애인복지카드 3. 주민등록등본 4. 주민등록초본 5. 가족관계증명서 6. 입금계좌 통장사본(장애인 본인명의) 7.개인정보 제공 및 활용 동의서",
-  "officialDocuments": "해당없음",
+  "documents": "1. 장애인 양육지원금 신청서  2. 입금계좌 통장사본(장애인 본인명의)  3.개인정보 제공 및 활용 동의서",
+  "officialDocuments": "주민등록등초본, 가족관계증명서, 장애인증명서",
   "identityDocuments": "해당없음",
   "legalBasis": [
     "장애인복지법"
   ],
   "ordinance": "서울특별시 광진구 장애인 양육지원금 지급 조례",
-  "inquiryText": "광진구 사회복지장애인과/02-450-7626",
+  "inquiryText": "광진구 장애인복지과/02-450-7626",
   "ageMin": 0,
   "ageMax": 6
 }
