@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-08-08T08:07:33+09:00",
+  "lastGeneratedAt": "2026-08-09T07:59:22+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -2383,9 +2383,9 @@
         "이국적인분위기"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-07-28T08:35:49+09:00",
-      "usedAt": null
+      "usedAt": "2026-08-09T07:59:22+09:00"
     },
     {
       "id": "seoul-one-day-craft-studios",

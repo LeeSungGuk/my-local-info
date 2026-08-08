@@ -21,12 +21,13 @@
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000102",
   "onlineUrl": "",
   "inquiry": [
-    "돌봄건강과/02-2286-7827"
+    "돌봄건강과/02-2286-7824",
+    "돌봄건강과/01-2286-4524"
   ],
-  "updatedAt": "2026-02-05",
+  "updatedAt": "2026-08-08",
   "registeredAt": "2021-09-23",
-  "viewCount": 1261,
-  "collectedAt": "2026-08-07T23:07:24.274Z",
+  "viewCount": 1262,
+  "collectedAt": "2026-08-08T22:59:09.343Z",
   "purpose": "성동구민을 대상으로 한방진료 지원",
   "target": "○ 지역주민(무료 또는 유료)",
   "selectionCriteria": "",
@@ -39,7 +40,7 @@
     "한의약 육성법"
   ],
   "ordinance": "",
-  "inquiryText": "돌봄건강과/02-2286-7827",
+  "inquiryText": "돌봄건강과/02-2286-7824||돌봄건강과/01-2286-4524",
   "ageMin": 0,
   "ageMax": 120
 }

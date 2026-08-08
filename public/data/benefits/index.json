@@ -10,7 +10,7 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-08-07T23:07:24.274Z",
+    "collectedAt": "2026-08-08T22:59:09.343Z",
     "syncSchedule": "매일 오전 7시 30분",
     "availableCount": 10971,
     "fetchedCount": 1135,
@@ -21,6 +21,35 @@
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-303000000102",
+      "sourceId": "303000000102",
+      "title": "한방진료 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 성동구",
+      "providerType": "자치구",
+      "district": "성동구",
+      "userType": "개인",
+      "deadlineText": "월~금 09:00~18:00(공휴일 제외)",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 지역주민(무료 또는 유료)",
+      "summary": "서울특별시 성동구에서 제공하는 보건·의료 혜택입니다. 성동구민을 대상으로 한방진료 지원",
+      "supportType": "서비스(의료)",
+      "supportSummary": "○ 관내 주민에게 한방진료 후 한방침, 한약 처방",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000102",
+      "onlineUrl": "",
+      "inquiry": [
+        "돌봄건강과/02-2286-7824",
+        "돌봄건강과/01-2286-4524"
+      ],
+      "updatedAt": "2026-08-08",
+      "registeredAt": "2021-09-23"
+    },
     {
       "id": "gov-benefit-322000000118",
       "sourceId": "322000000118",
@@ -29428,34 +29457,6 @@
       "onlineUrl": "",
       "inquiry": [
         "기초복지과/02-2286-6703"
-      ],
-      "updatedAt": "2026-02-05",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-303000000102",
-      "sourceId": "303000000102",
-      "title": "한방진료 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 성동구",
-      "providerType": "자치구",
-      "district": "성동구",
-      "userType": "개인",
-      "deadlineText": "월~금 09:00~18:00(공휴일 제외)",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 지역주민(무료 또는 유료)",
-      "summary": "서울특별시 성동구에서 제공하는 보건·의료 혜택입니다. 성동구민을 대상으로 한방진료 지원",
-      "supportType": "서비스(의료)",
-      "supportSummary": "○ 관내 주민에게 한방진료 후 한방침, 한약 처방",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000102",
-      "onlineUrl": "",
-      "inquiry": [
-        "돌봄건강과/02-2286-7827"
       ],
       "updatedAt": "2026-02-05",
       "registeredAt": "2021-09-23"
