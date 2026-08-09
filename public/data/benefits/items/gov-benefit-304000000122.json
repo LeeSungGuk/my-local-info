@@ -22,12 +22,12 @@
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000122",
   "onlineUrl": "",
   "inquiry": [
-    "광진구 복지정책과/02-450-7483"
+    "광진구 복지돌봄과/02-450-7483"
   ],
-  "updatedAt": "2026-08-05",
+  "updatedAt": "2026-08-09",
   "registeredAt": "2021-09-23",
-  "viewCount": 887,
-  "collectedAt": "2026-08-08T22:59:09.343Z",
+  "viewCount": 888,
+  "collectedAt": "2026-08-09T23:01:10.805Z",
   "purpose": "국가보훈대상자를 위해 사망위로금 지원",
   "target": "사망일 기준 광진구에 주민등록을 두고 거주한 국가보훈대상자",
   "selectionCriteria": "",
@@ -39,8 +39,8 @@
   "legalBasis": [
     "국가유공자 등 예우 및 지원에 관한 법률"
   ],
-  "ordinance": "서울특별시 광진구 국가보훈대상자 예우 및 지원에 관한 조례",
-  "inquiryText": "광진구 복지정책과/02-450-7483",
+  "ordinance": "서울특별시 광진구 국가보훈대상자 예우 및 지원에 관한 조례||서울특별시 광진구 국가보훈대상자 예우 및 지원에 관한 조례",
+  "inquiryText": "광진구 복지돌봄과/02-450-7483",
   "ageMin": 0,
   "ageMax": 120
 }
