@@ -21,12 +21,12 @@
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000199",
   "onlineUrl": "",
   "inquiry": [
-    "건강관리과/02-450-6639"
+    "건강관리과/02-450-1964"
   ],
-  "updatedAt": "2026-04-27",
+  "updatedAt": "2026-08-10",
   "registeredAt": "2022-07-14",
-  "viewCount": 1533,
-  "collectedAt": "2026-08-09T23:01:10.805Z",
+  "viewCount": 1535,
+  "collectedAt": "2026-08-10T23:07:53.872Z",
   "purpose": "광진구민 65세 이상 기초생활수급자 중 미접종자에게 대상포진 예방접종 1회 지원",
   "target": "○ 광진구민  65세 이상 기초생활수급자 중 대상포진 예방접종 미접종자",
   "selectionCriteria": "",
@@ -39,7 +39,7 @@
     "감염병의 예방 및 관리에 관한 법률(제24조)"
   ],
   "ordinance": "서울특별시 광진구 예방접종 지원에 관한 조례",
-  "inquiryText": "건강관리과/02-450-6639",
+  "inquiryText": "건강관리과/02-450-1964",
   "ageMin": 65,
   "ageMax": 120
 }

@@ -1,7 +1,7 @@
 {
   "id": "gov-benefit-319000000132",
   "sourceId": "319000000132",
-  "title": "무료법률 상담 지원",
+  "title": "동작구 무료법률 상담 지원",
   "field": "행정·안전",
   "provider": "서울특별시 동작구",
   "providerType": "자치구",
@@ -25,10 +25,10 @@
   "inquiry": [
     "동작구 민원여권과/02-820-1864"
   ],
-  "updatedAt": "2026-07-29",
+  "updatedAt": "2026-08-10",
   "registeredAt": "2022-07-06",
-  "viewCount": 1815,
-  "collectedAt": "2026-08-09T23:01:10.805Z",
+  "viewCount": 1832,
+  "collectedAt": "2026-08-10T23:07:53.872Z",
   "purpose": "구민의 생활 속 법률고민 해결과 권익보호",
   "target": "○ 법률상담이 필요한 동작구민, 동작구에 거소를 둔 상공인, 직장인 등",
   "selectionCriteria": "",
