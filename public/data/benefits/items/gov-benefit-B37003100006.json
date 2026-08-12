@@ -1,7 +1,7 @@
 {
   "id": "gov-benefit-B37003100006",
   "sourceId": "B37003100006",
-  "title": "스포츠코리아랩 운영(창업종합지원)",
+  "title": "스포츠코리아랩 운영(종합플랫폼)",
   "field": "보육·교육",
   "provider": "서울올림픽기념국민체육진흥공단",
   "providerType": "서울 공공기관",
@@ -21,12 +21,12 @@
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100006",
   "onlineUrl": "spobiz.kspo.or.kr",
   "inquiry": [
-    "스포츠코리아랩/02-410-1593"
+    "스포츠코리아랩/02-410-1595"
   ],
-  "updatedAt": "2026-06-12",
+  "updatedAt": "2026-08-12",
   "registeredAt": "2022-07-15",
-  "viewCount": 1635,
-  "collectedAt": "2026-08-11T23:19:18.416Z",
+  "viewCount": 1636,
+  "collectedAt": "2026-08-12T23:11:47.455Z",
   "purpose": "○ 스포츠산업체 경쟁력 강화 및 체계적 지원을 위한 종합 인프라 구축\n○ 스포츠산업 혁신성장을 위한 차별화된 통합지원으로 산업 생태계조성",
   "target": "○ 스포츠 관련 재화 또는 서비스*를 통해 부가가치를 창출하는 중소기업\n * 전체 매출액 중 스포츠산업(용품제조, 서비스, 시설) 비중 30% 이상\n * 7년 미만 창업기업",
   "selectionCriteria": "",
@@ -39,7 +39,7 @@
     "스포츠산업 진흥법(제9조)"
   ],
   "ordinance": "",
-  "inquiryText": "스포츠코리아랩/02-410-1593",
+  "inquiryText": "스포츠코리아랩/02-410-1595",
   "ageMin": 0,
   "ageMax": 0
 }

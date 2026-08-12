@@ -16,6 +16,7 @@
   "supportSummary": "체육시설 이용료 감면(50%)",
   "receptionAgency": "접수기관 정보 없음",
   "applicationMethodTypes": [
+    "정부24온라인신청",
     "방문신청"
   ],
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00024000001",
@@ -23,10 +24,10 @@
   "inquiry": [
     "체육공익사업팀/02-749-5314"
   ],
-  "updatedAt": "2026-08-04",
+  "updatedAt": "2026-08-12",
   "registeredAt": "2022-07-15",
-  "viewCount": 776,
-  "collectedAt": "2026-08-11T23:19:18.416Z",
+  "viewCount": 777,
+  "collectedAt": "2026-08-12T23:11:47.455Z",
   "purpose": "다자녀가족에게 체육시설 이용요금 50%감면\n2자녀이상,  막내가 18세 이하, 주민등록상 주소지가 용산구민이어야 가능",
   "target": "서울특별시 용산구체육시설 설치 및 운영에 관한 조례",
   "selectionCriteria": "",
