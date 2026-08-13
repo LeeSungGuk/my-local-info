@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-08-13T08:12:00+09:00",
+  "lastGeneratedAt": "2026-08-14T08:13:42+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -2488,9 +2488,9 @@
         "홈쿡재료"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-08-06T08:30:27+09:00",
-      "usedAt": null
+      "usedAt": "2026-08-14T08:13:42+09:00"
     },
     {
       "id": "seoul-city-astronomical-observatories",
