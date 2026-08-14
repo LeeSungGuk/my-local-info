@@ -16,18 +16,17 @@
   "supportSummary": "○ 지급대상 : 지급일 현재 종로구 거주 국가보훈대상자\n○ 지급금액 : 매월 1인당 70,000원",
   "receptionAgency": "접수기관 정보 없음",
   "applicationMethodTypes": [
-    "정부24온라인신청",
-    "직접입력"
+    "방문신청"
   ],
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000119",
   "onlineUrl": "",
   "inquiry": [
     "종로구청 복지정책과/02-2148-2483"
   ],
-  "updatedAt": "2026-05-12",
+  "updatedAt": "2026-08-13",
   "registeredAt": "2022-07-13",
-  "viewCount": 1171,
-  "collectedAt": "2026-08-12T23:11:47.455Z",
+  "viewCount": 1173,
+  "collectedAt": "2026-08-14T22:51:51.342Z",
   "purpose": "지급일 현재 종로구 거주 국가보훈대상자에 매월 보훈예우수당 지급",
   "target": "지급일 현재 종로구 거주 국가보훈대상자",
   "selectionCriteria": "",
