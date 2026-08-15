@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-08-15T07:52:01+09:00",
+  "lastGeneratedAt": "2026-08-16T07:50:17+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -2530,9 +2530,9 @@
         "복합문화공간"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-08-06T08:30:27+09:00",
-      "usedAt": null
+      "usedAt": "2026-08-16T07:50:17+09:00"
     },
     {
       "id": "seoul-river-bridge-cafes",
