@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-08-16T07:50:17+09:00",
+  "lastGeneratedAt": "2026-08-17T07:49:01+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -2551,9 +2551,9 @@
         "노을명소"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-08-06T08:30:27+09:00",
-      "usedAt": null
+      "usedAt": "2026-08-17T07:49:01+09:00"
     },
     {
       "id": "seoul-diy-craft-material-markets",
