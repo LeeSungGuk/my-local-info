@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-08-17T07:49:01+09:00",
+  "lastGeneratedAt": "2026-08-18T07:52:29+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -2572,9 +2572,9 @@
         "방산시장캔들"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-08-06T08:30:27+09:00",
-      "usedAt": null
+      "usedAt": "2026-08-18T07:52:29+09:00"
     },
     {
       "id": "seoul-free-youth-study-spaces",
