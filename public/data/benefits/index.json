@@ -10,7 +10,7 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-08-15T22:50:04.747Z",
+    "collectedAt": "2026-08-18T22:53:01.411Z",
     "syncSchedule": "매일 오전 7시 30분",
     "availableCount": 10962,
     "fetchedCount": 1135,
@@ -21,6 +21,120 @@
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-322000000127",
+      "sourceId": "322000000127",
+      "title": "유축기 대여 서비스",
+      "field": "임신·출산",
+      "provider": "서울특별시 강남구",
+      "providerType": "자치구",
+      "district": "강남구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "- 주민등록상 주소지가 강남구(산모기준)인 출산부",
+      "summary": "서울특별시 강남구에서 제공하는 임신·출산 혜택입니다. - 유축기 대여를 통해 출산가정의 경제적 부담 경감\n- 모자의 건강증진도모, 모유수유 실천률 향상",
+      "supportType": "현물",
+      "supportSummary": "[ 유축기 대여 서비스]\n- 제품구성 : 유축기 본체(시밀레 S6) + 소모품(전용 깔대기, 튜브, 젖병) \n-  유축기 수령일로부터 1개월 무료 대여 ( 기간연장 시 20,000원/월 비용 발생) \n-  유축기 업체에서 만기 3일전 안내 문자 발송 -> 반납 또는…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/322000000127",
+      "onlineUrl": "",
+      "inquiry": [
+        "강남구 보건소 사랑맘센터/02-3423-7245",
+        "강남구 보건소 사랑맘센터/02-3423-7245"
+      ],
+      "updatedAt": "2026-08-18",
+      "registeredAt": "2026-08-06"
+    },
+    {
+      "id": "gov-benefit-313000000155",
+      "sourceId": "313000000155",
+      "title": "(마포구)청년 면접정장 대여사업",
+      "field": "생활안정",
+      "provider": "서울특별시 마포구",
+      "providerType": "자치구",
+      "district": "마포구",
+      "userType": "개인",
+      "deadlineText": "2026.01.26~2026.12.18",
+      "deadlineSortKey": "2026-12-18",
+      "isAlwaysOpen": false,
+      "targetSummary": "마포구 구직청년",
+      "summary": "서울특별시 마포구에서 제공하는 생활안정 혜택입니다. 청년들의 구직활동에 따른 경제적 부담 경감",
+      "supportType": "현물",
+      "supportSummary": "면접정장 무상 대여(2박3일)",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000155",
+      "onlineUrl": "",
+      "inquiry": [
+        "마포구청 문화경제국 청년정책과/02-3153-8643"
+      ],
+      "updatedAt": "2026-08-18",
+      "registeredAt": "2025-07-11"
+    },
+    {
+      "id": "gov-benefit-313000000126",
+      "sourceId": "313000000126",
+      "title": "서울시 전세보증금 반환보증 보증료 지원",
+      "field": "주거·자립",
+      "provider": "서울특별시 마포구",
+      "providerType": "자치구",
+      "district": "마포구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "전연령",
+      "summary": "서울특별시 마포구에서 제공하는 주거·자립 혜택입니다. 저소득층의 전세사기 피해 예방 및 안정된 주거환경 조성",
+      "supportType": "현금",
+      "supportSummary": "(청년) 연소득 5천만원 이하\n(청년외)연소득 6천만원 이하\n(신혼부부)7천5백만원 이하\n(주택조건)임차보증금 3억원 이내\n소득기준을 가진 전연령 서울시 거주 무주택 임차인 중 보증기관 가입한 자\n납부보증료 최대 40만원 지원 서비스(단, 청년외는 보증료의 90%)…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000126",
+      "onlineUrl": "",
+      "inquiry": [
+        "마포구 부동산정보과/02-3153-9331",
+        "마포구 부동산정보과/02-3153-9304"
+      ],
+      "updatedAt": "2026-08-18",
+      "registeredAt": "2024-08-05"
+    },
+    {
+      "id": "gov-benefit-318000000431",
+      "sourceId": "318000000431",
+      "title": "청년 중개보수 감면 사업",
+      "field": "주거·자립",
+      "provider": "서울특별시 영등포구",
+      "providerType": "자치구",
+      "district": "영등포구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "서울시로 전입 또는 서울시 내에서 이사한 만 19~39세 청년가구",
+      "summary": "서울특별시 영등포구에서 제공하는 주거·자립 혜택입니다. 청년 부동산 중개보수 지원",
+      "supportType": "현금(감면)",
+      "supportSummary": "○ 사 업 명: 청년 부동산 중개보수 및 이사비 지원사업\n○ 지원대상: 서울시로 전입 또는 서울시 내에서 이사한 만 19~39세 청년가구\n○ 지원내용: 부동산 중개보수, 이사비 최대 40만원 실비 지원 *생애1회\n○ 신청기간: 별도공고\n○ 신청방법: 청년몽땅정보통(y…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000431",
+      "onlineUrl": "http://youth.seoul.go.kr",
+      "inquiry": [
+        "콜센터/1877-9358"
+      ],
+      "updatedAt": "2026-08-18",
+      "registeredAt": "2025-12-09"
+    },
     {
       "id": "gov-benefit-317000000118",
       "sourceId": "317000000118",
@@ -2226,35 +2340,6 @@
       "registeredAt": "2022-05-30"
     },
     {
-      "id": "gov-benefit-313000000126",
-      "sourceId": "313000000126",
-      "title": "서울시 전세보증금 반환보증 보증료 지원",
-      "field": "주거·자립",
-      "provider": "서울특별시 마포구",
-      "providerType": "자치구",
-      "district": "마포구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "전연령",
-      "summary": "서울특별시 마포구에서 제공하는 주거·자립 혜택입니다. 저소득층의 전세사기 피해 예방 및 안정된 주거환경 조성",
-      "supportType": "현금",
-      "supportSummary": "(청년) 연소득 5천만원 이하\n(청년외)연소득 6천만원 이하\n(신혼부부)7천5백만원 이하\n(주택조건)임차보증금 3억원 이내\n소득기준을 가진 전연령 서울시 거주 무주택 임차인 중 보증기관 가입한 자\n납부보증료 최대 40만원 지원 서비스(단, 청년외는 보증료의 90%)…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000126",
-      "onlineUrl": "",
-      "inquiry": [
-        "마포구 주택상생과/02-3153-9331",
-        "마포구 주택상생과/02-3153-9304"
-      ],
-      "updatedAt": "2026-08-14",
-      "registeredAt": "2024-08-05"
-    },
-    {
       "id": "gov-benefit-312000000117",
       "sourceId": "312000000117",
       "title": "장애인 및 가족치료 지원",
@@ -3389,35 +3474,6 @@
       ],
       "updatedAt": "2026-08-14",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-322000000127",
-      "sourceId": "322000000127",
-      "title": "유축기 대여 서비스",
-      "field": "임신·출산",
-      "provider": "서울특별시 강남구",
-      "providerType": "자치구",
-      "district": "강남구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "- 주민등록상 주소지가 강남구(산모기준)인 출산부",
-      "summary": "서울특별시 강남구에서 제공하는 임신·출산 혜택입니다. - 유축기 대여를 통해 출산가정의 경제적 부담 경감\n- 모자의 건강증진도모, 모유수유 실천률 향상",
-      "supportType": "현물",
-      "supportSummary": "[ 유축기 대여 서비스]\n- 제품구성 : 유축기 본체(시밀레 S6) + 소모품(전용 깔대기, 튜브, 젖병) \n-  유축기 수령일로부터 1개월 무료 대여 ( 기간연장 시 20,000원/월 비용 발생) \n-  유축기 업체에서 만기 3일전 안내 문자 발송 -> 반납 또는…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/322000000127",
-      "onlineUrl": "",
-      "inquiry": [
-        "강남구 보건소 사랑맘센터/02-3423-7245",
-        "강남구 보건소 사랑맘센터/02-3423-7245"
-      ],
-      "updatedAt": "2026-08-13",
-      "registeredAt": "2026-08-06"
     },
     {
       "id": "gov-benefit-315000000277",
@@ -23040,34 +23096,6 @@
       "registeredAt": "2025-07-08"
     },
     {
-      "id": "gov-benefit-313000000155",
-      "sourceId": "313000000155",
-      "title": "(마포구)청년 면접정장 대여사업",
-      "field": "생활안정",
-      "provider": "서울특별시 마포구",
-      "providerType": "자치구",
-      "district": "마포구",
-      "userType": "개인",
-      "deadlineText": "2026.01.26~2026.12.18",
-      "deadlineSortKey": "2026-12-18",
-      "isAlwaysOpen": false,
-      "targetSummary": "마포구 구직청년",
-      "summary": "서울특별시 마포구에서 제공하는 생활안정 혜택입니다. 청년들의 구직활동에 따른 경제적 부담 경감",
-      "supportType": "현물",
-      "supportSummary": "면접정장 무상 대여(2박3일)",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000155",
-      "onlineUrl": "",
-      "inquiry": [
-        "고용협력과/02-3153-8643"
-      ],
-      "updatedAt": "2026-07-30",
-      "registeredAt": "2025-07-11"
-    },
-    {
       "id": "gov-benefit-313000000148",
       "sourceId": "313000000148",
       "title": "국가보훈대상자 장례서비스",
@@ -23579,34 +23607,6 @@
       ],
       "updatedAt": "2026-07-30",
       "registeredAt": "2025-11-26"
-    },
-    {
-      "id": "gov-benefit-318000000431",
-      "sourceId": "318000000431",
-      "title": "청년 중개보수 감면 사업",
-      "field": "주거·자립",
-      "provider": "서울특별시 영등포구",
-      "providerType": "자치구",
-      "district": "영등포구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "서울시로 전입 또는 서울시 내에서 이사한 만 19~39세 청년가구",
-      "summary": "서울특별시 영등포구에서 제공하는 주거·자립 혜택입니다. 청년 부동산 중개보수 지원",
-      "supportType": "현금(감면)",
-      "supportSummary": "○ 사 업 명: 청년 부동산 중개보수 및 이사비 지원사업\n○ 지원대상: 서울시로 전입 또는 서울시 내에서 이사한 만 19~39세 청년가구\n○ 지원내용: 부동산 중개보수, 이사비 최대 40만원 실비 지원 *생애1회\n○ 신청기간: 별도공고\n○ 신청방법: 청년몽땅정보통(y…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000431",
-      "onlineUrl": "http://youth.seoul.go.kr",
-      "inquiry": [
-        "콜센터/1877-9358"
-      ],
-      "updatedAt": "2026-07-30",
-      "registeredAt": "2025-12-09"
     },
     {
       "id": "gov-benefit-311000000144",
