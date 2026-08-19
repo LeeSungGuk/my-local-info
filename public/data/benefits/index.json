@@ -10,9 +10,9 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-08-18T22:53:01.411Z",
+    "collectedAt": "2026-08-19T22:52:58.755Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10962,
+    "availableCount": 10958,
     "fetchedCount": 1135,
     "activeCount": 1100,
     "expiredCount": 35,
@@ -21,6 +21,63 @@
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-323000000113",
+      "sourceId": "323000000113",
+      "title": "(송파구)입양가정 입양축하금 지원",
+      "field": "임신·출산",
+      "provider": "서울특별시 송파구",
+      "providerType": "자치구",
+      "district": "송파구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 입양일을 기준으로 6개월 이상 송파구에 주민등록을 두고 실제 거주하고 있는 입양부모",
+      "summary": "서울특별시 송파구에서 제공하는 임신·출산 혜택입니다. ○ 입양부모에게 입양축하금 지원",
+      "supportType": "현금",
+      "supportSummary": "○ 입양부모에게 입양축하금 지원\n - 입양특례법에 따라 입양된 아동의 건전한 양육을 위하여 예산의 범위 내에서 입양축하금 지원\n - 입양아동 1명당 100만원, 장애입양아동 1명당 200만원\n - 입양일을 기준으로 6개월 이상 송파구에 주민등록을 두고 실제 거주하고…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/323000000113",
+      "onlineUrl": "",
+      "inquiry": [
+        "아동청소년과/02-2147-3833"
+      ],
+      "updatedAt": "2026-08-19",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-306000000243",
+      "sourceId": "306000000243",
+      "title": "유축기 대여 서비스",
+      "field": "임신·출산",
+      "provider": "서울특별시 중랑구",
+      "providerType": "자치구",
+      "district": "중랑구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "중랑구에 주민등록을 둔 출산모",
+      "summary": "서울특별시 중랑구에서 제공하는 임신·출산 혜택입니다. 출산모 유축기 대여 지원을 통한 모유수유 친화적 환경 조성 및 모자 건강증진 도모",
+      "supportType": "현물",
+      "supportSummary": "○ 유축기 대여 서비스\n - 대상 : 중랑구에 주소지를 둔 출산모(분만 후 신청 가능)\n - 방법 : 자녀 출산 후, 중랑구 보건소 홈페이지에 산모이름으로 온라인 신청 및  신청일로부터 5일 이내 방문 수령   \n              *신청 후 5일 이내 미수령…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/306000000243",
+      "onlineUrl": "https://www.jungnang.go.kr/health/bbs/list/B0000412.do?menuNo=400364",
+      "inquiry": [
+        "중랑구 보건소 모자건강센터/02-2094-0176",
+        "중랑구 보건소 모자건강센터/02-2094-0818"
+      ],
+      "updatedAt": "2026-08-19",
+      "registeredAt": "2026-06-19"
+    },
     {
       "id": "gov-benefit-322000000127",
       "sourceId": "322000000127",
@@ -2416,34 +2473,6 @@
         "신청불필요"
       ],
       "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/323000000119",
-      "onlineUrl": "",
-      "inquiry": [
-        "아동청소년과/02-2147-3833"
-      ],
-      "updatedAt": "2026-08-14",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-323000000113",
-      "sourceId": "323000000113",
-      "title": "(송파구)입양가정 입양축하금 지원",
-      "field": "임신·출산",
-      "provider": "서울특별시 송파구",
-      "providerType": "자치구",
-      "district": "송파구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 입양일을 기준으로 6개월 이상 송파구에 주민등록을 두고 실제 거주하고 있는 입양부모",
-      "summary": "서울특별시 송파구에서 제공하는 임신·출산 혜택입니다. ○ 입양부모에게 입양축하금 지원",
-      "supportType": "현금",
-      "supportSummary": "○ 입양부모에게 입양축하금 지원\n - 입양특례법에 따라 입양된 아동의 건전한 양육을 위하여 예산의 범위 내에서 입양축하금 지원\n - 입양아동 1명당 100만원, 장애입양아동 1명당 200만원\n - 입양일을 기준으로 6개월 이상 송파구에 주민등록을 두고 실제 거주하고…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/323000000113",
       "onlineUrl": "",
       "inquiry": [
         "아동청소년과/02-2147-3833"
@@ -5258,35 +5287,6 @@
       ],
       "updatedAt": "2026-08-13",
       "registeredAt": "2025-08-28"
-    },
-    {
-      "id": "gov-benefit-306000000243",
-      "sourceId": "306000000243",
-      "title": "유축기 대여 서비스",
-      "field": "임신·출산",
-      "provider": "서울특별시 중랑구",
-      "providerType": "자치구",
-      "district": "중랑구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "중랑구에 주민등록을 둔 출산모",
-      "summary": "서울특별시 중랑구에서 제공하는 임신·출산 혜택입니다. 출산모 유축기 대여 지원을 통한 모유수유 친화적 환경 조성 및 모자 건강증진 도모",
-      "supportType": "현물",
-      "supportSummary": "○ 유축기 대여 서비스\n - 대상 : 중랑구에 주소지를 둔 출산모(분만 후 신청 가능)\n - 방법 : 자녀 출산 후, 중랑구 보건소 홈페이지에 산모이름으로 온라인 신청 및  신청일로부터 5일 이내 방문 수령   \n              *신청 후 5일 이내 미수령…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/306000000243",
-      "onlineUrl": "https://www.jungnang.go.kr/health/bbs/list/B0000412.do?menuNo=400364",
-      "inquiry": [
-        "중랑구 보건소 모자건강센터/02-2094-0176",
-        "중랑구 보건소 모자건강센터/02-2094-0818"
-      ],
-      "updatedAt": "2026-08-13",
-      "registeredAt": "2026-06-19"
     },
     {
       "id": "gov-benefit-306000000212",
