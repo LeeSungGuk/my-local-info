@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-08-21T07:57:04+09:00",
+  "lastGeneratedAt": "2026-08-22T07:52:54+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -2656,9 +2656,9 @@
         "카메라수리"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-08-15T07:52:01+09:00",
-      "usedAt": null
+      "usedAt": "2026-08-22T07:52:54+09:00"
     },
     {
       "id": "seoul-unique-concept-photobooths",

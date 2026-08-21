@@ -8,12 +8,12 @@
   "startDate": "2026-09-12",
   "endDate": "2026-10-03",
   "dateText": "2026-09-12~2026-10-03",
-  "timeText": "홈페이지 참고",
+  "timeText": "화·수·목·금 19:30 / 토·일 15:00 (월요일 공연 없음) *단, 9.24(목)은 15:00, 9.25(금)은 공연 없음",
   "target": "13세 이상 관람 가능 (2013년 포함 이전 출생자)",
   "fee": "R석 80,000원 S석 60,000원 A석 40,000원",
   "isFree": false,
   "organizer": "세종문화회관",
-  "inquiry": "02-399-1000",
+  "inquiry": "(일반) 세종문화회관 02-399-1000 / (단체) 클립서비스 02-3496-8880",
   "imageUrl": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cabf72f0c90446f1a43cbf195664aa4b&thumb=Y",
   "detailUrl": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159055&menuNo=200008",
   "summary": "종로구 · 세종M씨어터에서 열리는 연극 행사입니다. R석 80,000원 S석 60,000원 A석 40,000원",
@@ -25,5 +25,5 @@
   "latitude": 37.5726241,
   "longitude": 126.9760053,
   "registeredAt": "2026-08-13",
-  "collectedAt": "2026-08-20T22:56:37.187Z"
+  "collectedAt": "2026-08-21T22:52:23.065Z"
 }

@@ -10,17 +10,133 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-08-20T22:56:52.792Z",
+    "collectedAt": "2026-08-21T22:52:41.854Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10962,
-    "fetchedCount": 1135,
-    "activeCount": 1100,
+    "availableCount": 10961,
+    "fetchedCount": 1136,
+    "activeCount": 1101,
     "expiredCount": 35,
     "deduplicatedCount": 0,
     "filterMode": "서울 소관기관",
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-313000000127",
+      "sourceId": "313000000127",
+      "title": "(마포구)청년 취업준비 비용 지원사업",
+      "field": "고용·창업",
+      "provider": "서울특별시 마포구",
+      "providerType": "자치구",
+      "district": "마포구",
+      "userType": "개인",
+      "deadlineText": "2026.02.02~2026.12.11",
+      "deadlineSortKey": "2026-12-11",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 신청대상: 19세~39세 청년 중 아래 요건 모두 충족하는 자\n  - 연령 : 신청일 기준 19세 ~ 39세 이하\n  - 주소 : 신청일 기준 마포구에 주민등록을 두고 있는 청년\n  - 미취업 : 신청일 기준 미취업자 및 사업자등록사실이 없는 자\n    *민간 취…",
+      "summary": "서울특별시 마포구에서 제공하는 고용·창업 혜택입니다. 청년들의 능력개발과 구직활동 촉진",
+      "supportType": "현금",
+      "supportSummary": "○ 지원내용: 1인당 최대 10만원\n  – 자격시험 응시비용 및 면접 헤어·메이크업 비용 최대 10만원 이내 실비 지원\n   ※ 당해연도 실시한 자격시험 및 면접 응시 횟수 제한 없으나, 통합 1회 신청\n ○ 지원분야\n  – 응시료: 어학 19종, 한국사능력검정시험…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000127",
+      "onlineUrl": "",
+      "inquiry": [
+        "마포구청 문화경제국 청년정책과/02-3153-8643"
+      ],
+      "updatedAt": "2026-08-22",
+      "registeredAt": "2024-12-20"
+    },
+    {
+      "id": "gov-benefit-315000000298",
+      "sourceId": "315000000298",
+      "title": "마곡안전체험관 안전체험교육 신청",
+      "field": "행정·안전",
+      "provider": "서울특별시 강서구",
+      "providerType": "자치구",
+      "district": "강서구",
+      "userType": "개인",
+      "deadlineText": "이용일 전월 1일부터 이용일 1일 전 17:00까지 (선착순 마감)",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "5세 이상",
+      "summary": "서울특별시 강서구에서 제공하는 행정·안전 혜택입니다. ❍ 체험 및 실습 위주의 교육으로 다양한 사회․자연재난에 대한 대응능력 강화 \n❍ 다양한 지역사회 구성원의 안전교육 참여 유도로 안전문화 확산",
+      "supportType": "시설이용",
+      "supportSummary": "❍ 마곡안전체험관 운영\n    - 위       치: 서울시 강서구 마곡중앙로 13(발산근린공원 내)\n    - 운영시간: 09:00~18:00 (1~3, 8월: 월요일 휴관 /  4~7, 9~12월: 일요일 휴관 / 법정공휴일 휴관)\n    - 내       용:…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000298",
+      "onlineUrl": "https://magoksafety.kr/",
+      "inquiry": [
+        "마곡안전체험관/02-2600-4262",
+        "마곡안전체험관/02-2600-4263"
+      ],
+      "updatedAt": "2026-08-21",
+      "registeredAt": "2025-12-12"
+    },
+    {
+      "id": "gov-benefit-313000000131",
+      "sourceId": "313000000131",
+      "title": "(마포구)난임부부 시술비 약제비 지원(시술 후 원외약제비 청구)",
+      "field": "보건·의료",
+      "provider": "서울특별시 마포구",
+      "providerType": "자치구",
+      "district": "마포구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "난임부부 시술비 지원사업 대상자 중 해당지원회차의 정부지원금 잔액이 남은 자(마포구민만 가능)",
+      "summary": "서울특별시 마포구에서 제공하는 보건·의료 혜택입니다. 보조생식술을 받는 난임부부에게 건강보험 본인부담 및 비급여 일부를 보충적으로 지원하여 경제적 부담을 경감시킴으로써 난임부부가 희망하는 자녀를 갖도록 지원",
+      "supportType": "현금",
+      "supportSummary": "★난임시술과 직접적 관련 있는 원외약처방 약제비 지원★\n\n※ 일부 본인부담금, 전액본인부담금 및 비급여 약제비 지원(지원비율 상이함)\n※ 해당 회차의 정부지원금액 한도 내에서 지급 가능\n※ 의료기관의 시술비 청구금액 확인 후 지급(개인지급까지 다소 시간 소요됨)",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000131",
+      "onlineUrl": "",
+      "inquiry": [
+        "건강동행과/02-3153-9075"
+      ],
+      "updatedAt": "2026-08-21",
+      "registeredAt": "2025-06-24"
+    },
+    {
+      "id": "gov-benefit-302000000120",
+      "sourceId": "302000000120",
+      "title": "용산구 구민안전보험",
+      "field": "행정·안전",
+      "provider": "서울특별시 용산구",
+      "providerType": "자치구",
+      "district": "용산구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "피보험자 : 용산구에 주민등록이 되어 있는 모든 구민 (등록된 외국인포함)",
+      "summary": "서울특별시 용산구에서 제공하는 행정·안전 혜택입니다. 각종 재난이나 사고로 사망, 후유장해, 부상을 입은 구민에게 보험사를 통하여 보험금을 지급하는 제도로 용산구에서 보험사와 직접 계약하여 보험료를 부담합니다.",
+      "supportType": "현금(보험)",
+      "supportSummary": "피보험자 : 용산구에 주민등록이 되어 있는 모든 구민 (등록된 외국인포함)\n보험기간 : 2026년 2월 23일 (00:00) ~ 2027년 2월 22일 (24:00) (1년)\n보험료 : 용산구에서 일괄납부완료\n가입절차 : 용산구 구민 전체 자동가입완료\n※ 용산구에 주…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/302000000120",
+      "onlineUrl": "",
+      "inquiry": [
+        "보험사(시민안전보험 접수센터)/1522-3556"
+      ],
+      "updatedAt": "2026-08-21",
+      "registeredAt": "2024-12-22"
+    },
     {
       "id": "gov-benefit-323000000111",
       "sourceId": "323000000111",
@@ -4301,36 +4417,6 @@
       "registeredAt": "2022-07-07"
     },
     {
-      "id": "gov-benefit-313000000131",
-      "sourceId": "313000000131",
-      "title": "(마포구)난임부부 시술비 약제비 지원(시술 후 원외약제비 청구)",
-      "field": "보건·의료",
-      "provider": "서울특별시 마포구",
-      "providerType": "자치구",
-      "district": "마포구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "난임부부 시술비 지원사업 대상자 중 해당지원회차의 정부지원금 잔액이 남은 자(마포구민만 가능)",
-      "summary": "서울특별시 마포구에서 제공하는 보건·의료 혜택입니다. 보조생식술을 받는 난임부부에게 건강보험 본인부담 및 비급여 일부를 보충적으로 지원하여 경제적 부담을 경감시킴으로써 난임부부가 희망하는 자녀를 갖도록 지원",
-      "supportType": "현금",
-      "supportSummary": "★난임시술과 직접적 관련 있는 원외약처방 약제비 지원★\n\n※ 일부 본인부담금, 전액본인부담금 및 비급여 약제비 지원(지원비율 상이함)\n※ 해당 회차의 정부지원금액 한도 내에서 지급 가능\n※ 의료기관의 시술비 청구금액 확인 후 지급(개인지급까지 다소 시간 소요됨)",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000131",
-      "onlineUrl": "",
-      "inquiry": [
-        "건강동행과/02-3153-9075"
-      ],
-      "updatedAt": "2026-08-13",
-      "registeredAt": "2025-06-24"
-    },
-    {
       "id": "gov-benefit-312000000107",
       "sourceId": "312000000107",
       "title": "다자녀가족 둘째아 이상 초등학교 입학축하상품권 지원",
@@ -7870,35 +7956,6 @@
       ],
       "updatedAt": "2026-08-11",
       "registeredAt": "2023-10-23"
-    },
-    {
-      "id": "gov-benefit-315000000298",
-      "sourceId": "315000000298",
-      "title": "마곡안전체험관 안전체험교육 신청",
-      "field": "행정·안전",
-      "provider": "서울특별시 강서구",
-      "providerType": "자치구",
-      "district": "강서구",
-      "userType": "개인",
-      "deadlineText": "이용일 전월 1일부터 이용일 1일 전 17:00까지 (선착순 마감)",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "5세 이상",
-      "summary": "서울특별시 강서구에서 제공하는 행정·안전 혜택입니다. ❍ 체험 및 실습 위주의 교육으로 다양한 사회․자연재난에 대한 대응능력 강화 \n❍ 다양한 지역사회 구성원의 안전교육 참여 유도로 안전문화 확산",
-      "supportType": "시설이용",
-      "supportSummary": "❍ 마곡안전체험관 운영\n    - 위       치: 서울시 강서구 마곡중앙로 13(발산근린공원 내)\n    - 운영시간: 09:00~18:00 (1~3, 8월: 월요일 휴관 /  4~7, 9~12월: 일요일 휴관 / 법정공휴일 휴관)\n    - 내       용:…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000298",
-      "onlineUrl": "https://magoksafety.kr/",
-      "inquiry": [
-        "마곡안전체험관/02-2600-4262",
-        "마곡안전체험관/02-2600-4263"
-      ],
-      "updatedAt": "2026-08-11",
-      "registeredAt": "2025-12-12"
     },
     {
       "id": "gov-benefit-315000000280",
@@ -21078,35 +21135,6 @@
       ],
       "updatedAt": "2026-08-04",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-302000000120",
-      "sourceId": "302000000120",
-      "title": "용산구 구민안전보험",
-      "field": "행정·안전",
-      "provider": "서울특별시 용산구",
-      "providerType": "자치구",
-      "district": "용산구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "피보험자 : 용산구에 주민등록이 되어 있는 모든 구민 (등록된 외국인포함)",
-      "summary": "서울특별시 용산구에서 제공하는 행정·안전 혜택입니다. 각종 재난이나 사고로 사망, 후유장해, 부상을 입은 구민에게 보험사를 통하여 보험금을 지급하는 제도로 용산구에서 보험사와 직접 계약하여 보험료를 부담합니다.",
-      "supportType": "현금(보험)",
-      "supportSummary": "피보험자 : 용산구에 주민등록이 되어 있는 모든 구민 (등록된 외국인포함)\n보험기간 : 2026년 2월 23일 (00:00) ~ 2027년 2월 22일 (24:00) (1년)\n보험료 : 용산구에서 일괄납부완료\n가입절차 : 용산구 구민 전체 자동가입완료\n※ 용산구에 주…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/302000000120",
-      "onlineUrl": "",
-      "inquiry": [
-        "보험사(시민안전보험 접수센터)/1522-3556"
-      ],
-      "updatedAt": "2026-08-04",
-      "registeredAt": "2024-12-22"
     },
     {
       "id": "gov-benefit-311000000135",
