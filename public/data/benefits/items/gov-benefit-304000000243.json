@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-304000000243",
+  "sourceId": "304000000243",
+  "title": "(광진구)가족관계등록 상담의 날 운영",
+  "field": "행정·안전",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "가족관계등록 신고에 대한 전문적 상담이 필요한 광진구민",
+  "summary": "서울특별시 광진구에서 제공하는 행정·안전 혜택입니다. 복잡하고 다변화된 가족관계등록 신고에 대해 1:1 상담서비스 제공",
+  "supportType": "기타(상담)",
+  "supportSummary": "o 월2회 사전예약한 민원인에 한해 신원이 노출되지 않는 공간에서 상담 진행\n   - 매월 둘째.넷째주 수요일(15:00~17:00)\n\no 필요시 감독법원(서울동부지방법원) 협의 검토후 상담",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청",
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000243",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 민원여권과/02-450-7186"
+  ],
+  "updatedAt": "2026-08-25",
+  "registeredAt": "2026-08-12",
+  "viewCount": 0,
+  "collectedAt": "2026-08-25T22:57:06.844Z",
+  "purpose": "복잡하고 다변화된 가족관계등록 신고에 대해 1:1 상담서비스 제공",
+  "target": "가족관계등록 신고에 대한 전문적 상담이 필요한 광진구민",
+  "selectionCriteria": "",
+  "supportContent": "o 월2회 사전예약한 민원인에 한해 신원이 노출되지 않는 공간에서 상담 진행\n   - 매월 둘째.넷째주 수요일(15:00~17:00)\n\no 필요시 감독법원(서울동부지방법원) 협의 검토후 상담",
+  "applicationMethod": "방문, 유선, 온라인신청: 정부24(www.gov.kr)접속",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "가족관계의 등록 등에 관한 법률(제3조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "광진구 민원여권과/02-450-7186",
+  "ageMin": 0,
+  "ageMax": 120
+}
