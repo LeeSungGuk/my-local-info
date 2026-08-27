@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-08-26T07:57:19+09:00",
+  "lastGeneratedAt": "2026-08-27T12:29:34+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -2761,9 +2761,9 @@
         "속편한디저트"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-08-15T07:52:01+09:00",
-      "usedAt": null
+      "usedAt": "2026-08-27T12:29:34+09:00"
     },
     {
       "id": "seoul-quiet-hanok-workspace-cafes",
