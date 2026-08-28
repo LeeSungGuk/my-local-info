@@ -16,6 +16,7 @@
   "supportSummary": "o 월2회 사전예약한 민원인에 한해 신원이 노출되지 않는 공간에서 상담 진행\n   - 매월 둘째.넷째주 수요일(15:00~17:00)\n\no 필요시 감독법원(서울동부지방법원) 협의 검토후 상담",
   "receptionAgency": "접수기관 정보 없음",
   "applicationMethodTypes": [
+    "정부24온라인신청",
     "방문신청",
     "직접입력"
   ],
@@ -24,10 +25,10 @@
   "inquiry": [
     "광진구 민원여권과/02-450-7186"
   ],
-  "updatedAt": "2026-08-26",
+  "updatedAt": "2026-08-27",
   "registeredAt": "2026-08-12",
-  "viewCount": 2,
-  "collectedAt": "2026-08-27T03:29:23.227Z",
+  "viewCount": 6,
+  "collectedAt": "2026-08-28T06:15:11.155Z",
   "purpose": "복잡하고 다변화된 가족관계등록 신고에 대해 1:1 상담서비스 제공",
   "target": "가족관계등록 신고에 대한 전문적 상담이 필요한 광진구민",
   "selectionCriteria": "",

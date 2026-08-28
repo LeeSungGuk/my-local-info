@@ -1,0 +1,46 @@
+{
+  "id": "gov-benefit-304000000245",
+  "sourceId": "304000000245",
+  "title": "(광진구) 공중선 정비 서비스",
+  "field": "행정·안전",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "공중선이 심하게 늘어져있는 경우\n공중선이 끊어졌거나 방치된 경우\n공중선이 오래되어 위험해 보이는 경우\n공중선이 뒤엉켜 보행에 불편을 주거나 도시 미관을 해치는 경우",
+  "summary": "서울특별시 광진구에서 제공하는 행정·안전 혜택입니다. 관내 공중선(통신선) 정비를 통해 구민 생활 안전 제고",
+  "supportType": "기타",
+  "supportSummary": "관내 복잡하게 얽혀있거나 늘어져 있는 공중선(통신선)을 정리, 정비해 주는 서비스로\n정비요청 위치와 불편내용을 신고",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "정부24온라인신청",
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000245",
+  "onlineUrl": "https://www.gwangjin.go.kr/portal/bbs/B0000373/main.do?menuNo=201827",
+  "inquiry": [
+    "광진구청 가로경관과/1588-2498"
+  ],
+  "updatedAt": "2026-08-27",
+  "registeredAt": "2026-08-26",
+  "viewCount": 0,
+  "collectedAt": "2026-08-28T06:15:11.155Z",
+  "purpose": "관내 공중선(통신선) 정비를 통해 구민 생활 안전 제고",
+  "target": "공중선이 심하게 늘어져있는 경우\n공중선이 끊어졌거나 방치된 경우\n공중선이 오래되어 위험해 보이는 경우\n공중선이 뒤엉켜 보행에 불편을 주거나 도시 미관을 해치는 경우",
+  "selectionCriteria": "",
+  "supportContent": "관내 복잡하게 얽혀있거나 늘어져 있는 공중선(통신선)을 정리, 정비해 주는 서비스로\n정비요청 위치와 불편내용을 신고",
+  "applicationMethod": "온라인신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "전기통신사업법"
+  ],
+  "ordinance": "",
+  "inquiryText": "광진구청 가로경관과/1588-2498",
+  "ageMin": 0,
+  "ageMax": 120
+}

@@ -1,0 +1,47 @@
+{
+  "id": "gov-benefit-304000000244",
+  "sourceId": "304000000244",
+  "title": "(광진구) 사회적 약자를 위한 여권민원 원스톱 서비스",
+  "field": "행정·안전",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "영·유아(6세이하), 어르신(75세이상), 거동불편 장애인",
+  "summary": "서울특별시 광진구에서 제공하는 행정·안전 혜택입니다. 영유아, 어르신, 거동불편 장애인 등 민원취약계층 우선 배려",
+  "supportType": "기타(상담)",
+  "supportSummary": "내용:  영유아, 어르신, 거동불편 장애인 등 민원취약계층이의\n          여권발급 신청, 분실·습득신고 증명서 발급 등 우선 처리\n방법:  예약방문 시 통합민원실 여권접수 전담창구 우선접수\n          최소 방문 4일전 인터넷 또는 전화 예약 ☎ 02)4…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "정부24온라인신청",
+    "방문신청",
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000244",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구청 민원여권과/02-450-1352"
+  ],
+  "updatedAt": "2026-08-27",
+  "registeredAt": "2026-08-26",
+  "viewCount": 0,
+  "collectedAt": "2026-08-28T06:15:11.155Z",
+  "purpose": "영유아, 어르신, 거동불편 장애인 등 민원취약계층 우선 배려",
+  "target": "영·유아(6세이하), 어르신(75세이상), 거동불편 장애인",
+  "selectionCriteria": "",
+  "supportContent": "내용:  영유아, 어르신, 거동불편 장애인 등 민원취약계층이의\n          여권발급 신청, 분실·습득신고 증명서 발급 등 우선 처리\n방법:  예약방문 시 통합민원실 여권접수 전담창구 우선접수\n          최소 방문 4일전 인터넷 또는 전화 예약 ☎ 02)450-1352~3\n ※ 법정대리인 단독방문 신청은 사전예약 대상 아님",
+  "applicationMethod": "방문 4일전 아래방법으로 예약\n\n방문, 온라인, 유선, 기타\n온라인신청: 정부24\n방문신청: 광진구청 민원여권과\n유선신청: 02-450-1352",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "민원 처리에 관한 법률"
+  ],
+  "ordinance": "",
+  "inquiryText": "광진구청 민원여권과/02-450-1352",
+  "ageMin": 0,
+  "ageMax": 120
+}

@@ -10,17 +10,163 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-08-27T03:29:23.227Z",
+    "collectedAt": "2026-08-28T06:15:11.155Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10958,
-    "fetchedCount": 1136,
-    "activeCount": 1101,
-    "expiredCount": 35,
+    "availableCount": 10964,
+    "fetchedCount": 1139,
+    "activeCount": 1105,
+    "expiredCount": 34,
     "deduplicatedCount": 0,
     "filterMode": "서울 소관기관",
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-315000000106",
+      "sourceId": "315000000106",
+      "title": "강서구 국가보훈대상 보훈예우수당 지급",
+      "field": "생활안정",
+      "provider": "서울특별시 강서구",
+      "providerType": "자치구",
+      "district": "강서구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 보훈예우수당 : 국가유공자법에 따라 등록된 유공자 본인 및 선순위 유족\n - 본인 및 유족 : 순국선열, 애국지사, 전몰순직군경, 전(공)상군경, 무공수훈자, 6·25참전 재일학도의용군인, 4·19혁명부상자(공로자), 5·18민주화운동부상·희생자(행방불명자), 특…",
+      "summary": "서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 국가보훈대상자에게 보훈예우수당 월 7만원 지급",
+      "supportType": "현금",
+      "supportSummary": "○ 보훈예우수당\n - 목적 : 국가유공자(유족)의 복지향상 및 자긍심 고취\n - 지급대상 : 강서구에 주민등록을 두고 거주하고 있는 국가보훈대상자 또는 선순위 유족\n - 신청 및 지급방법 : 주소지 관할 동주민센터 신청 및 본인계좌 입금\n - 지급액 : 월 7만원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000106",
+      "onlineUrl": "",
+      "inquiry": [
+        "복지정책과/02-2600-6631"
+      ],
+      "updatedAt": "2026-08-27",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-304000000237",
+      "sourceId": "304000000237",
+      "title": "부동산 개별공시지가 문자발송 서비스",
+      "field": "주거·자립",
+      "provider": "서울특별시 광진구",
+      "providerType": "자치구",
+      "district": "광진구",
+      "userType": "개인",
+      "deadlineText": "공시일 4.30(1.1기준 개별공시지가)  10.31(7.1 기준 개별공시지가)",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "광진구 소재 토지소유자",
+      "summary": "서울특별시 광진구에서 제공하는 주거·자립 혜택입니다. 개별공시지가의 결정가격을 매년 공시일에 맞춰 모바일 문자로 발송",
+      "supportType": "기타",
+      "supportSummary": "광진구는 효율적인 재산관리에 도움을 주고자 토지(땅) 가치의 기준이되는 개별공시지가의 결정가격을\n매년 공시일에 맞춰 모바일 문자로 발송해 드립니다.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000237",
+      "onlineUrl": "",
+      "inquiry": [
+        "광진구 부동산정보과/02-450-7768"
+      ],
+      "updatedAt": "2026-08-27",
+      "registeredAt": "2026-08-06"
+    },
+    {
+      "id": "gov-benefit-304000000245",
+      "sourceId": "304000000245",
+      "title": "(광진구) 공중선 정비 서비스",
+      "field": "행정·안전",
+      "provider": "서울특별시 광진구",
+      "providerType": "자치구",
+      "district": "광진구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "공중선이 심하게 늘어져있는 경우\n공중선이 끊어졌거나 방치된 경우\n공중선이 오래되어 위험해 보이는 경우\n공중선이 뒤엉켜 보행에 불편을 주거나 도시 미관을 해치는 경우",
+      "summary": "서울특별시 광진구에서 제공하는 행정·안전 혜택입니다. 관내 공중선(통신선) 정비를 통해 구민 생활 안전 제고",
+      "supportType": "기타",
+      "supportSummary": "관내 복잡하게 얽혀있거나 늘어져 있는 공중선(통신선)을 정리, 정비해 주는 서비스로\n정비요청 위치와 불편내용을 신고",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000245",
+      "onlineUrl": "https://www.gwangjin.go.kr/portal/bbs/B0000373/main.do?menuNo=201827",
+      "inquiry": [
+        "광진구청 가로경관과/1588-2498"
+      ],
+      "updatedAt": "2026-08-27",
+      "registeredAt": "2026-08-26"
+    },
+    {
+      "id": "gov-benefit-304000000246",
+      "sourceId": "304000000246",
+      "title": "(광진구) 민원취약계층 정보공개신청서 작성 구술대필 서비스",
+      "field": "행정·안전",
+      "provider": "서울특별시 광진구",
+      "providerType": "자치구",
+      "district": "광진구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "문서작성에 어려움이 있는 민원취약계층: 75세 이상 고령자, 장애인",
+      "summary": "서울특별시 광진구에서 제공하는 행정·안전 혜택입니다. 민원취약계층 보호",
+      "supportType": "기타",
+      "supportSummary": "신청서 작성에 어려움이 있는 민원취약계층(75세이상 고령자, 장애인)\n정보공개신청을 원할 경우, 담당 공무원이 민원인의 말을 듣고 신청서 등 내용을 대신 작성하고\n민원인에게 서명을 받아 정보공개 접수 신청",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000246",
+      "onlineUrl": "",
+      "inquiry": [
+        "광진구청 민원여권과/02-450-7173"
+      ],
+      "updatedAt": "2026-08-27",
+      "registeredAt": "2026-08-26"
+    },
+    {
+      "id": "gov-benefit-304000000244",
+      "sourceId": "304000000244",
+      "title": "(광진구) 사회적 약자를 위한 여권민원 원스톱 서비스",
+      "field": "행정·안전",
+      "provider": "서울특별시 광진구",
+      "providerType": "자치구",
+      "district": "광진구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "영·유아(6세이하), 어르신(75세이상), 거동불편 장애인",
+      "summary": "서울특별시 광진구에서 제공하는 행정·안전 혜택입니다. 영유아, 어르신, 거동불편 장애인 등 민원취약계층 우선 배려",
+      "supportType": "기타(상담)",
+      "supportSummary": "내용:  영유아, 어르신, 거동불편 장애인 등 민원취약계층이의\n          여권발급 신청, 분실·습득신고 증명서 발급 등 우선 처리\n방법:  예약방문 시 통합민원실 여권접수 전담창구 우선접수\n          최소 방문 4일전 인터넷 또는 전화 예약 ☎ 02)4…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000244",
+      "onlineUrl": "",
+      "inquiry": [
+        "광진구청 민원여권과/02-450-1352"
+      ],
+      "updatedAt": "2026-08-27",
+      "registeredAt": "2026-08-26"
+    },
     {
       "id": "gov-benefit-304000000243",
       "sourceId": "304000000243",
@@ -39,6 +185,7 @@
       "supportSummary": "o 월2회 사전예약한 민원인에 한해 신원이 노출되지 않는 공간에서 상담 진행\n   - 매월 둘째.넷째주 수요일(15:00~17:00)\n\no 필요시 감독법원(서울동부지방법원) 협의 검토후 상담",
       "receptionAgency": "접수기관 정보 없음",
       "applicationMethodTypes": [
+        "정부24온라인신청",
         "방문신청",
         "직접입력"
       ],
@@ -47,8 +194,151 @@
       "inquiry": [
         "광진구 민원여권과/02-450-7186"
       ],
-      "updatedAt": "2026-08-26",
+      "updatedAt": "2026-08-27",
       "registeredAt": "2026-08-12"
+    },
+    {
+      "id": "gov-benefit-304000000235",
+      "sourceId": "304000000235",
+      "title": "민원약자를 위한 원스톱 밀착 동행서비스",
+      "field": "행정·안전",
+      "provider": "서울특별시 광진구",
+      "providerType": "자치구",
+      "district": "광진구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "통합민원실 방문 민원약자(고령자, 장애인, 임산부, 아동 등)",
+      "summary": "서울특별시 광진구에서 제공하는 행정·안전 혜택입니다. 민원처리에 어려음을 겪는 민원취약계층(어르신, 외국인, 장애인 등) 대상으로 민원 전 과정을 맞춤형을 지원하여 행정접근성 향상으로 구민만족도 기여",
+      "supportType": "기타||기타(상담)",
+      "supportSummary": "민원약자가 통합민원실에 방문 시 전담 도우미가 민원 접수부터 완료까지 전 과정을 1:1로 동행하면서 지원하는 밀착형 원스톱 서비스 제공",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000235",
+      "onlineUrl": "",
+      "inquiry": [
+        "광진구청 민원여권과/02-450-7173"
+      ],
+      "updatedAt": "2026-08-27",
+      "registeredAt": "2026-07-16"
+    },
+    {
+      "id": "gov-benefit-313000000126",
+      "sourceId": "313000000126",
+      "title": "서울시 전세보증금 반환보증 보증료 지원",
+      "field": "주거·자립",
+      "provider": "서울특별시 마포구",
+      "providerType": "자치구",
+      "district": "마포구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "전연령",
+      "summary": "서울특별시 마포구에서 제공하는 주거·자립 혜택입니다. 저소득층의 전세사기 피해 예방 및 안정된 주거환경 조성",
+      "supportType": "현금",
+      "supportSummary": "(청년) 연소득 5천만원 이하\n(청년외)연소득 6천만원 이하\n(신혼부부)7천5백만원 이하\n(주택조건)임차보증금 3억원 이내\n소득기준을 가진 전연령 서울시 거주 무주택 임차인 중 보증기관 가입한 자\n납부보증료 최대 40만원 지원 서비스(단, 청년외는 보증료의 90%)…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000126",
+      "onlineUrl": "",
+      "inquiry": [
+        "마포구 부동산정보과/02-3153-9331",
+        "마포구 부동산정보과/02-3153-9304"
+      ],
+      "updatedAt": "2026-08-27",
+      "registeredAt": "2024-08-05"
+    },
+    {
+      "id": "gov-benefit-611000000128",
+      "sourceId": "611000000128",
+      "title": "서울형 기초보장제도 생계급여 등 지원",
+      "field": "생활안정",
+      "provider": "서울특별시",
+      "providerType": "서울시",
+      "district": "서울특별시",
+      "userType": "가구",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 지원대상 : 국민기초생활보장법 상 생계·의료·주거급여 수급자에 해당하지 않고,  서울시민 중 소득·재산 기준을 동시에 충족하는 자\n - 소득기준 : 소득평가액 기준중위소득48% 이하\n - 재산기준 : 155백만원 이하(주거용재산 포함시 254백만원 이하) / 금융…",
+      "summary": "서울특별시에서 제공하는 생활안정 혜택입니다. ○ 생활수준은 어려우나 국민기초생활보장제도 법정요건이 맞지 않아 정부의 보호를 받지 못하고 있는 비수급 빈곤층을 지원",
+      "supportType": "현금",
+      "supportSummary": "○ 지원대상 : 생활은 어려우나 국민기초생활보장제도의 보호를 받지 못하는 비수급 빈곤층\n\n○ 지원내용 : 생계급여(매월 25일, 현금 지원) 및 해산·장제급여 지원\n - (생계급여) 가구별 소득에 따라 차등지원 (정부의 국민기초생활보장제도 생계급여액의 1/2수준)…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000128",
+      "onlineUrl": "",
+      "inquiry": [
+        "관할 주민센터/02-120"
+      ],
+      "updatedAt": "2026-08-27",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-301000000142",
+      "sourceId": "301000000142",
+      "title": "(서울 중구) 난임부부 시술 약제비 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 중구",
+      "providerType": "자치구",
+      "district": "중구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "난임부부 시술비 지원사업 대상자 중 해당지원회차의 정부지원금 잔액이 남은 자 (중구민만 가능)",
+      "summary": "서울특별시 중구에서 제공하는 보건·의료 혜택입니다. 난임부부에게 체외수정(신선배아, 동결배아), 인공수정 등 건강보험 본인부담 및 비급여 일부를 지원하여\n경제적 부담을 경감시킴으로써 난임부부가 희망하는 자녀를 갖도록 지원",
+      "supportType": "현금",
+      "supportSummary": "○ 난임부부 시술비 중 약제비 일부 지원\nㅁ 지원내용\n시술과 직접적 관련 있는 원외약처방을 받은 경우 시술확인서, 처방전, 약제비 영수증 등 제출시\n일부 본인부담금, 비급여(전액본인부담금 포함) 약제비에 대하여 난임 시술비 지원 금액 한도 내에서 지급 가능\n＃ 지원금…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/301000000142",
+      "onlineUrl": "",
+      "inquiry": [
+        "중구보건소/02-3396-6357"
+      ],
+      "updatedAt": "2026-08-27",
+      "registeredAt": "2025-01-23"
+    },
+    {
+      "id": "gov-benefit-301000000134",
+      "sourceId": "301000000134",
+      "title": "저소득 국가보훈대상자 월동대책비 지원",
+      "field": "생활안정",
+      "provider": "서울특별시 중구",
+      "providerType": "자치구",
+      "district": "중구",
+      "userType": "개인",
+      "deadlineText": "개인 신청절차 없음",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 중구 국가보훈대상자 중 기초수급자 및 차상위계층 등",
+      "summary": "서울특별시 중구에서 제공하는 생활안정 혜택입니다. ○ 저소득 국가보훈대상자의 동절기 생활 안정과 복지증진을 위하여 월동대책비 지원",
+      "supportType": "현금",
+      "supportSummary": "○ 중구에 거주하는 저소득 국가보훈대상자에게 월동대책비 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "신청불필요"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/301000000134",
+      "onlineUrl": "",
+      "inquiry": [
+        "복지정책과/02-3396-5305"
+      ],
+      "updatedAt": "2026-08-27",
+      "registeredAt": "2021-09-23"
     },
     {
       "id": "gov-benefit-313000000127",
@@ -393,35 +683,6 @@
       ],
       "updatedAt": "2026-08-18",
       "registeredAt": "2025-07-11"
-    },
-    {
-      "id": "gov-benefit-313000000126",
-      "sourceId": "313000000126",
-      "title": "서울시 전세보증금 반환보증 보증료 지원",
-      "field": "주거·자립",
-      "provider": "서울특별시 마포구",
-      "providerType": "자치구",
-      "district": "마포구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "전연령",
-      "summary": "서울특별시 마포구에서 제공하는 주거·자립 혜택입니다. 저소득층의 전세사기 피해 예방 및 안정된 주거환경 조성",
-      "supportType": "현금",
-      "supportSummary": "(청년) 연소득 5천만원 이하\n(청년외)연소득 6천만원 이하\n(신혼부부)7천5백만원 이하\n(주택조건)임차보증금 3억원 이내\n소득기준을 가진 전연령 서울시 거주 무주택 임차인 중 보증기관 가입한 자\n납부보증료 최대 40만원 지원 서비스(단, 청년외는 보증료의 90%)…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000126",
-      "onlineUrl": "",
-      "inquiry": [
-        "마포구 부동산정보과/02-3153-9331",
-        "마포구 부동산정보과/02-3153-9304"
-      ],
-      "updatedAt": "2026-08-18",
-      "registeredAt": "2024-08-05"
     },
     {
       "id": "gov-benefit-318000000431",
@@ -2941,35 +3202,6 @@
       "registeredAt": "2022-07-15"
     },
     {
-      "id": "gov-benefit-301000000142",
-      "sourceId": "301000000142",
-      "title": "(서울 중구) 난임부부 시술 약제비 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 중구",
-      "providerType": "자치구",
-      "district": "중구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "난임부부 시술비 지원사업 대상자 중 해당지원회차의 정부지원금 잔액이 남은 자 (중구민만 가능)",
-      "summary": "서울특별시 중구에서 제공하는 보건·의료 혜택입니다. 난임부부에게 체외수정(신선배아, 동결배아), 인공수정 등 건강보험 본인부담 및 비급여 일부를 지원하여\n경제적 부담을 경감시킴으로써 난임부부가 희망하는 자녀를 갖도록 지원",
-      "supportType": "현금",
-      "supportSummary": "○ 난임부부 시술비 중 약제비 일부 지원\nㅁ 지원내용\n시술과 직접적 관련 있는 원외약처방을 받은 경우 시술확인서, 처방전, 약제비 영수증 등 제출시\n일부 본인부담금, 비급여(전액본인부담금 포함) 약제비에 대하여 난임 시술비 지원 금액 한도 내에서 지급 가능\n＃ 지원금…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/301000000142",
-      "onlineUrl": "",
-      "inquiry": [
-        "중구보건소/02-3396-6357"
-      ],
-      "updatedAt": "2026-08-14",
-      "registeredAt": "2025-01-23"
-    },
-    {
       "id": "gov-benefit-301000000111",
       "sourceId": "301000000111",
       "title": "장애인 휠체어 수리비용 지원",
@@ -3391,34 +3623,6 @@
       "onlineUrl": "",
       "inquiry": [
         "생활보장과/02-3396-5355"
-      ],
-      "updatedAt": "2026-08-14",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-301000000134",
-      "sourceId": "301000000134",
-      "title": "저소득 국가보훈대상자 월동대책비 지원",
-      "field": "생활안정",
-      "provider": "서울특별시 중구",
-      "providerType": "자치구",
-      "district": "중구",
-      "userType": "개인",
-      "deadlineText": "개인 신청절차 없음",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 중구 국가보훈대상자 중 기초수급자 및 차상위계층",
-      "summary": "서울특별시 중구에서 제공하는 생활안정 혜택입니다. 저소득 국가보훈대상자에게 월동대책비 지원",
-      "supportType": "현금",
-      "supportSummary": "○ 중구에 거주하는 저소득 국가보훈대상자에게 월동대책비 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "신청불필요"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/301000000134",
-      "onlineUrl": "",
-      "inquiry": [
-        "복지정책과/02-3396-5305"
       ],
       "updatedAt": "2026-08-14",
       "registeredAt": "2021-09-23"
@@ -19103,35 +19307,6 @@
       "registeredAt": "2021-10-27"
     },
     {
-      "id": "gov-benefit-304000000235",
-      "sourceId": "304000000235",
-      "title": "민원약자를 위한 원스톱 밀착 동행서비스",
-      "field": "행정·안전",
-      "provider": "서울특별시 광진구",
-      "providerType": "자치구",
-      "district": "광진구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "통합민원실 방문 민원약자(고령자, 장애인, 임산부, 아동 등)",
-      "summary": "서울특별시 광진구에서 제공하는 행정·안전 혜택입니다. 민원처리에 어려음을 겪는 민원취약계층(어르신, 외국인, 장애인 등) 대상으로 민원 전 과정을 맞춤형을 지원하여 행정접근성 향상으로 구민만족도 기여",
-      "supportType": "기타||기타(상담)",
-      "supportSummary": "민원약자가 통합민원실에 방문 시 전담 도우미가 민원 접수부터 완료까지 전 과정을 1:1로 동행하면서 지원하는 밀착형 원스톱 서비스 제공",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000235",
-      "onlineUrl": "",
-      "inquiry": [
-        "광진구청 민원여권과/02-450-7173"
-      ],
-      "updatedAt": "2026-08-04",
-      "registeredAt": "2026-07-16"
-    },
-    {
       "id": "gov-benefit-304000000140",
       "sourceId": "304000000140",
       "title": "안전카시트 대여",
@@ -22776,34 +22951,6 @@
       "onlineUrl": "",
       "inquiry": [
         "생활보장과/02-2600-6356"
-      ],
-      "updatedAt": "2026-07-30",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-315000000106",
-      "sourceId": "315000000106",
-      "title": "강서구 국가보훈대상 보훈예우수당 지급",
-      "field": "생활안정",
-      "provider": "서울특별시 강서구",
-      "providerType": "자치구",
-      "district": "강서구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 보훈예우수당 : 국가유공자법에 따라 등록된 유공자 본인 및 선순위 유족\n - 본인 및 유족 : 순국선열, 애국지사, 전몰순직군경, 전(공)상군경, 무공수훈자, 6·25참전 재일학도의용군인, 4·19혁명부상자(공로자), 5·18민주화운동부상·희생자(행방불명자), 특…",
-      "summary": "서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 국가보훈대상자에게 보훈예우수당 월 7만원 지급",
-      "supportType": "현금",
-      "supportSummary": "○ 보훈예우수당\n - 목적 : 국가유공자(유족)의 복지향상 및 자긍심 고취\n - 지급대상 : 강서구에 주민등록을 두고 거주하고 있는 국가보훈대상자 또는 선순위 유족\n - 신청 및 지급방법 : 주소지 관할 동주민센터 신청 및 본인계좌 입금\n - 지급액 : 월 7만원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000106",
-      "onlineUrl": "",
-      "inquiry": [
-        "복지정책과/02-2600-6631"
       ],
       "updatedAt": "2026-07-30",
       "registeredAt": "2021-09-23"
@@ -29709,34 +29856,6 @@
       "onlineUrl": "",
       "inquiry": [
         "보육지원과/02-3423-5856"
-      ],
-      "updatedAt": "2026-04-27",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-611000000128",
-      "sourceId": "611000000128",
-      "title": "서울형 기초보장제도 생계급여 등 지원",
-      "field": "생활안정",
-      "provider": "서울특별시",
-      "providerType": "서울시",
-      "district": "서울특별시",
-      "userType": "가구",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 지원대상 : 국민기초생활보장법 상 생계·의료·주거급여 수급자에 해당하지 않고,  서울시민 중 소득·재산 기준을 동시에 충족하는 자\n - 소득기준 : 소득평가액 기준중위소득48% 이하\n - 재산기준 : 155백만원 이하(주거용재산 포함시 254백만원 이하) / 금융…",
-      "summary": "서울특별시에서 제공하는 생활안정 혜택입니다. ○ 생활수준은 어려우나 국민기초생활보장제도 법정요건이 맞지 않아 정부의 보호를 받지 못하고 있는 비수급 빈곤층을 지원",
-      "supportType": "현금",
-      "supportSummary": "○ 지원대상 : 생활은 어려우나 국민기초생활보장제도의 보호를 받지 못하는 비수급 빈곤층\n\n○ 지원내용 : 생계급여(매월 25일, 현금 지원) 및 해산·장제급여 지원\n - (생계급여) 가구별 소득에 따라 차등지원 (정부의 국민기초생활보장제도 생계급여액의 1/2수준)…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000128",
-      "onlineUrl": "",
-      "inquiry": [
-        "관할 주민센터/02-120"
       ],
       "updatedAt": "2026-04-27",
       "registeredAt": "2021-09-23"
