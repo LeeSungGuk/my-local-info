@@ -4,7 +4,7 @@
   "title": "[성동문화재단] 2026 성동구 구립도서관 북 페스티벌",
   "category": "축제-문화/예술",
   "district": "성동구",
-  "venue": "소월아트홀 앞 광장, 행당어린이꿈공원",
+  "venue": "소월아트홀 앞 광장, 행당어린이꿈공원, 성동구립도서관 앞",
   "startDate": "2026-09-19",
   "endDate": "2026-09-19",
   "dateText": "2026-09-19~2026-09-19",
@@ -13,11 +13,11 @@
   "fee": "무료",
   "isFree": true,
   "organizer": "성동문화재단",
-  "inquiry": "02-2204-6424",
+  "inquiry": "02-2204-6424, 6434, 6446",
   "imageUrl": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=62eb2514a2e9468e97a8f0f2679588c2&thumb=Y",
   "detailUrl": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159167&menuNo=200010",
-  "summary": "성동구 · 소월아트홀 앞 광장, 행당어린이꿈공원에서 열리는 축제-문화/예술 행사입니다. 무료로 참여할 수 있는 행사입니다.",
-  "organizerUrl": "https://www.sdlib.or.kr/main/index.do",
+  "summary": "성동구 · 소월아트홀 앞 광장, 행당어린이꿈공원, 성동구립도서관 앞에서 열리는 축제-문화/예술 행사입니다. 무료로 참여할 수 있는 행사입니다.",
+  "organizerUrl": "https://www.sdlib.or.kr/SD/contents.do?proc_type=view&a_num=25663758&b_num=86376673",
   "ticketType": "기관",
   "description": "",
   "performer": "",
@@ -25,5 +25,5 @@
   "latitude": 37.5593072327953,
   "longitude": 127.036006376334,
   "registeredAt": "2026-08-24",
-  "collectedAt": "2026-08-28T06:14:56.435Z"
+  "collectedAt": "2026-08-29T03:49:07.874Z"
 }
