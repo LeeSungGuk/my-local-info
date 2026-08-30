@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-08-29T12:49:35+09:00",
+  "lastGeneratedAt": "2026-08-30T09:36:01+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -2825,9 +2825,9 @@
         "이색카페"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-08-24T07:50:10+09:00",
-      "usedAt": null
+      "usedAt": "2026-08-30T09:36:01+09:00"
     },
     {
       "id": "seoul-barefoot-earthing-trails",
