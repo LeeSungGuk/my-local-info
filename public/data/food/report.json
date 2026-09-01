@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-31T23:32:32.406Z",
+  "generatedAt": "2026-09-01T01:22:29.665Z",
   "source": {
     "provider": "서울 열린데이터광장",
     "dataset": "서울시 일반음식점 인허가 정보",
     "service": "LOCALDATA_072404",
     "officialUrl": "https://data.seoul.go.kr/dataList/OA-16094/S/1/datasetView.do",
-    "availableCount": 535768,
-    "fetchedCount": 535768,
-    "activeCount": 120470,
+    "availableCount": 536939,
+    "fetchedCount": 536939,
+    "activeCount": 120380,
     "selectedCount": 300,
     "sampleMode": false,
     "pageSize": 1000,
@@ -18,9 +18,9 @@
   },
   "changes": {
     "previousSelectedCount": 300,
-    "addedCount": 282,
-    "removedCount": 282,
-    "unchangedCount": 18
+    "addedCount": 276,
+    "removedCount": 276,
+    "unchangedCount": 24
   },
   "quality": {
     "averageScore": 69,
@@ -35,49 +35,49 @@
     {
       "name": "종로구",
       "selectedCount": 12,
-      "areaCount": 11,
+      "areaCount": 7,
       "categoryCount": 5,
       "topAreas": [
         {
-          "name": "관철동",
+          "name": "명륜4가",
+          "count": 3
+        },
+        {
+          "name": "숭인동",
+          "count": 3
+        },
+        {
+          "name": "낙원동",
           "count": 2
         },
         {
-          "name": "공평동",
+          "name": "명륜3가",
           "count": 1
         },
         {
-          "name": "동숭동",
-          "count": 1
-        },
-        {
-          "name": "묘동",
-          "count": 1
-        },
-        {
-          "name": "사직동",
+          "name": "신문로2가",
           "count": 1
         }
       ],
       "topCategories": [
         {
+          "name": "경양식",
+          "count": 4
+        },
+        {
           "name": "한식",
           "count": 4
         },
         {
-          "name": "경양식",
-          "count": 3
+          "name": "중국식",
+          "count": 2
         },
         {
           "name": "분식",
-          "count": 2
+          "count": 1
         },
         {
           "name": "일식",
-          "count": 2
-        },
-        {
-          "name": "중국식",
           "count": 1
         }
       ],
@@ -90,19 +90,11 @@
     {
       "name": "중구",
       "selectedCount": 12,
-      "areaCount": 9,
-      "categoryCount": 4,
+      "areaCount": 11,
+      "categoryCount": 6,
       "topAreas": [
         {
-          "name": "만리동1가",
-          "count": 2
-        },
-        {
           "name": "을지로2가",
-          "count": 2
-        },
-        {
-          "name": "을지로6가",
           "count": 2
         },
         {
@@ -110,25 +102,37 @@
           "count": 1
         },
         {
-          "name": "신당동",
+          "name": "남대문로3가",
+          "count": 1
+        },
+        {
+          "name": "남대문로5가",
+          "count": 1
+        },
+        {
+          "name": "북창동",
           "count": 1
         }
       ],
       "topCategories": [
-        {
-          "name": "일식",
-          "count": 4
-        },
         {
           "name": "한식",
           "count": 4
         },
         {
           "name": "경양식",
-          "count": 3
+          "count": 2
         },
         {
           "name": "분식",
+          "count": 2
+        },
+        {
+          "name": "중국식",
+          "count": 2
+        },
+        {
+          "name": "식육(숯불구이)",
           "count": 1
         }
       ],
@@ -142,32 +146,32 @@
       "name": "용산구",
       "selectedCount": 12,
       "areaCount": 8,
-      "categoryCount": 4,
+      "categoryCount": 5,
       "topAreas": [
+        {
+          "name": "한남동",
+          "count": 3
+        },
         {
           "name": "이태원동",
           "count": 2
         },
         {
-          "name": "한강로1가",
+          "name": "한강로3가",
           "count": 2
         },
         {
-          "name": "한강로2가",
-          "count": 2
+          "name": "남영동",
+          "count": 1
         },
         {
-          "name": "한남동",
-          "count": 2
-        },
-        {
-          "name": "서계동",
+          "name": "용문동",
           "count": 1
         }
       ],
       "topCategories": [
         {
-          "name": "경양식",
+          "name": "일식",
           "count": 4
         },
         {
@@ -175,12 +179,16 @@
           "count": 4
         },
         {
-          "name": "일식",
+          "name": "경양식",
           "count": 2
         },
         {
+          "name": "분식",
+          "count": 1
+        },
+        {
           "name": "중국식",
-          "count": 2
+          "count": 1
         }
       ],
       "quality": {
@@ -192,49 +200,45 @@
     {
       "name": "성동구",
       "selectedCount": 12,
-      "areaCount": 7,
-      "categoryCount": 5,
+      "areaCount": 8,
+      "categoryCount": 4,
       "topAreas": [
         {
           "name": "성수동1가",
           "count": 3
         },
         {
-          "name": "성수동2가",
-          "count": 3
-        },
-        {
-          "name": "행당동",
+          "name": "사근동",
           "count": 2
         },
         {
-          "name": "옥수동",
+          "name": "성수동2가",
+          "count": 2
+        },
+        {
+          "name": "금호동3가",
           "count": 1
         },
         {
-          "name": "용답동",
+          "name": "금호동4가",
           "count": 1
         }
       ],
       "topCategories": [
         {
+          "name": "경양식",
+          "count": 4
+        },
+        {
           "name": "한식",
           "count": 4
         },
         {
-          "name": "경양식",
-          "count": 3
-        },
-        {
-          "name": "분식",
-          "count": 3
-        },
-        {
-          "name": "냉면집",
-          "count": 1
-        },
-        {
           "name": "일식",
+          "count": 3
+        },
+        {
+          "name": "중국식",
           "count": 1
         }
       ],
@@ -247,15 +251,15 @@
     {
       "name": "광진구",
       "selectedCount": 12,
-      "areaCount": 6,
-      "categoryCount": 5,
+      "areaCount": 5,
+      "categoryCount": 6,
       "topAreas": [
         {
-          "name": "자양동",
+          "name": "군자동",
           "count": 3
         },
         {
-          "name": "중곡동",
+          "name": "자양동",
           "count": 3
         },
         {
@@ -263,11 +267,11 @@
           "count": 3
         },
         {
-          "name": "구의동",
-          "count": 1
+          "name": "중곡동",
+          "count": 2
         },
         {
-          "name": "군자동",
+          "name": "구의동",
           "count": 1
         }
       ],
@@ -277,20 +281,20 @@
           "count": 4
         },
         {
+          "name": "일식",
+          "count": 3
+        },
+        {
           "name": "경양식",
           "count": 2
         },
         {
           "name": "분식",
-          "count": 2
+          "count": 1
         },
         {
-          "name": "일식",
-          "count": 2
-        },
-        {
-          "name": "중국식",
-          "count": 2
+          "name": "식육(숯불구이)",
+          "count": 1
         }
       ],
       "quality": {
@@ -306,45 +310,45 @@
       "categoryCount": 5,
       "topAreas": [
         {
-          "name": "회기동",
+          "name": "이문동",
           "count": 3
         },
         {
-          "name": "용두동",
-          "count": 2
-        },
-        {
-          "name": "청량리동",
-          "count": 2
-        },
-        {
-          "name": "휘경동",
-          "count": 2
-        },
-        {
           "name": "장안동",
+          "count": 3
+        },
+        {
+          "name": "제기동",
+          "count": 2
+        },
+        {
+          "name": "신설동",
+          "count": 1
+        },
+        {
+          "name": "전농동",
           "count": 1
         }
       ],
       "topCategories": [
-        {
-          "name": "경양식",
-          "count": 4
-        },
         {
           "name": "한식",
           "count": 4
         },
         {
           "name": "중국식",
-          "count": 2
+          "count": 3
         },
         {
           "name": "분식",
-          "count": 1
+          "count": 2
         },
         {
-          "name": "식육(숯불구이)",
+          "name": "일식",
+          "count": 2
+        },
+        {
+          "name": "경양식",
           "count": 1
         }
       ],
@@ -357,49 +361,45 @@
     {
       "name": "중랑구",
       "selectedCount": 12,
-      "areaCount": 6,
+      "areaCount": 4,
       "categoryCount": 5,
       "topAreas": [
+        {
+          "name": "망우동",
+          "count": 3
+        },
         {
           "name": "면목동",
           "count": 3
         },
         {
-          "name": "상봉동",
+          "name": "묵동",
           "count": 3
         },
         {
-          "name": "묵동",
-          "count": 2
-        },
-        {
-          "name": "신내동",
-          "count": 2
-        },
-        {
-          "name": "망우동",
-          "count": 1
+          "name": "상봉동",
+          "count": 3
         }
       ],
       "topCategories": [
-        {
-          "name": "식육(숯불구이)",
-          "count": 4
-        },
         {
           "name": "한식",
           "count": 4
         },
         {
-          "name": "냉면집",
+          "name": "일식",
+          "count": 3
+        },
+        {
+          "name": "식육(숯불구이)",
           "count": 2
         },
         {
-          "name": "일식",
-          "count": 1
+          "name": "중국식",
+          "count": 2
         },
         {
-          "name": "중국식",
+          "name": "경양식",
           "count": 1
         }
       ],
@@ -412,27 +412,27 @@
     {
       "name": "성북구",
       "selectedCount": 12,
-      "areaCount": 8,
-      "categoryCount": 6,
+      "areaCount": 10,
+      "categoryCount": 4,
       "topAreas": [
         {
-          "name": "동소문동5가",
-          "count": 3
-        },
-        {
-          "name": "석관동",
+          "name": "삼선동2가",
           "count": 2
         },
         {
-          "name": "종암동",
+          "name": "안암동5가",
           "count": 2
-        },
-        {
-          "name": "길음동",
-          "count": 1
         },
         {
           "name": "동선동1가",
+          "count": 1
+        },
+        {
+          "name": "동선동3가",
+          "count": 1
+        },
+        {
+          "name": "동선동5가",
           "count": 1
         }
       ],
@@ -442,20 +442,16 @@
           "count": 4
         },
         {
-          "name": "경양식",
-          "count": 2
-        },
-        {
           "name": "일식",
-          "count": 2
+          "count": 3
         },
         {
           "name": "중국식",
-          "count": 2
+          "count": 3
         },
         {
-          "name": "냉면집",
-          "count": 1
+          "name": "경양식",
+          "count": 2
         }
       ],
       "quality": {
@@ -468,7 +464,7 @@
       "name": "강북구",
       "selectedCount": 12,
       "areaCount": 4,
-      "categoryCount": 5,
+      "categoryCount": 4,
       "topAreas": [
         {
           "name": "미아동",
@@ -493,20 +489,16 @@
           "count": 4
         },
         {
+          "name": "분식",
+          "count": 3
+        },
+        {
           "name": "일식",
           "count": 3
         },
         {
           "name": "경양식",
           "count": 2
-        },
-        {
-          "name": "중국식",
-          "count": 2
-        },
-        {
-          "name": "분식",
-          "count": 1
         }
       ],
       "quality": {
@@ -540,20 +532,20 @@
       ],
       "topCategories": [
         {
-          "name": "식육(숯불구이)",
-          "count": 4
-        },
-        {
           "name": "한식",
           "count": 4
         },
         {
-          "name": "일식",
-          "count": 2
+          "name": "식육(숯불구이)",
+          "count": 3
         },
         {
           "name": "경양식",
-          "count": 1
+          "count": 2
+        },
+        {
+          "name": "일식",
+          "count": 2
         },
         {
           "name": "분식",
@@ -569,7 +561,7 @@
     {
       "name": "노원구",
       "selectedCount": 12,
-      "areaCount": 5,
+      "areaCount": 4,
       "categoryCount": 5,
       "topAreas": [
         {
@@ -585,12 +577,8 @@
           "count": 3
         },
         {
-          "name": "하계동",
-          "count": 2
-        },
-        {
           "name": "중계동",
-          "count": 1
+          "count": 3
         }
       ],
       "topCategories": [
@@ -599,19 +587,19 @@
           "count": 4
         },
         {
-          "name": "분식",
+          "name": "일식",
+          "count": 3
+        },
+        {
+          "name": "중국식",
           "count": 3
         },
         {
           "name": "경양식",
-          "count": 2
+          "count": 1
         },
         {
-          "name": "일식",
-          "count": 2
-        },
-        {
-          "name": "중국식",
+          "name": "분식",
           "count": 1
         }
       ],
@@ -625,26 +613,26 @@
       "name": "은평구",
       "selectedCount": 12,
       "areaCount": 7,
-      "categoryCount": 4,
+      "categoryCount": 5,
       "topAreas": [
         {
-          "name": "응암동",
+          "name": "갈현동",
           "count": 3
         },
         {
-          "name": "갈현동",
+          "name": "역촌동",
+          "count": 3
+        },
+        {
+          "name": "불광동",
           "count": 2
         },
         {
           "name": "구산동",
-          "count": 2
+          "count": 1
         },
         {
-          "name": "진관동",
-          "count": 2
-        },
-        {
-          "name": "대조동",
+          "name": "녹번동",
           "count": 1
         }
       ],
@@ -654,7 +642,7 @@
           "count": 4
         },
         {
-          "name": "분식",
+          "name": "일식",
           "count": 3
         },
         {
@@ -662,8 +650,12 @@
           "count": 3
         },
         {
-          "name": "일식",
-          "count": 2
+          "name": "경양식",
+          "count": 1
+        },
+        {
+          "name": "분식",
+          "count": 1
         }
       ],
       "quality": {
@@ -675,15 +667,19 @@
     {
       "name": "서대문구",
       "selectedCount": 12,
-      "areaCount": 8,
+      "areaCount": 7,
       "categoryCount": 4,
       "topAreas": [
         {
-          "name": "연희동",
+          "name": "창천동",
           "count": 3
         },
         {
-          "name": "창천동",
+          "name": "북아현동",
+          "count": 2
+        },
+        {
+          "name": "연희동",
           "count": 2
         },
         {
@@ -691,11 +687,7 @@
           "count": 2
         },
         {
-          "name": "대현동",
-          "count": 1
-        },
-        {
-          "name": "북가좌동",
+          "name": "냉천동",
           "count": 1
         }
       ],
@@ -726,27 +718,27 @@
     {
       "name": "마포구",
       "selectedCount": 12,
-      "areaCount": 8,
-      "categoryCount": 4,
+      "areaCount": 7,
+      "categoryCount": 5,
       "topAreas": [
         {
-          "name": "망원동",
+          "name": "서교동",
           "count": 3
         },
         {
           "name": "성산동",
+          "count": 3
+        },
+        {
+          "name": "망원동",
           "count": 2
         },
         {
-          "name": "합정동",
-          "count": 2
-        },
-        {
-          "name": "상암동",
+          "name": "노고산동",
           "count": 1
         },
         {
-          "name": "서교동",
+          "name": "상수동",
           "count": 1
         }
       ],
@@ -760,8 +752,12 @@
           "count": 4
         },
         {
+          "name": "분식",
+          "count": 2
+        },
+        {
           "name": "경양식",
-          "count": 3
+          "count": 1
         },
         {
           "name": "중국식",
@@ -778,7 +774,7 @@
       "name": "양천구",
       "selectedCount": 12,
       "areaCount": 3,
-      "categoryCount": 5,
+      "categoryCount": 4,
       "topAreas": [
         {
           "name": "신월동",
@@ -803,15 +799,11 @@
           "count": 2
         },
         {
-          "name": "경양식",
-          "count": 1
-        },
-        {
           "name": "일식",
-          "count": 1
+          "count": 2
         },
         {
-          "name": "중국식",
+          "name": "식육(숯불구이)",
           "count": 1
         }
       ],
@@ -824,13 +816,9 @@
     {
       "name": "강서구",
       "selectedCount": 12,
-      "areaCount": 5,
-      "categoryCount": 5,
+      "areaCount": 7,
+      "categoryCount": 6,
       "topAreas": [
-        {
-          "name": "등촌동",
-          "count": 3
-        },
         {
           "name": "마곡동",
           "count": 3
@@ -840,8 +828,12 @@
           "count": 3
         },
         {
-          "name": "내발산동",
+          "name": "등촌동",
           "count": 2
+        },
+        {
+          "name": "가양동",
+          "count": 1
         },
         {
           "name": "공항동",
@@ -849,10 +841,6 @@
         }
       ],
       "topCategories": [
-        {
-          "name": "일식",
-          "count": 4
-        },
         {
           "name": "한식",
           "count": 4
@@ -862,11 +850,15 @@
           "count": 2
         },
         {
-          "name": "식육(숯불구이)",
-          "count": 1
+          "name": "일식",
+          "count": 2
         },
         {
           "name": "중국식",
+          "count": 2
+        },
+        {
+          "name": "분식",
           "count": 1
         }
       ],
@@ -880,7 +872,7 @@
       "name": "구로구",
       "selectedCount": 12,
       "areaCount": 4,
-      "categoryCount": 5,
+      "categoryCount": 6,
       "topAreas": [
         {
           "name": "개봉동",
@@ -901,19 +893,19 @@
       ],
       "topCategories": [
         {
-          "name": "중국식",
-          "count": 4
-        },
-        {
           "name": "한식",
           "count": 4
         },
         {
-          "name": "일식",
+          "name": "분식",
+          "count": 3
+        },
+        {
+          "name": "중국식",
           "count": 2
         },
         {
-          "name": "분식",
+          "name": "경양식",
           "count": 1
         },
         {
@@ -956,7 +948,7 @@
           "count": 6
         },
         {
-          "name": "분식",
+          "name": "경양식",
           "count": 2
         },
         {
@@ -964,11 +956,11 @@
           "count": 2
         },
         {
-          "name": "식육(숯불구이)",
+          "name": "분식",
           "count": 1
         },
         {
-          "name": "중국식",
+          "name": "식육(숯불구이)",
           "count": 1
         }
       ],
@@ -982,10 +974,10 @@
       "name": "영등포구",
       "selectedCount": 12,
       "areaCount": 7,
-      "categoryCount": 5,
+      "categoryCount": 4,
       "topAreas": [
         {
-          "name": "문래동3가",
+          "name": "대림동",
           "count": 3
         },
         {
@@ -1007,23 +999,19 @@
       ],
       "topCategories": [
         {
+          "name": "분식",
+          "count": 4
+        },
+        {
           "name": "한식",
           "count": 4
         },
         {
-          "name": "일식",
+          "name": "중국식",
           "count": 3
         },
         {
           "name": "경양식",
-          "count": 2
-        },
-        {
-          "name": "분식",
-          "count": 2
-        },
-        {
-          "name": "식육(숯불구이)",
           "count": 1
         }
       ],
@@ -1036,27 +1024,27 @@
     {
       "name": "동작구",
       "selectedCount": 12,
-      "areaCount": 8,
-      "categoryCount": 5,
+      "areaCount": 6,
+      "categoryCount": 4,
       "topAreas": [
+        {
+          "name": "노량진동",
+          "count": 3
+        },
         {
           "name": "사당동",
           "count": 3
         },
         {
-          "name": "대방동",
-          "count": 2
-        },
-        {
           "name": "상도동",
-          "count": 2
+          "count": 3
         },
         {
-          "name": "노량진동",
+          "name": "대방동",
           "count": 1
         },
         {
-          "name": "상가동",
+          "name": "신대방동",
           "count": 1
         }
       ],
@@ -1066,20 +1054,16 @@
           "count": 4
         },
         {
-          "name": "중국식",
+          "name": "분식",
           "count": 3
         },
         {
-          "name": "분식",
-          "count": 2
-        },
-        {
           "name": "일식",
-          "count": 2
+          "count": 3
         },
         {
-          "name": "냉면집",
-          "count": 1
+          "name": "중국식",
+          "count": 2
         }
       ],
       "quality": {
@@ -1092,33 +1076,29 @@
       "name": "관악구",
       "selectedCount": 12,
       "areaCount": 3,
-      "categoryCount": 4,
+      "categoryCount": 3,
       "topAreas": [
         {
+          "name": "신림동",
+          "count": 5
+        },
+        {
           "name": "봉천동",
-          "count": 6
+          "count": 4
         },
         {
           "name": "남현동",
-          "count": 3
-        },
-        {
-          "name": "신림동",
           "count": 3
         }
       ],
       "topCategories": [
         {
           "name": "한식",
-          "count": 6
+          "count": 7
         },
         {
           "name": "중국식",
-          "count": 3
-        },
-        {
-          "name": "경양식",
-          "count": 2
+          "count": 4
         },
         {
           "name": "일식",
@@ -1134,7 +1114,7 @@
     {
       "name": "서초구",
       "selectedCount": 12,
-      "areaCount": 5,
+      "areaCount": 6,
       "categoryCount": 4,
       "topAreas": [
         {
@@ -1142,7 +1122,7 @@
           "count": 3
         },
         {
-          "name": "방배동",
+          "name": "서초동",
           "count": 3
         },
         {
@@ -1150,17 +1130,17 @@
           "count": 3
         },
         {
-          "name": "서초동",
-          "count": 2
+          "name": "방배동",
+          "count": 1
         },
         {
-          "name": "잠원동",
+          "name": "신원동",
           "count": 1
         }
       ],
       "topCategories": [
         {
-          "name": "경양식",
+          "name": "일식",
           "count": 4
         },
         {
@@ -1168,12 +1148,12 @@
           "count": 4
         },
         {
-          "name": "일식",
-          "count": 3
+          "name": "경양식",
+          "count": 2
         },
         {
-          "name": "냉면집",
-          "count": 1
+          "name": "중국식",
+          "count": 2
         }
       ],
       "quality": {
@@ -1185,15 +1165,11 @@
     {
       "name": "강남구",
       "selectedCount": 12,
-      "areaCount": 6,
-      "categoryCount": 4,
+      "areaCount": 7,
+      "categoryCount": 5,
       "topAreas": [
         {
           "name": "논현동",
-          "count": 3
-        },
-        {
-          "name": "신사동",
           "count": 3
         },
         {
@@ -1201,11 +1177,15 @@
           "count": 3
         },
         {
-          "name": "대치동",
+          "name": "신사동",
+          "count": 2
+        },
+        {
+          "name": "개포동",
           "count": 1
         },
         {
-          "name": "도곡동",
+          "name": "대치동",
           "count": 1
         }
       ],
@@ -1215,7 +1195,7 @@
           "count": 4
         },
         {
-          "name": "경양식",
+          "name": "분식",
           "count": 3
         },
         {
@@ -1223,8 +1203,12 @@
           "count": 3
         },
         {
-          "name": "분식",
-          "count": 2
+          "name": "경양식",
+          "count": 1
+        },
+        {
+          "name": "중국식",
+          "count": 1
         }
       ],
       "quality": {
@@ -1236,11 +1220,11 @@
     {
       "name": "송파구",
       "selectedCount": 12,
-      "areaCount": 6,
+      "areaCount": 7,
       "categoryCount": 4,
       "topAreas": [
         {
-          "name": "가락동",
+          "name": "문정동",
           "count": 3
         },
         {
@@ -1248,15 +1232,15 @@
           "count": 3
         },
         {
+          "name": "가락동",
+          "count": 2
+        },
+        {
+          "name": "석촌동",
+          "count": 1
+        },
+        {
           "name": "송파동",
-          "count": 2
-        },
-        {
-          "name": "잠실동",
-          "count": 2
-        },
-        {
-          "name": "삼전동",
           "count": 1
         }
       ],
@@ -1287,15 +1271,15 @@
     {
       "name": "강동구",
       "selectedCount": 12,
-      "areaCount": 7,
-      "categoryCount": 6,
+      "areaCount": 6,
+      "categoryCount": 5,
       "topAreas": [
         {
-          "name": "성내동",
+          "name": "고덕동",
           "count": 3
         },
         {
-          "name": "천호동",
+          "name": "성내동",
           "count": 3
         },
         {
@@ -1303,11 +1287,11 @@
           "count": 2
         },
         {
-          "name": "강일동",
-          "count": 1
+          "name": "암사동",
+          "count": 2
         },
         {
-          "name": "고덕동",
+          "name": "강일동",
           "count": 1
         }
       ],
@@ -1317,19 +1301,19 @@
           "count": 4
         },
         {
-          "name": "일식",
+          "name": "경양식",
           "count": 3
         },
         {
-          "name": "분식",
-          "count": 2
-        },
-        {
-          "name": "경양식",
-          "count": 1
+          "name": "중국식",
+          "count": 3
         },
         {
           "name": "식육(숯불구이)",
+          "count": 1
+        },
+        {
+          "name": "일식",
           "count": 1
         }
       ],

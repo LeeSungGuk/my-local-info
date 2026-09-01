@@ -17,7 +17,7 @@
   "imageUrl": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=277b43042b614e47a3ef92b634bbc024&thumb=Y",
   "detailUrl": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159158&menuNo=200011",
   "summary": "구로구 · 서울아트책보고 워크숍룸에서 열리는 교육/체험 행사입니다. 무료로 참여할 수 있는 행사입니다.",
-  "organizerUrl": "https://www.artbookbogo.kr/seoul/menu/10024/program/30009/cultureDetail.do?currentPageNo=1&cultureIdx=26475&cultureTypeCdArr=EDUC&searchCultureTypeCd=&searchOperStatusCd=VALID",
+  "organizerUrl": "https://artbookbogo.kr/seoul/menu/10024/program/30009/cultureDetail.do?currentPageNo=1&cultureIdx=26475&searchCultureTypeCd=ALL&searchOperStatusCd=ALL",
   "ticketType": "기관",
   "description": "",
   "performer": "",
@@ -25,5 +25,5 @@
   "latitude": 37.4982125677913,
   "longitude": 126.867088741096,
   "registeredAt": "2026-08-23",
-  "collectedAt": "2026-08-31T00:46:54.361Z"
+  "collectedAt": "2026-09-01T01:21:55.121Z"
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-08-31T09:47:28+09:00",
+  "lastGeneratedAt": "2026-09-01T10:40:47+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -2869,9 +2869,9 @@
         "서울밤산책"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-08-24T07:50:10+09:00",
-      "usedAt": null
+      "usedAt": "2026-09-01T10:40:47+09:00"
     },
     {
       "id": "seoul-architectural-masterpiece-tours",
