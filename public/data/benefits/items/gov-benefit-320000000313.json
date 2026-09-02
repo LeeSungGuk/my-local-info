@@ -1,7 +1,7 @@
 {
   "id": "gov-benefit-320000000313",
   "sourceId": "320000000313",
-  "title": "유기동물 입양비 지원",
+  "title": "관악구 유기동물 입양비 지원",
   "field": "생활안정",
   "provider": "서울특별시 관악구",
   "providerType": "자치구",
@@ -25,10 +25,10 @@
   "inquiry": [
     "일자리벤처과/02-879-6694"
   ],
-  "updatedAt": "2026-08-11",
+  "updatedAt": "2026-09-01",
   "registeredAt": "2026-05-07",
-  "viewCount": 223,
-  "collectedAt": "2026-09-01T01:22:12.969Z",
+  "viewCount": 230,
+  "collectedAt": "2026-09-02T00:26:25.893Z",
   "purpose": "유기동물 입양 후 소요되는 소유자 부담비용 일부를 구청에서 지원",
   "target": "-지원대상: 관악구 지정 유기동물 보호센터에서 유기동물을 반려의 목적으로 입양하여 동물등록(내장형)을 완료한 자",
   "selectionCriteria": "",

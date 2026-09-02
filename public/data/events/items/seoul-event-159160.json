@@ -14,7 +14,7 @@
   "isFree": true,
   "organizer": "마포구청",
   "inquiry": "02-3141-7053",
-  "imageUrl": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bb04851a5af6435fb8978bdcee85777b&thumb=Y",
+  "imageUrl": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6a88154a676442b8949bcd70da8eb050&thumb=Y",
   "detailUrl": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159160&menuNo=200011",
   "summary": "마포구 · 마포구립서강도서관 4층 어린이자료실에서 열리는 교육/체험 행사입니다. 무료로 참여할 수 있는 행사입니다.",
   "organizerUrl": "https://mplib.mapo.go.kr/sglib/MENU1199/PGM3028/eventDetail.do?currentPageNo=1&eventSn=13268",
@@ -25,5 +25,5 @@
   "latitude": 37.5477347268018,
   "longitude": 126.932061794829,
   "registeredAt": "2026-08-23",
-  "collectedAt": "2026-09-01T01:21:55.121Z"
+  "collectedAt": "2026-09-02T00:26:05.844Z"
 }

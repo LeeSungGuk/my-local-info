@@ -10,9 +10,9 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-09-01T01:22:12.969Z",
+    "collectedAt": "2026-09-02T00:26:25.893Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10968,
+    "availableCount": 10967,
     "fetchedCount": 1139,
     "activeCount": 1104,
     "expiredCount": 35,
@@ -21,6 +21,324 @@
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-320000000122",
+      "sourceId": "320000000122",
+      "title": "관악구 장애인 관광활동 이동비용 지원",
+      "field": "문화·환경",
+      "provider": "서울특별시 관악구",
+      "providerType": "자치구",
+      "district": "관악구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "휠체어 이용 장애인 1인 이상 포함한 가족·모임·단체",
+      "summary": "서울특별시 관악구에서 제공하는 문화·환경 혜택입니다. 일반인에 비해 문화관광 향유 기회가 부족한 휠체어 이용 장애인이 편리하게 여행할 수 있도록 관광활동 이동비용을 지원함으로써 \n이동약자의 문화관광 활동 참여 확대 및 광역 이동편의 증진에 기여하고자 함",
+      "supportType": "현금",
+      "supportSummary": "장애인버스 이용비용 지원\n - 지원기간: 연중(예산 소진시까지)\n - 지원대상 :휠체어 이용 장애인 1인 이상 포함한 가족·모임·단체\n - 지원내용 : 서울장애인버스 및 사설 관광버스, 미니밴 등 차량 대절비, 통행료, 주차비 등 이동비용 일체…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000122",
+      "onlineUrl": "",
+      "inquiry": [
+        "관악구 장애인복지과/02-879-6023"
+      ],
+      "updatedAt": "2026-09-01",
+      "registeredAt": "2023-08-28"
+    },
+    {
+      "id": "gov-benefit-320000000315",
+      "sourceId": "320000000315",
+      "title": "100세 어르신 장수축하물품 지급",
+      "field": "보호·돌봄",
+      "provider": "서울특별시 관악구",
+      "providerType": "자치구",
+      "district": "관악구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 사업대상:  관내 1년 이상 주민등록을 두고 거주하는 100세 어르신\n  ○ 지원기준: 생일 기준 주민등록상 관악구에 1년 이상 연속 거주\n  ○ 사업내용: 50만원 이하 물품 지급(1회)\n  ○ 지급물품: 공기청정기, 제습기, 이불세트 중 택 1\n  ○ 지급기준…",
+      "summary": "서울특별시 관악구에서 제공하는 보호·돌봄 혜택입니다. 100세 도래 어르신에 대한 장수축하물품 지급을 통해 장수 어르신의 복지 증진에 기여하고, 지역사회 내 경로효친 사상 고취 및 어르신의 삶의 질을 제고하고자 함",
+      "supportType": "현물",
+      "supportSummary": "○ 사업대상:  관내 1년 이상 주민등록을 두고 거주하는 100세 어르신\n  ○ 지원기준: 생일 기준 주민등록상 관악구에 1년 이상 연속 거주\n  ○ 사업내용: 50만원 이하 물품 지급(1회)\n  ○ 지급물품: 공기청정기, 제습기, 이불세트 중 택 1\n  ○ 지급기준…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000315",
+      "onlineUrl": "",
+      "inquiry": [
+        "어르신복지과/02-879-6156"
+      ],
+      "updatedAt": "2026-09-01",
+      "registeredAt": "2026-05-13"
+    },
+    {
+      "id": "gov-benefit-320000000318",
+      "sourceId": "320000000318",
+      "title": "관악구 국내 입양가정 입양축하금 지원",
+      "field": "보호·돌봄",
+      "provider": "서울특별시 관악구",
+      "providerType": "자치구",
+      "district": "관악구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 「국내입양에 관한 특별법」에 의해 보호대상아동을 신규 입양한 가정",
+      "summary": "서울특별시 관악구에서 제공하는 보호·돌봄 혜택입니다. 보호대상아동이 입양된 후 가정생활에 원만하게 적응할 수 있도록 입양가정을 지원함으로써 국내입양을 활성화하고 입양아동의 권익과 복지를 증진하고자 함.",
+      "supportType": "현금",
+      "supportSummary": "○ 초기 양육비용 부담을 완화하고 안정적인 양육지원을 위해 입양축하금 지원\n- 200만원(1회)",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000318",
+      "onlineUrl": "",
+      "inquiry": [
+        "관악구청(아동청소년과)/02-879-6145"
+      ],
+      "updatedAt": "2026-09-01",
+      "registeredAt": "2026-06-01"
+    },
+    {
+      "id": "gov-benefit-320000000116",
+      "sourceId": "320000000116",
+      "title": "관악구 장애인가정 양육지원금 지급",
+      "field": "보호·돌봄",
+      "provider": "서울특별시 관악구",
+      "providerType": "자치구",
+      "district": "관악구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "여성장애인 또는 남성장애인의 배우자가 2022년 1월 1일 이후 출산한 만 7세 미만의 아동을 양육하면서 신청일 기준 1년 전부터 관악구에 주민등록을 두고 거주하는 자",
+      "summary": "서울특별시 관악구에서 제공하는 보호·돌봄 혜택입니다. 장애인가정 양육지원금 지급",
+      "supportType": "현금",
+      "supportSummary": "○ 장애인가정 양육지원금 지급\n - 지원대상 : 여성장애인 또는 남성장애인의 배우자가 2022년 1월 1일 이후, 출산한 만 7세 미만의 아동을 양육하면서 신청일 기준 1년 전부터 현재까지 관악구에 주민등록을 두고 거주하는 자\n - 지원금액 : 매월 10만원 지급(1…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000116",
+      "onlineUrl": "",
+      "inquiry": [
+        "관악구 장애인복지과/02-879-6021"
+      ],
+      "updatedAt": "2026-09-01",
+      "registeredAt": "2023-08-23"
+    },
+    {
+      "id": "gov-benefit-320000000119",
+      "sourceId": "320000000119",
+      "title": "관악구 국가보훈대상자 보훈수당",
+      "field": "생활안정",
+      "provider": "서울특별시 관악구",
+      "providerType": "자치구",
+      "district": "관악구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 보훈예우수당\n   - 지급대상: 관악구에 거주하는 국가유공자 본인 및 선순위 유족\n   - 지 급 액: 월 8만원\n   - 지급방법: 지급대상자 본인 실명의 계좌입금\n\n○ 배우자복지수당\n   - 지급대상: 관악구에 거주하는 사망한 참전유공자의 배우자\n   - 지…",
+      "summary": "서울특별시 관악구에서 제공하는 생활안정 혜택입니다. 국가유공자 및 선순위유족에게 매월 25일 보훈수당 지급",
+      "supportType": "현금",
+      "supportSummary": "○ 보훈예우수당\n   - 지급대상: 관악구에 거주하는 국가유공자 본인 및 선순위 유족\n   - 지 급 액: 월 8만원\n   - 지급방법: 지급대상자 본인 실명의 계좌입금\n\n○ 배우자복지수당\n   - 지급대상: 관악구에 거주하는 사망한 참전유공자의 배우자 (보훈예우수당…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000119",
+      "onlineUrl": "",
+      "inquiry": [
+        "복지정책과/02-879-5854"
+      ],
+      "updatedAt": "2026-09-01",
+      "registeredAt": "2023-08-23"
+    },
+    {
+      "id": "gov-benefit-320000000313",
+      "sourceId": "320000000313",
+      "title": "관악구 유기동물 입양비 지원",
+      "field": "생활안정",
+      "provider": "서울특별시 관악구",
+      "providerType": "자치구",
+      "district": "관악구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "-지원대상: 관악구 지정 유기동물 보호센터에서 유기동물을 반려의 목적으로 입양하여 동물등록(내장형)을 완료한 자",
+      "summary": "서울특별시 관악구에서 제공하는 생활안정 혜택입니다. 유기동물 입양 후 소요되는 소유자 부담비용 일부를 구청에서 지원",
+      "supportType": "현금",
+      "supportSummary": "-지원비용: 입양동물 1마리당 최대 25만원 이내(자부담 10만원 포함)\n  (2025.12.31.까지 입양: 최대 15만원 지원, 2026.1.1.이후 입양: 최대 25만원 지원)\n\n-지원항목: 질병진단비, 치료비, 예방접종비, 중성화수술비, 내장형 동물등록비, 미…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000313",
+      "onlineUrl": "",
+      "inquiry": [
+        "일자리벤처과/02-879-6694"
+      ],
+      "updatedAt": "2026-09-01",
+      "registeredAt": "2026-05-07"
+    },
+    {
+      "id": "gov-benefit-314000000265",
+      "sourceId": "314000000265",
+      "title": "양천구 공항소음피해지역 주민 상담심리 지원(상담서비스 제공)",
+      "field": "보건·의료",
+      "provider": "서울특별시 양천구",
+      "providerType": "자치구",
+      "district": "양천구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "∘ 양천구 공항소음대책지역(인근지역 포함) 거주 주민(주민등록상 주소 기준)\n    * 제외대상: 본 사업 기수혜자(’23~’26) 및 양천구 타 상담‧심리 프로그램 진행 중인 자\n    * 소음피해지역 확인 : 공항소음대책 종합지원센터 홈페이지 공지사항의 각 동 소…",
+      "summary": "서울특별시 양천구에서 제공하는 보건·의료 혜택입니다. 항공기 소음에 노출되어 스트레스, 우울, 불안 등의 피해를 겪고 있는 주민에게 상담서비스를 제공하여 심리적 안정 및 마음건강 회복 등 삶의 질 향상을 도모",
+      "supportType": "기타(상담)",
+      "supportSummary": "○ 지원내용: 양천구 내에서 김포공항 소음 피해지역에 거주하는 주민이 전문 심리상담을 무료로 받을 수 있도록 상담비용 지원\n  - 전문 상담센터를 통한 상담심리 서비스 제공(인당 8회)\n  - 구와 협약한 관내 전문 상담센터 중 선택하여 상담",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000265",
+      "onlineUrl": "https://www.yangcheon.go.kr/airportnoise/airportnoise/counselingSupport/csPreCheck.do",
+      "inquiry": [
+        "양천구청 환경과/02-2084-5472"
+      ],
+      "updatedAt": "2026-09-01",
+      "registeredAt": "2025-11-05"
+    },
+    {
+      "id": "gov-benefit-314000000118",
+      "sourceId": "314000000118",
+      "title": "저소득 1인가구 안부확인을 위한 건강음료 지원",
+      "field": "보호·돌봄",
+      "provider": "서울특별시 양천구",
+      "providerType": "자치구",
+      "district": "양천구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "저소득 1인가구로서 안부확인이 필요한 대상자 \n※기존 안부확인 관련 서비스(우유배달, 도시락배달, 밑반찬배달, 스마트 안부확인 등)를 받고 있지  않는 경우",
+      "summary": "서울특별시 양천구에서 제공하는 보호·돌봄 혜택입니다. 저소득 1인가구를 대상으로 건강음료를 정기적으로 배달하여 안부를 확인하고, 고독사 예방 및 사회 안전망 강화에 기여하고자 함.",
+      "supportType": "현물",
+      "supportSummary": "○ 사업 대상 : 저소득 1인가구\n○ 사업 기간 : 연중 \n○ 지원 내용 : 안부확인 목적의 음료 배달 서비스(주3회) \n○ 신청 방법 : 동주민센터를 통한 신청(유선 및 방문)",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000118",
+      "onlineUrl": "",
+      "inquiry": [
+        "복지정책과/02-2620-3335"
+      ],
+      "updatedAt": "2026-09-01",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-314000000117",
+      "sourceId": "314000000117",
+      "title": "지역화폐(양천사랑상품권)",
+      "field": "행정·안전",
+      "provider": "서울특별시 양천구",
+      "providerType": "자치구",
+      "district": "양천구",
+      "userType": "개인",
+      "deadlineText": "양천사랑상품권 발행 시(설, 추석 명절 발행)",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 양천사랑상품권 가맹점 및 소비자",
+      "summary": "서울특별시 양천구에서 제공하는 행정·안전 혜택입니다. 양천구 내 서울사랑상품권 가맹점에서 사용 가능한 모바일 양천사랑상품권 발행을 통한 지역 상권 활성화 기여",
+      "supportType": "이용권",
+      "supportSummary": "○ 사업내용\n  - 서울페이+ 앱에서 모바일 상품권 구매\n  - 구매 시 할인 및 페이백 제공 등 할인 혜택 제공\n  - 관내 서울페이 가맹점에서 사용\n  - 1인당 구매한도 및 보유한도: 월 50만 원/150만 원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000117",
+      "onlineUrl": "",
+      "inquiry": [
+        "일자리경제과/0226204825"
+      ],
+      "updatedAt": "2026-09-01",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-306000000243",
+      "sourceId": "306000000243",
+      "title": "유축기 대여 서비스",
+      "field": "임신·출산",
+      "provider": "서울특별시 중랑구",
+      "providerType": "자치구",
+      "district": "중랑구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "중랑구에 주민등록을 둔 출산모",
+      "summary": "서울특별시 중랑구에서 제공하는 임신·출산 혜택입니다. 출산모 유축기 대여 지원을 통한 모유수유 친화적 환경 조성 및 모자 건강증진 도모",
+      "supportType": "현물",
+      "supportSummary": "○ 유축기 대여 서비스\n - 대상 : 중랑구에 주소지를 둔 출산모(분만 후 신청 가능)\n - 방법 : 자녀 출산 후, 중랑구 보건소 홈페이지에 산모이름으로 온라인 신청 및  신청일로부터 5일 이내 방문 수령   \n              *신청 후 5일 이내 미수령…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/306000000243",
+      "onlineUrl": "https://www.jungnang.go.kr/health/bbs/list/B0000412.do?menuNo=400364",
+      "inquiry": [
+        "중랑구 보건소 모자건강센터/02-2094-0176",
+        "중랑구 보건소 모자건강센터/02-2094-0818"
+      ],
+      "updatedAt": "2026-09-01",
+      "registeredAt": "2026-06-19"
+    },
+    {
+      "id": "gov-benefit-306000000239",
+      "sourceId": "306000000239",
+      "title": "출산축하용품 지원",
+      "field": "임신·출산",
+      "provider": "서울특별시 중랑구",
+      "providerType": "자치구",
+      "district": "중랑구",
+      "userType": "가구",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "- 지원대상 :  2026년 1월 1일 이후 출생한 우리구 모든 출생아\n  - 지원자격 : 중랑구 거주 12개월 이상, 출생일로부터 6개월 이내 신청\n  ㆍ거주 기간 미충족 시 중랑구 거주 12개월이 되는 날부터 지원 대상, 충족일부터 6개월 이내 신청",
+      "summary": "서울특별시 중랑구에서 제공하는 임신·출산 혜택입니다. 초기 육아용품 지원을 통해 출산가정의 양육 부담 완화와 안정적인 양육환경 조성 유도\n출산 가정에 구민 전용 출산․육아용품 온라인몰 포인트를 지급하여 \n필요한 물품을 직접 선택하는 이용자 맞춤형 서비스 제공",
+      "supportType": "현물",
+      "supportSummary": "○ 2026년 1월 1일 이후 출산한 출산 가정에 출산.육아용품 전용 온라인몰 포인트 10만원 지급",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/306000000239",
+      "onlineUrl": "https://www.jungnang.go.kr/portal/main/contents.do?menuNo=201500",
+      "inquiry": [
+        "보육지원과/02-2094-1792"
+      ],
+      "updatedAt": "2026-09-01",
+      "registeredAt": "2026-05-20"
+    },
     {
       "id": "gov-benefit-315000000106",
       "sourceId": "315000000106",
@@ -131,34 +449,6 @@
       "onlineUrl": "",
       "inquiry": [
         "통합돌봄과/02-2620-4653"
-      ],
-      "updatedAt": "2026-08-31",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-314000000117",
-      "sourceId": "314000000117",
-      "title": "지역화폐(양천사랑상품권)",
-      "field": "행정·안전",
-      "provider": "서울특별시 양천구",
-      "providerType": "자치구",
-      "district": "양천구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 상품권 구매 구민",
-      "summary": "서울특별시 양천구에서 제공하는 행정·안전 혜택입니다. 양천사랑상품권 구매자에게 할인 혜택 지원",
-      "supportType": "이용권",
-      "supportSummary": "○ 상품권 구매시 할인율 적용 혜택",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000117",
-      "onlineUrl": "",
-      "inquiry": [
-        "일자리경제과/0226204825"
       ],
       "updatedAt": "2026-08-31",
       "registeredAt": "2021-09-23"
@@ -768,35 +1058,6 @@
       ],
       "updatedAt": "2026-08-19",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-306000000243",
-      "sourceId": "306000000243",
-      "title": "유축기 대여 서비스",
-      "field": "임신·출산",
-      "provider": "서울특별시 중랑구",
-      "providerType": "자치구",
-      "district": "중랑구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "중랑구에 주민등록을 둔 출산모",
-      "summary": "서울특별시 중랑구에서 제공하는 임신·출산 혜택입니다. 출산모 유축기 대여 지원을 통한 모유수유 친화적 환경 조성 및 모자 건강증진 도모",
-      "supportType": "현물",
-      "supportSummary": "○ 유축기 대여 서비스\n - 대상 : 중랑구에 주소지를 둔 출산모(분만 후 신청 가능)\n - 방법 : 자녀 출산 후, 중랑구 보건소 홈페이지에 산모이름으로 온라인 신청 및  신청일로부터 5일 이내 방문 수령   \n              *신청 후 5일 이내 미수령…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/306000000243",
-      "onlineUrl": "https://www.jungnang.go.kr/health/bbs/list/B0000412.do?menuNo=400364",
-      "inquiry": [
-        "중랑구 보건소 모자건강센터/02-2094-0176",
-        "중랑구 보건소 모자건강센터/02-2094-0818"
-      ],
-      "updatedAt": "2026-08-19",
-      "registeredAt": "2026-06-19"
     },
     {
       "id": "gov-benefit-313000000155",
@@ -8391,35 +8652,6 @@
       "registeredAt": "2025-12-03"
     },
     {
-      "id": "gov-benefit-320000000318",
-      "sourceId": "320000000318",
-      "title": "국내 입양가정 입양축하금 지원",
-      "field": "보호·돌봄",
-      "provider": "서울특별시 관악구",
-      "providerType": "자치구",
-      "district": "관악구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 「국내입양에 관한 특별법」에 의해 보호대상아동을 신규 입양한 가정",
-      "summary": "서울특별시 관악구에서 제공하는 보호·돌봄 혜택입니다. 보호대상아동이 입양된 후 가정생활에 원만하게 적응할 수 있도록 입양가정을 지원함으로써 국내입양을 활성화하고 입양아동의 권익과 복지를 증진하고자 함.",
-      "supportType": "현금",
-      "supportSummary": "○ 초기 양육비용 부담을 완화하고 안정적인 양육지원을 위해 입양축하금 지원\n- 200만원(1회)",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000318",
-      "onlineUrl": "",
-      "inquiry": [
-        "관악구청(아동청소년과)/02-879-6145"
-      ],
-      "updatedAt": "2026-08-11",
-      "registeredAt": "2026-06-01"
-    },
-    {
       "id": "gov-benefit-320000000106",
       "sourceId": "320000000106",
       "title": "장애인 활동지원(구비추가)",
@@ -8504,35 +8736,6 @@
       "registeredAt": "2022-11-04"
     },
     {
-      "id": "gov-benefit-320000000119",
-      "sourceId": "320000000119",
-      "title": "국가보훈대상자 보훈수당",
-      "field": "생활안정",
-      "provider": "서울특별시 관악구",
-      "providerType": "자치구",
-      "district": "관악구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 보훈예우수당\n   - 지급대상: 관악구에 거주하는 국가유공자 본인 및 선순위 유족\n   - 지 급 액: 월 8만원\n   - 지급방법: 지급대상자 본인 실명의 계좌입금\n\n○ 배우자복지수당\n   - 지급대상: 관악구에 거주하는 사망한 참전유공자의 배우자\n   - 지…",
-      "summary": "서울특별시 관악구에서 제공하는 생활안정 혜택입니다. 국가유공자 및 선순위유족에게 매월 25일 보훈수당 지급",
-      "supportType": "현금",
-      "supportSummary": "○ 보훈예우수당\n   - 지급대상: 관악구에 거주하는 국가유공자 본인 및 선순위 유족\n   - 지 급 액: 월 8만원\n   - 지급방법: 지급대상자 본인 실명의 계좌입금\n\n○ 배우자복지수당\n   - 지급대상: 관악구에 거주하는 사망한 참전유공자의 배우자 (보훈예우수당…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000119",
-      "onlineUrl": "",
-      "inquiry": [
-        "복지정책과/02-879-5854"
-      ],
-      "updatedAt": "2026-08-11",
-      "registeredAt": "2023-08-23"
-    },
-    {
       "id": "gov-benefit-320000000121",
       "sourceId": "320000000121",
       "title": "국가보훈대상자 사망위로금",
@@ -8615,36 +8818,6 @@
       ],
       "updatedAt": "2026-08-11",
       "registeredAt": "2022-07-15"
-    },
-    {
-      "id": "gov-benefit-320000000313",
-      "sourceId": "320000000313",
-      "title": "유기동물 입양비 지원",
-      "field": "생활안정",
-      "provider": "서울특별시 관악구",
-      "providerType": "자치구",
-      "district": "관악구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "-지원대상: 관악구 지정 유기동물 보호센터에서 유기동물을 반려의 목적으로 입양하여 동물등록(내장형)을 완료한 자",
-      "summary": "서울특별시 관악구에서 제공하는 생활안정 혜택입니다. 유기동물 입양 후 소요되는 소유자 부담비용 일부를 구청에서 지원",
-      "supportType": "현금",
-      "supportSummary": "-지원비용: 입양동물 1마리당 최대 25만원 이내(자부담 10만원 포함)\n  (2025.12.31.까지 입양: 최대 15만원 지원, 2026.1.1.이후 입양: 최대 25만원 지원)\n\n-지원항목: 질병진단비, 치료비, 예방접종비, 중성화수술비, 내장형 동물등록비, 미…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000313",
-      "onlineUrl": "",
-      "inquiry": [
-        "일자리벤처과/02-879-6694"
-      ],
-      "updatedAt": "2026-08-11",
-      "registeredAt": "2026-05-07"
     },
     {
       "id": "gov-benefit-320000000299",
@@ -10073,34 +10246,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-314000000118",
-      "sourceId": "314000000118",
-      "title": "저소득 1인가구 안부확인을 위한 건강음료 지원",
-      "field": "보호·돌봄",
-      "provider": "서울특별시 양천구",
-      "providerType": "자치구",
-      "district": "양천구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 저소득 1인가구로서 기존 안부확인 관련 서비스(우유배달, 도시락배달, 밑반찬배달, 스마트 안부확인 등)를 받고 있지  않는 경우",
-      "summary": "서울특별시 양천구에서 제공하는 보호·돌봄 혜택입니다. 저소득 1인 가구 음료배달서비스 지원 (안부확인 목적)",
-      "supportType": "현물",
-      "supportSummary": "○ 저소득 1인가구에 건강음료를 배달하여 안부확인",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000118",
-      "onlineUrl": "",
-      "inquiry": [
-        "복지정책과/02-2620-3335"
-      ],
-      "updatedAt": "2026-08-11",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-314000000121",
       "sourceId": "314000000121",
       "title": "저소득구민 명절 위문금품 지원",
@@ -10817,34 +10962,6 @@
       ],
       "updatedAt": "2026-08-11",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-306000000239",
-      "sourceId": "306000000239",
-      "title": "출산축하용품 지원",
-      "field": "임신·출산",
-      "provider": "서울특별시 중랑구",
-      "providerType": "자치구",
-      "district": "중랑구",
-      "userType": "가구",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "- 지원대상 :  2026년 1월 1일 이후 출생한 우리구 모든 출생아\n  - 지원자격 : 중랑구 거주 12개월 이상, 출생일로부터 6개월 이내 신청\n  ㆍ거주 기간 미충족 시 중랑구 거주 12개월이 되는 날부터 지원 대상, 충족일부터 6개월 이내 신청",
-      "summary": "서울특별시 중랑구에서 제공하는 임신·출산 혜택입니다. 초기 육아용품 지원을 통해 출산가정의 양육 부담 완화와 안정적인 양육환경 조성 유도\n출산 가정에 구민 전용 출산․육아용품 온라인몰 포인트를 지급하여 \n필요한 물품을 직접 선택하는 이용자 맞춤형 서비스 제공",
-      "supportType": "현물",
-      "supportSummary": "○ 2026년 1월 1일 이후 출산한 출산 가정에 출산.육아용품 전용 온라인몰 포인트 10만원 지급",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/306000000239",
-      "onlineUrl": "https://www.jungnang.go.kr/portal/main/contents.do?menuNo=201500",
-      "inquiry": [
-        "보육지원과/02-2094-1792"
-      ],
-      "updatedAt": "2026-08-11",
-      "registeredAt": "2026-05-20"
     },
     {
       "id": "gov-benefit-306000000107",
@@ -12902,35 +13019,6 @@
       ],
       "updatedAt": "2026-08-10",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-314000000265",
-      "sourceId": "314000000265",
-      "title": "양천구 공항소음피해지역 주민 상담심리 지원(상담서비스 제공)",
-      "field": "보건·의료",
-      "provider": "서울특별시 양천구",
-      "providerType": "자치구",
-      "district": "양천구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "양천구 공항소음대책지역(인근지역 포함) 거주 주민\n(동일사업 기수혜자 및 양천구 타 상담,심리 프로그램 진행 중인 자 제외)",
-      "summary": "서울특별시 양천구에서 제공하는 보건·의료 혜택입니다. 항공기 소음에 노출되어 스트레스, 우울, 불안 등의 피해를 겪고 있는 주민에게 상담서비스를 제공하여 심리적 안정 및 마음건강 회복 등 삶의 질 향상을 도모",
-      "supportType": "기타(상담)",
-      "supportSummary": "공항소음피해지역 주민 상담서비스 제공",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000265",
-      "onlineUrl": "https://www.yangcheon.go.kr/airportnoise/airportnoise/counselingSupport/csPreCheck.do",
-      "inquiry": [
-        "양천구청 환경과/02-2084-5472"
-      ],
-      "updatedAt": "2026-08-10",
-      "registeredAt": "2025-11-05"
     },
     {
       "id": "gov-benefit-314000000101",
@@ -16401,35 +16489,6 @@
       ],
       "updatedAt": "2026-08-05",
       "registeredAt": "2026-05-27"
-    },
-    {
-      "id": "gov-benefit-320000000315",
-      "sourceId": "320000000315",
-      "title": "100세 어르신 장수축하물품 지급",
-      "field": "보호·돌봄",
-      "provider": "서울특별시 관악구",
-      "providerType": "자치구",
-      "district": "관악구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 사업대상:  관내 1년 이상 주민등록을 두고 거주하는 100세 어르신\n  ○ 지원기준: 생일 기준 주민등록상 관악구에 1년 이상 연속 거주\n  ○ 사업내용: 50만원 이하 물품 지급(1회)\n  ○ 지급물품: 공기청정기, 제습기, 이불세트 중 택 1\n  ○ 지급기준…",
-      "summary": "서울특별시 관악구에서 제공하는 보호·돌봄 혜택입니다. 100세 도래 어르신에 대한 장수축하물품 지급을 통해 장수 어르신의 복지 증진에 기여하고, 지역사회 내 경로효친 사상 고취 및 어르신의 삶의 질을 제고하고자 함",
-      "supportType": "현물",
-      "supportSummary": "○ 사업대상:  관내 1년 이상 주민등록을 두고 거주하는 100세 어르신\n  ○ 지원기준: 생일 기준 주민등록상 관악구에 1년 이상 연속 거주\n  ○ 사업내용: 50만원 이하 물품 지급(1회)\n  ○ 지급물품: 공기청정기, 제습기, 이불세트 중 택 1\n  ○ 지급기준…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000315",
-      "onlineUrl": "",
-      "inquiry": [
-        "어르신복지과/02-879-6156"
-      ],
-      "updatedAt": "2026-08-05",
-      "registeredAt": "2026-05-13"
     },
     {
       "id": "gov-benefit-320000000115",
@@ -24212,36 +24271,6 @@
       "registeredAt": "2024-08-05"
     },
     {
-      "id": "gov-benefit-320000000122",
-      "sourceId": "320000000122",
-      "title": "장애인 관광활동 이동비용 지원",
-      "field": "문화·환경",
-      "provider": "서울특별시 관악구",
-      "providerType": "자치구",
-      "district": "관악구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "휠체어 이용 장애인 1인 이상 포함한 가족·모임·단체",
-      "summary": "서울특별시 관악구에서 제공하는 문화·환경 혜택입니다. 일반인에 비해 문화관광 향유 기회가 부족한 휠체어 이용 장애인이 편리하게 여행할 수 있도록 관광활동 이동비용을 지원함으로써 \n이동약자의 문화관광 활동 참여 확대 및 광역 이동편의 증진에 기여하고자 함",
-      "supportType": "현금",
-      "supportSummary": "장애인버스 이용비용 지원\n - 지원기간: 연중(예산 소진시까지)\n - 지원대상 :휠체어 이용 장애인 1인 이상 포함한 가족·모임·단체\n - 지원내용 : 서울장애인버스 및 사설 관광버스, 미니밴 등 차량 대절비, 통행료, 주차비 등 이동비용 일체…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000122",
-      "onlineUrl": "",
-      "inquiry": [
-        "관악구 장애인복지과/02-879-6023"
-      ],
-      "updatedAt": "2026-07-29",
-      "registeredAt": "2023-08-28"
-    },
-    {
       "id": "gov-benefit-320000000124",
       "sourceId": "320000000124",
       "title": "관악 청년 1인 가구 안심 건강검진",
@@ -24325,35 +24354,6 @@
       ],
       "updatedAt": "2026-07-29",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-320000000116",
-      "sourceId": "320000000116",
-      "title": "장애인가정 양육지원금 지급",
-      "field": "보호·돌봄",
-      "provider": "서울특별시 관악구",
-      "providerType": "자치구",
-      "district": "관악구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "여성장애인 또는 남성장애인의 배우자가 2022년 1월 1일 이후 출산한 만 7세 미만의 아동을 양육하면서 신청일 기준 1년 전부터 관악구에 주민등록을 두고 거주하는 자",
-      "summary": "서울특별시 관악구에서 제공하는 보호·돌봄 혜택입니다. 장애인가정 양육지원금 지급",
-      "supportType": "현금",
-      "supportSummary": "○ 장애인가정 양육지원금 지급\n - 지원대상 : 여성장애인 또는 남성장애인의 배우자가 2022년 1월 1일 이후, 출산한 만 7세 미만의 아동을 양육하면서 신청일 기준 1년 전부터 현재까지 관악구에 주민등록을 두고 거주하는 자\n - 지원금액 : 매월 10만원 지급(1…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000116",
-      "onlineUrl": "",
-      "inquiry": [
-        "관악구 장애인복지과/02-879-6021"
-      ],
-      "updatedAt": "2026-07-29",
-      "registeredAt": "2023-08-23"
     },
     {
       "id": "gov-benefit-320000000107",
