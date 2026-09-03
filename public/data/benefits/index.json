@@ -10,17 +10,385 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-09-02T00:26:25.893Z",
+    "collectedAt": "2026-09-03T00:32:28.473Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10967,
+    "availableCount": 10961,
     "fetchedCount": 1139,
-    "activeCount": 1104,
-    "expiredCount": 35,
+    "activeCount": 1105,
+    "expiredCount": 34,
     "deduplicatedCount": 0,
     "filterMode": "서울 소관기관",
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-324000000319",
+      "sourceId": "324000000319",
+      "title": "강동구 구민안전보험",
+      "field": "행정·안전",
+      "provider": "서울특별시 강동구",
+      "providerType": "자치구",
+      "district": "강동구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "지역 주민 모두",
+      "summary": "서울특별시 강동구에서 제공하는 행정·안전 혜택입니다. 일상생활에서 발생할 수 있는 우발적 사고 및 재난으로부터 인적 피해 등을 지원",
+      "supportType": "현금(보험)",
+      "supportSummary": "65세 이상 또는 취약게층(기초생활수급자, 차상위, 한부모)이 상해의 직접 결과로 4주 이상 진단 받은 경우 상해진단위로금(교통상해 제외) 10만원\n\n대중교통 이용 중 교통사고로 발생한 상해로 부상등급별 부상등급을 받은 경우 대중교통상해 부상치료비(택시, 전세버스 제…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/324000000319",
+      "onlineUrl": "",
+      "inquiry": [
+        "구민안전보험 상담센터/1522-3556"
+      ],
+      "updatedAt": "2026-09-02",
+      "registeredAt": "2024-12-22"
+    },
+    {
+      "id": "gov-benefit-315000000280",
+      "sourceId": "315000000280",
+      "title": "생활주변 위험수목 정비지원",
+      "field": "행정·안전",
+      "provider": "서울특별시 강서구",
+      "providerType": "자치구",
+      "district": "강서구",
+      "userType": "가구",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 30세대 미만의 공동주택(연립, 다세대), 노유자시설(유치원, 경로당) 내 위험수목\n - 단독주택(다중주택, 다가구주택 포함) 제외, 위험성이 낮고 자체 정비 가능한 수목 제외, 단순 해가림 및 낙엽 등 단순 경관개선이나 주차공간 확보 등 안전과 관련없는 수목 정…",
+      "summary": "서울특별시 강서구에서 제공하는 행정·안전 혜택입니다. 과도하게 성장한 수목이 태풍, 집중호우 등에 의해 도복 시 거주자는 물론 인근 주민에까지 피해가 발생하므로, 생활주변 위험수목을 사전 정비하여 안전사고 예방",
+      "supportType": "기타",
+      "supportSummary": "○ 생활주변 위험수목 정비(가지치기, 제거)지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000280",
+      "onlineUrl": "",
+      "inquiry": [
+        "강서구청 공원녹지과/02-2600-4113"
+      ],
+      "updatedAt": "2026-09-02",
+      "registeredAt": "2025-12-03"
+    },
+    {
+      "id": "gov-benefit-304000000153",
+      "sourceId": "304000000153",
+      "title": "광진구민 자전거 및 개인형 이동장치(PM)사고 보험료 지원",
+      "field": "행정·안전",
+      "provider": "서울특별시 광진구",
+      "providerType": "자치구",
+      "district": "광진구",
+      "userType": "개인",
+      "deadlineText": "보장기간 중 발생한 사고에 대해 3년이내 신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "광진구민(광진구에 주민등록 되어 있는 구민, 등록외국인 포함)\n(단, 공유서비스 업체 기기 이용중 사고가 난 경우는 보장대상에서 제외됨)",
+      "summary": "서울특별시 광진구에서 제공하는 행정·안전 혜택입니다. 광진구민 자전거 및 개인형 이동장치(PM) 단체보험",
+      "supportType": "현금(보험)",
+      "supportSummary": "광진구민의 자전거 및 개인형 이동장치(PM)사고 시 보험혜택 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000153",
+      "onlineUrl": "",
+      "inquiry": [
+        "광진구 교통행정과/02-450-7924"
+      ],
+      "updatedAt": "2026-09-02",
+      "registeredAt": "2021-11-02"
+    },
+    {
+      "id": "gov-benefit-317000000367",
+      "sourceId": "317000000367",
+      "title": "금천구 금천아이성장지원금 지원",
+      "field": "보육·교육",
+      "provider": "서울특별시 금천구",
+      "providerType": "자치구",
+      "district": "금천구",
+      "userType": "개인",
+      "deadlineText": "(2026년) 2026. 1. ~ 12.   ※ 단, 예산 소진 시 조기 마감될 수 있음.",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 2~4세 대상 영유아의 보호자(2가지 요건 동시 충족자)\n  [충족요건]\n ① 금천구에 주민등록을 두고 실제 거주하는 2세, 3세, 4세 영유아\n ② 신청일 기준으로 6개월 전부터 계속하여 구에 주민등록 두고 실제 거주하는 대상 영유아의 보호자\n\n ※ (2026년…",
+      "summary": "서울특별시 금천구에서 제공하는 보육·교육 혜택입니다. 정부 양육지원급여가 감소하는 2~4세 자녀 양육 가정의 경제적 부담 완화를 위해\n금천아이성장지원금 지원",
+      "supportType": "기타",
+      "supportSummary": "연 1회 금천아이성장지원금(금천G밸리사랑상품권) 10만원 지원\n\n지급형태 : 금천구 내에서 사용 가능한 금천G밸리사랑상품권(금천구 금천아이성장지원금)을 신청인 본인 명의 핸드폰에 설치된 서울Pay+ 앱을 통해 지급\n\n매월 말일까지 신청분에 한해서 익월 15일 지급",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/317000000367",
+      "onlineUrl": "",
+      "inquiry": [
+        "금천구청 가족정책과/02-2627-1437"
+      ],
+      "updatedAt": "2026-09-02",
+      "registeredAt": "2025-02-10"
+    },
+    {
+      "id": "gov-benefit-317000000101",
+      "sourceId": "317000000101",
+      "title": "장애인활동지원 구비추가(발달·정신장애인)",
+      "field": "보호·돌봄",
+      "provider": "서울특별시 금천구",
+      "providerType": "자치구",
+      "district": "금천구",
+      "userType": "개인",
+      "deadlineText": "2026년 신규모집 계획 없음",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "발달장애인 및 정신장애인",
+      "summary": "서울특별시 금천구에서 제공하는 보호·돌봄 혜택입니다. 발달장애인 및 정신장애인에게 장애인활동지원 구비 추가시간(월 20시간) 제공",
+      "supportType": "이용권",
+      "supportSummary": "발달장애인 및 정신장애인에게 장애인활동지원 구비 추가시간(월 20시간) 제공",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "신청불필요"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/317000000101",
+      "onlineUrl": "",
+      "inquiry": [
+        "어르신장애인과/02-2627-1935"
+      ],
+      "updatedAt": "2026-09-02",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-317000000108",
+      "sourceId": "317000000108",
+      "title": "금천구 독립유공자 위문품 지원",
+      "field": "생활안정",
+      "provider": "서울특별시 금천구",
+      "providerType": "자치구",
+      "district": "금천구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 서울남부보훈지청에 등록된 독립유공자 또는 그 유족 중 금천구 거주자",
+      "summary": "서울특별시 금천구에서 제공하는 생활안정 혜택입니다. 독립유공자 및 유족에게 위문품(전통시장상품권) 지원",
+      "supportType": "이용권",
+      "supportSummary": "○ 서울남부보훈지청에 등록된 독립유공자 또는 그 유족에게 연 1회 10만원 상당의 전통시장상품권 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "신청불필요"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/317000000108",
+      "onlineUrl": "",
+      "inquiry": [
+        "복지정책과/02-2627-1353"
+      ],
+      "updatedAt": "2026-09-02",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-317000000112",
+      "sourceId": "317000000112",
+      "title": "금천구 보훈대상자 위문금 지원",
+      "field": "생활안정",
+      "provider": "서울특별시 금천구",
+      "providerType": "자치구",
+      "district": "금천구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 서울남부보훈지청에 등록된 국가유공자 또는 그 유족 중 금천구 거주자",
+      "summary": "서울특별시 금천구에서 제공하는 생활안정 혜택입니다. 국가유공자 등에게 명절, 보훈의달에 위문금 지급",
+      "supportType": "현금",
+      "supportSummary": "○ 서울남부보훈지청에 등록된 국가유공자 또는 그 유족에게 설, 보훈의달, 추석에 위문금(현금 2만원)을 지급",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "신청불필요"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/317000000112",
+      "onlineUrl": "",
+      "inquiry": [
+        "복지정책과/02-2627-1353"
+      ],
+      "updatedAt": "2026-09-02",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-317000000106",
+      "sourceId": "317000000106",
+      "title": "금천구 출생축하금 지원",
+      "field": "임신·출산",
+      "provider": "서울특별시 금천구",
+      "providerType": "자치구",
+      "district": "금천구",
+      "userType": "개인||가구",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "1) 관내 1년 이상 거주\n2) 셋째아 이상 출산한 다자녀 가정",
+      "summary": "서울특별시 금천구에서 제공하는 임신·출산 혜택입니다. 관내 1년 이상 거주하고, 셋째아 이상 출산한 다자녀 가정에 출산축하금 지급",
+      "supportType": "현금",
+      "supportSummary": "관내 1년 이상 거주하고, 셋째아 이상 출산한 경우\n\n- 셋째아 : 70만원\n- 넷째아 이상 : 100만원\n\n지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/317000000106",
+      "onlineUrl": "",
+      "inquiry": [
+        "금천구청 가족정책과/02-2627-1437"
+      ],
+      "updatedAt": "2026-09-02",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-317000000366",
+      "sourceId": "317000000366",
+      "title": "금천구 구민안전보험",
+      "field": "행정·안전",
+      "provider": "서울특별시 금천구",
+      "providerType": "자치구",
+      "district": "금천구",
+      "userType": "개인",
+      "deadlineText": "사고발생일로부터 1년 내 치료건 3년간 청구 가능",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "금천구민 전체(등록외국인 포함)",
+      "summary": "서울특별시 금천구에서 제공하는 행정·안전 혜택입니다. 일상생활에서 발생할 수 있는 우발적 사고 및 재난으로부터 인적 피해 등을 지원",
+      "supportType": "현금(보험)",
+      "supportSummary": "금천구민이 국내에서 발생한 상해사고로 인해 장례비 급여항목 중 본인부담금이 발생한 경우(장례비) 1000만원 한도\n금천구민이 국내에서 발생한 상해사고로 인해 의료비 급여항목 중 본인부담금이 발생한 경우(응급비용, 치료비, 수술비, X선 검사, 입원비 등) 실손 미가입…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/317000000366",
+      "onlineUrl": "",
+      "inquiry": [
+        "메리츠 화재해상보험/02-2135-9453"
+      ],
+      "updatedAt": "2026-09-02",
+      "registeredAt": "2024-12-22"
+    },
+    {
+      "id": "gov-benefit-313000000127",
+      "sourceId": "313000000127",
+      "title": "(마포구)청년 취업준비 비용 지원사업",
+      "field": "고용·창업",
+      "provider": "서울특별시 마포구",
+      "providerType": "자치구",
+      "district": "마포구",
+      "userType": "개인",
+      "deadlineText": "2026.02.02~2026.12.11",
+      "deadlineSortKey": "2026-12-11",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 신청대상: 19세~39세 청년 중 아래 요건 모두 충족하는 자\n  - 연령 : 신청일 기준 19세 ~ 39세 이하\n  - 주소 : 신청일 기준 마포구에 주민등록을 두고 있는 청년\n  - 미취업 : 신청일 기준 미취업자 및 사업자등록사실이 없는 자\n    *민간 취…",
+      "summary": "서울특별시 마포구에서 제공하는 고용·창업 혜택입니다. 청년들의 능력개발과 구직활동 촉진",
+      "supportType": "현금",
+      "supportSummary": "○ 지원내용: 1인당 최대 10만원\n  – 자격시험 응시비용 및 면접 헤어·메이크업 비용 최대 10만원 이내 실비 지원\n   ※ 당해연도 실시한 자격시험 및 면접 응시 횟수 제한 없으나, 통합 1회 신청\n ○ 지원분야\n  – 응시료: 어학 19종, 한국사능력검정시험…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000127",
+      "onlineUrl": "",
+      "inquiry": [
+        "마포구청 문화경제국 청년정책과/02-3153-8643"
+      ],
+      "updatedAt": "2026-09-02",
+      "registeredAt": "2024-12-20"
+    },
+    {
+      "id": "gov-benefit-321000000103",
+      "sourceId": "321000000103",
+      "title": "서초구 가정위탁아동 양육보조금 지원",
+      "field": "보육·교육",
+      "provider": "서울특별시 서초구",
+      "providerType": "자치구",
+      "district": "서초구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "서초구에서 거주중인 가정위탁아동(보호신청일로부터 선정종료시까지 지원)",
+      "summary": "서울특별시 서초구에서 제공하는 보육·교육 혜택입니다. 가정위탁아동의 양육보조금 지원",
+      "supportType": "현금",
+      "supportSummary": "서초구에서 거주중인 가정위탁아동에 양육보조금 100천원(인/월) 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "신청불필요"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/321000000103",
+      "onlineUrl": "",
+      "inquiry": [
+        "아동청년과/02-2155-8899"
+      ],
+      "updatedAt": "2026-09-02",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-321000000108",
+      "sourceId": "321000000108",
+      "title": "서초구 입양아동 양육보조금 지원",
+      "field": "보육·교육",
+      "provider": "서울특별시 서초구",
+      "providerType": "자치구",
+      "district": "서초구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "서초구에서 거주중인 입양아동 중 만 18세 초과 ~ 고등학교 졸업 전 아동",
+      "summary": "서울특별시 서초구에서 제공하는 보육·교육 혜택입니다. 입양아동의 양육보조금 지원",
+      "supportType": "현금",
+      "supportSummary": "서초구에서 거주중인 입양아동 중 만18세 초과 ~ 고등학교 졸업 전 아동에 대해 \n\n양육보조금 200천원(인/월) 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "신청불필요"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/321000000108",
+      "onlineUrl": "",
+      "inquiry": [
+        "아동청년과/02-2155-8899"
+      ],
+      "updatedAt": "2026-09-02",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-314000000261",
+      "sourceId": "314000000261",
+      "title": "양천구 공항소음피해지역 주민 청력(정밀)검사 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 양천구",
+      "providerType": "자치구",
+      "district": "양천구",
+      "userType": "개인",
+      "deadlineText": "모집 공고 확인 후 신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 신청일 및 선정일 기준 양천구 공항소음피해지역에 3년 이상 주민등록을 두고 거주하며 청력에 이상 징후가 있는 주민 \n    ※ 제외대상: ➀「장애인복지법」에 따른 청각장애진단을 받은 자(청각장애인) ➁ 미취학아동 ➂ 전년도 동일 사업 수혜자  ➃ 응급으로 처치나…",
+      "summary": "서울특별시 양천구에서 제공하는 보건·의료 혜택입니다. 김포공항 소음피해지역의 주민들을 대상으로 청력(정밀)검사를 실시하여 난청 실태를 파악하고 \n주민 피해에 대해 선제적으로 대응하는 효율적인 주민 지원을 통해 주민의 건강복지 향상에 기여",
+      "supportType": "서비스(의료)",
+      "supportSummary": "○ 지원내용: 양천구 공항소음피해지역 3년 이상 거주 주민 청력(정밀)검사 비용 지원\n  - 1차 기본검사 후 이상 소견 시 2차 정밀검사 시행\n  - 검사기관: 양천구·강서구 협약 의료기관(홍익병원 등 25개소)\n  - 지원금액: 협약된 검사비용 지원(의료기관에 지…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000261",
+      "onlineUrl": "https://www.yangcheon.go.kr/airportnoise/airportnoise/02/10203000000002024061001.jsp",
+      "inquiry": [
+        "양천구청 환경과/02-2084-5471"
+      ],
+      "updatedAt": "2026-09-02",
+      "registeredAt": "2025-11-03"
+    },
     {
       "id": "gov-benefit-320000000122",
       "sourceId": "320000000122",
@@ -802,34 +1170,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-313000000127",
-      "sourceId": "313000000127",
-      "title": "(마포구)청년 취업준비 비용 지원사업",
-      "field": "고용·창업",
-      "provider": "서울특별시 마포구",
-      "providerType": "자치구",
-      "district": "마포구",
-      "userType": "개인",
-      "deadlineText": "2026.02.02~2026.12.11",
-      "deadlineSortKey": "2026-12-11",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 신청대상: 19세~39세 청년 중 아래 요건 모두 충족하는 자\n  - 연령 : 신청일 기준 19세 ~ 39세 이하\n  - 주소 : 신청일 기준 마포구에 주민등록을 두고 있는 청년\n  - 미취업 : 신청일 기준 미취업자 및 사업자등록사실이 없는 자\n    *민간 취…",
-      "summary": "서울특별시 마포구에서 제공하는 고용·창업 혜택입니다. 청년들의 능력개발과 구직활동 촉진",
-      "supportType": "현금",
-      "supportSummary": "○ 지원내용: 1인당 최대 10만원\n  – 자격시험 응시비용 및 면접 헤어·메이크업 비용 최대 10만원 이내 실비 지원\n   ※ 당해연도 실시한 자격시험 및 면접 응시 횟수 제한 없으나, 통합 1회 신청\n ○ 지원분야\n  – 응시료: 어학 19종, 한국사능력검정시험…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000127",
-      "onlineUrl": "",
-      "inquiry": [
-        "마포구청 문화경제국 청년정책과/02-3153-8643"
-      ],
-      "updatedAt": "2026-08-26",
-      "registeredAt": "2024-12-20"
-    },
-    {
       "id": "gov-benefit-611000019618",
       "sourceId": "611000019618",
       "title": "서울시 임산부 교통비 지원",
@@ -1172,62 +1512,6 @@
       ],
       "updatedAt": "2026-08-15",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-317000000112",
-      "sourceId": "317000000112",
-      "title": "금천구 보훈대상자 위문금 지원",
-      "field": "생활안정",
-      "provider": "서울특별시 금천구",
-      "providerType": "자치구",
-      "district": "금천구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 서울남부보훈지청에 등록된 국가유공자 또는 그 유족 중 금천구 거주자",
-      "summary": "서울특별시 금천구에서 제공하는 생활안정 혜택입니다. 국가유공자 등에게 명절, 보훈의달에 위문금 지급",
-      "supportType": "현금",
-      "supportSummary": "○ 서울남부보훈지청에 등록된 국가유공자 또는 그 유족에게 설, 보훈의달, 추석에 위문금(현금 2만원)을 지급",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "신청불필요"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/317000000112",
-      "onlineUrl": "",
-      "inquiry": [
-        "복지정책과/02-2627-1353"
-      ],
-      "updatedAt": "2026-08-15",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-317000000366",
-      "sourceId": "317000000366",
-      "title": "금천구 구민안전보험",
-      "field": "행정·안전",
-      "provider": "서울특별시 금천구",
-      "providerType": "자치구",
-      "district": "금천구",
-      "userType": "개인",
-      "deadlineText": "사고발생일로부터 1년 내 치료건 3년간 청구 가능",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "금천구민 전체(등록외국인 포함)",
-      "summary": "서울특별시 금천구에서 제공하는 행정·안전 혜택입니다. 일상생활에서 발생할 수 있는 우발적 사고 및 재난으로부터 인적 피해 등을 지원",
-      "supportType": "현금(보험)",
-      "supportSummary": "금천구민이 국내에서 발생한 상해사고로 인해 장례비 급여항목 중 본인부담금이 발생한 경우(장례비) 1000만원 한도\n금천구민이 국내에서 발생한 상해사고로 인해 의료비 급여항목 중 본인부담금이 발생한 경우(응급비용, 치료비, 수술비, X선 검사, 입원비 등) 실손 미가입…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/317000000366",
-      "onlineUrl": "",
-      "inquiry": [
-        "메리츠 화재해상보험/02-2135-9453"
-      ],
-      "updatedAt": "2026-08-14",
-      "registeredAt": "2024-12-22"
     },
     {
       "id": "gov-benefit-305000000165",
@@ -6541,34 +6825,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-317000000108",
-      "sourceId": "317000000108",
-      "title": "금천구 독립유공자 위문품 지원",
-      "field": "생활안정",
-      "provider": "서울특별시 금천구",
-      "providerType": "자치구",
-      "district": "금천구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 서울남부보훈지청에 등록된 독립유공자 또는 그 유족 중 금천구 거주자",
-      "summary": "서울특별시 금천구에서 제공하는 생활안정 혜택입니다. 독립유공자 및 유족에게 위문품(전통시장상품권) 지원",
-      "supportType": "이용권",
-      "supportSummary": "○ 서울남부보훈지청에 등록된 독립유공자 또는 그 유족에게 연 1회 10만원 상당의 전통시장상품권 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "신청불필요"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/317000000108",
-      "onlineUrl": "",
-      "inquiry": [
-        "복지정책과/02-2627-1353"
-      ],
-      "updatedAt": "2026-08-12",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-310000000119",
       "sourceId": "310000000119",
       "title": "한부모가족 지원",
@@ -8623,35 +8879,6 @@
       "registeredAt": "2023-10-23"
     },
     {
-      "id": "gov-benefit-315000000280",
-      "sourceId": "315000000280",
-      "title": "생활주변 위험수목 정비지원",
-      "field": "행정·안전",
-      "provider": "서울특별시 강서구",
-      "providerType": "자치구",
-      "district": "강서구",
-      "userType": "법인/시설/단체",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 30세대 미만의 공동주택(연립, 다세대), 노유자시설(유치원, 경로당) 내 위험수목\n - 단독주택(다중주택, 다가구주택 포함) 제외, 위험성이 낮고 자체 정비 가능한 수목 제외, 단순 해가림 및 낙엽 등 단순 경관개선이나 주차공간 확보 등 안전과 관련없는 수목 정…",
-      "summary": "서울특별시 강서구에서 제공하는 행정·안전 혜택입니다. 과도하게 성장한 수목이 태풍, 집중호우 등에 의해 도복 시 거주자는 물론 인근 주민에까지 피해가 발생하므로, 생활주변 위험수목을 사전 정비하여 안전사고 예방",
-      "supportType": "기타",
-      "supportSummary": "○ 생활주변 위험수목 정비(가지치기, 제거)지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000280",
-      "onlineUrl": "",
-      "inquiry": [
-        "강서구청 공원녹지과/02-2600-4113"
-      ],
-      "updatedAt": "2026-08-11",
-      "registeredAt": "2025-12-03"
-    },
-    {
       "id": "gov-benefit-320000000106",
       "sourceId": "320000000106",
       "title": "장애인 활동지원(구비추가)",
@@ -9757,64 +9984,6 @@
       "onlineUrl": "",
       "inquiry": [
         "아동청년과/02-2155-8900"
-      ],
-      "updatedAt": "2026-08-11",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-321000000103",
-      "sourceId": "321000000103",
-      "title": "서초구 가정위탁아동 양육보조금 지원",
-      "field": "보육·교육",
-      "provider": "서울특별시 서초구",
-      "providerType": "자치구",
-      "district": "서초구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "서초구에서 거주중인 가정위탁아동(보호신청일로부터 선정종료시까지 지원)",
-      "summary": "서울특별시 서초구에서 제공하는 보육·교육 혜택입니다. 가정위탁아동의 양육보조금 지원",
-      "supportType": "현금",
-      "supportSummary": "서초구에서 거주중인 가정위탁아동에 양육보조금 100천원(인/월) 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/321000000103",
-      "onlineUrl": "",
-      "inquiry": [
-        "아동청년과/02-2155-8899"
-      ],
-      "updatedAt": "2026-08-11",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-321000000108",
-      "sourceId": "321000000108",
-      "title": "서초구 입양아동 양육보조금 지원",
-      "field": "보육·교육",
-      "provider": "서울특별시 서초구",
-      "providerType": "자치구",
-      "district": "서초구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "서초구에서 거주중인 입양아동 중 만 18세 초과 ~ 고등학교 졸업 전 아동",
-      "summary": "서울특별시 서초구에서 제공하는 보육·교육 혜택입니다. 입양아동의 양육보조금 지원",
-      "supportType": "현금",
-      "supportSummary": "서초구에서 거주중인 입양아동 중 만18세 초과 ~ 고등학교 졸업 전 아동에 대해 \n\n양육보조금 200천원(인/월) 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/321000000108",
-      "onlineUrl": "",
-      "inquiry": [
-        "아동청년과/02-2155-8899"
       ],
       "updatedAt": "2026-08-11",
       "registeredAt": "2021-09-23"
@@ -12169,63 +12338,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-317000000367",
-      "sourceId": "317000000367",
-      "title": "금천구 금천아이성장지원금 지원",
-      "field": "보육·교육",
-      "provider": "서울특별시 금천구",
-      "providerType": "자치구",
-      "district": "금천구",
-      "userType": "개인",
-      "deadlineText": "(2026년) 2026. 1. ~ 12.   ※ 단, 예산 소진 시 조기 마감될 수 있음.",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 2~4세 대상 영유아의 보호자(2가지 요건 동시 충족자)\n  [충족요건]\n ① 금천구에 주민등록을 두고 실제 거주하는 2세, 3세, 4세 영유아\n ② 신청일 기준으로 6개월 전부터 계속하여 구에 주민등록 두고 실제 거주하는 대상 영유아의 보호자\n\n ※ (2026년…",
-      "summary": "서울특별시 금천구에서 제공하는 보육·교육 혜택입니다. 정부 양육지원급여가 감소하는 2~4세 자녀 양육 가정의 경제적 부담 완화를 위해\n금천아이성장지원금 지원",
-      "supportType": "기타",
-      "supportSummary": "연 1회 금천아이성장지원금(금천G밸리사랑상품권) 10만원 지원\n\n지급형태 : 금천구 내에서 사용 가능한 금천G밸리사랑상품권(금천구 금천아이성장지원금)을 신청인 본인 명의 핸드폰에 설치된 서울Pay+ 앱을 통해 지급\n\n매월 말일까지 신청분에 한해서 익월 15일 지급",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/317000000367",
-      "onlineUrl": "",
-      "inquiry": [
-        "금천구청 가족정책과/02-2627-1437"
-      ],
-      "updatedAt": "2026-08-10",
-      "registeredAt": "2025-02-10"
-    },
-    {
-      "id": "gov-benefit-317000000101",
-      "sourceId": "317000000101",
-      "title": "장애인활동지원 구비추가(발달·정신장애인)",
-      "field": "보호·돌봄",
-      "provider": "서울특별시 금천구",
-      "providerType": "자치구",
-      "district": "금천구",
-      "userType": "개인",
-      "deadlineText": "2026년 신규모집 계획 없음",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "발달장애인 및 정신장애인",
-      "summary": "서울특별시 금천구에서 제공하는 보호·돌봄 혜택입니다. 발달장애인 및 정신장애인에게 장애인활동지원 구비 추가시간(월 20시간) 제공",
-      "supportType": "이용권",
-      "supportSummary": "발달장애인 및 정신장애인에게 장애인활동지원 구비 추가시간(월 20시간) 제공",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "신청불필요"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/317000000101",
-      "onlineUrl": "",
-      "inquiry": [
-        "어르신장애인과/02-2627-1935"
-      ],
-      "updatedAt": "2026-08-10",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-317000000116",
       "sourceId": "317000000116",
       "title": "장애인활동지원 구비추가(최중증독거장애인)",
@@ -12249,35 +12361,6 @@
       "onlineUrl": "",
       "inquiry": [
         "어르신장애인과/02-2627-1935"
-      ],
-      "updatedAt": "2026-08-10",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-317000000106",
-      "sourceId": "317000000106",
-      "title": "금천구 출생축하금 지원",
-      "field": "임신·출산",
-      "provider": "서울특별시 금천구",
-      "providerType": "자치구",
-      "district": "금천구",
-      "userType": "개인||가구",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "1) 관내 1년 이상 거주\n2) 셋째아 이상 출산한 다자녀 가정",
-      "summary": "서울특별시 금천구에서 제공하는 임신·출산 혜택입니다. 관내 1년 이상 거주하고, 셋째아 이상 출산한 다자녀 가정에 출산축하금 지급",
-      "supportType": "현금",
-      "supportSummary": "관내 1년 이상 거주하고, 셋째아 이상 출산한 경우\n\n- 셋째아 : 70만원\n- 넷째아 이상 : 100만원\n\n지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/317000000106",
-      "onlineUrl": "",
-      "inquiry": [
-        "금천구청 가족정책과/02-2627-1437"
       ],
       "updatedAt": "2026-08-10",
       "registeredAt": "2021-09-23"
@@ -21914,35 +21997,6 @@
       "registeredAt": "2025-11-04"
     },
     {
-      "id": "gov-benefit-314000000261",
-      "sourceId": "314000000261",
-      "title": "양천구 공항소음피해지역 주민 청력(정밀)검사 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 양천구",
-      "providerType": "자치구",
-      "district": "양천구",
-      "userType": "개인",
-      "deadlineText": "모집 공고 확인 후 신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○  양천구 공항소음대책지역(인근지역 포함) 3년 이상 거주 주민\n      -  제외대상 : 청각장애인 및 미취학아동, 응급치료 필요자, 전년도 동일사업 기수혜자",
-      "summary": "서울특별시 양천구에서 제공하는 보건·의료 혜택입니다. 김포공항 소음피해지역의 주민들을 대상으로 청력(정밀)검사를 실시하여 난청 실태를 파악하고 \n주민 피해에 대해 선제적으로 대응하는 효율적인 주민 지원을 통해 주민의 건강복지 향상에 기여",
-      "supportType": "서비스(의료)",
-      "supportSummary": "양천구 공항소음피해지역 3년 이상 거주 주민 청력(정밀)검사 지원\n(1차 기본검사 후 이상 소견 시 2차 정밀검사 시행)",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000261",
-      "onlineUrl": "https://www.yangcheon.go.kr/airportnoise/airportnoise/02/10203000000002024061001.jsp",
-      "inquiry": [
-        "양천구청 환경과/02-2084-5471"
-      ],
-      "updatedAt": "2026-08-03",
-      "registeredAt": "2025-11-03"
-    },
-    {
       "id": "gov-benefit-314000000266",
       "sourceId": "314000000266",
       "title": "양천구 공항소음피해지역 주민 김포공항이용료 지원",
@@ -26355,34 +26409,6 @@
       ],
       "updatedAt": "2026-07-28",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-324000000319",
-      "sourceId": "324000000319",
-      "title": "강동구 구민안전보험",
-      "field": "행정·안전",
-      "provider": "서울특별시 강동구",
-      "providerType": "자치구",
-      "district": "강동구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "지역 주민 모두",
-      "summary": "서울특별시 강동구에서 제공하는 행정·안전 혜택입니다. 일상생활에서 발생할 수 있는 우발적 사고 및 재난으로부터 인적 피해 등을 지원",
-      "supportType": "현금(보험)",
-      "supportSummary": "65세 이상 또는 취약게층(기초생활수급자, 차상위, 한부모)이 상해의 직접 결과로 4주 이상 진단 받은 경우 상해진단위로금(교통상해 제외) 10만원\n\n대중교통 이용 중 교통사고로 발생한 상해로 부상등급별 부상등급을 받은 경우 대중교통상해 부상치료비(택시, 전세버스 제…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/324000000319",
-      "onlineUrl": "",
-      "inquiry": [
-        "구민안전보험 상담센터/1522-3556"
-      ],
-      "updatedAt": "2026-07-28",
-      "registeredAt": "2024-12-22"
     },
     {
       "id": "gov-benefit-324000000101",

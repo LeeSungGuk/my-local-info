@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-304000000153",
+  "sourceId": "304000000153",
+  "title": "광진구민 자전거 및 개인형 이동장치(PM)사고 보험료 지원",
+  "field": "행정·안전",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "보장기간 중 발생한 사고에 대해 3년이내 신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "광진구민(광진구에 주민등록 되어 있는 구민, 등록외국인 포함)\n(단, 공유서비스 업체 기기 이용중 사고가 난 경우는 보장대상에서 제외됨)",
+  "summary": "서울특별시 광진구에서 제공하는 행정·안전 혜택입니다. 광진구민 자전거 및 개인형 이동장치(PM) 단체보험",
+  "supportType": "현금(보험)",
+  "supportSummary": "광진구민의 자전거 및 개인형 이동장치(PM)사고 시 보험혜택 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000153",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 교통행정과/02-450-7924"
+  ],
+  "updatedAt": "2026-09-02",
+  "registeredAt": "2021-11-02",
+  "viewCount": 3475,
+  "collectedAt": "2026-09-03T00:32:28.473Z",
+  "purpose": "광진구민 자전거 및 개인형 이동장치(PM) 단체보험",
+  "target": "광진구민(광진구에 주민등록 되어 있는 구민, 등록외국인 포함)\n(단, 공유서비스 업체 기기 이용중 사고가 난 경우는 보장대상에서 제외됨)",
+  "selectionCriteria": "",
+  "supportContent": "광진구민의 자전거 및 개인형 이동장치(PM)사고 시 보험혜택 지원",
+  "applicationMethod": "DB손해보험사\n  - 전화 : 1899-7751\n  - fax : 0505-137-0051\n  - e-mail : a18997751@hanmail.net",
+  "documents": "보험금청구서, 개인정보동의서, 신분증, 통장사본, 주민등록초본, 초진진료차트, 진단서, 입퇴원 확인서\n\n▼모바일 청구 시 보험금 신청 링크에서 직접 작성할 수 있는 서류\n보험금청구서, 개인정보동의서, 계좌번호\n\n▼대리수령 시 추가 서류\n위임장, 수임자 명의의 인감증명서 혹은 본인서명사실확인서",
+  "officialDocuments": "없음",
+  "identityDocuments": "없음",
+  "legalBasis": [
+    "자전거 이용 활성화에 관한 법률"
+  ],
+  "ordinance": "서울특별시 광진구 자전거이용 활성화에 관한 조례",
+  "inquiryText": "광진구 교통행정과/02-450-7924",
+  "ageMin": 0,
+  "ageMax": 120
+}
