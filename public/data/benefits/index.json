@@ -10,17 +10,187 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-09-03T00:32:28.473Z",
+    "collectedAt": "2026-09-04T00:22:25.214Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10961,
-    "fetchedCount": 1139,
-    "activeCount": 1105,
+    "availableCount": 10956,
+    "fetchedCount": 1140,
+    "activeCount": 1106,
     "expiredCount": 34,
     "deduplicatedCount": 0,
     "filterMode": "서울 소관기관",
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-611000019632",
+      "sourceId": "611000019632",
+      "title": "기후동행카드",
+      "field": "문화·환경",
+      "provider": "서울특별시",
+      "providerType": "서울시",
+      "district": "서울특별시",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "서울시 대중교통, 따릉이, 한강버스를 이용하는 전국민 대상\n(단, 다자녀 부모 및 저소득 할인은 서울특별시 및 경기도 김포시, 남양주시, 구리시, 과천시, 고양시, 성남시, 하남시에 주민등록된 주민에 한함)",
+      "summary": "서울특별시에서 제공하는 문화·환경 혜택입니다. 승용차 이용을 대중교통으로 전환하기 위한 교통수요관리 정책\n시민의 이동권 보장을 위한 적극적 교통복지 정책",
+      "supportType": "이용권",
+      "supportSummary": "- 이용범위(상세 서비스 범위는 홈페이지 URL 내 '서비스범위 검색' 화면에서 확인)\n서울지역 지하철(신분당선, GTX 등 일부노선 제외), 서울시 면허 시내·마을버스, 따릉이, 한강버스\n\n\n- 권종분류\n30일권: 버스+지하철(62,000원) / 버스+지하철+따릉이…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "신청불필요"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000019632",
+      "onlineUrl": "",
+      "inquiry": [
+        "서울특별시 교통정책과/02-2133-2592"
+      ],
+      "updatedAt": "2026-09-04",
+      "registeredAt": "2025-09-06"
+    },
+    {
+      "id": "gov-benefit-315000000109",
+      "sourceId": "315000000109",
+      "title": "저소득주민 국민건강보험료 등 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 강서구",
+      "providerType": "자치구",
+      "district": "강서구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 강서구 거주 저소득주민 중 국민건강보험료 부과금액이 월 최저 보험료 이하의 세대이면서 65세 이상 노인으로만 구성된 세대 또는 등록장애인이 포함된 세대",
+      "summary": "서울특별시 강서구에서 제공하는 보건·의료 혜택입니다. 노령, 장애 등으로 인하여 생활에 어려움을 겪고 있는 저소득주민에게 국민건강보험료 및 노인장기요양보험료를 지원함으로써 구민들의 건강증진과 복지 향상을 도모함.",
+      "supportType": "현금(보험)",
+      "supportSummary": "○ 장애인가구 및 노인가구 대상으로 보험료 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000109",
+      "onlineUrl": "",
+      "inquiry": [
+        "생활보장과/02-2600-6356"
+      ],
+      "updatedAt": "2026-09-03",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-313000000127",
+      "sourceId": "313000000127",
+      "title": "(마포구)청년 취업준비 비용 지원사업",
+      "field": "고용·창업",
+      "provider": "서울특별시 마포구",
+      "providerType": "자치구",
+      "district": "마포구",
+      "userType": "개인",
+      "deadlineText": "2026.02.02~2026.12.11",
+      "deadlineSortKey": "2026-12-11",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 신청대상: 19세~39세 청년 중 아래 요건 모두 충족하는 자\n  - 연령 : 신청일 기준 19세 ~ 39세 이하\n  - 주소 : 신청일 기준 마포구에 주민등록을 두고 있는 청년\n  - 미취업 : 신청일 기준 미취업자 및 사업자등록사실이 없는 자\n    *민간 취…",
+      "summary": "서울특별시 마포구에서 제공하는 고용·창업 혜택입니다. 청년들의 능력개발과 구직활동 촉진",
+      "supportType": "현금",
+      "supportSummary": "○ 지원내용: 1인당 최대 10만원\n  – 자격시험 응시비용 및 면접 헤어·메이크업 비용 최대 10만원 이내 실비 지원\n   ※ 당해연도 실시한 자격시험 및 면접 응시 횟수 제한 없으나, 통합 1회 신청\n ○ 지원분야\n  – 응시료: 어학 19종, 한국사능력검정시험…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000127",
+      "onlineUrl": "",
+      "inquiry": [
+        "마포구청 문화경제국 청년정책과/02-3153-8643"
+      ],
+      "updatedAt": "2026-09-03",
+      "registeredAt": "2024-12-20"
+    },
+    {
+      "id": "gov-benefit-611000000111",
+      "sourceId": "611000000111",
+      "title": "저소득층 스포츠 영재 지원",
+      "field": "보육·교육",
+      "provider": "서울특별시",
+      "providerType": "서울시",
+      "district": "서울특별시",
+      "userType": "개인",
+      "deadlineText": "서울시체육회 공고절차에 따라 신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "➀ 신청대상 : 서울시 소속 초·중·고 저소득층 및 경제적 환경이 어려운 학생 선수\n➁ 해당 종목 선수등록 기간 1년 경과자로서, 서울시 대표로 전국규모 대회에 출전할 수 있는 선수\n➂ 전국규모대회<* 2025년 전국(소년, 동계)체육대회, 기타 중앙경기단체 전국규모…",
+      "summary": "서울특별시에서 제공하는 보육·교육 혜택입니다. ㅇ 서울시 소속 저소득층 학생(초·중·고)들이 지속적으로 운동에 전념할 수 있도록 지원\n ㅇ 우수한 실력의 학생들에게 장학금을 지원하여 자긍심 고취 및 미래 체육인재 발굴·육성\n ㅇ 진로아카데미 개최를 통해 학생 선수들의 소속감 제고 및 스포츠정신 함양 기여",
+      "supportType": "현금(장학금)",
+      "supportSummary": "ㅇ 서울시 소속 저소득층 아동 대상 장학금 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000111",
+      "onlineUrl": "",
+      "inquiry": [
+        "체육정책과/02-120"
+      ],
+      "updatedAt": "2026-09-03",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-314000000265",
+      "sourceId": "314000000265",
+      "title": "양천구 공항소음피해지역 주민 상담심리 지원(상담서비스 제공)",
+      "field": "보건·의료",
+      "provider": "서울특별시 양천구",
+      "providerType": "자치구",
+      "district": "양천구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "∘ 양천구 공항소음대책지역(인근지역 포함) 거주 주민(주민등록상 주소 기준)\n    * 제외대상: 본 사업 기수혜자(’23~’26) 및 양천구 타 상담‧심리 프로그램 진행 중인 자\n    * 소음피해지역 확인 : 공항소음대책 종합지원센터 홈페이지 공지사항의 각 동 소…",
+      "summary": "서울특별시 양천구에서 제공하는 보건·의료 혜택입니다. 항공기 소음에 노출되어 스트레스, 우울, 불안 등의 피해를 겪고 있는 주민에게 상담서비스를 제공하여 심리적 안정 및 마음건강 회복 등 삶의 질 향상을 도모",
+      "supportType": "기타(상담)",
+      "supportSummary": "○ 지원내용: 양천구 내에서 김포공항 소음 피해지역에 거주하는 주민이 전문 심리상담을 무료로 받을 수 있도록 상담비용 지원\n  - 전문 상담센터를 통한 상담심리 서비스 제공(인당 8회)\n  - 구와 협약한 관내 전문 상담센터 중 선택하여 상담\n\n○ 선정기준\n  - 선…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000265",
+      "onlineUrl": "https://www.yangcheon.go.kr/airportnoise/airportnoise/counselingSupport/csPreCheck.do",
+      "inquiry": [
+        "양천구청 환경과/02-2084-5472"
+      ],
+      "updatedAt": "2026-09-03",
+      "registeredAt": "2025-11-05"
+    },
+    {
+      "id": "gov-benefit-314000000101",
+      "sourceId": "314000000101",
+      "title": "효도수당",
+      "field": "보호·돌봄",
+      "provider": "서울특별시 양천구",
+      "providerType": "자치구",
+      "district": "양천구",
+      "userType": "가구",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "양천구에 실제 거주하고 주민등록이 되어 있는 만100세 이상의 부모 등을 부양하고 있는 가정의 세대주 또는 가족대표",
+      "summary": "서울특별시 양천구에서 제공하는 보호·돌봄 혜택입니다. 경로효친의 건전한 가족제도 정착과 지역사회 효문화 확산을 장려하기 위해 100세 이상 부모 등을 부양하고 있는 가정에 효도수당을 지급하여 효행장려 및 어르신복지 증진에 기여하고자 함",
+      "supportType": "현금",
+      "supportSummary": "양천구에 실제 거주하고, 주민등록이 되어 있는 100세 이상의 부모 등을 부양하고 있는 가정의 세대주 또는 가족 대표에게 세대당 연 20만원 1회 지급",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000101",
+      "onlineUrl": "",
+      "inquiry": [
+        "어르신복지과/02-2620-3359"
+      ],
+      "updatedAt": "2026-09-03",
+      "registeredAt": "2021-09-23"
+    },
     {
       "id": "gov-benefit-324000000319",
       "sourceId": "324000000319",
@@ -275,34 +445,6 @@
       ],
       "updatedAt": "2026-09-02",
       "registeredAt": "2024-12-22"
-    },
-    {
-      "id": "gov-benefit-313000000127",
-      "sourceId": "313000000127",
-      "title": "(마포구)청년 취업준비 비용 지원사업",
-      "field": "고용·창업",
-      "provider": "서울특별시 마포구",
-      "providerType": "자치구",
-      "district": "마포구",
-      "userType": "개인",
-      "deadlineText": "2026.02.02~2026.12.11",
-      "deadlineSortKey": "2026-12-11",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 신청대상: 19세~39세 청년 중 아래 요건 모두 충족하는 자\n  - 연령 : 신청일 기준 19세 ~ 39세 이하\n  - 주소 : 신청일 기준 마포구에 주민등록을 두고 있는 청년\n  - 미취업 : 신청일 기준 미취업자 및 사업자등록사실이 없는 자\n    *민간 취…",
-      "summary": "서울특별시 마포구에서 제공하는 고용·창업 혜택입니다. 청년들의 능력개발과 구직활동 촉진",
-      "supportType": "현금",
-      "supportSummary": "○ 지원내용: 1인당 최대 10만원\n  – 자격시험 응시비용 및 면접 헤어·메이크업 비용 최대 10만원 이내 실비 지원\n   ※ 당해연도 실시한 자격시험 및 면접 응시 횟수 제한 없으나, 통합 1회 신청\n ○ 지원분야\n  – 응시료: 어학 19종, 한국사능력검정시험…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000127",
-      "onlineUrl": "",
-      "inquiry": [
-        "마포구청 문화경제국 청년정책과/02-3153-8643"
-      ],
-      "updatedAt": "2026-09-02",
-      "registeredAt": "2024-12-20"
     },
     {
       "id": "gov-benefit-321000000103",
@@ -564,35 +706,6 @@
       ],
       "updatedAt": "2026-09-01",
       "registeredAt": "2026-05-07"
-    },
-    {
-      "id": "gov-benefit-314000000265",
-      "sourceId": "314000000265",
-      "title": "양천구 공항소음피해지역 주민 상담심리 지원(상담서비스 제공)",
-      "field": "보건·의료",
-      "provider": "서울특별시 양천구",
-      "providerType": "자치구",
-      "district": "양천구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "∘ 양천구 공항소음대책지역(인근지역 포함) 거주 주민(주민등록상 주소 기준)\n    * 제외대상: 본 사업 기수혜자(’23~’26) 및 양천구 타 상담‧심리 프로그램 진행 중인 자\n    * 소음피해지역 확인 : 공항소음대책 종합지원센터 홈페이지 공지사항의 각 동 소…",
-      "summary": "서울특별시 양천구에서 제공하는 보건·의료 혜택입니다. 항공기 소음에 노출되어 스트레스, 우울, 불안 등의 피해를 겪고 있는 주민에게 상담서비스를 제공하여 심리적 안정 및 마음건강 회복 등 삶의 질 향상을 도모",
-      "supportType": "기타(상담)",
-      "supportSummary": "○ 지원내용: 양천구 내에서 김포공항 소음 피해지역에 거주하는 주민이 전문 심리상담을 무료로 받을 수 있도록 상담비용 지원\n  - 전문 상담센터를 통한 상담심리 서비스 제공(인당 8회)\n  - 구와 협약한 관내 전문 상담센터 중 선택하여 상담",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000265",
-      "onlineUrl": "https://www.yangcheon.go.kr/airportnoise/airportnoise/counselingSupport/csPreCheck.do",
-      "inquiry": [
-        "양천구청 환경과/02-2084-5472"
-      ],
-      "updatedAt": "2026-09-01",
-      "registeredAt": "2025-11-05"
     },
     {
       "id": "gov-benefit-314000000118",
@@ -13104,35 +13217,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-314000000101",
-      "sourceId": "314000000101",
-      "title": "효도수당",
-      "field": "보호·돌봄",
-      "provider": "서울특별시 양천구",
-      "providerType": "자치구",
-      "district": "양천구",
-      "userType": "가구",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 양천구에 실제 거주하고 주민등록이 되어 있는 만100세 이상의 부모 등을 부양하고 있는 가정의 세대주 또는 가족대표",
-      "summary": "서울특별시 양천구에서 제공하는 보호·돌봄 혜택입니다. 100세 이상 부모 등을 부양하고 있는 가정에 효도수당 지급",
-      "supportType": "현금",
-      "supportSummary": "○ 세대당 연 20만원 1회 지급",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000101",
-      "onlineUrl": "",
-      "inquiry": [
-        "어르신복지과/02-2620-3359"
-      ],
-      "updatedAt": "2026-08-10",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-314000000255",
       "sourceId": "314000000255",
       "title": "저소득주민 무료중개서비스 대상자 지원",
@@ -23042,34 +23126,6 @@
       "registeredAt": "2022-10-31"
     },
     {
-      "id": "gov-benefit-315000000109",
-      "sourceId": "315000000109",
-      "title": "저소득주민 국민건강보험료 등 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 강서구",
-      "providerType": "자치구",
-      "district": "강서구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 강서구 거주 저소득주민 중 국민건강보험료 부과금액이 월 최저 보험료 이하의 세대이면서 65세 이상 노인으로만 구성된 세대 또는 등록장애인이 포함된 세대",
-      "summary": "서울특별시 강서구에서 제공하는 보건·의료 혜택입니다. 저소득 장애인 및 노인가구를 대상으로 보험료 지원",
-      "supportType": "현금(보험)",
-      "supportSummary": "○ 장애인가구 및 노인가구 대상으로 보험료 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000109",
-      "onlineUrl": "",
-      "inquiry": [
-        "생활보장과/02-2600-6356"
-      ],
-      "updatedAt": "2026-07-30",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-315000000297",
       "sourceId": "315000000297",
       "title": "자치회관 프로그램 신청/감면",
@@ -30195,34 +30251,6 @@
         "자치구 및 사업수행기관/02-120"
       ],
       "updatedAt": "2026-04-22",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-611000000111",
-      "sourceId": "611000000111",
-      "title": "저소득층 스포츠 영재 지원",
-      "field": "보육·교육",
-      "provider": "서울특별시",
-      "providerType": "서울시",
-      "district": "서울특별시",
-      "userType": "개인",
-      "deadlineText": "서울시체육회 공고절차에 따라 신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 초중고 저득득층선수(기초수급자, 차상위계층, 저소득 한무모, 소년소녀가장, 장애가정, 다문화 가정 선수 등)",
-      "summary": "서울특별시에서 제공하는 보육·교육 혜택입니다. 저소득층 학생선수에게 장학금 지원",
-      "supportType": "현금(장학금)",
-      "supportSummary": "○ 저소득층 학생선수 장학금 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "신청불필요"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000111",
-      "onlineUrl": "",
-      "inquiry": [
-        "체육정책과/02-120"
-      ],
-      "updatedAt": "2026-04-21",
       "registeredAt": "2021-09-23"
     },
     {
