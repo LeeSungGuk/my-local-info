@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-09-04T09:22:36+09:00",
+  "lastGeneratedAt": "2026-09-05T09:18:28+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -2957,9 +2957,9 @@
         "초록힐링"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-08-24T07:50:10+09:00",
-      "usedAt": null
+      "usedAt": "2026-09-05T09:18:28+09:00"
     },
     {
       "id": "seoul-beginner-running-tracks",

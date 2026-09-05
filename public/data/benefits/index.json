@@ -10,44 +10,103 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-09-04T00:22:25.214Z",
+    "collectedAt": "2026-09-05T00:17:54.652Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10956,
+    "availableCount": 10952,
     "fetchedCount": 1140,
-    "activeCount": 1106,
-    "expiredCount": 34,
+    "activeCount": 1105,
+    "expiredCount": 35,
     "deduplicatedCount": 0,
     "filterMode": "서울 소관기관",
     "pageSize": 1000
   },
   "items": [
     {
-      "id": "gov-benefit-611000019632",
-      "sourceId": "611000019632",
-      "title": "기후동행카드",
-      "field": "문화·환경",
-      "provider": "서울특별시",
-      "providerType": "서울시",
-      "district": "서울특별시",
+      "id": "gov-benefit-304000000108",
+      "sourceId": "304000000108",
+      "title": "첫돌(출산)축하금 지원",
+      "field": "임신·출산",
+      "provider": "서울특별시 광진구",
+      "providerType": "자치구",
+      "district": "광진구",
+      "userType": "개인",
+      "deadlineText": "출생일 기준 1년 경과 후 6개월 이내",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "2025. 1. 1.이후 출생아로 출생일 포함하여 지원일까지 계속하여 동일세대로 광진구 거주하고 있는 부모 또는 보호자",
+      "summary": "서울특별시 광진구에서 제공하는 임신·출산 혜택입니다. 2025. 1. 1.이후 출생아, 1년 뒤 첫돌축하금 신청.",
+      "supportType": "이용권",
+      "supportSummary": "첫돌축하금 지원\n지원연령 : 2025. 1. 1.이후 출생아\n지원대상 : 출생일 포함하여 지원일까지 계속하여 동일세대로 광진구에 거주하고 있는 부모 또는 보호자\n신청방법 : 출생일 기준 1년 경과 후 6개월 이내 동주민센터 방문 접수\n지원내용 : 첫째 둘째 셋째 10…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000108",
+      "onlineUrl": "",
+      "inquiry": [
+        "광진구 가정복지과/02-450-7079"
+      ],
+      "updatedAt": "2026-09-05",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-322000000108",
+      "sourceId": "322000000108",
+      "title": "남성 난임 지원",
+      "field": "임신·출산",
+      "provider": "서울특별시 강남구",
+      "providerType": "자치구",
+      "district": "강남구",
       "userType": "개인",
       "deadlineText": "상시신청",
       "deadlineSortKey": "9999-12-31",
       "isAlwaysOpen": true,
-      "targetSummary": "서울시 대중교통, 따릉이, 한강버스를 이용하는 전국민 대상\n(단, 다자녀 부모 및 저소득 할인은 서울특별시 및 경기도 김포시, 남양주시, 구리시, 과천시, 고양시, 성남시, 하남시에 주민등록된 주민에 한함)",
-      "summary": "서울특별시에서 제공하는 문화·환경 혜택입니다. 승용차 이용을 대중교통으로 전환하기 위한 교통수요관리 정책\n시민의 이동권 보장을 위한 적극적 교통복지 정책",
-      "supportType": "이용권",
-      "supportSummary": "- 이용범위(상세 서비스 범위는 홈페이지 URL 내 '서비스범위 검색' 화면에서 확인)\n서울지역 지하철(신분당선, GTX 등 일부노선 제외), 서울시 면허 시내·마을버스, 따릉이, 한강버스\n\n\n- 권종분류\n30일권: 버스+지하철(62,000원) / 버스+지하철+따릉이…",
+      "targetSummary": "○ 주민등록상 강남구 거주 난임부부 중 정액검사상 이상소견이 있는 남성",
+      "summary": "서울특별시 강남구에서 제공하는 임신·출산 혜택입니다. 난임부부 중 남성에게 검진 비용 지원",
+      "supportType": "서비스(의료)",
+      "supportSummary": "○ 남성 난임 검진 상담 및 비용(일부본인부담금 및 비급여) 지원",
       "receptionAgency": "접수기관 정보 없음",
       "applicationMethodTypes": [
-        "신청불필요"
+        "정부24온라인신청",
+        "방문신청"
       ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000019632",
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/322000000108",
       "onlineUrl": "",
       "inquiry": [
-        "서울특별시 교통정책과/02-2133-2592"
+        "건강관리과/02-3423-7278"
       ],
       "updatedAt": "2026-09-04",
-      "registeredAt": "2025-09-06"
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-321000000118",
+      "sourceId": "321000000118",
+      "title": "장애인 치과치료 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 서초구",
+      "providerType": "자치구",
+      "district": "서초구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 장애인",
+      "summary": "서울특별시 서초구에서 제공하는 보건·의료 혜택입니다. 장애와 경제적 어려움 등으로 의료 사각지대에 있는 장애인들에게 진료비 부담없는 양질의 치과진료를 제공하여 장애인의 구강건강 증진",
+      "supportType": "서비스(의료)",
+      "supportSummary": "○ 장애인 치과진료 실시",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/321000000118",
+      "onlineUrl": "",
+      "inquiry": [
+        "의료지원과/02-2155-8107"
+      ],
+      "updatedAt": "2026-09-04",
+      "registeredAt": "2021-09-23"
     },
     {
       "id": "gov-benefit-315000000109",
@@ -10018,34 +10077,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-321000000118",
-      "sourceId": "321000000118",
-      "title": "장애인 치과치료 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 서초구",
-      "providerType": "자치구",
-      "district": "서초구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 장애인",
-      "summary": "서울특별시 서초구에서 제공하는 보건·의료 혜택입니다. 장애와 경제적 어려움 등으로 의료 사각지대에 있는 장애인들에게 진료비 부담없는 양질의 치과진료를 제공하여 장애인의 구강건강 증진",
-      "supportType": "서비스(의료)",
-      "supportSummary": "○ 장애인 치과진료 실시",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/321000000118",
-      "onlineUrl": "",
-      "inquiry": [
-        "의료지원과/02-2155-8107"
-      ],
-      "updatedAt": "2026-08-11",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-321000000105",
       "sourceId": "321000000105",
       "title": "취약계층 인플루엔자 예방접종 지원",
@@ -13730,35 +13761,6 @@
       "inquiry": [
         "건강관리과/02-3423-7230",
         "건강관리과/02-3423-7261"
-      ],
-      "updatedAt": "2026-08-07",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-322000000108",
-      "sourceId": "322000000108",
-      "title": "남성 난임 지원",
-      "field": "임신·출산",
-      "provider": "서울특별시 강남구",
-      "providerType": "자치구",
-      "district": "강남구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 주민등록상 강남구 거주 난임부부 중 정액검사상 이상소견이 있는 남성",
-      "summary": "서울특별시 강남구에서 제공하는 임신·출산 혜택입니다. 난임부부 중 남성에게 검진 비용 지원",
-      "supportType": "서비스(의료)",
-      "supportSummary": "○ 남성 난임 검진 상담 및 비용(일부본인부담금 및 비급여) 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/322000000108",
-      "onlineUrl": "",
-      "inquiry": [
-        "건강관리과/02-3423-7278"
       ],
       "updatedAt": "2026-08-07",
       "registeredAt": "2021-09-23"
@@ -28532,36 +28534,6 @@
         "여성보육과/02-2155-6698"
       ],
       "updatedAt": "2026-07-06",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-317000000114",
-      "sourceId": "317000000114",
-      "title": "타 시·도 초·중·고등학교 신입생 입학준비금 지원",
-      "field": "보육·교육",
-      "provider": "서울특별시 금천구",
-      "providerType": "자치구",
-      "district": "금천구",
-      "userType": "개인",
-      "deadlineText": "2026.07.13~2026.09.04",
-      "deadlineSortKey": "2026-09-04",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 아래 요건에 모두 부합하는 경우 지원\n - 금천구에 주민등록을 두고(외국인의 경우 체류지가 금천구인 자)\n - 서울시 외 타 시·도 중고등학교에 입학하였으며\n - 타 시·도 및 교육청에서 교복구입비 등(유사한 취지의 지원금)을 지급받지 않은 자",
-      "summary": "서울특별시 금천구에서 제공하는 보육·교육 혜택입니다. 초·중·고등학교 신입생에게 입학준비금 지원",
-      "supportType": "현금",
-      "supportSummary": "○ 금천구에 주민등록을 두고 서울시 외 타 시·도 중·고등학교에 입학하는 신입생에게 (초등학생 20만원,  중·고등학생 30만원 상당) \n     제로페이모바일상품권을 입학준비금으로 지급\n\n ※ 단, 타 시·도 및 교육청에서 교복구입비를 지원받은 경우 지원대상 제외",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/317000000114",
-      "onlineUrl": "",
-      "inquiry": [
-        "교육지원과/02-2627-1192"
-      ],
-      "updatedAt": "2026-07-02",
       "registeredAt": "2021-09-23"
     },
     {
