@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-09-06T09:09:51+09:00",
+  "lastGeneratedAt": "2026-09-07T09:14:31+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -3001,9 +3001,9 @@
         "이색미술관"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-08-24T07:50:10+09:00",
-      "usedAt": null
+      "usedAt": "2026-09-07T09:14:31+09:00"
     },
     {
       "id": "seoul-analog-lp-listening-spaces",
