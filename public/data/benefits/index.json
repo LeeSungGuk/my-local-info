@@ -10,9 +10,9 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-09-08T00:37:33.940Z",
+    "collectedAt": "2026-09-09T00:28:29.905Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10956,
+    "availableCount": 10955,
     "fetchedCount": 1142,
     "activeCount": 1104,
     "expiredCount": 38,
@@ -39,6 +39,7 @@
       "supportSummary": "[ 유축기 대여 서비스]\n- 제품구성 : 유축기 본체(시밀레 S6) + 소모품(전용 깔대기, 튜브, 젖병) \n-  유축기 수령일로부터 1개월 무료 대여 ( 기간연장 시 20,000원/월 비용 발생) \n-  유축기 업체에서 만기 3일전 안내 문자 발송 -> 반납 또는…",
       "receptionAgency": "접수기관 정보 없음",
       "applicationMethodTypes": [
+        "정부24온라인신청",
         "방문신청"
       ],
       "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/322000000127",
@@ -47,8 +48,179 @@
         "강남구 보건소 사랑맘센터/02-3423-7245",
         "강남구 보건소 사랑맘센터/02-3423-7245"
       ],
-      "updatedAt": "2026-09-07",
+      "updatedAt": "2026-09-08",
       "registeredAt": "2026-08-06"
+    },
+    {
+      "id": "gov-benefit-315000000113",
+      "sourceId": "315000000113",
+      "title": "학대피해아동 심리검사 및 의료비 지원",
+      "field": "보호·돌봄",
+      "provider": "서울특별시 강서구",
+      "providerType": "자치구",
+      "district": "강서구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "만18세 미만의 학대피해아동",
+      "summary": "서울특별시 강서구에서 제공하는 보호·돌봄 혜택입니다. 학대피해아동에 대한 적극적인 조사 및 보호를 통해 아동의 안정적인 성장환경 조성 및 권리 증진 도모",
+      "supportType": "서비스(의료)",
+      "supportSummary": "학대피해아동에 대한 치료비용, 심리치료 및 검사비용",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "신청불필요"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000113",
+      "onlineUrl": "",
+      "inquiry": [
+        "아동청소년과/02-2600-5389"
+      ],
+      "updatedAt": "2026-09-08",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-320000000299",
+      "sourceId": "320000000299",
+      "title": "관악구 깡충깡충 성장양육지원금",
+      "field": "임신·출산",
+      "provider": "서울특별시 관악구",
+      "providerType": "자치구",
+      "district": "관악구",
+      "userType": "개인",
+      "deadlineText": "대상영유아의 생일부터 6개월 이내 신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "2세, 3세, 4세 대상영유아의 보호자  (※ 2가지 요건 충족한 자)\n\n1. 대상 영유아 : 관악구에 주민등록을 두고 실제 거주하는 2세, 3세, 4세\n\n2. 보호자 : 대상 영유아의 지원대상이 되는 날(생일도래일)을 기준으로 6개월 전부터 계속하여 관악구에 주민등…",
+      "summary": "서울특별시 관악구에서 제공하는 임신·출산 혜택입니다. 2세, 3세, 4세 영유아에 대한 깡충깡충 성장양육지원금(관악사랑상품권) 지원을 통해 경제적 부담 경감 및 출산장려 분위기 조성",
+      "supportType": "현물",
+      "supportSummary": "지원금액: 해당연령 각 1회  관악사랑상품권 30만 원 지원\n\n지급방법 : 신청인 본인 명의 핸드폰에 모바일 서울 pay+앱을 통해 관악사랑상품권 지급\n\n지급일자: 신청일 기준 익월 20일",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000299",
+      "onlineUrl": "",
+      "inquiry": [
+        "성평등가족과/02-879-6133"
+      ],
+      "updatedAt": "2026-09-08",
+      "registeredAt": "2024-08-07"
+    },
+    {
+      "id": "gov-benefit-O00022600041",
+      "sourceId": "O00022600041",
+      "title": "문화체육시설 이용요금  감면(제대군인)",
+      "field": "문화·환경",
+      "provider": "광진구시설관리공단",
+      "providerType": "자치구",
+      "district": "광진구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "군 복무를 직업으로 한 제대군인 본인\n- 지역 범위: 광진문화예술회관, 광진구민체육센터, 중곡문화체육센터, 자양문화체육센터 등 공단 문화·체육시설 이용자\n- 제외대상: 증빙서류를 제출하지 않거나 해당 프로그램이 감면 제외 프로그램인 경우",
+      "summary": "광진구시설관리공단에서 제공하는 문화·환경 혜택입니다. 문화체육시설 이용요금 감면(30%)",
+      "supportType": "현금(감면)",
+      "supportSummary": "광진구시설관리공단 문화·체육시설 이용자가 중장기 복무 제대군인 요건을 충족하는 경우 해당 강좌 또는 시설 이용료의 30%를 감면하는 서비스입니다.\n- 다른 할인과 중복 적용되지 않으며, 특화강좌·소그룹강좌 등 일부 프로그램은 감면에서 제외될 수 있습니다.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022600041",
+      "onlineUrl": "",
+      "inquiry": [
+        "광진문화예술회관/02-2049-4570"
+      ],
+      "updatedAt": "2026-09-08",
+      "registeredAt": "2025-10-29"
+    },
+    {
+      "id": "gov-benefit-304000000199",
+      "sourceId": "304000000199",
+      "title": "대상포진 예방접종 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 광진구",
+      "providerType": "자치구",
+      "district": "광진구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 광진구민  65세 이상 기초생활수급자 및 75세 이상 중 대상포진 예방접종 미접종자",
+      "summary": "서울특별시 광진구에서 제공하는 보건·의료 혜택입니다. 광진구민 65세 이상 기초생활수급자 및 75세 이상  대상포진 예방접종 1회 지원",
+      "supportType": "서비스(의료)",
+      "supportSummary": "○ 대상포진 예방접종 1회 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000199",
+      "onlineUrl": "",
+      "inquiry": [
+        "건강관리과/02-450-1964"
+      ],
+      "updatedAt": "2026-09-08",
+      "registeredAt": "2022-07-14"
+    },
+    {
+      "id": "gov-benefit-O00022600038",
+      "sourceId": "O00022600038",
+      "title": "거주자우선주차 요금감면(참전유공자)",
+      "field": "생활안정",
+      "provider": "광진구시설관리공단",
+      "providerType": "자치구",
+      "district": "광진구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "광진구 거주자우선주차 신청 자격을 갖추고 신청자 본인이 참전유공자이고 해당 차량을 직접 소유하는 경우\n- 지역 범위: 서울특별시 광진구 거주자 또는 광진구 소재 사업자·재직자 중 거주자우선주차 신청자\n- 제외대상: 자격 증빙이 없거나 차량 소유·사용 요건을 충족하지…",
+      "summary": "광진구시설관리공단에서 제공하는 생활안정 혜택입니다. 참전유공자에게 거주자우선주차 요금 감면(80%)",
+      "supportType": "현금(감면)",
+      "supportSummary": "광진구 거주자우선주차 구획 배정자가 참전유공자 요건을 충족하는 경우 월 주차요금의 80%를 감면하여 주차비 부담을 줄이는 서비스입니다.\n- 거주자우선주차 기본요금은 전일 월 40,000원, 주간 월 30,000원, 야간 월 20,000원이며 노외주차장은 급지별 금액이…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022600038",
+      "onlineUrl": "https://pk.gwangjin.or.kr/Account/Login",
+      "inquiry": [
+        "광진구시설관리공단 주차사업부/02-2049-4540"
+      ],
+      "updatedAt": "2026-09-08",
+      "registeredAt": "2025-01-22"
+    },
+    {
+      "id": "gov-benefit-321000000118",
+      "sourceId": "321000000118",
+      "title": "장애인 치과치료 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 서초구",
+      "providerType": "자치구",
+      "district": "서초구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 전국 장애인(복지카드 소지자)",
+      "summary": "서울특별시 서초구에서 제공하는 보건·의료 혜택입니다. 장애와 경제적 어려움 등으로 의료 사각지대에 있는 장애인들에게 진료비 부담없는 양질의 치과진료를 제공하여 장애인의 구강건강 증진",
+      "supportType": "서비스(의료)",
+      "supportSummary": "○ 장애인 치과진료 지원(무료 또는 정액제)",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/321000000118",
+      "onlineUrl": "",
+      "inquiry": [
+        "의료지원과/02-2155-8107"
+      ],
+      "updatedAt": "2026-09-08",
+      "registeredAt": "2021-09-23"
     },
     {
       "id": "gov-benefit-308000000118",
@@ -194,36 +366,6 @@
       "registeredAt": "2025-01-23"
     },
     {
-      "id": "gov-benefit-320000000299",
-      "sourceId": "320000000299",
-      "title": "관악구 깡충깡충 성장양육지원금",
-      "field": "임신·출산",
-      "provider": "서울특별시 관악구",
-      "providerType": "자치구",
-      "district": "관악구",
-      "userType": "개인",
-      "deadlineText": "대상영유아의 생일부터 6개월 이내 신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "2세, 3세, 4세 대상영유아의 보호자  (※ 2가지 요건 충족한 자)\n\n1. 대상 영유아 : 관악구에 주민등록을 두고 실제 거주하는 2세, 3세, 4세\n\n2. 보호자 : 대상 영유아의 지원대상이 되는 날(생일도래일)을 기준으로 6개월 전부터 계속하여 관악구에 주민등…",
-      "summary": "서울특별시 관악구에서 제공하는 임신·출산 혜택입니다. 2세, 3세, 4세 영유아에 대한 깡충깡충 성장양육지원금(관악사랑상품권) 지원을 통해 경제적 부담 경감 및 출산장려 분위기 조성",
-      "supportType": "현물",
-      "supportSummary": "지원금액: 해당연령 각 1회  관악사랑상품권 30만 원 지원\n\n지급방법 : 신청인 본인 명의 핸드폰에 모바일 서울 pay+앱을 통해 관악사랑상품권 지급\n\n지급일자: 신청일 기준 익월 20일",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000299",
-      "onlineUrl": "",
-      "inquiry": [
-        "성평등가족과/02-879-6133"
-      ],
-      "updatedAt": "2026-09-05",
-      "registeredAt": "2024-08-07"
-    },
-    {
       "id": "gov-benefit-304000000108",
       "sourceId": "304000000108",
       "title": "첫돌(출산)축하금 지원",
@@ -305,35 +447,6 @@
       "onlineUrl": "",
       "inquiry": [
         "건강관리과/02-3423-7278"
-      ],
-      "updatedAt": "2026-09-04",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-321000000118",
-      "sourceId": "321000000118",
-      "title": "장애인 치과치료 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 서초구",
-      "providerType": "자치구",
-      "district": "서초구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 장애인",
-      "summary": "서울특별시 서초구에서 제공하는 보건·의료 혜택입니다. 장애와 경제적 어려움 등으로 의료 사각지대에 있는 장애인들에게 진료비 부담없는 양질의 치과진료를 제공하여 장애인의 구강건강 증진",
-      "supportType": "서비스(의료)",
-      "supportSummary": "○ 장애인 치과진료 실시",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/321000000118",
-      "onlineUrl": "",
-      "inquiry": [
-        "의료지원과/02-2155-8107"
       ],
       "updatedAt": "2026-09-04",
       "registeredAt": "2021-09-23"
@@ -11447,34 +11560,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-O00022600041",
-      "sourceId": "O00022600041",
-      "title": "문화체육시설 이용요금  감면(제대군인)",
-      "field": "문화·환경",
-      "provider": "광진구시설관리공단",
-      "providerType": "자치구",
-      "district": "광진구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "중장기 복무 제대군인",
-      "summary": "광진구시설관리공단에서 제공하는 문화·환경 혜택입니다. 문화체육시설 이용요금 감면(30%)",
-      "supportType": "현금(감면)",
-      "supportSummary": "중장기 복무 제대군인 문화체육시설 이용요금 감면(30%)",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022600041",
-      "onlineUrl": "",
-      "inquiry": [
-        "광진문화예술회관/02-2049-4570"
-      ],
-      "updatedAt": "2026-08-10",
-      "registeredAt": "2025-10-29"
-    },
-    {
       "id": "gov-benefit-O00022600034",
       "sourceId": "O00022600034",
       "title": "문화체육시설 이용요금 감면(2자녀)",
@@ -11839,34 +11924,6 @@
       "registeredAt": "2021-11-05"
     },
     {
-      "id": "gov-benefit-304000000199",
-      "sourceId": "304000000199",
-      "title": "대상포진 예방접종 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 광진구",
-      "providerType": "자치구",
-      "district": "광진구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 광진구민  65세 이상 기초생활수급자 중 대상포진 예방접종 미접종자",
-      "summary": "서울특별시 광진구에서 제공하는 보건·의료 혜택입니다. 광진구민 65세 이상 기초생활수급자 중 미접종자에게 대상포진 예방접종 1회 지원",
-      "supportType": "서비스(의료)",
-      "supportSummary": "○ 대상포진 예방접종 1회 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000199",
-      "onlineUrl": "",
-      "inquiry": [
-        "건강관리과/02-450-1964"
-      ],
-      "updatedAt": "2026-08-10",
-      "registeredAt": "2022-07-14"
-    },
-    {
       "id": "gov-benefit-304000000170",
       "sourceId": "304000000170",
       "title": "방역소독 서비스",
@@ -12117,34 +12174,6 @@
       ],
       "updatedAt": "2026-08-10",
       "registeredAt": "2022-07-15"
-    },
-    {
-      "id": "gov-benefit-O00022600038",
-      "sourceId": "O00022600038",
-      "title": "거주자우선주차 요금감면(참전유공자)",
-      "field": "생활안정",
-      "provider": "광진구시설관리공단",
-      "providerType": "자치구",
-      "district": "광진구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "참전유공자",
-      "summary": "광진구시설관리공단에서 제공하는 생활안정 혜택입니다. 참전유공자에게 거주자우선주차 요금 감면(20%)",
-      "supportType": "현금(감면)",
-      "supportSummary": "주차요금 감면(20%)",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022600038",
-      "onlineUrl": "https://pk.gwangjin.or.kr/Account/Login",
-      "inquiry": [
-        "광진구시설관리공단 주차사업부/02-2049-4540"
-      ],
-      "updatedAt": "2026-08-10",
-      "registeredAt": "2025-01-22"
     },
     {
       "id": "gov-benefit-O00022600039",
@@ -24270,34 +24299,6 @@
       ],
       "updatedAt": "2026-07-29",
       "registeredAt": "2023-11-09"
-    },
-    {
-      "id": "gov-benefit-315000000113",
-      "sourceId": "315000000113",
-      "title": "학대피해아동 심리검사 및 의료비 지원",
-      "field": "보호·돌봄",
-      "provider": "서울특별시 강서구",
-      "providerType": "자치구",
-      "district": "강서구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "만18세 미만의 학대피해아동",
-      "summary": "서울특별시 강서구에서 제공하는 보호·돌봄 혜택입니다. 학대피해아동에 대한 적극적인 조사 및 보호를 통해 아동의 안정적인 성장환경 조성 및 권리 증진 도모",
-      "supportType": "서비스(의료)",
-      "supportSummary": "학대피해아동에 대한 치료비용, 심리치료 및 검사비용",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "신청불필요"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000113",
-      "onlineUrl": "",
-      "inquiry": [
-        "아동청소년과/02-2600-5389"
-      ],
-      "updatedAt": "2026-07-29",
-      "registeredAt": "2021-09-23"
     },
     {
       "id": "gov-benefit-315000000291",

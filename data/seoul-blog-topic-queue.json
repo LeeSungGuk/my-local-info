@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-09-08T09:37:46+09:00",
+  "lastGeneratedAt": "2026-09-09T09:28:43+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -3043,9 +3043,9 @@
         "힐링스팟"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-09-02T09:26:38+09:00",
-      "usedAt": null
+      "usedAt": "2026-09-09T09:28:43+09:00"
     },
     {
       "id": "seoul-cozy-late-night-cafes",
