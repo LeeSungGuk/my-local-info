@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-09-09T09:28:43+09:00",
+  "lastGeneratedAt": "2026-09-10T09:28:17+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -3064,9 +3064,9 @@
         "밤산책코스"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-09-02T09:26:38+09:00",
-      "usedAt": null
+      "usedAt": "2026-09-10T09:28:17+09:00"
     },
     {
       "id": "seoul-sensory-perfume-showrooms",
@@ -3171,6 +3171,153 @@
       "origin": "ai",
       "status": "pending",
       "createdAt": "2026-09-02T09:26:38+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-historic-secondhand-bookstores",
+      "titleHint": "종이 냄새 가득한 책장에서 보물찾기, 오랜 세월을 품어온 서울의 대표 헌책방",
+      "topicCategory": "생활취향",
+      "angle": "세월의 흔적이 묻은 고서와 구하기 힘든 절판본을 만나는 서울의 아날로그 서점",
+      "places": [
+        "중구 청계천 헌책방거리",
+        "마포구 신촌 글벗서점",
+        "종로구 혜화동 동양서림"
+      ],
+      "tags": [
+        "헌책방",
+        "아날로그감성",
+        "북투어",
+        "서울책방"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-09-10T09:28:17+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-curated-indie-bookshops",
+      "titleHint": "책방지기의 확고한 취향을 읽다, 독특한 독립 출판물로 가득한 서울 큐레이션 서점",
+      "topicCategory": "생활취향",
+      "angle": "대형 서점에서는 볼 수 없는 마이너한 주제와 개성 넘치는 독립 출판 문화를 만나는 공간",
+      "places": [
+        "마포구 연남동 유어마인드",
+        "용산구 해방촌 스토리지북앤필름",
+        "종로구 통의동 역사책방"
+      ],
+      "tags": [
+        "독립서점",
+        "큐레이션책방",
+        "동네서점",
+        "독서취향"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-09-10T09:28:17+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-indoor-botanical-greenhouses",
+      "titleHint": "사계절 내내 푸르른 힐링 아지트, 비가 와도 쾌적하게 걷는 서울 실내 온실 정원",
+      "topicCategory": "실내대안",
+      "angle": "날씨와 계절에 구애받지 않고 싱그러운 열대 식물과 꽃들을 감상할 수 있는 유리온실 코스",
+      "places": [
+        "강서구 마곡 서울식물원 온실",
+        "종로구 창경궁 대온실",
+        "성동구 서울숲 곤충식물원"
+      ],
+      "tags": [
+        "실내데이트",
+        "식물원온실",
+        "비오는날갈만한곳",
+        "힐링코스"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-09-10T09:28:17+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-free-contemporary-art-galleries",
+      "titleHint": "예술적 영감을 채우는 골목길 투어, 예약 없이 부담 없이 들르는 서울의 무료 현대미술 갤러리",
+      "topicCategory": "문화생활",
+      "angle": "번잡한 대형 미술관 대신 한적한 골목길 사이에서 신진 작가들의 현대미술을 무료로 감상하는 산책 코스",
+      "places": [
+        "종로구 사간동 삼청동 갤러리거리",
+        "용산구 한남동 갤러리타운",
+        "강남구 신사동 송은"
+      ],
+      "tags": [
+        "무료전시",
+        "갤러리투어",
+        "현대미술",
+        "도심데이트"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-09-10T09:28:17+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-hidden-university-museums",
+      "titleHint": "상상 그 이상의 고퀄리티 유물과 전시, 누구나 자유롭게 관람하는 서울 대학 박물관",
+      "topicCategory": "무료코스",
+      "angle": "캠퍼스 낭만과 함께 수준 높은 예술품 및 역사적 자료를 조용히 관람할 수 있는 숨은 대학 미술관·박물관",
+      "places": [
+        "관악구 서울대학교 미술관 MoA",
+        "성북구 고려대학교 박물관",
+        "서대문구 이화여자대학교 박물관"
+      ],
+      "tags": [
+        "대학박물관",
+        "무료미술관",
+        "실내전시",
+        "숨은명소"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-09-10T09:28:17+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-industrial-alleys-creative-hubs",
+      "titleHint": "쇳가루 날리던 공장 골목의 힙한 변신, 서울의 과거와 현재가 공존하는 이색 산업유산 골목",
+      "topicCategory": "구별분위기",
+      "angle": "오래된 인쇄기, 재봉틀 소리가 울리던 기계식 골목에 젊은 창작자들이 모여 만든 독특한 로컬 분위기",
+      "places": [
+        "영등포구 문래창작촌 철공소골목",
+        "종로구 창신동 봉제골목",
+        "중구 필동·을지로 인쇄골목"
+      ],
+      "tags": [
+        "로컬골목길",
+        "뉴트로",
+        "골목길산책",
+        "힙플레이스"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-09-10T09:28:17+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-kidult-toy-collector-shops",
+      "titleHint": "잊고 있던 동심과 덕심을 깨우는 시간, 수집가들의 가슴을 뛰게 하는 서울 토이·피규어 숍",
+      "topicCategory": "생활취향",
+      "angle": "소장 가치 높은 빈티지 인형부터 한정판 피규어까지, 키덜트 어른이들의 소소한 취미 생활을 자극하는 공간",
+      "places": [
+        "종로구 창신동 문구완구거리",
+        "마포구 홍대 캐릭터소품숍거리",
+        "용산구 아이파크몰 토이앤하비"
+      ],
+      "tags": [
+        "키덜트",
+        "피규어숍",
+        "소품숍투어",
+        "덕질코스"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-09-10T09:28:17+09:00",
       "usedAt": null
     }
   ]
