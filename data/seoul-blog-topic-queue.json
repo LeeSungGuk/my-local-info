@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-09-10T09:28:17+09:00",
+  "lastGeneratedAt": "2026-09-11T09:25:41+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -3085,9 +3085,9 @@
         "감성공간"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-09-02T09:26:38+09:00",
-      "usedAt": null
+      "usedAt": "2026-09-11T09:25:41+09:00"
     },
     {
       "id": "seoul-classic-indie-cinemas",
