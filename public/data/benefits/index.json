@@ -10,17 +10,241 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-09-11T00:25:04.222Z",
+    "collectedAt": "2026-09-12T00:30:47.425Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10939,
-    "fetchedCount": 1140,
-    "activeCount": 1102,
+    "availableCount": 10936,
+    "fetchedCount": 1141,
+    "activeCount": 1103,
     "expiredCount": 38,
     "deduplicatedCount": 0,
     "filterMode": "서울 소관기관",
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-320000000102",
+      "sourceId": "320000000102",
+      "title": "으뜸관악 청년통장 지원",
+      "field": "고용·창업",
+      "provider": "서울특별시 관악구",
+      "providerType": "자치구",
+      "district": "관악구",
+      "userType": "개인",
+      "deadlineText": "2026.  6. 8.~6.19. 18:00까지",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 만 18세~34세 근로 청년",
+      "summary": "서울특별시 관악구에서 제공하는 고용·창업 혜택입니다. 만 18~34세 근로 청년에게 청년통장 지원",
+      "supportType": "현금",
+      "supportSummary": "○ 만 18세~34세 근로 청년을 대상으로 2년 또는 3년 본인적립금(15만원) 대비 근로장려금 100% 매칭 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000102",
+      "onlineUrl": "",
+      "inquiry": [
+        "청년정책과/02-879-5931"
+      ],
+      "updatedAt": "2026-09-12",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-322000000115",
+      "sourceId": "322000000115",
+      "title": "저소득 노인가구 국민건강보험료 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 강남구",
+      "providerType": "자치구",
+      "district": "강남구",
+      "userType": "개인",
+      "deadlineText": "건강보험공단에서 대상자 조사 후 어르신복지과로 지원 명단 제출",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 국민건강보험법에 따른 보험료 부과금액이 보건복지부장관이 고시한 지역가입자의 월별 보험료액의 하한액(2026년 기준 22,809원) 이하인 65세 이상 강남구 거주 노인 가구",
+      "summary": "서울특별시 강남구에서 제공하는 보건·의료 혜택입니다. 저소득 빈곤노인층 건강보호에 기여",
+      "supportType": "현금(보험)",
+      "supportSummary": "○ 건강보험료 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "신청불필요"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/322000000115",
+      "onlineUrl": "",
+      "inquiry": [
+        "어르신복지과/02-3423-5917"
+      ],
+      "updatedAt": "2026-09-11",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-324000000111",
+      "sourceId": "324000000111",
+      "title": "입양축하금 지원",
+      "field": "임신·출산",
+      "provider": "서울특별시 강동구",
+      "providerType": "자치구",
+      "district": "강동구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 국내입양에 관한 특별법에 따라 만18세 미만의 아동을 입양한 가정\n     - 입양 신고일 기준 6개월 이상 계속 우리구에 주민등록을 두고 실제 거주하고 있는 입양가정 \n       (장애아동의 경우 장애증명서 및 의사소견서 확인)",
+      "summary": "서울특별시 강동구에서 제공하는 임신·출산 혜택입니다. 아동입양자에게 입양축하금 지급",
+      "supportType": "현금",
+      "supportSummary": "○ 입양축하금 지원:  [일반입양아동] 1,000천원 / [장애입양아동] 2,000천원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/324000000111",
+      "onlineUrl": "",
+      "inquiry": [
+        "아동청소년과/02-3425-5777"
+      ],
+      "updatedAt": "2026-09-11",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-324000000101",
+      "sourceId": "324000000101",
+      "title": "지역화폐(강동사랑상품권)",
+      "field": "행정·안전",
+      "provider": "서울특별시 강동구",
+      "providerType": "자치구",
+      "district": "강동구",
+      "userType": "개인||소상공인",
+      "deadlineText": "상품권 할인발행시 구매 가능(명절 전)",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 만 14세 이상의 은행과 금융거래가 가능한 본인 명의의 스마트폰 소지자",
+      "summary": "서울특별시 강동구에서 제공하는 행정·안전 혜택입니다. 소비자에게 할인 및 소득공제 혜택, 가맹점에 수수료 절감 혜택 등 제공",
+      "supportType": "이용권",
+      "supportSummary": "○ 소비자\n - 구입 충전 시 할인 5%, 연말정산 시 소득공제 30%\n\n○ 가맹점 \n - 가맹점 결제수수료 0%, 가맹점 매출증대",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/324000000101",
+      "onlineUrl": "",
+      "inquiry": [
+        "지역경제과/02-3425-8724"
+      ],
+      "updatedAt": "2026-09-11",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-319000000105",
+      "sourceId": "319000000105",
+      "title": "아동학대 피해아동 응급의료비 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 동작구",
+      "providerType": "자치구",
+      "district": "동작구",
+      "userType": "개인",
+      "deadlineText": "아동학대전담공무원에게 유선 상담",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 아동학대 신고·조사 및 피해아동 보호 과정에서 의료지원이 필요한 아동\n\n- 아동학대 피해로 인하여 진료·검사·치료 등 의료조치가 필요한 아동\n- 아동학대 현장조사 및 보호조치 과정에서 건강상태 확인 또는 응급의료조치가 필요한 아동\n- 아동학대 신고·조사 중인 아동…",
+      "summary": "서울특별시 동작구에서 제공하는 보건·의료 혜택입니다. ○ 아동학대 피해(의심)아동에게 신속한 의료서비스 및 응급의료비를 지원하여 피해아동의 신체적·정신적 건강 회복과 안전한 보호를 도모",
+      "supportType": "서비스(의료)",
+      "supportSummary": "○ 아동학대 피해(의심)아동 중 응급한 의료조치가 필요한 아동에게 진료비 등 의료비를 지원하는 서비스\n\n- 아동학대 피해로 인한 신체적·정신적 상태 확인을 위한 진료·검사비 지원\n- 피해아동의 치료 및 응급의료조치에 소요되는 의료비 지원\n- 지원범위 및 지원금액은 의…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000105",
+      "onlineUrl": "",
+      "inquiry": [
+        "동작구청 아동청소년과/02-820-9265"
+      ],
+      "updatedAt": "2026-09-11",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-313000000110",
+      "sourceId": "313000000110",
+      "title": "취약계층 인플루엔자 예방접종 지원",
+      "field": "생활안정",
+      "provider": "서울특별시 마포구",
+      "providerType": "자치구",
+      "district": "마포구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 생계 · 의료급여 수급권자\n○ 장애 정도가 심한 장애인\n○ 국가유공자(본인)\n*15~64세(1962.1.1.~2011.12.31.) 마포구민",
+      "summary": "서울특별시 마포구에서 제공하는 생활안정 혜택입니다. 취약계층을 대상으로 인플루엔자 예방접종을 지원함으로써 구민의 건강증진을 도모하고자 함",
+      "supportType": "서비스(의료)",
+      "supportSummary": "○ 인플루엔자 3가 예방접종 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "신청불필요"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000110",
+      "onlineUrl": "",
+      "inquiry": [
+        "마포구보건소/02-3153-9091"
+      ],
+      "updatedAt": "2026-09-11",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-300000000103",
+      "sourceId": "300000000103",
+      "title": "장애인 자립생활주택 지원",
+      "field": "주거·자립",
+      "provider": "서울특별시 종로구",
+      "providerType": "자치구",
+      "district": "종로구",
+      "userType": "법인/시설/단체",
+      "deadlineText": "주택 공실 시, 별도 신청기간 안내",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 서울시 관할 장애인거주시설 이용인 중 지역자립욕구가 있는 19세 이상인 자 \n○ 서울시에 거주하는 19세이상인 재가장애인(차상위계층 또는 기초생활수급자)",
+      "summary": "서울특별시 종로구에서 제공하는 주거·자립 혜택입니다. 자립생활을 원하는 거주시설 및 재가장애인을 위한 자립생활주택 지원",
+      "supportType": "기타",
+      "supportSummary": "○ 서비스 개념 및 목적 \n - 장애인 당사자의 지역사회 자립생활 준비를 돕기 위해 1주택 2인 거주(1인 1실) 방식의 체험주택(최대 6년 거주)을 제공하고, 전담인력(코디네이터)을 통해 일상 및 지역사회 적응 과정을 체계적으로 지원하여 최종적인 지역사회 자립정착을…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000103",
+      "onlineUrl": "",
+      "inquiry": [
+        "사회복지과/02-2148-2568"
+      ],
+      "updatedAt": "2026-09-11",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-300000000104",
+      "sourceId": "300000000104",
+      "title": "지역화폐(종로사랑상품권)",
+      "field": "행정·안전",
+      "provider": "서울특별시 종로구",
+      "providerType": "자치구",
+      "district": "종로구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 지역화폐 구매자",
+      "summary": "서울특별시 종로구에서 제공하는 행정·안전 혜택입니다. ○ 시민의 경제적 부담 경감\n○ 소상공인 매출 증대",
+      "supportType": "이용권",
+      "supportSummary": "○ 서비스 개요: 종로사랑상품권 할인 판매\n\n○ 사업 목적 : 소상공인의 결제수수료 부담 경감 및 지역경제 활성화 유도\n\n○ 지원내용 : 서울Pay+ 앱을 통한 종로사랑상품권 모바일 발행\n\n○ 사용혜택 \n - 가맹점 : 모바일 상품권 결제 시 수수료 0%\n - 소비자…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000104",
+      "onlineUrl": "",
+      "inquiry": [
+        "일자리정책과/02-2148-2322"
+      ],
+      "updatedAt": "2026-09-11",
+      "registeredAt": "2021-09-23"
+    },
     {
       "id": "gov-benefit-324000000121",
       "sourceId": "324000000121",
@@ -504,35 +728,6 @@
       ],
       "updatedAt": "2026-09-10",
       "registeredAt": "2025-11-20"
-    },
-    {
-      "id": "gov-benefit-319000000105",
-      "sourceId": "319000000105",
-      "title": "아동학대 피해아동 응급의료비 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 동작구",
-      "providerType": "자치구",
-      "district": "동작구",
-      "userType": "개인",
-      "deadlineText": "아동학대전담공무원에게 유선 상담",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 만 18세 미만 아동학대 피해아동",
-      "summary": "서울특별시 동작구에서 제공하는 보건·의료 혜택입니다. 학대 피해 아동 응급의료비 지원은 만 18세 미만의 아동 중에서 아동학대로 의료적 처치가 필요한 피해 아동을 대상으로 합니다. 이 지원의 목적은 긴급한 필요를 충족시켜 아동의 안전과 건강을 지키는 데 있습니다. 따라서 지원을 받기 위해서는 다음과 같은 조건을 충족해야…",
-      "supportType": "서비스(의료)",
-      "supportSummary": "○ 아동학대 피해아동 응급의료비 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000105",
-      "onlineUrl": "",
-      "inquiry": [
-        "동작구청 아동여성과/02-820-9265",
-        "동작구청 아동여성과/02-820-9265"
-      ],
-      "updatedAt": "2026-09-10",
-      "registeredAt": "2021-09-23"
     },
     {
       "id": "gov-benefit-319000000122",
@@ -1499,34 +1694,6 @@
       ],
       "updatedAt": "2026-09-10",
       "registeredAt": "2025-07-11"
-    },
-    {
-      "id": "gov-benefit-313000000110",
-      "sourceId": "313000000110",
-      "title": "취약계층 인플루엔자 예방접종 지원",
-      "field": "생활안정",
-      "provider": "서울특별시 마포구",
-      "providerType": "자치구",
-      "district": "마포구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 생계 · 의료급여 수급권자\n○ 장애 정도가 심한 장애인\n○ 국가유공자(본인)\n*15~64세(1962.1.1.~2011.12.31.) 마포구민",
-      "summary": "서울특별시 마포구에서 제공하는 생활안정 혜택입니다. 취약계층을 대상으로 인플루엔자 예방접종을 지원함으로써 구민의 건강증진을 도모하고자 함",
-      "supportType": "서비스(의료)",
-      "supportSummary": "○ 인플루엔자 3가 예방접종 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "신청불필요"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000110",
-      "onlineUrl": "",
-      "inquiry": [
-        "마포구보건소/02-3153-9091"
-      ],
-      "updatedAt": "2026-09-10",
-      "registeredAt": "2021-09-23"
     },
     {
       "id": "gov-benefit-303000000311",
@@ -16033,34 +16200,6 @@
       "registeredAt": "2022-07-13"
     },
     {
-      "id": "gov-benefit-300000000104",
-      "sourceId": "300000000104",
-      "title": "지역화폐(종로사랑상품권)",
-      "field": "행정·안전",
-      "provider": "서울특별시 종로구",
-      "providerType": "자치구",
-      "district": "종로구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 지역화폐 구매자",
-      "summary": "서울특별시 종로구에서 제공하는 행정·안전 혜택입니다. ○ 시민의 경제적 부담 경감\n○ 소상공인 매출 증대",
-      "supportType": "이용권",
-      "supportSummary": "○ 종로사랑상품권 할인 판매",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000104",
-      "onlineUrl": "",
-      "inquiry": [
-        "일자리정책과/02-2148-2322"
-      ],
-      "updatedAt": "2026-08-07",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-308000000119",
       "sourceId": "308000000119",
       "title": "입양축하금 지원",
@@ -17560,34 +17699,6 @@
       "onlineUrl": "",
       "inquiry": [
         "장애인복지과/02-3423-5891"
-      ],
-      "updatedAt": "2026-08-05",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-322000000115",
-      "sourceId": "322000000115",
-      "title": "저소득 노인가구 국민건강보험료 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 강남구",
-      "providerType": "자치구",
-      "district": "강남구",
-      "userType": "개인",
-      "deadlineText": "건강보험공단에서 대상자 조사 후 어르신복지과로 지원 명단 제출",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 국민건강보험법에 따른 보험료 부과금액이 보건복지부장관이 고시한 지역가입자의 월별 보험료액의 하한액(2025년 기준 22,341원) 이하인 65세 이상 강남구 거주 노인 가구",
-      "summary": "서울특별시 강남구에서 제공하는 보건·의료 혜택입니다. 저소득 빈곤노인층 건강보호에 기여",
-      "supportType": "현금(보험)",
-      "supportSummary": "○ 건강보험료 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "신청불필요"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/322000000115",
-      "onlineUrl": "",
-      "inquiry": [
-        "어르신복지과/02-3423-5917"
       ],
       "updatedAt": "2026-08-05",
       "registeredAt": "2021-09-23"
@@ -23104,34 +23215,6 @@
       "registeredAt": "2022-07-12"
     },
     {
-      "id": "gov-benefit-300000000103",
-      "sourceId": "300000000103",
-      "title": "장애인 자립생활주택 지원",
-      "field": "주거·자립",
-      "provider": "서울특별시 종로구",
-      "providerType": "자치구",
-      "district": "종로구",
-      "userType": "법인/시설/단체",
-      "deadlineText": "주택 공실 시, 별도 신청기간 안내",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 서울시 관할 장애인거주시설 이용인 중 지역자립욕구가 있는 19세 이상인 자 \n○ 서울시에 거주하는 19세이상인 재가장애인(차상위계층 또는 기초생활수급자)",
-      "summary": "서울특별시 종로구에서 제공하는 주거·자립 혜택입니다. 자립생활을 원하는 거주시설 및 재가장애인을 위한 자립생활주택 지원",
-      "supportType": "기타",
-      "supportSummary": "○ 주거지원, 개인별지원 서비스 등",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000103",
-      "onlineUrl": "",
-      "inquiry": [
-        "사회복지과/02-2148-2568"
-      ],
-      "updatedAt": "2026-08-03",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-300000000160",
       "sourceId": "300000000160",
       "title": "쪽방주민 건강문화교육안전프로그램 운영지원 (2026년 지·덕·체 더하기 채움동행)",
@@ -26437,62 +26520,6 @@
       "onlineUrl": "",
       "inquiry": [
         "가족정책과/02-3425-5786"
-      ],
-      "updatedAt": "2026-07-28",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-324000000111",
-      "sourceId": "324000000111",
-      "title": "입양축하금 지원",
-      "field": "임신·출산",
-      "provider": "서울특별시 강동구",
-      "providerType": "자치구",
-      "district": "강동구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 국내입양에 관한 특별법에 따라 만18세 미만의 아동을 입양한 가정\n     - 입양 신고일 기준 6개월 이상 계속 우리구에 주민등록을 두고 실제 거주하고 있는 입양가정 \n       (장애아동의 경우 장애증명서 및 의사소견서 확인)",
-      "summary": "서울특별시 강동구에서 제공하는 임신·출산 혜택입니다. 아동입양자에게 입양축하금 지급",
-      "supportType": "현금",
-      "supportSummary": "○ 입양축하금 지원:  [일반입양아동] 1,000천원 / [장애입양아동] 2,000천원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/324000000111",
-      "onlineUrl": "",
-      "inquiry": [
-        "아동청소년과/02-3425-5777"
-      ],
-      "updatedAt": "2026-07-28",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-324000000101",
-      "sourceId": "324000000101",
-      "title": "지역화폐(강동사랑상품권)",
-      "field": "행정·안전",
-      "provider": "서울특별시 강동구",
-      "providerType": "자치구",
-      "district": "강동구",
-      "userType": "개인||소상공인",
-      "deadlineText": "상품권 할인발행시 구매 가능(명절 전)",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 만 14세 이상의 은행과 금융거래가 가능한 본인 명의의 스마트폰 소지자",
-      "summary": "서울특별시 강동구에서 제공하는 행정·안전 혜택입니다. 소비자에게 할인 및 소득공제 혜택, 가맹점에 수수료 절감 혜택 등 제공",
-      "supportType": "이용권",
-      "supportSummary": "○ 소비자\n - 구입 충전 시 할인 5%, 연말정산 시 소득공제 30%\n\n○ 가맹점 \n - 가맹점 결제수수료 0%, 가맹점 매출증대",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/324000000101",
-      "onlineUrl": "",
-      "inquiry": [
-        "지역경제과/02-3425-8724"
       ],
       "updatedAt": "2026-07-28",
       "registeredAt": "2021-09-23"
