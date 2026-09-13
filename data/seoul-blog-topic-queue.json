@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-09-12T09:31:10+09:00",
+  "lastGeneratedAt": "2026-09-13T09:10:34+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -3127,9 +3127,9 @@
         "도보여행"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-09-02T09:26:38+09:00",
-      "usedAt": null
+      "usedAt": "2026-09-13T09:10:34+09:00"
     },
     {
       "id": "seoul-hip-traditional-markets",
