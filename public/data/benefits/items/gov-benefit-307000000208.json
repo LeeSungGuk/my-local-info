@@ -11,9 +11,9 @@
   "deadlineSortKey": "9999-12-31",
   "isAlwaysOpen": false,
   "targetSummary": "65세 이상의 고령자 중 성북구 주민",
-  "summary": "서울특별시 성북구에서 제공하는 문화·환경 혜택입니다. 성북구 자치회관 이용시 65세 이상의 고령자 수강료 감면(20%)",
+  "summary": "서울특별시 성북구에서 제공하는 문화·환경 혜택입니다. 65세 이상 고령자의 수강료 부담을 경감하여 자치회관 이용 지원",
   "supportType": "현금(감면)",
-  "supportSummary": "성북구 자치회관 수강료 감면\n-대상 : 65세 이상의 고령자 중 성북구 주민\n-감면율 : 20%",
+  "supportSummary": "성북구 자치회관 이용 시  65세 이상의 고령자 중 성북구 주민에게 수강료의 20%를 감면하는 서비스입니다.",
   "receptionAgency": "접수기관 정보 없음",
   "applicationMethodTypes": [
     "방문신청"
@@ -23,14 +23,14 @@
   "inquiry": [
     "자치행정과/02-2241-2232"
   ],
-  "updatedAt": "2026-08-10",
+  "updatedAt": "2026-09-14",
   "registeredAt": "2025-12-17",
-  "viewCount": 296,
-  "collectedAt": "2026-09-12T00:30:47.425Z",
-  "purpose": "성북구 자치회관 이용시 65세 이상의 고령자 수강료 감면(20%)",
+  "viewCount": 298,
+  "collectedAt": "2026-09-15T00:50:32.372Z",
+  "purpose": "65세 이상 고령자의 수강료 부담을 경감하여 자치회관 이용 지원",
   "target": "65세 이상의 고령자 중 성북구 주민",
   "selectionCriteria": "",
-  "supportContent": "성북구 자치회관 수강료 감면\n-대상 : 65세 이상의 고령자 중 성북구 주민\n-감면율 : 20%",
+  "supportContent": "성북구 자치회관 이용 시  65세 이상의 고령자 중 성북구 주민에게 수강료의 20%를 감면하는 서비스입니다.",
   "applicationMethod": "방문신청",
   "documents": "자치회관 프로그램 신청서 및 증빙서류",
   "officialDocuments": "해당없음",

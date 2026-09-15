@@ -10,17 +10,999 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-09-12T00:30:47.425Z",
+    "collectedAt": "2026-09-15T00:50:32.372Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10936,
-    "fetchedCount": 1141,
+    "availableCount": 10928,
+    "fetchedCount": 1140,
     "activeCount": 1103,
-    "expiredCount": 38,
+    "expiredCount": 37,
     "deduplicatedCount": 0,
     "filterMode": "서울 소관기관",
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-322000000108",
+      "sourceId": "322000000108",
+      "title": "남성 난임 지원",
+      "field": "임신·출산",
+      "provider": "서울특별시 강남구",
+      "providerType": "자치구",
+      "district": "강남구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 주민등록상 강남구 거주 난임부부 중 정액검사상 이상소견이 있는 남성",
+      "summary": "서울특별시 강남구에서 제공하는 임신·출산 혜택입니다. 난임부부 중 남성에게 검진 비용 지원",
+      "supportType": "서비스(의료)",
+      "supportSummary": "○ 남성 난임 검진 상담 및 비용(일부본인부담금 및 비급여) 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/322000000108",
+      "onlineUrl": "",
+      "inquiry": [
+        "건강관리과/02-3423-7278"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-324000000106",
+      "sourceId": "324000000106",
+      "title": "입학축하금 지원",
+      "field": "보육·교육",
+      "provider": "서울특별시 강동구",
+      "providerType": "자치구",
+      "district": "강동구",
+      "userType": "개인",
+      "deadlineText": "입학 후 1년 이내 신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 강동구에 넷째 이상 입학대상 자녀와 주민등록상 동일세대를 구성하는 다자녀 가정의 넷째 이상 자녀가 초중고등학교에 입학하는 가정",
+      "summary": "서울특별시 강동구에서 제공하는 보육·교육 혜택입니다. 강동구에 거주하는 네자녀 이상 다자녀 가정에 지속적인 양육 지원을 통해 자녀 양육 부담을 경감하고 출산 장려 분위기를 조성하고자 함",
+      "supportType": "현금",
+      "supportSummary": "○ 넷째 이상의 입학대상 자녀와  강동구에 주민등록상 동일 세대 구성하고, 넷째 이상의 자녀가 초·중·고 입학시 입학축하금 50만원 지원\n - 입학일로부터 1년 이내 신청시 일시금 지급",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/324000000106",
+      "onlineUrl": "",
+      "inquiry": [
+        "가족정책과/02-3425-5786"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-324000000107",
+      "sourceId": "324000000107",
+      "title": "다자녀특별장려금 지원",
+      "field": "임신·출산",
+      "provider": "서울특별시 강동구",
+      "providerType": "자치구",
+      "district": "강동구",
+      "userType": "가구",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 막내가 만 6세 미만인 다자녀가정 중 세자녀가정은 세대당 월 10만원, 네자녀 이상 가정은 세대당 월 20만원 지원",
+      "summary": "서울특별시 강동구에서 제공하는 임신·출산 혜택입니다. 강동구에 거주하는 세자녀 이상 다자녀 가정에 지속적인 양육 지원을 통해 자녀 양육 부담을 경감하고 출산 장려 분위기를 조성하고자 함",
+      "supportType": "현금",
+      "supportSummary": "강동구 거주하는 세자녀가정은 가구당 월 10만원, 네자녀 이상 가정은 가구당 월 20만원을 막내가 6세되기 직전달까지 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/324000000107",
+      "onlineUrl": "",
+      "inquiry": [
+        "가족정책과/02-3425-5786"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-309000000136",
+      "sourceId": "309000000136",
+      "title": "취약계층 타이머형 가스안전차단기 보급",
+      "field": "행정·안전",
+      "provider": "서울특별시 도봉구",
+      "providerType": "자치구",
+      "district": "도봉구",
+      "userType": "가구",
+      "deadlineText": "매년 3~6월",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 안전취약계층(치매어르신, 장애인, 홀몸어르신 가구 등)",
+      "summary": "서울특별시 도봉구에서 제공하는 행정·안전 혜택입니다. 가스사고에 취약하고 경제적 여력이 부족한 치매어르신. 홀몸어르신. 장애인가구 등 취약계층 가구에 대한 가스안전장치를 설치·보급하여 가스사고 및 화재예방에 기여하고자 함.",
+      "supportType": "현물",
+      "supportSummary": "○ 안전취약계층 가구에 타이머형 가스안전차단기 설치지원으로 가스로 인한 화재예방",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/309000000136",
+      "onlineUrl": "",
+      "inquiry": [
+        "기후환경과/02-2091-3222"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-305000000283",
+      "sourceId": "305000000283",
+      "title": "(국가유공자)인플루엔자 백신 및 접종 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 동대문구",
+      "providerType": "자치구",
+      "district": "동대문구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "관내 지역주민 중 국가유공자 본인",
+      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 국가유공자 인플루엔자 예방접종 지원",
+      "supportType": "서비스(의료)",
+      "supportSummary": "○ 동대문구 취약계층(국가유공자) 인플루엔자 예방접종\n- 사업기간 : 2026. 10. 12.(월) ~ 2026. 12. 12.(토) (백신 소진 시 조기종료)\n- 지원대상 : 동대문구에 주민등록을 두고 있는 15세~64세 국가유공자 본인\n- 지원내용 : 인플루엔자…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000283",
+      "onlineUrl": "",
+      "inquiry": [
+        "건강관리과/02-2127-5194"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2025-12-09"
+    },
+    {
+      "id": "gov-benefit-305000000284",
+      "sourceId": "305000000284",
+      "title": "(기초생활수급자)인플루엔자 백신 및 접종 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 동대문구",
+      "providerType": "자치구",
+      "district": "동대문구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "15세~64세 동대문구민 중 기초생활수급자 인플루엔자 예방접종",
+      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 기초생활수급자 인플루엔자 예방접종 지원",
+      "supportType": "서비스(의료)",
+      "supportSummary": "○ 동대문구 취약계층(기초생활수급자) 인플루엔자 예방접종\n- 사업기간 : 2026. 10. 12.(월) ~ 2026. 12. 12.(토) (백신 소진 시 조기종료)\n- 지원대상 : 동대문구에 주민등록을 두고 있는 15세~64세 기초생활수급자\n- 지원내용 : 인플루엔자…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000284",
+      "onlineUrl": "",
+      "inquiry": [
+        "건강관리과/02-2127-5421"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2025-12-09"
+    },
+    {
+      "id": "gov-benefit-305000000282",
+      "sourceId": "305000000282",
+      "title": "(장애인)인플루엔자 백신 및 접종 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 동대문구",
+      "providerType": "자치구",
+      "district": "동대문구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "관내지역주민으로 15~64세 장애정도가 심한장애인(구1~3급)",
+      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 장애인 인플루엔자 예방접종 지원",
+      "supportType": "서비스(의료)",
+      "supportSummary": "○ 동대문구 취약계층(장애인) 인플루엔자 예방접종\n- 사업기간 : 2026. 10. 12.(월) ~ 2026. 12. 12.(토) (백신 소진 시 조기종료)\n- 지원대상 : 동대문구에 주민등록을 두고 있는 15세~64세 장애의 정도가 심한 장애인(구 1~3급)\n- 지…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000282",
+      "onlineUrl": "",
+      "inquiry": [
+        "건강관리과/02-2127-5194"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2025-12-09"
+    },
+    {
+      "id": "gov-benefit-319000000149",
+      "sourceId": "319000000149",
+      "title": "착한가격업소 지원",
+      "field": "생활안정",
+      "provider": "서울특별시 동작구",
+      "providerType": "자치구",
+      "district": "동작구",
+      "userType": "소상공인",
+      "deadlineText": "매년 상반기(3~4월) 하반기(8~9월)",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "동작구 소재지의 상시근로자 5인 미만의 소상공인 개인서비스업 자영업자",
+      "summary": "서울특별시 동작구에서 제공하는 생활안정 혜택입니다. 착한가격업소 운영 및 지원을 통한 서민경제생활 부담 완화 및 물가안정 분위기 확산",
+      "supportType": "현금",
+      "supportSummary": "-착한가격업소 지원 및 관리",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000149",
+      "onlineUrl": "",
+      "inquiry": [
+        "동작구청 상권활성화과/02-820-9331"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2023-11-14"
+    },
+    {
+      "id": "gov-benefit-307000000208",
+      "sourceId": "307000000208",
+      "title": "성북구 자치회관 수강료 감면(65세 이상의 고령자)",
+      "field": "문화·환경",
+      "provider": "서울특별시 성북구",
+      "providerType": "자치구",
+      "district": "성북구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "65세 이상의 고령자 중 성북구 주민",
+      "summary": "서울특별시 성북구에서 제공하는 문화·환경 혜택입니다. 65세 이상 고령자의 수강료 부담을 경감하여 자치회관 이용 지원",
+      "supportType": "현금(감면)",
+      "supportSummary": "성북구 자치회관 이용 시  65세 이상의 고령자 중 성북구 주민에게 수강료의 20%를 감면하는 서비스입니다.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000208",
+      "onlineUrl": "",
+      "inquiry": [
+        "자치행정과/02-2241-2232"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2025-12-17"
+    },
+    {
+      "id": "gov-benefit-307000000206",
+      "sourceId": "307000000206",
+      "title": "성북구 자치회관 수강료 감면(국가유공자)",
+      "field": "문화·환경",
+      "provider": "서울특별시 성북구",
+      "providerType": "자치구",
+      "district": "성북구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "「국가유공자 등 예우 및 지원에 관한 법률」에 따라 등록된 국가유공자 및 가족 중 성북구 주민",
+      "summary": "서울특별시 성북구에서 제공하는 문화·환경 혜택입니다. 국가유공자의 수강료 부담을 경감하여 자치회관 이용 지원",
+      "supportType": "현금(감면)",
+      "supportSummary": "성북구 자치회관 이용 시  「국가유공자 등 예우 및 지원에 관한 법률」에 따라 등록된 국가유공자 및 가족 중 성북구 주민에게 수강료의 50%를 감면하는 서비스입니다.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000206",
+      "onlineUrl": "",
+      "inquiry": [
+        "자치행정과/02-2241-2232"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2025-12-17"
+    },
+    {
+      "id": "gov-benefit-307000000207",
+      "sourceId": "307000000207",
+      "title": "성북구 자치회관 수강료 감면(다둥이 행복카드 소지자)",
+      "field": "문화·환경",
+      "provider": "서울특별시 성북구",
+      "providerType": "자치구",
+      "district": "성북구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "다둥이 행복카드 소지자 중 성북구 주민",
+      "summary": "서울특별시 성북구에서 제공하는 문화·환경 혜택입니다. 다자녀가정의 수강료 부담을 경감하여 자치회관 이용 지원",
+      "supportType": "현금(감면)",
+      "supportSummary": "성북구 자치회관 이용 시  다둥이 행복카드 소지자 중 성북구 주민에게 수강료의 50%를 감면하는 서비스입니다.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000207",
+      "onlineUrl": "",
+      "inquiry": [
+        "자치행정과/02-2241-2232"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2025-12-17"
+    },
+    {
+      "id": "gov-benefit-307000000203",
+      "sourceId": "307000000203",
+      "title": "성북구 자치회관 수강료 감면(수급자)",
+      "field": "문화·환경",
+      "provider": "서울특별시 성북구",
+      "providerType": "자치구",
+      "district": "성북구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "「국민기초생활 보장법」에 따른 수급자 중 성북구 주민",
+      "summary": "서울특별시 성북구에서 제공하는 문화·환경 혜택입니다. 수급자의 수강료 부담을 경감하여 자치회관 이용 지원",
+      "supportType": "현금(감면)",
+      "supportSummary": "성북구 자치회관 이용 시  「국민기초생활 보장법」에 따른 수급자 중 성북구 주민에게 수강료 전액(100%)을 감면하는 서비스입니다.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000203",
+      "onlineUrl": "",
+      "inquiry": [
+        "자치행정과/02-2241-2232"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2025-12-17"
+    },
+    {
+      "id": "gov-benefit-307000000205",
+      "sourceId": "307000000205",
+      "title": "성북구 자치회관 수강료 감면(장애인)",
+      "field": "문화·환경",
+      "provider": "서울특별시 성북구",
+      "providerType": "자치구",
+      "district": "성북구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "「장애인복지법」제2조의 장애인 중 성북구 주민",
+      "summary": "서울특별시 성북구에서 제공하는 문화·환경 혜택입니다. 장애인의 수강료 부담을 경감하여 자치회관 이용 지원",
+      "supportType": "현금(감면)",
+      "supportSummary": "성북구 자치회관 이용 시  「장애인복지법」 제2조의 장애인 중 성북구 주민에게 수강료의 50%를 감면하는 서비스입니다.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000205",
+      "onlineUrl": "",
+      "inquiry": [
+        "자치행정과/02-2241-2232"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2025-12-17"
+    },
+    {
+      "id": "gov-benefit-307000000204",
+      "sourceId": "307000000204",
+      "title": "성북구 자치회관 수강료 감면(한부모가족)",
+      "field": "문화·환경",
+      "provider": "서울특별시 성북구",
+      "providerType": "자치구",
+      "district": "성북구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "「한부모가족지원법」에 의한 보호대상자 중 성북구 주민",
+      "summary": "서울특별시 성북구에서 제공하는 문화·환경 혜택입니다. 한부모가족의 수강료 부담을 경감하여 자치회관 이용 지원",
+      "supportType": "현금(감면)",
+      "supportSummary": "성북구 자치회관 이용 시  「한부모가족지원법」에 의한 보호대상자 중 성북구 주민에게 수강료 전액(100%)을 감면하는 서비스입니다.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000204",
+      "onlineUrl": "",
+      "inquiry": [
+        "자치행정과/02-2241-2232"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2025-12-17"
+    },
+    {
+      "id": "gov-benefit-307000000218",
+      "sourceId": "307000000218",
+      "title": "성북구 육아종합센터 이용료 및 사용료 감면(경로우대자)",
+      "field": "보육·교육",
+      "provider": "서울특별시 성북구",
+      "providerType": "자치구",
+      "district": "성북구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "「노인복지법」에 따른 경로우대자",
+      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 경로우대자의 수강료 부담을 경감하여 육아종합센터 이용 지원",
+      "supportType": "현금(감면)",
+      "supportSummary": "성북구 육아종합센터 이용 시  「노인복지법」에 따른 경로우대자에게 이용료 및 사용료의 50%를 감면하는 서비스입니다.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000218",
+      "onlineUrl": "",
+      "inquiry": [
+        "여성가족과/02-2241-2564"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2025-12-18"
+    },
+    {
+      "id": "gov-benefit-307000000217",
+      "sourceId": "307000000217",
+      "title": "성북구 육아종합센터 이용료 및 사용료 감면(국가유공자)",
+      "field": "보육·교육",
+      "provider": "서울특별시 성북구",
+      "providerType": "자치구",
+      "district": "성북구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "「국가유공자 등 예우 및 지원에 관한 법률」에 따라 등록된 국가유공자(직계가족 포함)",
+      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 국가유공자의 이용료 부담을 경감하여 육아종합센터 이용 지원",
+      "supportType": "현금(감면)",
+      "supportSummary": "성북구 육아종합센터 이용 시  「국가유공자 등 예우 및 지원에 관한 법률」에 따라 등록된 국가유공자(직계가족 포함)에게 이용료 및 사용료 전액(100%)을 감면하는 서비스입니다.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000217",
+      "onlineUrl": "",
+      "inquiry": [
+        "여성가족과/02-2241-2564"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2025-12-18"
+    },
+    {
+      "id": "gov-benefit-307000000219",
+      "sourceId": "307000000219",
+      "title": "성북구 육아종합센터 이용료 및 사용료 감면(다둥이 행복카드 소지자)",
+      "field": "보육·교육",
+      "provider": "서울특별시 성북구",
+      "providerType": "자치구",
+      "district": "성북구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "다둥이 행복카드 소지자",
+      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 다자녀가정의 이용료 부담을 경감하여 육아종합센터 이용 지원",
+      "supportType": "현금(감면)",
+      "supportSummary": "성북구 육아종합센터 이용 시 다둥이 행복카드 소지자에게 이용료 및 사용료의 50%를 감면하는 서비스입니다.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000219",
+      "onlineUrl": "",
+      "inquiry": [
+        "여성가족과/02-2241-2564"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2025-12-18"
+    },
+    {
+      "id": "gov-benefit-307000000214",
+      "sourceId": "307000000214",
+      "title": "성북구 육아종합센터 이용료 및 사용료 감면(수급권자)",
+      "field": "보육·교육",
+      "provider": "서울특별시 성북구",
+      "providerType": "자치구",
+      "district": "성북구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "「국민기초생활 보장법」에 따른 수급권자(직계가족 포함)",
+      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 수급권자의 이용료 부담을 경감하여 육아종합센터 이용 지원",
+      "supportType": "현금(감면)",
+      "supportSummary": "성북구 육아종합센터 이용 시  「국민기초생활 보장법」에 따른 수급권자(직계가족 포함)에게 이용료 및 사용료 전액(100%)을 감면하는 서비스입니다.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000214",
+      "onlineUrl": "",
+      "inquiry": [
+        "여성가족과/02-2241-2564"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2025-12-18"
+    },
+    {
+      "id": "gov-benefit-307000000215",
+      "sourceId": "307000000215",
+      "title": "성북구 육아종합센터 이용료 및 사용료 감면(한부모가족)",
+      "field": "보육·교육",
+      "provider": "서울특별시 성북구",
+      "providerType": "자치구",
+      "district": "성북구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "「한부모가족지원법」에 따른 지원대상자로 선정된 모ㆍ부자 가정",
+      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 한부모가족의 이용료 부담을 경감하여 육아종합센터 이용 지원",
+      "supportType": "현금(감면)",
+      "supportSummary": "성북구 육아종합센터 이용 시  「한부모가족지원법」에 따른 지원대상자로 선정된 모ㆍ부자 가정에게 이용료 및 사용료 전액(100%)을 감면하는 서비스입니다.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000215",
+      "onlineUrl": "",
+      "inquiry": [
+        "여성가족과/02-2241-2564"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2025-12-18"
+    },
+    {
+      "id": "gov-benefit-307000000211",
+      "sourceId": "307000000211",
+      "title": "성북구 청소년미래지원센터 수강료 감면(국가유공자)",
+      "field": "보육·교육",
+      "provider": "서울특별시 성북구",
+      "providerType": "자치구",
+      "district": "성북구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "「국가유공자 등 예우 및 지원에 관한 법률」에 따라 등록된 국가유공자 및 가족 중 성북구 주민 또는 성북구 소재 교육시설에 재학중인 학생",
+      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 국가유공자와 그 가족의 수강료 부담을 경감하여 청소년미래지원센터 이용 지원",
+      "supportType": "현금(감면)",
+      "supportSummary": "성북구 청소년미래지원센터 이용 시 「국가유공자 등 예우 및 지원에 관한 법률」에 따라 등록된 국가유공자 및  그 가족에게 수강료의 50%를 감면하는 서비스입니다.\n- 감면율 : 50%",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000211",
+      "onlineUrl": "",
+      "inquiry": [
+        "교육지원과/02-2241-2403"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2025-12-18"
+    },
+    {
+      "id": "gov-benefit-307000000213",
+      "sourceId": "307000000213",
+      "title": "성북구 청소년미래지원센터 수강료 감면(다둥이 행복카드 소지자)",
+      "field": "보육·교육",
+      "provider": "서울특별시 성북구",
+      "providerType": "자치구",
+      "district": "성북구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "성북구에 주소를 둔 다둥이 행복카드 소지자",
+      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 다자녀가정의 수강료 부담을 경감하여 청소년미래지원센터 이용 지원",
+      "supportType": "현금(감면)",
+      "supportSummary": "성북구 청소년미래지원센터 이용 시 성북구에 주소를 둔 다둥이 행복카드 소지자에게 수강료의 50%를 감면하는 서비스입니다.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000213",
+      "onlineUrl": "",
+      "inquiry": [
+        "교육지원과/02-2241-2403"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2025-12-18"
+    },
+    {
+      "id": "gov-benefit-307000000209",
+      "sourceId": "307000000209",
+      "title": "성북구 청소년미래지원센터 수강료 감면(수급자)",
+      "field": "보육·교육",
+      "provider": "서울특별시 성북구",
+      "providerType": "자치구",
+      "district": "성북구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "「국민기초생활 보장법」에 의한 수급권자 중 성북구 주민 또는 성북구 소재 교육시설에 재학중인 학생",
+      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 기초생활수급자의 수강료 부담을 경감하여 청소년미래지원센터 이용 지원",
+      "supportType": "현금(감면)",
+      "supportSummary": "성북구 청소년미래지원센터 이용 시 「국민기초생활 보장법」에 의한 수급권자에게 수강료 전액(100%)을 감면하는 서비스입니다.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000209",
+      "onlineUrl": "",
+      "inquiry": [
+        "교육지원과/02-2241-2403"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2025-12-17"
+    },
+    {
+      "id": "gov-benefit-307000000212",
+      "sourceId": "307000000212",
+      "title": "성북구 청소년미래지원센터 수강료 감면(장애인)",
+      "field": "보육·교육",
+      "provider": "서울특별시 성북구",
+      "providerType": "자치구",
+      "district": "성북구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "「장애인복지법」 제2조의 장애인 중 성북구 주민 또는 성북구 소재 교육시설에 재학중인 학생",
+      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 장애인의 청소년미래지원센터 이용 부담을 완화하고 교육문화 프로그램 이용을 지원",
+      "supportType": "현금(감면)",
+      "supportSummary": "성북구 청소년미래지원센터 이용 시 「장애인복지법」제2조에 따른 장애인에게 수강료의 50%를 감면하는 서비스입니다.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000212",
+      "onlineUrl": "",
+      "inquiry": [
+        "교육지원과/02-2241-2403"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2025-12-18"
+    },
+    {
+      "id": "gov-benefit-307000000210",
+      "sourceId": "307000000210",
+      "title": "성북구 청소년미래지원센터 수강료 감면(한부모가족)",
+      "field": "보육·교육",
+      "provider": "서울특별시 성북구",
+      "providerType": "자치구",
+      "district": "성북구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "「한부모가족지원법」에 의한 지원대상자 중 성북구 주민 또는 성북구 소재 교육시설에 재학 중인 학생",
+      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 한부모가족의 수강료 부담을 경감하여 청소년미래지원센터 이용 지원",
+      "supportType": "현금(감면)",
+      "supportSummary": "성북구 청소년미래지원센터 이용 시 「한부모가족지원법」에 따른 지원대상자에게 수강료 전액(100%)을 감면하는 서비스입니다.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000210",
+      "onlineUrl": "",
+      "inquiry": [
+        "교육지원과/02-2241-2403"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2025-12-18"
+    },
+    {
+      "id": "gov-benefit-307000000200",
+      "sourceId": "307000000200",
+      "title": "성북구 평생학습센터 수강료 감면(경로우대자)",
+      "field": "보육·교육",
+      "provider": "서울특별시 성북구",
+      "providerType": "자치구",
+      "district": "성북구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "「노인복지법」에 의한 경로우대자",
+      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 경로우대자의 수강료 부담을 경감하여 평생학습센터 이용 지원",
+      "supportType": "현금(감면)",
+      "supportSummary": "성북구 평생학습센터 이용 시 「노인복지법」에 의한 경로우대자에게 수강료의 20%를 감면하는 서비스입니다.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000200",
+      "onlineUrl": "",
+      "inquiry": [
+        "교육지원과/02-2241-2424"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2025-12-17"
+    },
+    {
+      "id": "gov-benefit-307000000196",
+      "sourceId": "307000000196",
+      "title": "성북구 평생학습센터 수강료 감면(국가유공자)",
+      "field": "보육·교육",
+      "provider": "서울특별시 성북구",
+      "providerType": "자치구",
+      "district": "성북구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "「국가유공자 등 예우 및 지원에 관한 법률」에 따라 등록된 국가유공자 및 가족",
+      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 국가유공자와 그 가족의 수강료 부담을 경감하여 평생학습센터 이용 지원",
+      "supportType": "현금(감면)",
+      "supportSummary": "성북구 평생학습센터 이용 시 「국가유공자 등 예우 및 지원에 관한 법률」에 따라 등록된 국가유공자 및 가족에게 수강료의 50%를 감면하는 서비스입니다.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000196",
+      "onlineUrl": "",
+      "inquiry": [
+        "교육지원과/02-2241-2424"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2025-12-17"
+    },
+    {
+      "id": "gov-benefit-307000000198",
+      "sourceId": "307000000198",
+      "title": "성북구 평생학습센터 수강료 감면(다둥이 행복카드 소지자)",
+      "field": "보육·교육",
+      "provider": "서울특별시 성북구",
+      "providerType": "자치구",
+      "district": "성북구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "다둥이 행복카드 소지자",
+      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 다자녀가정의 수강료 부담을 경감하여 평생학습센터 이용 지원",
+      "supportType": "현금(감면)",
+      "supportSummary": "성북구 평생학습센터 이용 시 다둥이 행복카드 소지자에게 수강료의 50%를 감면하는 서비스입니다.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000198",
+      "onlineUrl": "",
+      "inquiry": [
+        "교육지원과/02-2241-2424"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2025-12-17"
+    },
+    {
+      "id": "gov-benefit-307000000199",
+      "sourceId": "307000000199",
+      "title": "성북구 평생학습센터 수강료 감면(병역명문가)",
+      "field": "보육·교육",
+      "provider": "서울특별시 성북구",
+      "providerType": "자치구",
+      "district": "성북구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "「서울특별시 성북구 병역명문가 예우에 관한 조례」에 따른 예우대상자",
+      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 병역명문가 예우대상자의 수강료 부담을 경감하여 평생학습센터 이용 지원",
+      "supportType": "현금(감면)",
+      "supportSummary": "성북구 평생학습센터 이용 시 「서울특별시 성북구 병역명문가 예우에 관한 조례」에 따른 예우대상자에게 수강료의 50%를 감면하는 서비스입니다.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000199",
+      "onlineUrl": "",
+      "inquiry": [
+        "교육지원과/02-2241-2424"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2025-12-17"
+    },
+    {
+      "id": "gov-benefit-307000000194",
+      "sourceId": "307000000194",
+      "title": "성북구 평생학습센터 수강료 감면(수급권자)",
+      "field": "보육·교육",
+      "provider": "서울특별시 성북구",
+      "providerType": "자치구",
+      "district": "성북구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "「국민기초생활 보장법」에 의한 수급자",
+      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 수급권자의 수강료 부담을 경감하여 평생학습센터 이용 지원",
+      "supportType": "현금(감면)",
+      "supportSummary": "성북구 평생학습센터 이용 시 「국민기초생활 보장법」에 의한 수급자에게 수강료 전액(100%)을 감면하는 서비스입니다.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000194",
+      "onlineUrl": "",
+      "inquiry": [
+        "교육지원과/02-2241-2424"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2025-12-17"
+    },
+    {
+      "id": "gov-benefit-307000000197",
+      "sourceId": "307000000197",
+      "title": "성북구 평생학습센터 수강료 감면(장애인)",
+      "field": "보육·교육",
+      "provider": "서울특별시 성북구",
+      "providerType": "자치구",
+      "district": "성북구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "「장애인복지법」 제2조의 장애인",
+      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 장애인의 수강료 부담을 경감하여 평생학습센터 이용 지원",
+      "supportType": "현금(감면)",
+      "supportSummary": "성북구 평생학습센터 이용 시  「장애인복지법」제2조의 장애인에게 수강료의 50%를 감면하는 서비스입니다.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000197",
+      "onlineUrl": "",
+      "inquiry": [
+        "교육지원과/02-2241-2424"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2025-12-17"
+    },
+    {
+      "id": "gov-benefit-307000000195",
+      "sourceId": "307000000195",
+      "title": "성북구 평생학습센터 수강료 감면(한부모가족)",
+      "field": "보육·교육",
+      "provider": "서울특별시 성북구",
+      "providerType": "자치구",
+      "district": "성북구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "「한부모가족지원법」에 의한 지원대상자",
+      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 한부모가족의 수강료 부담을 경감하여 평생학습센터 이용 지원",
+      "supportType": "현금(감면)",
+      "supportSummary": "성북구 평생학습센터 이용 시 「한부모가족지원법」에 의한 지원대상자에게 수강료 전액(100%)을 감면하는 서비스입니다.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000195",
+      "onlineUrl": "",
+      "inquiry": [
+        "교육지원과/02-2241-2424"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2025-12-17"
+    },
+    {
+      "id": "gov-benefit-300000000162",
+      "sourceId": "300000000162",
+      "title": "청소년단체 지원",
+      "field": "문화·환경",
+      "provider": "서울특별시 종로구",
+      "providerType": "자치구",
+      "district": "종로구",
+      "userType": "법인/시설/단체",
+      "deadlineText": "별도 공고",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "청소년 활동, 청소년 복지, 청소년 보호에 관한 사업을 수행하는 청소년단체",
+      "summary": "서울특별시 종로구에서 제공하는 문화·환경 혜택입니다. 청소년 활동 및 복지 지원과 보호",
+      "supportType": "현금",
+      "supportSummary": "○서비스 목적: 청소년 활동 및 복지 지원과 보호\n\n○지원내용: 청소년들의 다양한 활동지원 및 복지, 보호에 관한 사업을 수행하는 단체 지원\n\n○신청방법 : 방문신청, 이메일\n\n○신청기간 : 별도 공고 시\n\n○지원대상 : 공익활동을 주목적으로 하며 공고일 기준 최근…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000162",
+      "onlineUrl": "",
+      "inquiry": [
+        "종로구 아동복지과 아동청소년복지팀/02-2148-2963"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2022-11-01"
+    },
+    {
+      "id": "gov-benefit-300000000167",
+      "sourceId": "300000000167",
+      "title": "학대피해아동 의료비 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 종로구",
+      "providerType": "자치구",
+      "district": "종로구",
+      "userType": "개인",
+      "deadlineText": "신청불필요",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "아동학대사건 신고,접수된 피해아동",
+      "summary": "서울특별시 종로구에서 제공하는 보건·의료 혜택입니다. 학대피해아동 의료비  지원",
+      "supportType": "서비스(의료)",
+      "supportSummary": "○서비스 목적: 학대피해아동 의료비 지원\n\n○지원내용: 학대피해아동 학대사건으로 인한 의료비, 진단비, 검사비 지원\n\n○신청방법 : 신청 불필요\n -현장조사 및 학대판단 회의를 통해 대상자 선정\n\n○지원대상 : 아동학대사건 신고, 접수된 피해아동\n\n○제출서류 : 해당…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "신청불필요"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000167",
+      "onlineUrl": "",
+      "inquiry": [
+        "아동보호팀/02-2148-2982"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2022-11-02"
+    },
+    {
+      "id": "gov-benefit-300000000174",
+      "sourceId": "300000000174",
+      "title": "계절 취약계층 어르신 보호·강화를 위한 냉난방물품 지원",
+      "field": "생활안정",
+      "provider": "서울특별시 종로구",
+      "providerType": "자치구",
+      "district": "종로구",
+      "userType": "개인||가구",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 만 65세 이상 법정 저소득 및 기타 사각지대 저소득 어르신",
+      "summary": "서울특별시 종로구에서 제공하는 생활안정 혜택입니다. 계절 취약계층 어르신 보호ㆍ강화를 위한 냉난방물품 지원",
+      "supportType": "현물",
+      "supportSummary": "○ 서비스 목적: 계절(한파, 폭염) 취약계층 어르신 보호 대책\n\n○ 지원내용\n - 한파 및 폭염 시 생활 안전사고 예방에 도움이 되는 냉난방물품 지원(선풍기, 겨울이불 등 매년 냉난방물품 변동)\n  \n○ 지원대상 : 국기초 수급자, 차상위 가구 등 저소득 어르신 가…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "신청불필요"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000174",
+      "onlineUrl": "",
+      "inquiry": [
+        "어르신복지과/0221482204"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2022-11-09"
+    },
+    {
+      "id": "gov-benefit-300000000142",
+      "sourceId": "300000000142",
+      "title": "보훈대상자 및 보훈단체 지원",
+      "field": "생활안정",
+      "provider": "서울특별시 종로구",
+      "providerType": "자치구",
+      "district": "종로구",
+      "userType": "법인/시설/단체",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 기    간 : 2026.1.~12. \n○ 대    상 : 9개 보훈단체 종로구지회\n○ 지원사항\n    - 보훈단체 보훈‧안보 활동을 위한 단체 운영 보조금 지원 \n    - 안보 관련 전적지 순례, 호국영령 추모제 등 사업비 지원",
+      "summary": "서울특별시 종로구에서 제공하는 생활안정 혜택입니다. 종로구 보훈단체(9개) 보조금 지원",
+      "supportType": "기타",
+      "supportSummary": "○서비스 목적: 종로구 보훈단체(9개) 보조금 지원\n\n○지원내용\n - 보훈단체 보훈‧안보 활동을 위한 단체 운영 보조금 지원 \n - 안보 관련 전적지 순례, 호국영령 추모제 등 사업비 지원\n\n○신청방법 : 방문신청\n\n○신청기간 : 대상 단체 별도 안내\n\n○지원대상 :…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000142",
+      "onlineUrl": "",
+      "inquiry": [
+        "종로구 복지정책과/02-2148-2483"
+      ],
+      "updatedAt": "2026-09-14",
+      "registeredAt": "2022-10-27"
+    },
     {
       "id": "gov-benefit-320000000102",
       "sourceId": "320000000102",
@@ -1326,34 +2308,6 @@
       ],
       "updatedAt": "2026-09-10",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-319000000149",
-      "sourceId": "319000000149",
-      "title": "착한가격업소 지원",
-      "field": "생활안정",
-      "provider": "서울특별시 동작구",
-      "providerType": "자치구",
-      "district": "동작구",
-      "userType": "소상공인",
-      "deadlineText": "매년 상반기(3~4월) 하반기(8~9월)",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "동작구 소재지의 상시근로자 5인 미만의 소상공인 개인서비스업 자영업자",
-      "summary": "서울특별시 동작구에서 제공하는 생활안정 혜택입니다. 착한가격업소 운영 및 지원을 통한 서민경제생활 부담 완화 및 물가안정 분위기 확산",
-      "supportType": "현금",
-      "supportSummary": "-착한가격업소 지원 및 관리",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000149",
-      "onlineUrl": "",
-      "inquiry": [
-        "동작구청 경제정책과/02-820-9333"
-      ],
-      "updatedAt": "2026-09-10",
-      "registeredAt": "2023-11-14"
     },
     {
       "id": "gov-benefit-319000000141",
@@ -3106,35 +4060,6 @@
       "registeredAt": "2025-11-21"
     },
     {
-      "id": "gov-benefit-322000000108",
-      "sourceId": "322000000108",
-      "title": "남성 난임 지원",
-      "field": "임신·출산",
-      "provider": "서울특별시 강남구",
-      "providerType": "자치구",
-      "district": "강남구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 주민등록상 강남구 거주 난임부부 중 정액검사상 이상소견이 있는 남성",
-      "summary": "서울특별시 강남구에서 제공하는 임신·출산 혜택입니다. 난임부부 중 남성에게 검진 비용 지원",
-      "supportType": "서비스(의료)",
-      "supportSummary": "○ 남성 난임 검진 상담 및 비용(일부본인부담금 및 비급여) 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/322000000108",
-      "onlineUrl": "",
-      "inquiry": [
-        "건강관리과/02-3423-7278"
-      ],
-      "updatedAt": "2026-09-04",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-315000000109",
       "sourceId": "315000000109",
       "title": "저소득주민 국민건강보험료 등 지원",
@@ -4881,90 +5806,6 @@
       ],
       "updatedAt": "2026-08-14",
       "registeredAt": "2022-04-28"
-    },
-    {
-      "id": "gov-benefit-305000000283",
-      "sourceId": "305000000283",
-      "title": "(국가유공자)인플루엔자 백신 및 접종 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 동대문구",
-      "providerType": "자치구",
-      "district": "동대문구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "관내 지역주민 중 국가유공자 본인",
-      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 국가유공자 인플루엔자 예방접종 지원",
-      "supportType": "서비스(의료)",
-      "supportSummary": "국가유공자 인플루엔자 예방접종",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000283",
-      "onlineUrl": "",
-      "inquiry": [
-        "건강관리과/02-2127-5194"
-      ],
-      "updatedAt": "2026-08-14",
-      "registeredAt": "2025-12-09"
-    },
-    {
-      "id": "gov-benefit-305000000284",
-      "sourceId": "305000000284",
-      "title": "(기초생활수급자)인플루엔자 백신 및 접종 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 동대문구",
-      "providerType": "자치구",
-      "district": "동대문구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "15세~64세 동대문구민 중 기초생활수급자 인플루엔자 예방접종",
-      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 기초생활수급자 인플루엔자 예방접종 지원",
-      "supportType": "서비스(의료)",
-      "supportSummary": "15세~64세 동대문구민 중 기초생활수급자 인플루엔자 예방접종",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000284",
-      "onlineUrl": "",
-      "inquiry": [
-        "건강관리과/02-2127-5194"
-      ],
-      "updatedAt": "2026-08-14",
-      "registeredAt": "2025-12-09"
-    },
-    {
-      "id": "gov-benefit-305000000282",
-      "sourceId": "305000000282",
-      "title": "(장애인)인플루엔자 백신 및 접종 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 동대문구",
-      "providerType": "자치구",
-      "district": "동대문구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "관내지역주민으로 15~64세 장애정도가 심한장애인(구1~3급)",
-      "summary": "서울특별시 동대문구에서 제공하는 보건·의료 혜택입니다. 장애인 인플루엔자 예방접종 지원",
-      "supportType": "서비스(의료)",
-      "supportSummary": "장애인 인플루엔자 예방접종",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000282",
-      "onlineUrl": "",
-      "inquiry": [
-        "건강관리과/02-2127-5194"
-      ],
-      "updatedAt": "2026-08-14",
-      "registeredAt": "2025-12-09"
     },
     {
       "id": "gov-benefit-305000000290",
@@ -8390,118 +9231,6 @@
       "registeredAt": "2022-04-01"
     },
     {
-      "id": "gov-benefit-307000000218",
-      "sourceId": "307000000218",
-      "title": "성북구 육아종합센터 이용료 및 사용료 감면(경로우대자)",
-      "field": "보육·교육",
-      "provider": "서울특별시 성북구",
-      "providerType": "자치구",
-      "district": "성북구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "「노인복지법」에 따른 경로우대자",
-      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 성북구 육아종합센터 이용시 경로우대자 이용료 및 사용료 감면(100%)",
-      "supportType": "현금(감면)",
-      "supportSummary": "성북구 육아종합센터 이용료 및 사용료 감면\n- 대상 : 「노인복지법」에 따른 경로우대자\n- 감면율 : 50%",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000218",
-      "onlineUrl": "",
-      "inquiry": [
-        "여성가족과/02-2241-2564"
-      ],
-      "updatedAt": "2026-08-13",
-      "registeredAt": "2025-12-18"
-    },
-    {
-      "id": "gov-benefit-307000000217",
-      "sourceId": "307000000217",
-      "title": "성북구 육아종합센터 이용료 및 사용료 감면(국가유공자)",
-      "field": "보육·교육",
-      "provider": "서울특별시 성북구",
-      "providerType": "자치구",
-      "district": "성북구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "「국가유공자 등 예우 및 지원에 관한 법률」에 따라 등록된 국가유공자(직계가족 포함)",
-      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 성북구 육아종합센터 이용시 국가유공자 이용료 및 사용료 감면(100%)",
-      "supportType": "현금(감면)",
-      "supportSummary": "성북구 육아종합센터 이용료 및 사용료 감면\n- 대상 : 「국가유공자 등 예우 및 지원에 관한 법률」에 따라 등록된 국가유공자(직계가족 포함)\n- 감면율 : 100%",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000217",
-      "onlineUrl": "",
-      "inquiry": [
-        "여성가족과/02-2241-2564"
-      ],
-      "updatedAt": "2026-08-13",
-      "registeredAt": "2025-12-18"
-    },
-    {
-      "id": "gov-benefit-307000000219",
-      "sourceId": "307000000219",
-      "title": "성북구 육아종합센터 이용료 및 사용료 감면(다둥이 행복카드 소지자)",
-      "field": "보육·교육",
-      "provider": "서울특별시 성북구",
-      "providerType": "자치구",
-      "district": "성북구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "다둥이 행복카드 소지자",
-      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 성북구 육아종합센터 이용시 다둥이 행복카드 소지자 이용료 및 사용료 감면(50%)",
-      "supportType": "현금(감면)",
-      "supportSummary": "성북구 육아종합센터 이용료 및 사용료 감면\n- 대상 : 다둥이 행복카드 소지자\n- 감면율 : 50%",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000219",
-      "onlineUrl": "",
-      "inquiry": [
-        "여성가족과/02-2241-2564"
-      ],
-      "updatedAt": "2026-08-13",
-      "registeredAt": "2025-12-18"
-    },
-    {
-      "id": "gov-benefit-307000000214",
-      "sourceId": "307000000214",
-      "title": "성북구 육아종합센터 이용료 및 사용료 감면(수급권자)",
-      "field": "보육·교육",
-      "provider": "서울특별시 성북구",
-      "providerType": "자치구",
-      "district": "성북구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "「국민기초생활 보장법」에 따른 수급권자(직계가족 포함)",
-      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 성북구 육아종합센터 이용시 수급권자 이용료 및 사용료 감면(100%)",
-      "supportType": "현금(감면)",
-      "supportSummary": "성북구 육아종합센터 이용료 및 사용료 감면\n- 대상 : 「국민기초생활 보장법」에 따른 수급권자(직계가족 포함)\n- 감면율 : 100%",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000214",
-      "onlineUrl": "",
-      "inquiry": [
-        "여성가족과/02-2241-2564"
-      ],
-      "updatedAt": "2026-08-13",
-      "registeredAt": "2025-12-18"
-    },
-    {
       "id": "gov-benefit-307000000216",
       "sourceId": "307000000216",
       "title": "성북구 육아종합센터 이용료 및 사용료 감면(장애인)",
@@ -8522,34 +9251,6 @@
         "방문신청"
       ],
       "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000216",
-      "onlineUrl": "",
-      "inquiry": [
-        "여성가족과/02-2241-2564"
-      ],
-      "updatedAt": "2026-08-13",
-      "registeredAt": "2025-12-18"
-    },
-    {
-      "id": "gov-benefit-307000000215",
-      "sourceId": "307000000215",
-      "title": "성북구 육아종합센터 이용료 및 사용료 감면(한부모가족)",
-      "field": "보육·교육",
-      "provider": "서울특별시 성북구",
-      "providerType": "자치구",
-      "district": "성북구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "「한부모가족지원법」에 따른 지원대상자로 선정된 모ㆍ부자 가정",
-      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 성북구 육아종합센터 이용시 한부모가족 이용료 및 사용료 감면(100%)",
-      "supportType": "현금(감면)",
-      "supportSummary": "성북구 육아종합센터 이용료 및 사용료 감면\n- 대상 : 「한부모가족지원법」에 따른 지원대상자로 선정된 모ㆍ부자 가정\n- 감면율 : 100%",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000215",
       "onlineUrl": "",
       "inquiry": [
         "여성가족과/02-2241-2564"
@@ -8784,34 +9485,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-300000000167",
-      "sourceId": "300000000167",
-      "title": "학대피해아동 의료비 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 종로구",
-      "providerType": "자치구",
-      "district": "종로구",
-      "userType": "개인",
-      "deadlineText": "신청불필요",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "아동학대사건 신고,접수된 피해아동",
-      "summary": "서울특별시 종로구에서 제공하는 보건·의료 혜택입니다. 학대피해아동 의료비  지원",
-      "supportType": "서비스(의료)",
-      "supportSummary": "학대피해아동 학대사건으로 인한 의료비, 진단비, 검사비 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "신청불필요"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000167",
-      "onlineUrl": "",
-      "inquiry": [
-        "아동보호팀/02-2148-2982"
-      ],
-      "updatedAt": "2026-08-13",
-      "registeredAt": "2022-11-02"
-    },
-    {
       "id": "gov-benefit-300000000111",
       "sourceId": "300000000111",
       "title": "가정위탁아동 및 입양가정 지원",
@@ -8978,34 +9651,6 @@
       ],
       "updatedAt": "2026-08-13",
       "registeredAt": "2022-10-28"
-    },
-    {
-      "id": "gov-benefit-300000000142",
-      "sourceId": "300000000142",
-      "title": "보훈대상자 및 보훈단체 지원",
-      "field": "생활안정",
-      "provider": "서울특별시 종로구",
-      "providerType": "자치구",
-      "district": "종로구",
-      "userType": "법인/시설/단체",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 기    간 : 2026.1.~12. \n○ 대    상 : 9개 보훈단체 종로구지회\n○ 지원사항\n    - 보훈단체 보훈‧안보 활동을 위한 단체 운영 보조금 지원 \n    - 안보 관련 전적지 순례, 호국영령 추모제 등 사업비 지원",
-      "summary": "서울특별시 종로구에서 제공하는 생활안정 혜택입니다. 종로구 보훈단체(9개) 보조금 지원",
-      "supportType": "기타",
-      "supportSummary": "종로구 보훈단체(9개) 보조금 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000142",
-      "onlineUrl": "",
-      "inquiry": [
-        "종로구 복지정책과/02-2148-2483"
-      ],
-      "updatedAt": "2026-08-13",
-      "registeredAt": "2022-10-27"
     },
     {
       "id": "gov-benefit-300000000132",
@@ -14409,174 +15054,6 @@
       ],
       "updatedAt": "2026-08-10",
       "registeredAt": "2025-11-12"
-    },
-    {
-      "id": "gov-benefit-307000000208",
-      "sourceId": "307000000208",
-      "title": "성북구 자치회관 수강료 감면(65세 이상의 고령자)",
-      "field": "문화·환경",
-      "provider": "서울특별시 성북구",
-      "providerType": "자치구",
-      "district": "성북구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "65세 이상의 고령자 중 성북구 주민",
-      "summary": "서울특별시 성북구에서 제공하는 문화·환경 혜택입니다. 성북구 자치회관 이용시 65세 이상의 고령자 수강료 감면(20%)",
-      "supportType": "현금(감면)",
-      "supportSummary": "성북구 자치회관 수강료 감면\n-대상 : 65세 이상의 고령자 중 성북구 주민\n-감면율 : 20%",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000208",
-      "onlineUrl": "",
-      "inquiry": [
-        "자치행정과/02-2241-2232"
-      ],
-      "updatedAt": "2026-08-10",
-      "registeredAt": "2025-12-17"
-    },
-    {
-      "id": "gov-benefit-307000000206",
-      "sourceId": "307000000206",
-      "title": "성북구 자치회관 수강료 감면(국가유공자)",
-      "field": "문화·환경",
-      "provider": "서울특별시 성북구",
-      "providerType": "자치구",
-      "district": "성북구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "「국가유공자 등 예우 및 지원에 관한 법률」에 따라 등록된 국가유공자 및 가족 중 성북구 주민",
-      "summary": "서울특별시 성북구에서 제공하는 문화·환경 혜택입니다. 성북구 자치회관 이용시 국가유공자 수강료 감면(50%)",
-      "supportType": "현금(감면)",
-      "supportSummary": "성북구 자치회관 수강료 감면\n-대상 : 「국가유공자 등 예우 및 지원에 관한 법률」에 따라 등록된 국가유공자 및 가족 중 성북구 주민\n-감면율 : 50%",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000206",
-      "onlineUrl": "",
-      "inquiry": [
-        "자치행정과/02-2241-2232"
-      ],
-      "updatedAt": "2026-08-10",
-      "registeredAt": "2025-12-17"
-    },
-    {
-      "id": "gov-benefit-307000000207",
-      "sourceId": "307000000207",
-      "title": "성북구 자치회관 수강료 감면(다둥이 행복카드 소지자)",
-      "field": "문화·환경",
-      "provider": "서울특별시 성북구",
-      "providerType": "자치구",
-      "district": "성북구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "다둥이 행복카드 소지자 중 성북구 주민",
-      "summary": "서울특별시 성북구에서 제공하는 문화·환경 혜택입니다. 성북구 자치회관 이용시 다둥이 행복카드 소지자 수강료 감면(50%)",
-      "supportType": "현금(감면)",
-      "supportSummary": "성북구 자치회관 수강료 감면\n-대상 : 다둥이 행복카드 소지자 중 성북구 주민\n-감면율 : 50%",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000207",
-      "onlineUrl": "",
-      "inquiry": [
-        "자치행정과/02-2241-2232"
-      ],
-      "updatedAt": "2026-08-10",
-      "registeredAt": "2025-12-17"
-    },
-    {
-      "id": "gov-benefit-307000000203",
-      "sourceId": "307000000203",
-      "title": "성북구 자치회관 수강료 감면(수급자)",
-      "field": "문화·환경",
-      "provider": "서울특별시 성북구",
-      "providerType": "자치구",
-      "district": "성북구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "「국민기초생활 보장법」에 따른 수급자 중 성북구 주민",
-      "summary": "서울특별시 성북구에서 제공하는 문화·환경 혜택입니다. 성북구 자치회관 이용시 수급자 수강료 감면(100%)",
-      "supportType": "현금(감면)",
-      "supportSummary": "성북구 자치회관 수강료 감면\n-대상 : 「국민기초생활 보장법」에 따른 수급자 중 성북구 주민\n-감면율 : 100%",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000203",
-      "onlineUrl": "",
-      "inquiry": [
-        "자치행정과/02-2241-2232"
-      ],
-      "updatedAt": "2026-08-10",
-      "registeredAt": "2025-12-17"
-    },
-    {
-      "id": "gov-benefit-307000000205",
-      "sourceId": "307000000205",
-      "title": "성북구 자치회관 수강료 감면(장애인)",
-      "field": "문화·환경",
-      "provider": "서울특별시 성북구",
-      "providerType": "자치구",
-      "district": "성북구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "「장애인복지법」제2조의 장애인 중 성북구 주민",
-      "summary": "서울특별시 성북구에서 제공하는 문화·환경 혜택입니다. 성북구 자치회관 이용시 장애인 수강료 감면(50%)",
-      "supportType": "현금(감면)",
-      "supportSummary": "성북구 자치회관 수강료 감면\n-대상 : 「장애인복지법」 2조의 장애인 중 성북구 주민\n-감면율 : 50%",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000205",
-      "onlineUrl": "",
-      "inquiry": [
-        "자치행정과/02-2241-2232"
-      ],
-      "updatedAt": "2026-08-10",
-      "registeredAt": "2025-12-17"
-    },
-    {
-      "id": "gov-benefit-307000000204",
-      "sourceId": "307000000204",
-      "title": "성북구 자치회관 수강료 감면(한부모가족)",
-      "field": "문화·환경",
-      "provider": "서울특별시 성북구",
-      "providerType": "자치구",
-      "district": "성북구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "「한부모가족지원법」에 의한 보호대상자 중 성북구 주민",
-      "summary": "서울특별시 성북구에서 제공하는 문화·환경 혜택입니다. 성북구 자치회관 이용시 한부모가족 수강료 감면(100%)",
-      "supportType": "현금(감면)",
-      "supportSummary": "성북구 자치회관 수강료 감면\n-대상 : 「한부모가족지원법」의한 보호대상자 중 성북구 주민\n-감면율 :  100%",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000204",
-      "onlineUrl": "",
-      "inquiry": [
-        "자치행정과/02-2241-2232"
-      ],
-      "updatedAt": "2026-08-10",
-      "registeredAt": "2025-12-17"
     },
     {
       "id": "gov-benefit-307000000149",
@@ -22990,34 +23467,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-300000000169",
-      "sourceId": "300000000169",
-      "title": "구청장, 줌[zoom]으로 홀몸어르신 만나다 운영",
-      "field": "보호·돌봄",
-      "provider": "서울특별시 종로구",
-      "providerType": "자치구",
-      "district": "종로구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "65세 이상 홀몸 어르신",
-      "summary": "서울특별시 종로구에서 제공하는 보호·돌봄 혜택입니다. 구청장이 줌(zoom)대화로 홀몸 어르신의 안부를 확인하며 소소한 생활불편 해소",
-      "supportType": "기타(상담)",
-      "supportSummary": "구청장이 줌(zoom)대화로 홀몸 어르신의 안부를 확인하며 소소한 생활불편 해소",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "신청불필요"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000169",
-      "onlineUrl": "",
-      "inquiry": [
-        "종로구 어르신복지과 어르신정책팀/02-2148-2203"
-      ],
-      "updatedAt": "2026-08-03",
-      "registeredAt": "2022-11-06"
-    },
-    {
       "id": "gov-benefit-300000000152",
       "sourceId": "300000000152",
       "title": "경로당 취미교실 운영",
@@ -23044,34 +23493,6 @@
       ],
       "updatedAt": "2026-08-03",
       "registeredAt": "2022-10-28"
-    },
-    {
-      "id": "gov-benefit-300000000174",
-      "sourceId": "300000000174",
-      "title": "계절 취약계층 어르신 보호·강화를 위한 냉난방물품 지원",
-      "field": "생활안정",
-      "provider": "서울특별시 종로구",
-      "providerType": "자치구",
-      "district": "종로구",
-      "userType": "개인||가구",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 만 65세 이상 법정 저소득 및 기타 사각지대 저소득 어르신",
-      "summary": "서울특별시 종로구에서 제공하는 생활안정 혜택입니다. 계절 취약계층 어르신 보호ㆍ강화를 위한 냉난방물품 지원",
-      "supportType": "현물",
-      "supportSummary": "○ 계절 취약계층 어르신 보호ㆍ강화를 위한 냉난방물품 지원\n - 지원대상: 만 65세 이상 법정 저소득 및 기타 사각지대 저소득 어르신\n - 지원내용: 폭염 및 한파 시 안전사고 예방에 도움이 되는 냉난방물품 지원\n  ㆍ폭염: 에어컨, 선풍기 등\n  ㆍ한파: 이불,…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "신청불필요"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000174",
-      "onlineUrl": "",
-      "inquiry": [
-        "어르신복지과/0221482204"
-      ],
-      "updatedAt": "2026-08-03",
-      "registeredAt": "2022-11-09"
     },
     {
       "id": "gov-benefit-300000000171",
@@ -24462,35 +24883,6 @@
       ],
       "updatedAt": "2026-07-30",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-300000000162",
-      "sourceId": "300000000162",
-      "title": "청소년단체 지원",
-      "field": "문화·환경",
-      "provider": "서울특별시 종로구",
-      "providerType": "자치구",
-      "district": "종로구",
-      "userType": "법인/시설/단체",
-      "deadlineText": "별도 공고",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "청소년 활동, 청소년 복지, 청소년 보호에 관한 사업을 수행하는 청소년단체",
-      "summary": "서울특별시 종로구에서 제공하는 문화·환경 혜택입니다. 청소년 활동 및 복지 지원과 보호",
-      "supportType": "현금",
-      "supportSummary": "공모 선정 후 보조금 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000162",
-      "onlineUrl": "",
-      "inquiry": [
-        "종로구 아동복지과 아동청소년복지팀/02-2148-2963"
-      ],
-      "updatedAt": "2026-07-30",
-      "registeredAt": "2022-11-01"
     },
     {
       "id": "gov-benefit-300000000117",
@@ -26273,34 +26665,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-324000000106",
-      "sourceId": "324000000106",
-      "title": "입학축하금 지원",
-      "field": "보육·교육",
-      "provider": "서울특별시 강동구",
-      "providerType": "자치구",
-      "district": "강동구",
-      "userType": "개인",
-      "deadlineText": "입학 후 1년 이내 신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 강동구에 넷째 이상 입학대상 자녀와 주민등록상 동일세대를 구성하는 다자녀 가정의 넷째 이상 자녀가 초중고등학교에 입학하는 가정",
-      "summary": "서울특별시 강동구에서 제공하는 보육·교육 혜택입니다. 강동구에 거주하는 네자녀 이상 다자녀 가정에 지속적인 양육 지원을 통해 자녀 양육 부담을 경감하고 출산 장려 분위기를 조성하고자 함",
-      "supportType": "현금",
-      "supportSummary": "○ 넷째 이상의 입학대상 자녀와  강동구에 주민등록상 동일 세대 구성하고, 넷째 이상의 자녀가 초·중·고 입학시 입학축하금 50만원 지원\n - 입학일로부터 1년 이내 신청시 일시금 지급",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/324000000106",
-      "onlineUrl": "",
-      "inquiry": [
-        "가족정책과/02-3425-5786"
-      ],
-      "updatedAt": "2026-07-28",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-324000000102",
       "sourceId": "324000000102",
       "title": "명절맞이 위문물품 지원(경로당)",
@@ -26492,34 +26856,6 @@
       "onlineUrl": "",
       "inquiry": [
         "복지정책과/02-3425-5633"
-      ],
-      "updatedAt": "2026-07-28",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-324000000107",
-      "sourceId": "324000000107",
-      "title": "다자녀특별장려금 지원",
-      "field": "임신·출산",
-      "provider": "서울특별시 강동구",
-      "providerType": "자치구",
-      "district": "강동구",
-      "userType": "가구",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 막내가 만 6세 미만인 다자녀가정 중 세자녀가정은 세대당 월 10만원, 네자녀 이상 가정은 세대당 월 20만원 지원",
-      "summary": "서울특별시 강동구에서 제공하는 임신·출산 혜택입니다. 강동구에 거주하는 세자녀 이상 다자녀 가정에 지속적인 양육 지원을 통해 자녀 양육 부담을 경감하고 출산 장려 분위기를 조성하고자 함",
-      "supportType": "현금",
-      "supportSummary": "강동구 거주하는 세자녀가정은 가구당 월 10만원, 네자녀 이상 가정은 가구당 월 20만원을 막내가 6세되기 직전달까지 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/324000000107",
-      "onlineUrl": "",
-      "inquiry": [
-        "가족정책과/02-3425-5786"
       ],
       "updatedAt": "2026-07-28",
       "registeredAt": "2021-09-23"
@@ -28705,342 +29041,6 @@
       ],
       "updatedAt": "2026-05-11",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-307000000211",
-      "sourceId": "307000000211",
-      "title": "성북구 청소년미래지원센터 수강료 감면(국가유공자)",
-      "field": "보육·교육",
-      "provider": "서울특별시 성북구",
-      "providerType": "자치구",
-      "district": "성북구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "「국가유공자 등 예우 및 지원에 관한 법률」에 따라 등록된 국가유공자 및 가족 중 성북구 주민 또는 성북구 소재 교육시설에 재학중인 학생",
-      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 성북구 청소년미래지원센터 이용시 국가유공자 수강료 감면(50%)",
-      "supportType": "현금(감면)",
-      "supportSummary": "성북구 청소년미래지원센터 수강료 감면\n- 대상 : 「국가유공자 등 예우 및 지원에 관한 법률」에 따라 등록된 국가유공자 및 가족 중 성북구 주민 또는 성북구 소재 교육시설에 재학 중 학생\n- 감면율 : 50%",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000211",
-      "onlineUrl": "",
-      "inquiry": [
-        "교육지원과/02-2241-2403"
-      ],
-      "updatedAt": "2026-05-11",
-      "registeredAt": "2025-12-18"
-    },
-    {
-      "id": "gov-benefit-307000000213",
-      "sourceId": "307000000213",
-      "title": "성북구 청소년미래지원센터 수강료 감면(다둥이 행복카드 소지자)",
-      "field": "보육·교육",
-      "provider": "서울특별시 성북구",
-      "providerType": "자치구",
-      "district": "성북구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "성북구에 주소를 둔 다둥이 행복카드 소지자",
-      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 성북구 청소년미래지원센터 이용시 다둥이 행복카드 소지자 수강료 감면(50%)",
-      "supportType": "현금(감면)",
-      "supportSummary": "성북구 청소년미래지원센터 수강료 감면\n- 대상 :  성북구에 주소를 둔 다둥이 행복카드 소지자\n- 감면율 : 50%",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000213",
-      "onlineUrl": "",
-      "inquiry": [
-        "교육지원과/02-2241-2403"
-      ],
-      "updatedAt": "2026-05-11",
-      "registeredAt": "2025-12-18"
-    },
-    {
-      "id": "gov-benefit-307000000209",
-      "sourceId": "307000000209",
-      "title": "성북구 청소년미래지원센터 수강료 감면(수급자)",
-      "field": "보육·교육",
-      "provider": "서울특별시 성북구",
-      "providerType": "자치구",
-      "district": "성북구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "「국민기초생활 보장법」에 의한 수급권자 중 성북구 주민 또는 성북구 소재 교육시설에 재학중인 학생",
-      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 성북구 청소년미래지원센터 이용시 수급자 수강료 감면(100%)",
-      "supportType": "현금(감면)",
-      "supportSummary": "성북구 청소년미래지원센터 수강료 감면\n- 대상 : 「국민기초생활 보장법」에 의한 수급권자 중 성북구 주민 또는 성북구 소재 교육시설에 재학 중 학생\n- 감면율 : 100%",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000209",
-      "onlineUrl": "",
-      "inquiry": [
-        "교육지원과/02-2241-2403"
-      ],
-      "updatedAt": "2026-05-11",
-      "registeredAt": "2025-12-17"
-    },
-    {
-      "id": "gov-benefit-307000000212",
-      "sourceId": "307000000212",
-      "title": "성북구 청소년미래지원센터 수강료 감면(장애인)",
-      "field": "보육·교육",
-      "provider": "서울특별시 성북구",
-      "providerType": "자치구",
-      "district": "성북구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "「장애인복지법」 제2조의 장애인 중 성북구 주민 또는 성북구 소재 교육시설에 재학중인 학생",
-      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 성북구 청소년미래지원센터 이용시 장애인 수강료 감면(100%)",
-      "supportType": "현금(감면)",
-      "supportSummary": "성북구 청소년미래지원센터 수강료 감면\n- 대상 : 「장애인복지법」제2조의 장애인 중 성북구 주민 또는 성북구 소재 교육시설에 재학 중 학생\n- 감면율 : 50%",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000212",
-      "onlineUrl": "",
-      "inquiry": [
-        "교육지원과/02-2241-2403"
-      ],
-      "updatedAt": "2026-05-11",
-      "registeredAt": "2025-12-18"
-    },
-    {
-      "id": "gov-benefit-307000000210",
-      "sourceId": "307000000210",
-      "title": "성북구 청소년미래지원센터 수강료 감면(한부모가족)",
-      "field": "보육·교육",
-      "provider": "서울특별시 성북구",
-      "providerType": "자치구",
-      "district": "성북구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "「한부모가족지원법」에 의한 지원대상자 중 성북구 주민 또는 성북구 소재 교육시설에 재학 중인 학생",
-      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 성북구 청소년미래지원센터 이용시 한부모가족 수강료 감면(100%)",
-      "supportType": "현금(감면)",
-      "supportSummary": "성북구 청소년미래지원센터 수강료 감면\n- 대상 : 「한부모가족지원법」에 의한 지원대상자 중 성북구 주민 또는 성북구 소재 교육시설에 재학 중 학생\n- 감면율 : 100%",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000210",
-      "onlineUrl": "",
-      "inquiry": [
-        "교육지원과/02-2241-2403"
-      ],
-      "updatedAt": "2026-05-11",
-      "registeredAt": "2025-12-18"
-    },
-    {
-      "id": "gov-benefit-307000000200",
-      "sourceId": "307000000200",
-      "title": "성북구 평생학습센터 수강료 감면(경로우대자)",
-      "field": "보육·교육",
-      "provider": "서울특별시 성북구",
-      "providerType": "자치구",
-      "district": "성북구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "「노인복지법」에 의한 경로우대자",
-      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 성북구 평생학습센터 이용시 경로우대자 수강료 감면(20%)",
-      "supportType": "현금(감면)",
-      "supportSummary": "성북구 평생학습센터 이용시 수강료 감면\n- 대상 : 「노인복지법」에 의한 경로우대자\n- 감면율 : 20%",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000200",
-      "onlineUrl": "",
-      "inquiry": [
-        "교육지원과/02-2241-2424"
-      ],
-      "updatedAt": "2026-05-11",
-      "registeredAt": "2025-12-17"
-    },
-    {
-      "id": "gov-benefit-307000000196",
-      "sourceId": "307000000196",
-      "title": "성북구 평생학습센터 수강료 감면(국가유공자)",
-      "field": "보육·교육",
-      "provider": "서울특별시 성북구",
-      "providerType": "자치구",
-      "district": "성북구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "「국가유공자 등 예우 및 지원에 관한 법률」에 따라 등록된 국가유공자 및 가족",
-      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 성북구 평생학습센터 이용시 국가유공자 및 가족 수강료 감면(50%)",
-      "supportType": "현금(감면)",
-      "supportSummary": "성북구 평생학습센터 이용시 수강료 감면\n- 대상 : 「국가유공자 등 예우 및 지원에 관한 법률」에 따라 등록된 국가유공자 및 가족\n- 감면율 : 50%",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000196",
-      "onlineUrl": "",
-      "inquiry": [
-        "교육지원과/02-2241-2424"
-      ],
-      "updatedAt": "2026-05-11",
-      "registeredAt": "2025-12-17"
-    },
-    {
-      "id": "gov-benefit-307000000198",
-      "sourceId": "307000000198",
-      "title": "성북구 평생학습센터 수강료 감면(다둥이 행복카드 소지자)",
-      "field": "보육·교육",
-      "provider": "서울특별시 성북구",
-      "providerType": "자치구",
-      "district": "성북구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "다둥이 행복카드 소지자",
-      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 성북구 평생학습센터 이용시 다둥이 행복카드 소지자 수강료 감면(50%)",
-      "supportType": "현금(감면)",
-      "supportSummary": "성북구 평생학습센터 이용시 수강료 감면\n- 대상 : 다둥이 행복카드 소지자\n- 감면율 : 50%",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000198",
-      "onlineUrl": "",
-      "inquiry": [
-        "교육지원과/02-2241-2424"
-      ],
-      "updatedAt": "2026-05-11",
-      "registeredAt": "2025-12-17"
-    },
-    {
-      "id": "gov-benefit-307000000199",
-      "sourceId": "307000000199",
-      "title": "성북구 평생학습센터 수강료 감면(병역명문가)",
-      "field": "보육·교육",
-      "provider": "서울특별시 성북구",
-      "providerType": "자치구",
-      "district": "성북구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "「서울특별시 성북구 병역명문가 예우에 관한 조례」에 따른 예우대상자",
-      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 성북구 평생학습센터 이용시 병역명문가 예우대상자 수강료 감면(50%)",
-      "supportType": "현금(감면)",
-      "supportSummary": "성북구 평생학습센터 이용시 수강료 감면\n- 대상 : 「서울특별시 성북구 병역명문가 예우에 관한 조례」에 따른 예우대상자\n- 감면율 : 50%",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000199",
-      "onlineUrl": "",
-      "inquiry": [
-        "교육지원과/02-2241-2424"
-      ],
-      "updatedAt": "2026-05-11",
-      "registeredAt": "2025-12-17"
-    },
-    {
-      "id": "gov-benefit-307000000194",
-      "sourceId": "307000000194",
-      "title": "성북구 평생학습센터 수강료 감면(수급권자)",
-      "field": "보육·교육",
-      "provider": "서울특별시 성북구",
-      "providerType": "자치구",
-      "district": "성북구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "「국민기초생활 보장법」에 의한 수급자",
-      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 성북구 평생학습센터 이용시 수급자 수강료 감면(100%)",
-      "supportType": "현금(감면)",
-      "supportSummary": "성북구 평생학습센터 이용시 수강료 감면\n- 대상 : 「국민기초생활 보장법」에 의한 수급자\n- 감면율 : 100%",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000194",
-      "onlineUrl": "",
-      "inquiry": [
-        "교육지원과/02-2241-2424"
-      ],
-      "updatedAt": "2026-05-11",
-      "registeredAt": "2025-12-17"
-    },
-    {
-      "id": "gov-benefit-307000000197",
-      "sourceId": "307000000197",
-      "title": "성북구 평생학습센터 수강료 감면(장애인)",
-      "field": "보육·교육",
-      "provider": "서울특별시 성북구",
-      "providerType": "자치구",
-      "district": "성북구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "「장애인복지법」 2조의 장애인",
-      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 성북구 평생학습센터 이용시 장애인 수강료 감면(50%)",
-      "supportType": "현금(감면)",
-      "supportSummary": "성북구 평생학습센터 이용시 수강료 감면\n- 대상 : 「장애인복지법」제2조의 장애인\n- 감면율 : 50%",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000197",
-      "onlineUrl": "",
-      "inquiry": [
-        "교육지원과/02-2241-2424"
-      ],
-      "updatedAt": "2026-05-11",
-      "registeredAt": "2025-12-17"
-    },
-    {
-      "id": "gov-benefit-307000000195",
-      "sourceId": "307000000195",
-      "title": "성북구 평생학습센터 수강료 감면(한부모가족)",
-      "field": "보육·교육",
-      "provider": "서울특별시 성북구",
-      "providerType": "자치구",
-      "district": "성북구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "「한부모가족지원법」에 의한 지원대상자",
-      "summary": "서울특별시 성북구에서 제공하는 보육·교육 혜택입니다. 성북구 평생학습센터 이용시 한부모가족 지원대상자 수강료 감면(100%)",
-      "supportType": "현금(감면)",
-      "supportSummary": "성북구 평생학습센터 이용시 수강료 감면\n- 대상 : 「한부모가족지원법」에 의한 지원대상자\n- 감면율 : 100%",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000195",
-      "onlineUrl": "",
-      "inquiry": [
-        "교육지원과/02-2241-2424"
-      ],
-      "updatedAt": "2026-05-11",
-      "registeredAt": "2025-12-17"
     },
     {
       "id": "gov-benefit-307000000120",

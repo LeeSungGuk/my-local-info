@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-09-14T09:21:59+09:00",
+  "lastGeneratedAt": "2026-09-15T09:50:43+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -3169,9 +3169,9 @@
         "전통찻집"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-09-02T09:26:38+09:00",
-      "usedAt": null
+      "usedAt": "2026-09-15T09:50:43+09:00"
     },
     {
       "id": "seoul-historic-secondhand-bookstores",
