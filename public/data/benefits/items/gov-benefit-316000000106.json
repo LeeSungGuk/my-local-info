@@ -21,12 +21,12 @@
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/316000000106",
   "onlineUrl": "",
   "inquiry": [
-    "생활보장과/02-860-2367"
+    "생활보장과/02-860-2859"
   ],
-  "updatedAt": "2026-08-11",
+  "updatedAt": "2026-09-15",
   "registeredAt": "2021-09-23",
-  "viewCount": 1210,
-  "collectedAt": "2026-09-15T00:50:32.372Z",
+  "viewCount": 1212,
+  "collectedAt": "2026-09-16T00:42:45.755Z",
   "purpose": "기초생활보장수급노인에게 생신축하금 지원(연1회, 20,000원)",
   "target": "○ 기초생계·의료 수급자 중 만 65세노인",
   "selectionCriteria": "",
@@ -37,7 +37,7 @@
   "identityDocuments": "해당없음",
   "legalBasis": [],
   "ordinance": "서울특별시 구로구 저소득주민의 생활안정 지원에 관한 조례",
-  "inquiryText": "생활보장과/02-860-2367",
+  "inquiryText": "생활보장과/02-860-2859",
   "ageMin": 65,
   "ageMax": 120
 }

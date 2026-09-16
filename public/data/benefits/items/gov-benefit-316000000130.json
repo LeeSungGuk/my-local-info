@@ -21,12 +21,12 @@
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/316000000130",
   "onlineUrl": "",
   "inquiry": [
-    "어르신복지과/02-860-2821"
+    "어르신복지과/02-860-2890"
   ],
-  "updatedAt": "2026-08-04",
+  "updatedAt": "2026-09-15",
   "registeredAt": "2025-08-04",
-  "viewCount": 326,
-  "collectedAt": "2026-09-15T00:50:32.372Z",
+  "viewCount": 328,
+  "collectedAt": "2026-09-16T00:42:45.755Z",
   "purpose": "만100세 도래 어르신에게 장수축하금 지급",
   "target": "○ 지급기준일 현재 구로구에 1년 이상 계속하여 주민등록을 두고 거주하고 있는 만 100세 도래 어르신",
   "selectionCriteria": "",
@@ -37,7 +37,7 @@
   "identityDocuments": "해당없음",
   "legalBasis": [],
   "ordinance": "서울특별시 구로구 노인복지 증진에 관한 조례(제15조)",
-  "inquiryText": "어르신복지과/02-860-2821",
+  "inquiryText": "어르신복지과/02-860-2890",
   "ageMin": 100,
   "ageMax": 120
 }
