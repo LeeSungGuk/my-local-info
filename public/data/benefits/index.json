@@ -10,17 +10,442 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-09-16T00:42:45.755Z",
+    "collectedAt": "2026-09-17T00:49:04.496Z",
     "syncSchedule": "매일 오전 7시 30분",
     "availableCount": 10925,
     "fetchedCount": 1140,
-    "activeCount": 1103,
-    "expiredCount": 37,
+    "activeCount": 1106,
+    "expiredCount": 34,
     "deduplicatedCount": 0,
     "filterMode": "서울 소관기관",
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-322000000127",
+      "sourceId": "322000000127",
+      "title": "유축기 대여 서비스",
+      "field": "임신·출산",
+      "provider": "서울특별시 강남구",
+      "providerType": "자치구",
+      "district": "강남구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "- 주민등록상 주소지가 강남구(산모기준)인 출산부",
+      "summary": "서울특별시 강남구에서 제공하는 임신·출산 혜택입니다. - 유축기 대여를 통해 출산가정의 경제적 부담 경감\n- 모자의 건강증진도모, 모유수유 실천률 향상",
+      "supportType": "현물",
+      "supportSummary": "[ 유축기 대여 서비스]\n- 제품구성 : 유축기 본체(시밀레 S6) + 소모품(전용 깔대기, 튜브, 젖병) \n-  유축기 수령일로부터 1개월 무료 대여 ( 기간연장 시 20,000원/월 비용 발생) \n-  유축기 업체에서 만기 3일전 안내 문자 발송 -> 반납 또는…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/322000000127",
+      "onlineUrl": "",
+      "inquiry": [
+        "강남구 보건소 사랑맘센터/02-3423-7222",
+        "강남구 보건소 사랑맘센터/02-3423-7225"
+      ],
+      "updatedAt": "2026-09-16",
+      "registeredAt": "2026-08-06"
+    },
+    {
+      "id": "gov-benefit-315000000106",
+      "sourceId": "315000000106",
+      "title": "강서구 국가보훈대상 보훈예우수당 지급",
+      "field": "생활안정",
+      "provider": "서울특별시 강서구",
+      "providerType": "자치구",
+      "district": "강서구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 보훈예우수당 : 국가유공자법에 따라 등록된 유공자 본인 및 선순위 유족\n - 본인 및 유족 : 순국선열, 애국지사, 전몰순직군경, 전(공)상군경, 무공수훈자, 6·25참전 재일학도의용군인, 4·19혁명부상자(공로자), 5·18민주화운동부상·희생자(행방불명자), 특…",
+      "summary": "서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 국가보훈대상자에게 보훈예우수당 월 7만원 지급",
+      "supportType": "현금",
+      "supportSummary": "○ 보훈예우수당\n - 목적 : 국가유공자(유족)의 복지향상 및 자긍심 고취\n - 지급대상 : 강서구에 주민등록을 두고 거주하고 있는 국가보훈대상자 또는 선순위 유족\n - 신청방법 : 주소지 관할 동주민센터 신청 및 정부24 온라인 신청\n - 지급방법: 본인계좌 입금…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000106",
+      "onlineUrl": "",
+      "inquiry": [
+        "복지정책과/02-2600-6631"
+      ],
+      "updatedAt": "2026-09-16",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-320000000311",
+      "sourceId": "320000000311",
+      "title": "국가유공자 인플루엔자 백신 및 접종 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 관악구",
+      "providerType": "자치구",
+      "district": "관악구",
+      "userType": "개인",
+      "deadlineText": "2026.10.6.~2026.12.31.",
+      "deadlineSortKey": "2026-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "1. 지원대상: 관악구에 주민등록을 둔 국가유공자 본인 중 1962년 1월 1일부터 1976년 12월 31일 사이 출생자\n2. 제외대상: 국가유공자의 유족·가족, 관악구에 주민등록을 두지 않은 사람, 위 출생 기간에 해당하지 않는 사람\n3. 지역범위: 관악구민만 이용…",
+      "summary": "서울특별시 관악구에서 제공하는 보건·의료 혜택입니다. 국가유공자 인플루엔자 예방접종 지원",
+      "supportType": "서비스(의료)",
+      "supportSummary": "관악구에 주민등록을 둔 50~64세 국가유공자 본인에게 인플루엔자(독감) 예방접종을 무료로 제공하여 독감 예방과 접종 비용 부담 경감을 돕는 관악구 지원 서비스\n\n1. 지원내용: 관악구 내 위탁의료기관에서 3가 인플루엔자 백신 무료 접종\n2. 유의사항: 무료 지원 백…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000311",
+      "onlineUrl": "",
+      "inquiry": [
+        "지역보건과/02-879-7159"
+      ],
+      "updatedAt": "2026-09-16",
+      "registeredAt": "2025-11-17"
+    },
+    {
+      "id": "gov-benefit-320000000310",
+      "sourceId": "320000000310",
+      "title": "장애인 인플루엔자 백신 및 접종 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 관악구",
+      "providerType": "자치구",
+      "district": "관악구",
+      "userType": "개인",
+      "deadlineText": "2026.10.6.~2026.12.31.",
+      "deadlineSortKey": "2026-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "1. 지원대상: 관악구에 주민등록을 둔 장애정도가 심한 장애인 중 1962년 1월 1일부터 2012년 12월 31일 사이 출생자\n2. 제외대상: 장애정도가 심하지 않은 장애인, 관악구에 주민등록을 두지 않은 사람, 위 출생 기간에 해당하지 않는 사람\n3. 지역범위:…",
+      "summary": "서울특별시 관악구에서 제공하는 보건·의료 혜택입니다. 장애인 인플루엔자 예방접종 지원",
+      "supportType": "서비스(의료)",
+      "supportSummary": "관악구에 주민등록을 둔 14~64세 장애정도가 심한 장애인에게 인플루엔자(독감) 예방접종을 무료로 제공하여 독감 예방과 접종 비용 부담 경감을 돕는 관악구 지원 서비스\n\n1. 지원내용: 관악구 내 위탁의료기관에서 3가 인플루엔자 백신 무료 접종\n2. 유의사항: 무료…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000310",
+      "onlineUrl": "",
+      "inquiry": [
+        "지역보건과/02-879-7159"
+      ],
+      "updatedAt": "2026-09-16",
+      "registeredAt": "2025-11-17"
+    },
+    {
+      "id": "gov-benefit-320000000111",
+      "sourceId": "320000000111",
+      "title": "저소득주민 국민건강보험료 및 노인장기요양보험료 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 관악구",
+      "providerType": "자치구",
+      "district": "관악구",
+      "userType": "가구",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "1. 기본 대상: 다음 요건을 모두 충족하는 관악구 건강보험 지역가입자\n - 차상위계층 또는 생계급여·주거급여 수급자(소득인정액이 기준 중위소득 50% 이하인 가구)\n - 건강보험료 및 노인장기요양보험료 부과금액이 최저보험료 이하인 가구\n - 65세 이상 노인, 등록…",
+      "summary": "서울특별시 관악구에서 제공하는 보건·의료 혜택입니다. 국민건강보험료 및 노인장기요양보험료 지원",
+      "supportType": "현금(감면)",
+      "supportSummary": "1. 서비스 정의: 「서울특별시 관악구 저소득주민 국민건강보험료 및 노인장기요양보험료 지원에 관한 조례」에 따라, 생활이 어려운 관악구 저소득 건강보험 지역가입자에게 매월 부과되는 국민건강보험료와 노인장기요양보험료를 지원하여 경제적 부담 경감 및 건강증진·복지향상을…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000111",
+      "onlineUrl": "",
+      "inquiry": [
+        "생활복지과/02-879-5956"
+      ],
+      "updatedAt": "2026-09-16",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-320000000110",
+      "sourceId": "320000000110",
+      "title": "취약계층 인플루엔자 백신 및 접종 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 관악구",
+      "providerType": "자치구",
+      "district": "관악구",
+      "userType": "개인",
+      "deadlineText": "2026.10.6.~2026.12.31.",
+      "deadlineSortKey": "2026-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "1. 지원대상: 관악구에 주민등록을 둔 사람 중 다음 중 하나에 해당하는 사람\n 가. 1962년 1월 1일부터 1976년 12월 31일 사이 출생한 의료급여수급자\n 나. 1962년 1월 1일부터 2012년 12월 31일 사이 출생한 아동시설 또는 정신시설 입소자\n2.…",
+      "summary": "서울특별시 관악구에서 제공하는 보건·의료 혜택입니다. 취약계층 인플루엔자 예방접종 지원",
+      "supportType": "서비스(의료)",
+      "supportSummary": "관악구에 주민등록을 둔 50~64세 의료급여수급자와 14~64세 아동시설·정신시설 입소자에게 인플루엔자(독감) 예방접종을 무료로 제공하여 독감 예방과 접종 비용 부담 경감을 돕는 관악구 지원 서비스\n\n1. 지원내용: 관악구 내 위탁의료기관에서 3가 인플루엔자 백신 무…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000110",
+      "onlineUrl": "",
+      "inquiry": [
+        "지역보건과/02-879-7159"
+      ],
+      "updatedAt": "2026-09-16",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-320000000103",
+      "sourceId": "320000000103",
+      "title": "장애인 정보화교육 지원",
+      "field": "보육·교육",
+      "provider": "서울특별시 관악구",
+      "providerType": "자치구",
+      "district": "관악구",
+      "userType": "개인",
+      "deadlineText": "각 과정별 별도 문의",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "1. 기본 대상\n관악구에 주민등록을 두고 실제로 거주하는 장애인과 장애인가족 중 인터넷·스마트폰 사용이 어려워 디지털 역량 강화 교육 참여를 원하는 사람\n2. 제외 대상\n관악구에 주민등록이 없거나 실제로 거주하지 않는 사람은 신청 불가\n3. 지역 범위\n관악구 거주자만…",
+      "summary": "서울특별시 관악구에서 제공하는 보육·교육 혜택입니다. 장애인과 비장애인의 정보격차 해소",
+      "supportType": "기타(교육)",
+      "supportSummary": "1.서비스 정의\n인터넷·스마트폰 사용이 어려워 일상생활에 불편을 겪는 관악구 장애인과 장애인가족에게 컴퓨터·스마트폰·키오스크 활용법을 무료로 가르치는 교육 서비스.\n2.교육 내용\n- 운영주기: 주 2회\n- 과정별 내용\n· 문서작성: 한글 프로그램을 이용한 표·차트 만…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000103",
+      "onlineUrl": "",
+      "inquiry": [
+        "장애인복지과/02-879-6014"
+      ],
+      "updatedAt": "2026-09-16",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-316000000135",
+      "sourceId": "316000000135",
+      "title": "갑상선검사 서비스",
+      "field": "보건·의료",
+      "provider": "서울특별시 구로구",
+      "providerType": "자치구",
+      "district": "구로구",
+      "userType": "개인",
+      "deadlineText": "오전9시-오전11시30분만 검사가능",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "검사를 희망하는 만15세이상 서울시민",
+      "summary": "서울특별시 구로구에서 제공하는 보건·의료 혜택입니다. 갑상선검사",
+      "supportType": "서비스(의료)",
+      "supportSummary": "○ 검사항목(채혈)\n  - T3, FT4, TSH\n○ 검사비용 : 15,000원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/316000000135",
+      "onlineUrl": "",
+      "inquiry": [
+        "구로구보건소/02-860-3245"
+      ],
+      "updatedAt": "2026-09-16",
+      "registeredAt": "2025-11-13"
+    },
+    {
+      "id": "gov-benefit-316000000133",
+      "sourceId": "316000000133",
+      "title": "암표지자 검사 서비스",
+      "field": "보건·의료",
+      "provider": "서울특별시 구로구",
+      "providerType": "자치구",
+      "district": "구로구",
+      "userType": "개인",
+      "deadlineText": "오전9시-오전11시30분만 검사가능",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "검사를 희망하는 만15세이상 서울시민",
+      "summary": "서울특별시 구로구에서 제공하는 보건·의료 혜택입니다. 암표지자검사 및 갑상선검사",
+      "supportType": "서비스(의료)",
+      "supportSummary": "○ 암표지자검사 항목(채혈)\n  - 남 : 간암, 대장암, 췌장암, 전립선암\n  - 여 : 간암, 대장암, 췌장암, 난소암\n○ 검사비용 : 23,000원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/316000000133",
+      "onlineUrl": "",
+      "inquiry": [
+        "구로구보건소/02-860-3245"
+      ],
+      "updatedAt": "2026-09-16",
+      "registeredAt": "2025-11-13"
+    },
+    {
+      "id": "gov-benefit-319000000190",
+      "sourceId": "319000000190",
+      "title": "동작구 여성 HPV 검사비 지원 참여신청",
+      "field": "보건·의료",
+      "provider": "서울특별시 동작구",
+      "providerType": "자치구",
+      "district": "동작구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "- 대상 : '26년 임신 사전건강관리지원사업 신청한 동작구 여성 중\n             ‣ 의사가 필요하다고 판단한 경우\n             ‣ HPV 검사를 희망하는 경우",
+      "summary": "서울특별시 동작구에서 제공하는 보건·의료 혜택입니다. 임신 전 HPV 검사를 지원하여 자궁경부암 예방 및 조기 관리를 강화하고 임산부와 태아의 건강 위험요인을 사전에 예방하여 건강한 출산 환경 조성에 기여하고자 함",
+      "supportType": "현금",
+      "supportSummary": "(동작구) 여성 HPV 검사비 지원 신청\n- 대상 : '26년 임신 사전건강관리지원사업 신청한 여성 중\n             ‣ 의사가 필요하다고 판단한 경우\n             ‣ HPV 검사를 희망하는 경우\n- 내용 : HPV 검사비 급여 및 비급여 항목의…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000190",
+      "onlineUrl": "",
+      "inquiry": [
+        "모자건강센터/02-820-9605"
+      ],
+      "updatedAt": "2026-09-16",
+      "registeredAt": "2026-01-06"
+    },
+    {
+      "id": "gov-benefit-319000000191",
+      "sourceId": "319000000191",
+      "title": "동작구 여성 HPV 검사비 청구",
+      "field": "보건·의료",
+      "provider": "서울특별시 동작구",
+      "providerType": "자치구",
+      "district": "동작구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "동작구 여성 HPV 검사비 참여 신청 승인자",
+      "summary": "서울특별시 동작구에서 제공하는 보건·의료 혜택입니다. 임신 전 HPV 검사를 지원하여 자궁경부암 예방 및 조기 관리를 강화하고 임산부와 태아의 건강 위험요인을 사전에 예방하여 건강한 출산 환경 조성에 기여하고자 함.",
+      "supportType": "현금",
+      "supportSummary": "(동작구) 여성 HPV 검사비 지원 청구\n- 대상 : '26년 임신 사전건강관리지원사업 신청한 여성 중\n             ‣ 의사가 필요하다고 판단한 경우\n             ‣ HPV 검사를 희망하는 경우\n- 내용 : HPV 검사비 급여 및 비급여 항목의…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000191",
+      "onlineUrl": "",
+      "inquiry": [
+        "동작구 모자건강센터/02-820-9605"
+      ],
+      "updatedAt": "2026-09-16",
+      "registeredAt": "2026-01-06"
+    },
+    {
+      "id": "gov-benefit-319000000105",
+      "sourceId": "319000000105",
+      "title": "아동학대 피해아동 응급의료비 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 동작구",
+      "providerType": "자치구",
+      "district": "동작구",
+      "userType": "개인",
+      "deadlineText": "아동학대전담공무원에게 유선 상담",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 아동학대 신고·조사 및 피해아동 보호 과정에서 의료지원이 필요한 아동\n\n- 아동학대 피해로 인하여 진료·검사·치료 등 의료조치가 필요한 아동\n- 아동학대 현장조사 및 보호조치 과정에서 건강상태 확인 또는 응급의료조치가 필요한 아동\n- 아동학대 신고·조사 중인 아동…",
+      "summary": "서울특별시 동작구에서 제공하는 보건·의료 혜택입니다. ○ 아동학대 피해(의심)아동에게 신속한 의료서비스 및 응급의료비를 지원하여 피해아동의 신체적·정신적 건강 회복과 안전한 보호를 도모",
+      "supportType": "서비스(의료)",
+      "supportSummary": "○ 아동학대 피해(의심)아동 중 응급한 의료조치가 필요한 아동에게 진료비 등 의료비를 지원하는 서비스\n\n- 아동학대 피해로 인한 신체적·정신적 상태 확인을 위한 진료·검사비 지원\n- 피해아동의 치료 및 응급의료조치에 소요되는 의료비 지원\n- 지원범위 및 지원금액은 의…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000105",
+      "onlineUrl": "",
+      "inquiry": [
+        "동작구청 아동청소년과/02-820-9265"
+      ],
+      "updatedAt": "2026-09-16",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-319000000106",
+      "sourceId": "319000000106",
+      "title": "저소득주민 국민건강보험료 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 동작구",
+      "providerType": "자치구",
+      "district": "동작구",
+      "userType": "개인||가구",
+      "deadlineText": "신청불요",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 서울특별시 동작구에 주민등록을 둔 국민건강보험공단 동작지사의 지역가입자로 보험료 부과 금액이 최저보험료 이하인 저소득주민 중 65세 이상, 한부모, 등록 장애인, 만성질환자 중 어느 하나에 해당하는 세대",
+      "summary": "서울특별시 동작구에서 제공하는 보건·의료 혜택입니다. 65세 이상, 한부모 가정, 등록 장애인 및 만성질환자가 있는 세대의 건강보험료 지원",
+      "supportType": "현물",
+      "supportSummary": "○ 노령, 질병 등으로 인하여 생활에 어려움을 겪고 있는 저소득주민에게 국민건강보험료 및 장기요양보험료를 지원함으로써\n     구민의 건강 증진과 복지 향상을 도모하고자 함",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "신청불필요"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000106",
+      "onlineUrl": "",
+      "inquiry": [
+        "동작구청 사회보장과/02-820-9145"
+      ],
+      "updatedAt": "2026-09-16",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-319000000149",
+      "sourceId": "319000000149",
+      "title": "착한가격업소 지원",
+      "field": "생활안정",
+      "provider": "서울특별시 동작구",
+      "providerType": "자치구",
+      "district": "동작구",
+      "userType": "소상공인",
+      "deadlineText": "매년 상반기(3~4월) 하반기(8~9월)",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "동작구 소재지의 상시근로자 5인 미만의 소상공인 개인서비스업 자영업자",
+      "summary": "서울특별시 동작구에서 제공하는 생활안정 혜택입니다. 착한가격업소 운영 및 지원을 통한 서민경제생활 부담 완화 및 물가안정 분위기 확산",
+      "supportType": "현금",
+      "supportSummary": "-착한가격업소 지원 및 관리",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000149",
+      "onlineUrl": "",
+      "inquiry": [
+        "동작구청 상권활성화과/02-820-9331"
+      ],
+      "updatedAt": "2026-09-16",
+      "registeredAt": "2023-11-14"
+    },
+    {
+      "id": "gov-benefit-313000000155",
+      "sourceId": "313000000155",
+      "title": "(마포구)청년 면접정장 대여사업",
+      "field": "생활안정",
+      "provider": "서울특별시 마포구",
+      "providerType": "자치구",
+      "district": "마포구",
+      "userType": "개인",
+      "deadlineText": "2026.01.26~2026.12.18",
+      "deadlineSortKey": "2026-12-18",
+      "isAlwaysOpen": false,
+      "targetSummary": "마포구 구직청년",
+      "summary": "서울특별시 마포구에서 제공하는 생활안정 혜택입니다. 청년들의 구직활동에 따른 경제적 부담 경감",
+      "supportType": "현물",
+      "supportSummary": "면접정장 무상 대여(2박3일)",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000155",
+      "onlineUrl": "",
+      "inquiry": [
+        "마포구청 문화경제국 청년정책과/02-3153-8643"
+      ],
+      "updatedAt": "2026-09-16",
+      "registeredAt": "2025-07-11"
+    },
     {
       "id": "gov-benefit-324000000104",
       "sourceId": "324000000104",
@@ -413,34 +838,6 @@
       ],
       "updatedAt": "2026-09-14",
       "registeredAt": "2025-12-09"
-    },
-    {
-      "id": "gov-benefit-319000000149",
-      "sourceId": "319000000149",
-      "title": "착한가격업소 지원",
-      "field": "생활안정",
-      "provider": "서울특별시 동작구",
-      "providerType": "자치구",
-      "district": "동작구",
-      "userType": "소상공인",
-      "deadlineText": "매년 상반기(3~4월) 하반기(8~9월)",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "동작구 소재지의 상시근로자 5인 미만의 소상공인 개인서비스업 자영업자",
-      "summary": "서울특별시 동작구에서 제공하는 생활안정 혜택입니다. 착한가격업소 운영 및 지원을 통한 서민경제생활 부담 완화 및 물가안정 분위기 확산",
-      "supportType": "현금",
-      "supportSummary": "-착한가격업소 지원 및 관리",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000149",
-      "onlineUrl": "",
-      "inquiry": [
-        "동작구청 상권활성화과/02-820-9331"
-      ],
-      "updatedAt": "2026-09-14",
-      "registeredAt": "2023-11-14"
     },
     {
       "id": "gov-benefit-307000000208",
@@ -1312,34 +1709,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-319000000105",
-      "sourceId": "319000000105",
-      "title": "아동학대 피해아동 응급의료비 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 동작구",
-      "providerType": "자치구",
-      "district": "동작구",
-      "userType": "개인",
-      "deadlineText": "아동학대전담공무원에게 유선 상담",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 아동학대 신고·조사 및 피해아동 보호 과정에서 의료지원이 필요한 아동\n\n- 아동학대 피해로 인하여 진료·검사·치료 등 의료조치가 필요한 아동\n- 아동학대 현장조사 및 보호조치 과정에서 건강상태 확인 또는 응급의료조치가 필요한 아동\n- 아동학대 신고·조사 중인 아동…",
-      "summary": "서울특별시 동작구에서 제공하는 보건·의료 혜택입니다. ○ 아동학대 피해(의심)아동에게 신속한 의료서비스 및 응급의료비를 지원하여 피해아동의 신체적·정신적 건강 회복과 안전한 보호를 도모",
-      "supportType": "서비스(의료)",
-      "supportSummary": "○ 아동학대 피해(의심)아동 중 응급한 의료조치가 필요한 아동에게 진료비 등 의료비를 지원하는 서비스\n\n- 아동학대 피해로 인한 신체적·정신적 상태 확인을 위한 진료·검사비 지원\n- 피해아동의 치료 및 응급의료조치에 소요되는 의료비 지원\n- 지원범위 및 지원금액은 의…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000105",
-      "onlineUrl": "",
-      "inquiry": [
-        "동작구청 아동청소년과/02-820-9265"
-      ],
-      "updatedAt": "2026-09-11",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-313000000110",
       "sourceId": "313000000110",
       "title": "취약계층 인플루엔자 예방접종 지원",
@@ -1819,64 +2188,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-319000000190",
-      "sourceId": "319000000190",
-      "title": "동작구 여성 HPV 검사비 지원 참여신청",
-      "field": "보건·의료",
-      "provider": "서울특별시 동작구",
-      "providerType": "자치구",
-      "district": "동작구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "- 대상 : '26년 임신 사전건강관리지원사업 신청한 동작구 여성 중\n             ‣ 의사가 필요하다고 판단한 경우\n             ‣ HPV 검사를 희망하는 경우",
-      "summary": "서울특별시 동작구에서 제공하는 보건·의료 혜택입니다. 임신 전 HPV 검사를 지원하여 자궁경부암 예방 및 조기 관리를 강화하고 임산부와 태아의 건강 위험요인을 사전에 예방하여 건강한 출산 환경 조성에 기여하고자 함",
-      "supportType": "현금",
-      "supportSummary": "(동작구) 여성 HPV 검사비 지원 신청\n- 대상 : '26년 임신 사전건강관리지원사업 신청한 여성 중\n             ‣ 의사가 필요하다고 판단한 경우\n             ‣ HPV 검사를 희망하는 경우\n- 내용 : HPV 검사비 급여 및 비급여 항목의…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000190",
-      "onlineUrl": "",
-      "inquiry": [
-        "모자건강센터/02-820-9605"
-      ],
-      "updatedAt": "2026-09-10",
-      "registeredAt": "2026-01-06"
-    },
-    {
-      "id": "gov-benefit-319000000191",
-      "sourceId": "319000000191",
-      "title": "동작구 여성 HPV 검사비 청구",
-      "field": "보건·의료",
-      "provider": "서울특별시 동작구",
-      "providerType": "자치구",
-      "district": "동작구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "동작구 여성 HPV 검사비 참여 신청 승인자",
-      "summary": "서울특별시 동작구에서 제공하는 보건·의료 혜택입니다. 임신 전 HPV 검사를 지원하여 자궁경부암 예방 및 조기 관리를 강화하고 임산부와 태아의 건강 위험요인을 사전에 예방하여 건강한 출산 환경 조성에 기여하고자 함.",
-      "supportType": "현금",
-      "supportSummary": "(동작구) 여성 HPV 검사비 지원 청구\n- 대상 : '26년 임신 사전건강관리지원사업 신청한 여성 중\n             ‣ 의사가 필요하다고 판단한 경우\n             ‣ HPV 검사를 희망하는 경우\n- 내용 : HPV 검사비 급여 및 비급여 항목의…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000191",
-      "onlineUrl": "",
-      "inquiry": [
-        "동작구 모자건강센터/02-820-9605"
-      ],
-      "updatedAt": "2026-09-10",
-      "registeredAt": "2026-01-06"
-    },
-    {
       "id": "gov-benefit-319000000181",
       "sourceId": "319000000181",
       "title": "동작구 효도 주사",
@@ -1959,34 +2270,6 @@
       "onlineUrl": "",
       "inquiry": [
         "어르신정책과/02-820-9115"
-      ],
-      "updatedAt": "2026-09-10",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-319000000106",
-      "sourceId": "319000000106",
-      "title": "저소득주민 국민건강보험료 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 동작구",
-      "providerType": "자치구",
-      "district": "동작구",
-      "userType": "개인||가구",
-      "deadlineText": "신청불요",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 서울특별시 동작구에 주민등록을 둔 국민건강보험공단 동작지사의 지역가입자로 보험료 부과 금액이 최저보험료 이하인 저소득주민 중 65세 이상, 한부모, 등록 장애인, 만성질환자 중 어느 하나에 해당하는 세대",
-      "summary": "서울특별시 동작구에서 제공하는 보건·의료 혜택입니다. 65세 이상, 한부모 가정, 등록 장애인 및 만성질환자가 있는 세대의 건강보험료 지원",
-      "supportType": "현물",
-      "supportSummary": "○ 노령, 질병 등으로 인하여 생활에 어려움을 겪고 있는 저소득주민에게 국민건강보험료 및 장기요양보험료를 지원함으로써\n     구민의 건강 증진과 복지 향상을 도모하고자 함",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "신청불필요"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000106",
-      "onlineUrl": "",
-      "inquiry": [
-        "동작구청 사회보장과/02-820-9145"
       ],
       "updatedAt": "2026-09-10",
       "registeredAt": "2021-09-23"
@@ -2816,34 +3099,6 @@
       ],
       "updatedAt": "2026-09-10",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-313000000155",
-      "sourceId": "313000000155",
-      "title": "(마포구)청년 면접정장 대여사업",
-      "field": "생활안정",
-      "provider": "서울특별시 마포구",
-      "providerType": "자치구",
-      "district": "마포구",
-      "userType": "개인",
-      "deadlineText": "2026.01.26~2026.12.18",
-      "deadlineSortKey": "2026-12-18",
-      "isAlwaysOpen": false,
-      "targetSummary": "마포구 구직청년",
-      "summary": "서울특별시 마포구에서 제공하는 생활안정 혜택입니다. 청년들의 구직활동에 따른 경제적 부담 경감",
-      "supportType": "현물",
-      "supportSummary": "면접정장 무상 대여(2박3일)",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000155",
-      "onlineUrl": "",
-      "inquiry": [
-        "마포구청 문화경제국 청년정책과/02-3153-8643"
-      ],
-      "updatedAt": "2026-09-10",
-      "registeredAt": "2025-07-11"
     },
     {
       "id": "gov-benefit-303000000311",
@@ -3911,36 +4166,6 @@
       "registeredAt": "2025-07-15"
     },
     {
-      "id": "gov-benefit-322000000127",
-      "sourceId": "322000000127",
-      "title": "유축기 대여 서비스",
-      "field": "임신·출산",
-      "provider": "서울특별시 강남구",
-      "providerType": "자치구",
-      "district": "강남구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "- 주민등록상 주소지가 강남구(산모기준)인 출산부",
-      "summary": "서울특별시 강남구에서 제공하는 임신·출산 혜택입니다. - 유축기 대여를 통해 출산가정의 경제적 부담 경감\n- 모자의 건강증진도모, 모유수유 실천률 향상",
-      "supportType": "현물",
-      "supportSummary": "[ 유축기 대여 서비스]\n- 제품구성 : 유축기 본체(시밀레 S6) + 소모품(전용 깔대기, 튜브, 젖병) \n-  유축기 수령일로부터 1개월 무료 대여 ( 기간연장 시 20,000원/월 비용 발생) \n-  유축기 업체에서 만기 3일전 안내 문자 발송 -> 반납 또는…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/322000000127",
-      "onlineUrl": "",
-      "inquiry": [
-        "강남구 보건소 사랑맘센터/02-3423-7245",
-        "강남구 보건소 사랑맘센터/02-3423-7245"
-      ],
-      "updatedAt": "2026-09-08",
-      "registeredAt": "2026-08-06"
-    },
-    {
       "id": "gov-benefit-315000000113",
       "sourceId": "315000000113",
       "title": "학대피해아동 심리검사 및 의료비 지원",
@@ -4997,35 +5222,6 @@
       ],
       "updatedAt": "2026-09-01",
       "registeredAt": "2026-05-20"
-    },
-    {
-      "id": "gov-benefit-315000000106",
-      "sourceId": "315000000106",
-      "title": "강서구 국가보훈대상 보훈예우수당 지급",
-      "field": "생활안정",
-      "provider": "서울특별시 강서구",
-      "providerType": "자치구",
-      "district": "강서구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 보훈예우수당 : 국가유공자법에 따라 등록된 유공자 본인 및 선순위 유족\n - 본인 및 유족 : 순국선열, 애국지사, 전몰순직군경, 전(공)상군경, 무공수훈자, 6·25참전 재일학도의용군인, 4·19혁명부상자(공로자), 5·18민주화운동부상·희생자(행방불명자), 특…",
-      "summary": "서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 국가보훈대상자에게 보훈예우수당 월 7만원 지급",
-      "supportType": "현금",
-      "supportSummary": "○ 보훈예우수당\n - 목적 : 국가유공자(유족)의 복지향상 및 자긍심 고취\n - 지급대상 : 강서구에 주민등록을 두고 거주하고 있는 국가보훈대상자 또는 선순위 유족\n - 신청방법 : 주소지 관할 동주민센터 신청 및 정부24 온라인 신청\n - 지급방법: 본인계좌 입금…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000106",
-      "onlineUrl": "",
-      "inquiry": [
-        "복지정책과/02-2600-6631"
-      ],
-      "updatedAt": "2026-08-31",
-      "registeredAt": "2021-09-23"
     },
     {
       "id": "gov-benefit-316000000155",
@@ -15970,34 +16166,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-320000000103",
-      "sourceId": "320000000103",
-      "title": "장애인 정보화교육 지원",
-      "field": "보육·교육",
-      "provider": "서울특별시 관악구",
-      "providerType": "자치구",
-      "district": "관악구",
-      "userType": "개인",
-      "deadlineText": "각 과정별 별도 문의",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "관악구 거주 장애인 및 일반 주민",
-      "summary": "서울특별시 관악구에서 제공하는 보육·교육 혜택입니다. 장애인과 비장애인의 정보격차 해소",
-      "supportType": "기타(교육)",
-      "supportSummary": "장애인 컴퓨터 기초 및 인터넷 기초 등 정보화 교육",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000103",
-      "onlineUrl": "",
-      "inquiry": [
-        "장애인복지과/02-879-6014"
-      ],
-      "updatedAt": "2026-08-07",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-304000000174",
       "sourceId": "304000000174",
       "title": "구민건강검진(무료)",
@@ -17013,34 +17181,6 @@
       ],
       "updatedAt": "2026-08-06",
       "registeredAt": "2023-10-27"
-    },
-    {
-      "id": "gov-benefit-320000000111",
-      "sourceId": "320000000111",
-      "title": "저소득주민 국민건강보험료 및 노인장기요양보험료 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 관악구",
-      "providerType": "자치구",
-      "district": "관악구",
-      "userType": "가구",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 소득 인정액이 기준 중위소득 100분의 50이하이면서 건강보험료 및 노인장기요양보험료 부과금액이 최저 보험료 이하인 관악구 지역가입자로서 65세 이상 노인, 등록장애인, 국가유공자, 만성질환자, 한부모가족, 55세 이상 단독세대 등 (* 의료급여 수급자 및 다른…",
-      "summary": "서울특별시 관악구에서 제공하는 보건·의료 혜택입니다. 국민건강보험료 및 노인장기요양보험료 지원",
-      "supportType": "현금(감면)",
-      "supportSummary": "○ 생활이 어려운 저소득주민에게 국민건강보험료 및 노인장기요양보험료 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000111",
-      "onlineUrl": "",
-      "inquiry": [
-        "생활복지과/02-879-5956"
-      ],
-      "updatedAt": "2026-08-06",
-      "registeredAt": "2021-09-23"
     },
     {
       "id": "gov-benefit-O00022500007",
@@ -21315,62 +21455,6 @@
       ],
       "updatedAt": "2026-08-04",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-316000000135",
-      "sourceId": "316000000135",
-      "title": "갑상선검사 서비스",
-      "field": "보건·의료",
-      "provider": "서울특별시 구로구",
-      "providerType": "자치구",
-      "district": "구로구",
-      "userType": "개인",
-      "deadlineText": "오전9시-오전11시30분만 검사가능",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "검사를 희망하는 만15세이상 서울시민",
-      "summary": "서울특별시 구로구에서 제공하는 보건·의료 혜택입니다. 갑상선검사",
-      "supportType": "서비스(의료)",
-      "supportSummary": "○ 검사항목(채혈)\n  - T3, FT4, TSH\n○ 검사비용 : 15,000원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/316000000135",
-      "onlineUrl": "",
-      "inquiry": [
-        "구로구보건소/02-860-2456"
-      ],
-      "updatedAt": "2026-08-04",
-      "registeredAt": "2025-11-13"
-    },
-    {
-      "id": "gov-benefit-316000000133",
-      "sourceId": "316000000133",
-      "title": "암표지자 검사 서비스",
-      "field": "보건·의료",
-      "provider": "서울특별시 구로구",
-      "providerType": "자치구",
-      "district": "구로구",
-      "userType": "개인",
-      "deadlineText": "오전9시-오전11시30분만 검사가능",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "검사를 희망하는 만15세이상 서울시민",
-      "summary": "서울특별시 구로구에서 제공하는 보건·의료 혜택입니다. 암표지자검사 및 갑상선검사",
-      "supportType": "서비스(의료)",
-      "supportSummary": "○ 암표지자검사 항목(채혈)\n  - 남 : 간암, 대장암, 췌장암, 전립선암\n  - 여 : 간암, 대장암, 췌장암, 난소암\n○ 검사비용 : 23,000원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/316000000133",
-      "onlineUrl": "",
-      "inquiry": [
-        "구로구보건소/02-860-2456"
-      ],
-      "updatedAt": "2026-08-04",
-      "registeredAt": "2025-11-13"
     },
     {
       "id": "gov-benefit-316000000157",

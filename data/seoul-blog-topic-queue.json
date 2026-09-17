@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-09-16T09:43:00+09:00",
+  "lastGeneratedAt": "2026-09-17T09:49:18+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -3211,9 +3211,9 @@
         "독서취향"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-09-10T09:28:17+09:00",
-      "usedAt": null
+      "usedAt": "2026-09-17T09:49:18+09:00"
     },
     {
       "id": "seoul-indoor-botanical-greenhouses",
@@ -3318,6 +3318,195 @@
       "origin": "ai",
       "status": "pending",
       "createdAt": "2026-09-10T09:28:17+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-streamside-walking-paths",
+      "titleHint": "한강 말고 동네 천(川)을 따라서, 물소리를 들으며 유유자적 걷는 서울 숨은 수변 산책로",
+      "topicCategory": "도심산책",
+      "angle": "붐비는 한강을 벗어나 동네 하천 주변의 한적하고 정돈된 수변 길 추천",
+      "places": [
+        "서대문구 홍제천 폭포마당길",
+        "성동구 청계천 하류 버들습지구간",
+        "노원구 당현천 음악분수 산책길"
+      ],
+      "tags": [
+        "수변산책",
+        "도심힐링",
+        "주말산책",
+        "물소리길"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-09-17T09:49:18+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-midcentury-furniture-showrooms",
+      "titleHint": "나만의 인테리어 취향을 찾는 여정, 빈티지 감성이 돋보이는 서울 미드센추리 가구 쇼룸",
+      "topicCategory": "생활취향",
+      "angle": "인테리어와 빈티지 가구에 관심이 많은 사람들을 위한 감각적인 가구 쇼룸 투어",
+      "places": [
+        "서대문구 미뗌바우하우스",
+        "성동구 사무소효기",
+        "용산구 컬렉트서울"
+      ],
+      "tags": [
+        "인테리어",
+        "빈티지가구",
+        "홈스타일링",
+        "가구쇼룸"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-09-17T09:49:18+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-free-rooftop-observatories",
+      "titleHint": "입장료 없이 누리는 파노라마 시티뷰, 서울 도심 한가운데 숨겨진 무료 개방 전망대",
+      "topicCategory": "무료코스",
+      "angle": "비싼 타워 전망대 대신 부담 없이 들러 도심 전경을 감상할 수 있는 무료 개방 공간",
+      "places": [
+        "중구 서소문청사 정동전망대",
+        "종로구 세운상가 옥상공원",
+        "중구 서울도시건축전시관 서울마루"
+      ],
+      "tags": [
+        "무료전망대",
+        "서울시티뷰",
+        "노을맛집",
+        "가성비코스"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-09-17T09:49:18+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-specialty-roastery-bars",
+      "titleHint": "한 잔의 원두에 담긴 예술, 나만의 커피 취향을 찾아가는 서울 전문 에스프레소 & 로스터리 바",
+      "topicCategory": "생활취향",
+      "angle": "흔한 대형 카페 대신 직접 엄선하고 로스팅한 스페셜티 원두의 본연의 맛을 음미하는 공간",
+      "places": [
+        "마포구 펠트커피 창전점",
+        "서대문구 프로토콜",
+        "성동구 센터커피 서울숲점"
+      ],
+      "tags": [
+        "스페셜티커피",
+        "로스터리카페",
+        "커피맛집",
+        "원두편집숍"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-09-17T09:49:18+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-outdoor-foot-bath-spots",
+      "titleHint": "따뜻한 온수에 피로를 녹이다, 누구나 무료로 즐길 수 있는 서울 야외 족욕 체험장",
+      "topicCategory": "저비용선택지",
+      "angle": "가벼운 산책 후에 쌓인 발의 피로를 무료 또는 저렴한 가격으로 풀 수 있는 도심 속 웰빙 체험",
+      "places": [
+        "서대문구 홍제천 폭포마당 족욕장",
+        "강북구 우이동 만남의광장 족욕체험장",
+        "종로구 돈의문박물관마을 힐링족욕탕"
+      ],
+      "tags": [
+        "무료족욕",
+        "피로회복",
+        "야외체험",
+        "힐링스팟"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-09-17T09:49:18+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-foreign-cultural-centers",
+      "titleHint": "여권 없이 떠나는 문화 산책, 이색 도서와 전시가 가득한 주한 외국 문화원 공간",
+      "topicCategory": "실내나들이",
+      "angle": "서울 시민 누구나 자유롭게 이용할 수 있는 주한 외국 문화원 내 숨겨진 도서관 및 무료 갤러리",
+      "places": [
+        "중구 주한프랑스문화원 도서관",
+        "용산구 주한독일문화원 도서관",
+        "종로구 주한일본문화원 실크갤러리"
+      ],
+      "tags": [
+        "외국문화원",
+        "무료전시",
+        "이색도서관",
+        "실내데이트"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-09-17T09:49:18+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-nostalgic-traditional-teahouses",
+      "titleHint": "노른자 띄운 쌍화차부터 은은한 대추차까지, 시간이 멈춘 듯한 서울 전통 다방 및 찻집",
+      "topicCategory": "생활취향",
+      "angle": "최신 유행 카페에서 탈피해 고즈넉한 한옥이나 예스러움을 그대로 간직한 전통 차 공간",
+      "places": [
+        "종로구 대학로 학림다방",
+        "종로구 인사동 전통찻집 뜰안",
+        "중구 을지로 을지다방"
+      ],
+      "tags": [
+        "레트로다방",
+        "전통찻집",
+        "노포감성",
+        "레트로코스"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-09-17T09:49:18+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-specialty-theme-libraries",
+      "titleHint": "디자인부터 여행·예술까지, 깊고 넓은 취향의 세계를 채우는 서울 전문 테마 도서관",
+      "topicCategory": "실내나들이",
+      "angle": "일반 공공도서관과 달리 특정 주제(디자인, 영화, 여행 등)에만 깊게 몰입할 수 있도록 큐레이션된 서가",
+      "places": [
+        "강남구 현대카드 트래블 라이브러리",
+        "종로구 현대카드 디자인 라이브러리",
+        "중구 CGV 명동역 씨네 라이브러리"
+      ],
+      "tags": [
+        "이색도서관",
+        "테마서가",
+        "문화공간",
+        "독서몰입"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-09-17T09:49:18+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-art-poster-print-shops",
+      "titleHint": "내 방의 감도를 높이는 그림 한 점, 공간을 감각적으로 채워줄 서울 아트 포스터 편집숍",
+      "topicCategory": "생활취향",
+      "angle": "부담 없는 가격의 포스터와 아트 프린트로 홈스타일링을 완성할 수 있는 서울의 전문 리빙 편집숍",
+      "places": [
+        "마포구 서교동 더포스터샵",
+        "성동구 성수동 페이지메일",
+        "용산구 한남동 디앤디파트먼트 서울"
+      ],
+      "tags": [
+        "인테리어소품",
+        "아트포스터",
+        "그림숍",
+        "홈스타일링"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-09-17T09:49:18+09:00",
       "usedAt": null
     }
   ]
