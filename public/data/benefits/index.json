@@ -10,7 +10,7 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-09-18T00:42:10.121Z",
+    "collectedAt": "2026-09-19T00:31:25.146Z",
     "syncSchedule": "매일 오전 7시 30분",
     "availableCount": 10926,
     "fetchedCount": 1140,
@@ -21,6 +21,325 @@
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-O00022800008",
+      "sourceId": "O00022800008",
+      "title": "체육시설 이용요금 감면(금나래문화체육센터)",
+      "field": "문화·환경",
+      "provider": "서울특별시금천구시설관리공단",
+      "providerType": "서울시",
+      "district": "금천구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "- 지원대상\n○ 만 65세 이상 금천구 주민\n○ 국가유공자 / 배우자\n○ 장애인 본인 / 보호자\n○ 기초생활수급자 본인\n○ 만 65세 이상 타지역 주민\n○ 만 13세 이상 만 55세 이하 수영장 여성 사용자\n\n- 제외대상 : 해당없음\n\n- 지역범위 : 금천구, 타지역",
+      "summary": "서울특별시금천구시설관리공단에서 제공하는 문화·환경 혜택입니다. 사회적 취약계층에게 금나래문화체육센터 이용요금 감면(대상별 상이)",
+      "supportType": "현금(감면)",
+      "supportSummary": "○ 서울특별시 금천구 문화체육시설 사용료 감면\n\n○ 체육시설 이용료 감면(50%)\n - 장애인스포츠바우처(헬스프로그램 전용) \n\n○ 체육시설 이용료 감면(50%)\n - 「국민기초생활 보장법」 만 65세 이상(금천구 주민)\n - 「 국가유공자 등 예우 및 지원에 관한…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청",
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022800008",
+      "onlineUrl": "https://g.gfmc.kr",
+      "inquiry": [
+        "금나래문화체육부/02-805-7678"
+      ],
+      "updatedAt": "2026-09-18",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-O00022800003",
+      "sourceId": "O00022800003",
+      "title": "체육시설 이용요금 감면(금빛휘트니스센터)",
+      "field": "문화·환경",
+      "provider": "서울특별시금천구시설관리공단",
+      "providerType": "서울시",
+      "district": "금천구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "- 지원대상 \n○ 장애인 본인 / 보호자 \n○ 국가유공자 / 배우자\n○ 기초생활수급자 본인 \n○ 다둥이카드소지자\n\n- 제외대상 : 해당없음\n\n- 지역범위 : 금천구, 타지역",
+      "summary": "서울특별시금천구시설관리공단에서 제공하는 문화·환경 혜택입니다. 사회적 취약계층에게 금빛휘트니스센터 이용요금 감면(대상별 상이)",
+      "supportType": "현금(감면)",
+      "supportSummary": "○ 서울특별시 금천구 문화체육시설 사용료 감면\n\n○ 체육시설 이용료 감면(100%)\n - 스포츠바우처(체육프로그램 전용) \n - 장애인스포츠바우처(체육프로그램 전용) \n\n○ 체육시설 이용료 감면(50%)\n - 「국민기초생활 보장법」 만 65세 이상(금천구 주민)\n -…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022800003",
+      "onlineUrl": "https://s.gfmc.kr",
+      "inquiry": [
+        "금천문화체육부(금빛센터팀)/02-802-9685"
+      ],
+      "updatedAt": "2026-09-18",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-O00022800005",
+      "sourceId": "O00022800005",
+      "title": "체육시설 이용요금 감면(금천구민문화체육센터)",
+      "field": "문화·환경",
+      "provider": "서울특별시금천구시설관리공단",
+      "providerType": "서울시",
+      "district": "금천구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "- 지원대상\n\n○ 장애인복지카드\n○ 국가유공자복지카드\n○ 기초생활수급증명서\n○ 체육진흥공단 스포츠강좌 자격확인\n○ 체육진흥공단 장애인스포츠강좌 자격확인\n○ 다둥이카드소지자\n\n- 제외대상 : 해당 없음\n\n- 지역범위 : 금천구, 타지역",
+      "summary": "서울특별시금천구시설관리공단에서 제공하는 문화·환경 혜택입니다. 사회적 취약계층에게 문화체육센터 프로그램 감면(대상별 상이)",
+      "supportType": "현금(감면)",
+      "supportSummary": "○ 서울특별시 금천구 문화체육시설 사용료 감면\n\n○ 체육시설 이용료 감면(100%)\n - 스포츠바우처(체육프로그램 전용) \n - 장애인스포츠바우처(체육프로그램 전용) \n\n○ 체육시설 이용료 감면(50%)\n - 「국민기초생활 보장법」 만 65세 이상(금천구 주민)\n -…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022800005",
+      "onlineUrl": "gfmc.kr",
+      "inquiry": [
+        "금천문화체육부(독산센터팀)/02-861-1313"
+      ],
+      "updatedAt": "2026-09-18",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-O00022800007",
+      "sourceId": "O00022800007",
+      "title": "체육시설 이용요금 감면(금천구민문화체육센터)(소속회)",
+      "field": "문화·환경",
+      "provider": "서울특별시금천구시설관리공단",
+      "providerType": "서울시",
+      "district": "금천구",
+      "userType": "법인/시설/단체",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "- 지원대상 : 금천구소속체육회\n\n- 제외대상 : 해당없음\n\n- 지역범위 : 금천구",
+      "summary": "서울특별시금천구시설관리공단에서 제공하는 문화·환경 혜택입니다. 금천구소속체육회에 문화체육센터 이용요금 감면(대상별 상이)",
+      "supportType": "현금(감면)",
+      "supportSummary": "○ 서울특별시 금천구 문화체육시설 사용료 감면\n\n○ 체육시설 이용료 감면(100%)\n - 스포츠바우처(체육프로그램 전용) \n - 장애인스포츠바우처(체육프로그램 전용) \n - 구청장배대회 대상으로 사용료 100% 감면\n\n○ 체육시설 이용료 감면(50%)\n -  협회장배…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022800007",
+      "onlineUrl": "",
+      "inquiry": [
+        "금천문화체육부(독산센터팀)/02-861-1313"
+      ],
+      "updatedAt": "2026-09-18",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-O00022800009",
+      "sourceId": "O00022800009",
+      "title": "체육시설 이용요금 감면(독산배드민턴체육관)",
+      "field": "문화·환경",
+      "provider": "서울특별시금천구시설관리공단",
+      "providerType": "서울시",
+      "district": "금천구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "- 지원대상\n○ 장애인 본인 / 보호자\n○ 국가유공자 / 배우자\n○ 기초생활수급자 본인\n○ 체육진흥공단 스포츠강좌 자격확인\n○ 체육진흥공단 장애인스포츠강좌 자격확인\n○ 다둥이카드소지자\n\n- 제외대상 : 해당없음\n\n- 지역범위 : 금천구, 타지역",
+      "summary": "서울특별시금천구시설관리공단에서 제공하는 문화·환경 혜택입니다. 사회적 취약계층에게 문화체육센터 프로그램 감면(대상별 상이)",
+      "supportType": "현금(감면)",
+      "supportSummary": "○ 서울특별시 금천구 문화체육시설 사용료 감면\n\n○ 체육시설 이용료 감면(100%)\n - 스포츠바우처(체육프로그램 전용) \n - 장애인스포츠바우처(체육프로그램 전용) \n\n○ 체육시설 이용료 감면(50%)\n - 「국민기초생활 보장법」 만 65세 이상(금천구 주민)\n -…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022800009",
+      "onlineUrl": "https://b.gfmc.kr/",
+      "inquiry": [
+        "금천문화체육부(독산센터팀)/02-861-1313"
+      ],
+      "updatedAt": "2026-09-18",
+      "registeredAt": "2026-02-09"
+    },
+    {
+      "id": "gov-benefit-O00022800002",
+      "sourceId": "O00022800002",
+      "title": "체육시설 이용요금 감면(독산어르신체육센터)",
+      "field": "문화·환경",
+      "provider": "서울특별시금천구시설관리공단",
+      "providerType": "서울시",
+      "district": "금천구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "- 지원대상 \n○ 금천구장애인 체육회\n\n-제외대상 : 해당없음\n\n- 지역범위 : 금천구",
+      "summary": "서울특별시금천구시설관리공단에서 제공하는 문화·환경 혜택입니다. 사회적 취약계층에게 독산어르신체육센터 이용요금 50%감면",
+      "supportType": "현금(감면)",
+      "supportSummary": "○ 서울특별시 금천구 문화체육시설 사용료 감면\n\n○ 체육시설 이용료 감면(50%)\n - 금천구장애인 체육회",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022800002",
+      "onlineUrl": "https://spg.gfmc.kr",
+      "inquiry": [
+        "금천문화체육부(독산센터팀)/02-853-9271"
+      ],
+      "updatedAt": "2026-09-18",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-O00022800004",
+      "sourceId": "O00022800004",
+      "title": "체육시설 이용요금 감면(베이스볼파크)",
+      "field": "문화·환경",
+      "provider": "서울특별시금천구시설관리공단",
+      "providerType": "서울시",
+      "district": "금천구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "- 지원대상\n○ 금천구야구소프트볼연합회소속야구회\n-제외대상 : 해당없음\n-지역범위 : 금천구, 타지역",
+      "summary": "서울특별시금천구시설관리공단에서 제공하는 문화·환경 혜택입니다. 구민 및 단체에게 베이스볼파크 이용요금 감면(대상별 상이)",
+      "supportType": "현금(감면)",
+      "supportSummary": "○ 서울특별시 금천구 문화체육시설 사용료 감면\n\n○ 체육시설 이용료 감면(100%)\n - 스포츠바우처(체육프로그램 전용) \n - 장애인스포츠바우처(체육프로그램 전용) \n\n○ 체육시설 이용료 감면(50%)\n - 「국민기초생활 보장법」 만 65세 이상(금천구 주민)\n -…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022800004",
+      "onlineUrl": "https://sports.gfmc.kr/",
+      "inquiry": [
+        "금천문화체육부(독산센터팀)/02-861-1313"
+      ],
+      "updatedAt": "2026-09-18",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-O00022800001",
+      "sourceId": "O00022800001",
+      "title": "주차장 이용요금 감면",
+      "field": "생활안정",
+      "provider": "서울특별시금천구시설관리공단",
+      "providerType": "서울시",
+      "district": "금천구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "- 지원대상\n○ 장애인\n - 장애인 등록증. 자동차 표지\n\n○ 국가유공자\n - 국가유공자 증서, 자동차 표지\n\n○ 고엽제후유증 환자\n - 고엽제후유증 환자증서, 자동차 표지\n\n○ 다둥이\n - 다둥이행복카드, 주민등록등본\n\n○ 모범납세자\n - 성실남세증표지 부착(국세청…",
+      "summary": "서울특별시금천구시설관리공단에서 제공하는 생활안정 혜택입니다. 사회적 취약계층에게 주차장 이용요금 감면(대상별 상이)",
+      "supportType": "현금(감면)",
+      "supportSummary": "○ 서울특별시 금천구주차장 설치 및 관리조례 따른 주차요금 감면 \n\n○ 주차요금 감면(80%)\n - 「장애인복지법」 제32조에 의한 장애인 등록을 한 자로써 같은법 시행규칙 제26조 및 제 27조의 규정에 의한 장애인자동차 표지를 부착하고\n     장애인이 탑승하고…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022800001",
+      "onlineUrl": "",
+      "inquiry": [
+        "주차사업부/02-809-0061"
+      ],
+      "updatedAt": "2026-09-18",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-302000000101",
+      "sourceId": "302000000101",
+      "title": "저소득 어르신 건강음료 서비스 제공",
+      "field": "생활안정",
+      "provider": "서울특별시 용산구",
+      "providerType": "자치구",
+      "district": "용산구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 생계 의료 수급자중 만 65세이상 홀몸 어르신(용산구 주민)",
+      "summary": "서울특별시 용산구에서 제공하는 생활안정 혜택입니다. 만65세 이상 저소득 홀몸어르신에게 건강음료 전달 및 안부 확인을 통한 고독사 방지",
+      "supportType": "현물",
+      "supportSummary": "○ 건강음료 주 3회 제공",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/302000000101",
+      "onlineUrl": "",
+      "inquiry": [
+        "어르신복지과/02-2199-4685"
+      ],
+      "updatedAt": "2026-09-18",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-311000000225",
+      "sourceId": "311000000225",
+      "title": "1인가구 전입 생활 지원 은빛SOL 라이프",
+      "field": "생활안정",
+      "provider": "서울특별시 은평구",
+      "providerType": "자치구",
+      "district": "은평구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "타 시도, 타 구에서 은평구로 전입한 청년, 중장년(1961-2006년생) 1인가구",
+      "summary": "서울특별시 은평구에서 제공하는 생활안정 혜택입니다. 은평구로 전입한 청년, 중장년 1인가구에게 안내서와 생활 물품을 포함한 웰컴행복박스 지원을 통해 취약 정보의 접근성 강화 및 전입 환경 적응을 지원하여 건강한 돌봄 공동체를 조성",
+      "supportType": "현물",
+      "supportSummary": "은평구로 전입한 청년, 중장년 1인가구에게 안내서와 생활 물품을 포함한 웰컴행복박스 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000225",
+      "onlineUrl": "",
+      "inquiry": [
+        "은평구청/0000"
+      ],
+      "updatedAt": "2026-09-18",
+      "registeredAt": "2024-12-20"
+    },
+    {
+      "id": "gov-benefit-311000000146",
+      "sourceId": "311000000146",
+      "title": "은평구 무료법률상담서비스 제공",
+      "field": "생활안정",
+      "provider": "서울특별시 은평구",
+      "providerType": "자치구",
+      "district": "은평구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "법률서비스 접근이 취약한 구민 누구나",
+      "summary": "서울특별시 은평구에서 제공하는 생활안정 혜택입니다. 주민을 대상으로 민사, 형사, 가사, 행정 및 생활관련 법률상담 제공",
+      "supportType": "기타(상담)",
+      "supportSummary": "주민생활에서 발생하는 각종 법률문제에 있어 주민의 이익과 권리를 보호하기 위하여 법률상담을 무료로 제공하는 서비스입니다.\n\n민사, 가사, 행정, 형사, 그 밖의 생활법률에 대하여 변호사가 상담서비스를 제공합니다.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000146",
+      "onlineUrl": "",
+      "inquiry": [
+        "기획예산과/02-351-6285"
+      ],
+      "updatedAt": "2026-09-18",
+      "registeredAt": "2022-11-04"
+    },
     {
       "id": "gov-benefit-315000000106",
       "sourceId": "315000000106",
@@ -9962,34 +10281,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-302000000101",
-      "sourceId": "302000000101",
-      "title": "저소득 어르신 건강음료 서비스 제공",
-      "field": "생활안정",
-      "provider": "서울특별시 용산구",
-      "providerType": "자치구",
-      "district": "용산구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 생계 의료 수급자중 만 65세이상 홀몸 어르신(용산구 주민)",
-      "summary": "서울특별시 용산구에서 제공하는 생활안정 혜택입니다. 만 65세 이상 홀몸어르신에게 건강음료 제공",
-      "supportType": "현물",
-      "supportSummary": "○ 건강음료 주 3회 제공",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/302000000101",
-      "onlineUrl": "",
-      "inquiry": [
-        "어르신복지과/02-2199-4685"
-      ],
-      "updatedAt": "2026-08-13",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-300000000111",
       "sourceId": "300000000111",
       "title": "가정위탁아동 및 입양가정 지원",
@@ -17579,236 +17870,6 @@
       "registeredAt": "2021-10-26"
     },
     {
-      "id": "gov-benefit-O00022800008",
-      "sourceId": "O00022800008",
-      "title": "체육시설 이용요금 감면(금나래문화체육센터)",
-      "field": "문화·환경",
-      "provider": "서울특별시금천구시설관리공단",
-      "providerType": "서울시",
-      "district": "금천구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 만 65세 이상 금천구 주민\n\n○ 국가유공자 / 배우자\n\n○ 장애인 본인 / 보호자\n\n○ 기초생활수급자 본인\n\n○ 만 65세 이상 타지역 주민\n\n○ 만 13세 이상 만 55세 이하 수영장 여성 사용자",
-      "summary": "서울특별시금천구시설관리공단에서 제공하는 문화·환경 혜택입니다. 사회적 취약계층에게 금나래문화체육센터 이용요금 감면(대상별 상이)",
-      "supportType": "현금(감면)",
-      "supportSummary": "○ 서울특별시 금천구 문화체육시설 사용료 감면\n\n○ 체육시설 이용료 감면(50%)\n - 장애인스포츠바우처(헬스프로그램 전용) \n\n○ 체육시설 이용료 감면(50%)\n - 「국민기초생활 보장법」 만 65세 이상(금천구 주민)\n - 「 국가유공자 등 예우 및 지원에 관한…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청",
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022800008",
-      "onlineUrl": "https://g.gfmc.kr",
-      "inquiry": [
-        "금나래문화체육부/02-805-7678"
-      ],
-      "updatedAt": "2026-08-06",
-      "registeredAt": "2022-07-15"
-    },
-    {
-      "id": "gov-benefit-O00022800003",
-      "sourceId": "O00022800003",
-      "title": "체육시설 이용요금 감면(금빛휘트니스센터)",
-      "field": "문화·환경",
-      "provider": "서울특별시금천구시설관리공단",
-      "providerType": "서울시",
-      "district": "금천구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 장애인복지카드\n\n○ 국가유공자복지카드\n\n○ 기초생활수급증명서\n\n○ 체육진흥공단 스포츠바우처자격확인\n\n○ 체육진흥공단 장애인스포츠바우처자격확인\n\n○ 다둥이카드소지자",
-      "summary": "서울특별시금천구시설관리공단에서 제공하는 문화·환경 혜택입니다. 사회적 취약계층에게 금빛휘트니스센터 이용요금 감면(대상별 상이)",
-      "supportType": "현금(감면)",
-      "supportSummary": "○ 서울특별시 금천구 문화체육시설 사용료 감면\n\n○ 체육시설 이용료 감면(100%)\n - 스포츠바우처(체육프로그램 전용) \n - 장애인스포츠바우처(체육프로그램 전용) \n\n○ 체육시설 이용료 감면(50%)\n - 「국민기초생활 보장법」 만 65세 이상(금천구 주민)\n -…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022800003",
-      "onlineUrl": "gfmc.kr",
-      "inquiry": [
-        "금천문화체육부(금빛센터팀)/02-802-9685"
-      ],
-      "updatedAt": "2026-08-06",
-      "registeredAt": "2022-07-15"
-    },
-    {
-      "id": "gov-benefit-O00022800005",
-      "sourceId": "O00022800005",
-      "title": "체육시설 이용요금 감면(금천구민문화체육센터)",
-      "field": "문화·환경",
-      "provider": "서울특별시금천구시설관리공단",
-      "providerType": "서울시",
-      "district": "금천구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 장애인복지카드\n○ 국가유공자복지카드\n○ 기초생활수급증명서\n○ 체육진흥공단 스포츠강좌 자격확인\n○ 체육진흥공단 장애인스포츠강좌 자격확인\n○ 다둥이카드소지자",
-      "summary": "서울특별시금천구시설관리공단에서 제공하는 문화·환경 혜택입니다. 사회적 취약계층에게 문화체육센터 프로그램 감면(대상별 상이)",
-      "supportType": "현금(감면)",
-      "supportSummary": "○ 서울특별시 금천구 문화체육시설 사용료 감면\n\n○ 체육시설 이용료 감면(100%)\n - 스포츠바우처(체육프로그램 전용) \n - 장애인스포츠바우처(체육프로그램 전용) \n\n○ 체육시설 이용료 감면(50%)\n - 「국민기초생활 보장법」 만 65세 이상(금천구 주민)\n -…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022800005",
-      "onlineUrl": "gfmc.kr",
-      "inquiry": [
-        "금천문화체육부(독산센터팀)/02-861-1313"
-      ],
-      "updatedAt": "2026-08-06",
-      "registeredAt": "2022-07-15"
-    },
-    {
-      "id": "gov-benefit-O00022800007",
-      "sourceId": "O00022800007",
-      "title": "체육시설 이용요금 감면(금천구민문화체육센터)(소속회)",
-      "field": "문화·환경",
-      "provider": "서울특별시금천구시설관리공단",
-      "providerType": "서울시",
-      "district": "금천구",
-      "userType": "법인/시설/단체",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "금천구소속체육회",
-      "summary": "서울특별시금천구시설관리공단에서 제공하는 문화·환경 혜택입니다. 금천구소속체육회에 문화체육센터 이용요금 감면(대상별 상이)",
-      "supportType": "현금(감면)",
-      "supportSummary": "○ 서울특별시 금천구 문화체육시설 사용료 감면\n\n○ 체육시설 이용료 감면(100%)\n - 스포츠바우처(체육프로그램 전용) \n - 장애인스포츠바우처(체육프로그램 전용) \n - 구청장배대회 대상으로 사용료 100% 감면\n\n○ 체육시설 이용료 감면(50%)\n -  협회장배…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022800007",
-      "onlineUrl": "",
-      "inquiry": [
-        "금천문화체육부(독산센터팀)/02-861-1313"
-      ],
-      "updatedAt": "2026-08-06",
-      "registeredAt": "2022-07-15"
-    },
-    {
-      "id": "gov-benefit-O00022800009",
-      "sourceId": "O00022800009",
-      "title": "체육시설 이용요금 감면(독산배드민턴체육관)",
-      "field": "문화·환경",
-      "provider": "서울특별시금천구시설관리공단",
-      "providerType": "서울시",
-      "district": "금천구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 장애인복지카드\n○ 국가유공자복지카드\n○ 기초생활수급증명서\n○ 체육진흥공단 스포츠강좌 자격확인\n○ 체육진흥공단 장애인스포츠강좌 자격확인\n○ 다둥이카드소지자",
-      "summary": "서울특별시금천구시설관리공단에서 제공하는 문화·환경 혜택입니다. 사회적 취약계층에게 문화체육센터 프로그램 감면(대상별 상이)",
-      "supportType": "현금(감면)",
-      "supportSummary": "○ 서울특별시 금천구 문화체육시설 사용료 감면\n\n○ 체육시설 이용료 감면(100%)\n - 스포츠바우처(체육프로그램 전용) \n - 장애인스포츠바우처(체육프로그램 전용) \n\n○ 체육시설 이용료 감면(50%)\n - 「국민기초생활 보장법」 만 65세 이상(금천구 주민)\n -…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022800009",
-      "onlineUrl": "",
-      "inquiry": [
-        "금천문화체육부(독산센터팀)/02-861-1313"
-      ],
-      "updatedAt": "2026-08-06",
-      "registeredAt": "2026-02-09"
-    },
-    {
-      "id": "gov-benefit-O00022800002",
-      "sourceId": "O00022800002",
-      "title": "체육시설 이용요금 감면(독산어르신체육센터)",
-      "field": "문화·환경",
-      "provider": "서울특별시금천구시설관리공단",
-      "providerType": "서울시",
-      "district": "금천구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "장애인복지카드, 주민등록증 및 신분확인서류 지참, 수급자 증명서 서류 제출",
-      "summary": "서울특별시금천구시설관리공단에서 제공하는 문화·환경 혜택입니다. 사회적 취약계층에게 독산어르신체육센터 이용요금 50%감면",
-      "supportType": "현금(감면)",
-      "supportSummary": "○ 서울특별시 금천구 문화체육시설 사용료 감면\n\n○ 체육시설 이용료 감면(50%)\n - 「국민기초생활 보장법」 만 65세 이상(금천구 주민)\n - 「 국가유공자 등 예우 및 지원에 관한 법률 시행령」 국가유공자 본인 / 배우자\n - 「국민기초생활 보장법」 장애인 본인…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022800002",
-      "onlineUrl": "",
-      "inquiry": [
-        "금천문화체육부(독산센터팀)/02-853-9271"
-      ],
-      "updatedAt": "2026-08-06",
-      "registeredAt": "2022-07-15"
-    },
-    {
-      "id": "gov-benefit-O00022800004",
-      "sourceId": "O00022800004",
-      "title": "체육시설 이용요금 감면(베이스볼파크)",
-      "field": "문화·환경",
-      "provider": "서울특별시금천구시설관리공단",
-      "providerType": "서울시",
-      "district": "금천구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 금천구야구소프트볼연합회소속야구회\n\n○ 금천구청직원야구동호회\n\n○ 청소년(초,중,고생)\n\n○ 금천구민(관내 사업장)",
-      "summary": "서울특별시금천구시설관리공단에서 제공하는 문화·환경 혜택입니다. 구민 및 단체에게 베이스볼파크 이용요금 감면(대상별 상이)",
-      "supportType": "시설이용||현금(감면)",
-      "supportSummary": "○ 서울특별시 금천구 문화체육시설 사용료 감면\n\n○ 체육시설 이용료 감면(100%)\n - 스포츠바우처(체육프로그램 전용) \n - 장애인스포츠바우처(체육프로그램 전용) \n\n○ 체육시설 이용료 감면(50%)\n - 「국민기초생활 보장법」 만 65세 이상(금천구 주민)\n -…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022800004",
-      "onlineUrl": "gfmc.kr",
-      "inquiry": [
-        "금천문화체육부(독산센터팀)/02-861-1313"
-      ],
-      "updatedAt": "2026-08-06",
-      "registeredAt": "2022-07-15"
-    },
-    {
-      "id": "gov-benefit-O00022800001",
-      "sourceId": "O00022800001",
-      "title": "주차장 이용요금 감면",
-      "field": "생활안정",
-      "provider": "서울특별시금천구시설관리공단",
-      "providerType": "서울시",
-      "district": "금천구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 장애인\n - 장애인 등록증. 자동차 표지\n\n○ 국가유공자\n - 국가유공자 증서, 자동차 표지\n\n○ 고엽제후유증 환자\n - 고엽제후유증 환자증서, 자동차 표지\n\n○ 다둥이\n - 다둥이행복카드, 주민등록등본\n\n○ 모범납세자\n - 성실남세증표지 부착(국세청장)\n\n○ 저…",
-      "summary": "서울특별시금천구시설관리공단에서 제공하는 생활안정 혜택입니다. 사회적 취약계층에게 주차장 이용요금 감면(대상별 상이)",
-      "supportType": "현금(감면)",
-      "supportSummary": "○ 서울특별시 금천구주차장 설치 및 관리조례 따른 주차요금 감면 \n\n○ 주차요금 감면(80%)\n - 「장애인복지법」 제32조에 의한 장애인 등록을 한 자로써 같은법 시행규칙 제26조 및 제 27조의 규정에 의한 장애인자동차 표지를 부착하고\n     장애인이 탑승하고…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022800001",
-      "onlineUrl": "",
-      "inquiry": [
-        "주차사업부/02-809-0061"
-      ],
-      "updatedAt": "2026-08-06",
-      "registeredAt": "2022-07-15"
-    },
-    {
       "id": "gov-benefit-309000000139",
       "sourceId": "309000000139",
       "title": "초등학생 척추측만증 및 거북목 검진지원",
@@ -20799,35 +20860,6 @@
       ],
       "updatedAt": "2026-08-05",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-311000000225",
-      "sourceId": "311000000225",
-      "title": "1인가구 전입 생활 지원 은빛SOL 라이프",
-      "field": "생활안정",
-      "provider": "서울특별시 은평구",
-      "providerType": "자치구",
-      "district": "은평구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "타 시도, 타 구에서 은평구로 전입한 청년, 중장년(1961-2006년생) 1인가구",
-      "summary": "서울특별시 은평구에서 제공하는 생활안정 혜택입니다. 은평구로 전입한 청년, 중장년 1인가구에게 안내서와 생활 물품을 포함한 웰컴행복박스 지원을 통해 취약 정보의 접근성 강화 및 전입 환경 적응을 지원하여 건강한 돌봄 공동체를 조성",
-      "supportType": "현물",
-      "supportSummary": "은평구로 전입한 청년, 중장년 1인가구에게 안내서와 생활 물품을 포함한 웰컴행복박스 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000225",
-      "onlineUrl": "",
-      "inquiry": [
-        "은평구청/0000"
-      ],
-      "updatedAt": "2026-08-05",
-      "registeredAt": "2024-12-20"
     },
     {
       "id": "gov-benefit-311000000120",
@@ -28439,35 +28471,6 @@
       ],
       "updatedAt": "2026-07-27",
       "registeredAt": "2025-10-20"
-    },
-    {
-      "id": "gov-benefit-311000000146",
-      "sourceId": "311000000146",
-      "title": "은평구 무료법률상담서비스 제공",
-      "field": "생활안정",
-      "provider": "서울특별시 은평구",
-      "providerType": "자치구",
-      "district": "은평구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "법률서비스 접근이 취약한 구민 누구나",
-      "summary": "서울특별시 은평구에서 제공하는 생활안정 혜택입니다. 주민을 대상으로 민사, 형사, 가사, 행정 및 생활관련 법률상담 제공",
-      "supportType": "기타(상담)",
-      "supportSummary": "주민생활에서 발생하는 각종 법률문제에 있어 주민의 이익과 권리를 보호하기 위하여 법률상담을 무료로 제공하는 서비스입니다.\n\n민사, 가사, 행정, 형사, 그 밖의 생활법률에 대하여 변호사가 상담서비스를 제공합니다.",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000146",
-      "onlineUrl": "",
-      "inquiry": [
-        "기획예산과/02-351-6285"
-      ],
-      "updatedAt": "2026-07-27",
-      "registeredAt": "2022-11-04"
     },
     {
       "id": "gov-benefit-O00023300003",
