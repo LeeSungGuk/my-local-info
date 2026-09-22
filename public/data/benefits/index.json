@@ -10,7 +10,7 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-09-19T00:31:25.146Z",
+    "collectedAt": "2026-09-22T01:03:35.263Z",
     "syncSchedule": "매일 오전 7시 30분",
     "availableCount": 10926,
     "fetchedCount": 1140,
@@ -21,6 +21,64 @@
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-315000000111",
+      "sourceId": "315000000111",
+      "title": "강서구 다자녀가정 의료비 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 강서구",
+      "providerType": "자치구",
+      "district": "강서구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 관내 주민등록을 두고 거주 중인 5세 이하 셋째아 이상 양육가정",
+      "summary": "서울특별시 강서구에서 제공하는 보건·의료 혜택입니다. ○ 관내 3자녀 이상 양육가정의 의료비 지원을 통해 아동의 건강한 양육환경 및 다자녀가정 우대분위기 조성에 기여하고자 함",
+      "supportType": "현금",
+      "supportSummary": "○ 5세 이하인 셋째아 이상 자녀가 치료목적으로 요양기관(병원, 의원, 보건소 등)에 진료시 납입한 진료비의 건강보험 본인부담금 및 약국에서 구입한 약제비의 본인부담금 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000111",
+      "onlineUrl": "",
+      "inquiry": [
+        "출산보육과/02-2600-6967"
+      ],
+      "updatedAt": "2026-09-21",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-303000000108",
+      "sourceId": "303000000108",
+      "title": "저소득 중증 재가장애인 밑반찬 지원",
+      "field": "보호·돌봄",
+      "provider": "서울특별시 성동구",
+      "providerType": "자치구",
+      "district": "성동구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 거동이 곤란한 저소득 중증 재가장애인",
+      "summary": "서울특별시 성동구에서 제공하는 보호·돌봄 혜택입니다. 저소득 중증 재가장애인에게 주 1회 밑반찬 무료 제공",
+      "supportType": "현물",
+      "supportSummary": "○ 주 1회 저소득 중증 재가장애인에게 맞춤형 무료 밑반찬 제공",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000108",
+      "onlineUrl": "",
+      "inquiry": [
+        "장애인복지과/02-2286-5445",
+        "성동장애인종합복지관/02-2290-3100"
+      ],
+      "updatedAt": "2026-09-21",
+      "registeredAt": "2021-09-23"
+    },
     {
       "id": "gov-benefit-O00022800008",
       "sourceId": "O00022800008",
@@ -22620,35 +22678,6 @@
       "registeredAt": "2025-11-07"
     },
     {
-      "id": "gov-benefit-303000000108",
-      "sourceId": "303000000108",
-      "title": "저소득 중증 재가장애인 밑반찬 지원",
-      "field": "보호·돌봄",
-      "provider": "서울특별시 성동구",
-      "providerType": "자치구",
-      "district": "성동구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 거동이 곤란한 저소득 중증 재가장애인",
-      "summary": "서울특별시 성동구에서 제공하는 보호·돌봄 혜택입니다. 저소득 중증 재가장애인에게 주 1회 밑반찬 무료 제공",
-      "supportType": "현물",
-      "supportSummary": "○ 주 1회 저소득 중증 재가장애인에게 맞춤형 무료 밑반찬 제공",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000108",
-      "onlineUrl": "",
-      "inquiry": [
-        "장애인복지과/02-2286-5445",
-        "성동장애인종합복지관/02-2290-3100"
-      ],
-      "updatedAt": "2026-08-04",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-O00023500003",
       "sourceId": "O00023500003",
       "title": "성동구 내 공영주차장 및 거주자우선주차장 요금 감면 안내",
@@ -25171,35 +25200,6 @@
       ],
       "updatedAt": "2026-07-29",
       "registeredAt": "2022-11-10"
-    },
-    {
-      "id": "gov-benefit-315000000111",
-      "sourceId": "315000000111",
-      "title": "강서구 다자녀가정 의료비 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 강서구",
-      "providerType": "자치구",
-      "district": "강서구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 관내 주민등록을 두고 거주 중인 5세 이하 셋째아 이상 양육가정",
-      "summary": "서울특별시 강서구에서 제공하는 보건·의료 혜택입니다. ○ 관내 3자녀 이상 양육가정의 의료비 지원을 통해 아동의 건강한 양육환경 및 다자녀가정 우대분위기 조성에 기여하고자 함",
-      "supportType": "현금",
-      "supportSummary": "○ 5세 이하인 셋째아 이상 자녀가 치료목적으로 요양기관(병원, 의원, 보건소 등)에 진료시 납입한 진료비의 건강보험 본인부담금 및 약국에서 구입한 약제비의 본인부담금 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000111",
-      "onlineUrl": "",
-      "inquiry": [
-        "출산보육과/02-2600-6757"
-      ],
-      "updatedAt": "2026-07-29",
-      "registeredAt": "2021-09-23"
     },
     {
       "id": "gov-benefit-315000000266",
