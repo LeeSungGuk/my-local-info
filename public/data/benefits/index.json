@@ -10,9 +10,9 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-09-24T00:46:22.777Z",
+    "collectedAt": "2026-09-29T02:13:01.407Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10937,
+    "availableCount": 10941,
     "fetchedCount": 1141,
     "activeCount": 1106,
     "expiredCount": 35,
@@ -21,6 +21,64 @@
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-324000000110",
+      "sourceId": "324000000110",
+      "title": "명절맞이 위문물품 지원(양로시설)",
+      "field": "보호·돌봄",
+      "provider": "서울특별시 강동구",
+      "providerType": "자치구",
+      "district": "강동구",
+      "userType": "개인",
+      "deadlineText": "별도 신청절차 없음(설/추석 명절 지원)",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 양로시설 입소어르신",
+      "summary": "서울특별시 강동구에서 제공하는 보호·돌봄 혜택입니다. 양로시설 입소 어르신에게 명절맞이 위문물품 지원",
+      "supportType": "현물",
+      "supportSummary": "○ 양로시설 입소 어르신에게 명절맞이 위문물품 지원\n   - 70만원 / 연 2회",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "신청불필요"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/324000000110",
+      "onlineUrl": "",
+      "inquiry": [
+        "어르신복지과/02-3425-5743"
+      ],
+      "updatedAt": "2026-09-28",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-311000000146",
+      "sourceId": "311000000146",
+      "title": "은평구 무료법률상담서비스 제공",
+      "field": "생활안정",
+      "provider": "서울특별시 은평구",
+      "providerType": "자치구",
+      "district": "은평구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "법률서비스 접근이 취약한 구민 누구나",
+      "summary": "서울특별시 은평구에서 제공하는 생활안정 혜택입니다. 주민을 대상으로 민사, 형사, 가사, 행정 및 생활관련 법률상담 제공",
+      "supportType": "기타(상담)",
+      "supportSummary": "주민생활에서 발생하는 각종 법률문제에 있어 주민의 이익과 권리를 보호하기 위하여 법률상담을 무료로 제공하는 서비스입니다.\n\n민사, 가사, 행정, 형사, 그 밖의 생활법률에 대하여 변호사가 상담서비스를 제공합니다.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000146",
+      "onlineUrl": "",
+      "inquiry": [
+        "기획예산과/02-351-6285"
+      ],
+      "updatedAt": "2026-09-28",
+      "registeredAt": "2022-11-04"
+    },
     {
       "id": "gov-benefit-313000000155",
       "sourceId": "313000000155",
@@ -425,36 +483,6 @@
       ],
       "updatedAt": "2026-09-18",
       "registeredAt": "2024-12-20"
-    },
-    {
-      "id": "gov-benefit-311000000146",
-      "sourceId": "311000000146",
-      "title": "은평구 무료법률상담서비스 제공",
-      "field": "생활안정",
-      "provider": "서울특별시 은평구",
-      "providerType": "자치구",
-      "district": "은평구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "법률서비스 접근이 취약한 구민 누구나",
-      "summary": "서울특별시 은평구에서 제공하는 생활안정 혜택입니다. 주민을 대상으로 민사, 형사, 가사, 행정 및 생활관련 법률상담 제공",
-      "supportType": "기타(상담)",
-      "supportSummary": "주민생활에서 발생하는 각종 법률문제에 있어 주민의 이익과 권리를 보호하기 위하여 법률상담을 무료로 제공하는 서비스입니다.\n\n민사, 가사, 행정, 형사, 그 밖의 생활법률에 대하여 변호사가 상담서비스를 제공합니다.",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000146",
-      "onlineUrl": "",
-      "inquiry": [
-        "기획예산과/02-351-6285"
-      ],
-      "updatedAt": "2026-09-18",
-      "registeredAt": "2022-11-04"
     },
     {
       "id": "gov-benefit-315000000106",
@@ -26833,34 +26861,6 @@
       "onlineUrl": "",
       "inquiry": [
         "어르신복지과/02-3425-5717"
-      ],
-      "updatedAt": "2026-07-28",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-324000000110",
-      "sourceId": "324000000110",
-      "title": "명절맞이 위문물품 지원(양로시설)",
-      "field": "보호·돌봄",
-      "provider": "서울특별시 강동구",
-      "providerType": "자치구",
-      "district": "강동구",
-      "userType": "개인",
-      "deadlineText": "별도 신청절차 없음(설/추석 명절 지원)",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 양로시설 입소어르신",
-      "summary": "서울특별시 강동구에서 제공하는 보호·돌봄 혜택입니다. 양로시설 입소 어르신에게 명절맞이 위문물품 지원",
-      "supportType": "현물",
-      "supportSummary": "○ 양로시설 입소 어르신에게 명절맞이 위문물품 지원\n   - 70만원 / 연 2회",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "신청불필요"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/324000000110",
-      "onlineUrl": "",
-      "inquiry": [
-        "어르신복지과/02-3425-5743"
       ],
       "updatedAt": "2026-07-28",
       "registeredAt": "2021-09-23"
