@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-09-29T11:13:16+09:00",
+  "lastGeneratedAt": "2026-09-30T10:27:33+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -3484,9 +3484,9 @@
         "독서몰입"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-09-17T09:49:18+09:00",
-      "usedAt": null
+      "usedAt": "2026-09-30T10:27:33+09:00"
     },
     {
       "id": "seoul-art-poster-print-shops",
