@@ -8,13 +8,13 @@
   "startDate": "2026-10-16",
   "endDate": "2026-10-17",
   "dateText": "2026-10-16~2026-10-17",
-  "timeText": "10:00~18:00",
+  "timeText": "09:00~18:00",
   "target": "누구나",
   "fee": "무료",
   "isFree": true,
   "organizer": "서울시청",
   "inquiry": "02-2133-4452",
-  "imageUrl": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6e16b1cc3037443a938753d7a7c96a0a&thumb=Y",
+  "imageUrl": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=d2b376cae07641f4b71fea6211f62a99&thumb=Y",
   "detailUrl": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159076&menuNo=200010",
   "summary": "성동구 · 서울숲(동부공원여가센터 일원)에서 열리는 축제-기타 행사입니다. 무료로 참여할 수 있는 행사입니다.",
   "organizerUrl": "https://agro-cityseoul.co.kr/",
@@ -25,5 +25,5 @@
   "latitude": 37.5430701468405,
   "longitude": 127.041799099222,
   "registeredAt": "2026-08-14",
-  "collectedAt": "2026-09-30T01:27:06.193Z"
+  "collectedAt": "2026-10-02T01:46:36.518Z"
 }
