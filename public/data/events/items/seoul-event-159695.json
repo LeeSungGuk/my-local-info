@@ -2,7 +2,7 @@
   "id": "seoul-event-159695",
   "sourceId": "159695",
   "title": "[서울시평생교육진흥원] 서울 AI 평생학습 러닝그라운드",
-  "category": "교육/체험",
+  "category": "축제-기타",
   "district": "성동구",
   "venue": "서울 성동구 서울숲, 더서울라이티움",
   "startDate": "2026-10-23",
@@ -15,8 +15,8 @@
   "organizer": "기타",
   "inquiry": "02-6953-5090",
   "imageUrl": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6d26690ea1eb4993925dc49654d4abdd&thumb=Y",
-  "detailUrl": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159695&menuNo=200011",
-  "summary": "성동구 · 서울 성동구 서울숲, 더서울라이티움에서 열리는 교육/체험 행사입니다. 무료로 참여할 수 있는 행사입니다.",
+  "detailUrl": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159695&menuNo=200010",
+  "summary": "성동구 · 서울 성동구 서울숲, 더서울라이티움에서 열리는 축제-기타 행사입니다. 무료로 참여할 수 있는 행사입니다.",
   "organizerUrl": "https://seoul-ai-learning-ground.kr/about",
   "ticketType": "기관",
   "description": "",
@@ -25,5 +25,5 @@
   "latitude": 37.5456773286722,
   "longitude": 127.042914714267,
   "registeredAt": "2026-09-30",
-  "collectedAt": "2026-10-02T01:46:36.518Z"
+  "collectedAt": "2026-10-03T01:20:20.725Z"
 }

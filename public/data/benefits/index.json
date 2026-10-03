@@ -10,7 +10,7 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-10-02T01:46:50.982Z",
+    "collectedAt": "2026-10-03T01:20:36.888Z",
     "syncSchedule": "매일 오전 7시 30분",
     "availableCount": 10949,
     "fetchedCount": 1142,
@@ -21,6 +21,36 @@
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-320000000299",
+      "sourceId": "320000000299",
+      "title": "관악구 깡충깡충 성장양육지원금",
+      "field": "임신·출산",
+      "provider": "서울특별시 관악구",
+      "providerType": "자치구",
+      "district": "관악구",
+      "userType": "개인",
+      "deadlineText": "대상영유아의 나이에 해당하는 기간 내 신청(* 이 경우 대상영유아의 나이에 해당하는 기간은 해당 나이의 시작일부터 다음 나이가 되는 날의 전날까지)",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "2세, 3세, 4세 대상영유아의 보호자  (※ 2가지 요건 충족한 자)\n\n1. 대상 영유아 : 관악구에 주민등록을 두고 실제 거주하는 2세, 3세, 4세\n\n2. 보호자 : 대상 영유아의 출생일을 기준으로 해당 나이가 되는 날의 6개월 전부터 신청일까지 계속하여 관악구…",
+      "summary": "서울특별시 관악구에서 제공하는 임신·출산 혜택입니다. 2세, 3세, 4세 영유아에 대한 깡충깡충 성장양육지원금(관악사랑상품권) 지원을 통해 경제적 부담 경감 및 출산장려 분위기 조성",
+      "supportType": "현물",
+      "supportSummary": "지원금액: 해당연령 각 1회  관악사랑상품권 30만 원 지원\n\n지급방법 : 신청인 본인 명의 핸드폰에 모바일 서울 pay+앱을 통해 관악사랑상품권 지급\n\n지급일자: 신청일 기준 익월 20일",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000299",
+      "onlineUrl": "",
+      "inquiry": [
+        "성평등가족과/02-879-6133"
+      ],
+      "updatedAt": "2026-10-02",
+      "registeredAt": "2024-08-07"
+    },
     {
       "id": "gov-benefit-313000000127",
       "sourceId": "313000000127",
@@ -4769,36 +4799,6 @@
       ],
       "updatedAt": "2026-09-08",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-320000000299",
-      "sourceId": "320000000299",
-      "title": "관악구 깡충깡충 성장양육지원금",
-      "field": "임신·출산",
-      "provider": "서울특별시 관악구",
-      "providerType": "자치구",
-      "district": "관악구",
-      "userType": "개인",
-      "deadlineText": "대상영유아의 생일부터 6개월 이내 신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "2세, 3세, 4세 대상영유아의 보호자  (※ 2가지 요건 충족한 자)\n\n1. 대상 영유아 : 관악구에 주민등록을 두고 실제 거주하는 2세, 3세, 4세\n\n2. 보호자 : 대상 영유아의 지원대상이 되는 날(생일도래일)을 기준으로 6개월 전부터 계속하여 관악구에 주민등…",
-      "summary": "서울특별시 관악구에서 제공하는 임신·출산 혜택입니다. 2세, 3세, 4세 영유아에 대한 깡충깡충 성장양육지원금(관악사랑상품권) 지원을 통해 경제적 부담 경감 및 출산장려 분위기 조성",
-      "supportType": "현물",
-      "supportSummary": "지원금액: 해당연령 각 1회  관악사랑상품권 30만 원 지원\n\n지급방법 : 신청인 본인 명의 핸드폰에 모바일 서울 pay+앱을 통해 관악사랑상품권 지급\n\n지급일자: 신청일 기준 익월 20일",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000299",
-      "onlineUrl": "",
-      "inquiry": [
-        "성평등가족과/02-879-6133"
-      ],
-      "updatedAt": "2026-09-08",
-      "registeredAt": "2024-08-07"
     },
     {
       "id": "gov-benefit-304000000199",
