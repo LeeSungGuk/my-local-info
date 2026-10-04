@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-10-03T10:20:50+09:00",
+  "lastGeneratedAt": "2026-10-04T10:55:42+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -3547,9 +3547,9 @@
         "라이프스타일"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-09-26T09:47:49+09:00",
-      "usedAt": null
+      "usedAt": "2026-10-04T10:55:42+09:00"
     },
     {
       "id": "seoul-unique-spas-and-saunas",
