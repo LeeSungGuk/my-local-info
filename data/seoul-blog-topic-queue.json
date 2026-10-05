@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-10-04T10:55:42+09:00",
+  "lastGeneratedAt": "2026-10-05T10:09:37+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -3568,9 +3568,9 @@
         "실내데이트"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-09-26T09:47:49+09:00",
-      "usedAt": null
+      "usedAt": "2026-10-05T10:09:37+09:00"
     },
     {
       "id": "seoul-vintage-film-camera-shops",
