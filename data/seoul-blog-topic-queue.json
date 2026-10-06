@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-10-05T10:09:37+09:00",
+  "lastGeneratedAt": "2026-10-06T11:26:44+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -3589,9 +3589,9 @@
         "충무로"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-09-26T09:47:49+09:00",
-      "usedAt": null
+      "usedAt": "2026-10-06T11:26:44+09:00"
     },
     {
       "id": "seoul-exotic-foreign-grocery-stores",
@@ -3696,6 +3696,195 @@
       "origin": "ai",
       "status": "pending",
       "createdAt": "2026-09-26T09:47:49+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-vegan-bakery-and-gourmet",
+      "titleHint": "버터와 달걀 없이도 풍성한 맛, 속이 편안한 서울 비건 베이커리 & 디저트 카페",
+      "topicCategory": "생활취향",
+      "angle": "건강과 환경을 생각하는 이들을 위한, 비건이 아니어도 맛있게 즐길 수 있는 서울의 비건 빵집",
+      "places": [
+        "마포구 해밀비건베이커리",
+        "용산구 써니브레드",
+        "서초구 더닐크팩토리"
+      ],
+      "tags": [
+        "비건베이커리",
+        "글루텐프리",
+        "건강식단",
+        "서울빵지순례"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-10-06T11:26:44+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-public-hanok-resting-spaces",
+      "titleHint": "고즈넉한 대청마루에서 쉬어가기, 누구나 자유롭게 이용하는 서울의 공공 한옥 쉼터",
+      "topicCategory": "휴식공간",
+      "angle": "소란스러운 도심 속에서 소란을 피해 조용히 사색하거나 책을 읽을 수 있는 무료 개방 공공 한옥 공간",
+      "places": [
+        "종로구 북촌문화센터",
+        "종로구 배렴가옥",
+        "종로구 무계원"
+      ],
+      "tags": [
+        "공공한옥",
+        "한옥쉼터",
+        "사색하기좋은곳",
+        "서울무료명소"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-10-06T11:26:44+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-modern-tea-house-experiences",
+      "titleHint": "커피 대신 차분하게 차 한 잔, 다도를 일상처럼 경험하는 서울의 현대식 티 하우스",
+      "topicCategory": "생활취향",
+      "angle": "어렵게 느껴지는 전통 다도를 캐주얼하게 재해석해, 차 전문가의 큐레이션과 팽주 서비스를 즐기는 공간",
+      "places": [
+        "성동구 맛차차",
+        "종로구 델픽",
+        "마포구 알디프 티 바"
+      ],
+      "tags": [
+        "티하우스",
+        "다도체험",
+        "티페어링",
+        "서울찻집"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-10-06T11:26:44+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-panoramic-sunset-view-spots",
+      "titleHint": "하루의 끝을 물들이는 노을 맛집, 붉게 타오르는 하늘을 감상하기 좋은 서울 낙조 명소",
+      "topicCategory": "도심산책",
+      "angle": "탁 트인 시야에서 지는 해를 바라보며 평온하게 하루를 마무리할 수 있는 서울의 숨은 일몰 스폿",
+      "places": [
+        "마포구 하늘공원 노을계단",
+        "용산구 노들섬 잔디마당",
+        "광진구 아차산 해맞이광장"
+      ],
+      "tags": [
+        "노을명소",
+        "일몰스폿",
+        "서울야경",
+        "도심산책"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-10-06T11:26:44+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-curated-vintage-clothing-warehouses",
+      "titleHint": "세상에 단 하나뿐인 보물 찾기, 감각적인 셀렉션이 돋보이는 서울 구제 및 빈티지 숍",
+      "topicCategory": "생활취향",
+      "angle": "낡고 유행 지난 옷이 아닌, 꼼꼼하게 검수하고 큐레이션된 고품질의 수입 빈티지 의류를 선보이는 편집숍",
+      "places": [
+        "서대문구 연희동 오아이오 빈티지",
+        "성동구 성수동 밀리언아카이브",
+        "마포구 합정동 페이지원"
+      ],
+      "tags": [
+        "빈티지숍",
+        "구제패션",
+        "수입빈티지",
+        "성수동쇼핑"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-10-06T11:26:44+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-rare-plant-and-gardening-shops",
+      "titleHint": "초보 식집사를 위한 초록색 아지트, 희귀 식물과 감각적인 화분을 만나는 서울 식물 편집숍",
+      "topicCategory": "생활취향",
+      "angle": "인테리어 오브제가 되는 희귀 식물부터 가드닝 도구까지 갖춘, 식물을 사랑하는 이들을 위한 감성 식물 숍",
+      "places": [
+        "서대문구 보타니크 연희",
+        "성동구 가든어스 건대입구점",
+        "마포구 푸르다 합정"
+      ],
+      "tags": [
+        "식물편집숍",
+        "홈가드닝",
+        "희귀식물",
+        "반려식물"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-10-06T11:26:44+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-museum-design-and-gift-shops",
+      "titleHint": "전시 관람 없이도 들르기 좋은, 소장 가치 가득한 굿즈를 파는 서울 미술관·박물관 뮤지엄숍",
+      "topicCategory": "문화생활",
+      "angle": "유명 작가의 콜라보 굿즈와 전통 공예품을 재해석한 생활용품 등 높은 퀄리티의 이색 소품을 살 수 있는 뮤지엄 쇼핑 코스",
+      "places": [
+        "용산구 국립중앙박물관 뮷즈",
+        "종로구 국립현대미술관 서울관 아트존",
+        "중구 서울시립미술관 뮤지엄숍"
+      ],
+      "tags": [
+        "뮤지엄숍",
+        "전시굿즈",
+        "굿즈맛집",
+        "이색선물"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-10-06T11:26:44+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-unique-niche-theme-museums",
+      "titleHint": "짚풀부터 떡, 종이까지, 상상해 본 적 없는 이색 주제를 다루는 서울의 틈새 전문 박물관",
+      "topicCategory": "문화생활",
+      "angle": "대형 박물관 대신 특정 분야에 깊이 파고든 독특하고 유익한 사설 및 전문 박물관 투어",
+      "places": [
+        "종로구 짚풀생활사박물관",
+        "종로구 떡박물관",
+        "중구 종이나라박물관"
+      ],
+      "tags": [
+        "이색박물관",
+        "실내나들이",
+        "테마박물관",
+        "서울아이와가볼만한곳"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-10-06T11:26:44+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-barefoot-earthing-mud-paths",
+      "titleHint": "맨발로 부드러운 흙을 밟으며 힐링, 도심 피로를 날리는 서울 친환경 황톳길 산책로",
+      "topicCategory": "저비용선택지",
+      "angle": "스트레스 해소와 건강관리에 탁월한 맨발 걷기를 즐길 수 있도록 세족 시설까지 완비된 도심 속 야외 황토길",
+      "places": [
+        "서대문구 안산 황톳길",
+        "강남구 대모산 맨발 황톳길",
+        "도봉구 발바닥공원 황톳길"
+      ],
+      "tags": [
+        "어싱",
+        "황톳길",
+        "맨발걷기",
+        "도심속힐링"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-10-06T11:26:44+09:00",
       "usedAt": null
     }
   ]
