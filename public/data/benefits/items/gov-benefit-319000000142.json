@@ -21,12 +21,12 @@
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000142",
   "onlineUrl": "",
   "inquiry": [
-    "영유아보육과/02-820-9237"
+    "가족지원과/02-820-9237"
   ],
-  "updatedAt": "2026-09-10",
+  "updatedAt": "2026-10-13",
   "registeredAt": "2023-06-14",
-  "viewCount": 1399,
-  "collectedAt": "2026-10-13T03:08:19.854Z",
+  "viewCount": 1400,
+  "collectedAt": "2026-10-14T01:20:54.946Z",
   "purpose": "신생아에게 빈번히 발생하는 질병의 외래진료비, 치료비를 보장하는 보장성 보험료 5년간 지원",
   "target": "○ 지원대상 : 동작구에서 출생·주민등록을 둔 둘째 이후 신생아\n    ※동작구에 거주하는 부부의 자녀   ※첫째,둘째가 쌍둥이인 경우 둘 다 지원 \n    ※ 출생 후 1년 이내 신청 가능",
   "selectionCriteria": "",
@@ -37,7 +37,7 @@
   "identityDocuments": "해당없음",
   "legalBasis": [],
   "ordinance": "서울특별시 동작구 신생아 건강보험료 지원조례",
-  "inquiryText": "영유아보육과/02-820-9237",
+  "inquiryText": "가족지원과/02-820-9237",
   "ageMin": 18,
   "ageMax": 44
 }

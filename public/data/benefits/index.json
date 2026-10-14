@@ -10,9 +10,9 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-10-13T03:08:19.854Z",
+    "collectedAt": "2026-10-14T01:20:54.946Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10966,
+    "availableCount": 10967,
     "fetchedCount": 1142,
     "activeCount": 1106,
     "expiredCount": 36,
@@ -21,6 +21,203 @@
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-319000000107",
+      "sourceId": "319000000107",
+      "title": "동작구청 가정용 친환경 보일러 설치 지원",
+      "field": "문화·환경",
+      "provider": "서울특별시 동작구",
+      "providerType": "자치구",
+      "district": "동작구",
+      "userType": "개인",
+      "deadlineText": "2026. 1. 19. ~ 예산 소진 시",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "'20.4.3이전 설치한 가정용보일러를 가정용 친환경 보일러로 교체한 동작구 거주 취약계층",
+      "summary": "서울특별시 동작구에서 제공하는 문화·환경 혜택입니다. 우리 구 에너지 절감 및 대기질을 개선하기 위해 2026년도 가정용 친환경보일러 설치 지원을 아래와 같이 시행하오니, \n\n대상 구민께서는 지원금을 신청하여 주시기 바랍니다.",
+      "supportType": "현금",
+      "supportSummary": "○ '20.4.3 이전에 설치한 보일러를 2026년에 가정용 친환경 콘덴싱 보일러로 교체하는 동작구 거주 취약계층 주택 소유주 또는 세입자에게 보조금 지원\n    (취약계층 : 60만원)\n\n  ※ 선착순 지원으로 예산 소진 시 조기 마감",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000107",
+      "onlineUrl": "",
+      "inquiry": [
+        "동작구청 환경과/02-820-1300"
+      ],
+      "updatedAt": "2026-10-13",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-319000000156",
+      "sourceId": "319000000156",
+      "title": "취약계층(저소득가구)조명 LED 교체 지원",
+      "field": "문화·환경",
+      "provider": "서울특별시 동작구",
+      "providerType": "자치구",
+      "district": "동작구",
+      "userType": "개인||가구",
+      "deadlineText": "올해 공사 접수(01월 ~ 04월), 다음해 공사 접수(05월~12월)",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "□ 대상 선정기준\n    ㅇ 「국민기초생활보장법」제7조 중 생계‧의료‧주거‧급여 수급권자의 가구, 차상위 계층\n    ※ 지원제외\n      - 최근 5년 이내 교체한 조명기기(붙임2 참조)\n      - 준공연도 5년 미만 시설, 리모델링 계획 및 이전 계획이 있는…",
+      "summary": "서울특별시 동작구에서 제공하는 문화·환경 혜택입니다. 저소득 가구의 형광조명을 전기요금 절감에 효과적인 고효율 LED조명으로 무상 교체함으로써 에너지복지 실현에 기여",
+      "supportType": "현물",
+      "supportSummary": "□ 서비스 절차\n      - 취약계층 LED 조명 교체공사 접수 문의\n      - 지원조건 해당 여부 확인 및 선정 결과 알림\n      - 현장 사전 방문 (공사 물량 및 현장여건 파악)\n      - LED 교체 공사 시행\n      -사후관리 (하자 검사 및…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000156",
+      "onlineUrl": "",
+      "inquiry": [
+        "동작구청 환경과/02-820-1299"
+      ],
+      "updatedAt": "2026-10-13",
+      "registeredAt": "2023-11-22"
+    },
+    {
+      "id": "gov-benefit-319000000110",
+      "sourceId": "319000000110",
+      "title": "환경친화적 자동차 구매보조금 지원",
+      "field": "문화·환경",
+      "provider": "서울특별시 동작구",
+      "providerType": "자치구",
+      "district": "동작구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 환경친화적 자동차를 구매한 동작구민(신청일 기준 90일 전부터 신청일 현재까지, 법인 등 사업자 포함)등으로서 신규 구매 환경친화적 자동차를 동작구에 최초 등록한 자",
+      "summary": "서울특별시 동작구에서 제공하는 문화·환경 혜택입니다. 신규 환경친화적 자동차 구매자에게 구매보조금 지원",
+      "supportType": "현금",
+      "supportSummary": "○ 신규 환경친화적 자동차 구매시 구매보조금(50만원/대) 지원\n\n ※ 64대 선착순 접수하며, 예산소진시 조기종료될 수 있음",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000110",
+      "onlineUrl": "",
+      "inquiry": [
+        "환경과/02-820-1300"
+      ],
+      "updatedAt": "2026-10-13",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-319000000111",
+      "sourceId": "319000000111",
+      "title": "동작구 미혼모부 아동양육비 등 지원",
+      "field": "보호·돌봄",
+      "provider": "서울특별시 동작구",
+      "providerType": "자치구",
+      "district": "동작구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 만 5세 이하 아동을 양육하는 미혼모(부)자\n - 동작구에 6개월 이상 주민등록을 한 실거주자",
+      "summary": "서울특별시 동작구에서 제공하는 보호·돌봄 혜택입니다. 만 5세 이하 아동양육 미혼모부에게 아동양육비 지급",
+      "supportType": "현금",
+      "supportSummary": "○ 만 5세 이하 아동 1인당 월 10만원 아동양육비 지급",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000111",
+      "onlineUrl": "",
+      "inquiry": [
+        "가족지원과/02-820-9237"
+      ],
+      "updatedAt": "2026-10-13",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-319000000109",
+      "sourceId": "319000000109",
+      "title": "재활보조기구 수리비용 지원",
+      "field": "생활안정",
+      "provider": "서울특별시 동작구",
+      "providerType": "자치구",
+      "district": "동작구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○  수동/전동휠체어, 전동스쿠터를 사용하는 관내 거주 등록장애인",
+      "summary": "서울특별시 동작구에서 제공하는 생활안정 혜택입니다. 재활보조기구 수리센터를 운영하여 장애인들의 이동불편해소와 경제적 부담 경감 지원",
+      "supportType": "현금",
+      "supportSummary": "○ 재활보조기구 수리센터를 운영하여 장애인들의 이동불편해소와 경제적 부담 경감 지원 \n - 수리대상 : 수동/전동휠체어, 전동스쿠터\n - 수리비 지원\n  ㆍ국민기초생활보장수급자 및 차상위 장애인 : 연 30만원\n  ㆍ일반장애인 : 수리비 1/2범위 내에서 연 15만원…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000109",
+      "onlineUrl": "",
+      "inquiry": [
+        "동작구청 장애인복지과/02-820-9126"
+      ],
+      "updatedAt": "2026-10-13",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-319000000142",
+      "sourceId": "319000000142",
+      "title": "동작구 신생아 상해,질병 보험료 지원",
+      "field": "임신·출산",
+      "provider": "서울특별시 동작구",
+      "providerType": "자치구",
+      "district": "동작구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 지원대상 : 동작구에서 출생·주민등록을 둔 둘째 이후 신생아\n    ※동작구에 거주하는 부부의 자녀   ※첫째,둘째가 쌍둥이인 경우 둘 다 지원 \n    ※ 출생 후 1년 이내 신청 가능",
+      "summary": "서울특별시 동작구에서 제공하는 임신·출산 혜택입니다. 신생아에게 빈번히 발생하는 질병의 외래진료비, 치료비를 보장하는 보장성 보험료 5년간 지원",
+      "supportType": "현금(보험)",
+      "supportSummary": "○ 지원대상 : 동작구에서 출생·주민등록을 둔 둘째 이후 신생아\n    ※동작구에 거주하는 부부의 자녀   ※첫째,둘째가 다태아인 경우 둘 다 지원\n ○ 지원내용 : 1인당 월 2만원 이내의 보험료를 5년간 지원(본인부담금 없음)(전출시 해약)\n ○ 보 험 사 : 신…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000142",
+      "onlineUrl": "",
+      "inquiry": [
+        "가족지원과/02-820-9237"
+      ],
+      "updatedAt": "2026-10-13",
+      "registeredAt": "2023-06-14"
+    },
+    {
+      "id": "gov-benefit-319000000129",
+      "sourceId": "319000000129",
+      "title": "동작구 미혼모부 자립지원비 지원",
+      "field": "주거·자립",
+      "provider": "서울특별시 동작구",
+      "providerType": "자치구",
+      "district": "동작구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 동작구에 6개월 이상 거주하는 법정한부모가족 중 미혼모부",
+      "summary": "서울특별시 동작구에서 제공하는 주거·자립 혜택입니다. ○ 자립지원비 최대 1,200천원/년 지급(5년간 6,000천원 한도 지원)",
+      "supportType": "현금",
+      "supportSummary": "○ 자립지원비 최대 1,200천원/년 지급(5년간 6천만원 한도 지원)\n  ※ 고용노동부 내일배움카드 소진 시 지급,\n  ※ 여성가족부 청소년 한부모 검정고시 학습지원사업과 중복지원 제외",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000129",
+      "onlineUrl": "",
+      "inquiry": [
+        "가족지원과/02-820-9237"
+      ],
+      "updatedAt": "2026-10-13",
+      "registeredAt": "2022-01-26"
+    },
     {
       "id": "gov-benefit-319000000128",
       "sourceId": "319000000128",
@@ -2681,34 +2878,6 @@
       "registeredAt": "2023-11-15"
     },
     {
-      "id": "gov-benefit-319000000107",
-      "sourceId": "319000000107",
-      "title": "동작구청 가정용 친환경 보일러 설치 지원",
-      "field": "문화·환경",
-      "provider": "서울특별시 동작구",
-      "providerType": "자치구",
-      "district": "동작구",
-      "userType": "개인",
-      "deadlineText": "2026. 1. 19. ~ 예산 소진 시",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "'20.4.3이전 설치한 가정용보일러를 가정용 친환경 보일러로 교체한 동작구 거주 취약계층",
-      "summary": "서울특별시 동작구에서 제공하는 문화·환경 혜택입니다. 우리 구 에너지 절감 및 대기질을 개선하기 위해 2026년도 가정용 친환경보일러 설치 지원을 아래와 같이 시행하오니, \n\n대상 구민께서는 지원금을 신청하여 주시기 바랍니다.",
-      "supportType": "현금",
-      "supportSummary": "○ '20.4.3 이전에 설치한 보일러를 2026년에 가정용 친환경 콘덴싱 보일러로 교체하는 동작구 거주 취약계층 주택 소유주 또는 세입자에게 보조금 지원\n    (취약계층 : 60만원)\n\n  ※ 선착순 지원으로 예산 소진 시 조기 마감",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000107",
-      "onlineUrl": "",
-      "inquiry": [
-        "동작구청 환경과/02-820-1300"
-      ],
-      "updatedAt": "2026-09-10",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-319000000134",
       "sourceId": "319000000134",
       "title": "부설주차장 개방 주차시설 개선비 지원",
@@ -2736,63 +2905,6 @@
       ],
       "updatedAt": "2026-09-10",
       "registeredAt": "2022-07-09"
-    },
-    {
-      "id": "gov-benefit-319000000156",
-      "sourceId": "319000000156",
-      "title": "취약계층(저소득가구)조명 LED 교체 지원",
-      "field": "문화·환경",
-      "provider": "서울특별시 동작구",
-      "providerType": "자치구",
-      "district": "동작구",
-      "userType": "개인||가구",
-      "deadlineText": "올해 공사 접수(01월 ~ 04월), 다음해 공사 접수(05월~12월)",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "□ 대상 선정기준\n    ㅇ 「국민기초생활보장법」제7조 중 생계‧의료‧주거‧급여 수급권자의 가구, 차상위 계층\n    ※ 지원제외\n      - 최근 5년 이내 교체한 조명기기(붙임2 참조)\n      - 준공연도 5년 미만 시설, 리모델링 계획 및 이전 계획이 있는…",
-      "summary": "서울특별시 동작구에서 제공하는 문화·환경 혜택입니다. 저소득 가구의 형광조명을 전기요금 절감에 효과적인 고효율 LED조명으로 무상 교체함으로써 에너지복지 실현에 기여",
-      "supportType": "현물",
-      "supportSummary": "□ 서비스 절차\n      - 취약계층 LED 조명 교체공사 접수 문의\n      - 지원조건 해당 여부 확인 및 선정 결과 알림\n      - 현장 사전 방문 (공사 물량 및 현장여건 파악)\n      - LED 교체 공사 시행\n      -사후관리 (하자 검사 및…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000156",
-      "onlineUrl": "",
-      "inquiry": [
-        "동작구청 환경과/02-820-1299"
-      ],
-      "updatedAt": "2026-09-10",
-      "registeredAt": "2023-11-22"
-    },
-    {
-      "id": "gov-benefit-319000000110",
-      "sourceId": "319000000110",
-      "title": "환경친화적 자동차 구매보조금 지원",
-      "field": "문화·환경",
-      "provider": "서울특별시 동작구",
-      "providerType": "자치구",
-      "district": "동작구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 환경친화적 자동차를 구매한 동작구민(신청일 기준 90일 전부터 신청일 현재까지, 법인 등 사업자 포함)등으로서 신규 구매 환경친화적 자동차를 동작구에 최초 등록한 자",
-      "summary": "서울특별시 동작구에서 제공하는 문화·환경 혜택입니다. 신규 환경친화적 자동차 구매자에게 구매보조금 지원",
-      "supportType": "현금",
-      "supportSummary": "○ 신규 환경친화적 자동차 구매시 구매보조금(50만원/대) 지원\n\n ※ 64대 선착순 접수하며, 예산소진시 조기종료될 수 있음",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000110",
-      "onlineUrl": "",
-      "inquiry": [
-        "환경과/02-820-1300"
-      ],
-      "updatedAt": "2026-09-10",
-      "registeredAt": "2021-09-23"
     },
     {
       "id": "gov-benefit-319000000181",
@@ -2912,34 +3024,6 @@
       ],
       "updatedAt": "2026-09-10",
       "registeredAt": "2023-11-14"
-    },
-    {
-      "id": "gov-benefit-319000000111",
-      "sourceId": "319000000111",
-      "title": "동작구 미혼모부 아동양육비 등 지원",
-      "field": "보육·교육",
-      "provider": "서울특별시 동작구",
-      "providerType": "자치구",
-      "district": "동작구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 만 5세 이하 아동을 양육하는 미혼모(부)자\n - 동작구에 6개월 이상 주민등록을 한 실거주자",
-      "summary": "서울특별시 동작구에서 제공하는 보육·교육 혜택입니다. 만 5세 이하 아동양육 미혼모부에게 아동양육비 지급",
-      "supportType": "현금",
-      "supportSummary": "○ 만 5세 이하 아동 1인당 월 10만원 아동양육비 지급",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000111",
-      "onlineUrl": "",
-      "inquiry": [
-        "동작구청 영유아보육과/02-820-9237"
-      ],
-      "updatedAt": "2026-09-10",
-      "registeredAt": "2021-09-23"
     },
     {
       "id": "gov-benefit-319000000121",
@@ -3340,34 +3424,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-319000000109",
-      "sourceId": "319000000109",
-      "title": "재활보조기구 수리비용 지원",
-      "field": "생활안정",
-      "provider": "서울특별시 동작구",
-      "providerType": "자치구",
-      "district": "동작구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○  수동/전동휠체어, 전동스쿠터를 사용하는 관내 거주 등록장애인",
-      "summary": "서울특별시 동작구에서 제공하는 생활안정 혜택입니다. 재활보조기구 수리센터를 운영하여 장애인들의 이동불편해소와 경제적 부담 경감 지원",
-      "supportType": "현금",
-      "supportSummary": "○ 재활보조기구 수리센터를 운영하여 장애인들의 이동불편해소와 경제적 부담 경감 지원 \n - 수리대상 : 수동/전동휠체어, 전동스쿠터\n - 수리비 지원\n  ㆍ국민기초생활보장수급자 및 차상위 장애인 : 연 30만원\n  ㆍ일반장애인 : 수리비 1/2범위 내에서 연 15만원…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000109",
-      "onlineUrl": "",
-      "inquiry": [
-        "동작구청 장애인복지과/02-820-9126"
-      ],
-      "updatedAt": "2026-09-10",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-319000000127",
       "sourceId": "319000000127",
       "title": "주민소득지원 및 생활안정기금 융자 및 희망자금 지원",
@@ -3450,34 +3506,6 @@
       ],
       "updatedAt": "2026-09-10",
       "registeredAt": "2024-05-07"
-    },
-    {
-      "id": "gov-benefit-319000000142",
-      "sourceId": "319000000142",
-      "title": "동작구 신생아 상해,질병 보험료 지원",
-      "field": "임신·출산",
-      "provider": "서울특별시 동작구",
-      "providerType": "자치구",
-      "district": "동작구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 지원대상 : 동작구에서 출생·주민등록을 둔 둘째 이후 신생아\n    ※동작구에 거주하는 부부의 자녀   ※첫째,둘째가 쌍둥이인 경우 둘 다 지원 \n    ※ 출생 후 1년 이내 신청 가능",
-      "summary": "서울특별시 동작구에서 제공하는 임신·출산 혜택입니다. 신생아에게 빈번히 발생하는 질병의 외래진료비, 치료비를 보장하는 보장성 보험료 5년간 지원",
-      "supportType": "현금(보험)",
-      "supportSummary": "○ 지원대상 : 동작구에서 출생·주민등록을 둔 둘째 이후 신생아\n    ※동작구에 거주하는 부부의 자녀   ※첫째,둘째가 다태아인 경우 둘 다 지원\n ○ 지원내용 : 1인당 월 2만원 이내의 보험료를 5년간 지원(본인부담금 없음)(전출시 해약)\n ○ 보 험 사 : 신…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000142",
-      "onlineUrl": "",
-      "inquiry": [
-        "영유아보육과/02-820-9237"
-      ],
-      "updatedAt": "2026-09-10",
-      "registeredAt": "2023-06-14"
     },
     {
       "id": "gov-benefit-319000000124",
@@ -3592,34 +3620,6 @@
       ],
       "updatedAt": "2026-09-10",
       "registeredAt": "2022-02-09"
-    },
-    {
-      "id": "gov-benefit-319000000129",
-      "sourceId": "319000000129",
-      "title": "동작구 미혼모부 자립지원비",
-      "field": "주거·자립",
-      "provider": "서울특별시 동작구",
-      "providerType": "자치구",
-      "district": "동작구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 동작구에 6개월 이상 거주하는 법정한부모가족 중 미혼모부",
-      "summary": "서울특별시 동작구에서 제공하는 주거·자립 혜택입니다. ○ 자립지원비 최대 1,200천원/년 지급(5년간 6,000천원 한도 지원)",
-      "supportType": "현금",
-      "supportSummary": "○ 자립지원비 최대 1,200천원/년 지급(5년간 6천만원 한도 지원)\n  ※ 고용노동부 내일배움카드 소진 시 지급,\n  ※ 여성가족부 청소년 한부모 검정고시 학습지원사업과 중복지원 제외",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000129",
-      "onlineUrl": "",
-      "inquiry": [
-        "동작구청 영유아보육과/02-820-9237"
-      ],
-      "updatedAt": "2026-09-10",
-      "registeredAt": "2022-01-26"
     },
     {
       "id": "gov-benefit-319000000165",
