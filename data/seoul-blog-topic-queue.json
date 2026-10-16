@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-10-15T09:46:02+09:00",
+  "lastGeneratedAt": "2026-10-16T09:38:34+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -3799,9 +3799,9 @@
         "성수동쇼핑"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-10-06T11:26:44+09:00",
-      "usedAt": null
+      "usedAt": "2026-10-16T09:38:34+09:00"
     },
     {
       "id": "seoul-rare-plant-and-gardening-shops",
