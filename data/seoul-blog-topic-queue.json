@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-10-18T09:12:23+09:00",
+  "lastGeneratedAt": "2026-10-19T09:24:07+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -3862,9 +3862,9 @@
         "서울아이와가볼만한곳"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-10-06T11:26:44+09:00",
-      "usedAt": null
+      "usedAt": "2026-10-19T09:24:07+09:00"
     },
     {
       "id": "seoul-barefoot-earthing-mud-paths",
