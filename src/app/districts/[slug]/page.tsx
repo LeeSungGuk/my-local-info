@@ -12,6 +12,7 @@ import {
 } from "@/lib/districts";
 import { filterVisibleEvents, getTodayInSeoul, sortEventsByStartDate } from "@/lib/event-visibility";
 import { sortBenefits } from "@/lib/benefit-utils";
+import { serializeJsonLd } from "@/lib/json-ld";
 import { getDistrictFoodHref, getFoodIntentsByDistrict } from "@/lib/food";
 import { getAllPosts, type Post } from "@/lib/posts";
 import { SITE_URL } from "@/lib/site-config";
@@ -87,7 +88,7 @@ export default async function DistrictDetailPage({ params }: PageProps) {
     <div className="site-page min-h-screen">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(structuredData) }}
       />
 
       <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-16">

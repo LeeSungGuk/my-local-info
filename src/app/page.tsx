@@ -13,6 +13,7 @@ import { getBenefitsIndex, getAllBenefits } from "@/lib/public-benefits";
 import { getAllEvents, getEventsIndex } from "@/lib/seoul-events";
 import { getHomeSummaryMetrics } from "@/lib/home-summary";
 import { filterVisibleEvents, getTodayInSeoul, sortEventsByStartDate } from "@/lib/event-visibility";
+import { serializeJsonLd } from "@/lib/json-ld";
 import { SITE_URL } from "@/lib/site-config";
 
 const siteUrl = SITE_URL;
@@ -169,7 +170,7 @@ export default async function Home() {
       <Script
         id="home-structured-data"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeStructuredData) }}
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(homeStructuredData) }}
       />
     </>
   );
