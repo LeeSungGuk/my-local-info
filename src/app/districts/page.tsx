@@ -20,8 +20,8 @@ export default async function DistrictsPage() {
   const districts = getAllDistricts();
 
   return (
-    <div className="min-h-screen bg-[linear-gradient(180deg,#eff6ff_0%,#ffffff_34%,#f8fbff_100%)]">
-      <section className="border-b border-sky-100 bg-white/80 backdrop-blur-sm">
+    <div className="site-page min-h-screen">
+      <section className="page-intro">
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
           <span className="inline-flex items-center rounded-full bg-sky-100 px-3 py-1 text-sm font-semibold text-sky-700">
             서울 구별 랜딩 가이드

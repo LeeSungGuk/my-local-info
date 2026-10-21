@@ -36,6 +36,7 @@ public/data/food        서울 먹거리 JSON 데이터
 public/data/search      통합 검색 인덱스
 scripts                 데이터 수집, 검색 인덱스 생성, 블로그 생성 스크립트
 functions/api           Cloudflare Functions API
+design-templates        폴더별 디자인 템플릿 원본과 참고 자료
 history                 날짜별 작업 기록
 docs                    운영·SEO 관련 보조 문서
 ```
@@ -154,6 +155,7 @@ GitHub Actions는 다음 흐름으로 동작합니다.
 
 ## 문서와 작업 기록
 
+- [디자인 템플릿 사용법](docs/DESIGN_TEMPLATES.md): 템플릿 보관과 폴더 이름으로 디자인 적용 요청
 - `history/`: 날짜별 작업 기록
 - `change_log.md`: 주요 변경 기록
 - `docs/prd/`: 제품 요구사항 문서

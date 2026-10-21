@@ -263,7 +263,7 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
               <button
                 type="submit"
                 disabled={!inputValue.trim() || isLoading}
-                className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-sky-600 text-white transition-colors hover:bg-sky-700 disabled:cursor-not-allowed disabled:bg-slate-300"
+                className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-slate-950 text-white transition-colors hover:bg-sky-700 disabled:cursor-not-allowed disabled:bg-slate-300"
                 aria-label="질문 전송"
               >
                 <svg
@@ -291,7 +291,7 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
           aria-label="서울 정보 도우미 열기"
           aria-expanded={isOpen}
           onClick={() => setIsOpen(true)}
-          className="ml-auto flex h-14 w-14 items-center justify-center rounded-full bg-sky-600 text-white shadow-lg shadow-sky-950/20 transition-all duration-200 hover:-translate-y-0.5 hover:bg-sky-700 focus:outline-none focus:ring-4 focus:ring-sky-200"
+          className="ml-auto flex h-14 w-14 items-center justify-center rounded-full bg-slate-950 text-white shadow-lg shadow-slate-950/15 transition-all duration-200 hover:-translate-y-0.5 hover:bg-sky-700 focus:outline-none focus:ring-4 focus:ring-sky-200"
         >
           <svg
             aria-hidden="true"

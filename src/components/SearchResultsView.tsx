@@ -277,6 +277,7 @@ export default function SearchResultsView() {
         <button
           type="button"
           onClick={() => setIsMobileFiltersOpen((prev) => !prev)}
+          aria-expanded={isMobileFiltersOpen}
           className="flex w-full items-center justify-between rounded-2xl border border-slate-200 bg-white px-4 py-4 text-left shadow-[0_8px_24px_rgba(15,23,42,0.04)]"
         >
           <div>
@@ -356,9 +357,9 @@ export default function SearchResultsView() {
             {results.map((item) => (
               <article
                 key={`${item.type}-${item.id}`}
-                className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-[0_8px_24px_rgba(15,23,42,0.04)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_14px_32px_rgba(56,189,248,0.10)]"
+                className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-[0_8px_24px_rgba(15,23,42,0.04)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_14px_32px_rgba(64,48,31,0.08)]"
               >
-                <div className={`h-1 bg-gradient-to-r ${cardAccentClassName(item.type)}`} />
+                <div className={`h-px bg-gradient-to-r ${cardAccentClassName(item.type)}`} />
                 <div className="p-6">
                   <div className="flex flex-wrap items-center gap-2">
                     <span

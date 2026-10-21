@@ -113,7 +113,7 @@ export default async function BlogPostPage({ params }: PageProps) {
   };
 
   return (
-    <article className="min-h-screen bg-[linear-gradient(180deg,#eff6ff_0%,#f8fbff_18%,#ffffff_48%)] pb-24 pt-32">
+    <article className="site-page min-h-screen pb-20 pt-12 sm:pt-20">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(blogStructuredData) }}
@@ -243,7 +243,7 @@ export default async function BlogPostPage({ params }: PageProps) {
           <div className="mt-16 border-t border-sky-100 pt-10 text-center">
              <Link
                 href="/blog"
-                className="inline-flex items-center rounded-full bg-gradient-to-r from-sky-500 via-cyan-500 to-blue-500 px-8 py-3 font-bold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl"
+                className="button-primary"
               >
                 다른 글 더보기
               </Link>

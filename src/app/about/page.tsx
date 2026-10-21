@@ -8,9 +8,9 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <article className="min-h-screen bg-[linear-gradient(180deg,#eff6ff_0%,#f8fbff_18%,#ffffff_48%)] pb-24 pt-32">
+    <article className="site-page min-h-screen pb-20 pt-12 sm:pt-20">
       <div className="mx-auto max-w-4xl px-6">
-        <div className="rounded-[2rem] border border-sky-100 bg-white/90 p-8 shadow-[0_24px_80px_rgba(15,23,42,0.08)] backdrop-blur-sm md:p-12">
+        <div className="detail-article rounded-2xl border border-slate-200 bg-white p-6 sm:p-10 md:p-12">
           <p className="text-sm font-semibold text-sky-700">소개</p>
           <h1 className="mt-2 text-3xl font-extrabold tracking-tight text-slate-950 md:text-4xl">
             서울 나들이 코스를 상황에 맞게 고를 수 있도록 정리합니다

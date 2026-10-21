@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function SearchPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-sky-50 via-white to-white pb-16 pt-10 sm:pt-16">
+    <div className="site-page min-h-screen pb-16 pt-10 sm:pt-16">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <Suspense
           fallback={

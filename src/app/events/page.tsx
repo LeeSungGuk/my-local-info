@@ -12,8 +12,8 @@ export default async function EventsPage() {
   const events = sortEventsByStartDate(filterVisibleEvents(await getAllEvents(), today));
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-sky-50 via-white to-white">
-      <section className="border-b border-sky-100 bg-white/80 backdrop-blur-sm">
+    <div className="site-page min-h-screen">
+      <section className="page-intro">
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
           <span className="inline-flex items-center rounded-full bg-sky-100 px-3 py-1 text-sm font-semibold text-sky-700">
             서울시 전체 행사·축제
