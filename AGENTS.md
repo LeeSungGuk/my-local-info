@@ -18,6 +18,20 @@
 - 문제 제보나 분석 요청만으로 수정 승인을 간주하지 않는다. 조회와 원인 분석은 진행할 수 있지만, 승인 전에는 운영 코드를 변경하지 않는다.
 - 이미 승인받은 범위는 재승인 없이 진행하되, 변경이 승인 범위를 벗어나면 다시 확인한다.
 
+## Rule Loading
+- Use `.agents/README.md` → `Rule Routing` to select guidance for the current action. Links are references, not automatic loading lists; read only matching guidance and references it requires for that action.
+- Reuse the latest full instructions supplied in this conversation or read in this session. Recheck only after a file changes or needed content is lost through context compaction.
+- Do not preload rules for later implementation, tests, or Git operations. Apply approval, security, legacy protection, and code-marker constraints before the current design, proposal, or decision that depends on them. Loading fewer files does not relax approval, Git, or external-call boundaries.
+- Add only newly needed guidance when the action (analysis, writing, execution, failure handling), path, write access, approval, security, external boundary, or delegation changes. Do not cap the number of required files.
+- If additional guidance applies, select uncertainty rules for material unknowns and minimum-work rules for scope or completion criteria. Routine sequencing or documenting a settled plan alone does not select both.
+- Select task-splitting guidance only when independent goals, their order, or approval scope need separation; file count or approval-step count alone is insufficient.
+- Existing document edits or a skill's default path alone do not require extra path/retention guidance. Apply it for role classification, unresolved paths, path exceptions, moves, or renames. Keep applicable plan, formal-report, and work-log conditions.
+
+## Task Flow
+- When deciding scope, stages, or artifacts, use `Task Flow` in `.agents/README.md`. Idea-led work follows `intent.md → spec.md → plan.md`: purpose, required behavior, then implementation approach. Select needed stages by input maturity and change size.
+- Active work items and their progress checklists live under [docs/works/README.md](docs/works/README.md) (`docs/works/<work-name>/`). When checking ongoing work or creating/updating `intent.md`, `spec.md`, and `plan.md`, keep [docs/works/README.md](docs/works/README.md) and each document's top-level status checklist in sync.
+- Stages are logical steps, not mandatory new files or approval gates. Reuse existing artifacts; small changes can use the conversation and a task checklist. Create separate intent/spec/plan/task documents only when requested or needed for a durable handoff. Keep the PRD/SRS update conditions in `Documentation Rules`.
+- Use supplied requirements, PRDs, and SRSs as inputs; identify the source of truth and reflect relevant decisions in project documents without inventing requirements or duplicating whole documents. Existing authorization remains valid; stage progression does not grant broader permissions.
 
 ## Key Structure
 - `src/app`: App Router pages and layouts
@@ -72,9 +86,10 @@
 - 완료 보고에는 갱신한 문서 링크와 주요 반영 내용을 함께 알린다. 문서 갱신이 필요 없는 변경이면 그 이유를 짧게 설명한다.
 - PRDs live under `docs/prd/*_prd.md`. When product scope, target users, success criteria, or non-goals change, update the relevant PRD first.
 - SRS documents live under `docs/srs/*_srs.md` and should trace requirements back to the relevant PRD sections.
+- Idea-led work documents (`intent.md`, `spec.md`, `plan.md`) live under `docs/works/<work-name>/`, and [docs/works/README.md](docs/works/README.md) links to every work folder with its current stage, completed items, and remaining actions.
 - Agent-only reusable workflows live under `.agents/workflow/*_prompt.md`; keep workflow outputs out of `.omo/` and `.antigravitycli/`.
 - Agent-only common rules live under `.agents/rules/*_RULES.md`.
-- Before writing or changing docs/code, check applicable common rules under `.agents/rules/*_RULES.md`, especially security rules for secrets, public data, rendering, CI, and deployment output.
+- Before security-related judgments or docs/code changes, select applicable common rules under `.agents/rules/` through `.agents/README.md`; apply its section routing for `SECURITY_RULES.md`, including during designs and proposals.
 - Product/user-facing documents live under `docs/`; do not store agent-only workflow prompts there.
 - Use `.agents/workflow/prd_to_srs_prompt.md` when converting a PRD into an SRS for this project.
 - Use `.agents/workflow/prd_to_srs_review_prompt.md` when reviewing whether a generated SRS satisfies its source PRD.
