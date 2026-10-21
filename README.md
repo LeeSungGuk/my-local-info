@@ -148,7 +148,7 @@ npx wrangler pages deploy out --project-name=my-local-info
 GitHub Actions는 다음 흐름으로 동작합니다.
 
 - `push` to `main`: lint, test, build, Cloudflare Pages 배포
-- 매일 UTC 22:30, 한국시간 오전 7:30: 행사·혜택·먹거리 수집, 블로그 글 생성, lint, test, build, 변경사항 커밋, Cloudflare Pages 배포
+- 매일 UTC 22:30, 한국시간 오전 7:30: 행사·혜택·먹거리 수집, 블로그 글 생성, lint, test, build, 허용된 생성 경로(`public/data`, `public/blog-covers`, `src/content/posts`, `data/seoul-blog-topic-queue.json`)만 검증·커밋, Cloudflare Pages 배포
 - 수동 실행: 동일한 수집·생성·배포 흐름 실행
 
 워크플로우 파일은 `.github/workflows/deploy.yml`입니다.
