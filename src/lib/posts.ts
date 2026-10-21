@@ -8,6 +8,7 @@ const publicDirectory = path.join(process.cwd(), "public");
 export interface Post {
   slug: string;
   title: string;
+  cardTitle?: string;
   date: string;
   updatedAt: string;
   summary: string;
@@ -59,6 +60,7 @@ function toPost(fileName: string): Post {
   return {
     slug,
     title,
+    cardTitle: typeof data.cardTitle === "string" ? data.cardTitle : undefined,
     date: normalizeDate(data.date),
     updatedAt: normalizeDate(data.updatedAt) || normalizeDate(data.date),
     summary: data.summary || "",

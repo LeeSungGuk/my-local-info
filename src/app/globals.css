@@ -2,6 +2,30 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
+/* Pretendard v1.3.9 by Kil Hyung-jin, SIL OFL 1.1.
+   Source: https://github.com/orioncactus/pretendard
+   License: /fonts/pretendard/OFL.txt */
+@font-face {
+  font-family: "Pretendard";
+  src: url("/fonts/pretendard/Pretendard-SemiBold.subset.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+.blog-card-title {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-family: "Pretendard", "Noto Sans KR", sans-serif;
+  font-size: clamp(1.125rem, 1.5vw, 1.25rem);
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: -.02em;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
 
 :root {
   --background: #faf8f4;

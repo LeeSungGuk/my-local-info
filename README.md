@@ -156,10 +156,13 @@ GitHub Actions는 다음 흐름으로 동작합니다.
 ## 문서와 작업 기록
 
 - [디자인 템플릿 사용법](docs/DESIGN_TEMPLATES.md): 템플릿 보관과 폴더 이름으로 디자인 적용 요청
+- 블로그 표지 다양화: [의도](docs/works/blog_cover_diversity/intent.md), [명세](docs/works/blog_cover_diversity/spec.md), [구현 계획](docs/works/blog_cover_diversity/plan.md)
 - `history/`: 날짜별 작업 기록
 - `change_log.md`: 주요 변경 기록
 - `docs/prd/`: 제품 요구사항 문서
 - `docs/srs/`: PRD에서 변환한 소프트웨어 요구사항 명세
+- `docs/tasks/`: PRD·SRS 기반 실행 업무
+- `docs/works/<작업명>/`: 아이디어 기반 작업의 `intent.md`, `spec.md`, `plan.md`
 - `.agents/rules/SECURITY_RULES.md`: 웹 개발 기본 보안 규칙
 - `docs/`: SEO, 수집 워크플로우 등 보조 문서
 - `AGENTS.md`: 에이전트 작업 원칙과 프로젝트 구조

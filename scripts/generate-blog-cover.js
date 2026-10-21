@@ -1,325 +1,122 @@
 /* eslint-disable @typescript-eslint/no-require-imports */
-const fs = require("fs");
-const path = require("path");
-
-const SVG_WIDTH = 1600;
-const SVG_HEIGHT = 900;
-const DEFAULT_PUBLIC_DIR = path.join(__dirname, "..", "public");
-
-const PALETTES = [
-  {
-    backgroundStart: "#082F49",
-    backgroundEnd: "#0EA5E9",
-    accent: "#BAE6FD",
-    accentSoft: "#E0F2FE",
-    text: "#F8FAFC",
-    chipBg: "rgba(240, 249, 255, 0.18)",
-    chipBorder: "rgba(186, 230, 253, 0.5)",
-  },
-  {
-    backgroundStart: "#0F172A",
-    backgroundEnd: "#1D4ED8",
-    accent: "#93C5FD",
-    accentSoft: "#DBEAFE",
-    text: "#F8FAFC",
-    chipBg: "rgba(219, 234, 254, 0.14)",
-    chipBorder: "rgba(147, 197, 253, 0.45)",
-  },
-  {
-    backgroundStart: "#134E4A",
-    backgroundEnd: "#0F766E",
-    accent: "#99F6E4",
-    accentSoft: "#CCFBF1",
-    text: "#F0FDFA",
-    chipBg: "rgba(204, 251, 241, 0.16)",
-    chipBorder: "rgba(153, 246, 228, 0.45)",
-  },
-  {
-    backgroundStart: "#3F1D2E",
-    backgroundEnd: "#BE185D",
-    accent: "#F9A8D4",
-    accentSoft: "#FCE7F3",
-    text: "#FFF1F2",
-    chipBg: "rgba(252, 231, 243, 0.16)",
-    chipBorder: "rgba(249, 168, 212, 0.45)",
-  },
-  {
-    backgroundStart: "#3B2F0A",
-    backgroundEnd: "#CA8A04",
-    accent: "#FDE68A",
-    accentSoft: "#FEF3C7",
-    text: "#FFFBEB",
-    chipBg: "rgba(254, 243, 199, 0.15)",
-    chipBorder: "rgba(253, 230, 138, 0.45)",
-  },
-];
-
-function hashString(value) {
-  return Array.from(String(value || "")).reduce(
-    (acc, char) => (acc * 31 + char.charCodeAt(0)) >>> 0,
-    0
-  );
-}
-
+const fs = require("node:fs");
+const path = require("node:path");
+const crypto = require("node:crypto");
+const { CATALOG_VERSION, renderScene } = require("./blog-cover-catalog");
+const { hash, selectCoverDesign, readCoverDesign } = require("./blog-cover-selection");
+const topicMap = require("./blog-cover-topic-map");
 function escapeXml(value) {
-  return String(value || "")
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&apos;");
+    return String(value || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&apos;");
 }
-
-function truncateText(value, maxLength) {
-  if (!value) {
-    return "";
-  }
-
-  if (value.length <= maxLength) {
-    return value;
-  }
-
-  return `${value.slice(0, Math.max(1, maxLength - 1)).trim()}…`;
-}
-
-function breakLongWord(word, maxLength) {
-  const pieces = [];
-
-  for (let index = 0; index < word.length; index += maxLength) {
-    pieces.push(word.slice(index, index + maxLength));
-  }
-
-  return pieces;
-}
-
-function wrapText(value, maxLength, maxLines) {
-  const normalized = String(value || "").trim();
-
-  if (!normalized) {
-    return [];
-  }
-
-  const rawWords = normalized.split(/\s+/).flatMap((word) => {
-    if (word.length <= maxLength) {
-      return [word];
-    }
-
-    return breakLongWord(word, maxLength);
-  });
-
-  const lines = [];
-  let current = "";
-
-  for (const word of rawWords) {
-    const next = current ? `${current} ${word}` : word;
-
-    if (next.length <= maxLength) {
-      current = next;
-      continue;
-    }
-
-    if (current) {
-      lines.push(current);
-    }
-    current = word;
-
-    if (lines.length === maxLines) {
-      break;
-    }
-  }
-
-  if (current && lines.length < maxLines) {
-    lines.push(current);
-  }
-
-  if (lines.length > maxLines) {
-    return lines.slice(0, maxLines);
-  }
-
-  const joinedLength = lines.join(" ").length;
-  if (joinedLength < normalized.length && lines.length > 0) {
-    lines[lines.length - 1] = truncateText(lines[lines.length - 1], maxLength);
-  }
-
-  return lines;
-}
-
-function pickPalette(topic) {
-  const seed = `${topic.topicCategory || ""}:${topic.id || topic.titleHint || ""}`;
-  return PALETTES[hashString(seed) % PALETTES.length];
-}
-
-function sanitizeFileSegment(value) {
-  return String(value || "blog-cover")
-    .trim()
-    .toLowerCase()
-    .replace(/[^a-z0-9-_/]/g, "-")
-    .replace(/-{2,}/g, "-")
-    .replace(/\/{2,}/g, "/")
-    .replace(/^-+|-+$/g, "");
-}
-
 function normalizeCoverImagePath(topic) {
-  const configuredPath = typeof topic.coverImage === "string" ? topic.coverImage.trim() : "";
-
-  if (configuredPath) {
-    const normalized = configuredPath.startsWith("/") ? configuredPath : `/${configuredPath}`;
-    return normalized.replace(/\/{2,}/g, "/");
-  }
-
-  return `/blog-covers/${sanitizeFileSegment(topic.id || topic.titleHint)}.svg`;
+    if (typeof topic.coverImage === "string" && topic.coverImage.trim()) {
+        const configured = topic.coverImage.trim();
+        if (/^https?:\/\//.test(configured))
+            return configured;
+        return configured.startsWith("/") ? configured : `/${configured}`;
+    }
+    const id = String(topic.id || topic.titleHint || "blog-cover").trim().toLowerCase().replace(/[^a-z0-9_-]/g, "-").replace(/-{2,}/g, "-").replace(/^-+|-+$/g, "");
+    if (!id)
+        throw new Error("표지 파일 이름을 만들 수 없습니다.");
+    return `/blog-covers/${id}.svg`;
 }
-
-function pickObjectParticle(value) {
-  const normalized = String(value || "").trim();
-
-  if (!normalized) {
-    return "를";
-  }
-
-  const lastChar = normalized.charAt(normalized.length - 1);
-  const codePoint = lastChar.charCodeAt(0);
-  const hangulStart = 0xac00;
-  const hangulEnd = 0xd7a3;
-
-  if (codePoint < hangulStart || codePoint > hangulEnd) {
-    return "를";
-  }
-
-  return (codePoint - hangulStart) % 28 === 0 ? "를" : "을";
+function getPublicFilePath(publicDir, coverImage) {
+    if (!/^\/blog-covers\/[a-zA-Z0-9_-]+\.svg$/.test(coverImage))
+        throw new Error("허용된 표지 경로가 아닙니다.");
+    const root = path.resolve(publicDir), directory = path.join(root, "blog-covers"), target = path.join(root, coverImage.slice(1));
+    for (const candidate of [root, directory, target]) {
+        try {
+            if (fs.lstatSync(candidate).isSymbolicLink())
+                throw new Error("심볼릭 링크 표지는 변경할 수 없습니다.");
+        }
+        catch (error) {
+            if (error.code !== "ENOENT")
+                throw error;
+        }
+    }
+    return target;
 }
-
 function resolveCoverAlt(topic) {
-  const configuredAlt = typeof topic.coverAlt === "string" ? topic.coverAlt.trim() : "";
-
-  if (configuredAlt) {
-    return configuredAlt;
-  }
-
-  const title = topic.titleHint || "서울 정보글";
-
-  return `${title}${pickObjectParticle(title)} 보여주는 서울 정보글 커버 이미지`;
+    if (typeof topic.coverAlt === "string" && topic.coverAlt.trim())
+        return topic.coverAlt.trim();
+    const title = String(topic.titleHint || "서울 정보글").trim();
+    const last = title.charCodeAt(title.length - 1), hangul = last >= 0xac00 && last <= 0xd7a3;
+    const particle = hangul && (last - 0xac00) % 28 !== 0 ? "을" : "를";
+    return `${title}${particle} 보여주는 서울 정보글 커버 이미지`;
 }
-
-function getPublicFilePath(publicDir, coverImagePath) {
-  const relativePath = path.posix.normalize(coverImagePath).replace(/^\/+/, "");
-
-  if (!relativePath || relativePath.startsWith("..")) {
-    throw new Error(`유효하지 않은 coverImage 경로입니다: ${coverImagePath}`);
-  }
-
-  return path.join(publicDir, relativePath);
-}
-
-function createBlogCoverSvg(topic) {
-  const palette = pickPalette(topic);
-  const title = String(topic.titleHint || topic.id || "서울 정보글").trim();
-  const titleLines = wrapText(title, 15, 3);
-  const category = truncateText(String(topic.topicCategory || "서울 추천").trim(), 14);
-  const places = Array.isArray(topic.places) ? topic.places.filter(Boolean).slice(0, 3) : [];
-  const placeLabels = places.map((place) => truncateText(String(place).trim(), 14));
-  const tagLabels = Array.isArray(topic.tags) ? topic.tags.filter(Boolean).slice(0, 2) : [];
-  const description = [
-    `${title} 주제의 서울 정보글 커버 이미지`,
-    placeLabels.length > 0 ? `추천 장소: ${placeLabels.join(", ")}` : "",
-  ]
-    .filter(Boolean)
-    .join(". ");
-
-  const titleMarkup = titleLines
-    .map(
-      (line, index) =>
-        `<tspan x="120" dy="${index === 0 ? 0 : 78}">${escapeXml(line)}</tspan>`
-    )
-    .join("");
-
-  const placesMarkup = placeLabels
-    .map((place, index) => {
-      const x = 120 + index * 250;
-      return `
-        <g transform="translate(${x} 640)">
-          <rect width="220" height="64" rx="24" fill="${palette.chipBg}" stroke="${palette.chipBorder}" />
-          <text x="110" y="40" fill="${palette.text}" font-size="26" font-weight="600" text-anchor="middle">${escapeXml(
-            place
-          )}</text>
-        </g>`;
-    })
-    .join("");
-
-  const tagsMarkup = tagLabels
-    .map((tag, index) => {
-      const x = 120 + index * 190;
-      return `
-        <g transform="translate(${x} 742)">
-          <rect width="164" height="48" rx="999" fill="rgba(15, 23, 42, 0.16)" stroke="rgba(248, 250, 252, 0.24)" />
-          <text x="82" y="31" fill="${palette.accentSoft}" font-size="22" font-weight="600" text-anchor="middle">#${escapeXml(
-            truncateText(String(tag).trim(), 8)
-          )}</text>
-        </g>`;
-    })
-    .join("");
-
-  return `<?xml version="1.0" encoding="UTF-8"?>
-<svg width="${SVG_WIDTH}" height="${SVG_HEIGHT}" viewBox="0 0 ${SVG_WIDTH} ${SVG_HEIGHT}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cover-title cover-desc">
+function createBlogCoverSvg(topic, options = {}) {
+    const design = options.design || selectCoverDesign(topic);
+    const { palette, scene, markup } = renderScene(design);
+    const title = String(topic.titleHint || topic.id || "서울 정보글").replace(/\s+/g, " ").trim();
+    const category = typeof topic.topicCategory === "string" ? topic.topicCategory : "서울 추천";
+    const places = Array.isArray(topic.places) ? topic.places.filter(p => typeof p === "string").slice(0, 3) : [];
+    const description = `${scene.description}. 분류: ${category}${places.length ? `. 추천 장소: ${places.join(", ")}` : ""}`;
+    return `<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cover-title cover-desc" data-cover-generator="seoulcity" data-cover-version="${CATALOG_VERSION}" data-cover-subject="${design.subjectId}" data-cover-scene="${design.sceneId}" data-cover-palette="${design.paletteId}">
   <title id="cover-title">${escapeXml(title)}</title>
   <desc id="cover-desc">${escapeXml(description)}</desc>
-  <defs>
-    <linearGradient id="bg-gradient" x1="140" y1="80" x2="1460" y2="820" gradientUnits="userSpaceOnUse">
-      <stop stop-color="${palette.backgroundStart}" />
-      <stop offset="1" stop-color="${palette.backgroundEnd}" />
-    </linearGradient>
-    <radialGradient id="glow-gradient" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1280 160) rotate(125) scale(480 400)">
-      <stop stop-color="${palette.accent}" stop-opacity="0.62" />
-      <stop offset="1" stop-color="${palette.accent}" stop-opacity="0" />
-    </radialGradient>
-  </defs>
-  <rect width="${SVG_WIDTH}" height="${SVG_HEIGHT}" rx="48" fill="url(#bg-gradient)" />
-  <rect x="52" y="52" width="${SVG_WIDTH - 104}" height="${SVG_HEIGHT - 104}" rx="40" stroke="rgba(248,250,252,0.12)" />
-  <circle cx="1280" cy="160" r="340" fill="url(#glow-gradient)" />
-  <circle cx="1190" cy="720" r="210" fill="rgba(255,255,255,0.06)" />
-  <path d="M1110 280C1180 228 1266 210 1372 226C1297 278 1230 340 1186 432C1144 398 1117 346 1110 280Z" fill="rgba(248,250,252,0.14)" />
-  <path d="M1020 544C1110 492 1216 482 1336 518C1244 582 1175 656 1138 742C1061 701 1021 633 1020 544Z" fill="rgba(15,23,42,0.12)" />
-  <g transform="translate(120 112)">
-    <rect width="190" height="48" rx="999" fill="rgba(248,250,252,0.13)" stroke="rgba(248,250,252,0.24)" />
-    <text x="95" y="31" fill="${palette.accentSoft}" font-size="22" font-weight="700" text-anchor="middle">SEOUL LOCAL GUIDE</text>
-  </g>
-  <g transform="translate(120 188)">
-    <rect width="146" height="52" rx="18" fill="rgba(15,23,42,0.18)" stroke="rgba(248,250,252,0.18)" />
-    <text x="73" y="34" fill="${palette.accentSoft}" font-size="28" font-weight="700" text-anchor="middle">${escapeXml(
-      category
-    )}</text>
-  </g>
-  <text x="120" y="340" fill="${palette.text}" font-size="72" font-weight="800" letter-spacing="-0.04em">${titleMarkup}</text>
-  <text x="120" y="558" fill="rgba(248,250,252,0.76)" font-size="30" font-weight="500">
-    서울 생활 정보글용 자동 생성 커버
-  </text>
-  ${placesMarkup}
-  ${tagsMarkup}
-  <g transform="translate(1168 628)">
-    <path d="M96 0L112 34V126H80V34L96 0Z" fill="${palette.accentSoft}" fill-opacity="0.88" />
-    <path d="M112 34L152 74V126H112V34Z" fill="rgba(248,250,252,0.16)" />
-    <path d="M80 34L40 86V126H80V34Z" fill="rgba(15,23,42,0.18)" />
-    <rect x="58" y="126" width="76" height="76" rx="16" fill="rgba(15,23,42,0.18)" />
-    <rect x="34" y="196" width="124" height="20" rx="10" fill="${palette.accent}" fill-opacity="0.72" />
-  </g>
+  <rect width="1600" height="900" fill="${palette.paper}"/>
+  <rect x="120" y="65" width="1360" height="770" rx="54" fill="${palette.wash}"/>
+  <ellipse cx="800" cy="763" rx="420" ry="18" fill="${palette.ink}" opacity=".06"/>
+  ${markup}
 </svg>`;
 }
-
-function ensureTopicCoverAsset(topic, options = {}) {
-  const publicDir = options.publicDir || DEFAULT_PUBLIC_DIR;
-  const coverImage = normalizeCoverImagePath(topic);
-  const coverAlt = resolveCoverAlt(topic);
-  const filePath = getPublicFilePath(publicDir, coverImage);
-
-  if (!fs.existsSync(filePath)) {
-    fs.mkdirSync(path.dirname(filePath), { recursive: true });
-    fs.writeFileSync(filePath, createBlogCoverSvg(topic), "utf8");
-  }
-
-  return { coverImage, coverAlt };
+function isManagedCover(svg, topic) {
+    const known = Object.hasOwn(topicMap, topic.id || "") ? topicMap[topic.id] : null;
+    if (known?.legacyHash === hash(svg))
+        return true;
+    const design = readCoverDesign(svg);
+    return Boolean(design && createBlogCoverSvg(topic, { design }) === svg);
 }
-
-module.exports = {
-  createBlogCoverSvg,
-  ensureTopicCoverAsset,
-};
+function readExistingAssignments(publicDir, posts = []) {
+    const directory = path.join(publicDir, "blog-covers");
+    if (!fs.existsSync(directory))
+        return { assignments: [], recent: [] };
+    if (fs.lstatSync(directory).isSymbolicLink())
+        throw new Error("표지 폴더가 심볼릭 링크입니다.");
+    const byId = new Map();
+    for (const name of fs.readdirSync(directory).filter(n => /^[a-zA-Z0-9_-]+\.svg$/.test(n)).sort()) {
+        const file = path.join(directory, name);
+        if (!fs.lstatSync(file).isFile())
+            continue;
+        const design = readCoverDesign(fs.readFileSync(file, "utf8"));
+        if (design)
+            byId.set(name.slice(0, -4), design);
+    }
+    const date = p => p.date instanceof Date ? p.date.toISOString().slice(0, 10) : String(p.date || "");
+    const recent = [...posts].filter(p => p.region === "서울" && p.sourceType === "정보글").sort((a, b) => date(b).localeCompare(date(a)) || String(a.sourceId).localeCompare(String(b.sourceId))).slice(0, 11).map(p => byId.get(p.sourceId)).filter(Boolean);
+    return { assignments: [...byId.values()], recent };
+}
+function ensureTopicCoverAsset(topic, options = {}) {
+    const publicDir = options.publicDir || path.join(__dirname, "..", "public");
+    const coverImage = normalizeCoverImagePath(topic), coverAlt = resolveCoverAlt(topic);
+    if (!coverImage.startsWith("/blog-covers/"))
+        return { coverImage, coverAlt };
+    const target = getPublicFilePath(publicDir, coverImage);
+    if (!fs.existsSync(target)) {
+        const context = readExistingAssignments(publicDir, options.posts);
+        const design = selectCoverDesign(topic, context);
+        if (design.reviewRequired)
+            (options.onWarning || console.warn)(`표지 다양성 검토 필요: ${topic.id || "미분류"} (${design.reason})`);
+        const svg = createBlogCoverSvg(topic, { design });
+        fs.mkdirSync(path.dirname(target), { recursive: true });
+        const temporary = path.join(path.dirname(target), `.cover-${crypto.randomUUID()}.tmp`);
+        try {
+            fs.writeFileSync(temporary, svg, { encoding: "utf8", flag: "wx" });
+            // Publish a complete file without overwriting a concurrent custom image.
+            try {
+                fs.linkSync(temporary, target);
+            }
+            catch (error) {
+                if (error.code !== "EEXIST")
+                    throw error;
+            }
+        }
+        finally {
+            if (fs.existsSync(temporary))
+                fs.unlinkSync(temporary);
+        }
+    }
+    return { coverImage, coverAlt };
+}
+module.exports = { createBlogCoverSvg, ensureTopicCoverAsset, escapeXml, normalizeCoverImagePath, getPublicFilePath, isManagedCover, readExistingAssignments };

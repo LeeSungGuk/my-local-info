@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Post } from "@/lib/posts";
+import { getBlogCardTitle } from "@/lib/blog-card-title";
 
 export default function HomeRecommendedPostsSection({ posts }: { posts: Post[] }) {
   if (posts.length === 0) {
@@ -41,7 +42,7 @@ export default function HomeRecommendedPostsSection({ posts }: { posts: Post[] }
                 <div className="relative aspect-[16/10] overflow-hidden rounded-xl bg-slate-100">
                   <Image
                     src={post.coverImage}
-                    alt={post.coverAlt || post.title}
+                    alt=""
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                     sizes="(max-width: 768px) 100vw, 33vw"
@@ -55,8 +56,8 @@ export default function HomeRecommendedPostsSection({ posts }: { posts: Post[] }
                   </span>
                   <time className="text-xs font-medium text-slate-400">{post.date}</time>
                 </div>
-                <h3 className="line-clamp-2 text-base font-bold leading-7 tracking-tight text-slate-950 transition-colors group-hover:text-sky-700">
-                  {post.title}
+                <h3 className="blog-card-title text-slate-950 transition-colors group-hover:text-sky-700">
+                  {getBlogCardTitle(post)}
                 </h3>
                 <p className="mt-3 line-clamp-2 text-sm leading-6 text-slate-600">
                   {post.summary}
