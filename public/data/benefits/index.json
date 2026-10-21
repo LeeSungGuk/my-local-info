@@ -10,9 +10,9 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-10-20T01:10:27.793Z",
+    "collectedAt": "2026-10-21T00:48:35.689Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10964,
+    "availableCount": 10963,
     "fetchedCount": 1141,
     "activeCount": 1105,
     "expiredCount": 36,
@@ -21,6 +21,540 @@
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-320000000311",
+      "sourceId": "320000000311",
+      "title": "국가유공자 인플루엔자 백신 및 접종 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 관악구",
+      "providerType": "자치구",
+      "district": "관악구",
+      "userType": "개인",
+      "deadlineText": "2026.10.6.~2026.12.31.",
+      "deadlineSortKey": "2026-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "1. 지원대상: 관악구에 주민등록을 둔 국가유공자 본인 중 1962년 1월 1일부터 1976년 12월 31일 사이 출생자\n2. 제외대상: 국가유공자의 유족·가족, 관악구에 주민등록을 두지 않은 사람, 위 출생 기간에 해당하지 않는 사람\n3. 지역범위: 관악구민만 이용…",
+      "summary": "서울특별시 관악구에서 제공하는 보건·의료 혜택입니다. 국가유공자 인플루엔자 예방접종 지원",
+      "supportType": "서비스(의료)",
+      "supportSummary": "관악구에 주민등록을 둔 50~64세 국가유공자 본인에게 인플루엔자(독감) 예방접종을 무료로 제공하여 독감 예방과 접종 비용 부담 경감을 돕는 관악구 지원 서비스\n\n1. 지원내용: 관악구 내 위탁의료기관에서 3가 인플루엔자 백신 무료 접종\n2. 유의사항: 무료 지원 백…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000311",
+      "onlineUrl": "",
+      "inquiry": [
+        "지역보건과/02-879-7159"
+      ],
+      "updatedAt": "2026-10-20",
+      "registeredAt": "2025-11-17"
+    },
+    {
+      "id": "gov-benefit-320000000310",
+      "sourceId": "320000000310",
+      "title": "장애인 인플루엔자 백신 및 접종 지원",
+      "field": "보건·의료",
+      "provider": "서울특별시 관악구",
+      "providerType": "자치구",
+      "district": "관악구",
+      "userType": "개인",
+      "deadlineText": "2026.10.6.~2026.12.31.",
+      "deadlineSortKey": "2026-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "1. 지원대상: 관악구에 주민등록을 둔 장애정도가 심한 장애인 중 1962년 1월 1일부터 2012년 12월 31일 사이 출생자\n2. 제외대상: 장애정도가 심하지 않은 장애인, 관악구에 주민등록을 두지 않은 사람, 위 출생 기간에 해당하지 않는 사람\n3. 지역범위:…",
+      "summary": "서울특별시 관악구에서 제공하는 보건·의료 혜택입니다. 장애인 인플루엔자 예방접종 지원",
+      "supportType": "서비스(의료)",
+      "supportSummary": "관악구에 주민등록을 둔 14~64세 장애정도가 심한 장애인에게 인플루엔자(독감) 예방접종을 무료로 제공하여 독감 예방과 접종 비용 부담 경감을 돕는 관악구 지원 서비스\n\n1. 지원내용: 관악구 내 위탁의료기관에서 3가 인플루엔자 백신 무료 접종\n2. 유의사항: 무료…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000310",
+      "onlineUrl": "",
+      "inquiry": [
+        "지역보건과/02-879-7159"
+      ],
+      "updatedAt": "2026-10-20",
+      "registeredAt": "2025-11-17"
+    },
+    {
+      "id": "gov-benefit-317000000123",
+      "sourceId": "317000000123",
+      "title": "우수 학습동아리 지원",
+      "field": "생활안정",
+      "provider": "서울특별시 금천구",
+      "providerType": "자치구",
+      "district": "금천구",
+      "userType": "개인",
+      "deadlineText": "매년 상반기",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "❍ 관내 활동 중인 자발적 학습모임 중 다음 요건을 갖춘 팀 \n  - 5명 이상의 성인 학습자로 구성(금천구민 70% 이상) \n  - 금천구 교육포털에 학습동아리로 등록 \n    ※ 미등록 동아리는 등록 후 신청 가능(금천구 교육포털-네트워크-학습동아리 신청)…",
+      "summary": "서울특별시 금천구에서 제공하는 생활안정 혜택입니다. ❍ 자발적 학습 모임의 성장과 지역사회 공헌활동 촉진 \n❍ 지속 가능한 학습모임을 위한 발전 전략 수립 \n❍ 네트워크 강화로 상호 학습 및 교류 활성화",
+      "supportType": "현금",
+      "supportSummary": "* 사 업 명  : 우수 학습동아리 지원사업\n* 사업기간 : 매년 5 ~ 11월\n* 공고기간 : 매년 2 ~ 4월 중\n* 공모대상 : 5인 이상으로 구성된 자발적 학습모임(학습동아리) 20여 개 \n* 사업내용 : 지역사회 공헌활동을 위한 강사료, 재료비 등 경비 지원…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/317000000123",
+      "onlineUrl": "https://www.losims.go.kr",
+      "inquiry": [
+        "교육지원과/02-2627-2237",
+        "교육지원과/02-2627-2239"
+      ],
+      "updatedAt": "2026-10-20",
+      "registeredAt": "2023-03-16"
+    },
+    {
+      "id": "gov-benefit-319000000121",
+      "sourceId": "319000000121",
+      "title": "아동·청소년 심리지원서비스",
+      "field": "보육·교육",
+      "provider": "서울특별시 동작구",
+      "providerType": "자치구",
+      "district": "동작구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 소득인정액이 기준 중위소득 160%이하 가정의 만 18세 이하 아동·청소년 또는 고등학교에 재학중인 청소년",
+      "summary": "서울특별시 동작구에서 제공하는 보육·교육 혜택입니다. 아동청소년의 정서, 행동적 부적응에 대해 적합한 조기개입을 통하여 건강한 심리정서 성장 지원",
+      "supportType": "서비스(의료)",
+      "supportSummary": "○ 서비스내용 : 심리상담, 언어프로그램, 놀이심리(상담)프로그램, 인지학습프로그램, 미술심리(상담)프로그램, 음악심리(상담)프로그램, 감각통합프로그램, 심리운동프로그램\n\n○ 서비스금액 (월20만원)\n - 정부지원금(1인/월) : 1등급 182,000원 / 2등급 1…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000121",
+      "onlineUrl": "",
+      "inquiry": [
+        "아동여성과/02-820-9259"
+      ],
+      "updatedAt": "2026-10-20",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-319000000115",
+      "sourceId": "319000000115",
+      "title": "아동·청소년 정서발달지원서비스",
+      "field": "보육·교육",
+      "provider": "서울특별시 동작구",
+      "providerType": "자치구",
+      "district": "동작구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 소득인정액이 기준 중위소득 140%이하 가정의 만 6세~18세 아동·청소년",
+      "summary": "서울특별시 동작구에서 제공하는 보육·교육 혜택입니다. 교육환경, 가족 해체 증가로 인한 아동청소년의 정서 및 행동적 문제 해결",
+      "supportType": "기타(교육)",
+      "supportSummary": "○ 서비스내용 : 정서·행동적 문제를 겪고 있고, 사회적으로 취약한 아동 대상 악기교육 및 예술심리치료 제공\n\n○ 서비스금액 (월 20만원)\n - 정부지원금(1인/월) : 1등급 180,000원 / 2등급 160,000원 \n - 본인부담금(1인/월) : 1등급 20,…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000115",
+      "onlineUrl": "",
+      "inquiry": [
+        "아동여성과/02-820-9259"
+      ],
+      "updatedAt": "2026-10-20",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-319000000117",
+      "sourceId": "319000000117",
+      "title": "부모성장을 위한 심리지원서비스",
+      "field": "생활안정",
+      "provider": "서울특별시 동작구",
+      "providerType": "자치구",
+      "district": "동작구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 소득인정액이 기준 중위소득 140%이하 가정의 임신부 또는 만 18세 이하 자녀를 둔 부모(단, 조손가구의 경우, (외)조부모)\n○ 서비스 욕구가 있는 만 18세 이하 아동을 둔 중위소득 140% 이하 가정의 주 양육자(4촌이내의 혈족 : 삼촌, 고모, 이모 등)…",
+      "summary": "서울특별시 동작구에서 제공하는 생활안정 혜택입니다. 임신부터 자녀양육까지 부모에 대한 전문 심리상담을 통하여 임신과 출산, 자녀 양육에 따른 심리 및 정서적 부담을 완화시킴으로서 가족 전체 기능 향상을 도모",
+      "supportType": "기타(상담)",
+      "supportSummary": "○ 서비스내용 : 초기상담 실시, 이용자 특성과 욕구를 고려한 서비스 제공계획 수립, 전문상담 서비스 제공, 사전사후 평가 실시\n\n○ 서비스금액 (월24만원)\n - 정부지원금(1인/월) : 1등급 216,000원 / 2등급 192,000원 / 3등급 168,000원…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000117",
+      "onlineUrl": "",
+      "inquiry": [
+        "아동여성과/02-820-9259"
+      ],
+      "updatedAt": "2026-10-20",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-312000000123",
+      "sourceId": "312000000123",
+      "title": "장애인 양육비용 지원",
+      "field": "보육·교육",
+      "provider": "서울특별시 서대문구",
+      "providerType": "자치구",
+      "district": "서대문구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "□ 장애인 본인 또는 배우자가 출산한 만 7세 미만 아동 양육 장애인 중 신청일 기준 1년전부터 서대문구에 주민등록을 두고 거주하는 장애인\n ㅇ (여성장애인) 2020. 1. 1. 이후 출산한 신생아를 양육하는 경우부터 적용 \n ㅇ (남성장애인) 2023. 1. 1.…",
+      "summary": "서울특별시 서대문구에서 제공하는 보육·교육 혜택입니다. 장애인을 대상으로 양육비 지원",
+      "supportType": "현금",
+      "supportSummary": "□ 신청일 기준, 1년 전부터 서대문구에 주민등록을 두고 거주하는 장애인 중 본인 또는 배우자가 출산한 만 7세 미만 아동 양육 장애인에게 양육지원금 매월 100,000원 지급(신청한 달부터 만 7세가 되는 전달까지/ 최대84개월)\n ㅇ (여성장애인) 2020. 1.…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/312000000123",
+      "onlineUrl": "",
+      "inquiry": [
+        "생활보장과/02-330-1288"
+      ],
+      "updatedAt": "2026-10-20",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-B37003100013",
+      "sourceId": "B37003100013",
+      "title": "국민체육진흥기금 스포츠산업 융자",
+      "field": "고용·창업",
+      "provider": "서울올림픽기념국민체육진흥공단",
+      "providerType": "서울 공공기관",
+      "district": "서울특별시",
+      "userType": "소상공인||법인/시설/단체",
+      "deadlineText": "매년 사업계획에 따름",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 체육용구생산업체\n\n○ 스포츠서비스업체\n\n○ 민간체육시설업체",
+      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 고용·창업 혜택입니다. 스포츠 기업에게 융자금 지원(분기별 변동금리 적용)",
+      "supportType": "현금(융자)",
+      "supportSummary": "○ 국내 체육용구생산, 서비스, 체육시설업체 관련 업체의 자금조달 애로사항 해소에 기여\n\n○ 융자금 지원\n - 은행담보대리대출\n - 분기별 변동금리 적용(`26년 4분기 기준 4.08%)\n\n○ 스포츠산업융자 일정 및 사업소개 홈페이지 (https://www.kspo.…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100013",
+      "onlineUrl": "spobiz.kspo.or.kr",
+      "inquiry": [
+        "기업금융지원팀/1566-4573"
+      ],
+      "updatedAt": "2026-10-20",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-B37003100002",
+      "sourceId": "B37003100002",
+      "title": "스포츠산업 선도기업 육성 지원",
+      "field": "고용·창업",
+      "provider": "서울올림픽기념국민체육진흥공단",
+      "providerType": "서울 공공기관",
+      "district": "서울특별시",
+      "userType": "법인/시설/단체",
+      "deadlineText": "매년 초 스포츠산업지원 홈페이지 공고",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 중소기업기본법에 의한 중소기업\n - 국내 스포츠 용품 제조업,서비스업,시설업 업력 3년 이상\n - 총 매출액 중 스포츠산업 비중 10%이상\n - 최근결산 기준 3개년  매출액 가중평균이 (스포츠용품 제조업) 80억 초과 1,500억 이하/(스포츠 서비스업 및 시설…",
+      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 고용·창업 혜택입니다. 글로벌 기업으로 성장 잠재력이 높은 스포츠기업 지원(총3차년도)",
+      "supportType": "기술지원",
+      "supportSummary": "○ 글로벌 기업으로 성장잠재력이 높은 스포츠기업을 발굴, 스포츠 대표 브랜드기업으로 육성\n\n○ 총 3차년도에 걸쳐 사업고도화, 해외 판로 개척, 해외마케팅의 분야에서 기업 특성과 수요에 따른 맞춤형 지원(연간 최대 3억원 내, 과제수는 연간 2~5개 이내로 제한)",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100002",
+      "onlineUrl": "spobiz.kspo.or.kr",
+      "inquiry": [
+        "글로벌성장지원팀/02-410-1545"
+      ],
+      "updatedAt": "2026-10-20",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-B37003100019",
+      "sourceId": "B37003100019",
+      "title": "스포츠산업 예비 선도기업 육성 지원",
+      "field": "고용·창업",
+      "provider": "서울올림픽기념국민체육진흥공단",
+      "providerType": "서울 공공기관",
+      "district": "서울특별시",
+      "userType": "법인/시설/단체",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 중소기업기본법에 의한 중소기업\n - 국내 스포츠 용품 제조업, 서비스업,시설업 업력\n - 총 매출액 중 스포츠산업 비중 10%이상\n - 결산년도 매출액이 (스포츠용품 제조업) 8억 초과 ~ 80억 이하/(스포츠 서비스업 및 시설업) 3억 초과 ~ 30억 이하",
+      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 고용·창업 혜택입니다. 영세한 중소 스포츠 기업에게 맞춤형 컨설팅 지원",
+      "supportType": "기타(상담)",
+      "supportSummary": "○ 영세한 중소스포츠기업 대상 맞춤형 컨설팅 지원으로 경영환경 개선\n\n○ 성장동력확보(컨설팅) 및 사업기반지원(제품제작,마케팅,자문 등) 관련 맞춤형 지원제공(최대 1억원 내, 과제 수는 3개이내로 제한)",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100019",
+      "onlineUrl": "spobiz.kspo.or.kr",
+      "inquiry": [
+        "글로벌성장지원팀/02-410-1542"
+      ],
+      "updatedAt": "2026-10-20",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-B37003100003",
+      "sourceId": "B37003100003",
+      "title": "스포츠산업 일자리 정보 및 매칭 지원",
+      "field": "고용·창업",
+      "provider": "서울올림픽기념국민체육진흥공단",
+      "providerType": "서울 공공기관",
+      "district": "서울특별시",
+      "userType": "개인||법인/시설/단체",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "스포츠관련 기업 및 협력단체, 스포츠산업분야 구직 희망자",
+      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 고용·창업 혜택입니다. 스포츠산업분야 일자리정보 및 취업서비스 제공",
+      "supportType": "서비스(일자리)",
+      "supportSummary": "○ 스포츠산업분야 일자리정보 및 취업서비스 제공을 통한 일자리 창출 기여\n\n○ 구직자 취업지원 프로그램 운영 - 취업 컨설팅, 맞춤형 역량 교육 등\n\n○ 구인기업 채용지원 프로그램 운영 - 채용 박람회 개최, 기업 탐방 콘텐츠 제작 등\n\n○ 일자리 매칭(잡스포이즈를…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100003",
+      "onlineUrl": "spobiz.kspo.or.kr/job",
+      "inquiry": [
+        "스포츠산업일자리센터/02-410-1567"
+      ],
+      "updatedAt": "2026-10-20",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-B37003100007",
+      "sourceId": "B37003100007",
+      "title": "스포츠용품 시험 및 국내인증(KISS)",
+      "field": "고용·창업",
+      "provider": "서울올림픽기념국민체육진흥공단",
+      "providerType": "서울 공공기관",
+      "district": "서울특별시",
+      "userType": "법인/시설/단체",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "국내 스포츠용품 생산 업체",
+      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 고용·창업 혜택입니다. 스포츠용품 생산업체에게 시험 및 인증 지원",
+      "supportType": "기술지원",
+      "supportSummary": "○ 스포츠용품 특화된 품질 성능 시험으로 영세한 국내 스포츠산업 육성 기반 조성\n\n○ 브랜드 가치 제고를 위해 다양한 스포츠용품을 대상으로 품질 평가 및 KISS 인증 마크 부여",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100007",
+      "onlineUrl": "G4B.go.kr",
+      "inquiry": [
+        "기술혁신팀/031-284-9564"
+      ],
+      "updatedAt": "2026-10-20",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-B37003100012",
+      "sourceId": "B37003100012",
+      "title": "개발도상국 스포츠행정가 교육제공",
+      "field": "보육·교육",
+      "provider": "서울올림픽기념국민체육진흥공단",
+      "providerType": "서울 공공기관",
+      "district": "서울특별시",
+      "userType": "개인",
+      "deadlineText": "홈페이지 내 공고 신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 개도국 스포츠행정 분야 재직, 경력자 또는 올림픽, 세계선수권대회 참가 유경험 선수경력자, NOC/NPC 선수경력자 중 국제스포츠기구, 자국 NOC/NPC/NF, 정부 추천을 받은 자\n - 개발도상국 기준 : OECD DAC(개발원조위원회) 선정 수원국\n - 학생…",
+      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 보육·교육 혜택입니다. 개도국 차세대 스포츠행정가 양성을 통해 '스포츠를 통한 사회개발'이라는 국제사회의 요구에 부응하고 한국의 국제스포츠계 영향력을 강화",
+      "supportType": "기타(교육)",
+      "supportSummary": "○ 개도국 스포츠행정 분야 또는 국제대회 참가 경력자 중 적격자를 선발하여 국내 정규 대학원 석사학위과정 등 지원\n\n○ UN의 지속가능발전목표 이행을 위한 스포츠 국제개발협력에 적극 참여",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100012",
+      "onlineUrl": "dtm.snu.ac.kr",
+      "inquiry": [
+        "스포츠인재육성팀/02-410-1511"
+      ],
+      "updatedAt": "2026-10-20",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-B37003100014",
+      "sourceId": "B37003100014",
+      "title": "국제 스포츠 인재양성 교육제공",
+      "field": "보육·교육",
+      "provider": "서울올림픽기념국민체육진흥공단",
+      "providerType": "서울 공공기관",
+      "district": "서울특별시",
+      "userType": "개인",
+      "deadlineText": "홈페이지 내 공고 신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 선수경력자, 대학 및 대학원 재학생, 졸업자, 체육단체 재직, 경력자 등\n - 세부 프로그램별 지원대상 및 자격요건 상이(edu.kspo.or.kr 모집공고문 참조)",
+      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 보육·교육 혜택입니다. 스포츠분야 차세대 인재 발굴 및 맞춤형 역량개발교육 제공",
+      "supportType": "기타(교육)",
+      "supportSummary": "○ 국제스포츠무대에서 활동할 차세대 인재 발굴 및 맞춤형 역량개발교육 제공\n\n○ 수준별 외국어교육 및 스포츠 전문역량(글로벌 커뮤니케이션, OA스킬 등) 강화 교육 제공",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100014",
+      "onlineUrl": "edu.kspo.or.kr",
+      "inquiry": [
+        "스포츠인재육성팀/02-410-1509"
+      ],
+      "updatedAt": "2026-10-20",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-B37003100015",
+      "sourceId": "B37003100015",
+      "title": "국제심판 양성 지원",
+      "field": "보육·교육",
+      "provider": "서울올림픽기념국민체육진흥공단",
+      "providerType": "서울 공공기관",
+      "district": "서울특별시",
+      "userType": "개인",
+      "deadlineText": "세부과정별 상이(홈페이지 참고)",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "올림픽/아시안게임 정식종목 국제심판",
+      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 보육·교육 혜택입니다. 국제심판 양성을 위한 역량강화 교육 및 자격취득 지원",
+      "supportType": "기타(교육)",
+      "supportSummary": "○ 국제심판 역량강화 교육과정\n - 심판으로서 필요역량 교육 및 외국어 교육\n \n○ 국제심판 자격취득 지원사업\n - 강습회 참가를 위한 항공료 및 체재비 지원\n \n○ 국제심판 특화 온라인 교육콘텐츠 제작\n - 시공간 구애없이 학습할 수 있는 심판 교육 콘텐츠 제공",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100015",
+      "onlineUrl": "edu.kspo.or.kr",
+      "inquiry": [
+        "스포츠인재육성팀/02-410-1508"
+      ],
+      "updatedAt": "2026-10-20",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-B37003100016",
+      "sourceId": "B37003100016",
+      "title": "스포츠분야 해외학위 지원",
+      "field": "보육·교육",
+      "provider": "서울올림픽기념국민체육진흥공단",
+      "providerType": "서울 공공기관",
+      "district": "서울특별시",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 한국 국적의 국내외 스포츠행정 분야 경력자 또는 선수경력자\n - 스포츠행정 경력자 : 체육관련 정부, 공공기관 및 경기연맹 등 스포츠분야 2년 이상 경력자\n - 선수경력자 : 대한(장애인)체육회, 선수등록 3년 이상인 자\n○ 아래의 스포츠행정 실무 석사과정 입학예…",
+      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 보육·교육 혜택입니다. 스포츠분야 경력자에게 석사학위과정 지원",
+      "supportType": "기타(교육)",
+      "supportSummary": "○ 한국 국적의 선수 또는 스포츠행정가 대상 국내 정규 대학원 석사학위과정 지원\n\n○ 국내 스포츠행정가 간 네트워크 구축 및 국제 스포츠분야 교류 협력 관계 강화",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100016",
+      "onlineUrl": "edu.kspo.or.kr",
+      "inquiry": [
+        "스포츠인재육성팀/02-410-1509"
+      ],
+      "updatedAt": "2026-10-20",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-B37003100008",
+      "sourceId": "B37003100008",
+      "title": "여성스포츠리더육성 교육제공",
+      "field": "보육·교육",
+      "provider": "서울올림픽기념국민체육진흥공단",
+      "providerType": "서울 공공기관",
+      "district": "서울특별시",
+      "userType": "개인",
+      "deadlineText": "세부과정별 상이(홈페이지 공고문 참고)",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "스포츠관련 단체, 사업체 여성 종사자 및 스포츠분야에 관심있는 여성(여성, 그 외 사항 제한없음)",
+      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 보육·교육 혜택입니다. 스포츠 관련 산업 여성에게 역량 강화를 위한 교육 제공",
+      "supportType": "기타(교육)",
+      "supportSummary": "○ 스포츠 관련 산업 여성 종사자 및 관심자에게 스포츠산업 전반 및 리더십 역량 강화를 위한 교육 서비스 제공\n\n○ 교육내용 - 여성리더십, 스포츠산업, 네트워킹 역량",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100008",
+      "onlineUrl": "edu.kspo.or.kr",
+      "inquiry": [
+        "스포츠인재육성팀/02-410-1510"
+      ],
+      "updatedAt": "2026-10-20",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-701000000206",
+      "sourceId": "701000000206",
+      "title": "학기중 평일 중식 지원",
+      "field": "보육·교육",
+      "provider": "서울특별시교육청",
+      "providerType": "서울시",
+      "district": "서울특별시",
+      "userType": "개인",
+      "deadlineText": "별도의 신청절차가 없음",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "서울시교육청관내 국,공, 사립 초,중,고, 특수, 각종학교에 재학중인 학생",
+      "summary": "서울특별시교육청에서 제공하는 보육·교육 혜택입니다. 관내 각종학교에 재학중인 학생 대상으로 학기중 평일 중식비 지원",
+      "supportType": "현물",
+      "supportSummary": "학교에 재학중인 학생에게 학기중 평일 중식 제공",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "신청불필요"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/701000000206",
+      "onlineUrl": "",
+      "inquiry": [
+        "체육건강예술교육과/02-399-9587"
+      ],
+      "updatedAt": "2026-10-20",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-311000000121",
+      "sourceId": "311000000121",
+      "title": "노인맞춤돌봄지원 강화사업",
+      "field": "생활안정",
+      "provider": "서울특별시 은평구",
+      "providerType": "자치구",
+      "district": "은평구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 65세 이상 수급자 및 기초연금 수급 1인 가구 어르신",
+      "summary": "서울특별시 은평구에서 제공하는 생활안정 혜택입니다. 수급자 및 기초연금 수급 1인 가구 어르신에게 김치, 생신상, 냉난방용품 등 지원하여 생활안정 도모",
+      "supportType": "현물",
+      "supportSummary": "○ 사계절 김치 지원\n○ 생신상(케이크) 지원\n○ 폭염 및 한파 등 재난시 냉난방용품 지원\n○ 폭염 및 한파 대비 홍보 및 시설수선, \n○ 주거에너지 효율화, 해충방제 지원\n○ 돌봄로봇 관리",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "신청불필요"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000121",
+      "onlineUrl": "",
+      "inquiry": [
+        "통합돌봄과/02-351-7199"
+      ],
+      "updatedAt": "2026-10-20",
+      "registeredAt": "2021-09-23"
+    },
     {
       "id": "gov-benefit-324000000109",
       "sourceId": "324000000109",
@@ -500,34 +1034,6 @@
       ],
       "updatedAt": "2026-10-19",
       "registeredAt": "2024-02-15"
-    },
-    {
-      "id": "gov-benefit-312000000123",
-      "sourceId": "312000000123",
-      "title": "장애인 양육비용 지원",
-      "field": "보육·교육",
-      "provider": "서울특별시 서대문구",
-      "providerType": "자치구",
-      "district": "서대문구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "□ 장애인 본인 또는 배우자가 출산한 만 7세 미만 아동 양육 장애인 중 신청일 기준 1년전부터 서대문구에 주민등록을 두고 거주하는 장애인\n ㅇ (여성장애인) 2020. 1. 1. 이후 출산한 신생아를 양육하는 경우부터 적용 \n ㅇ (남성장애인) 2023. 1. 1.…",
-      "summary": "서울특별시 서대문구에서 제공하는 보육·교육 혜택입니다. 장애인을 대상으로 양육비 지원",
-      "supportType": "현금",
-      "supportSummary": "□ 신청일 기준, 1년 전부터 서대문구에 주민등록을 두고 거주하는 장애인 중 본인 또는 배우자가 출산한 만 7세 미만 아동 양육 장애인에게 양육지원금 매월 100,000원 지급(신청한 달부터 만 7세가 되는 전달까지/ 최대84개월)\n ㅇ (여성장애인) 2020. 1.…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/312000000123",
-      "onlineUrl": "",
-      "inquiry": [
-        "생활보장과/02-330-1288"
-      ],
-      "updatedAt": "2026-10-19",
-      "registeredAt": "2021-09-23"
     },
     {
       "id": "gov-benefit-323000000113",
@@ -1535,62 +2041,6 @@
       ],
       "updatedAt": "2026-09-16",
       "registeredAt": "2026-08-06"
-    },
-    {
-      "id": "gov-benefit-320000000311",
-      "sourceId": "320000000311",
-      "title": "국가유공자 인플루엔자 백신 및 접종 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 관악구",
-      "providerType": "자치구",
-      "district": "관악구",
-      "userType": "개인",
-      "deadlineText": "2026.10.6.~2026.12.31.",
-      "deadlineSortKey": "2026-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "1. 지원대상: 관악구에 주민등록을 둔 국가유공자 본인 중 1962년 1월 1일부터 1976년 12월 31일 사이 출생자\n2. 제외대상: 국가유공자의 유족·가족, 관악구에 주민등록을 두지 않은 사람, 위 출생 기간에 해당하지 않는 사람\n3. 지역범위: 관악구민만 이용…",
-      "summary": "서울특별시 관악구에서 제공하는 보건·의료 혜택입니다. 국가유공자 인플루엔자 예방접종 지원",
-      "supportType": "서비스(의료)",
-      "supportSummary": "관악구에 주민등록을 둔 50~64세 국가유공자 본인에게 인플루엔자(독감) 예방접종을 무료로 제공하여 독감 예방과 접종 비용 부담 경감을 돕는 관악구 지원 서비스\n\n1. 지원내용: 관악구 내 위탁의료기관에서 3가 인플루엔자 백신 무료 접종\n2. 유의사항: 무료 지원 백…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000311",
-      "onlineUrl": "",
-      "inquiry": [
-        "지역보건과/02-879-7159"
-      ],
-      "updatedAt": "2026-09-16",
-      "registeredAt": "2025-11-17"
-    },
-    {
-      "id": "gov-benefit-320000000310",
-      "sourceId": "320000000310",
-      "title": "장애인 인플루엔자 백신 및 접종 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 관악구",
-      "providerType": "자치구",
-      "district": "관악구",
-      "userType": "개인",
-      "deadlineText": "2026.10.6.~2026.12.31.",
-      "deadlineSortKey": "2026-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "1. 지원대상: 관악구에 주민등록을 둔 장애정도가 심한 장애인 중 1962년 1월 1일부터 2012년 12월 31일 사이 출생자\n2. 제외대상: 장애정도가 심하지 않은 장애인, 관악구에 주민등록을 두지 않은 사람, 위 출생 기간에 해당하지 않는 사람\n3. 지역범위:…",
-      "summary": "서울특별시 관악구에서 제공하는 보건·의료 혜택입니다. 장애인 인플루엔자 예방접종 지원",
-      "supportType": "서비스(의료)",
-      "supportSummary": "관악구에 주민등록을 둔 14~64세 장애정도가 심한 장애인에게 인플루엔자(독감) 예방접종을 무료로 제공하여 독감 예방과 접종 비용 부담 경감을 돕는 관악구 지원 서비스\n\n1. 지원내용: 관악구 내 위탁의료기관에서 3가 인플루엔자 백신 무료 접종\n2. 유의사항: 무료…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000310",
-      "onlineUrl": "",
-      "inquiry": [
-        "지역보건과/02-879-7159"
-      ],
-      "updatedAt": "2026-09-16",
-      "registeredAt": "2025-11-17"
     },
     {
       "id": "gov-benefit-320000000111",
@@ -3422,62 +3872,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-319000000121",
-      "sourceId": "319000000121",
-      "title": "아동·청소년 심리지원서비스",
-      "field": "보육·교육",
-      "provider": "서울특별시 동작구",
-      "providerType": "자치구",
-      "district": "동작구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 소득인정액이 기준 중위소득 160%이하 가정의 만 18세 이하 아동·청소년 또는 고등학교에 재학중인 청소년",
-      "summary": "서울특별시 동작구에서 제공하는 보육·교육 혜택입니다. 아동청소년의 정서, 행동적 부적응에 대해 적합한 조기개입을 통하여 건강한 심리정서 성장 지원",
-      "supportType": "서비스(의료)",
-      "supportSummary": "○ 서비스내용 : 심리상담, 언어프로그램, 놀이심리(상담)프로그램, 인지학습프로그램, 미술심리(상담)프로그램, 음악심리(상담)프로그램, 감각통합프로그램, 심리운동프로그램\n\n○ 서비스금액 (월20만원)\n - 정부지원금(1인/월) : 1등급 182,000원 / 2등급 1…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000121",
-      "onlineUrl": "",
-      "inquiry": [
-        "아동여성과/02-820-9259"
-      ],
-      "updatedAt": "2026-09-10",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-319000000115",
-      "sourceId": "319000000115",
-      "title": "아동·청소년 정서발달지원서비스",
-      "field": "보육·교육",
-      "provider": "서울특별시 동작구",
-      "providerType": "자치구",
-      "district": "동작구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 소득인정액이 기준 중위소득 140%이하 가정의 만 6세~18세 아동·청소년",
-      "summary": "서울특별시 동작구에서 제공하는 보육·교육 혜택입니다. 교육환경, 가족 해체 증가로 인한 아동청소년의 정서 및 행동적 문제 해결",
-      "supportType": "기타(교육)",
-      "supportSummary": "○ 서비스내용 : 정서·행동적 문제를 겪고 있고, 사회적으로 취약한 아동 대상 악기교육 및 예술심리치료 제공\n\n○ 서비스금액 (월 20만원)\n - 정부지원금(1인/월) : 1등급 180,000원 / 2등급 160,000원 \n - 본인부담금(1인/월) : 1등급 20,…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000115",
-      "onlineUrl": "",
-      "inquiry": [
-        "아동여성과/02-820-9259"
-      ],
-      "updatedAt": "2026-09-10",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-319000000136",
       "sourceId": "319000000136",
       "title": "유실·유기동물 입양비 지원",
@@ -3730,34 +4124,6 @@
       "onlineUrl": "",
       "inquiry": [
         "복지정책과/02-820-9041"
-      ],
-      "updatedAt": "2026-09-10",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-319000000117",
-      "sourceId": "319000000117",
-      "title": "부모성장을 위한 심리지원서비스",
-      "field": "생활안정",
-      "provider": "서울특별시 동작구",
-      "providerType": "자치구",
-      "district": "동작구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 소득인정액이 기준 중위소득 140%이하 가정의 임신부 또는 만 18세 이하 자녀를 둔 부모(단, 조손가구의 경우, (외)조부모)\n○ 서비스 욕구가 있는 만 18세 이하 아동을 둔 중위소득 140% 이하 가정의 주 양육자(4촌이내의 혈족 : 삼촌, 고모, 이모 등)…",
-      "summary": "서울특별시 동작구에서 제공하는 생활안정 혜택입니다. 임신부터 자녀양육까지 부모에 대한 전문 심리상담을 통하여 임신과 출산, 자녀 양육에 따른 심리 및 정서적 부담을 완화시킴으로서 가족 전체 기능 향상을 도모",
-      "supportType": "기타(상담)",
-      "supportSummary": "○ 서비스내용 : 초기상담 실시, 이용자 특성과 욕구를 고려한 서비스 제공계획 수립, 전문상담 서비스 제공, 사전사후 평가 실시\n\n○ 서비스금액 (월24만원)\n - 정부지원금(1인/월) : 1등급 216,000원 / 2등급 192,000원 / 3등급 168,000원…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000117",
-      "onlineUrl": "",
-      "inquiry": [
-        "아동여성과/02-820-9259"
       ],
       "updatedAt": "2026-09-10",
       "registeredAt": "2021-09-23"
@@ -11748,34 +12114,6 @@
       "registeredAt": "2026-06-25"
     },
     {
-      "id": "gov-benefit-B37003100002",
-      "sourceId": "B37003100002",
-      "title": "스포츠산업 선도기업 육성 지원",
-      "field": "고용·창업",
-      "provider": "서울올림픽기념국민체육진흥공단",
-      "providerType": "서울 공공기관",
-      "district": "서울특별시",
-      "userType": "법인/시설/단체",
-      "deadlineText": "매년 초 스포츠산업지원 홈페이지 공고",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 중소기업기본법에 의한 중소기업\n - 국내 스포츠 용품 제조업,서비스업,시설업 업력 3년 이상\n - 총 매출액 중 스포츠산업 비중 10%이상\n - 최근결산 기준 3개년  매출액 가중평균이 (스포츠용품 제조업) 80억 초과 1,500억 이하/(스포츠 서비스업 및 시설…",
-      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 고용·창업 혜택입니다. 글로벌 기업으로 성장 잠재력이 높은 스포츠기업 지원(총3차년도)",
-      "supportType": "기술지원",
-      "supportSummary": "○ 글로벌 기업으로 성장잠재력이 높은 스포츠기업을 발굴, 스포츠 대표 브랜드기업으로 육성\n\n○ 총 3차년도에 걸쳐 사업고도화, 해외 판로 개척, 해외마케팅의 분야에서 기업 특성과 수요에 따른 맞춤형 지원(연간 최대 3억원 내, 과제수는 연간 2~5개 이내로 제한)",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100002",
-      "onlineUrl": "spobiz.kspo.or.kr",
-      "inquiry": [
-        "글로벌성장지원팀/02-410-1545"
-      ],
-      "updatedAt": "2026-08-12",
-      "registeredAt": "2022-07-15"
-    },
-    {
       "id": "gov-benefit-B37003100017",
       "sourceId": "B37003100017",
       "title": "국민체력100",
@@ -11801,34 +12139,6 @@
       "onlineUrl": "https://nfa.kspo.or.kr",
       "inquiry": [
         "KSPO체력인증센터/1644-7110"
-      ],
-      "updatedAt": "2026-08-12",
-      "registeredAt": "2022-07-15"
-    },
-    {
-      "id": "gov-benefit-B37003100012",
-      "sourceId": "B37003100012",
-      "title": "개발도상국 스포츠행정가 교육제공",
-      "field": "보육·교육",
-      "provider": "서울올림픽기념국민체육진흥공단",
-      "providerType": "서울 공공기관",
-      "district": "서울특별시",
-      "userType": "개인",
-      "deadlineText": "홈페이지 내 공고 신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 개도국 스포츠행정 분야 재직, 경력자 또는 올림픽, 세계선수권대회 참가 유경험 선수경력자, NOC/NPC 선수경력자 중 국제스포츠기구, 자국 NOC/NPC/NF, 정부 추천을 받은 자\n - 개발도상국 기준 : OECD DAC(개발원조위원회) 선정 수원국\n - 학생…",
-      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 보육·교육 혜택입니다. 개도국 차세대 스포츠행정가 양성을 통해 '스포츠를 통한 사회개발'이라는 국제사회의 요구에 부응하고 한국의 국제스포츠계 영향력을 강화",
-      "supportType": "기타(교육)",
-      "supportSummary": "○ 개도국 스포츠행정 분야 또는 국제대회 참가 경력자 중 적격자를 선발하여 국내 정규 대학원 석사학위과정 등 지원\n\n○ UN의 지속가능발전목표 이행을 위한 스포츠 국제개발협력에 적극 참여",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100012",
-      "onlineUrl": "dtm.snu.ac.kr",
-      "inquiry": [
-        "스포츠인재육성팀/02-410-1511"
       ],
       "updatedAt": "2026-08-12",
       "registeredAt": "2022-07-15"
@@ -11913,34 +12223,6 @@
       "onlineUrl": "https://seoulmetro.co.kr",
       "inquiry": [
         "차량운영처/02-6311-9662"
-      ],
-      "updatedAt": "2026-08-12",
-      "registeredAt": "2022-07-15"
-    },
-    {
-      "id": "gov-benefit-701000000206",
-      "sourceId": "701000000206",
-      "title": "학기중 평일 중식 지원",
-      "field": "보육·교육",
-      "provider": "서울특별시교육청",
-      "providerType": "서울시",
-      "district": "서울특별시",
-      "userType": "개인",
-      "deadlineText": "별도의 신청절차가 없음",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "서울시교육청관내 국,공, 사립 초,중,고, 특수, 각종학교에 재학중인 학생",
-      "summary": "서울특별시교육청에서 제공하는 보육·교육 혜택입니다. 관내 각종학교에 재학중인 학생 대상으로 학기중 평일 중식비 지원",
-      "supportType": "현물",
-      "supportSummary": "학교에 재학중인 학생에게 학기중 평일 중식 제공",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "신청불필요"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/701000000206",
-      "onlineUrl": "",
-      "inquiry": [
-        "체육건강예술교육과/02-399-9587"
       ],
       "updatedAt": "2026-08-12",
       "registeredAt": "2022-07-15"
@@ -13089,34 +13371,6 @@
       "inquiry": [
         "건강관리과 모자보건실/02-2199-8070",
         "건강관리과 모자보건실/02-2199-8287"
-      ],
-      "updatedAt": "2026-08-12",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-311000000121",
-      "sourceId": "311000000121",
-      "title": "독거어르신 사회안전망강화 지원",
-      "field": "생활안정",
-      "provider": "서울특별시 은평구",
-      "providerType": "자치구",
-      "district": "은평구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 65세 이상 수급자 및 차상위 독거어르신",
-      "summary": "서울특별시 은평구에서 제공하는 생활안정 혜택입니다. 수급자 및 차상위 독거어르신에게 김치, 생신상, 냉난방용품 등 지원",
-      "supportType": "현물",
-      "supportSummary": "○ 사계절 김치 지원\n○ 생신상(케이크) 지원\n○ 폭염 및 한파 등 재난시 냉난방용품 지원\n○ 폭염 및 한파 대비 홍보 및 시설수선, \n○ 주거에너지 효율화, 해충방제 지원\n○ 돌봄로봇 관리",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "신청불필요"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000121",
-      "onlineUrl": "",
-      "inquiry": [
-        "통합돌봄과/02-351-7199"
       ],
       "updatedAt": "2026-08-12",
       "registeredAt": "2021-09-23"
@@ -15711,35 +15965,6 @@
       ],
       "updatedAt": "2026-08-10",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-B37003100003",
-      "sourceId": "B37003100003",
-      "title": "스포츠산업 일자리 정보 및 매칭 지원",
-      "field": "고용·창업",
-      "provider": "서울올림픽기념국민체육진흥공단",
-      "providerType": "서울 공공기관",
-      "district": "서울특별시",
-      "userType": "개인||법인/시설/단체",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "스포츠관련 기업 및 협력단체, 스포츠산업분야 구직 희망자",
-      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 고용·창업 혜택입니다. 스포츠산업분야 일자리정보 및 취업서비스 제공",
-      "supportType": "서비스(일자리)",
-      "supportSummary": "○ 스포츠산업분야 일자리정보 및 취업서비스 제공을 통한 일자리 창출 기여\n\n○ 구직자 취업지원 프로그램 운영 - 취업 컨설팅, 맞춤형 역량 교육 등\n\n○ 구인기업 채용지원 프로그램 운영 - 채용 박람회 개최, 기업 탐방 콘텐츠 제작 등\n\n○ 일자리 매칭(잡스포이즈를…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100003",
-      "onlineUrl": "spobiz.kspo.or.kr/job",
-      "inquiry": [
-        "스포츠산업일자리센터/02-410-1567"
-      ],
-      "updatedAt": "2026-08-10",
-      "registeredAt": "2022-07-15"
     },
     {
       "id": "gov-benefit-611000019633",
@@ -27243,35 +27468,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-317000000123",
-      "sourceId": "317000000123",
-      "title": "우수 학습동아리 지원",
-      "field": "생활안정",
-      "provider": "서울특별시 금천구",
-      "providerType": "자치구",
-      "district": "금천구",
-      "userType": "개인",
-      "deadlineText": "매년 상반기",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "❍ 관내 활동 중인 자발적 학습모임 중 다음 요건을 갖춘 팀 \n  - 5명 이상의 성인 학습자로 구성(금천구민 70% 이상) \n  - 금천구 교육포털에 학습동아리로 등록 \n    ※ 미등록 동아리는 등록 후 신청 가능(금천구 교육포털-네트워크-학습동아리 신청)…",
-      "summary": "서울특별시 금천구에서 제공하는 생활안정 혜택입니다. ❍ 자발적 학습 모임의 성장과 지역사회 공헌활동 촉진 \n❍ 지속 가능한 학습모임을 위한 발전 전략 수립 \n❍ 네트워크 강화로 상호 학습 및 교류 활성화",
-      "supportType": "현금",
-      "supportSummary": "* 사 업 명  : 우수 학습동아리 지원사업\n* 사업기간 : 매년 5 ~ 11월\n* 공고기간 : 매년 2 ~ 4월 중\n* 공모대상 : 5인 이상으로 구성된 자발적 학습모임(학습동아리) 20여 개 \n* 사업내용 : 지역사회 공헌활동을 위한 강사료, 재료비 등 경비 지원…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/317000000123",
-      "onlineUrl": "https://www.losims.go.kr",
-      "inquiry": [
-        "교육지원과/02-2627-2237",
-        "교육지원과/02-2627-2239"
-      ],
-      "updatedAt": "2026-07-28",
-      "registeredAt": "2023-03-16"
-    },
-    {
       "id": "gov-benefit-611000019628",
       "sourceId": "611000019628",
       "title": "서울 동행일자리 사업(구 공공근로 사업)",
@@ -27402,34 +27598,6 @@
       ],
       "updatedAt": "2026-07-28",
       "registeredAt": "2025-09-23"
-    },
-    {
-      "id": "gov-benefit-B37003100015",
-      "sourceId": "B37003100015",
-      "title": "국제심판 양성 지원",
-      "field": "보육·교육",
-      "provider": "서울올림픽기념국민체육진흥공단",
-      "providerType": "서울 공공기관",
-      "district": "서울특별시",
-      "userType": "개인",
-      "deadlineText": "세부과정별 상이(홈페이지 참고)",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "올림픽/아시안게임 정식종목 국제심판",
-      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 보육·교육 혜택입니다. 국제심판 양성을 위한 역량강화 교육 및 자격취득 지원",
-      "supportType": "기타(교육)",
-      "supportSummary": "○ 국제심판 역량강화 교육과정\n - 심판으로서 필요역량 교육 및 외국어 교육\n \n○ 국제심판 자격취득 지원사업\n - 강습회 참가를 위한 항공료 및 체재비 지원\n \n○ 국제심판 특화 온라인 교육콘텐츠 제작\n - 시공간 구애없이 학습할 수 있는 심판 교육 콘텐츠 제공",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100015",
-      "onlineUrl": "edu.kspo.or.kr",
-      "inquiry": [
-        "스포츠인재육성팀/02-410-1508"
-      ],
-      "updatedAt": "2026-07-28",
-      "registeredAt": "2022-07-15"
     },
     {
       "id": "gov-benefit-611000019639",
@@ -27944,34 +28112,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-B37003100013",
-      "sourceId": "B37003100013",
-      "title": "국민체육진흥기금 스포츠산업 융자",
-      "field": "고용·창업",
-      "provider": "서울올림픽기념국민체육진흥공단",
-      "providerType": "서울 공공기관",
-      "district": "서울특별시",
-      "userType": "소상공인||법인/시설/단체",
-      "deadlineText": "매년 사업계획에 따름",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 체육용구생산업체\n\n○ 스포츠서비스업체\n\n○ 민간체육시설업체",
-      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 고용·창업 혜택입니다. 스포츠 기업에게 융자금 지원(분기별 변동금리 적용)",
-      "supportType": "현금(융자)",
-      "supportSummary": "○ 국내 체육용구생산, 서비스, 체육시설업체 관련 업체의 자금조달 애로사항 해소에 기여\n\n○ 융자금 지원\n - 은행담보대리대출\n - 분기별 변동금리 적용(`26년 3분기 기준 3.80%)\n\n○ 스포츠산업융자 일정 및 사업소개 홈페이지 (https://www.kspo.…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100013",
-      "onlineUrl": "spobiz.kspo.or.kr",
-      "inquiry": [
-        "기업금융지원팀/1566-4573"
-      ],
-      "updatedAt": "2026-07-27",
-      "registeredAt": "2022-07-15"
-    },
-    {
       "id": "gov-benefit-O00021500002",
       "sourceId": "O00021500002",
       "title": "서울교통공사 조례시설물 우선 임대지원",
@@ -28057,34 +28197,6 @@
       "registeredAt": "2022-07-15"
     },
     {
-      "id": "gov-benefit-B37003100014",
-      "sourceId": "B37003100014",
-      "title": "국제 스포츠 인재양성 교육제공",
-      "field": "보육·교육",
-      "provider": "서울올림픽기념국민체육진흥공단",
-      "providerType": "서울 공공기관",
-      "district": "서울특별시",
-      "userType": "개인",
-      "deadlineText": "홈페이지 내 공고 신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 선수경력자, 대학 및 대학원 재학생, 졸업자, 체육단체 재직, 경력자 등\n - 세부 프로그램별 지원대상 및 자격요건 상이(edu.kspo.or.kr 모집공고문 참조)",
-      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 보육·교육 혜택입니다. 스포츠분야 차세대 인재 발굴 및 맞춤형 역량개발교육 제공",
-      "supportType": "기타(교육)",
-      "supportSummary": "○ 국제스포츠무대에서 활동할 차세대 인재 발굴 및 맞춤형 역량개발교육 제공\n\n○ 수준별 외국어교육 및 스포츠 전문역량(글로벌 커뮤니케이션, OA스킬 등) 강화 교육 제공",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100014",
-      "onlineUrl": "edu.kspo.or.kr",
-      "inquiry": [
-        "스포츠인재육성팀/02-410-1509"
-      ],
-      "updatedAt": "2026-07-27",
-      "registeredAt": "2022-07-15"
-    },
-    {
       "id": "gov-benefit-611000019600",
       "sourceId": "611000019600",
       "title": "서울시 엄마 북(Book)돋움",
@@ -28111,62 +28223,6 @@
       ],
       "updatedAt": "2026-07-27",
       "registeredAt": "2024-05-07"
-    },
-    {
-      "id": "gov-benefit-B37003100016",
-      "sourceId": "B37003100016",
-      "title": "스포츠분야 해외학위 지원",
-      "field": "보육·교육",
-      "provider": "서울올림픽기념국민체육진흥공단",
-      "providerType": "서울 공공기관",
-      "district": "서울특별시",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 한국 국적의 국내외 스포츠행정 분야 경력자 또는 선수경력자\n - 스포츠행정 경력자 : 체육관련 정부, 공공기관 및 경기연맹 등 스포츠분야 2년 이상 경력자\n - 선수경력자 : 대한(장애인)체육회, 선수등록 3년 이상인 자\n○ 아래의 스포츠행정 실무 석사과정 입학예…",
-      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 보육·교육 혜택입니다. 스포츠분야 경력자에게 석사학위과정 지원",
-      "supportType": "기타(교육)",
-      "supportSummary": "○ 한국 국적의 선수 또는 스포츠행정가 대상 국내 정규 대학원 석사학위과정 지원\n\n○ 국내 스포츠행정가 간 네트워크 구축 및 국제 스포츠분야 교류 협력 관계 강화",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100016",
-      "onlineUrl": "edu.kspo.or.kr",
-      "inquiry": [
-        "스포츠인재육성팀/02-410-1509"
-      ],
-      "updatedAt": "2026-07-27",
-      "registeredAt": "2022-07-15"
-    },
-    {
-      "id": "gov-benefit-B37003100008",
-      "sourceId": "B37003100008",
-      "title": "여성스포츠리더육성 교육제공",
-      "field": "보육·교육",
-      "provider": "서울올림픽기념국민체육진흥공단",
-      "providerType": "서울 공공기관",
-      "district": "서울특별시",
-      "userType": "개인",
-      "deadlineText": "세부과정별 상이(홈페이지 공고문 참고)",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "스포츠관련 단체, 사업체 여성 종사자 및 스포츠분야에 관심있는 여성(여성, 그 외 사항 제한없음)",
-      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 보육·교육 혜택입니다. 스포츠 관련 산업 여성에게 역량 강화를 위한 교육 제공",
-      "supportType": "기타(교육)",
-      "supportSummary": "○ 스포츠 관련 산업 여성 종사자 및 관심자에게 스포츠산업 전반 및 리더십 역량 강화를 위한 교육 서비스 제공\n\n○ 교육내용 - 여성리더십, 스포츠산업, 네트워킹 역량",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100008",
-      "onlineUrl": "edu.kspo.or.kr",
-      "inquiry": [
-        "스포츠인재육성팀/02-410-1510"
-      ],
-      "updatedAt": "2026-07-27",
-      "registeredAt": "2022-07-15"
     },
     {
       "id": "gov-benefit-611000000158",
@@ -28561,62 +28617,6 @@
       ],
       "updatedAt": "2026-07-24",
       "registeredAt": "2022-11-09"
-    },
-    {
-      "id": "gov-benefit-B37003100019",
-      "sourceId": "B37003100019",
-      "title": "스포츠산업 예비 선도기업 육성 지원",
-      "field": "고용·창업",
-      "provider": "서울올림픽기념국민체육진흥공단",
-      "providerType": "서울 공공기관",
-      "district": "서울특별시",
-      "userType": "법인/시설/단체",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 중소기업기본법에 의한 중소기업\n - 국내 스포츠 용품 제조업, 서비스업,시설업 업력\n - 총 매출액 중 스포츠산업 비중 10%이상\n - 결산년도 매출액이 (스포츠용품 제조업) 8억 초과 ~ 80억 이하/(스포츠 서비스업 및 시설업) 3억 초과 ~ 30억 이하",
-      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 고용·창업 혜택입니다. 영세한 중소 스포츠 기업에게 맞춤형 컨설팅 지원",
-      "supportType": "기타(상담)",
-      "supportSummary": "○ 영세한 중소스포츠기업 대상 맞춤형 컨설팅 지원으로 경영환경 개선\n\n○ 성장동력확보(컨설팅) 및 사업기반지원(제품제작,마케팅,자문 등) 관련 맞춤형 지원제공(최대 1억원 내, 과제 수는 3개이내로 제한)",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100019",
-      "onlineUrl": "spobiz.kspo.or.kr",
-      "inquiry": [
-        "글로벌성장지원팀/02-410-1542"
-      ],
-      "updatedAt": "2026-07-24",
-      "registeredAt": "2022-07-15"
-    },
-    {
-      "id": "gov-benefit-B37003100007",
-      "sourceId": "B37003100007",
-      "title": "스포츠용품 시험 및 국내인증(KISS)",
-      "field": "고용·창업",
-      "provider": "서울올림픽기념국민체육진흥공단",
-      "providerType": "서울 공공기관",
-      "district": "서울특별시",
-      "userType": "법인/시설/단체",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "국내 스포츠용품 생산 업체",
-      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 고용·창업 혜택입니다. 스포츠용품 생산업체에게 시험 및 인증 지원",
-      "supportType": "기술지원",
-      "supportSummary": "○ 스포츠용품 특화된 품질 성능 시험으로 영세한 국내 스포츠산업 육성 기반 조성\n\n○ 브랜드 가치 제고를 위해 다양한 스포츠용품을 대상으로 품질 평가 및 KISS 인증 마크 부여",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100007",
-      "onlineUrl": "G4B.go.kr",
-      "inquiry": [
-        "기술혁신팀/031-284-9564"
-      ],
-      "updatedAt": "2026-07-24",
-      "registeredAt": "2022-07-15"
     },
     {
       "id": "gov-benefit-B37003100005",

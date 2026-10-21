@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-10-20T10:10:39+09:00",
+  "lastGeneratedAt": "2026-10-21T09:48:54+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -3906,9 +3906,9 @@
         "음악취향"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-10-15T09:46:02+09:00",
-      "usedAt": null
+      "usedAt": "2026-10-21T09:48:54+09:00"
     },
     {
       "id": "seoul-han-river-bridge-cafes",
