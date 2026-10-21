@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Imported design references are separate from the application source.
+    "design-templates/**",
   ]),
 ]);
 

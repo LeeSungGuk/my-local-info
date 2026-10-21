@@ -43,7 +43,7 @@ export default async function BenefitDetailPage({
   });
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 via-white to-white">
+    <div className="site-page min-h-screen">
       <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
         <Link
           href="/benefits"
@@ -55,8 +55,7 @@ export default async function BenefitDetailPage({
           혜택 목록으로 돌아가기
         </Link>
 
-        <article className="mt-8 overflow-hidden rounded-[1.75rem] border border-slate-200 bg-white shadow-[0_10px_30px_rgba(15,23,42,0.05)]">
-          <div className="h-2 bg-gradient-to-r from-blue-400 via-sky-400 to-indigo-400" />
+        <article className="detail-article mt-8 overflow-hidden rounded-2xl border border-slate-200 bg-white">
 
           <div className="p-6 sm:p-10">
             <div className="flex flex-wrap items-center gap-2">

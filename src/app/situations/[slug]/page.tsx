@@ -106,7 +106,7 @@ export default async function SituationPage({ params }: PageProps) {
   const searchHref = `/search?q=${encodeURIComponent(situation.searchIntent)}`;
 
   return (
-    <div className="min-h-screen bg-[linear-gradient(180deg,#eff6ff_0%,#ffffff_42%,#f8fafc_100%)] pb-20 pt-28">
+    <div className="site-page min-h-screen pb-20 pt-12 sm:pt-20">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}

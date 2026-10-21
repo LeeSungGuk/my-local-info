@@ -1,4 +1,4 @@
-import Image from "next/image";
+import EventPoster from "@/components/design/EventPoster";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getEventInterpretationSections } from "@/lib/detail-interpretation";
@@ -40,7 +40,7 @@ export default async function EventDetailPage({
   });
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-sky-50 via-white to-white">
+    <div className="site-page min-h-screen">
       <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
         <Link
           href="/events"
@@ -52,8 +52,7 @@ export default async function EventDetailPage({
           행사 목록으로 돌아가기
         </Link>
 
-        <article className="mt-8 overflow-hidden rounded-[1.75rem] border border-slate-200 bg-white shadow-[0_10px_30px_rgba(15,23,42,0.05)]">
-          <div className="h-2 bg-gradient-to-r from-sky-400 via-cyan-400 to-blue-400" />
+        <article className="detail-article mt-8 overflow-hidden rounded-2xl border border-slate-200 bg-white">
 
           <div className="p-6 sm:p-10">
             <div className="flex flex-wrap items-center gap-2">
@@ -76,18 +75,7 @@ export default async function EventDetailPage({
               {event.summary}
             </p>
 
-            {event.imageUrl ? (
-              <div className="mt-8 overflow-hidden rounded-[1.25rem] border border-slate-200 bg-slate-50">
-                <Image
-                  src={event.imageUrl}
-                  alt={event.title}
-                  width={1600}
-                  height={900}
-                  className="h-full w-full object-cover"
-                  unoptimized
-                />
-              </div>
-            ) : null}
+            <EventPoster imageUrl={event.imageUrl} title={event.title} className="mt-8" />
 
             <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-2">
               <InfoCard label="일정" value={formatEventPeriod(event)} icon="📅" />

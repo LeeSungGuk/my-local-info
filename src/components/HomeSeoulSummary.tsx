@@ -42,13 +42,13 @@ export default function HomeSeoulSummary({ summary }: HomeSeoulSummaryProps) {
   ];
 
   return (
-    <section className="relative z-10 mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-10">
-      <div className="overflow-hidden rounded-[2rem] border border-slate-200/80 bg-white/92 shadow-[0_24px_80px_rgba(15,23,42,0.12)] backdrop-blur-sm">
+    <section className="home-section">
+      <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white/50">
         <div className="border-b border-slate-100 px-6 py-5 sm:px-8">
           <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <p className="text-sm font-semibold text-sky-700">오늘의 서울 요약</p>
-              <h2 className="mt-1 text-2xl font-bold tracking-tight text-slate-950 sm:text-3xl">
+              <h2 className="mt-2 text-xl font-bold leading-relaxed tracking-tight text-slate-950 sm:text-2xl">
                 지금 바로 볼 가치가 있는 정보만 먼저 모았습니다
               </h2>
             </div>
@@ -56,21 +56,21 @@ export default function HomeSeoulSummary({ summary }: HomeSeoulSummaryProps) {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 gap-px bg-slate-100 sm:grid-cols-2 xl:grid-cols-4">
+        <div className="grid grid-cols-2 gap-px bg-slate-200 lg:grid-cols-4">
           {cards.map((card) => (
             <Link
               key={card.label}
               href={card.href}
-              className="group block bg-white px-6 py-6 transition-colors hover:bg-slate-50 sm:px-7"
+              className="group block bg-background px-4 py-5 transition-colors hover:bg-slate-50 sm:px-7"
             >
               <article>
-                <div className={`inline-flex rounded-full border px-3 py-1 text-xs font-semibold ${card.accentClassName}`}>
+                <div className={`inline-flex text-[11px] font-semibold ${card.accentClassName}`}>
                   {card.label}
                 </div>
-                <p className="mt-4 text-3xl font-bold tracking-tight text-slate-950">
+                <p className="mt-3 font-serif text-4xl tracking-tight text-slate-950">
                   {card.value}
                 </p>
-                <p className="mt-2 text-sm leading-6 text-slate-500">{card.note}</p>
+                <p className="mt-2 text-xs leading-6 text-slate-500">{card.note}</p>
                 <p className="mt-4 inline-flex items-center text-sm font-semibold text-slate-700 transition-colors group-hover:text-sky-700">
                   바로 보기
                   <svg className="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

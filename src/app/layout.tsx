@@ -91,14 +91,16 @@ gtag("config", ${JSON.stringify(gaId)});
         ) : null}
       </head>
       <body
+        data-design-template="luma"
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
+        <a href="#main-content" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-full focus:bg-slate-950 focus:px-5 focus:py-3 focus:text-white">본문 바로가기</a>
         <Header />
-        <main className="min-h-screen">{children}</main>
+        <main id="main-content" className="min-h-screen">{children}</main>
         <Footer />
         <FloatingChatbot items={chatData} />
       </body>

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function PrivacyPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 via-white to-white">
+    <div className="site-page min-h-screen">
       <section className="border-b border-slate-200 bg-white/90 backdrop-blur-sm">
         <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 sm:py-20">
           <span className="inline-flex items-center rounded-full bg-slate-100 px-3 py-1 text-sm font-semibold text-slate-700">

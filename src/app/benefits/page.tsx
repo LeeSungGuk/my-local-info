@@ -13,8 +13,8 @@ export default async function BenefitsPage() {
   const benefits = await getAllBenefits();
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 via-white to-white">
-      <section className="border-b border-blue-100 bg-white/80 backdrop-blur-sm">
+    <div className="site-page min-h-screen">
+      <section className="page-intro">
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
           <span className="inline-flex items-center rounded-full bg-blue-100 px-3 py-1 text-sm font-semibold text-blue-700">
             공공데이터포털 지원금·혜택

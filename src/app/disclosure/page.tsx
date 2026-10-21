@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function DisclosurePage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 via-white to-white">
+    <div className="site-page min-h-screen">
       <section className="border-b border-blue-100 bg-white/90 backdrop-blur-sm">
         <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 sm:py-20">
           <span className="inline-flex items-center rounded-full bg-blue-100 px-3 py-1 text-sm font-semibold text-blue-700">

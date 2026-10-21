@@ -84,7 +84,7 @@ export default async function DistrictDetailPage({ params }: PageProps) {
   const structuredData = getStructuredData(district);
 
   return (
-    <div className="min-h-screen bg-[linear-gradient(180deg,#eff6ff_0%,#ffffff_32%,#f8fbff_100%)]">
+    <div className="site-page min-h-screen">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
