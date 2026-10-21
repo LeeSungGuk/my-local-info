@@ -6,7 +6,7 @@
 
 | 업무 | 목적 요약 | 현재 상태 | 완료된 범위 | 남은 작업 | 문서 |
 | --- | --- | --- | --- | --- | --- |
-| `blog_cover_diversity` | 블로그 표지 이미지 181개의 주제 적합성 개선 및 반복 감소 | 표지 다양화 운영 배포 완료 · 캐시 재발 방지 로컬 검증 완료 · 운영 반영 전 | • 24개 주제군·85개 장면과 기존 181개 표지 반영<br>• PR #2 병합 및 자동 검사·배포 성공<br>• 운영 SVG 181개 해시 일치 확인<br>• 캐시 방지 버전 주소 구현 및 테스트(103개)·린트·빌드·실제 화면 검증 통과 | • 캐시 보완 변경 커밋·PR·운영 배포 | [intent](./blog_cover_diversity/intent.md) · [spec](./blog_cover_diversity/spec.md) · [plan](./blog_cover_diversity/plan.md) |
+| `blog_cover_diversity` | 블로그 표지 이미지 181개의 주제 적합성 개선 및 반복 감소 | 표지 다양화 운영 배포 완료 · 캐시 재발 방지 커밋·푸시 및 PR #3 생성 완료 · 검토·운영 반영 대기 | • 24개 주제군·85개 장면과 기존 181개 표지 반영<br>• PR #2 병합 및 자동 검사·배포 성공<br>• 운영 SVG 181개 해시 일치 확인<br>• 캐시 방지 버전 주소 구현 및 테스트(103개)·린트·빌드·실제 화면 검증 통과<br>• 수정 커밋·푸시(`e88f00419`) 및 PR #3 생성 | • [PR #3](https://github.com/LeeSungGuk/my-local-info/pull/3) 검토·병합<br>• 운영 배포 후 버전 이미지 확인 | [intent](./blog_cover_diversity/intent.md) · [spec](./blog_cover_diversity/spec.md) · [plan](./blog_cover_diversity/plan.md) |
 
 ## 문서 작성 및 체크 규칙
 
