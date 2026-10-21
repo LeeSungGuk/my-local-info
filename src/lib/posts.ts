@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import { getVersionedBlogCoverUrl } from "./blog-cover-url.ts";
 
 const postsDirectory = path.join(process.cwd(), "src/content/posts");
 const publicDirectory = path.join(process.cwd(), "public");
@@ -72,7 +73,7 @@ function toPost(fileName: string): Post {
     sourceId,
     sourceUrl: typeof data.sourceUrl === "string" ? data.sourceUrl : "",
     sourceNote: typeof data.sourceNote === "string" ? data.sourceNote : "",
-    coverImage: configuredCoverImage || generatedCoverImage,
+    coverImage: getVersionedBlogCoverUrl(configuredCoverImage || generatedCoverImage, publicDirectory),
     coverAlt:
       typeof data.coverAlt === "string"
         ? data.coverAlt

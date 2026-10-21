@@ -1,11 +1,32 @@
 # 블로그 표지 이미지 다양화 구현 계획
 
-- 상태: 구현·검증 완료 · 기능 브랜치 반영 · 운영 배포 전
+- 상태: 표지 다양화 운영 배포 완료 · 캐시 재발 방지 로컬 검증 완료 · 운영 반영 전
 - 작성일: 2026-10-21
+- 상위 목록: [works 현황](../README.md)
 - 목적: [intent.md](intent.md)
 - 구현 기준: [spec.md](spec.md)
 
-승인 범위는 명세에 따른 생성기·관련 테스트 개선과 기존 자동 생성 표지 181개 교체다. [Change Approval](../../../AGENTS.md#change-approval)에 따라 사용자 구현 승인 후 아래 작업을 수행했다. 원문과 이미지 경로를 보존했다. 커밋·푸시는 별도 사용자 요청에 따라 `feat/blog-cover-diversity`에서 진행하며, 운영 배포는 수행하지 않는다.
+승인 범위는 명세에 따른 생성기·관련 테스트 개선과 기존 자동 생성 표지 181개 교체다. [Change Approval](../../../AGENTS.md#change-approval)에 따라 사용자 구현 승인 후 아래 작업을 수행했다. 원문과 이미지 경로를 보존했다. 초기 변경은 `feat/blog-cover-diversity`에서 커밋·푸시한 뒤 PR #2를 사용자가 병합해 운영에 배포됐다. 후속 캐시 보완은 W-08로 구분하며 로컬 검증을 완료했다.
+
+## 진행 현황 요약 (전체 체크리스트)
+
+### 완료된 작업
+- [x] **문서화**: `intent.md` → `spec.md` → `plan.md` 수립 완료
+- [x] **W-01**: 기존 181개 글·표지 기준 목록 및 해시·소유권 확인
+- [x] **W-02**: 대표 12개 장면 및 24개 주제군(총 85개 장면) 카탈로그 작성
+- [x] **W-03**: 주제 판정(`blog-cover-topic-map.js`) 및 중복 방지 선택기(`blog-cover-selection.js`) 구현
+- [x] **W-04**: 안전한 기존 표지 교체·백업·복원 도구(`rebuild-blog-covers.js`) 구현
+- [x] **W-05**: 신규 글 생성(`generate-blog-post.js`) 연동 및 호환성 검증
+- [x] **W-06**: 전체 181개 dry-run 및 시각·중복 기준 검토 통과
+- [x] **W-07**: 승인된 181개 표지 로컬 적용, 테스트(99개)·린트·빌드·브라우저 검증 및 `change_log.md` 기록
+- [x] **브랜치 반영**: 기능 브랜치(`feat/blog-cover-diversity`) 커밋 및 원격 푸시 완료
+
+- [x] PR #2 `main` 병합과 자동 배포 성공 확인
+- [x] 운영 SVG 181개 해시 일치 및 이전 표지 캐시 원인 확인
+- [x] W-08 캐시 재발 방지 로컬 구현·검증
+
+### 남은 작업 (별도 승인·진행 범위)
+- [ ] 캐시 보완 변경 커밋·PR·운영 배포
 
 ## 1. 구현 접근
 
@@ -23,20 +44,20 @@
 
 다음 파일에 구현과 검증을 적용했다. 홈·목록·상세 컴포넌트와 기존 글은 회귀 확인 대상으로 사용했다.
 
-| 파일 | 변경 목적 |
-| --- | --- |
-| `scripts/generate-blog-cover.js` | 기존 생성·반환 형식을 유지하며 카탈로그 렌더링과 배정 정보 연결 |
-| `scripts/blog-cover-catalog.js` · 신규 | 주제 24종, 각 주제의 장면, 배색과 그림 구성 |
-| `scripts/blog-cover-topic-map.js` · 신규 | 기존 글 ID별 주제·필요한 장면 지정·판정 근거 |
-| `scripts/blog-cover-selection.js` · 신규 | 신규 주제 판정, 중복 검사, 안정적인 장면·배색 선택 |
-| `scripts/rebuild-blog-covers.js` · 신규 | 읽기 점검, dry-run, 임시 미리보기, 명시적 적용과 복원 |
-| `scripts/generate-blog-post.js` | 게시할 실제 제목과 기존 글 정보를 표지 생성에 전달 |
-| `scripts/generate-blog-cover.test.js` | 렌더링·접근성·기존 자산 보존 검증 보완 |
-| `scripts/blog-cover-selection.test.js` · 신규 | 주제 구분·재현성·후보 소진·중복 집계 검증 |
-| `scripts/rebuild-blog-covers.test.js` · 신규 | dry-run·교체 보호·실패 시 복원 검증 |
-| `scripts/generate-blog-post.test.js` | 기존 저장 테스트에 새 표지 연동과 반환 형식 호환 확인 |
-| `public/blog-covers/*.svg` | 명시적으로 승인된 자동 생성 표지만 경로 유지하며 교체 |
-| `change_log.md` | 사용자에게 보이는 표지 변경 완료 후 결과 기록 |
+| 파일 | 변경 목적 | 상태 |
+| --- | --- | --- |
+| `scripts/generate-blog-cover.js` | 기존 생성·반환 형식을 유지하며 카탈로그 렌더링과 배정 정보 연결 | [x] 완료 |
+| `scripts/blog-cover-catalog.js` · 신규 | 주제 24종, 각 주제의 장면, 배색과 그림 구성 | [x] 완료 |
+| `scripts/blog-cover-topic-map.js` · 신규 | 기존 글 ID별 주제·필요한 장면 지정·판정 근거 | [x] 완료 |
+| `scripts/blog-cover-selection.js` · 신규 | 신규 주제 판정, 중복 검사, 안정적인 장면·배색 선택 | [x] 완료 |
+| `scripts/rebuild-blog-covers.js` · 신규 | 읽기 점검, dry-run, 임시 미리보기, 명시적 적용과 복원 | [x] 완료 |
+| `scripts/generate-blog-post.js` | 게시할 실제 제목과 기존 글 정보를 표지 생성에 전달 | [x] 완료 |
+| `scripts/generate-blog-cover.test.js` | 렌더링·접근성·기존 자산 보존 검증 보완 | [x] 완료 |
+| `scripts/blog-cover-selection.test.js` · 신규 | 주제 구분·재현성·후보 소진·중복 집계 검증 | [x] 완료 |
+| `scripts/rebuild-blog-covers.test.js` · 신규 | dry-run·교체 보호·실패 시 복원 검증 | [x] 완료 |
+| `scripts/generate-blog-post.test.js` | 기존 저장 테스트에 새 표지 연동과 반환 형식 호환 확인 | [x] 완료 |
+| `public/blog-covers/*.svg` | 명시적으로 승인된 자동 생성 표지만 경로 유지하며 교체 | [x] 181개 교체 완료 |
+| `change_log.md` | 사용자에게 보이는 표지 변경 완료 후 결과 기록 | [x] 완료 |
 
 홈·목록·상세 컴포넌트, CSS, 카드 제목 유틸리티, 기존 Markdown, 주제 큐의 내용, 워크플로우와 의존성은 변경 대상으로 잡지 않는다. 이들 파일은 회귀 확인 대상으로 사용한다. 구현 중 변경이 필요해지면 이유와 범위를 먼저 검토한다.
 
@@ -232,3 +253,14 @@
 미리보기·적용·복원 자료는 시스템 임시 폴더의 `seoul-cover-review-rBtJco/`에 있다. `manifest.json`은 적용 대상과 변경 전후 해시, `application.json`은 적용 결과, `backups/`는 원본 표지, `index.html`·`compare.html`·`catalog/index.html`은 미리보기다. 초기 코드·글·표지 백업은 `seoul-cover-diversity-9_xquvcm/`에 별도로 보관했다. 임시 자료는 저장소와 공개 자산에 포함하지 않는다.
 
 앞으로 특정 주제의 후보가 소진되면 같은 주제 안에서 최소 반복 후보를 선택하고 검토 경고를 남긴다. 기존 자산은 자동 재생성하지 않는다.
+
+## 10. W-08 운영 표지 캐시 재발 방지
+
+운영의 일반 조회에서는 기존 캐시가, 같은 주소를 캐시 없이 조회하면 새 표지가 반환됐다. 이미지 응답은 `max-age=14400`이며, 캐시 없이 확인한 181개 운영 파일 모두 로컬 SHA-256과 일치했다. PR #2 병합 커밋은 `54e43f8557c0e8e1521b1cb1a359ff311daf00bb`, 배포 실행은 `39563862403`이다. 사용자가 내용별 버전 주소 추가를 승인했다.
+
+- [x] `src/lib/blog-cover-url.ts`에서 파일 내용 해시로 버전 쿼리를 생성하고 `src/lib/posts.ts`에 연결
+- [x] 기존 쿼리·fragment 및 외부·사용자 이미지 주소 보존, 잘못된 경로·심볼릭 링크 처리
+- [x] 내용 변경·시간만 변경·기본 표지·목록과 상세 일관성 등 회귀 테스트 6개 추가, 커밋 대상 기준 103개 테스트·린트 통과
+- [x] 정적 페이지 1,467개 빌드, 실제 홈 3개·목록 181개·대표 상세의 버전 주소 및 표지 181개 응답·내용 일치 확인
+- [x] Markdown·SVG·주제 큐 363개 해시 보존 확인; 빌드가 갱신한 검색 인덱스는 이전 상태로 복원
+- [ ] 별도 커밋·PR 및 운영 배포 후 확인

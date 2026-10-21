@@ -66,6 +66,10 @@
 
 ## Documentation Rules
 - README is the project entry point. Keep it aligned with the current service purpose, commands, data sources, deployment flow, and document locations.
+- 구현·버그 수정·검증으로 요구사항, 동작, 진행 상태 또는 결과가 바뀌면 사용자의 별도 요청 없이 같은 작업에서 관련 문서를 갱신한다. 코드 수정 후 문서 갱신을 다음 요청으로 미루지 않는다.
+- 같은 목적의 후속 보완은 기존 작업 문서의 관련 항목을 갱신한다. 목적·제약 변경은 `intent.md`, 동작·수용 기준 변경은 `spec.md`, 구현·진행 상태·검증 결과·남은 작업은 `plan.md`에 반영하고 `docs/works/README.md`와 각 문서 상단 체크리스트를 맞춘다. 독립적인 새 목적은 별도 작업 폴더로 구분하며, 작은 수정에 새 문서 세트를 일괄 생성하지 않는다.
+- 완료 보고 전 실제 구현·검증 결과와 문서 상태가 일치하는지 확인한다. 로컬 구현, 커밋·푸시, PR, 병합, 운영 배포 상태를 구분하고 확인하지 않은 단계를 완료로 표시하지 않는다.
+- 완료 보고에는 갱신한 문서 링크와 주요 반영 내용을 함께 알린다. 문서 갱신이 필요 없는 변경이면 그 이유를 짧게 설명한다.
 - PRDs live under `docs/prd/*_prd.md`. When product scope, target users, success criteria, or non-goals change, update the relevant PRD first.
 - SRS documents live under `docs/srs/*_srs.md` and should trace requirements back to the relevant PRD sections.
 - Agent-only reusable workflows live under `.agents/workflow/*_prompt.md`; keep workflow outputs out of `.omo/` and `.antigravitycli/`.
