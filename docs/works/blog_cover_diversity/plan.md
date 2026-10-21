@@ -1,12 +1,12 @@
 # 블로그 표지 이미지 다양화 구현 계획
 
-- 상태: 표지 다양화 운영 배포 완료 · 캐시 재발 방지 커밋·푸시 및 PR #3 생성 완료 · 검토·운영 반영 대기
+- 상태: 표지 다양화·캐시 재발 방지 운영 배포 및 확인 완료
 - 작성일: 2026-10-21
 - 상위 목록: [works 현황](../README.md)
 - 목적: [intent.md](intent.md)
 - 구현 기준: [spec.md](spec.md)
 
-승인 범위는 명세에 따른 생성기·관련 테스트 개선과 기존 자동 생성 표지 181개 교체다. [Change Approval](../../../AGENTS.md#change-approval)에 따라 사용자 구현 승인 후 아래 작업을 수행했다. 원문과 이미지 경로를 보존했다. 초기 변경은 `feat/blog-cover-diversity`에서 커밋·푸시한 뒤 PR #2를 사용자가 병합해 운영에 배포됐다. 후속 캐시 보완은 W-08로 구분하며 로컬 검증을 완료했다.
+승인 범위는 명세에 따른 생성기·관련 테스트 개선과 기존 자동 생성 표지 181개 교체다. [Change Approval](../../../AGENTS.md#change-approval)에 따라 사용자 구현 승인 후 아래 작업을 수행했다. 원문과 이미지 경로를 보존했다. 초기 변경은 `feat/blog-cover-diversity`에서 커밋·푸시한 뒤 PR #2를 사용자가 병합해 운영에 배포됐다. 후속 캐시 보완은 W-08로 구분하며 로컬 검증과 PR #3 병합 후 운영 배포·확인을 완료했다.
 
 ## 진행 현황 요약 (전체 체크리스트)
 
@@ -25,9 +25,9 @@
 - [x] 운영 SVG 181개 해시 일치 및 이전 표지 캐시 원인 확인
 - [x] W-08 캐시 재발 방지 로컬 구현·검증
 
-### 남은 작업 (별도 승인·진행 범위)
+### 운영 반영 확인
 - [x] 캐시 보완 변경 `fix/blog-cover-cache` 커밋·푸시 및 [PR #3](https://github.com/LeeSungGuk/my-local-info/pull/3) 생성
-- [ ] PR #3 검토·`main` 병합·운영 배포 후 버전 이미지 확인
+- [x] PR #3 `main` 병합·자동 배포 및 운영 홈·목록·상세의 버전 이미지 확인
 
 ## 1. 구현 접근
 
@@ -265,4 +265,12 @@
 - [x] 정적 페이지 1,467개 빌드, 실제 홈 3개·목록 181개·대표 상세의 버전 주소 및 표지 181개 응답·내용 일치 확인
 - [x] Markdown·SVG·주제 큐 363개 해시 보존 확인; 빌드가 갱신한 검색 인덱스는 이전 상태로 복원
 - [x] 수정 커밋 `e88f00419`를 `fix/blog-cover-cache`에 푸시하고 [PR #3](https://github.com/LeeSungGuk/my-local-info/pull/3) 생성
-- [ ] PR #3 검토·병합·운영 배포 후 버전 이미지 확인
+- [x] PR #3 `main` 병합·자동 배포 및 운영 표지 181개 응답·버전 일치 확인
+
+## 11. 캐시 보완 운영 반영 확인
+
+- 사용자 수동 병합: [PR #3](https://github.com/LeeSungGuk/my-local-info/pull/3), 병합 커밋 `7b3ddbc9f0e3965e80bb553cce48871bae794ad4`.
+- [GitHub Actions 실행 39569725396](https://github.com/LeeSungGuk/my-local-info/actions/runs/39569725396)의 린트·테스트·빌드·Cloudflare Pages 배포 단계가 모두 성공했다.
+- 실제 운영 `https://seoulcities.net/`, `/blog/`, 대표 상세에서 버전 주소를 확인했다. 목록의 표지 181개 모두 정상 응답하고, `v` 값이 실제 SVG 내용의 해시와 일치하며 보이는 글자는 없다. 홈 표지 3개와 상세에도 같은 방식이 적용됐다.
+- 확인 시각(UTC): `2026-10-21T08:33:08.756Z`. 운영 확인 자료는 시스템 임시 파일 `seoul-cover-cache-production-verified-20261021.json`에 보관했다.
+- 이번 운영 확인에 따른 완료 상태 문서 갱신분은 `docs/blog-cover-verification` 브랜치의 후속 문서 커밋으로 관리한다. 운영 코드·설정·공개 자산은 추가 수정하지 않았다.
