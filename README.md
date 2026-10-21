@@ -171,6 +171,7 @@ GitHub Actions는 다음 흐름으로 동작합니다.
 
 - UI 문구는 기본적으로 한국어 톤을 유지합니다.
 - 데이터 원천이 JSON인지 Markdown인지 먼저 확인한 뒤 수정합니다.
+- 구조화 데이터(JSON-LD)는 `src/lib/json-ld.ts`의 `serializeJsonLd`로 직렬화합니다. `<`를 이스케이프해 데이터가 `script` 태그를 종료하지 않도록 합니다.
 - `.env.local`과 API 키는 절대 노출하지 않습니다.
 - 생성 산출물이나 의존성 디렉터리는 커밋하지 않습니다.
 - `package-lock.json`은 의존성 변경이 있을 때만 수정합니다.

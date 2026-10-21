@@ -9,6 +9,7 @@ import {
   getSituationBySlug,
   type SituationAccent,
 } from "@/lib/situations";
+import { serializeJsonLd } from "@/lib/json-ld";
 import { SITE_URL } from "@/lib/site-config";
 
 const siteUrl = SITE_URL;
@@ -109,7 +110,7 @@ export default async function SituationPage({ params }: PageProps) {
     <div className="site-page min-h-screen pb-20 pt-12 sm:pt-20">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(structuredData) }}
       />
 
       <section className="mx-auto max-w-6xl px-4 sm:px-6">

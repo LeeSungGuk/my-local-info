@@ -6,6 +6,7 @@ import { getPostBySlug, getAllPosts } from "@/lib/posts";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { notFound } from "next/navigation";
+import { serializeJsonLd } from "@/lib/json-ld";
 import { SITE_URL } from "@/lib/site-config";
 
 const siteUrl = SITE_URL;
@@ -116,7 +117,7 @@ export default async function BlogPostPage({ params }: PageProps) {
     <article className="site-page min-h-screen pb-20 pt-12 sm:pt-20">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogStructuredData) }}
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(blogStructuredData) }}
       />
       <div className="mx-auto max-w-3xl px-6">
         <div className="mb-12">

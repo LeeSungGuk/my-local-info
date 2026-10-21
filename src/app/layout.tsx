@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import FloatingChatbot from "@/components/FloatingChatbot";
 import { getNormalizedAdSenseId, shouldRenderAdSenseScript } from "@/lib/adsense-config";
 import { getNormalizedGaId, shouldRenderGaScript } from "@/lib/ga-config";
+import { serializeJsonLd } from "@/lib/json-ld";
 import { SITE_URL } from "@/lib/site-config";
 import chatData from "../../chat-data.json";
 
@@ -96,7 +97,7 @@ gtag("config", ${JSON.stringify(gaId)});
       >
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+          dangerouslySetInnerHTML={{ __html: serializeJsonLd(websiteSchema) }}
         />
         <a href="#main-content" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-full focus:bg-slate-950 focus:px-5 focus:py-3 focus:text-white">본문 바로가기</a>
         <Header />
