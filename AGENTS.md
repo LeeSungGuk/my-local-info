@@ -13,6 +13,12 @@
 - Keep changes consistent with the current TypeScript, React, and Tailwind style already used in the repo.
 - If you change user-facing copy, keep it concise and natural in Korean unless the task asks for another language.
 
+## Change Approval
+- 운영 코드(화면·컴포넌트·데이터 생성 스크립트·운영 설정·공개 자산) 변경 전에는 수정 대상, 변경 내용, 예상 영향을 설명하고 사용자의 명시적 승인을 받는다.
+- 문제 제보나 분석 요청만으로 수정 승인을 간주하지 않는다. 조회와 원인 분석은 진행할 수 있지만, 승인 전에는 운영 코드를 변경하지 않는다.
+- 이미 승인받은 범위는 재승인 없이 진행하되, 변경이 승인 범위를 벗어나면 다시 확인한다.
+
+
 ## Key Structure
 - `src/app`: App Router pages and layouts
 - `src/components`: reusable UI components

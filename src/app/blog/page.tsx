@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { getAllPosts } from "@/lib/posts";
+import { getBlogCardTitle } from "@/lib/blog-card-title";
 
 export const metadata = {
   title: "서울 생활 정보 블로그 | Seoul City",
@@ -32,17 +33,17 @@ export default function BlogListPage() {
                 <Link href={"/blog/" + post.slug} className="block">
                   {post.coverImage ? (
                     <div className="relative aspect-[16/10] overflow-hidden rounded-xl bg-slate-100">
-                      <Image src={post.coverImage} alt={post.coverAlt || post.title} fill sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 33vw" className="object-cover transition-transform duration-500 group-hover:scale-[1.03]" />
+                      <Image src={post.coverImage} alt="" fill sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 33vw" className="object-cover transition-transform duration-500 group-hover:scale-[1.03]" />
                     </div>
                   ) : (
-                    <div aria-hidden="true" className="flex aspect-[16/10] items-center justify-center rounded-xl bg-slate-100 font-serif text-4xl text-sky-500">SEOUL STORIES</div>
+                    <div aria-hidden="true" className="aspect-[16/10] rounded-xl bg-slate-100" />
                   )}
                   <div className="px-1 pt-5">
                     <div className="flex items-center justify-between gap-3 text-[11px]">
                       <span className="font-semibold text-sky-700">{post.category}</span>
                       <time className="text-slate-500">{post.date}</time>
                     </div>
-                    <h2 className="mt-3 line-clamp-2 text-lg font-bold leading-8 tracking-tight group-hover:text-sky-700">{post.title}</h2>
+                    <h2 className="blog-card-title mt-3 transition-colors group-hover:text-sky-700">{getBlogCardTitle(post)}</h2>
                     <p className="mt-3 line-clamp-2 text-sm leading-7 text-slate-500">{post.summary}</p>
                     <div className="mt-4 flex flex-wrap gap-x-3 gap-y-1 text-[11px] text-slate-500">{post.tags.map((tag) => <span key={tag}>#{tag}</span>)}</div>
                     <span className="section-link mt-3">자세히 읽기 <span aria-hidden="true">↗</span></span>

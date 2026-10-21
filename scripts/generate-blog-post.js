@@ -703,23 +703,27 @@ ${JSON.stringify(topic, null, 2)}
   return text;
 }
 
-function savePost(geminiResponse, today, topic) {
+function savePost(geminiResponse, today, topic, options = {}) {
+  const postsDir = options.postsDir || POSTS_DIR;
   const parsedPayload = parseGeneratedBlogPostResponse(geminiResponse, {
     fallbackFilename: `${today}-${topic.id}`,
     today,
   });
 
-  if (!fs.existsSync(POSTS_DIR)) {
-    fs.mkdirSync(POSTS_DIR, { recursive: true });
+  if (!fs.existsSync(postsDir)) {
+    fs.mkdirSync(postsDir, { recursive: true });
   }
 
-  const coverAsset = ensureTopicCoverAsset(topic);
+  const coverAsset = ensureTopicCoverAsset(
+    { ...topic, titleHint: parsedPayload.title || topic.titleHint },
+    { posts: options.posts || getExistingPosts(), ...options.coverOptions }
+  );
   const placeSources = loadOfficialPlaceSources();
   reportMissingOfficialPlaceSources(getMissingOfficialPlaceNames(topic, placeSources));
   const normalizedContent = createGeneratedPostMarkdown(parsedPayload, today, topic, coverAsset, {
     placeSources,
   });
-  const filePath = path.join(POSTS_DIR, `${parsedPayload.filename}.md`);
+  const filePath = path.join(postsDir, `${parsedPayload.filename}.md`);
   fs.writeFileSync(filePath, `${normalizedContent}\n`, "utf8");
 
   return { filename: parsedPayload.filename, filePath, coverImage: coverAsset.coverImage };
@@ -757,7 +761,7 @@ async function main() {
 
     console.log(`📋 오늘의 서울 정보글 주제: ${nextTopic.id}`);
     const geminiResponse = await generateBlogPost(nextTopic, today);
-    const { filename, filePath, coverImage } = savePost(geminiResponse, today, nextTopic);
+    const { filename, filePath, coverImage } = savePost(geminiResponse, today, nextTopic, { posts });
     topicQueue = markTopicAsUsed(topicQueue, nextTopic.id, nowIso);
     topicQueue.lastGeneratedAt = nowIso;
     writeTopicQueue(topicQueue, TOPIC_QUEUE_FILE_PATH);

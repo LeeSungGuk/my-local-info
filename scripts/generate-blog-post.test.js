@@ -22,6 +22,7 @@ const {
   parseGeneratedBlogPostResponse,
   reportMissingOfficialPlaceSources,
   resolveOfficialPlaceLinks,
+  savePost,
   shouldKeepExistingOnBlogGenerationFailure,
 } = require("./generate-blog-post");
 
@@ -36,6 +37,23 @@ function createTempQueuePath() {
 function cleanupTempDir(tempDir) {
   fs.rmSync(tempDir, { recursive: true, force: true });
 }
+
+test("saving a post uses the published title for a generated cover and preserves custom assets", () => {
+  const root=fs.mkdtempSync(path.join(os.tmpdir(),"post-cover-integration-"));
+  const publicDir=path.join(root,"public"),postsDir=path.join(root,"posts");
+  const topic={id:"integration-coffee",titleHint:"서울 카페",tags:["커피"],places:[]};
+  const payload=JSON.stringify({title:"실제 게시 제목, 서울 커피 공간",summary:"커피 공간 소개",body:"### 커피 공간\n서울에서 커피를 즐깁니다.",filename:"2026-10-21-integration-coffee"});
+  try {
+    const result=savePost(payload,"2026-10-21",topic,{postsDir,posts:[],coverOptions:{publicDir}});
+    const cover=path.join(publicDir,"blog-covers/integration-coffee.svg");
+    assert.match(fs.readFileSync(cover,"utf8"),/<title[^>]*>실제 게시 제목, 서울 커피 공간<\/title>/);
+    const {data}=matter(fs.readFileSync(result.filePath,"utf8"));
+    assert.equal(data.coverImage,"/blog-covers/integration-coffee.svg");assert.equal(data.sourceId,topic.id);
+    fs.writeFileSync(cover,"custom cover");
+    savePost(payload,"2026-10-21",topic,{postsDir,posts:[],coverOptions:{publicDir}});
+    assert.equal(fs.readFileSync(cover,"utf8"),"custom cover");
+  } finally {fs.rmSync(root,{recursive:true,force:true});}
+});
 
 test("loadTopicQueue seeds missing queue file and marks existing Seoul info posts as used", () => {
   const { tempDir, queueFilePath } = createTempQueuePath();
