@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cover-title cover-desc" data-cover-generator="seoulcity" data-cover-version="2" data-cover-subject="cafe" data-cover-scene="bridge-cafe" data-cover-palette="lilac">
+  <title id="cover-title">한강 한가운데서 즐기는 색다른 휴식, 서울 한강 교량 전망 카페 및 쉼터 추천</title>
+  <desc id="cover-desc">한강 다리가 보이는 전망 카페. 분류: 휴식공간. 추천 장소: 동작구 동작대교 구름카페, 영등포구 양화대교 커튼콜카페, 강동구 광진교 8번가</desc>
+  <rect width="1600" height="900" fill="#F7F3EB"/>
+  <rect x="120" y="65" width="1360" height="770" rx="54" fill="#E5DFEA"/>
+  <ellipse cx="800" cy="763" rx="420" ry="18" fill="#303A33" opacity=".06"/>
+  <g transform="translate(280 130) scale(1.04)" stroke="#303A33" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><rect x="180" y="65" width="640" height="290" rx="40" fill="#F7F3EB"/><rect x="200" y="245" width="600" height="90" rx="5" fill="#E5DFEA"/><path d="M220 240H780M240 240Q365 105 490 240M490 240Q615 105 740 240" fill="none" /><rect x="225" y="417" width="550" height="23" rx="7" fill="#F7F3EB"/><path d="M255 442L245 577" fill="none" /><path d="M745 442L755 577" fill="none" /><g transform="translate(420 370) scale(0.8)"><path d="M-53-43H51V12Q51 58 0 58Q-53 58-53 12Z" fill="#F7F3EB" /><path d="M51-27H65Q110-27 100 5Q94 30 51 26" fill="none" /><ellipse cx="0" cy="-43" rx="52" ry="11" fill="#95839E"/><ellipse cx="4" cy="67" rx="77" ry="9" fill="#F7F3EB"/></g><g transform="translate(645 385) scale(0.5)"><path d="M-53-43H51V12Q51 58 0 58Q-53 58-53 12Z" fill="#F7F3EB" /><path d="M51-27H65Q110-27 100 5Q94 30 51 26" fill="none" /><ellipse cx="0" cy="-43" rx="52" ry="11" fill="#95839E"/><ellipse cx="4" cy="67" rx="77" ry="9" fill="#F7F3EB"/></g></g>
+</svg>
