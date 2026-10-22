@@ -84,6 +84,19 @@ npm run dev
 
 브라우저에서 `http://localhost:3000`을 엽니다.
 
+## Codex 프로젝트 설정
+
+[`.codex/config.toml`](.codex/config.toml)은 이 저장소에서 사용할 플러그인을 지정합니다.
+
+- 활성화: `engineering`, `design`, `github`, `browser`, `codex-security`, `superpowers`
+- 나머지 현재 설치 플러그인(`data`, `postman` 등)은 명시적으로 비활성화합니다.
+- `features.remote_plugin = false`로 원격 플러그인 카탈로그를 끄고, GitHub와 보안 플러그인도 설치된 로컬 버전을 사용합니다. 전역 설정과 다른 프로젝트의 구성은 변경하지 않습니다.
+- `superpowers` 6.4.2는 설치된 패키지를 `.codex/plugins/superpowers`에 복사해 [프로젝트 마켓플레이스](.agents/plugins/marketplace.json)의 `superpowers@seoulcity-local`로 등록합니다. 패키지 복사본은 Git에서 제외하며, 설치 캐시는 `~/.codex/plugins/cache/seoulcity-local/superpowers/6.4.2`에 둡니다.
+- 다른 환경에서는 같은 버전의 패키지를 위 소스·캐시 경로에 준비하고, `.codex/config.toml`의 `marketplaces.seoulcity-local.source`를 해당 저장소 경로로 맞춰야 합니다.
+- 지원되는 Codex 클라이언트에서 저장소를 신뢰하고 새 세션을 시작하면 적용됩니다. 외부 서비스 계정 인증은 별도로 필요합니다.
+
+프로젝트 폴더에서 `codex plugin list --json`으로 활성화 목록을 확인할 수 있습니다. 새 플러그인을 설치하면 이 로컬 설정의 허용 여부도 함께 확인하세요.
+
 ## 자주 쓰는 명령
 
 ```bash

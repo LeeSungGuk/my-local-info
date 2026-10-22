@@ -1,0 +1,147 @@
+# 이 저장소 전용 Codex 플러그인 설정. 전역 설정은 변경하지 않습니다.
+# 현재 설치 목록 중 아래 6개만 사용하고 나머지는 명시적으로 비활성화합니다.
+# 원격 플러그인 카탈로그는 이 프로젝트에서 끄고 설치된 로컬 플러그인만 사용합니다.
+
+[features]
+remote_plugin = false
+
+[marketplaces."seoulcity-local"]
+source_type = "local"
+source = "/Users/jin3137/practice/agy/my-local-info"
+
+# 활성화
+[plugins."browser@openai-bundled"]
+enabled = true
+
+[plugins."codex-security@openai-curated"]
+enabled = true
+
+[plugins."design@claude-cowork"]
+enabled = true
+
+[plugins."engineering@claude-cowork"]
+enabled = true
+
+[plugins."github@openai-curated"]
+enabled = true
+
+[plugins."superpowers@seoulcity-local"]
+enabled = true
+
+# 비활성화: 전역 설정에서 상속되는 나머지 플러그인
+[plugins."anthropic-skills@claude-cowork"]
+enabled = false
+
+[plugins."apollo@claude-cowork"]
+enabled = false
+
+[plugins."bio-research@claude-cowork"]
+enabled = false
+
+[plugins."brand-voice@claude-cowork"]
+enabled = false
+
+[plugins."code-review@openai-bundled"]
+enabled = false
+
+[plugins."codex-app-tools@openai-bundled"]
+enabled = false
+
+[plugins."codex-security@openai-curated-remote"]
+enabled = false
+
+[plugins."common-room@claude-cowork"]
+enabled = false
+
+[plugins."computer-use@openai-bundled"]
+enabled = false
+
+[plugins."cowork-plugin-management@claude-cowork"]
+enabled = false
+
+[plugins."customer-support@claude-cowork"]
+enabled = false
+
+[plugins."data@claude-cowork"]
+enabled = false
+
+[plugins."documents@openai-primary-runtime"]
+enabled = false
+
+[plugins."enterprise-search@claude-cowork"]
+enabled = false
+
+[plugins."figma@openai-curated"]
+enabled = false
+
+[plugins."finance@claude-cowork"]
+enabled = false
+
+[plugins."github@openai-curated-remote"]
+enabled = false
+
+[plugins."google-contacts@openai-curated-remote"]
+enabled = false
+
+[plugins."human-resources@claude-cowork"]
+enabled = false
+
+[plugins."legal@claude-cowork"]
+enabled = false
+
+[plugins."marketing@claude-cowork"]
+enabled = false
+
+[plugins."openai-templates@openai-curated-remote"]
+enabled = false
+
+[plugins."operations@claude-cowork"]
+enabled = false
+
+[plugins."pages@openai-curated-remote"]
+enabled = false
+
+[plugins."pdf@openai-primary-runtime"]
+enabled = false
+
+[plugins."plugin-management@openai-curated-remote"]
+enabled = false
+
+[plugins."postman@postman"]
+enabled = false
+
+[plugins."presentations@openai-primary-runtime"]
+enabled = false
+
+[plugins."product-management@claude-cowork"]
+enabled = false
+
+[plugins."productivity@claude-cowork"]
+enabled = false
+
+[plugins."sales@claude-cowork"]
+enabled = false
+
+[plugins."sites@openai-curated-remote"]
+enabled = false
+
+[plugins."slack-by-salesforce@claude-cowork"]
+enabled = false
+
+[plugins."spreadsheets@openai-primary-runtime"]
+enabled = false
+
+[plugins."superpowers@openai-curated-remote"]
+enabled = false
+
+[plugins."template-creator@openai-primary-runtime"]
+enabled = false
+
+[plugins."unified-computer-use@openai-bundled"]
+enabled = false
+
+[plugins."visualize@openai-bundled"]
+enabled = false
+
+[plugins."work-pets@openai-curated-remote"]
+enabled = false
