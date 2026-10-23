@@ -1,0 +1,48 @@
+{
+  "id": "gov-benefit-321000000146",
+  "sourceId": "321000000146",
+  "title": "유축기 대여 서비스",
+  "field": "임신·출산",
+  "provider": "서울특별시 서초구",
+  "providerType": "자치구",
+  "district": "서초구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "○ 서초구 출산 후 3개월 이내 가정",
+  "summary": "서울특별시 서초구에서 제공하는 임신·출산 혜택입니다. 출산 가정의 유축기 구매비 부담 경감\n모유수유 실천을 위한 서초구 출산 가정을 대상으로 유축기 대여",
+  "supportType": "현물",
+  "supportSummary": "○ 유축기 대여\n - 대       상 : 출산 후 3개월 이내 서초구 산모\n - 신청방법 : 건강부모e음 포털사이트 온라인 신청\n - 대여기간 : 1개월(1개월 연장 가능, 최대 2개월)\n - 대여방법 : 직접 방문 수령 / 직접반납 또는 택배반납(★택배비 본인 부…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "기타 온라인신청"
+  ],
+  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/321000000146",
+  "onlineUrl": "https://parents.seocho.go.kr/site/seochobogun/ex/lectureMo/List.do",
+  "inquiry": [
+    "서초구보건소/02-2155-5495",
+    "서초모자보건지소/02-2155-8276",
+    "방배보건지소/02-2155-8154",
+    "양재모자건강센터/02-2155-8135"
+  ],
+  "updatedAt": "2026-10-22",
+  "registeredAt": "2026-08-12",
+  "viewCount": 11,
+  "collectedAt": "2026-10-23T00:51:12.178Z",
+  "purpose": "출산 가정의 유축기 구매비 부담 경감\n모유수유 실천을 위한 서초구 출산 가정을 대상으로 유축기 대여",
+  "target": "○ 서초구 출산 후 3개월 이내 가정",
+  "selectionCriteria": "",
+  "supportContent": "○ 유축기 대여\n - 대       상 : 출산 후 3개월 이내 서초구 산모\n - 신청방법 : 건강부모e음 포털사이트 온라인 신청\n - 대여기간 : 1개월(1개월 연장 가능, 최대 2개월)\n - 대여방법 : 직접 방문 수령 / 직접반납 또는 택배반납(★택배비 본인 부담)\n   ※ 본인 수령시 신분증, 대리 수령시 가족관계증명서 & 대리인 신분증\n - 지원내용 : 유축기(메델라 스윙) 및 부품 풀세트(일체형 깔대기+튜브+젖병)\n - 문 의 처\n · 서초구보건소 ☎02-2155-8065, 5495\n · 방배보건지소 ☎02-2155-8154, 8155\n · 서초모자보건지소 ☎02-2155-8276, 8278\n · 양재모자건강센터 ☎02-2155-8135, 8363",
+  "applicationMethod": "○ 온라인 신청, 방문 수령, 직접 반납 또는 택배 반납\n○ 온라인 신청 : 건강부모e음(https://parents.seocho.go.kr/site/seochobogun/ex/lectureMo/List.do)\n○ 수령 방법 : 유축기 대여 신청한 기관(서초구보건소, 서초모자보건지소, 방배보건지소, 양재모자건강센터) 에 직접 방문\n○ 반납 방법 : 유축기 대여 신청한 기관에 직접 반납 또는 택배 반납",
+  "documents": "-",
+  "officialDocuments": "-",
+  "identityDocuments": "-",
+  "legalBasis": [
+    "모자보건법(제3조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "서초구보건소/02-2155-5495||서초모자보건지소/02-2155-8276||방배보건지소/02-2155-8154||양재모자건강센터/02-2155-8135",
+  "ageMin": 18,
+  "ageMax": 44
+}
