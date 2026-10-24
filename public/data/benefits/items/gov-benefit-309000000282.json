@@ -16,6 +16,7 @@
   "supportSummary": "출생축하용품 지급: 기저귀, 방수패드, 아기양말, 턱받이",
   "receptionAgency": "접수기관 정보 없음",
   "applicationMethodTypes": [
+    "정부24온라인신청",
     "방문신청"
   ],
   "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/309000000282",
@@ -23,10 +24,10 @@
   "inquiry": [
     "가족정책과/02-2091-3143"
   ],
-  "updatedAt": "2026-07-20",
+  "updatedAt": "2026-10-23",
   "registeredAt": "2024-02-07",
-  "viewCount": 694,
-  "collectedAt": "2026-10-23T00:51:12.178Z",
+  "viewCount": 700,
+  "collectedAt": "2026-10-24T00:58:29.140Z",
   "purpose": "출산가구의 경제적 부담의 경감 및 출산 양육 친화적인 사회분위기 조성",
   "target": "2026년 1월 1일 이후 출생아",
   "selectionCriteria": "",

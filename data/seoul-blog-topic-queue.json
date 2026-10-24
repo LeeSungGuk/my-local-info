@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-10-23T09:51:25+09:00",
+  "lastGeneratedAt": "2026-10-24T09:58:45+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -3973,9 +3973,9 @@
         "건축투어"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-10-15T09:46:02+09:00",
-      "usedAt": null
+      "usedAt": "2026-10-24T09:58:45+09:00"
     },
     {
       "id": "seoul-stationery-and-fountain-pen-shops",
@@ -4088,6 +4088,174 @@
       "origin": "ai",
       "status": "pending",
       "createdAt": "2026-10-15T09:46:02+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-repurposed-railway-park-trails",
+      "titleHint": "철길 따라 흐르는 도심 속 녹색 쉼터, 폐철도를 개조한 서울의 이색 선형 공원 산책로",
+      "topicCategory": "도심산책",
+      "angle": "과거 기차가 지나던 옛 철길 선로를 보존하며 녹색 산책로와 복합 문화 공간으로 재탄생시킨 서울의 선형 공원 코스를 안내합니다.",
+      "places": [
+        "노원구 경춘선숲길",
+        "구로구 항동철길 및 푸른수목원",
+        "마포구 경의선숲길 연남구간"
+      ],
+      "tags": [
+        "철길산책로",
+        "선형공원",
+        "주말산책",
+        "도심걷기여행"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-10-24T09:58:45+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-niche-fragrance-incense-showrooms",
+      "titleHint": "후각으로 기억되는 나만의 향기, 감각적인 조향과 향을 경험하는 서울 시그니처 향수·인센스 쇼룸",
+      "topicCategory": "생활취향",
+      "angle": "향수, 인센스, 공간 디퓨저 등 자신만의 향기 취향을 탐색하고 정갈한 공간 인테리어까지 동시에 즐길 수 있는 서울의 웰니스 향 쇼룸입니다.",
+      "places": [
+        "종로구 북촌 그랑핸드",
+        "성동구 성수동 논픽션",
+        "용산구 한남동 템버린즈"
+      ],
+      "tags": [
+        "향수쇼룸",
+        "인센스스틱",
+        "취향탐색",
+        "감성공간"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-10-24T09:58:45+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-tranquil-urban-temples",
+      "titleHint": "빌딩 숲 바로 옆에 펼쳐지는 고요함, 도심 한복판에서 차분히 숨 고르는 서울의 사찰 쉼터",
+      "topicCategory": "휴식공간",
+      "angle": "멀리 떠나지 않고도 대중교통으로 쉽게 찾아가 정갈한 자연 풍경과 풍경소리를 들으며 마음을 정돈할 수 있는 서울 도심 속 전통 사찰을 제안합니다.",
+      "places": [
+        "성북구 길상사",
+        "강남구 봉은사",
+        "은평구 진관사"
+      ],
+      "tags": [
+        "도심사찰",
+        "마음챙김",
+        "고요한산책",
+        "힐링명소"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-10-24T09:58:45+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-korean-traditional-liquor-galleries",
+      "titleHint": "우리 술의 다채로운 매력에 빠지는 시간, 다양한 전통주를 시음하고 구매하는 서울 전통주 바 & 갤러리",
+      "topicCategory": "생활취향",
+      "angle": "전국 각지의 수제 막걸리, 약주, 증류식 소주를 큐레이션받고 직접 시음해보며 우리 술의 새로운 깊이를 경험할 수 있는 공간입니다.",
+      "places": [
+        "종로구 북촌 전통주갤러리",
+        "마포구 홍대 산울림1992",
+        "성동구 성수동 뚝도시장 전통주 바"
+      ],
+      "tags": [
+        "전통주시음",
+        "우리술",
+        "전통주갤러리",
+        "술취향"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-10-24T09:58:45+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-modern-heritage-building-walks",
+      "titleHint": "붉은 벽돌과 아치형 창문 너머의 역사, 근현대 건축미를 간직한 서울 레트로 근대유산 공간",
+      "topicCategory": "구별분위기",
+      "angle": "100여 년 전 건축 양식을 유지한 채 현재는 전시관, 복합문화공간, 공공 쉼터로 활용되고 있는 서울의 근대 건축물 산책길을 소개합니다.",
+      "places": [
+        "중구 정동길 배재학당역사박물관",
+        "관악구 남서울미술관 (구 벨기에공사관)",
+        "성북구 최순우 옛집"
+      ],
+      "tags": [
+        "근대건축",
+        "정동길산책",
+        "역사탐방",
+        "레트로감성"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-10-24T09:58:45+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-upcycling-design-and-eco-hubs",
+      "titleHint": "버려진 물건의 감각적인 재탄생, 친환경 디자인과 메이커 문화를 경험하는 서울 새활용 센터",
+      "topicCategory": "실내나들이",
+      "angle": "버려지는 자원을 예술작품과 유용한 생활용품으로 재탄생시키는 업사이클링 전시, 공방, 체험존을 갖춘 친환경 문화거점입니다.",
+      "places": [
+        "성동구 서울새활용플라자",
+        "마포구 문화비축기지",
+        "종로구 아름다운가게 장한평점 업사이클링센터"
+      ],
+      "tags": [
+        "업사이클링",
+        "새활용",
+        "친환경디자인",
+        "이색체험"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-10-24T09:58:45+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-low-cost-public-climbing-centers",
+      "titleHint": "초보자도 부담 없이 벽을 오르는 성취감, 저렴한 비용으로 즐기는 서울 공공 암벽장 & 클라이밍 센터",
+      "topicCategory": "액티비티",
+      "angle": "고가의 사설 센터 대신 지자체 및 공공기관이 운영하여 누구나 저렴한 이용료로 실내외 볼더링과 클라이밍을 안전하게 경험할 수 있는 곳입니다.",
+      "places": [
+        "중랑구 용마폭포공원 산악문화체험센터",
+        "강북구 우이동 서울산악문화체험센터",
+        "성동구 뚝섬 자벌레 인공암벽장"
+      ],
+      "tags": [
+        "클라이밍",
+        "볼더링",
+        "저비용액티비티",
+        "실내운동"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-10-24T09:58:45+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-poetry-and-essay-bookstores",
+      "titleHint": "짧은 글귀 속 깊은 울림을 찾아서, 시집과 에세이만 다정하게 골라 소개하는 서울 문학 전문 서점",
+      "topicCategory": "생활취향",
+      "angle": "대형 서점에서는 찾기 힘든 독립출판 시집과 에세이, 작가 추천 산문집을 전문 큐레이션으로 조용히 만날 수 있는 작은 서점 공간입니다.",
+      "places": [
+        "종로구 서촌 위트앤시니컬",
+        "마포구 가가77페이지",
+        "성북구 성북동 부색"
+      ],
+      "tags": [
+        "시집서점",
+        "독립서점",
+        "에세이큐레이션",
+        "고요한서점"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-10-24T09:58:45+09:00",
       "usedAt": null
     }
   ]
