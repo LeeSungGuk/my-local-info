@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cover-title cover-desc" data-cover-generator="seoulcity" data-cover-version="2" data-cover-subject="shop" data-cover-scene="stationery-desk" data-cover-palette="sage">
+  <title id="cover-title">사각거리는 펜촉과 종이의 질감, 아날로그 기록자를 위한 서울 문구 &amp; 연필 전문점</title>
+  <desc id="cover-desc">노트와 만년필을 고르는 문구 진열대. 분류: 생활취향. 추천 장소: 종로구 서촌 포인트오브뷰, 서대문구 연희동 글월, 마포구 성산동 흑심</desc>
+  <rect width="1600" height="900" fill="#F7F3EB"/>
+  <rect x="120" y="65" width="1360" height="770" rx="54" fill="#DEE5D8"/>
+  <ellipse cx="800" cy="763" rx="420" ry="18" fill="#303A33" opacity=".06"/>
+  <g transform="translate(280 130) scale(1.04)" stroke="#303A33" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><rect x="170" y="115" width="660" height="360" rx="20" fill="#F7F3EB"/><rect x="235" y="175" width="230" height="245" rx="6" fill="#728668"/><path d="M275 175L275 420" fill="none" /><rect x="560" y="215" width="44" height="201" rx="6" fill="#B17B5D"/><path d="M560 215L582 143L604 215Z" fill="#F7F3EB" /><rect x="670" y="290" width="92" height="123" rx="6" fill="#DEE5D8"/><path d="M682 290L668 183M712 290L731 177M743 290L768 212" fill="none" /></g>
+</svg>

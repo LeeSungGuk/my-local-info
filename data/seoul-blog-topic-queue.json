@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-10-24T09:58:45+09:00",
+  "lastGeneratedAt": "2026-10-25T09:28:50+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -3996,9 +3996,9 @@
         "취향소품"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-10-15T09:46:02+09:00",
-      "usedAt": null
+      "usedAt": "2026-10-25T09:28:50+09:00"
     },
     {
       "id": "seoul-cozy-solo-drinking-bars",

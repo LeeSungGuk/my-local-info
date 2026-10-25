@@ -10,7 +10,7 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-10-24T00:58:29.140Z",
+    "collectedAt": "2026-10-25T00:28:35.521Z",
     "syncSchedule": "매일 오전 7시 30분",
     "availableCount": 10957,
     "fetchedCount": 1140,
@@ -21,6 +21,34 @@
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-319000000165",
+      "sourceId": "319000000165",
+      "title": "동작구 구민안전보험",
+      "field": "행정·안전",
+      "provider": "서울특별시 동작구",
+      "providerType": "자치구",
+      "district": "동작구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "동작구민",
+      "summary": "서울특별시 동작구에서 제공하는 행정·안전 혜택입니다. 일상생활에서 예상치 못한 재난 및 사고로 피해를 입은 동작구민을 위한 보장제도임",
+      "supportType": "현금(보험)",
+      "supportSummary": "동작구민이 상해로 화상을 입고 병원 또는 의원 등에서 수술을 받은 경우  100만원\n동작구민이 대중교통 이용중 교통사고를 입는 경우(전세버스 포함) 100만원\n동작구민이 급성감염병분류표에서 정한 급성감염병에 진단되어서 사망한 경우(법정감염병을 포함하여, 일부 감염병…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000165",
+      "onlineUrl": "",
+      "inquiry": [
+        "NH농협손해보험/1644-9666"
+      ],
+      "updatedAt": "2026-10-24",
+      "registeredAt": "2024-12-22"
+    },
     {
       "id": "gov-benefit-O00022300004",
       "sourceId": "O00022300004",
@@ -8347,34 +8375,6 @@
       ],
       "updatedAt": "2026-09-10",
       "registeredAt": "2022-02-09"
-    },
-    {
-      "id": "gov-benefit-319000000165",
-      "sourceId": "319000000165",
-      "title": "동작구 구민안전보험",
-      "field": "행정·안전",
-      "provider": "서울특별시 동작구",
-      "providerType": "자치구",
-      "district": "동작구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "동작구민",
-      "summary": "서울특별시 동작구에서 제공하는 행정·안전 혜택입니다. 일상생활에서 예상치 못한 재난 및 사고로 피해를 입은 동작구민을 위한 보장제도임",
-      "supportType": "현금(보험)",
-      "supportSummary": "동작구민이 상해로 화상을 입고 병원 또는 의원 등에서 수술을 받은 경우  100만원\n동작구민이 대중교통 이용중 교통사고를 입는 경우(전세버스 포함) 100만원\n동작구민이 급성감염병분류표에서 정한 급성감염병에 진단되어서 사망한 경우(법정감염병을 포함하여, 일부 감염병…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000165",
-      "onlineUrl": "",
-      "inquiry": [
-        "NH농협손해보험/1644-9666"
-      ],
-      "updatedAt": "2026-09-10",
-      "registeredAt": "2024-12-22"
     },
     {
       "id": "gov-benefit-319000000132",
