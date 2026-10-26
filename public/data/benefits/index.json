@@ -10,7 +10,7 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-10-25T00:28:35.521Z",
+    "collectedAt": "2026-10-26T00:36:25.765Z",
     "syncSchedule": "매일 오전 7시 30분",
     "availableCount": 10957,
     "fetchedCount": 1140,
@@ -21,6 +21,150 @@
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-315000000268",
+      "sourceId": "315000000268",
+      "title": "강서구 전세피해지원금(보증료) 지원",
+      "field": "생활안정",
+      "provider": "서울특별시 강서구",
+      "providerType": "자치구",
+      "district": "강서구",
+      "userType": "개인",
+      "deadlineText": "2023.09.06~2027.07.25",
+      "deadlineSortKey": "2027-07-25",
+      "isAlwaysOpen": false,
+      "targetSummary": "① 서울특별시 강서구에 주민등록이 되어 있는 자\n② 서울특별시 강서구의 주택을 임차한 사람 중\n    1) 특별법에 따라 국토교통부 장관이 결정한 전세사기피해자 또는\n    2) HUG 전세피해확인서 발급자(전세피해자)\n③새로운 전·월세 주택으로 입주하여 「전세보증금…",
+      "summary": "서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 강서구 전세피해임차인의 주거안정 및 신속한 피해회복 지원",
+      "supportType": "현금",
+      "supportSummary": "○ 지원내용: 가구당 기 납부한 보증료 최대 100만원 이내 실비 지원(1회)   \n    - 등록임대사업자의 주택을 임차한 경우 임차인 부담금(25%)에 한하여 지원\n\n○ 지급일정 및 지급방법\n    - 지 급 일: 신청·접수일로부터 7일 이내 지급\n      ·…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000268",
+      "onlineUrl": "",
+      "inquiry": [
+        "서울특별시 강서구청 부동산정보과 전세피해지원T/F팀/02-2600-6891"
+      ],
+      "updatedAt": "2026-10-25",
+      "registeredAt": "2023-12-12"
+    },
+    {
+      "id": "gov-benefit-315000000271",
+      "sourceId": "315000000271",
+      "title": "강서구 전세피해지원금(소송수행경비) 지원",
+      "field": "생활안정",
+      "provider": "서울특별시 강서구",
+      "providerType": "자치구",
+      "district": "강서구",
+      "userType": "개인",
+      "deadlineText": "2023.12.15~2027.07.25",
+      "deadlineSortKey": "2027-07-25",
+      "isAlwaysOpen": false,
+      "targetSummary": "① 서울특별시 강서구에 주민등록이 되어 있는 자\n② 서울특별시 강서구의 주택을 임차한 사람 중\n 1) 특별법에 따라 국토교통부 장관이 결정한 전세사기피해자 또는\n 2) HUG 전세피해확인서 발급자(전세피해자)\n③ 경·공매, 보증금지급명령, 보증금반환청구소송, 손해배상…",
+      "summary": "서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 강서구 전세피해임차인의 주거안정 및 신속한 피해회복 지원",
+      "supportType": "현금",
+      "supportSummary": "○ 지원내용: 세대당 100만원 소송수행경비 정액 지원(1회)\n\n○ 지급일정 및 지급방법\n - 지 급 일: 신청·접수일로부터 7일 이내 지급\n   · 날짜 산정 시 토·일·공휴일 제외\n   · 서류보완이 필요한 경우, 서류보완일로부터 7일 이내 지급\n - 지급방법:…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000271",
+      "onlineUrl": "",
+      "inquiry": [
+        "서울특별시 강서구청 부동산정보과 전세피해지원T/F팀/02-2600-6891"
+      ],
+      "updatedAt": "2026-10-25",
+      "registeredAt": "2023-12-12"
+    },
+    {
+      "id": "gov-benefit-315000000270",
+      "sourceId": "315000000270",
+      "title": "강서구 전세피해지원금(이사비) 지원",
+      "field": "생활안정",
+      "provider": "서울특별시 강서구",
+      "providerType": "자치구",
+      "district": "강서구",
+      "userType": "개인",
+      "deadlineText": "2023.09.06~2027.07.25",
+      "deadlineSortKey": "2027-07-25",
+      "isAlwaysOpen": false,
+      "targetSummary": "① 서울특별시 강서구에 주민등록이 되어 있는 자\n② 서울특별시 강서구의 주택을 임차한 사람 중\n    1) 특별법에 따라 국토교통부 장관이 결정한 전세사기피해자 또는\n    2) HUG 전세피해확인서 발급자(전세피해자)\n③ ‘긴급 주거지원’ 및 ‘인근 공공임대 우선공…",
+      "summary": "서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 강서구 전세피해임차인의 주거안정 및 신속한 피해회복 지원",
+      "supportType": "현금",
+      "supportSummary": "○지원내용: 가구당 이사비 최대 100만원 이내 실비 지원(1회)   \n  - 주거이전 시 부담한 이사비용 실비 지급(이사비, 사다리차 이용비, 에어컨 이전·설치비)\n\n○ 지급일정 및 지급방법\n - 지 급 일: 신청·접수일로부터 7일 이내 지급\n   · 날짜 산정 시…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000270",
+      "onlineUrl": "",
+      "inquiry": [
+        "서울특별시 강서구청 부동산정보과 전세피해지원T/F팀/02-2600-6891"
+      ],
+      "updatedAt": "2026-10-25",
+      "registeredAt": "2023-12-12"
+    },
+    {
+      "id": "gov-benefit-315000000269",
+      "sourceId": "315000000269",
+      "title": "강서구 전세피해지원금(청년 월세) 지원",
+      "field": "생활안정",
+      "provider": "서울특별시 강서구",
+      "providerType": "자치구",
+      "district": "강서구",
+      "userType": "개인",
+      "deadlineText": "2023.09.06~2027.07.25",
+      "deadlineSortKey": "2027-07-25",
+      "isAlwaysOpen": false,
+      "targetSummary": "① 서울특별시 강서구에 주민등록이 되어 있는 자\n② 서울특별시 강서구의 주택을 임차한 사람 중\n 1) 특별법에 따라 국토교통부 장관이 결정한 전세사기피해자 또는\n 2) HUG 전세피해확인서 발급자(전세피해자)\n ③ 민간 월세 주택으로 입주한 19세~39세 청년 중 월…",
+      "summary": "서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 강서구 전세피해임차인의 주거안정 및 신속한 피해회복 지원",
+      "supportType": "현금",
+      "supportSummary": "○ 지원내용: 가구당 월 20만원 이내 월세 실비 지원(최대 12개월)\n\n○ 지급일정 및 지급방법\n - 지 급 일: 신청·접수일로부터 7일 이내 지급\n   · 날짜 산정 시 토·일·공휴일 제외\n   · 서류보완이 필요한 경우, 서류보완일로부터 7일 이내 지급\n   ·…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000269",
+      "onlineUrl": "",
+      "inquiry": [
+        "서울특별시 강서구청 부동산정보과 전세피해지원T/F팀/02-2600-6891"
+      ],
+      "updatedAt": "2026-10-25",
+      "registeredAt": "2023-12-12"
+    },
+    {
+      "id": "gov-benefit-314000000260",
+      "sourceId": "314000000260",
+      "title": "취약계층 대상포진 예방접종 지원",
+      "field": "생활안정",
+      "provider": "서울특별시 양천구",
+      "providerType": "자치구",
+      "district": "양천구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 양천구에 1년 이상 주소를 두고 거주하는 65세 이상 기초생활수급자 중 대상포진 예방접종 이력이 없는 자",
+      "summary": "서울특별시 양천구에서 제공하는 생활안정 혜택입니다. ○ 고령 인구 증가와 대상포진 발생률 상승에 대응\n○ 취약계층 어르신의 경제적 부담을 완화\n○ 구민의 예방접종 접근성과 요구를 충족",
+      "supportType": "서비스(의료)",
+      "supportSummary": "○ 대상 : 양천구에 1년 이상 거주한 65세 이상 기초생활수급자\n○ 내용 : 대상포진 예방접종 1회 무료 지원(대상자 중 미접종자)\n○ 장소 : 관내 대상포진 예방접종 위탁의료기관\n○ 준비물 : 신분증 + 수급자증명서 + 주민등록등·초본(최근 1개월 이내 발급 및…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "신청불필요"
+      ],
+      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000260",
+      "onlineUrl": "",
+      "inquiry": [
+        "지역보건과/02-2620-3877"
+      ],
+      "updatedAt": "2026-10-25",
+      "registeredAt": "2025-11-03"
+    },
     {
       "id": "gov-benefit-319000000165",
       "sourceId": "319000000165",
@@ -17526,34 +17670,6 @@
       "registeredAt": "2025-11-11"
     },
     {
-      "id": "gov-benefit-314000000260",
-      "sourceId": "314000000260",
-      "title": "취약계층 대상포진 예방접종 지원",
-      "field": "생활안정",
-      "provider": "서울특별시 양천구",
-      "providerType": "자치구",
-      "district": "양천구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 양천구에 1년 이상 주소를 두고 거주하는 65세 이상 기초생활수급자 중 대상포진 예방접종 이력이 없는 자",
-      "summary": "서울특별시 양천구에서 제공하는 생활안정 혜택입니다. ○ 고령 인구 증가와 대상포진 발생률 상승에 대응\n○ 취약계층 어르신의 경제적 부담을 완화\n○ 구민의 예방접종 접근성과 요구를 충족",
-      "supportType": "서비스(의료)",
-      "supportSummary": "○ 대상 : 양천구에 1년 이상 거주한 65세 이상 기초생활수급자\n○ 내용 : 대상포진 예방접종 1회 무료 지원(대상자 중 미접종자)\n○ 장소 : 관내 대상포진 예방접종 위탁의료기관\n○ 준비물 : 신분증 + 수급자증명서 + 주민등록등·초본(최근 1개월 이내 발급 및…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "신청불필요"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000260",
-      "onlineUrl": "",
-      "inquiry": [
-        "지역보건과/02-2620-3877"
-      ],
-      "updatedAt": "2026-08-11",
-      "registeredAt": "2025-11-03"
-    },
-    {
       "id": "gov-benefit-314000000258",
       "sourceId": "314000000258",
       "title": "취약계층 세탁서비스 지원사업",
@@ -27923,126 +28039,6 @@
       ],
       "updatedAt": "2026-07-28",
       "registeredAt": "2025-12-11"
-    },
-    {
-      "id": "gov-benefit-315000000268",
-      "sourceId": "315000000268",
-      "title": "강서구 전세피해지원금(보증료) 지원",
-      "field": "생활안정",
-      "provider": "서울특별시 강서구",
-      "providerType": "자치구",
-      "district": "강서구",
-      "userType": "개인",
-      "deadlineText": "2023.09.06~2027.07.25",
-      "deadlineSortKey": "2027-07-25",
-      "isAlwaysOpen": false,
-      "targetSummary": "① 서울특별시 강서구에 주민등록이 되어 있는 자\n② 서울특별시 강서구의 주택을 임차한 사람 중\n    1) 특별법에 따라 국토교통부 장관이 결정한 전세사기피해자 또는\n    2) HUG 전세피해확인서 발급자(전세피해자)\n③새로운 전·월세 주택으로 입주하여 「전세보증금…",
-      "summary": "서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 강서구 전세피해임차인의 주거안정 및 신속한 피해회복 지원",
-      "supportType": "현금",
-      "supportSummary": "○ 지원내용: 가구당 기 납부한 보증료 최대 100만원 이내 실비 지원(1회)   \n    - 등록임대사업자의 주택을 임차한 경우 임차인 부담금(25%)에 한하여 지원\n\n○ 지급일정 및 지급방법\n    - 지 급 일: 신청·접수일로부터 7일 이내 지급\n      ·…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000268",
-      "onlineUrl": "",
-      "inquiry": [
-        "서울특별시 강서구청 부동산정보과 전세피해지원T/F팀/02-2600-6891",
-        ",/02-2600-6505"
-      ],
-      "updatedAt": "2026-07-28",
-      "registeredAt": "2023-12-12"
-    },
-    {
-      "id": "gov-benefit-315000000271",
-      "sourceId": "315000000271",
-      "title": "강서구 전세피해지원금(소송수행경비) 지원",
-      "field": "생활안정",
-      "provider": "서울특별시 강서구",
-      "providerType": "자치구",
-      "district": "강서구",
-      "userType": "개인",
-      "deadlineText": "2023.12.15~2027.07.25",
-      "deadlineSortKey": "2027-07-25",
-      "isAlwaysOpen": false,
-      "targetSummary": "① 서울특별시 강서구에 주민등록이 되어 있는 자\n② 서울특별시 강서구의 주택을 임차한 사람 중\n 1) 특별법에 따라 국토교통부 장관이 결정한 전세사기피해자 또는\n 2) HUG 전세피해확인서 발급자(전세피해자)\n③ 경·공매, 보증금지급명령, 보증금반환청구소송, 손해배상…",
-      "summary": "서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 강서구 전세피해임차인의 주거안정 및 신속한 피해회복 지원",
-      "supportType": "현금",
-      "supportSummary": "○ 지원내용: 세대당 100만원 소송수행경비 정액 지원(1회)\n\n○ 지급일정 및 지급방법\n - 지 급 일: 신청·접수일로부터 7일 이내 지급\n   · 날짜 산정 시 토·일·공휴일 제외\n   · 서류보완이 필요한 경우, 서류보완일로부터 7일 이내 지급\n - 지급방법:…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000271",
-      "onlineUrl": "",
-      "inquiry": [
-        "서울특별시 강서구청 부동산정보과 전세피해지원T/F팀/02-2600-6891",
-        ",/02-2600-6505"
-      ],
-      "updatedAt": "2026-07-28",
-      "registeredAt": "2023-12-12"
-    },
-    {
-      "id": "gov-benefit-315000000270",
-      "sourceId": "315000000270",
-      "title": "강서구 전세피해지원금(이사비) 지원",
-      "field": "생활안정",
-      "provider": "서울특별시 강서구",
-      "providerType": "자치구",
-      "district": "강서구",
-      "userType": "개인",
-      "deadlineText": "2023.09.06~2027.07.25",
-      "deadlineSortKey": "2027-07-25",
-      "isAlwaysOpen": false,
-      "targetSummary": "① 서울특별시 강서구에 주민등록이 되어 있는 자\n② 서울특별시 강서구의 주택을 임차한 사람 중\n    1) 특별법에 따라 국토교통부 장관이 결정한 전세사기피해자 또는\n    2) HUG 전세피해확인서 발급자(전세피해자)\n③ ‘긴급 주거지원’ 및 ‘인근 공공임대 우선공…",
-      "summary": "서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 강서구 전세피해임차인의 주거안정 및 신속한 피해회복 지원",
-      "supportType": "현금",
-      "supportSummary": "○지원내용: 가구당 이사비 최대 100만원 이내 실비 지원(1회)   \n  - 주거이전 시 부담한 이사비용 실비 지급(이사비, 사다리차 이용비, 에어컨 이전·설치비)\n\n○ 지급일정 및 지급방법\n - 지 급 일: 신청·접수일로부터 7일 이내 지급\n   · 날짜 산정 시…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000270",
-      "onlineUrl": "",
-      "inquiry": [
-        "서울특별시 강서구청 부동산정보과 전세피해지원T/F팀/02-2600-6891",
-        ",/02-2600-6505"
-      ],
-      "updatedAt": "2026-07-28",
-      "registeredAt": "2023-12-12"
-    },
-    {
-      "id": "gov-benefit-315000000269",
-      "sourceId": "315000000269",
-      "title": "강서구 전세피해지원금(청년 월세) 지원",
-      "field": "생활안정",
-      "provider": "서울특별시 강서구",
-      "providerType": "자치구",
-      "district": "강서구",
-      "userType": "개인",
-      "deadlineText": "2023.09.06~2027.07.25",
-      "deadlineSortKey": "2027-07-25",
-      "isAlwaysOpen": false,
-      "targetSummary": "① 서울특별시 강서구에 주민등록이 되어 있는 자\n② 서울특별시 강서구의 주택을 임차한 사람 중\n 1) 특별법에 따라 국토교통부 장관이 결정한 전세사기피해자 또는\n 2) HUG 전세피해확인서 발급자(전세피해자)\n ③ 민간 월세 주택으로 입주한 19세~39세 청년 중 월…",
-      "summary": "서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 강서구 전세피해임차인의 주거안정 및 신속한 피해회복 지원",
-      "supportType": "현금",
-      "supportSummary": "○ 지원내용: 가구당 월 20만원 이내 월세 실비 지원(최대 12개월)\n\n○ 지급일정 및 지급방법\n - 지 급 일: 신청·접수일로부터 7일 이내 지급\n   · 날짜 산정 시 토·일·공휴일 제외\n   · 서류보완이 필요한 경우, 서류보완일로부터 7일 이내 지급\n   ·…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000269",
-      "onlineUrl": "",
-      "inquiry": [
-        "서울특별시 강서구청 부동산정보과 전세피해지원T/F팀/02-2600-6891",
-        ",/02-2600-6505"
-      ],
-      "updatedAt": "2026-07-28",
-      "registeredAt": "2023-12-12"
     },
     {
       "id": "gov-benefit-315000000108",
