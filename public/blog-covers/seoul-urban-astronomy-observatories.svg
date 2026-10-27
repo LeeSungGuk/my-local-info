@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cover-title cover-desc" data-cover-generator="seoulcity" data-cover-version="2" data-cover-subject="view" data-cover-scene="observatory" data-cover-palette="lilac">
+  <title id="cover-title">빌딩 불빛 너머 별빛을 찾아서: 서울 도심 속 천문대 &amp; 우주체험 공간</title>
+  <desc id="cover-desc">삼각대 망원경과 별을 보는 관측 공간. 분류: 실내대안. 추천 장소: 용산구 과학동아천문대, 노원구 노원천문우주과학관, 양천구 목동천문대</desc>
+  <rect width="1600" height="900" fill="#F7F3EB"/>
+  <rect x="120" y="65" width="1360" height="770" rx="54" fill="#E5DFEA"/>
+  <ellipse cx="800" cy="763" rx="420" ry="18" fill="#303A33" opacity=".06"/>
+  <g transform="translate(280 130) scale(1.04)" stroke="#303A33" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="500" cy="455" rx="300" ry="48" fill="#E5DFEA"/><g transform="translate(500 240) scale(1)"><path d="M-140 5L120-106L152-30L-105 81Z" fill="#F7F3EB" /><path d="M-127 0L-94 88M110-116L158-20" fill="none" /><path d="M0 45V209M0 72L-104 221M0 72L104 221" fill="none" /></g><circle cx="760" cy="120" r="38" fill="#95839E"/><path d="M230 134V180M208 157H252M690 62V88M677 75H703" fill="none" /></g>
+</svg>
