@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-10-27T10:35:35+09:00",
+  "lastGeneratedAt": "2026-10-28T10:34:12+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -4064,9 +4064,9 @@
         "서울산책"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-10-15T09:46:02+09:00",
-      "usedAt": null
+      "usedAt": "2026-10-28T10:34:12+09:00"
     },
     {
       "id": "seoul-free-media-film-archives",

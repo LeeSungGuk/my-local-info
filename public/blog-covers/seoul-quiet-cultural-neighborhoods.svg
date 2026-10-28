@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cover-title cover-desc" data-cover-generator="seoulcity" data-cover-version="2" data-cover-subject="citywalk" data-cover-scene="local-square" data-cover-palette="ochre">
+  <title id="cover-title">번화가를 벗어난 고즈넉한 산책, 예술과 역사가 어우러진 서울 산자락 동네 코스</title>
+  <desc id="cover-desc">나무와 벤치가 있는 작은 동네 광장. 분류: 구별분위기. 추천 장소: 성북구 성북동 미술관골목, 종로구 부암동 창의문길, 종로구 평창동 갤러리골목</desc>
+  <rect width="1600" height="900" fill="#F7F3EB"/>
+  <rect x="120" y="65" width="1360" height="770" rx="54" fill="#EEE4CA"/>
+  <ellipse cx="800" cy="763" rx="420" ry="18" fill="#303A33" opacity=".06"/>
+  <g transform="translate(280 130) scale(1.04)" stroke="#303A33" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="500" cy="423" rx="380" ry="94" fill="#EEE4CA"/><g transform="translate(490 191) scale(1.15)"><circle cx="0" cy="-105" r="70" fill="#6D806D"/><circle cx="-45" cy="-65" r="53" fill="#6D806D"/><circle cx="43" cy="-60" r="55" fill="#6D806D"/><path d="M0 -110L0 80" fill="none" /><path d="M0 -10L-32 -43" fill="none" /><path d="M0 9L33 -20" fill="none" /></g><g transform="translate(155 395) scale(0.8)"><rect x="0" y="-60" width="250" height="24" rx="3" fill="#6D806D"/><rect x="0" y="-27" width="250" height="25" rx="3" fill="#F7F3EB"/><path d="M23 -2L13 75" fill="none" /><path d="M225 -2L237 75" fill="none" /><path d="M30 -60L30 -27" fill="none" /><path d="M220 -60L220 -27" fill="none" /></g><g transform="translate(655 395) scale(0.8)"><rect x="0" y="-60" width="250" height="24" rx="3" fill="#6D806D"/><rect x="0" y="-27" width="250" height="25" rx="3" fill="#F7F3EB"/><path d="M23 -2L13 75" fill="none" /><path d="M225 -2L237 75" fill="none" /><path d="M30 -60L30 -27" fill="none" /><path d="M220 -60L220 -27" fill="none" /></g><path d="M298 474H699M356 507H644" fill="none" /></g>
+</svg>
