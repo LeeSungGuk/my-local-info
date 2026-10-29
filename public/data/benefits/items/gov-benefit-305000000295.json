@@ -18,7 +18,7 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000295",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2168611&bnefType=all&svcId=305000000295",
   "onlineUrl": "",
   "inquiry": [
     "동대문구보건소 감염병진료실/02-2127-5262",
@@ -27,8 +27,8 @@
   ],
   "updatedAt": "2026-08-14",
   "registeredAt": "2025-12-10",
-  "viewCount": 385,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 386,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "HIV/AIDS 조기발견",
   "target": "검사를 희망하는 동대문구민",
   "selectionCriteria": "",

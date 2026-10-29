@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-10-28T10:34:12+09:00",
+  "lastGeneratedAt": "2026-10-29T10:55:33+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -4086,9 +4086,9 @@
         "서울무료코스"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-10-15T09:46:02+09:00",
-      "usedAt": null
+      "usedAt": "2026-10-29T10:55:33+09:00"
     },
     {
       "id": "seoul-repurposed-railway-park-trails",

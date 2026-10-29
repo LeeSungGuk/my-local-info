@@ -18,7 +18,7 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00024000047",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2100940&bnefType=all&svcId=O00024000047",
   "onlineUrl": "",
   "inquiry": [
     "용산꿈나무종합타운/02-707-0704"
@@ -26,7 +26,7 @@
   "updatedAt": "2026-08-05",
   "registeredAt": "2022-11-02",
   "viewCount": 727,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "경로자에게 꿈나무종합타운 프로그램 이용요금 감면",
   "target": "신분증 및 경로우대증에 생년월일이  만65세 이상인 회원",
   "selectionCriteria": "",

@@ -19,7 +19,7 @@
     "정부24온라인신청",
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00024000042",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2100807&bnefType=all&svcId=O00024000042",
   "onlineUrl": "",
   "inquiry": [
     "용산문화체육센터/02-707-2492"
@@ -27,7 +27,7 @@
   "updatedAt": "2026-08-12",
   "registeredAt": "2022-10-31",
   "viewCount": 934,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "기초생활수급자에게 문화체육센터 프로그램 이용요금 감면",
   "target": "국민기초생활 보장법에 의한 수급자 또는 그 가족",
   "selectionCriteria": "",

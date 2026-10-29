@@ -18,7 +18,7 @@
   "applicationMethodTypes": [
     "기타 온라인신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00083200002",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2000388&bnefType=all&svcId=O00083200002",
   "onlineUrl": "http://scas.kr",
   "inquiry": [
     "서울문화재단 시민예술정책팀/02-758-2117"
@@ -26,7 +26,7 @@
   "updatedAt": "2026-04-24",
   "registeredAt": "2022-07-15",
   "viewCount": 872,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "서울 지역 내 예술교육 프로그램 기획·운영 지원",
   "target": "문화예술교육 기획·운영 역량을 가진 문화예술(교육)단체, 개인(교육예술가, 기획자 등)\n※ 유형 별 지원대상 상이",
   "selectionCriteria": "",

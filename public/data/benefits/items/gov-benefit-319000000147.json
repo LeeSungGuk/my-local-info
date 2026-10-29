@@ -19,7 +19,7 @@
     "정부24온라인신청",
     "직접입력"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000147",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2113228&bnefType=all&svcId=319000000147",
   "onlineUrl": "",
   "inquiry": [
     "보건지소/02-820-9701",
@@ -30,8 +30,8 @@
   ],
   "updatedAt": "2026-10-15",
   "registeredAt": "2023-11-14",
-  "viewCount": 879,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 880,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "건강고위험군 대상 다학제팀의 통합 방문건강관리 서비스 제공하고 지역사회 자원 연계를 통해 어르신의 건강 증진과 삶의 질 향상을 도모하고자 함",
   "target": "맞춤형 건강관리가 필요한 건강취약계층 ※ 통합돌봄사업 대상자 우선",
   "selectionCriteria": "",

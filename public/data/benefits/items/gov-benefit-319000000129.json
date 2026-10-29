@@ -18,7 +18,7 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000129",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=806022&bnefType=all&svcId=319000000129",
   "onlineUrl": "",
   "inquiry": [
     "가족지원과/02-820-9237"
@@ -26,7 +26,7 @@
   "updatedAt": "2026-10-22",
   "registeredAt": "2022-01-26",
   "viewCount": 1545,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "○ 자립지원비 최대 1,200천원/년 지급(5년간 6,000천원 한도 지원)",
   "target": "○ 동작구에 6개월 이상 거주하는 법정한부모가족 중 미혼모부",
   "selectionCriteria": "",

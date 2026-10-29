@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000311",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2166918&bnefType=all&svcId=320000000311",
   "onlineUrl": "",
   "inquiry": [
     "지역보건과/02-879-7159"
   ],
   "updatedAt": "2026-10-20",
   "registeredAt": "2025-11-17",
-  "viewCount": 247,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 248,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "국가유공자 인플루엔자 예방접종 지원",
   "target": "1. 지원대상: 관악구에 주민등록을 둔 국가유공자 본인 중 1962년 1월 1일부터 1976년 12월 31일 사이 출생자\n2. 제외대상: 국가유공자의 유족·가족, 관악구에 주민등록을 두지 않은 사람, 위 출생 기간에 해당하지 않는 사람\n3. 지역범위: 관악구민만 이용 가능한 관악구 한정 서비스",
   "selectionCriteria": "",

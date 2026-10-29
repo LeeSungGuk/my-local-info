@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000153",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2100719&bnefType=all&svcId=300000000153",
   "onlineUrl": "",
   "inquiry": [
     "종로구청 복지정책과/02-2148-2514"
   ],
   "updatedAt": "2026-10-27",
   "registeredAt": "2022-10-28",
-  "viewCount": 1437,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1440,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "폭염 대비하여 여름철 취약계층이 건강하고 안전한 여름을 보낼 수 있도록 에어컨 설치를 지원",
   "target": "국민기초생활수급자, 차상위계층 등 복지 대상자",
   "selectionCriteria": "",

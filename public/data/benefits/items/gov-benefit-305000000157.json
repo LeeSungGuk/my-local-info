@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000157",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=810370&bnefType=all&svcId=305000000157",
   "onlineUrl": "",
   "inquiry": [
     "민원여권과/02-2127-4461"
   ],
   "updatedAt": "2026-08-14",
   "registeredAt": "2022-08-05",
-  "viewCount": 981,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 982,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "무인민원발급기 수수료 감면·면제",
   "target": "- 무인민원발급창구 이용 민원 ※ 동대문구 무인민원발급기 설치장소 : 동대문구청 홈페이지 확인 \n- 발급 민원증명 관련 법령·조례에 의한 수수료 면제 대상(예 : 주민등록법 시행규칙 제18조 제1항에 따른 수급자 면제)",
   "selectionCriteria": "",

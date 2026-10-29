@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000338",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2166316&bnefType=all&svcId=303000000338",
   "onlineUrl": "",
   "inquiry": [
     "성동구청 세무1과/02-2286-5293"
   ],
   "updatedAt": "2026-08-10",
   "registeredAt": "2025-11-12",
-  "viewCount": 481,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 483,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "복잡한 세무행정에 대한 전문지식이 부족하거나 과세불복 비용이 부담되는 주민들에게 마을세무사와 연계하여 무료 세무상담 서비스를 제공",
   "target": "서울시민 누구나",
   "selectionCriteria": "",

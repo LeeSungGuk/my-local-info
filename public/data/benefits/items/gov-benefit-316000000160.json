@@ -19,15 +19,15 @@
     "정부24온라인신청",
     "직접입력"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/316000000160",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2170418&bnefType=all&svcId=316000000160",
   "onlineUrl": "",
   "inquiry": [
     "모자보건팀/02-2620-7043"
   ],
   "updatedAt": "2026-07-31",
   "registeredAt": "2025-12-22",
-  "viewCount": 406,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 408,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "혼자서 모유수유 지속이 어려운 출산모의 가정으로 모유수유 전문 자격을 소지한 간호사가 방문하여 1:1 맞춤형 관리를 통한 모유수유 촉진ㆍ지속으로 산모의 건강 회복과 영유아의 건강한 설장 발달을 도모",
   "target": "구로구 관내 출산 후 60일 이내 출산모\n-다문화 가족 출산모(제외: 부부 모두 외국인인 경우)",
   "selectionCriteria": "",

@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000124",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=808092&bnefType=all&svcId=307000000124",
   "onlineUrl": "",
   "inquiry": [
     "DB손해보험/1899-7751"
   ],
   "updatedAt": "2026-05-11",
   "registeredAt": "2022-04-27",
-  "viewCount": 2762,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 2763,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "성북구민이 자전거 운전중, 자전거 탑승중, 보행중 자전거로부터 입은 사고에 대하여 보장",
   "target": "성북구에 주민등록 되어있는 성북구민(등록외국인 포함)",
   "selectionCriteria": "",

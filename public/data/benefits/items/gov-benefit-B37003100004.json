@@ -18,7 +18,7 @@
   "applicationMethodTypes": [
     "기타 온라인신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100004",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2001021&bnefType=all&svcId=B37003100004",
   "onlineUrl": "spobiz.kspo.or.kr",
   "inquiry": [
     "창업지원팀/02-410-1757",
@@ -26,8 +26,8 @@
   ],
   "updatedAt": "2026-10-23",
   "registeredAt": "2022-07-15",
-  "viewCount": 3325,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 3326,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "스포츠산업분야 7년 미만 (예비)창업자 육성지원",
   "target": "ㅇ예비초기: 스포츠산업 예비창업자 ~ 3년 미만 창업기업\nㅇ창업도약: 3년 이상 ~ 7년 미만 창업기업\nㅇ사회적기업: 스포츠산업 예비창업자 ~ 7년 미만 창업기업",
   "selectionCriteria": "",

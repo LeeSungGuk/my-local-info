@@ -19,15 +19,15 @@
     "정부24온라인신청",
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/322000000124",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2153337&bnefType=all&svcId=322000000124",
   "onlineUrl": "",
   "inquiry": [
     "강남구보건소 건강관리과/02-3423-7104"
   ],
   "updatedAt": "2026-08-03",
   "registeredAt": "2025-09-05",
-  "viewCount": 744,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 748,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "영유아건강검진 효과를 높이고 영유아 기초건강 관리 강화를 위해 발달평가 결과 '심화평가 권고' 판정자에게 발달 정밀검사비를 지원",
   "target": "○ 당해연도 영유아건강검진 대상자 중 영유아 검진결과 발달평가(K-DST)에서 ‘심화평가 권고’로 평가된 영유아",
   "selectionCriteria": "",

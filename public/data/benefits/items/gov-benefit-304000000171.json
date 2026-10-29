@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000171",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=803544&bnefType=all&svcId=304000000171",
   "onlineUrl": "",
   "inquiry": [
     "광진구보건소/02-450-1573"
   ],
   "updatedAt": "2026-07-29",
   "registeredAt": "2021-11-05",
-  "viewCount": 2833,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 2834,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "암표지자검사",
   "target": "검사를 원하는 19세 이상 성인",
   "selectionCriteria": "",

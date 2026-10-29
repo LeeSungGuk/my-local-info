@@ -18,7 +18,7 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000168",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2101107&bnefType=all&svcId=300000000168",
   "onlineUrl": "",
   "inquiry": [
     "종로노인종합복지관/02-742-9500"
@@ -26,7 +26,7 @@
   "updatedAt": "2026-10-22",
   "registeredAt": "2022-11-04",
   "viewCount": 1174,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "지역 어르신들에게 다양한 노인 여가 복지서비스를 제공하여 급증하는 노인 인구가 쾌적한 노후",
   "target": "종로구 관내 60세 이상 어르신",
   "selectionCriteria": "",

@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000264",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2112713&bnefType=all&svcId=315000000264",
   "onlineUrl": "",
   "inquiry": [
     "민원여권과/02-2600-6178"
   ],
   "updatedAt": "2026-10-26",
   "registeredAt": "2023-10-27",
-  "viewCount": 1247,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1249,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "무인민원발급창구 수수료 일부 면제  \n-강서구 수수료 징수 조례 제6조 등 관련 법령 및 조례에 따라 감면대상자가 무인민원발급창구 이용하여 민원문서 발급 시 수수료 일부 면제",
   "target": "강서구 수수료 징수 조례 제6조에 따른 감면 대상자\n- 기초생활수급자\n- 국가유공자\n- 장애인 등",
   "selectionCriteria": "",

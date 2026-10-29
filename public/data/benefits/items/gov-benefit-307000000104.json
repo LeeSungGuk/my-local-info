@@ -18,7 +18,7 @@
   "applicationMethodTypes": [
     "직접입력"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000104",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001464&bnefType=all&svcId=307000000104",
   "onlineUrl": "",
   "inquiry": [
     "결핵실/02-2241-6077",
@@ -26,8 +26,8 @@
   ],
   "updatedAt": "2026-08-07",
   "registeredAt": "2021-09-23",
-  "viewCount": 1105,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1107,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "중학교 2, 3학년 및 고등학교 2학년 학생에게 결핵 검진 지원",
   "target": "○ 중학교2, 3학년 및 고등학교 2학년 학생",
   "selectionCriteria": "",

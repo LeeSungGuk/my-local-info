@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "기타 온라인신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/316000000155",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2168320&bnefType=all&svcId=316000000155",
   "onlineUrl": "https://www.guro.go.kr/edu/study/",
   "inquiry": [
     "학습지원센터/02-860-3031"
   ],
   "updatedAt": "2026-08-31",
   "registeredAt": "2025-11-28",
-  "viewCount": 216,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 217,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "원어민 영어방학특강(겨울, 여름)\n- 초등학생 대상 1~2주간 원어민 영어수업",
   "target": "구로구 관내 초등학생",
   "selectionCriteria": "",

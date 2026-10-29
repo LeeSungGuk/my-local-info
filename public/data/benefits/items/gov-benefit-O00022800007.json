@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022800007",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2000310&bnefType=all&svcId=O00022800007",
   "onlineUrl": "",
   "inquiry": [
     "금천문화체육부(독산센터팀)/02-861-1313"
   ],
   "updatedAt": "2026-09-18",
   "registeredAt": "2022-07-15",
-  "viewCount": 911,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 912,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "금천구소속체육회에 문화체육센터 이용요금 감면(대상별 상이)",
   "target": "- 지원대상 : 금천구소속체육회\n\n- 제외대상 : 해당없음\n\n- 지역범위 : 금천구",
   "selectionCriteria": "",

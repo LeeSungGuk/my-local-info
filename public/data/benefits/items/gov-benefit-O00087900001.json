@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00087900001",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2001138&bnefType=all&svcId=O00087900001",
   "onlineUrl": "",
   "inquiry": [
     "서울시 중구 교육아동청소년과/02-3396-4662"
   ],
   "updatedAt": "2026-10-21",
   "registeredAt": "2022-07-15",
-  "viewCount": 982,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 984,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "관내 초·중·고 학생에게 장학금(현금) 지급",
   "target": "관내 초중고학생 중 심의로 선정된 자",
   "selectionCriteria": "",

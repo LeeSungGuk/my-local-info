@@ -19,15 +19,15 @@
     "기타 온라인신청",
     "직접입력"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000114",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2109929&bnefType=all&svcId=320000000114",
   "onlineUrl": "https://www.gwanak.go.kr/site/gwanak/reservation/reservationView.do?riIdx=RI001013",
   "inquiry": [
     "관악구 기획예산과/02-879-5573"
   ],
   "updatedAt": "2026-07-29",
   "registeredAt": "2023-08-18",
-  "viewCount": 3468,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 3469,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "무료 법률상담서비스 제공",
   "target": "서울특별시 관악구에 주소 또는 거소를 둔 개인, 법인 및 구 소속공무원 등",
   "selectionCriteria": "",

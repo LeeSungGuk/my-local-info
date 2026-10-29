@@ -19,15 +19,15 @@
     "기타 온라인신청",
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000140",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=803293&bnefType=all&svcId=304000000140",
   "onlineUrl": "http://www.gjcare.go.kr",
   "inquiry": [
     "광진장난감도서관/02-446-1827"
   ],
   "updatedAt": "2026-08-04",
   "registeredAt": "2021-10-27",
-  "viewCount": 1409,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1410,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "영유아 교통안전을 위한 카시트 대여",
   "target": "○ 광진구에 거주하는 6세 미만의 영유아 가정\n - 1순위: 장애인, 기초생활수급자, 한부모, 다문화가정, 다자녀(2인 이상) 가정, 국가유공자 가족\n - 2순위: 일반신청자(선착순)",
   "selectionCriteria": "",

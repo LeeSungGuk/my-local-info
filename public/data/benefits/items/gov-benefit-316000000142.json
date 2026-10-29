@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "직접입력"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/316000000142",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2166722&bnefType=all&svcId=316000000142",
   "onlineUrl": "",
   "inquiry": [
     "아동청소년과/02-860-2123"
   ],
   "updatedAt": "2026-08-04",
   "registeredAt": "2025-11-14",
-  "viewCount": 483,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 484,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "아동복지시설 퇴소 아동 중, 만 18세 이상의 보호종료된 아동을 대상으로 자립에 필요한 비용을 지원하여 사회진출 시 독립할 수 있도록 자립정착금을 지원",
   "target": "만 18세 이상 구로구에서 보호 종료된 자립준비청년",
   "selectionCriteria": "",

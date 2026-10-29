@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "기타 온라인신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000404",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2151717&bnefType=all&svcId=318000000404",
   "onlineUrl": "https://www.eshare.go.kr",
   "inquiry": [
     "기획예산과/02-2670-7544"
   ],
   "updatedAt": "2026-08-04",
   "registeredAt": "2025-08-06",
-  "viewCount": 526,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 528,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "자주 사용하지는 않지만 필요한 생활공구를 \n영등포구 전 주민센터에 설치된 '우리동네 공구도서관'을 통해  \n영등포구 구민 대상으로 무료로 대여하여 \n주민 생활 편의 도모하고자 함",
   "target": "영등포구 구민",
   "selectionCriteria": "",

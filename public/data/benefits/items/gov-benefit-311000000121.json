@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000121",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1006674&bnefType=all&svcId=311000000121",
   "onlineUrl": "",
   "inquiry": [
     "통합돌봄과/02-351-7199"
   ],
   "updatedAt": "2026-10-22",
   "registeredAt": "2021-09-23",
-  "viewCount": 1332,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1334,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "수급자 및 기초연금 수급 1인 가구 어르신에게 김치, 생신상, 냉난방용품 등 지원하여 생활안정 도모",
   "target": "○ 65세 이상 수급자 및 기초연금 수급 1인 가구 어르신",
   "selectionCriteria": "",

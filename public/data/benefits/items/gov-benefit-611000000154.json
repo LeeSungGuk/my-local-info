@@ -18,7 +18,7 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000154",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1005706&bnefType=all&svcId=611000000154",
   "onlineUrl": "",
   "inquiry": [
     "다산콜센터/02-120",
@@ -26,8 +26,8 @@
   ],
   "updatedAt": "2026-02-02",
   "registeredAt": "2021-09-23",
-  "viewCount": 1009,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1010,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "일본군 위안부 피해자를 대상으로 생활보조금 및 건강관리비 지원",
   "target": "○ 일본군 '위안부' 피해자 등록자(여성가족부) 중 서울시 거주자",
   "selectionCriteria": "",

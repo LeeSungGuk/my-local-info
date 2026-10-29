@@ -19,15 +19,15 @@
     "정부24온라인신청",
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000125",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1005876&bnefType=all&svcId=319000000125",
   "onlineUrl": "",
   "inquiry": [
     "복지정책과/02-820-9041"
   ],
   "updatedAt": "2026-10-23",
   "registeredAt": "2021-09-23",
-  "viewCount": 3038,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 3039,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "국가보훈대상자 등에게 명절, 보훈의달에 위문금 지급",
   "target": "○ 동작구에 주민등록을 두고 거주하는 국가보훈대상자(보훈예우수당 지급 대상자)",
   "selectionCriteria": "",

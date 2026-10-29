@@ -19,15 +19,15 @@
     "정부24온라인신청",
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000328",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2162527&bnefType=all&svcId=303000000328",
   "onlineUrl": "",
   "inquiry": [
     "복지정책과/02-2286-5019"
   ],
   "updatedAt": "2026-08-12",
   "registeredAt": "2025-10-28",
-  "viewCount": 421,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 422,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "국가보훈대상자에게 보훈예우수당(월 7만원) 지원",
   "target": "○ 보훈예우수당\n- 성동구 거주 국가보훈대상자(국가유공자 본인 또는 선순위유족)",
   "selectionCriteria": "",

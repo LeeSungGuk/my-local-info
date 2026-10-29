@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000427",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2168545&bnefType=all&svcId=318000000427",
   "onlineUrl": "",
   "inquiry": [
     "영등포구청 복지정책과/02-2670-3944"
   ],
   "updatedAt": "2026-08-06",
   "registeredAt": "2025-12-03",
-  "viewCount": 729,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 731,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "고독사 위험 등 안부 확인이 필요한 고립위험가구 스마트 안부확인 서비스",
   "target": "고독사 위험 등 안부 확인이 필요한 고립위험가구",
   "selectionCriteria": "",

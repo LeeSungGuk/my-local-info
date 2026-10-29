@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000107",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001770&bnefType=all&svcId=318000000107",
   "onlineUrl": "",
   "inquiry": [
     "의약과/02-2670-4857"
   ],
   "updatedAt": "2026-08-04",
   "registeredAt": "2021-09-23",
-  "viewCount": 1413,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1414,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "의료급여 수급권자에게 일반검진비 지원",
   "target": "○일반건강검진: 영등포구 관내 의료급여 수급권자 중 해당년도 대상자(20세~64세)\n○의료급여생애전환기검진: 영등포구 관내 의료급여 수급권자 중 해당년도 대상자(66세 이상)",
   "selectionCriteria": "",

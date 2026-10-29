@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000163",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2151221&bnefType=all&svcId=313000000163",
   "onlineUrl": "",
   "inquiry": [
     "복지정책과/02-3153-8808"
   ],
   "updatedAt": "2026-08-05",
   "registeredAt": "2025-08-01",
-  "viewCount": 578,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 579,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "지원자격 해당 보훈대상 위문금 지원",
   "target": "○ 보훈단체위문금\n- 국가유공자 등 단체설립에 관한 법률 적용 단체\n- 참전유공자 예우 및 단체설립에 관한 법률 적용 단체\n- 고엽제휴우의증 등 환자지원 및 단체설립에 관한 법률 적용 단체\n- 특수유공자 예우 및 단체설립에 관한 법률 적용 단체\n\n○ 독립유공자 위문금: 독립유공자(유족)",
   "selectionCriteria": "",

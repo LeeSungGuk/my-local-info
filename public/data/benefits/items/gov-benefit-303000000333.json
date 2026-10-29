@@ -19,15 +19,15 @@
     "기타 온라인신청",
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000333",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2165016&bnefType=all&svcId=303000000333",
   "onlineUrl": "http://www.seongdongdfsc.or.kr/",
   "inquiry": [
     "성동장애인가족지원센터/070-5030-0533"
   ],
   "updatedAt": "2026-08-04",
   "registeredAt": "2025-11-07",
-  "viewCount": 460,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 462,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "성동구 관내 장애인의 실종을 예방하고, 장애인이 안전하게 지역사회 활동에 참여할 수 있도록 지원하여 자율성과 사회참여를 증진시킴",
   "target": "성동구 거주 발달장애인",
   "selectionCriteria": "",

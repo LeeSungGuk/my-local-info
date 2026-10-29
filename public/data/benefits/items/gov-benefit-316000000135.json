@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/316000000135",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2166517&bnefType=all&svcId=316000000135",
   "onlineUrl": "",
   "inquiry": [
     "구로구보건소/02-860-3245"
   ],
   "updatedAt": "2026-09-16",
   "registeredAt": "2025-11-13",
-  "viewCount": 635,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 636,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "갑상선검사",
   "target": "검사를 희망하는 만15세이상 서울시민",
   "selectionCriteria": "",

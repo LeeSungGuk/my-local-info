@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000104",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001046&bnefType=all&svcId=311000000104",
   "onlineUrl": "",
   "inquiry": [
     "장애인복지과/02-351-7312"
   ],
   "updatedAt": "2026-10-27",
   "registeredAt": "2021-09-23",
-  "viewCount": 1595,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1597,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "국고 활동지원이 부족한 장애인에게 서비스 추가 지원",
   "target": "○ 장애인활동지원 대상자 중 종합조사 기능제한(X1) 점수 300점(아동260점) 이상인 와상 또는 사지마비 중증장애인, 발달장애인독거가구(X1 360점 이상), 시설퇴소자",
   "selectionCriteria": "",

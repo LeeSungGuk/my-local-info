@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/317000000370",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2175916&bnefType=all&svcId=317000000370",
   "onlineUrl": "",
   "inquiry": [
     "서울 금천구보건소 보건정책과/02-2627-2612"
   ],
   "updatedAt": "2026-08-04",
   "registeredAt": "2026-02-24",
-  "viewCount": 319,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 320,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "취약계층 환아 가구의 경제적 부담 경감 및 아토피 증상 완화",
   "target": "▸ 관내거주 만18세 이하로 아토피피부염(L20, L20.~) 진단받고 아래 기준 충족자\n   ‑ 기초생활수급자\n   ‑ 기준중위소득 100% 이하 해당가구",
   "selectionCriteria": "",

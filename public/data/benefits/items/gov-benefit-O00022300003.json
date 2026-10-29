@@ -18,7 +18,7 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022300003",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2101402&bnefType=all&svcId=O00022300003",
   "onlineUrl": "",
   "inquiry": [
     "강북구립도서관/02-944-3110"
@@ -26,7 +26,7 @@
   "updatedAt": "2026-10-23",
   "registeredAt": "2022-11-08",
   "viewCount": 1102,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "시각장애인을 위한 점자도서 열람",
   "target": "시각장애인을 위한 점자도서 열람",
   "selectionCriteria": "",

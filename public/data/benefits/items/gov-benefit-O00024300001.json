@@ -20,15 +20,15 @@
     "방문신청",
     "직접입력"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00024300001",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2001262&bnefType=all&svcId=O00024300001",
   "onlineUrl": "www.e-junggu.or.kr",
   "inquiry": [
     "주차사업부/02-2280-8366"
   ],
   "updatedAt": "2026-10-21",
   "registeredAt": "2022-07-15",
-  "viewCount": 921,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 922,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "사회적 취약계층에게 주차장 이용요금 감면(대상별 상이)",
   "target": "○ 「국가유공자등 예우 및 지원에 관한 법률」에 의한 국가유공자 : 80%\n\n○ 「장애인복지법」에 의한 장애인으로 장애인자동차 표지를 부착하고 탑승\n\n○ 5.18 민주유공자 : 50%\n\n○ 다둥이 가족",
   "selectionCriteria": "",

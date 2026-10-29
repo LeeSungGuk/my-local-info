@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000121",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1005031&bnefType=all&svcId=319000000121",
   "onlineUrl": "",
   "inquiry": [
     "아동여성과/02-820-9259"
   ],
   "updatedAt": "2026-10-20",
   "registeredAt": "2021-09-23",
-  "viewCount": 2285,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 2286,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "아동청소년의 정서, 행동적 부적응에 대해 적합한 조기개입을 통하여 건강한 심리정서 성장 지원",
   "target": "○ 소득인정액이 기준 중위소득 160%이하 가정의 만 18세 이하 아동·청소년 또는 고등학교에 재학중인 청소년",
   "selectionCriteria": "",

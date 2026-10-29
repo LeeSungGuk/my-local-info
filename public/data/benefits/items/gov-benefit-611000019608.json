@@ -19,15 +19,15 @@
     "기타 온라인신청",
     "직접입력"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000019608",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2140220&bnefType=all&svcId=611000019608",
   "onlineUrl": "https://i121.seoul.go.kr/cs/cyber/front/cvplsvc/NR_index.do?_m=m2_1",
   "inquiry": [
     "요금제도과/02-3146-1183"
   ],
   "updatedAt": "2026-04-23",
   "registeredAt": "2025-04-16",
-  "viewCount": 1313,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1314,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "국민기초생활수급자 및 장애의 정도가 심한 장애인에 대한 수도요금 감면",
   "target": "○ 「국민기초생활보장법」에 따른 수급권자\n\n○ 「장애인복지법」에 따른 장애의 정도가 심한 장애인(구 장애등급 1~3등급)",
   "selectionCriteria": "",

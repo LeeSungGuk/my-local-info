@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000166",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2100936&bnefType=all&svcId=300000000166",
   "onlineUrl": "",
   "inquiry": [
     "아동보호팀/02-2148-2982"
   ],
   "updatedAt": "2026-08-13",
   "registeredAt": "2022-11-02",
-  "viewCount": 743,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 744,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "아동학대사건 발생 가구의 가구원에 대한 심리검사, 상담, 치료 서비스 제공",
   "target": "아동학대신고접수된 가구의 가족구성원\n- 아동학대판단회의를 통해 대상자 선정",
   "selectionCriteria": "",

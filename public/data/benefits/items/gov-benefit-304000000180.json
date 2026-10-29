@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000180",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=803556&bnefType=all&svcId=304000000180",
   "onlineUrl": "",
   "inquiry": [
     "광진구 기후환경과/02-450-7801"
   ],
   "updatedAt": "2026-08-10",
   "registeredAt": "2021-11-05",
-  "viewCount": 3508,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 3509,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "EM 발효액 무상 제공",
   "target": "광진구 구민 누구나",
   "selectionCriteria": "",

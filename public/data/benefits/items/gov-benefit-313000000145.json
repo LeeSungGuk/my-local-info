@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000145",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2148622&bnefType=all&svcId=313000000145",
   "onlineUrl": "",
   "inquiry": [
     "어르신동행과/0231538857"
   ],
   "updatedAt": "2026-08-05",
   "registeredAt": "2025-07-03",
-  "viewCount": 385,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 388,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "관내 3년이상 거주한 100세 도래 어르신에게 장수축하물품을 지원함으로써 노인복지 증진 및 고령친화도시 조성에 기여하고자 함.",
   "target": "○ 관내 3년 연속 거주하면서 100세 도래한 어르신",
   "selectionCriteria": "",

@@ -19,15 +19,15 @@
     "기타 온라인신청",
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/701000000203",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2000398&bnefType=all&svcId=701000000203",
   "onlineUrl": "https://www.bokjiro.go.kr",
   "inquiry": [
     "학생맞춤지원담당관/02-399-9020"
   ],
   "updatedAt": "2026-04-29",
   "registeredAt": "2022-07-15",
-  "viewCount": 1750,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1753,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "저소득층 가구 학생에 대한 교육의 기회균등 보장 및 실질적인 지원을 통한 교육복지 실현",
   "target": "○ 서울특별시교육청 관내 초·중·고등학교(특수학교 포함) 학생\n - 법정저소득 자격(국민기초생활수급자, 한부모가족보호대상자, 법정차상위대상자)소지자\n - 중위소득 60%이하\n - 기타 법무부장관이 추천하는 난민인정자, 특별기여자 또는 그 자녀",
   "selectionCriteria": "",

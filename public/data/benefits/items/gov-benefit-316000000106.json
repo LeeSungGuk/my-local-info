@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/316000000106",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001164&bnefType=all&svcId=316000000106",
   "onlineUrl": "",
   "inquiry": [
     "생활보장과/02-860-2859"
   ],
   "updatedAt": "2026-10-26",
   "registeredAt": "2021-09-23",
-  "viewCount": 1300,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1302,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "기초생활보장수급노인에게 생신축하금 지원(연1회, 20,000원)",
   "target": "○ 기초생계·의료 수급자 중 만 65세노인",
   "selectionCriteria": "",

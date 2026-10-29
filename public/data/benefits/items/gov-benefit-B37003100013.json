@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "기타 온라인신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100013",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2001103&bnefType=all&svcId=B37003100013",
   "onlineUrl": "spobiz.kspo.or.kr",
   "inquiry": [
     "기업금융지원팀/1566-4573"
   ],
   "updatedAt": "2026-10-20",
   "registeredAt": "2022-07-15",
-  "viewCount": 1214,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1216,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "스포츠 기업에게 융자금 지원(분기별 변동금리 적용)",
   "target": "○ 체육용구생산업체\n\n○ 스포츠서비스업체\n\n○ 민간체육시설업체",
   "selectionCriteria": "",

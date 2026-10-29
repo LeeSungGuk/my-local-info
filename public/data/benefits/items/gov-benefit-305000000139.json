@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000139",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=809726&bnefType=all&svcId=305000000139",
   "onlineUrl": "",
   "inquiry": [
     "동대문구 사회복지과/02-2127-4568"
   ],
   "updatedAt": "2026-08-14",
   "registeredAt": "2022-07-05",
-  "viewCount": 1236,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1238,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "장제급여 대상 무연고 사망자에 대하여 고인모심 및 공영 장례서비스 제공",
   "target": "장제급여 대상 중 무연고 사망자\n※ 장제급여 대상: 국민기초생활보장 기초생계, 기초의료, 기초주거급여 수급자",
   "selectionCriteria": "",

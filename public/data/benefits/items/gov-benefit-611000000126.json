@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "기타 온라인신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000126",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1002456&bnefType=all&svcId=611000000126",
   "onlineUrl": "http://youth.seoul.go.kr",
   "inquiry": [
     "미래청년기획관/1566-3344"
   ],
   "updatedAt": "2026-10-21",
   "registeredAt": "2021-09-23",
-  "viewCount": 88754,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 88763,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "서울시 중위소득 150% 이하 19~34세 미취업 청년을 대상으로 청년수당 지원",
   "target": "○ ('26 기준) 공고월 전월 기준 건강보험료 월 부과액이 중위소득 150%이하 (생계, 의료, 주거, 교육급여자 및 차상위계층 제외)",
   "selectionCriteria": "",

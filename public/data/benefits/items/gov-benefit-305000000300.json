@@ -19,15 +19,15 @@
     "기타 온라인신청",
     "직접입력"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000300",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2169721&bnefType=all&svcId=305000000300",
   "onlineUrl": "https://www.dongsibok.or.kr/html/subpage.php?frame=1-10",
   "inquiry": [
     "동대문시각특화장애인복지관/02-2244-3283"
   ],
   "updatedAt": "2026-09-10",
   "registeredAt": "2025-12-11",
-  "viewCount": 1032,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1037,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "장애인이 편리하게 이용할 수 있도록 맞춤형 편의시설을 갖춘 장애인 전용 미용실",
   "target": "동대문구 등록 장애인",
   "selectionCriteria": "",

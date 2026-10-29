@@ -18,7 +18,7 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00024000029",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2001419&bnefType=all&svcId=O00024000029",
   "onlineUrl": "",
   "inquiry": [
     "꿈나무종합타운/02-707-0704"
@@ -26,7 +26,7 @@
   "updatedAt": "2026-08-05",
   "registeredAt": "2022-07-15",
   "viewCount": 731,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "자원봉사자에게 꿈나무종합타운 프로그램 이용요금 10%감면",
   "target": "용산구 등록 봉사자 중 최근 1년 이내 봉사활동 30시간 이상 확인 가능자",
   "selectionCriteria": "",

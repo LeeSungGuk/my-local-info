@@ -18,7 +18,7 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00021400004",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2001444&bnefType=all&svcId=O00021400004",
   "onlineUrl": "",
   "inquiry": [
     "서울시설공단/031-960-0224"
@@ -26,7 +26,7 @@
   "updatedAt": "2026-08-05",
   "registeredAt": "2022-07-15",
   "viewCount": 881,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "무연고 대상자에게 서울시 통합 장례 서비스 지원",
   "target": "서울시 내 일원에서 발견된 무연고 행려사망자 및 유연고 행려 사망자 중 연고자가 사체 인수를 거부한 경우",
   "selectionCriteria": "",

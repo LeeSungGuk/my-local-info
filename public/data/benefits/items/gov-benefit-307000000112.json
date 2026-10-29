@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000112",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1004952&bnefType=all&svcId=307000000112",
   "onlineUrl": "",
   "inquiry": [
     "건강정책과/02-2241-5909"
   ],
   "updatedAt": "2026-05-11",
   "registeredAt": "2021-09-23",
-  "viewCount": 1167,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1168,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "성북구 보건소를 이용하는 장애인 환자의 약제비 지원 금액을 확대함으로써 경제적 부담을 경감하여 취약 계층의 구민 보건 향상과 사회복지 증진에 이바지하고자 함",
   "target": "○ 성북구 보건소에서 처방을 받은 장애인 환자",
   "selectionCriteria": "",

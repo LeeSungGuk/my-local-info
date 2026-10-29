@@ -19,7 +19,7 @@
     "정부24온라인신청",
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/301000000116",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001675&bnefType=all&svcId=301000000116",
   "onlineUrl": "",
   "inquiry": [
     "부동산정보과/02-3396-5931",
@@ -27,8 +27,8 @@
   ],
   "updatedAt": "2026-10-21",
   "registeredAt": "2021-09-23",
-  "viewCount": 1614,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1615,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "우리 구에 전입하는 수급자,  차상위계층, 한부모가족에게 부동산중개수수료 지원",
   "target": "○ 국민기초생활보장에 따른 수급자 및 차상위계층\n○ 한부모가족지원법에 따른 한부모가족",
   "selectionCriteria": "",

@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/302000000122",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2150431&bnefType=all&svcId=302000000122",
   "onlineUrl": "",
   "inquiry": [
     "용산구청 사회복지과/02-2199-7128"
   ],
   "updatedAt": "2026-08-06",
   "registeredAt": "2025-07-22",
-  "viewCount": 216,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 217,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "저소득층 건강보험료 부담 완화\n\n지원근거 : 서울특별시 용산구 저소득·취약계층 국민건강보험료 지원에 관한 조례",
   "target": "용산구 주민이면서 최저건강보험료 20,160원 이하인 자 중\n                   65세이상 노인가구, 등록장애인이 있는 가구, 국가유공자 가구, 한부모가족 가구",
   "selectionCriteria": "",

@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/309000000135",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1002531&bnefType=all&svcId=309000000135",
   "onlineUrl": "",
   "inquiry": [
     "생활보장과/02-2091-3318"
   ],
   "updatedAt": "2026-08-13",
   "registeredAt": "2021-09-23",
-  "viewCount": 2603,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 2605,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "기초생계,의료급여 수급가구의 최저생활 수준 충족을 위한 명절위문품비를 지원하여 저소득주민의 생활안정을 도모하고자 함",
   "target": "○ 기초생계급여수급자 가구, 기초의료급여수급자 가구 (※시설 수급자 제외)",
   "selectionCriteria": "",

@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/323000000111",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1005172&bnefType=all&svcId=323000000111",
   "onlineUrl": "",
   "inquiry": [
     "여성보육과/02-2147-2760"
   ],
   "updatedAt": "2026-08-20",
   "registeredAt": "2021-09-23",
-  "viewCount": 2281,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 2282,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "저소득한부모 가구에 명절격려금 및 김치 지원",
   "target": "○ 관내 법정 저소득한부모 가구",
   "selectionCriteria": "",

@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/308000000129",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1006535&bnefType=all&svcId=308000000129",
   "onlineUrl": "",
   "inquiry": [
     "복지정책과/02-901-6713"
   ],
   "updatedAt": "2026-10-27",
   "registeredAt": "2021-09-23",
-  "viewCount": 2118,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 2120,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "국가보훈대상자에게 명절(설, 추석) 및 호국보훈의 달에 위문금 지원",
   "target": "○ 서울시 보훈수당 대상자(독립유공생활지원수당 대상자 중 선순위유족 1인에게만 지급) 및 보훈단체 추천회원\n ※ 서울시 보훈수당 : 참전명예수당, 국가유공자 생활보조수당, 독립유공생활지원수당\n ※ 1인 최대 3만원 지급 가능",
   "selectionCriteria": "",

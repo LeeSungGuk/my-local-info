@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000124",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1006707&bnefType=all&svcId=304000000124",
   "onlineUrl": "",
   "inquiry": [
     "광진구 복지정책과/02-450-7494"
   ],
   "updatedAt": "2026-08-06",
   "registeredAt": "2021-09-23",
-  "viewCount": 3391,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 3393,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "생계,의료수급 가구에 현금2만원 지급(설,추석)",
   "target": "기초생활수급(생계, 의료) 가구",
   "selectionCriteria": "",

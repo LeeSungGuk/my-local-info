@@ -19,15 +19,15 @@
     "기타 온라인신청",
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000261",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2161849&bnefType=all&svcId=314000000261",
   "onlineUrl": "https://www.yangcheon.go.kr/airportnoise/airportnoise/02/10203000000002024061001.jsp",
   "inquiry": [
     "양천구청 환경과/02-2084-5471"
   ],
   "updatedAt": "2026-10-26",
   "registeredAt": "2025-11-03",
-  "viewCount": 432,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 433,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "김포공항 소음피해지역의 주민들을 대상으로 청력(정밀)검사를 실시하여 난청 실태를 파악하고 \n주민 피해에 대해 선제적으로 대응하는 효율적인 주민 지원을 통해 주민의 건강복지 향상에 기여",
   "target": "○ 신청일 및 선정일 기준 양천구 공항소음피해지역에 3년 이상 주민등록을 두고 거주하며 청력에 이상 징후가 있는 주민 \n  ※ 제외대상: ➀「장애인복지법」에 따른 청각장애진단을 받은 자(청각장애인) ➁ 미취학아동 ➂ 전년도 동일 사업 수혜자  ➃ 응급으로 처치나 치료 등이 필요한 자 ➄ 그 밖의 거짓 사실 등으로 신청한 자",
   "selectionCriteria": "",

@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000135",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=803195&bnefType=all&svcId=304000000135",
   "onlineUrl": "",
   "inquiry": [
     "광진구 장애인복지과/02-450-7533"
   ],
   "updatedAt": "2026-08-07",
   "registeredAt": "2021-10-26",
-  "viewCount": 1050,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1051,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "장애인 수동휠체어, 전동휠체어 및 전동스쿠터 수리비용 지원",
   "target": "광진구에 주소를 둔 등록장애인 중 휠체어 및 전동 스쿠터 소유자",
   "selectionCriteria": "",

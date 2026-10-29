@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "기타 온라인신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000163",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=810624&bnefType=all&svcId=307000000163",
   "onlineUrl": "https://www.sb.go.kr",
   "inquiry": [
     "성북구청/02-2241-3994"
   ],
   "updatedAt": "2026-05-11",
   "registeredAt": "2022-08-05",
-  "viewCount": 1348,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1349,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "구정 업무 참여를 통한 청년의 실무경험 및 자립역량 강화 지원",
   "target": "○ 일반선발 : 성북구에 주민등록 등재된 19세~29세 청년 \n○ 우선선발 : 성북구에 주민등록 등재된 19세 ~ 29세  청년 중 한부모,차상위,장애인 등\n- 성북구 청년 행정체험단(舊대학생 아르바이트 ) 아르바이트 직전 3회기 중 단 1회라도 참여한 자 제외 \n\n○ 연 220명 모집",
   "selectionCriteria": "",

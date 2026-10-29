@@ -20,15 +20,15 @@
     "방문신청",
     "직접입력"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000132",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=809900&bnefType=all&svcId=319000000132",
   "onlineUrl": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201562",
   "inquiry": [
     "동작구 민원여권과/02-820-1864"
   ],
   "updatedAt": "2026-09-10",
   "registeredAt": "2022-07-06",
-  "viewCount": 2219,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 2224,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "구민의 생활 속 법률고민 해결과 권익보호",
   "target": "○ 법률상담이 필요한 동작구민, 동작구에 거소를 둔 상공인, 직장인 등",
   "selectionCriteria": "",

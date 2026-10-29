@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000140",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2100618&bnefType=all&svcId=319000000140",
   "onlineUrl": "",
   "inquiry": [
     "건축과/02-820-9006"
   ],
   "updatedAt": "2026-09-10",
   "registeredAt": "2022-10-27",
-  "viewCount": 889,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 890,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "평일 14~17시 관내 건축사 건축관련 대면상담 진행",
   "target": "○ 동작구민",
   "selectionCriteria": "",

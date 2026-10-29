@@ -19,7 +19,7 @@
     "정부24온라인신청",
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00024000053",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2174017&bnefType=all&svcId=O00024000053",
   "onlineUrl": "",
   "inquiry": [
     "이태원초등학교수영장/02-797-2492"
@@ -27,7 +27,7 @@
   "updatedAt": "2026-08-12",
   "registeredAt": "2026-02-09",
   "viewCount": 212,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "국가유공자에게 프로그램 이용요금 50%감면",
   "target": "국가유공자등 예우 및 지원에 관한 법률에 의하여 등록된 국가유공자 또는 그 가족",
   "selectionCriteria": "",

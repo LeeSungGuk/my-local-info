@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00024000006",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2000302&bnefType=all&svcId=O00024000006",
   "onlineUrl": "",
   "inquiry": [
     "용산청소년센터/02-749-0102(519)"
   ],
   "updatedAt": "2026-08-04",
   "registeredAt": "2022-07-15",
-  "viewCount": 742,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 743,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "경로자에게 문화체육센터 프로그램 이용요금 감면(시설별 상이)",
   "target": "신분증 및 경로우대증에 생년월일이 만 65세 이상인 회원",
   "selectionCriteria": "",

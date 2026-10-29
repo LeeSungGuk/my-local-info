@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/701000000205",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2000400&bnefType=all&svcId=701000000205",
   "onlineUrl": "",
   "inquiry": [
     "유아교육과/02-399-9052"
   ],
   "updatedAt": "2026-04-29",
   "registeredAt": "2022-07-15",
-  "viewCount": 1106,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1108,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "유치원 일반학급에 배치되는 특수교육 유아 대상 무상교육비 지원",
   "target": "유치원 일반학급에 배치받은 만3~5세 특수교육대상 유아",
   "selectionCriteria": "",

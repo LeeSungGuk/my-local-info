@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "기타 온라인신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000133",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=809009&bnefType=all&svcId=305000000133",
   "onlineUrl": "https://start.sen.go.kr/",
   "inquiry": [
     "교육지원과/02-2127-4521"
   ],
   "updatedAt": "2026-08-14",
   "registeredAt": "2022-05-31",
-  "viewCount": 2252,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 2253,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "○ 초중고 입학준비금 지원\n - 대        상 : 관내 초·중·고에 입학하는 신입생\n - 지  원  액 : <초등> 1인당 20만원, <중고등> 1인당 30만원\n - 사용범위 : 의류(교복 등), 도서(학교권장도서 등)\n - 지원방법 : 학교 주관 교복 구매 또는 모바일 포인트(제로페이) 중 선택",
   "target": "동대문구에 거주하는 초·중·고등학생 중 신입생",
   "selectionCriteria": "",

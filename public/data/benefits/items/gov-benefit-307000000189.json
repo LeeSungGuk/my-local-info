@@ -20,15 +20,15 @@
     "기타 온라인신청",
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000189",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2149419&bnefType=all&svcId=307000000189",
   "onlineUrl": "https://www.sb.go.kr/main/mainPage.do",
   "inquiry": [
     "홍보전산과/02-2241-4554"
   ],
   "updatedAt": "2026-07-30",
   "registeredAt": "2025-07-10",
-  "viewCount": 1111,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1113,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "디지털 저장매체를 물리적으로 완전 파기하여 개인정보 사고를 예방할 수 있는 서비스를 무료로 제공함.\n저장매체 파기 후 발생한 잔재물은 재활용센터에 수송하여 자원순환 도모.",
   "target": "구내 주민",
   "selectionCriteria": "",

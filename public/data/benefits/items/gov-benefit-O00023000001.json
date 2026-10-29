@@ -19,7 +19,7 @@
     "기타 온라인신청",
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00023000001",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2000294&bnefType=all&svcId=O00023000001",
   "onlineUrl": "http://dobong.park119.com",
   "inquiry": [
     "주차사업팀/02-901-5062"
@@ -27,7 +27,7 @@
   "updatedAt": "2026-08-12",
   "registeredAt": "2022-07-15",
   "viewCount": 940,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "사회적 취약계층에게 거주자우선주차 요금 감면(대상별 상이)",
   "target": "○ 국가유공자증소지자\n\n○ 유공납세자\n\n○ 장애인복지카드소지자\n\n○ 다둥이행복카드소지자\n\n○ 차량등록증 확인\n\n○ 병역명문가증과 주소 기입 된 신분증\n\n○ 장기등기증자 표시 된 증서 또는 운전면허증",
   "selectionCriteria": "",

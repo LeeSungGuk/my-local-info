@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "기타 온라인신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000153",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=810300&bnefType=all&svcId=305000000153",
   "onlineUrl": "https://www.ddm.go.kr/www/index.do",
   "inquiry": [
     "동대문진학상담센터/02-2127-5061"
   ],
   "updatedAt": "2026-08-14",
   "registeredAt": "2022-07-22",
-  "viewCount": 1119,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1120,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "1:1 진학관련 맞춤형 상담 진행",
   "target": "○ 관내 소재 중고등학교 학생 및 관내 거주 학생",
   "selectionCriteria": "",

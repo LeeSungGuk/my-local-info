@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000166",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2100631&bnefType=all&svcId=305000000166",
   "onlineUrl": "",
   "inquiry": [
     "주거정비과/02-2127-4672"
   ],
   "updatedAt": "2026-08-14",
   "registeredAt": "2022-10-31",
-  "viewCount": 443,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 444,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "재건축,재개발 관련한 법률 상담",
   "target": "○ 재개발, 재건축 관련 법률 상담을 필요로 하는 사람",
   "selectionCriteria": "",

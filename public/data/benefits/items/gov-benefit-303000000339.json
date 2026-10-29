@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000339",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2166416&bnefType=all&svcId=303000000339",
   "onlineUrl": "",
   "inquiry": [
     "성동구 이동보조기기 수리센터/02-2290-3122"
   ],
   "updatedAt": "2026-08-04",
   "registeredAt": "2025-11-12",
-  "viewCount": 465,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 466,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "이동보조기기 수리비 지원을 통하여 장애인의 경제적 부담 경감 및 이동권 보장 확보",
   "target": "등록장애인",
   "selectionCriteria": "",

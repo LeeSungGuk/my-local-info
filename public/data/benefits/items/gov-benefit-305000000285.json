@@ -19,15 +19,15 @@
     "정부24온라인신청",
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000285",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2168600&bnefType=all&svcId=305000000285",
   "onlineUrl": "",
   "inquiry": [
     "동대문구보건소 예방접종실/02-2127-4942"
   ],
   "updatedAt": "2026-07-09",
   "registeredAt": "2025-12-10",
-  "viewCount": 334,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 335,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "대상포진 예방접종 1회 지원",
   "target": "동대문구  65세 이상 기초생활수급자 및 차상위계층 중 대상포진 예방접종 미접종자",
   "selectionCriteria": "",

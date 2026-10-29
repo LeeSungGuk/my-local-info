@@ -19,15 +19,15 @@
     "정부24온라인신청",
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/301000000132",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1005701&bnefType=all&svcId=301000000132",
   "onlineUrl": "",
   "inquiry": [
     "생활보장과/02-3396-5358"
   ],
   "updatedAt": "2026-10-21",
   "registeredAt": "2021-09-23",
-  "viewCount": 1808,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1809,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "저소득주민에게 유료방송 시청료 및 설치비 지원",
   "target": "○ 중구관내 기초생계, 의료급여 대상자 중 \n - 만70세이상 어르신세대\n - 기초생계,의료급여 대상자 중 심한 장애세대\n - 한부모가족지원법의 한부모가족세대",
   "selectionCriteria": "",

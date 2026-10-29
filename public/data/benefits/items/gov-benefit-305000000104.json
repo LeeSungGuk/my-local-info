@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000104",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1002557&bnefType=all&svcId=305000000104",
   "onlineUrl": "",
   "inquiry": [
     "복지정책과/02-2127-5036"
   ],
   "updatedAt": "2026-08-14",
   "registeredAt": "2021-09-23",
-  "viewCount": 1999,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 2000,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "국가보훈대상자(국가유공자증, 국가유공자유족증 소유자 본인) 에게 보훈예우수당 지원",
   "target": "○ 보훈예우수당\n- 동대문구 거주 국가보훈대상자",
   "selectionCriteria": "",

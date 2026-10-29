@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/312000000103",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1000481&bnefType=all&svcId=312000000103",
   "onlineUrl": "",
   "inquiry": [
     "사회복지과/02-330-1947"
   ],
   "updatedAt": "2026-10-21",
   "registeredAt": "2021-09-23",
-  "viewCount": 1089,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1091,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "장애인을 위한 동료 간 상담 지원",
   "target": "○ 등록장애인(서대문구 주민 우선)",
   "selectionCriteria": "",

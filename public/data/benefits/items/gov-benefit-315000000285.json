@@ -18,7 +18,7 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000285",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2168584&bnefType=all&svcId=315000000285",
   "onlineUrl": "",
   "inquiry": [
     "건강관리과/02-2600-5499",
@@ -26,8 +26,8 @@
   ],
   "updatedAt": "2026-10-26",
   "registeredAt": "2025-12-08",
-  "viewCount": 420,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 421,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "임산부에게 엽산제, 철분제, 임신초기검사, 기형아검사, 당뇨검사, 유축기 대여 등 지원",
   "target": "○ 관내 주민등록을 둔 임산부",
   "selectionCriteria": "",

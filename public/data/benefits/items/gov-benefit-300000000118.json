@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000118",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=809947&bnefType=all&svcId=300000000118",
   "onlineUrl": "",
   "inquiry": [
     "종로구청 사회복지과/02-2148-2574"
   ],
   "updatedAt": "2026-08-03",
   "registeredAt": "2022-07-12",
-  "viewCount": 1502,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1503,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "주거취약 저소득계층 및 복지 사각지대 가구의 노후주택 집수리 지원을 통해 주거환경을 개선하고 삶의 질 향상을 도모하고자 함.",
   "target": "○ 국민기초생활수급자, 차상위계층, 일반 저소득가구",
   "selectionCriteria": "",

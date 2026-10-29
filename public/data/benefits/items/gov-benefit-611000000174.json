@@ -20,7 +20,7 @@
     "방문신청",
     "직접입력"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000174",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2102310&bnefType=all&svcId=611000000174",
   "onlineUrl": "https://arisu.seoul.go.kr/",
   "inquiry": [
     "상수도사업본부 수질과/02-3146-1324",
@@ -35,8 +35,8 @@
   ],
   "updatedAt": "2025-11-27",
   "registeredAt": "2022-11-28",
-  "viewCount": 1068,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1069,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "수질검사원이 방문하여 수돗물에 대해 탁도 등 5개항목 수질 검사 실시 및 결과 설명 등",
   "target": "서울시 수돗물 사용 가구 등",
   "selectionCriteria": "",

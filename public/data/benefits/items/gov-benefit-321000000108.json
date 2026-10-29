@@ -18,7 +18,7 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/321000000108",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001754&bnefType=all&svcId=321000000108",
   "onlineUrl": "",
   "inquiry": [
     "아동청년과/02-2155-8899"
@@ -26,7 +26,7 @@
   "updatedAt": "2026-10-22",
   "registeredAt": "2021-09-23",
   "viewCount": 1063,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "입양아동의 양육보조금 지원",
   "target": "서초구에서 거주중인 입양아동 중 만 18세 초과 ~ 고등학교 졸업 전 아동",
   "selectionCriteria": "",

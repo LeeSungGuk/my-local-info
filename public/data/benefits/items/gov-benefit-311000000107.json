@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000107",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001478&bnefType=all&svcId=311000000107",
   "onlineUrl": "",
   "inquiry": [
     "장애인복지과/02-351-7307"
   ],
-  "updatedAt": "2026-08-07",
+  "updatedAt": "2026-10-28",
   "registeredAt": "2021-09-23",
-  "viewCount": 1352,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1353,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "장애인단체에 명절 위문 격려금 지원",
   "target": "○ 각 단체별 지원 후 단체별 대상자 개별 지원",
   "selectionCriteria": "",

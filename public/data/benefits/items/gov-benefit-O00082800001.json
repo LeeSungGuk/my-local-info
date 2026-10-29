@@ -19,15 +19,15 @@
     "기타 온라인신청",
     "직접입력"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00082800001",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2000325&bnefType=all&svcId=O00082800001",
   "onlineUrl": "https://www.seoulshinbo.co.kr",
   "inquiry": [
     "신용보증부/02-2174-5266"
   ],
   "updatedAt": "2026-10-26",
   "registeredAt": "2022-07-15",
-  "viewCount": 4112,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 4114,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "담보력이 부족한 서울시 소재 중소기업·소상공인 등의 채무를 보증",
   "target": "서울특별시 소재 중소기업 및 소상공인",
   "selectionCriteria": "",

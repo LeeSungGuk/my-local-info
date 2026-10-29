@@ -19,15 +19,15 @@
     "정부24온라인신청",
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000107",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001557&bnefType=all&svcId=313000000107",
   "onlineUrl": "",
   "inquiry": [
     "어르신동행과/02-3153-8855"
   ],
   "updatedAt": "2026-08-05",
   "registeredAt": "2021-09-23",
-  "viewCount": 1193,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1194,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "효행장려금품 지급(연1회, 10월 경)",
   "target": "마포구 관내 동일한 주민등록 주소지에서 100세 이상의 부모 등과 실제 거주와 생계를 같이하며 부양하는 자\n - 부모가 요양원, 요양병원에 계신 경우 제외",
   "selectionCriteria": "",

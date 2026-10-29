@@ -19,7 +19,7 @@
     "기타 온라인신청",
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000256",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2161826&bnefType=all&svcId=314000000256",
   "onlineUrl": "https://www.yangcheon.go.kr/site/yangcheon/login/Login.do?reUrl=/site/yangcheon/foffice/ex/moveingift/moveinGiftRegFrm.do",
   "inquiry": [
     "목1동 주민센터/02-2620-3952",
@@ -43,8 +43,8 @@
   ],
   "updatedAt": "2026-10-23",
   "registeredAt": "2025-10-28",
-  "viewCount": 318,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 319,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "양천구 신규 전입세대 생활용품 지원 (세대편입 불가)",
   "target": "타 지자치에서 양천구에 신규 전입한 세대\n(세대 편입, 합가 / 1년 이내 다시 양천구로 전입하는 경우 등 제외)",
   "selectionCriteria": "",

@@ -19,15 +19,15 @@
     "정부24온라인신청",
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000101",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1000041&bnefType=all&svcId=314000000101",
   "onlineUrl": "",
   "inquiry": [
     "어르신복지과/02-2620-3359"
   ],
   "updatedAt": "2026-09-03",
   "registeredAt": "2021-09-23",
-  "viewCount": 1877,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1878,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "경로효친의 건전한 가족제도 정착과 지역사회 효문화 확산을 장려하기 위해 100세 이상 부모 등을 부양하고 있는 가정에 효도수당을 지급하여 효행장려 및 어르신복지 증진에 기여하고자 함",
   "target": "양천구에 실제 거주하고 주민등록이 되어 있는 만100세 이상의 부모 등을 부양하고 있는 가정의 세대주 또는 가족대표",
   "selectionCriteria": "",

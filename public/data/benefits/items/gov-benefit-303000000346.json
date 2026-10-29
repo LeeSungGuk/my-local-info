@@ -20,15 +20,15 @@
     "기타 온라인신청",
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000346",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2168316&bnefType=all&svcId=303000000346",
   "onlineUrl": "https://www.sd.go.kr/booking/bookingOnlineRcepDetail.do?progrmNo=450&amp;sc2=%EC%9E%90%EB%85%80%EB%8F%8C%EB%B4%84&amp;sc3=202511&amp;rcpp=9&amp;key=4871",
   "inquiry": [
     "성평등가족과/02-2286-6840"
   ],
   "updatedAt": "2026-08-07",
   "registeredAt": "2025-11-28",
-  "viewCount": 800,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 801,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "저소득 한부모 근로자가 경제적 부담을 덜고 자녀 돌봄을 병행할 수 있도록 자녀돌봄휴가비를 지원하여 양육 환경 조성 및 생활안정에 기여하고자 함",
   "target": "18세 미만 자녀를 양육하는 기준 중위소득 65%이하 한부모가족 근로자 중 무급 자녀돌봄휴가 사용자",
   "selectionCriteria": "",

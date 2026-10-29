@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B55029700002",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2000642&bnefType=all&svcId=B55029700002",
   "onlineUrl": "",
   "inquiry": [
     "의료사회복지팀/02-2072-0301"
   ],
   "updatedAt": "2026-10-26",
   "registeredAt": "2022-07-15",
-  "viewCount": 1557,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1558,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "국내 거주 중증질환 저소득 외국인에게 의료비를 지원(1인당 350만원)\n※치료 계획 등에 따라 지원 한도 조정될 수 있음.",
   "target": "○ 의료적 요건 : 협약기관에서 1차 진료 후 담당의사가 상급종합병원에서의 진료가 필요하다고 판단한 자\n\n○ 사회경제적 요건 : 국내거주 중인 외국인 중, 2026년 기준 중위소득 90% 이하에 해당하는 자(동일 가구원 소득 합산하여 산정)\n\n★ 협약기관에서 의뢰가능한 대상자여야함",
   "selectionCriteria": "",

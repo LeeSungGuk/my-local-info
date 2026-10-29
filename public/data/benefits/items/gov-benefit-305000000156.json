@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000156",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=810368&bnefType=all&svcId=305000000156",
   "onlineUrl": "",
   "inquiry": [
     "동대문구청 주택과/02-2127-4673"
   ],
   "updatedAt": "2026-08-14",
   "registeredAt": "2022-08-04",
-  "viewCount": 525,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 526,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "아파트 단지 내 주민이 제안한 활동 프로그램을 지원함으로써 이웃간 소통을 활성화",
   "target": "관내 아파트 단지(의무관리대상 및 임의, 임대 단지)",
   "selectionCriteria": "",

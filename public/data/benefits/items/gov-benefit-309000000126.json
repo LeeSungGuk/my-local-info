@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/309000000126",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1000538&bnefType=all&svcId=309000000126",
   "onlineUrl": "",
   "inquiry": [
     "가족정책과/02-2091-3146"
   ],
   "updatedAt": "2026-08-05",
   "registeredAt": "2021-09-23",
-  "viewCount": 4772,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 4774,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "한부모가정에 명절위문금 지원",
   "target": "○ 법정 한부모가정",
   "selectionCriteria": "",

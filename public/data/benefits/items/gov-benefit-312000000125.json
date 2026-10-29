@@ -20,7 +20,7 @@
     "방문신청",
     "직접입력"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/312000000125",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2108203&bnefType=all&svcId=312000000125",
   "onlineUrl": "",
   "inquiry": [
     "서대문구보건소 임신출산상담실/02-330-3818",
@@ -28,8 +28,8 @@
   ],
   "updatedAt": "2026-10-21",
   "registeredAt": "2023-06-21",
-  "viewCount": 6434,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 6436,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "출산예정일 1년 전부터 현재까지 계속하여 서대문구에 주민등록을 두고 실제 거주 임신부지원",
   "target": "♥ 신청대상 : 출산예정일을 기준으로 1년 전부터 신청일 현재까지 계속하여 서대문구에 주민등록을 두고 실제 거주하고 있는 임산부\n   - 소득, 재산 기준 없음\n♥ 신청기간 : 출산예정일 전일까지(출산전이어야 함)",
   "selectionCriteria": "",

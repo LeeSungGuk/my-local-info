@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "직접입력"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000168",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2184616&bnefType=all&svcId=313000000168",
   "onlineUrl": "",
   "inquiry": [
     "하나손해보험/02-6714-6835"
   ],
   "updatedAt": "2026-08-12",
   "registeredAt": "2026-06-25",
-  "viewCount": 120,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 121,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "일상생활에서 발생할 수 있는 우발적 사고 및 재난으로부터 인적 피해 등을 지원",
   "target": "서울특별시 마포구에 주민등록을 둔 모든 구민(등록 외국인, 거소등록동포 포함)",
   "selectionCriteria": "",

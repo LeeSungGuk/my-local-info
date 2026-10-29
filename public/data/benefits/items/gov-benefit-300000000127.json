@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000127",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=810014&bnefType=all&svcId=300000000127",
   "onlineUrl": "",
   "inquiry": [
     "종로구보건소 임상병리실/02-2148-3708"
   ],
   "updatedAt": "2026-10-23",
   "registeredAt": "2022-07-14",
-  "viewCount": 1839,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1840,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "채혈을 통한 암표지자 검사",
   "target": "검사를 원하는 사람은 누구나 가능",
   "selectionCriteria": "",

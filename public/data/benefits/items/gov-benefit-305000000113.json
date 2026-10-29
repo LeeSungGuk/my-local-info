@@ -20,15 +20,15 @@
     "기타 온라인신청",
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000113",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=806336&bnefType=all&svcId=305000000113",
   "onlineUrl": "http://www.bokjiro.go.kr",
   "inquiry": [
     "가족정책과/02-2127-5082"
   ],
   "updatedAt": "2026-08-14",
   "registeredAt": "2022-02-08",
-  "viewCount": 4091,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 4092,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "출생아1인당 1회 200만원의 이용권 지원",
   "target": "'22. 1. 1. 이후 출생아로서 출생신고되어 정상적으로 주민등록번호를 부여받은 아동",
   "selectionCriteria": "",

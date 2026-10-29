@@ -18,7 +18,7 @@
   "applicationMethodTypes": [
     "기타 온라인신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B37003100015",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2001105&bnefType=all&svcId=B37003100015",
   "onlineUrl": "edu.kspo.or.kr",
   "inquiry": [
     "스포츠인재육성팀/02-410-1508"
@@ -26,7 +26,7 @@
   "updatedAt": "2026-10-26",
   "registeredAt": "2022-07-15",
   "viewCount": 1169,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "국제심판 양성을 위한 역량강화 교육 및 자격취득 지원",
   "target": "올림픽/아시안게임 정식종목 국제심판",
   "selectionCriteria": "",

@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000114",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1000994&bnefType=all&svcId=611000000114",
   "onlineUrl": "",
   "inquiry": [
     "관할 주민센터/02-120"
   ],
   "updatedAt": "2026-01-23",
   "registeredAt": "2021-09-23",
-  "viewCount": 1305,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1306,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "저소득 독립유공자 후손에게 생활지원수당 지급",
   "target": "○ 국가보훈부 생활지원금 수급 대상\n - 독립유공자 (손)자녀 중 기초생활수급자 및 중위소득 70%이하인 자 및 기초연금수급자",
   "selectionCriteria": "",

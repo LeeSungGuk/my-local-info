@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000149",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1005245&bnefType=all&svcId=611000000149",
   "onlineUrl": "",
   "inquiry": [
     "관할 주민센터/02-120"
   ],
   "updatedAt": "2026-02-23",
   "registeredAt": "2021-09-23",
-  "viewCount": 21041,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 21044,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "○ 긴급한 위기상황으로 어려움으로 겪는 취약계층 시민에게 생계비, 의료비, 주거비 등을 신속하게 지원",
   "target": "○ 위기상황에 처한 중위소득 100%이하 서울시민 재산 409백만원 이하, 금융재산 10백만원 이하",
   "selectionCriteria": "",

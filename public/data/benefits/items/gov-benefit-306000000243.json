@@ -18,7 +18,7 @@
   "applicationMethodTypes": [
     "기타 온라인신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/306000000243",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2184016&bnefType=all&svcId=306000000243",
   "onlineUrl": "https://www.jungnang.go.kr/health/bbs/list/B0000412.do?menuNo=400364",
   "inquiry": [
     "중랑구 보건소 모자건강센터/02-2094-0176",
@@ -26,8 +26,8 @@
   ],
   "updatedAt": "2026-09-01",
   "registeredAt": "2026-06-19",
-  "viewCount": 167,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 168,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "출산모 유축기 대여 지원을 통한 모유수유 친화적 환경 조성 및 모자 건강증진 도모",
   "target": "중랑구에 주민등록을 둔 출산모",
   "selectionCriteria": "",

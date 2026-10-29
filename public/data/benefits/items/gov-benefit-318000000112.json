@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000112",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001775&bnefType=all&svcId=318000000112",
   "onlineUrl": "",
   "inquiry": [
     "생활보장과/02-2670-3387"
   ],
   "updatedAt": "2026-10-26",
   "registeredAt": "2021-09-23",
-  "viewCount": 4501,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 4502,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "생계, 의료급여 수급자에게 명절 위문금 지급",
   "target": "○ 생계급여, 의료급여",
   "selectionCriteria": "",

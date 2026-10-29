@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/322000000102",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1000431&bnefType=all&svcId=322000000102",
   "onlineUrl": "",
   "inquiry": [
     "장애인복지과/02-3423-5885"
   ],
   "updatedAt": "2026-05-11",
   "registeredAt": "2021-09-23",
-  "viewCount": 1098,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1099,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "저소득 장애인에게 무료급식 제공",
   "target": "○ 기초생활수급 장애인",
   "selectionCriteria": "",

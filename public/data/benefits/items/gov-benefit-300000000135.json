@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000135",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2100509&bnefType=all&svcId=300000000135",
   "onlineUrl": "",
   "inquiry": [
     "종로구 보건소 예방접종실/02-2148-3642"
   ],
   "updatedAt": "2026-10-26",
   "registeredAt": "2022-10-27",
-  "viewCount": 1066,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1067,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "예방접종률 향상을 통한 예방접종 대상 감염병 퇴치",
   "target": "만 12세 이하 어린이",
   "selectionCriteria": "",

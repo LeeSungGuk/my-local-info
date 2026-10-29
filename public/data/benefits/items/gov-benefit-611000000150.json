@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000000150",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1005405&bnefType=all&svcId=611000000150",
   "onlineUrl": "",
   "inquiry": [
     "관할 주민센터/02-120"
   ],
   "updatedAt": "2025-11-27",
   "registeredAt": "2021-09-23",
-  "viewCount": 1321,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1322,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "결식우려아동에게 급식 지원",
   "target": "○ 저소득층 결식우려 아동",
   "selectionCriteria": "",

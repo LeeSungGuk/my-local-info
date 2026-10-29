@@ -19,15 +19,15 @@
     "방문신청",
     "직접입력"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000161",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2100309&bnefType=all&svcId=305000000161",
   "onlineUrl": "",
   "inquiry": [
     "동대문구보건소 의약과 방문건강팀/02-2127-5339"
   ],
   "updatedAt": "2026-08-14",
   "registeredAt": "2022-10-21",
-  "viewCount": 702,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 704,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "로봇재활기기를 공공의료에 도입하여 장애인의 건강능력향상 도모",
   "target": "❍ 장애인 및 예비장애인 \n  - 뇌병변장애 및 지체장애 우선",
   "selectionCriteria": "",

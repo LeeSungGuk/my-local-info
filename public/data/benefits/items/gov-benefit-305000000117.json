@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000117",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=807991&bnefType=all&svcId=305000000117",
   "onlineUrl": "",
   "inquiry": [
     "채보경/02-2127-5362"
   ],
   "updatedAt": "2026-08-14",
   "registeredAt": "2022-04-21",
-  "viewCount": 1052,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1053,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "관내 장애인 시설 이용자 대상으로 이동치과 방문검진 서비스 제공",
   "target": "관내 장애인 시설 이용자",
   "selectionCriteria": "",

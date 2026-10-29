@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000419",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2168128&bnefType=all&svcId=318000000419",
   "onlineUrl": "",
   "inquiry": [
     "영등포구청 민원여권과/02-2670-3106"
   ],
   "updatedAt": "2026-09-10",
   "registeredAt": "2025-11-26",
-  "viewCount": 273,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 274,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "? 사회 여러 분야의 비대면서비스 전환 추세에 따라 무인민원발급기      이용 활성화\n ? 구민의 수수료 경제적 부담을 덜어주는 다가가는 행정 서비스 제공",
   "target": "무인민원발급기 이용자",
   "selectionCriteria": "",

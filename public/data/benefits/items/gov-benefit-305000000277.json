@@ -20,15 +20,15 @@
     "기타 온라인신청",
     "직접입력"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000277",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2151118&bnefType=all&svcId=305000000277",
   "onlineUrl": "https://www.ddm.go.kr/health/index.do",
   "inquiry": [
     "보건소 건강관리과/02-2127-4635"
   ],
   "updatedAt": "2026-08-14",
   "registeredAt": "2025-07-30",
-  "viewCount": 460,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 461,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "어르신 대상으로 치매 및 뇌혈관질환 등을 예방하기 위해 한의학적 기술을 사용하여 건강생활 습관 유지 및 행복한 노년생활 향상에 도모하고자 함",
   "target": "동대문구민 60세 이상 참여 희망자 ※ 단, 치매환자 및 치매안심센터 서비스 이용자 제외",
   "selectionCriteria": "",

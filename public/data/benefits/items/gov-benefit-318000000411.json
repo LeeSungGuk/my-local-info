@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "직접입력"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000411",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2167425&bnefType=all&svcId=318000000411",
   "onlineUrl": "",
   "inquiry": [
     "영등포노인종합복지관/2068-5326"
   ],
   "updatedAt": "2026-09-05",
   "registeredAt": "2025-11-21",
-  "viewCount": 320,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 322,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "영등포노인종합복지관 무료 셔틀 버스 이용",
   "target": "영등포노인종합복지관 이용 어르신(복지관 회원)",
   "selectionCriteria": "",

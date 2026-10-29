@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "기타 온라인신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00023700003",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2000406&bnefType=all&svcId=O00023700003",
   "onlineUrl": "https://www.songpamom.or.kr/",
   "inquiry": [
     "생애건강과/02-2147-5144"
   ],
   "updatedAt": "2026-07-28",
   "registeredAt": "2022-07-15",
-  "viewCount": 1460,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1461,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "사회적 취약계층에게 산후조리원 이용요금 감면(대상별 상이)",
   "target": "전국 산모 및 신생아(송파구민 1순위)",
   "selectionCriteria": "",

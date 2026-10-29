@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/302000000102",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1000683&bnefType=all&svcId=302000000102",
   "onlineUrl": "",
   "inquiry": [
     "어르신복지과/02-2199-4685"
   ],
   "updatedAt": "2026-08-13",
   "registeredAt": "2021-09-23",
-  "viewCount": 1802,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1803,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "100세 도래 어르신에게 장수축하금 지급",
   "target": "○ 용산구에 연속하여 3년 이상 주민등록을 두고 계신 100세 도래 어르신",
   "selectionCriteria": "",

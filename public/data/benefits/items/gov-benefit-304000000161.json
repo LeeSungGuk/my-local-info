@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000161",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=803611&bnefType=all&svcId=304000000161",
   "onlineUrl": "",
   "inquiry": [
     "광진구청 일자리청년과/02-450-7056"
   ],
   "updatedAt": "2026-08-04",
   "registeredAt": "2021-11-03",
-  "viewCount": 1999,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 2002,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "행복일자리사업 운영을 통한 구민대상 공공일자리 제공",
   "target": "만 18세 이상 근로능력 있는 광진구민",
   "selectionCriteria": "",

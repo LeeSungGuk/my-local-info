@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cover-title cover-desc" data-cover-generator="seoulcity" data-cover-version="2" data-cover-subject="cinema" data-cover-scene="cinema-seats" data-cover-palette="lilac">
+  <title id="cover-title">헤드폰 너머 펼쳐지는 나만의 영화관: 서울 무료 미디어 아카이브 3곳</title>
+  <desc id="cover-desc">스크린과 좌석이 있는 작은 영화관. 분류: 무료코스. 추천 장소: 마포구 한국영상자료원 영상도서관, 서초구 국립중앙도서관 디지털도서관, 중구 서울시립미술관 미디어아카이브</desc>
+  <rect width="1600" height="900" fill="#F7F3EB"/>
+  <rect x="120" y="65" width="1360" height="770" rx="54" fill="#E5DFEA"/>
+  <ellipse cx="800" cy="763" rx="420" ry="18" fill="#303A33" opacity=".06"/>
+  <g transform="translate(280 130) scale(1.04)" stroke="#303A33" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><rect x="200" y="55" width="600" height="270" rx="4" fill="#F7F3EB"/><rect x="230" y="82" width="540" height="215" rx="1" fill="#6B7D70"/><g transform="translate(290 425) scale(0.9)"><rect x="-53" y="-125" width="106" height="105" rx="22" fill="#95839E"/><rect x="-65" y="-25" width="130" height="28" rx="8" fill="#F7F3EB"/><path d="M-45 3L-56 100" fill="none" /><path d="M45 3L56 100" fill="none" /></g><g transform="translate(500 425) scale(0.9)"><rect x="-53" y="-125" width="106" height="105" rx="22" fill="#95839E"/><rect x="-65" y="-25" width="130" height="28" rx="8" fill="#F7F3EB"/><path d="M-45 3L-56 100" fill="none" /><path d="M45 3L56 100" fill="none" /></g><g transform="translate(710 425) scale(0.9)"><rect x="-53" y="-125" width="106" height="105" rx="22" fill="#95839E"/><rect x="-65" y="-25" width="130" height="28" rx="8" fill="#F7F3EB"/><path d="M-45 3L-56 100" fill="none" /><path d="M45 3L56 100" fill="none" /></g><path d="M460 150L550 193L460 236Z" fill="#E5DFEA" /></g>
+</svg>

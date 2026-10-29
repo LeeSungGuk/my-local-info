@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000288",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2168604&bnefType=all&svcId=305000000288",
   "onlineUrl": "",
   "inquiry": [
     "동대문구보건소 감염병진료실/02-2127-5453"
   ],
   "updatedAt": "2026-08-14",
   "registeredAt": "2025-12-10",
-  "viewCount": 423,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 424,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "건강관리에 소홀하기 쉬운 청년층 1인 가구 건강검진 무료지원(동대문구에 주민등록을 둔 자)",
   "target": "만 19~39세 동대문구 거주 청년 1인 가구(*주민등록등본 기준)",
   "selectionCriteria": "",

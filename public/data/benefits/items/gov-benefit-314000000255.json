@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000255",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2161216&bnefType=all&svcId=314000000255",
   "onlineUrl": "",
   "inquiry": [
     "권수진/02-2620-3496"
   ],
   "updatedAt": "2026-08-10",
   "registeredAt": "2025-10-22",
-  "viewCount": 453,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 454,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "저소득층의 중개보수비를 지원함으로써 경제적 취약계층 구민의 주거 안정 도모\n저소득주민 무료중개서비스를 통해 높은 복지행정서비스 제공",
   "target": "○ 기초생활수급자\n    - 생계, 교육, 의료, 주거급여 수급자",
   "selectionCriteria": "",

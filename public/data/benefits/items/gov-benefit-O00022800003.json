@@ -19,15 +19,15 @@
     "기타 온라인신청",
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00022800003",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2000120&bnefType=all&svcId=O00022800003",
   "onlineUrl": "https://s.gfmc.kr",
   "inquiry": [
     "금천문화체육부(금빛센터팀)/02-802-9685"
   ],
   "updatedAt": "2026-09-18",
   "registeredAt": "2022-07-15",
-  "viewCount": 1232,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1233,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "사회적 취약계층에게 금빛휘트니스센터 이용요금 감면(대상별 상이)",
   "target": "- 지원대상 \n○ 장애인 본인 / 보호자 \n○ 국가유공자 / 배우자\n○ 기초생활수급자 본인 \n○ 다둥이카드소지자\n\n- 제외대상 : 해당없음\n\n- 지역범위 : 금천구, 타지역",
   "selectionCriteria": "",

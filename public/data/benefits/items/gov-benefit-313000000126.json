@@ -18,7 +18,7 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000126",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2123307&bnefType=all&svcId=313000000126",
   "onlineUrl": "",
   "inquiry": [
     "마포구 부동산정보과/02-3153-9331",
@@ -26,8 +26,8 @@
   ],
   "updatedAt": "2026-08-27",
   "registeredAt": "2024-08-05",
-  "viewCount": 5821,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 5826,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "저소득층의 전세사기 피해 예방 및 안정된 주거환경 조성",
   "target": "전연령",
   "selectionCriteria": "",

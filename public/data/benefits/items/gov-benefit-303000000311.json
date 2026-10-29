@@ -19,15 +19,15 @@
     "정부24온라인신청",
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000311",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2118901&bnefType=all&svcId=303000000311",
   "onlineUrl": "",
   "inquiry": [
     "성동구보건소 건강관리과/0222867089"
   ],
   "updatedAt": "2026-09-10",
   "registeredAt": "2024-04-04",
-  "viewCount": 1118,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1119,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "난임시술비 지원으로 난임부부에게 경제적 부감 경감 및 원하는 자녀를 갖도록 지원하여 저출산 극복에 기여",
   "target": "난임부부 시술비 지원 대상자 중 시술기관에서 시술과 직접적 관련 있는 원외약처방을 받은 경우\n약제비에 대해서 지원금 한도내에서 지급",
   "selectionCriteria": "",

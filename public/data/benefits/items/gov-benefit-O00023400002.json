@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "직접입력"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00023400002",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2116701&bnefType=all&svcId=O00023400002",
   "onlineUrl": "",
   "inquiry": [
     "서대문행복이룸센터/0231408373"
   ],
   "updatedAt": "2026-08-07",
   "registeredAt": "2024-02-05",
-  "viewCount": 1341,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1342,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "강좌 수강료 감면",
   "target": "○ 국민기초생활수급자\n○ 한부모가족대상자\n○ 국가유공자와 자녀\n○ 등록 장애인\n○ 다자녀 부모\n○ 서대문구 거주 만65세 이상 고령자",
   "selectionCriteria": "",

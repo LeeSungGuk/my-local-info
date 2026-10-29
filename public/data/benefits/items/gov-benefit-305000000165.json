@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000165",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2100711&bnefType=all&svcId=305000000165",
   "onlineUrl": "",
   "inquiry": [
     "동대문구청 자치행정과/02-2127-4057"
   ],
   "updatedAt": "2026-08-14",
   "registeredAt": "2022-10-28",
-  "viewCount": 744,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 746,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "북한이탈주민의 취업역량 강화를 위하여 교육비를 지원해주는 사업",
   "target": "취업을 위하여 학원 수강을 희망하는 북한이탈주민",
   "selectionCriteria": "",

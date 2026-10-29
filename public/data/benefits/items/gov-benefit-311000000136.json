@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "직접입력"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000136",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2100612&bnefType=all&svcId=311000000136",
   "onlineUrl": "",
   "inquiry": [
     "서울시 다산콜센터/120"
   ],
   "updatedAt": "2026-08-05",
   "registeredAt": "2022-10-27",
-  "viewCount": 912,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 913,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "범죄 취약계층에 안전귀가 지원 및 우범지역 순찰",
   "target": "여성, 청소년 등 범죄취약 계층을 포함한 은평구민 누구나",
   "selectionCriteria": "",

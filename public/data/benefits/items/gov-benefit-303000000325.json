@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "기타 온라인신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000325",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2161817&bnefType=all&svcId=303000000325",
   "onlineUrl": "https://www.sd.go.kr/booking/index.do",
   "inquiry": [
     "자치행정과/02-2286-5147"
   ],
   "updatedAt": "2026-08-10",
   "registeredAt": "2025-10-27",
-  "viewCount": 509,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 511,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "관내 거주 청년을 대상으로 행정체험의 기회를 제공하여 구 행정에 대한 이해를 제고하고 현장중심 정책 아이디어를 적극 발굴하고자 함",
   "target": "모집공고일 기준 성동구에 주민등록된 19~29세 청년",
   "selectionCriteria": "",

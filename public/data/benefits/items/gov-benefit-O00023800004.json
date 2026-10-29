@@ -18,7 +18,7 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00023800004",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2001392&bnefType=all&svcId=O00023800004",
   "onlineUrl": "",
   "inquiry": [
     "양천구시설관리공단 주차관리팀/02-2644-1386"
@@ -26,7 +26,7 @@
   "updatedAt": "2026-07-28",
   "registeredAt": "2022-07-15",
   "viewCount": 1095,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "사회적 취약계층 지원, 친환경자동차 활성화,  전통시장 활성화 등을 위한 공영주차장 이용요금 감면",
   "target": "장애인, 국가유공상이자, 경차, 친환경차, 다둥이행복카드소지자, 임산부 등",
   "selectionCriteria": "",

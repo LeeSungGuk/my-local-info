@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/304000000117",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1005247&bnefType=all&svcId=304000000117",
   "onlineUrl": "",
   "inquiry": [
     "광진구 사회복지장애인과/02-450-7523"
   ],
   "updatedAt": "2026-08-05",
   "registeredAt": "2021-09-23",
-  "viewCount": 1358,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1359,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "생계·의료급여 수급자 가구의 초6·중2·고2 재학생에게 문화체험활동경비를 지원하여 어려운 가정 환경으로 인해 가질 수 있는 소외감을 해소하고 건강한 학교 생활을 지원코자 함",
   "target": "기준중위소득 40% 이하의 생계, 의료급여 수급자 가구의 초6, 중2, 고2 재학생",
   "selectionCriteria": "",

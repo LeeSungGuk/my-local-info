@@ -19,15 +19,15 @@
     "정부24온라인신청",
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/301000000111",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001508&bnefType=all&svcId=301000000111",
   "onlineUrl": "",
   "inquiry": [
     "어르신장애인복지과/02-3396-5534"
   ],
   "updatedAt": "2026-10-21",
   "registeredAt": "2021-09-23",
-  "viewCount": 1156,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1157,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "중구 관내 등록장애인에게 연간 30만원 이내에서 휠체어 수리비를 지원함으로써 이동보장권 강화",
   "target": "○ 중구 관내 주민등록을 둔 일반휠체어, 전동휠체어, 전동스쿠터 이용 장애인",
   "selectionCriteria": "",

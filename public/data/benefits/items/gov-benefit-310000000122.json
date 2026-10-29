@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/310000000122",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1005850&bnefType=all&svcId=310000000122",
   "onlineUrl": "",
   "inquiry": [
     "생활보건과/02-2116-4193"
   ],
   "updatedAt": "2026-10-27",
   "registeredAt": "2021-09-23",
-  "viewCount": 3865,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 3868,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "임신부에게 초기검사 및 기형아 검사 지원",
   "target": "○ 노원구에 주민등록 주소지를 둔  임산부",
   "selectionCriteria": "",

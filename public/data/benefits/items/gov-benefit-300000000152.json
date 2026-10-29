@@ -18,7 +18,7 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000152",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2100718&bnefType=all&svcId=300000000152",
   "onlineUrl": "",
   "inquiry": [
     "어르신복지과/02-2148-2207"
@@ -26,7 +26,7 @@
   "updatedAt": "2026-10-22",
   "registeredAt": "2022-10-28",
   "viewCount": 997,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "경로당 취미교실(요가, 노래, 레크리에이션, 풍물, 장구, 한글서예)",
   "target": "○ 경로당 이용 어르신 중 희망자",
   "selectionCriteria": "",

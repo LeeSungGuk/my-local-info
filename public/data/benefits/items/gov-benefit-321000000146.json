@@ -18,7 +18,7 @@
   "applicationMethodTypes": [
     "기타 온라인신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/321000000146",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2187116&bnefType=all&svcId=321000000146",
   "onlineUrl": "https://parents.seocho.go.kr/site/seochobogun/ex/lectureMo/List.do",
   "inquiry": [
     "서초구보건소/02-2155-5495",
@@ -29,7 +29,7 @@
   "updatedAt": "2026-10-22",
   "registeredAt": "2026-08-12",
   "viewCount": 40,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "출산 가정의 유축기 구매비 부담 경감\n모유수유 실천을 위한 서초구 출산 가정을 대상으로 유축기 대여",
   "target": "○ 서초구 출산 후 3개월 이내 가정",
   "selectionCriteria": "",

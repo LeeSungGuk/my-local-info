@@ -19,15 +19,15 @@
     "방문신청",
     "직접입력"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/308000000118",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1003784&bnefType=all&svcId=308000000118",
   "onlineUrl": "",
   "inquiry": [
     "건강증진과/02-901-7666"
   ],
-  "updatedAt": "2026-10-22",
+  "updatedAt": "2026-10-28",
   "registeredAt": "2021-09-23",
-  "viewCount": 1502,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1503,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "생애주기별 대상자들에게 올바른 구강관리에 대한 인식 및 습관 형성으로 구강건강증진에 기여할 수 있도록 프로그램을 운영",
   "target": "○ 생애주기별 신청 대상",
   "selectionCriteria": "",

@@ -18,7 +18,7 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/300000000154",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2100722&bnefType=all&svcId=300000000154",
   "onlineUrl": "",
   "inquiry": [
     "종로구청 복지정책과/02-2148-2520"
@@ -26,7 +26,7 @@
   "updatedAt": "2026-10-22",
   "registeredAt": "2022-10-28",
   "viewCount": 783,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "복지 사각지대 의심 가구에게 집배원이 복지 등기 우편을 배달하면서 해당 가구의 안부확인",
   "target": "복지 사각지대 위기 의심가구",
   "selectionCriteria": "",

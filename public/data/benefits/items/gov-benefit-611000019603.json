@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/611000019603",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2123305&bnefType=all&svcId=611000019603",
   "onlineUrl": "",
   "inquiry": [
     "해당 주민센터 및 서울시 주택실 주거복지과/02-2133-7985"
   ],
   "updatedAt": "2026-08-04",
   "registeredAt": "2024-08-05",
-  "viewCount": 1184,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1186,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "주거환경 취약지역에 거주하는 저소득 가구를 대상으로 집수리를 실시하여 저소득 가구의 삶의 질 향상 및 주거안정에 기여",
   "target": "○ 주택법상 ‘주택’ 거주 기준중위소득 60% 이하 가구 \n   - 기초생활수급자, 차상위계층, 차차상위계층",
   "selectionCriteria": "",

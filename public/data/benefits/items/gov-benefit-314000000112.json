@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "직접입력"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/314000000112",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001750&bnefType=all&svcId=314000000112",
   "onlineUrl": "",
   "inquiry": [
     "생활보장과/02-2620-4677"
   ],
   "updatedAt": "2026-10-27",
   "registeredAt": "2021-09-23",
-  "viewCount": 1109,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1110,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "저소득노인 세대에 국민건강보험료 지원",
   "target": "○ 매월 보험료 부과금액이 보건복지부가 고시한 최저보험료 이하인 독거노인 및 노부부세대",
   "selectionCriteria": "",

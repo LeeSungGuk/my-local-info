@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000181",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2114206&bnefType=all&svcId=307000000181",
   "onlineUrl": "",
   "inquiry": [
     "어르신·장애인복지과/02-2241-2514"
   ],
   "updatedAt": "2026-08-13",
   "registeredAt": "2023-11-28",
-  "viewCount": 801,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 802,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "○ 규칙적인 건강생활 실천으로 최적의 건강상태 유지 및 건강 체력 강화\n○ 신체 기능 강화를 통해 장애의 최소화 및 2, 3차 후유 장애 예방\n○ 비장애인과의 건강 수준 격차를 해소하고, 궁극적으로 장애인의 자립생활과 사회복귀를 촉진",
   "target": "○ 소득 및 연령 : 기준 중위소득 140% 이하 가구의 19세 이상\n\n○ 자격기준 : 지체, 시각, 청각, 언어, 지적, 뇌병변, 자폐성, 안면, 정신장애인 (내부 기능 장애는 제외)",
   "selectionCriteria": "",

@@ -18,7 +18,7 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000105",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001463&bnefType=all&svcId=311000000105",
   "onlineUrl": "",
   "inquiry": [
     "서부장애인종합복지관/070-7113-5750",
@@ -26,8 +26,8 @@
   ],
   "updatedAt": "2026-10-26",
   "registeredAt": "2021-09-23",
-  "viewCount": 2127,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 2131,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "장애인 및 가족을 위해 휴식 및 개별여행 지원",
   "target": "○ 은평구 거주 등록 장애인 및 그 가족",
   "selectionCriteria": "",

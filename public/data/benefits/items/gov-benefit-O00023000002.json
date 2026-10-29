@@ -18,7 +18,7 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00023000002",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2000295&bnefType=all&svcId=O00023000002",
   "onlineUrl": "",
   "inquiry": [
     "창동문화체육팀/02-901-5046"
@@ -26,7 +26,7 @@
   "updatedAt": "2026-08-12",
   "registeredAt": "2022-07-15",
   "viewCount": 1287,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "사회적 취약계층 등에게 문화시설 이용요금 감면(대상별 상이)",
   "target": "○ 장애인\n○ 국가유공자\n○ 5.18민주유공자\n○ 방역명문가\n○ 기초생활수급자\n○ 경로(만65세)\n○ 다둥이 행복카드 소지자\n○ 주민등록상 13세 이상 55세 이하의 여성(수영)",
   "selectionCriteria": "",

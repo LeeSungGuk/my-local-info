@@ -20,15 +20,15 @@
     "방문신청",
     "직접입력"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/302000000126",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2175820&bnefType=all&svcId=302000000126",
   "onlineUrl": "",
   "inquiry": [
     "건강관리과/02-2199-6056"
   ],
   "updatedAt": "2026-08-06",
   "registeredAt": "2026-02-26",
-  "viewCount": 517,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 520,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "임신부 및 배우자 대상 백일해 예방접종 지원을 통해 태어날 아기를 감염병으로부터 보호",
   "target": "○ 용산구에 주민등록을 두고 거주하는 임산부(분만 후 2개월까지 지원 가능)\n○ 용산구에 주민등록을 두고 거주하는 임산부의 배우자(※배우자의 경우 타구민도 접종 가능)\n※ 임산부는 e보건소 임산부 신청 필요 ( 문의 : 02-2199-6056 )",
   "selectionCriteria": "",

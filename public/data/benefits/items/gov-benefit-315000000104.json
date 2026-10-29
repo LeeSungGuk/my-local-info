@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "신청불필요"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/315000000104",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001470&bnefType=all&svcId=315000000104",
   "onlineUrl": "",
   "inquiry": [
     "출산보육과/0226006494"
   ],
   "updatedAt": "2026-08-03",
   "registeredAt": "2021-09-23",
-  "viewCount": 5317,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 5318,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "저소득 한부모가구에 명절위문금 지원",
   "target": "○ 관내 주민등록을 두고, 법정 저소득 한부모가구(중위소득65% 이하) 지원(단, 생계, 의료급여 지원가구는 제외)",
   "selectionCriteria": "",

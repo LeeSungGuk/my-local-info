@@ -19,15 +19,15 @@
     "기타 온라인신청",
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000140",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=809819&bnefType=all&svcId=305000000140",
   "onlineUrl": "https://bokjiro.go.kr",
   "inquiry": [
     "사회복지과/02-2127-4238"
   ],
   "updatedAt": "2026-08-14",
   "registeredAt": "2022-07-05",
-  "viewCount": 2785,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 2786,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "저소득층 주거급여(임차, 수선유지) 지원",
   "target": "소득인정액이 기준중위소득 47% 이하인 가구",
   "selectionCriteria": "",

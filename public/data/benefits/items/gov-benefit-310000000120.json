@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/310000000120",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1005720&bnefType=all&svcId=310000000120",
   "onlineUrl": "",
   "inquiry": [
     "복지정책과/02-2116-3652"
   ],
   "updatedAt": "2026-10-21",
   "registeredAt": "2021-09-23",
-  "viewCount": 1462,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1464,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "국가를 위하여 헌신한 국가보훈대상자의 희생을 기억하고 예우와 지원을 강화하기 위하여 노원구 보훈예우수당, 참전유공자 배우자 복지수당 및 보훈명절위문금, 사망위로금을 지급하고자 함",
   "target": "○ 국가보훈대상자 및 수권유족\n○ 유족승계를 받지 못한 사망한 참전유공자 배우자",
   "selectionCriteria": "",

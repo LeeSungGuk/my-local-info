@@ -18,7 +18,7 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00024000023",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2000521&bnefType=all&svcId=O00024000023",
   "onlineUrl": "",
   "inquiry": [
     "용산 제주유스호스텔/064-738-9502"
@@ -26,7 +26,7 @@
   "updatedAt": "2026-08-05",
   "registeredAt": "2022-07-15",
   "viewCount": 771,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "장애인에게 용산제주유스호스텔 이용요금 40% 감면",
   "target": "장애인 복지카드 소지자",
   "selectionCriteria": "",

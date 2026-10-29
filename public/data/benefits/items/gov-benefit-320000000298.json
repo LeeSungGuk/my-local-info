@@ -18,7 +18,7 @@
   "applicationMethodTypes": [
     "기타 온라인신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/320000000298",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2123314&bnefType=all&svcId=320000000298",
   "onlineUrl": "https://www.gwanak.go.kr/site/edu/ex/reservation/re00403.do?riIdx=RI003434&amp;riType=A",
   "inquiry": [
     "청년정책과/02-879-5932"
@@ -26,7 +26,7 @@
   "updatedAt": "2026-07-29",
   "registeredAt": "2024-08-05",
   "viewCount": 1188,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "구직 청년들의 경제적 부담 완화와 구직활동 촉진",
   "target": "관악구 거주 19세~39세 미취업 청년(1986년∼2007년생)",
   "selectionCriteria": "",

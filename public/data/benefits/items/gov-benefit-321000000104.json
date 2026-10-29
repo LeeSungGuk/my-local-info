@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/321000000104",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001066&bnefType=all&svcId=321000000104",
   "onlineUrl": "",
   "inquiry": [
     "의료지원과/02-2155-8105"
   ],
-  "updatedAt": "2026-08-10",
+  "updatedAt": "2026-10-28",
   "registeredAt": "2021-09-23",
-  "viewCount": 1350,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1352,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "건상상담 및 진료, 투약 등을 통한 질병예방 및 구민의 건강증진 도모",
   "target": "○ 만 15세 이상 시민",
   "selectionCriteria": "",

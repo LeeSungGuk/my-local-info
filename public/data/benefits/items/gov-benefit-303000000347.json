@@ -19,15 +19,15 @@
     "정부24온라인신청",
     "기타 온라인신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000347",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2169423&bnefType=all&svcId=303000000347",
   "onlineUrl": "https://www.sd.go.kr/booking/contents.do?key=5153&amp;",
   "inquiry": [
     "건강관리과/02-2286-7627"
   ],
   "updatedAt": "2026-08-04",
   "registeredAt": "2025-12-08",
-  "viewCount": 455,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 456,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "임신부 및 배우자 대상 백일해 예방접종 지원을 통해 태어날 아기를 감염병으로부터 보호",
   "target": "○ 성동구에 주민등록을 두고 거주하는 임신 27~36주 임신부\n○ 성동구에 주민등록을 두고 거주하는 임신부의 배우자(※배우자의 경우 타구민도 접종 가능)",
   "selectionCriteria": "",

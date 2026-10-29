@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "기타 온라인신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/321000000143",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2185420&bnefType=all&svcId=321000000143",
   "onlineUrl": "https://www.seocho.go.kr/site/seocho/ex/consult/ConsultScheduleFCalendar.do?searchCsuType=V",
   "inquiry": [
     "서초구청 오케이민원센터/02-2155-6271"
   ],
   "updatedAt": "2026-08-12",
   "registeredAt": "2026-07-09",
-  "viewCount": 166,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 167,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "복잡·다양해지는 생활 속 법률문제에 대해 구민에게 신속하고 접근성 높은 전문가 자문을 제공",
   "target": "서초구 주민 및 직장인",
   "selectionCriteria": "",

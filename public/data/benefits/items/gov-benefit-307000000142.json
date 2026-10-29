@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "직접입력"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/307000000142",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=810343&bnefType=all&svcId=307000000142",
   "onlineUrl": "",
   "inquiry": [
     "성북구보건소 비만관리실/02-2241-5961"
   ],
   "updatedAt": "2026-05-11",
   "registeredAt": "2022-07-27",
-  "viewCount": 3203,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 3206,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "체성분검사 및 상담 / 구민만 가능",
   "target": "성북구민, 관내 직장인, 학생만 가능",
   "selectionCriteria": "",

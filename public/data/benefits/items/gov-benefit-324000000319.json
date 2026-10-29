@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "직접입력"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/324000000319",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2128742&bnefType=all&svcId=324000000319",
   "onlineUrl": "",
   "inquiry": [
     "구민안전보험 상담센터/1522-3556"
   ],
   "updatedAt": "2026-10-19",
   "registeredAt": "2024-12-22",
-  "viewCount": 1591,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1592,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "일상생활에서 발생할 수 있는 우발적 사고 및 재난으로부터 인적 피해 등을 지원",
   "target": "지역 주민 모두",
   "selectionCriteria": "",

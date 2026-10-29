@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/313000000102",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1000480&bnefType=all&svcId=313000000102",
   "onlineUrl": "",
   "inquiry": [
     "건강동행과/02-3153-9090"
   ],
   "updatedAt": "2026-08-12",
   "registeredAt": "2021-09-23",
-  "viewCount": 1304,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1305,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "임산부의 산전 산후 관리를 체계적으로 관하여 건강한 분만을 유도하고 태아와 모성의 건강증진을 도모",
   "target": "○ 임산부",
   "selectionCriteria": "",

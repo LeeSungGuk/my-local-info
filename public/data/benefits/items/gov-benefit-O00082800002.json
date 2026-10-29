@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "기타 온라인신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00082800002",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2000326&bnefType=all&svcId=O00082800002",
   "onlineUrl": "https://www.seoulsbdc.or.kr",
   "inquiry": [
     "서울 다산콜센터/02-120"
   ],
   "updatedAt": "2025-11-27",
   "registeredAt": "2022-07-15",
-  "viewCount": 5067,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 5073,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "소상공인 생애주기별 맞춤형 종합지원(창업상담, 컨설팅, 교육, 비용지원, 폐업정리지원 등)",
   "target": "서울특별시 소상공인",
   "selectionCriteria": "",

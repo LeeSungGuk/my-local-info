@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/319000000119",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1004827&bnefType=all&svcId=319000000119",
   "onlineUrl": "",
   "inquiry": [
     "장애인복지과/02-820-9124"
   ],
   "updatedAt": "2026-09-10",
   "registeredAt": "2021-09-23",
-  "viewCount": 1048,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1049,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "장애인활동지원(국비보조사업) 대사자 중 서비스 시간이 부족한 장애인에게 추가 시간을 지원함으로써 장애인 가족의 돌봄부담 감소와 장애인 자립생활 및 사회참여 증진",
   "target": "○ 장애인활동지원 대상자 중 중증 와상∙사지마비 장애인(월 100~350시간 차등지원)",
   "selectionCriteria": "",

@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/318000000417",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2167920&bnefType=all&svcId=318000000417",
   "onlineUrl": "",
   "inquiry": [
     "영등포구보건소 생활건강과/02-2670-4720"
   ],
   "updatedAt": "2026-08-07",
   "registeredAt": "2025-11-25",
-  "viewCount": 303,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 304,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "취약계층의 반려동물 의료비 지원",
   "target": "관내 주민등록을 두고 개 또는 고양이를 기르는 취약계층(기초생활수급자, 차상위계층, 한부모가족)\n(가구당 2마리까지 신청 가능)",
   "selectionCriteria": "",

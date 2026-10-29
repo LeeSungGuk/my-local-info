@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000120",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=808188&bnefType=all&svcId=305000000120",
   "onlineUrl": "",
   "inquiry": [
     "기후환경과/02-2127-4643"
   ],
   "updatedAt": "2026-08-14",
   "registeredAt": "2022-04-28",
-  "viewCount": 1684,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1685,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "7개 동주민센터 및 전일청소년독서실에서 EM발효액 무료보급",
   "target": "동대문구민",
   "selectionCriteria": "",

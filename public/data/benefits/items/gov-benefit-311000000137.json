@@ -19,15 +19,15 @@
     "방문신청",
     "직접입력"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/311000000137",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2100704&bnefType=all&svcId=311000000137",
   "onlineUrl": "",
   "inquiry": [
     "가족정책과/351-6222"
   ],
-  "updatedAt": "2026-08-05",
+  "updatedAt": "2026-10-28",
   "registeredAt": "2022-10-27",
-  "viewCount": 2814,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 2815,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "관내 임산부 및 영유아가정(0~24개월)이 병의원방문시 전용택시를 통한 이동서비스 지원",
   "target": "관내 임산부 및 영유아가정(0~24개월)",
   "selectionCriteria": "",

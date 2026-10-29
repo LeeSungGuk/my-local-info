@@ -19,15 +19,15 @@
     "정부24온라인신청",
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/312000000107",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001646&bnefType=all&svcId=312000000107",
   "onlineUrl": "",
   "inquiry": [
     "가족정책과/02-330-3840"
   ],
   "updatedAt": "2026-08-13",
   "registeredAt": "2021-09-23",
-  "viewCount": 8940,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 8944,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "○ 적극적인 다자녀 가정 지원 정책으로 다자녀 가정이 우대받는 사회분위기 조성 \n○ 초등학교에 입학하는 다자녀를 지원하여 양육가정의 경제적 부담을 경감",
   "target": "신청일과 입학일 기준 서대문구에 주민등록이 되어 있는 둘째아 이상의 초등학교 입학아동\n(첫째 아동이 초등학교 입학 시 미대상)",
   "selectionCriteria": "",

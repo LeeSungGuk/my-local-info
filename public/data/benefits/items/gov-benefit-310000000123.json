@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/310000000123",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1005901&bnefType=all&svcId=310000000123",
   "onlineUrl": "",
   "inquiry": [
     "복지정책과/02-2116-3646"
   ],
   "updatedAt": "2026-10-22",
   "registeredAt": "2021-09-23",
-  "viewCount": 1046,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 1048,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "북한이탈주민의 지역사회 적응과 안정적인 정착을 위한 직업훈련 교육비 및 자녀 방문학습지 지원 사업을 추진하여\n균등한 교육 및 자립의 기회를 제공하고, 삶의 질 향상에 도움을 주고자 함.",
   "target": "○ 노원구 거주 취약계층 북한이탈주민",
   "selectionCriteria": "",

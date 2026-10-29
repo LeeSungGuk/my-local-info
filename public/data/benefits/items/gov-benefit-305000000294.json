@@ -18,15 +18,15 @@
   "applicationMethodTypes": [
     "방문신청"
   ],
-  "detailUrl": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/305000000294",
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2168610&bnefType=all&svcId=305000000294",
   "onlineUrl": "",
   "inquiry": [
     "동대문구보건소 감염병진료실/02-2127-5453"
   ],
   "updatedAt": "2026-08-14",
   "registeredAt": "2025-12-10",
-  "viewCount": 289,
-  "collectedAt": "2026-10-28T01:33:58.465Z",
+  "viewCount": 290,
+  "collectedAt": "2026-10-29T01:55:19.027Z",
   "purpose": "지역주민 및 학생을 위한 결핵 검진 및 관리 지원",
   "target": "호흡기 계통의 증상이 있는 분(2주 이상 기침, 객담, 혈담이나 객혈)\n결핵환자 가족 및 동거가족\n병무청 및 민간 병·의원에서 결핵 유소견자로 통보된 분\n기타 결핵검진을 희망하는 분",
   "selectionCriteria": "",
