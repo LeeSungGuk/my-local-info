@@ -1,6 +1,6 @@
 # 홈 구별 타일 지도 구현 계획
 
-- 상태: PR #8 생성, 병합·배포 전
+- 상태: 운영 배포 및 확인 완료
 - 작성일: 2026-10-30
 - 상위 목록: [works 현황](../README.md)
 - 입력: [intent.md](intent.md) · [spec.md](spec.md)
@@ -18,8 +18,8 @@
 남은 작업:
 
 - [x] `feat/home-district-tile-map` 커밋·푸시(`931fc3b99`) 및 [PR #8](https://github.com/LeeSungGuk/my-local-info/pull/8) 생성
-- [ ] PR #8 병합과 자동 배포
-- [ ] 배포 후 운영 홈과 혜택 목록 확인
+- [x] PR #8 squash 병합(`d75fd1927`)과 [자동 배포 실행 41001210625](https://github.com/LeeSungGuk/my-local-info/actions/runs/41001210625) 성공
+- [x] 운영 홈과 혜택 목록 확인 (7.4절)
 
 ## 1. 변경 파일
 
@@ -75,7 +75,7 @@
 
 ## 7. 구현 결과와 검증
 
-2026-10-30 로컬에서 1절의 파일 5개를 구현했다. 최신 `origin/main`에서 만든 `feat/home-district-tile-map`에 커밋·푸시하고 [PR #8](https://github.com/LeeSungGuk/my-local-info/pull/8)을 만들었다. 병합·배포는 아직 하지 않았다.
+2026-10-30 로컬에서 1절의 파일 5개를 구현했다. 최신 `origin/main`에서 만든 `feat/home-district-tile-map`에 커밋·푸시하고 [PR #8](https://github.com/LeeSungGuk/my-local-info/pull/8)을 만들었다. 같은 날 Cursor Bugbot 리뷰(문제 없음) 후 병합·배포하고 운영 사이트에서 확인했다.
 
 ### 7.1 구현 내용
 
@@ -114,3 +114,9 @@
 - `AC-08`: 포커스한 마포구 타일에서 Enter로 선택되고 포커스 외곽선이 보인다.
 
 브라우저 확인 스크립트는 세션 임시 폴더에서 실행했고 저장소에는 넣지 않았다.
+
+### 7.4 운영 배포 확인
+
+- [PR #8](https://github.com/LeeSungGuk/my-local-info/pull/8)은 Cursor Bugbot 리뷰에서 문제가 없었고, `d75fd1927`로 `main`에 squash 병합했다.
+- [자동 배포 실행 41001210625](https://github.com/LeeSungGuk/my-local-info/actions/runs/41001210625)의 린트·테스트·빌드·raw 데이터 정리·Cloudflare Pages 배포 단계가 모두 성공했다.
+- 운영 사이트 `https://seoulcities.net`에서 같은 브라우저 확인 31개 항목이 모두 통과했다. 종로구 혜택 58·행사 20, 강서구(행사 없음)와 은평구(행사 7건)의 링크 규칙, 390px 폭, 혜택 목록 `?district=` 동작을 확인했다.
