@@ -424,8 +424,8 @@ erDiagram
 | REQ-FUNC-029 | 정정 요청 구분 | 8.9 | PRD | 정정 요청 | Must | Review |  |
 | REQ-FUNC-030 | 서울 정보 챗봇 | 7 | PRD | 보조 안내 | Should | Test | 범위는 PRD 15의 열린 질문과 함께 관리 |
 | REQ-FUNC-031 | 챗봇 공식 확인 보존 | 7, 10 | PRD | 안전 안내 | Must | Review |  |
-| REQ-FUNC-032 | 홈 구별 타일 지도 | 8.1, 6.3 | PRD, works `home_district_tile_map` | 구 기준 탐색 | Should | Test | 2026-10-30 추가, 로컬 구현·검증 완료(미배포) |
-| REQ-FUNC-033 | 혜택 목록 지역 주소 필터 | 8.3, 8.1 | PRD, works `home_district_tile_map` | 구 기준 탐색 | Should | Test | 2026-10-30 추가, 로컬 구현·검증 완료(미배포) |
+| REQ-FUNC-032 | 홈 구별 타일 지도 | 8.1, 6.3 | PRD, works `home_district_tile_map` | 구 기준 탐색 | Should | Test | 2026-10-30 추가, PR #8 생성(미배포) |
+| REQ-FUNC-033 | 혜택 목록 지역 주소 필터 | 8.3, 8.1 | PRD, works `home_district_tile_map` | 구 기준 탐색 | Should | Test | 2026-10-30 추가, PR #8 생성(미배포) |
 | REQ-NF-001 | 정적 배포 유지 | 4, 12 | PRD | 안정 운영 | Must | Analysis |  |
 | REQ-NF-002 | 검색 인덱스 선행 생성 | 12 | PRD | 검색 운영 | Must | Test |  |
 | REQ-NF-003 | API 키 없는 일반 확인 | 12 | PRD | 개발 가능성 | Must | Test |  |
