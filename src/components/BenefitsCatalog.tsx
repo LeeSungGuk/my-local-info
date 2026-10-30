@@ -17,7 +17,6 @@ const BENEFIT_VIEW_LABELS: Record<string, string> = {
 
 export default function BenefitsCatalog({ benefits }: { benefits: PublicBenefitSummary[] }) {
   const [selectedField, setSelectedField] = useState(ALL_FIELDS);
-  const [selectedDistrict, setSelectedDistrict] = useState(ALL_DISTRICTS);
   const [visibleCount, setVisibleCount] = useState(INITIAL_VISIBLE_COUNT);
   const [isMobileFiltersOpen, setIsMobileFiltersOpen] = useState(false);
   const searchParams = useSearchParams();
@@ -47,6 +46,8 @@ export default function BenefitsCatalog({ benefits }: { benefits: PublicBenefitS
   const allDistricts = Array.from(new Set(baseBenefits.map((benefit) => benefit.district))).sort((a, b) =>
     a.localeCompare(b, "ko"),
   );
+  const districtParam = searchParams.get("district") ?? ALL_DISTRICTS;
+  const selectedDistrict = allDistricts.includes(districtParam) ? districtParam : ALL_DISTRICTS;
 
   const getFieldCount = (field: string) =>
     baseBenefits.filter(
@@ -88,7 +89,16 @@ export default function BenefitsCatalog({ benefits }: { benefits: PublicBenefitS
   }
 
   function selectDistrict(district: string) {
-    setSelectedDistrict(district);
+    const nextParams = new URLSearchParams(window.location.search);
+
+    if (district === ALL_DISTRICTS) {
+      nextParams.delete("district");
+    } else {
+      nextParams.set("district", district);
+    }
+
+    const nextQuery = nextParams.toString();
+    window.history.replaceState(null, "", nextQuery ? `${window.location.pathname}?${nextQuery}` : window.location.pathname);
     setVisibleCount(INITIAL_VISIBLE_COUNT);
   }
 
