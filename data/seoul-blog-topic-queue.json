@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-10-29T10:55:33+09:00",
+  "lastGeneratedAt": "2026-10-30T11:06:27+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -4107,9 +4107,9 @@
         "도심걷기여행"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-10-24T09:58:45+09:00",
-      "usedAt": null
+      "usedAt": "2026-10-30T11:06:27+09:00"
     },
     {
       "id": "seoul-niche-fragrance-incense-showrooms",
