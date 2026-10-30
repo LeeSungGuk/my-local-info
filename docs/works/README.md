@@ -6,6 +6,7 @@
 
 | 업무 | 목적 요약 | 현재 상태 | 완료된 범위 | 남은 작업 | 문서 |
 | --- | --- | --- | --- | --- | --- |
+| `home_district_tile_map` | 홈에서 25개 구를 타일 지도로 골라 구별 행사·혜택·먹거리로 이동 | 로컬 구현·검증 완료, 커밋·PR·배포 전 | • 구별 데이터 분포 확인<br>• 시안 비교 후 타일 지도로 결정, 로컬 화면 검토 후 5×5 정사각형 배치로 변경<br>• 혜택 수 기본 색, 상황별 코스 아래 배치, 행사·혜택 구 필터 연결, 홈만 적용 결정<br>• PRD 8.1·8.3, SRS REQ-FUNC-032·033 갱신<br>• 구현 승인 후 로컬 구현(`W-01`~`W-06`)<br>• 테스트 115개·타입 검사·변경 파일 린트·빌드·실제 화면 31개 항목 통과 | 커밋·푸시, PR, 병합·배포와 운영 화면 확인 | [intent](./home_district_tile_map/intent.md) · [spec](./home_district_tile_map/spec.md) · [plan](./home_district_tile_map/plan.md) |
 | `blog_cover_diversity` | 블로그 표지 이미지 181개의 주제 적합성 개선 및 반복 감소 | 표지 다양화·캐시 재발 방지 운영 배포 및 확인 완료 | • 24개 주제군·85개 장면과 기존 181개 표지 반영<br>• PR #2 병합 및 자동 검사·배포 성공<br>• 운영 SVG 181개 해시 일치 확인<br>• 캐시 방지 버전 주소 구현 및 테스트(103개)·린트·빌드·실제 화면 검증 통과<br>• 수정 커밋·푸시(`e88f00419`) 및 PR #3 병합·자동 배포<br>• 운영 홈·목록·상세와 표지 181개 버전·내용 일치 확인 | 운영 후속 작업 없음 | [intent](./blog_cover_diversity/intent.md) · [spec](./blog_cover_diversity/spec.md) · [plan](./blog_cover_diversity/plan.md) |
 
 ## 문서 작성 및 체크 규칙

@@ -7,7 +7,11 @@ import HomeEventsSection from "@/components/HomeEventsSection";
 import HomeBenefitsSection from "@/components/HomeBenefitsSection";
 import HomeSeoulSummary from "@/components/HomeSeoulSummary";
 import HomeHero from "@/components/HomeHero";
+import HomeDistrictMapSection from "@/components/HomeDistrictMapSection";
 import { getAllPosts } from "@/lib/posts";
+import { getAllDistricts } from "@/lib/districts";
+import { buildDistrictMapEntries } from "@/lib/district-map";
+import { getFoodDistrictOverviews } from "@/lib/food";
 import { getAllSituations } from "@/lib/situations";
 import { getBenefitsIndex, getAllBenefits } from "@/lib/public-benefits";
 import { getAllEvents, getEventsIndex } from "@/lib/seoul-events";
@@ -20,13 +24,28 @@ const siteUrl = SITE_URL;
 const homeAdSlot = process.env.NEXT_PUBLIC_ADSENSE_SLOT_HOME?.trim() ?? "";
 
 export default async function Home() {
-  const [allEvents, allBenefits, eventsIndex, benefitsIndex, allPosts] = await Promise.all([
+  const [allEvents, allBenefits, eventsIndex, benefitsIndex, allPosts, foodOverviews] = await Promise.all([
     getAllEvents(),
     getAllBenefits(),
     getEventsIndex(),
     getBenefitsIndex(),
     Promise.resolve(getAllPosts()),
+    getFoodDistrictOverviews(),
   ]);
+  const districtMapEntries = buildDistrictMapEntries({
+    guides: getAllDistricts(),
+    benefits: allBenefits,
+    foodOverviews,
+  });
+  const districtMapEvents = allEvents.map(({ id, title, district, venue, startDate, endDate, isFree }) => ({
+    id,
+    title,
+    district,
+    venue,
+    startDate,
+    endDate,
+    isFree,
+  }));
   const featuredEvents = sortEventsByStartDate(
     filterVisibleEvents(allEvents, getTodayInSeoul())
   ).slice(0, 6);
@@ -73,6 +92,13 @@ export default async function Home() {
       <HomeHero situations={situations} />
 
       <HomeSituationSection situations={situations} />
+
+      <HomeDistrictMapSection
+        entries={districtMapEntries}
+        events={districtMapEvents}
+        totalBenefitCount={allBenefits.length}
+        seoulWideBenefitCount={allBenefits.filter((benefit) => benefit.district === "서울특별시").length}
+      />
 
       <HomeRecommendedPostsSection posts={recommendedPosts} />
 
