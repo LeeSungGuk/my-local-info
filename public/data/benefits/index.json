@@ -10,12 +10,12 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-10-29T01:55:19.027Z",
+    "collectedAt": "2026-10-31T01:45:43.071Z",
     "syncSchedule": "매일 오전 7시 30분",
     "availableCount": 10942,
     "fetchedCount": 1140,
-    "activeCount": 1104,
-    "expiredCount": 36,
+    "activeCount": 1103,
+    "expiredCount": 37,
     "deduplicatedCount": 0,
     "filterMode": "서울 소관기관",
     "pageSize": 1000
@@ -22848,36 +22848,6 @@
       ],
       "updatedAt": "2026-08-05",
       "registeredAt": "2024-12-22"
-    },
-    {
-      "id": "gov-benefit-320000000317",
-      "sourceId": "320000000317",
-      "title": "타 시·도 초·중·고등학교 신입생 입학준비금 지원",
-      "field": "보육·교육",
-      "provider": "서울특별시 관악구",
-      "providerType": "자치구",
-      "district": "관악구",
-      "userType": "개인",
-      "deadlineText": "2026.03.09~2026.10.30",
-      "deadlineSortKey": "2026-10-30",
-      "isAlwaysOpen": false,
-      "targetSummary": "○지원대상: 아래 3개 요건을 모두 충족하는 학생\n  ①신청일 현재, 관악구에 주민등록이 되어있는 학생\n  ②타 시·도(서울시 외)소재 초·중·고 1학년에 입학한 2026년 신입생\n  ③타 시·도에서 입학준비금(교복지원금,무상교복지원 등)에 준하는 유사지원을 받지 않…",
-      "summary": "서울특별시 관악구에서 제공하는 보육·교육 혜택입니다. 초·중·고 신입생 대상 입학준비금 지원을 통해 교육의 공공성을 강화하고 보편적 교육복지 실현에 기여",
-      "supportType": "이용권",
-      "supportSummary": "○ 지원대상: 아래 3개 요건을 모두 충족하는 학생\n  ① 신청일 현재, 관악구에 주민등록이 되어있는 학생\n  ② 타 시·도(서울시 외)소재 초·중·고 1학년에 입학한 2026년 신입생\n  ③ 타 시·도에서 입학준비금(교복지원금,무상교복지원 등)에 준하는 유사지원을…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2182316&bnefType=all&svcId=320000000317",
-      "onlineUrl": "",
-      "inquiry": [
-        "관악구 교육지원과/02-879-5655"
-      ],
-      "updatedAt": "2026-08-05",
-      "registeredAt": "2026-05-27"
     },
     {
       "id": "gov-benefit-320000000115",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-10-30T11:06:27+09:00",
+  "lastGeneratedAt": "2026-10-31T10:46:01+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -4128,9 +4128,9 @@
         "감성공간"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-10-24T09:58:45+09:00",
-      "usedAt": null
+      "usedAt": "2026-10-31T10:46:01+09:00"
     },
     {
       "id": "seoul-tranquil-urban-temples",
