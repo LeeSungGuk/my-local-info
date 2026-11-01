@@ -77,6 +77,8 @@ docs                    운영·SEO 관련 보조 문서
 
 ## 로컬 실행
 
+Node.js 22.18 이상이 필요합니다. 테스트 파일(`*.test.mts`)을 별도 옵션 없이 실행하기 위한 최소 버전이며, GitHub Actions는 Node 24를 사용합니다.
+
 ```bash
 npm install
 npm run dev
@@ -161,8 +163,8 @@ npx wrangler pages deploy out --project-name=my-local-info
 GitHub Actions는 다음 흐름으로 동작합니다.
 
 - `push` to `main`: lint, test, build, Cloudflare Pages 배포
-- 매일 UTC 22:30, 한국시간 오전 7:30: 행사·혜택·먹거리 수집, 블로그 글 생성, lint, test, build, 허용된 생성 경로(`public/data`, `public/blog-covers`, `src/content/posts`, `data/seoul-blog-topic-queue.json`)만 검증·커밋, Cloudflare Pages 배포
-- 수동 실행: 동일한 수집·생성·배포 흐름 실행
+- 매일 UTC 22:30, 한국시간 오전 7:30: 행사·혜택 수집, 블로그 글 생성, lint, test, build, 허용된 생성 경로(`public/data`, `public/blog-covers`, `src/content/posts`, `data/seoul-blog-topic-queue.json`)만 검증·커밋, Cloudflare Pages 배포. 먹거리는 한국시간 매월 1일에만 함께 수집합니다.
+- 수동 실행: 먹거리를 포함해 같은 수집·생성·배포 흐름 실행
 
 워크플로우 파일은 `.github/workflows/deploy.yml`입니다.
 
