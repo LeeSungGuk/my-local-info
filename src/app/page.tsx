@@ -16,6 +16,7 @@ import { getAllSituations } from "@/lib/situations";
 import { getBenefitsIndex, getAllBenefits } from "@/lib/public-benefits";
 import { getAllEvents, getEventsIndex } from "@/lib/seoul-events";
 import { getHomeSummaryMetrics } from "@/lib/home-summary";
+import { pickFeaturedBenefits } from "@/lib/benefit-utils";
 import { filterVisibleEvents, getTodayInSeoul, sortEventsByStartDate } from "@/lib/event-visibility";
 import { serializeJsonLd } from "@/lib/json-ld";
 import { SITE_URL } from "@/lib/site-config";
@@ -49,7 +50,7 @@ export default async function Home() {
   const featuredEvents = sortEventsByStartDate(
     filterVisibleEvents(allEvents, getTodayInSeoul())
   ).slice(0, 6);
-  const featuredBenefits = allBenefits.slice(0, 4);
+  const featuredBenefits = pickFeaturedBenefits(allBenefits, 4);
   const summary = getHomeSummaryMetrics(allEvents, allBenefits);
   const situations = getAllSituations();
   const recommendedPosts = allPosts.slice(0, 3);

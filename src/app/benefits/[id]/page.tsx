@@ -1,7 +1,10 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import DetailFacts from "@/components/detail/DetailFacts";
+import { formatKstDateTime } from "@/lib/detail-facts";
 import { getBenefitInterpretationSections } from "@/lib/detail-interpretation";
-import { formatBenefitDeadline } from "@/lib/benefit-utils";
+import { formatBenefitDeadline, getBenefitHighlight } from "@/lib/benefit-utils";
 import { getAllBenefits, getBenefitById } from "@/lib/public-benefits";
 
 export async function generateStaticParams() {
@@ -9,6 +12,24 @@ export async function generateStaticParams() {
   return benefits.map((benefit) => ({
     id: benefit.id,
   }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}): Promise<Metadata> {
+  const { id } = await params;
+  const benefit = await getBenefitById(id);
+
+  if (!benefit) {
+    return {};
+  }
+
+  return {
+    title: `${benefit.title} | 서울시티`,
+    description: getBenefitHighlight(benefit) || benefit.summary,
+  };
 }
 
 export default async function BenefitDetailPage({
@@ -24,6 +45,7 @@ export default async function BenefitDetailPage({
   }
 
   const externalUrl = benefit.onlineUrl || benefit.detailUrl;
+  const targetText = (benefit.target || benefit.targetSummary).trim();
   const interpretationSections = getBenefitInterpretationSections({
     title: benefit.title,
     district: benefit.district,
@@ -78,34 +100,52 @@ export default async function BenefitDetailPage({
 
             <p className="mt-4 text-base leading-relaxed text-gray-600">{benefit.summary}</p>
 
-            <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-2">
-              <InfoCard label="신청 기한" value={formatBenefitDeadline(benefit)} icon="⏰" />
-              <InfoCard label="지원 유형" value={benefit.supportType} icon="💰" />
-              <InfoCard label="접수 기관" value={benefit.receptionAgency} icon="🏛️" />
-              <InfoCard
-                label="신청 방식"
-                value={
-                  benefit.applicationMethodTypes.length > 0
-                    ? benefit.applicationMethodTypes.join(", ")
-                    : "신청 방식 정보 없음"
-                }
-                icon="📝"
-              />
-              <InfoCard label="지원 대상" value={benefit.target || benefit.targetSummary} icon="🎯" />
-              <InfoCard
-                label="문의"
-                value={benefit.inquiryText || benefit.inquiry.join("\n") || "문의처 정보 없음"}
-                icon="☎️"
-              />
-              {benefit.ageMin !== null || benefit.ageMax !== null ? (
-                <InfoCard
-                  label="연령 기준"
-                  value={`${benefit.ageMin ?? "정보 없음"}세 ~ ${benefit.ageMax ?? "정보 없음"}세`}
-                  icon="👤"
-                />
-              ) : null}
-              <InfoCard label="최근 수정일" value={benefit.updatedAt || "정보 없음"} icon="🗓️" />
-            </div>
+            <DetailFacts
+              variant="key"
+              className="mt-8"
+              facts={[
+                { label: "신청 기한", value: formatBenefitDeadline(benefit) },
+                { label: "지원 유형", value: benefit.supportType },
+                {
+                  label: "신청 방식",
+                  value: benefit.applicationMethodTypes.join(", "),
+                },
+              ]}
+            />
+
+            {externalUrl ? (
+              <div className="mt-6">
+                <a href={externalUrl} target="_blank" rel="noopener noreferrer" className="button-primary">
+                  공식 페이지에서 신청 정보 보기
+                  <span className="sr-only">(새 창)</span>
+                  <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            ) : null}
+
+            <DetailFacts
+              className="mt-8"
+              facts={[
+                { label: "접수 기관", value: benefit.receptionAgency },
+                { label: "문의", value: benefit.inquiryText || benefit.inquiry.join("\n") },
+                {
+                  label: "연령 기준",
+                  value:
+                    benefit.ageMin !== null || benefit.ageMax !== null
+                      ? `${benefit.ageMin ?? "정보 없음"}세 ~ ${benefit.ageMax ?? "정보 없음"}세`
+                      : "",
+                },
+              ]}
+            />
+
+            {targetText ? (
+              <details className="mt-6 border-t border-slate-200 pt-4">
+                <summary className="inline-flex min-h-11 items-center text-sm font-bold text-slate-900">
+                  자격 조건 보기
+                </summary>
+                <p className="mt-2 whitespace-pre-line text-sm leading-relaxed text-slate-700">{targetText}</p>
+              </details>
+            ) : null}
 
             <div className="mt-10 grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
               <section className="rounded-[1.25rem] border border-slate-200 bg-slate-50 p-6">
@@ -193,8 +233,14 @@ export default async function BenefitDetailPage({
                   </div>
                   <div>
                     <dt className="font-semibold text-gray-900">수집 시각</dt>
-                    <dd className="mt-1">{benefit.collectedAt || "수집 시각 정보 없음"}</dd>
+                    <dd className="mt-1">{formatKstDateTime(benefit.collectedAt) || "수집 시각 정보 없음"}</dd>
                   </div>
+                  {benefit.updatedAt ? (
+                    <div>
+                      <dt className="font-semibold text-gray-900">최근 수정일</dt>
+                      <dd className="mt-1">{benefit.updatedAt}</dd>
+                    </div>
+                  ) : null}
                   {benefit.legalBasis.length > 0 ? (
                     <div>
                       <dt className="font-semibold text-gray-900">법령</dt>
@@ -209,49 +255,10 @@ export default async function BenefitDetailPage({
                   ) : null}
                 </dl>
 
-                {externalUrl ? (
-                  <a
-                    href={externalUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-6 py-3 text-sm font-semibold text-blue-800 transition-all hover:bg-blue-100"
-                  >
-                    공식 상세 페이지 보기
-                    <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                    </svg>
-                  </a>
-                ) : null}
               </section>
             </div>
           </div>
         </article>
-      </div>
-    </div>
-  );
-}
-
-function InfoCard({
-  label,
-  value,
-  icon,
-}: {
-  label: string;
-  value: string;
-  icon: string;
-}) {
-  return (
-    <div className="rounded-xl border border-slate-200 bg-white p-5">
-      <div className="flex items-start gap-3">
-        <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-50 text-lg">
-          {icon}
-        </div>
-        <div className="min-w-0">
-          <p className="text-xs font-semibold uppercase tracking-wider text-gray-500">{label}</p>
-          <p className="mt-1 whitespace-pre-line text-sm font-medium leading-relaxed text-gray-900">
-            {value}
-          </p>
-        </div>
       </div>
     </div>
   );

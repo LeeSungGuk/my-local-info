@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { PublicBenefitSummary } from "@/lib/public-benefits";
-import { formatBenefitDeadline } from "@/lib/benefit-utils";
+import { formatBenefitDeadline, getBenefitHighlight } from "@/lib/benefit-utils";
+import { isMeaningfulFactValue } from "@/lib/detail-facts";
 
 export default function HomeBenefitsSection({ benefits }: { benefits: PublicBenefitSummary[] }) {
   if (benefits.length === 0) {
@@ -15,11 +16,10 @@ export default function HomeBenefitsSection({ benefits }: { benefits: PublicBene
             <p className="text-xs font-semibold text-blue-700">{benefit.field} <span className="mx-1 text-slate-300">/</span> {benefit.district}</p>
             <h3 className="mt-2 text-base font-bold leading-7 tracking-tight"><Link href={"/benefits/" + benefit.id} className="hover:text-blue-700">{benefit.title}</Link></h3>
             <p className="mt-2 text-xs text-slate-500">{benefit.provider}</p>
-            <p className="mt-3 line-clamp-2 text-sm leading-7 text-slate-600">{benefit.targetSummary}</p>
-            <p className="mt-2 line-clamp-2 text-xs leading-6 text-slate-500">{benefit.summary}</p>
-            <p className="mt-3 text-xs leading-6 text-slate-500">{formatBenefitDeadline(benefit)}</p>
-            <p className="text-xs leading-6 text-slate-500">{benefit.receptionAgency}</p>
-            <Link href={"/benefits/" + benefit.id} className="section-link mt-2">자세히 보기 <span aria-hidden="true">↗</span></Link>
+            <p className="mt-3 line-clamp-2 text-sm leading-7 text-slate-600">{getBenefitHighlight(benefit)}</p>
+            <p className="mt-3 text-xs leading-6 text-slate-500">신청 기간 · {formatBenefitDeadline(benefit)}</p>
+            {isMeaningfulFactValue(benefit.receptionAgency) ? <p className="text-xs leading-6 text-slate-500">접수 기관 · {benefit.receptionAgency}</p> : null}
+            <Link href={"/benefits/" + benefit.id} className="section-link mt-2">자세히 보기 <span aria-hidden="true">→</span></Link>
           </div>
         </article>
       ))}

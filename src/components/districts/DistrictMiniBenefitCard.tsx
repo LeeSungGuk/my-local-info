@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { formatBenefitDeadline } from "@/lib/benefit-utils";
+import { formatBenefitDeadline, getBenefitHighlight } from "@/lib/benefit-utils";
 import type { PublicBenefitSummary } from "@/lib/public-benefits";
 
 export default function DistrictMiniBenefitCard({
@@ -27,7 +27,7 @@ export default function DistrictMiniBenefitCard({
         {formatBenefitDeadline(benefit)}
       </p>
       <p className="mt-2 line-clamp-2 text-sm leading-6 text-slate-600">
-        {benefit.supportSummary || benefit.summary || benefit.targetSummary}
+        {getBenefitHighlight(benefit)}
       </p>
 
       <Link
