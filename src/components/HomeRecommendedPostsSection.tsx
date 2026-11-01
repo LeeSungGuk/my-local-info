@@ -51,7 +51,7 @@ export default function HomeRecommendedPostsSection({ posts }: { posts: Post[] }
               ) : null}
               <div className="px-1 pt-5">
                 <div className="mb-3 flex items-center justify-between gap-3">
-                  <span className="text-[11px] font-semibold text-sky-700">
+                  <span className="text-xs font-semibold text-sky-700">
                     {post.category}
                   </span>
                   <time className="text-xs font-medium text-slate-400">{post.date}</time>

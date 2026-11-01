@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;800&family=Noto+Serif+KR:wght@500&display=swap");
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
@@ -37,14 +37,15 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: "Noto Sans KR", var(--font-geist-sans), sans-serif;
+  --font-serif: "Noto Serif KR", Georgia, serif;
   --font-mono: var(--font-geist-mono);
   --color-white: #fffdfa;
   --color-slate-50: #f6f3ed;
   --color-slate-100: #eeeae3;
   --color-slate-200: #e1dbd1;
   --color-slate-300: #c9c1b5;
-  --color-slate-400: #7b756e;
-  --color-slate-500: #716b63;
+  --color-slate-400: #6f6962;
+  --color-slate-500: #67615a;
   --color-slate-600: #5b554e;
   --color-slate-700: #48433d;
   --color-slate-800: #38342f;
@@ -106,6 +107,9 @@ body {
   color: var(--foreground);
   font-family: "Noto Sans KR", Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
+  /* 한글이 음절 중간에서 끊기지 않게 단어 단위로 줄을 바꾼다 */
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 html { scroll-behavior: smooth; scroll-padding-top: 6rem; }
@@ -120,25 +124,25 @@ button:not(:disabled), summary { cursor: pointer; }
 .page-intro h1 { font-size: clamp(2rem, 4vw, 3.5rem); line-height: 1.3; letter-spacing: -.055em; }
 .page-intro > div { padding-top: clamp(3rem, 6vw, 5.5rem); padding-bottom: clamp(3rem, 6vw, 5.5rem); }
 .detail-article { border-color: #e6e0d7; box-shadow: 0 12px 40px rgb(64 48 31 / 3%); }
-.eyebrow { color: #805f46; font-size: .65rem; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; }
+.eyebrow { color: #805f46; font-size: .75rem; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; }
 .section-heading { margin: 1rem 0 0; color: #292722; font-size: clamp(1.55rem, 2.8vw, 2rem); font-weight: 750; letter-spacing: -.055em; line-height: 1.4; }
 .section-link { display: inline-flex; min-height: 44px; align-items: center; gap: .65rem; color: #5b554e; font-size: .8rem; font-weight: 600; white-space: nowrap; }
 .section-link:hover { color: #80573c; }
-.button-primary { display: inline-flex; min-height: 44px; align-items: center; justify-content: center; gap: .6rem; border: 1px solid #292722; border-radius: 999px; background: #292722; padding: .65rem 1.4rem; color: #fffdfa; font-size: .8rem; font-weight: 650; transition: background .2s, transform .2s; }
+.button-primary { display: inline-flex; min-height: 44px; align-items: center; justify-content: center; gap: .6rem; border: 1px solid #292722; border-radius: 999px; background: #292722; padding: .65rem 1.4rem; color: #fffdfa; font-size: .8rem; font-weight: 650; white-space: nowrap; transition: background .2s, transform .2s; }
 .button-primary:hover { background: #48433d; transform: translateY(-1px); }
-.button-secondary { display: inline-flex; min-height: 44px; align-items: center; justify-content: center; gap: .5rem; border: 1px solid #ded7cc; border-radius: 999px; padding: .65rem 1.2rem; color: #48433d; font-size: .8rem; font-weight: 600; transition: background .2s; }
+.button-secondary { display: inline-flex; min-height: 44px; align-items: center; justify-content: center; gap: .5rem; border: 1px solid #ded7cc; border-radius: 999px; padding: .65rem 1.2rem; color: #48433d; font-size: .8rem; font-weight: 600; white-space: nowrap; transition: background .2s; }
 .button-secondary:hover { background: #eeeae3; }
 
 .seoul-cover { position: relative; isolation: isolate; display: flex; width: 100%; aspect-ratio: 1; flex-direction: column; overflow: hidden; border: 7px solid #fffdfa; border-radius: 1.1rem; background: var(--cover-paper); color: var(--cover-ink); box-shadow: 0 12px 28px rgb(50 38 24 / 9%); }
 .seoul-cover::after { position: absolute; z-index: -1; inset: 0; background: repeating-linear-gradient(0deg, transparent 0 3px, rgb(255 253 250 / 12%) 3px 4px); content: ""; pointer-events: none; }
-.cover-kids { --cover-paper: #dfb89b; --cover-ink: #71462f; }
+.cover-kids { --cover-paper: #dfb89b; --cover-ink: #633c27; }
 .cover-rainy-day { --cover-paper: #ded8ec; --cover-ink: #645079; }
 .cover-free { --cover-paper: #dfe4bf; --cover-ink: #4c633e; }
 .cover-events { --cover-paper: #254b47; --cover-ink: #f2e9c7; }
 .seoul-cover-meta { display: flex; justify-content: space-between; gap: .5rem; padding: 6% 6% 0; font-size: clamp(7px, .65vw, 10px); font-weight: 650; letter-spacing: .12em; }
 .seoul-cover-art { width: 100%; min-height: 0; flex: 1; padding: 1% 12%; }
 .seoul-cover-title { padding: 0 6% 2%; font-family: "Noto Serif KR", "Batang", "바탕", Georgia, serif; font-size: clamp(1rem, 2.3vw, 2rem); font-weight: 500; letter-spacing: -.06em; line-height: 1.35; }
-.seoul-cover-note { padding: 0 6% 6%; font-size: clamp(7px, .8vw, 11px); opacity: .85; }
+.seoul-cover-note { padding: 0 6% 6%; font-size: clamp(7px, .8vw, 11px); }
 .home-hero { position: relative; isolation: isolate; padding: 76px 20px 56px; }
 .hero-content { position: relative; z-index: 2; max-width: 640px; margin-inline: auto; text-align: center; }
 .hero-title { margin: 24px 0; font-size: clamp(2.5rem, 5.2vw, 4.6rem); font-weight: 850; letter-spacing: -.075em; line-height: 1.2; }

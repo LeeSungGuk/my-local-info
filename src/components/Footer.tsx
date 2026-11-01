@@ -27,7 +27,7 @@ export default function Footer() {
             <a href="https://github.com/LeeSungGuk/my-local-info/issues" target="_blank" rel="noopener noreferrer" className={linkClass}>GitHub Issues ↗</a>
           </div>
         </div>
-        <div className="flex flex-col justify-between gap-4 border-t border-slate-200 pt-6 text-[11px] text-slate-500 sm:flex-row sm:items-center">
+        <div className="flex flex-col justify-between gap-4 border-t border-slate-200 pt-6 text-xs text-slate-500 sm:flex-row sm:items-center">
           <p>© 2026 서울시티. 공공데이터 기반 서울 로컬 정보 서비스.</p>
           <div className="flex flex-wrap gap-x-5">
             <a href="https://data.seoul.go.kr" target="_blank" rel="noopener noreferrer" className="inline-flex min-h-11 items-center hover:text-slate-950">서울 열린데이터광장 ↗</a>

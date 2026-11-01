@@ -157,11 +157,11 @@ export default function HomeUnifiedSearch() {
                   <div className="flex flex-col gap-2">
                     <div className="flex items-start justify-between gap-3">
                       <div className="flex min-w-0 flex-wrap items-center gap-2">
-                        <span className={`rounded-full px-2 py-0.5 text-[11px] font-semibold ${typeBadgeClassName(item.type)}`}>
+                        <span className={`rounded-full px-2 py-0.5 text-xs font-semibold ${typeBadgeClassName(item.type)}`}>
                           {item.typeLabel}
                         </span>
                         {item.district ? (
-                          <span className="rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-semibold text-slate-600">
+                          <span className="rounded-full bg-slate-100 px-2 py-0.5 text-xs font-semibold text-slate-600">
                             {item.district}
                           </span>
                         ) : null}

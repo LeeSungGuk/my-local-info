@@ -278,10 +278,10 @@ export default function EventsCatalog({
                   <Link href={`/events/${event.id}`} aria-label={`${event.title} 상세 보기`} className="block p-3 pb-0"><EventPoster imageUrl={event.imageUrl} title={event.title} /></Link>
                   <div className="p-6">
                     <div className="flex flex-wrap items-center gap-2">
-                      <span className="rounded-full bg-sky-50 px-3 py-1 text-[11px] font-semibold text-sky-700">
+                      <span className="rounded-full bg-sky-50 px-3 py-1 text-xs font-semibold text-sky-700">
                         {event.category}
                       </span>
-                      <span className="rounded-full bg-slate-100 px-3 py-1 text-[11px] font-semibold text-slate-600">
+                      <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-600">
                         {event.district}
                       </span>
                     </div>

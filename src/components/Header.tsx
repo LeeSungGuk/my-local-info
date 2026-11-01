@@ -50,10 +50,7 @@ export default function Header() {
               <path d="m18 5 .5 1.5L20 7l-1.5.5L18 9l-.5-1.5L16 7l1.5-.5Z" fill="currentColor" />
             </svg>
           </span>
-          <span className="flex flex-col">
-            <span className="text-base font-extrabold tracking-[-0.04em] text-slate-950">서울시티</span>
-            <span className="mt-0.5 text-[8px] font-semibold tracking-[.2em] text-slate-500">SEOUL LOCAL GUIDE</span>
-          </span>
+          <span className="text-base font-extrabold tracking-[-0.04em] text-slate-950">서울시티</span>
         </Link>
         <nav aria-label="주요 메뉴" className="hidden items-center gap-0.5 lg:flex">
           {navigation.map(([href, label]) => (

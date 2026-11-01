@@ -39,13 +39,13 @@ export default function BlogListPage() {
                     <div aria-hidden="true" className="aspect-[16/10] rounded-xl bg-slate-100" />
                   )}
                   <div className="px-1 pt-5">
-                    <div className="flex items-center justify-between gap-3 text-[11px]">
+                    <div className="flex items-center justify-between gap-3 text-xs">
                       <span className="font-semibold text-sky-700">{post.category}</span>
                       <time className="text-slate-500">{post.date}</time>
                     </div>
                     <h2 className="blog-card-title mt-3 transition-colors group-hover:text-sky-700">{getBlogCardTitle(post)}</h2>
                     <p className="mt-3 line-clamp-2 text-sm leading-7 text-slate-500">{post.summary}</p>
-                    <div className="mt-4 flex flex-wrap gap-x-3 gap-y-1 text-[11px] text-slate-500">{post.tags.map((tag) => <span key={tag}>#{tag}</span>)}</div>
+                    <div className="mt-4 flex flex-wrap gap-x-3 gap-y-1 text-xs text-slate-500">{post.tags.map((tag) => <span key={tag}>#{tag}</span>)}</div>
                     <span className="section-link mt-3">자세히 읽기 <span aria-hidden="true">↗</span></span>
                   </div>
                 </Link>

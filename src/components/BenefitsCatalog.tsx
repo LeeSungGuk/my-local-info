@@ -237,10 +237,10 @@ export default function BenefitsCatalog({ benefits }: { benefits: PublicBenefitS
                   <div className="h-px bg-slate-200" />
                   <div className="p-6">
                     <div className="flex flex-wrap items-center gap-2">
-                      <span className="rounded-full bg-blue-50 px-3 py-1 text-[11px] font-semibold text-blue-700">
+                      <span className="rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-700">
                         {benefit.field}
                       </span>
-                      <span className="rounded-full bg-slate-100 px-3 py-1 text-[11px] font-semibold text-slate-600">
+                      <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-600">
                         {benefit.district}
                       </span>
                     </div>
