@@ -1,7 +1,11 @@
+import type { Metadata } from "next";
 import EventPoster from "@/components/design/EventPoster";
+import DetailFacts from "@/components/detail/DetailFacts";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { buildGoogleCalendarUrl, formatKstDateTime } from "@/lib/detail-facts";
 import { getEventInterpretationSections } from "@/lib/detail-interpretation";
+import { buildKakaoMapSearchUrl } from "@/lib/food";
 import { formatEventPeriod, getAllEvents, getEventById } from "@/lib/seoul-events";
 
 export async function generateStaticParams() {
@@ -9,6 +13,24 @@ export async function generateStaticParams() {
   return events.map((event) => ({
     id: event.id,
   }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}): Promise<Metadata> {
+  const { id } = await params;
+  const event = await getEventById(id);
+
+  if (!event) {
+    return {};
+  }
+
+  return {
+    title: `${event.title} | 서울시티`,
+    description: event.summary,
+  };
 }
 
 export default async function EventDetailPage({
@@ -24,6 +46,12 @@ export default async function EventDetailPage({
   }
 
   const externalUrl = event.detailUrl || event.organizerUrl;
+  const calendarUrl = buildGoogleCalendarUrl({
+    title: event.title,
+    startDate: event.startDate,
+    endDate: event.endDate,
+    location: event.venue,
+  });
   const interpretationSections = getEventInterpretationSections({
     title: event.title,
     category: event.category,
@@ -75,18 +103,56 @@ export default async function EventDetailPage({
               {event.summary}
             </p>
 
+            <DetailFacts
+              variant="key"
+              className="mt-8"
+              facts={[
+                { label: "일정", value: formatEventPeriod(event) },
+                { label: "장소", value: event.venue },
+                { label: "요금", value: event.isFree ? "무료" : event.fee },
+              ]}
+            />
+
+            <div className="mt-6 flex flex-wrap gap-3">
+              {externalUrl ? (
+                <a href={externalUrl} target="_blank" rel="noopener noreferrer" className="button-primary">
+                  공식 상세 페이지 보기
+                  <span className="sr-only">(새 창)</span>
+                  <span aria-hidden="true">↗</span>
+                </a>
+              ) : null}
+              {event.venue ? (
+                <a
+                  href={buildKakaoMapSearchUrl(event.venue)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="button-secondary"
+                >
+                  지도에서 장소 보기
+                  <span className="sr-only">(카카오맵, 새 창)</span>
+                  <span aria-hidden="true">↗</span>
+                </a>
+              ) : null}
+              {calendarUrl ? (
+                <a href={calendarUrl} target="_blank" rel="noopener noreferrer" className="button-secondary">
+                  구글 캘린더에 추가
+                  <span className="sr-only">(새 창)</span>
+                  <span aria-hidden="true">↗</span>
+                </a>
+              ) : null}
+            </div>
+
             <EventPoster imageUrl={event.imageUrl} title={event.title} className="mt-8" />
 
-            <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-2">
-              <InfoCard label="일정" value={formatEventPeriod(event)} icon="📅" />
-              <InfoCard label="운영 시간" value={event.timeText || "운영 시간 정보 없음"} icon="⏰" />
-              <InfoCard label="장소" value={event.venue} icon="📍" />
-              <InfoCard label="주최" value={event.organizer} icon="🏛️" />
-              <InfoCard label="이용 대상" value={event.target} icon="👥" />
-              <InfoCard label="요금" value={event.isFree ? "무료" : event.fee} icon="💸" />
-              <InfoCard label="문의" value={event.inquiry} icon="☎️" />
-              <InfoCard label="등록일" value={event.registeredAt || "등록일 정보 없음"} icon="🗓️" />
-            </div>
+            <DetailFacts
+              className="mt-8"
+              facts={[
+                { label: "운영 시간", value: event.timeText },
+                { label: "이용 대상", value: event.target },
+                { label: "주최", value: event.organizer },
+                { label: "문의", value: event.inquiry },
+              ]}
+            />
 
             <div className="mt-10 grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
               <section className="rounded-[1.25rem] border border-slate-200 bg-slate-50 p-6">
@@ -148,9 +214,15 @@ export default async function EventDetailPage({
                     <dt className="font-semibold text-gray-900">출처 기준</dt>
                     <dd className="mt-1">서울특별시 전체 행사·축제</dd>
                   </div>
+                  {event.registeredAt ? (
+                    <div>
+                      <dt className="font-semibold text-gray-900">등록일</dt>
+                      <dd className="mt-1">{event.registeredAt}</dd>
+                    </div>
+                  ) : null}
                   <div>
                     <dt className="font-semibold text-gray-900">수집 시각</dt>
-                    <dd className="mt-1">{event.collectedAt || "수집 시각 정보 없음"}</dd>
+                    <dd className="mt-1">{formatKstDateTime(event.collectedAt) || "수집 시각 정보 없음"}</dd>
                   </div>
                   <div>
                     <dt className="font-semibold text-gray-900">원본 식별자</dt>
@@ -158,49 +230,10 @@ export default async function EventDetailPage({
                   </div>
                 </dl>
 
-                {externalUrl ? (
-                  <a
-                    href={externalUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full border border-sky-200 bg-sky-50 px-6 py-3 text-sm font-semibold text-sky-800 transition-all hover:bg-sky-100"
-                  >
-                    공식 상세 페이지 보기
-                    <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                    </svg>
-                  </a>
-                ) : null}
               </section>
             </div>
           </div>
         </article>
-      </div>
-    </div>
-  );
-}
-
-function InfoCard({
-  label,
-  value,
-  icon,
-}: {
-  label: string;
-  value: string;
-  icon: string;
-}) {
-  return (
-    <div className="rounded-xl border border-slate-200 bg-white p-5">
-      <div className="flex items-start gap-3">
-        <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-sky-50 text-lg">
-          {icon}
-        </div>
-        <div className="min-w-0">
-          <p className="text-xs font-semibold uppercase tracking-wider text-gray-500">{label}</p>
-          <p className="mt-1 whitespace-pre-line text-sm font-medium leading-relaxed text-gray-900">
-            {value}
-          </p>
-        </div>
       </div>
     </div>
   );

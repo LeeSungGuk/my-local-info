@@ -4,7 +4,8 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useState } from "react";
 import type { PublicBenefitSummary } from "@/lib/public-benefits";
-import { formatBenefitDeadline } from "@/lib/benefit-utils";
+import { formatBenefitDeadline, getBenefitHighlight } from "@/lib/benefit-utils";
+import { isMeaningfulFactValue } from "@/lib/detail-facts";
 import { getTodayInSeoul } from "@/lib/event-visibility";
 import { getEndOfWeekInSeoul, isBenefitClosingThisWeek } from "@/lib/home-summary";
 
@@ -252,23 +253,21 @@ export default function BenefitsCatalog({ benefits }: { benefits: PublicBenefitS
                     <p className="mt-2 text-sm font-medium text-slate-500">{benefit.provider}</p>
 
                     <p className="mt-3 line-clamp-3 text-sm leading-relaxed text-slate-600">
-                      {benefit.summary}
+                      {getBenefitHighlight(benefit)}
                     </p>
 
-                    <div className="mt-5 space-y-2 rounded-xl border border-slate-200 bg-slate-50 px-4 py-4 text-sm text-slate-700">
-                      <div className="flex items-start gap-2">
-                        <span className="text-blue-500">⏰</span>
-                        <span>{formatBenefitDeadline(benefit)}</span>
+                    <dl className="mt-5 space-y-1 border-t border-slate-200 pt-4 text-sm text-slate-700">
+                      <div className="flex gap-2">
+                        <dt className="shrink-0 font-semibold text-slate-500">신청 기간</dt>
+                        <dd>{formatBenefitDeadline(benefit)}</dd>
                       </div>
-                      <div className="flex items-start gap-2">
-                        <span className="text-blue-500">🎯</span>
-                        <span className="line-clamp-2">{benefit.targetSummary}</span>
-                      </div>
-                      <div className="flex items-start gap-2">
-                        <span className="text-blue-500">🏛️</span>
-                        <span>{benefit.receptionAgency}</span>
-                      </div>
-                    </div>
+                      {isMeaningfulFactValue(benefit.receptionAgency) ? (
+                        <div className="flex gap-2">
+                          <dt className="shrink-0 font-semibold text-slate-500">접수 기관</dt>
+                          <dd>{benefit.receptionAgency}</dd>
+                        </div>
+                      ) : null}
+                    </dl>
 
                     <Link
                       href={`/benefits/${benefit.id}`}

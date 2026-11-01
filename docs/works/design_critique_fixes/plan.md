@@ -1,6 +1,6 @@
 # 디자인 검사 후속 개선 1단계 구현 계획
 
-- 상태: 1단계 운영 배포 완료, 2단계 진행 중
+- 상태: 1·2단계 운영 배포 완료, 3단계 진행 중
 - 작성일: 2026-11-02
 - 상위 목록: [works 현황](../README.md)
 - 입력: [intent.md](intent.md) · [spec.md](spec.md)
@@ -111,3 +111,11 @@
 - 표지 ‘아이와’ 잉크색을 `#633c27`로 진하게 하고 표지 설명 글의 투명도를 없앴다(대비 4.38 → 5.2).
 - 검증: `npm test` 124개, `tsc --noEmit`, 바꾼 파일 린트, `npm run build` 통과. 375px에서 `/events`·`/districts/mapo` 제목과 블로그 본문 확인, 가로 넘침 없음.
 - 남긴 것: 블로그 Markdown의 제목 단계 건너뜀(`###`)은 글 내용 문제라 이번 범위에서 제외했다.
+
+## 7. 3단계 구현과 검증
+
+- 신규: `src/lib/detail-facts.ts`(값 표시 판단, 서울 시간 형식, 구글 캘린더 링크)와 테스트, `src/components/detail/DetailFacts.tsx`(핵심 정보·보조 정보 목록), `src/lib/benefit-utils.test.mts`
+- 수정: `src/app/events/[id]/page.tsx`, `src/app/benefits/[id]/page.tsx`(핵심 정보·버튼 상단, 이모지 정보 칸 제거, 자격 조건 접기, 메타데이터), `src/lib/benefit-utils.ts`(`getBenefitHighlight`, `pickFeaturedBenefits`), `BenefitsCatalog`·`HomeBenefitsSection`·`DistrictMiniBenefitCard`(카드 문구), `src/app/page.tsx`(홈 추천 혜택)
+- 혜택 카드의 정보 상자(카드 안 테두리 상자)를 구분선 목록으로 바꿨다.
+- 검증: `npm test` 132개, `tsc --noEmit`, 바꾼 파일 린트, `npm run build` 통과. 로컬에서 행사 상세(`seoul-event-159821`)·혜택 상세(`gov-benefit-313000000155`)·홈 혜택 확인.
+- 캘린더는 구글 캘린더만 지원한다. 다른 캘린더용 파일(.ics)은 넣지 않았다.
