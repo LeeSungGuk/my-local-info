@@ -10,7 +10,15 @@ function formatCount(count: number) {
 }
 
 export default function HomeSeoulSummary({ summary }: HomeSeoulSummaryProps) {
-  const cards = [
+  const hasClosingBenefits = summary.closingBenefitsThisWeekCount > 0;
+  const cards: {
+    label: string;
+    value: string;
+    note: string;
+    accentClassName: string;
+    href: string;
+    ctaLabel?: string;
+  }[] = [
     {
       label: "오늘 진행 중 행사",
       value: formatCount(summary.ongoingEventsCount),
@@ -21,9 +29,12 @@ export default function HomeSeoulSummary({ summary }: HomeSeoulSummaryProps) {
     {
       label: "이번 주 마감 혜택",
       value: formatCount(summary.closingBenefitsThisWeekCount),
-      note: `${summary.weekEnd} 안에 마감되는 혜택`,
+      note: hasClosingBenefits
+        ? `${summary.weekEnd} 안에 마감되는 혜택`
+        : "이번 주에 마감되는 혜택은 없습니다",
       accentClassName: "border-blue-200 bg-blue-50/80 text-blue-700",
-      href: "/benefits?view=closing-this-week",
+      href: hasClosingBenefits ? "/benefits?view=closing-this-week" : "/benefits",
+      ctaLabel: hasClosingBenefits ? undefined : "전체 혜택 보기",
     },
     {
       label: "무료 행사",
@@ -72,7 +83,7 @@ export default function HomeSeoulSummary({ summary }: HomeSeoulSummaryProps) {
                 </p>
                 <p className="mt-2 text-xs leading-6 text-slate-500">{card.note}</p>
                 <p className="mt-4 inline-flex items-center text-sm font-semibold text-slate-700 transition-colors group-hover:text-sky-700">
-                  바로 보기
+                  {card.ctaLabel ?? "바로 보기"}
                   <svg className="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>

@@ -41,13 +41,14 @@ export default async function EventsPage() {
       <section className="mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-16">
         {events.length === 0 ? (
           <div className="rounded-3xl border border-dashed border-sky-200 bg-white p-10 text-center">
-            <h2 className="text-xl font-bold text-gray-900">행사 데이터가 아직 없습니다.</h2>
+            <h2 className="text-xl font-bold text-gray-900">행사 정보를 준비하고 있습니다.</h2>
             <p className="mt-3 text-gray-600">
-              <code className="rounded bg-sky-50 px-1.5 py-0.5 text-sm text-sky-700">
-                node scripts/fetch-seoul-events.js
-              </code>
-              를 실행해 서울시 행사 데이터를 먼저 생성해 주세요.
+              서울시 행사 정보를 다시 받아오면 이곳에 표시됩니다. 그동안 생활 혜택이나 블로그 글을 둘러보세요.
             </p>
+            <div className="mt-6 flex flex-wrap justify-center gap-3">
+              <QuickLink href="/benefits" label="생활 혜택 보기" />
+              <QuickLink href="/blog" label="블로그 보기" />
+            </div>
           </div>
         ) : (
           <EventsCatalog events={events} today={today} />

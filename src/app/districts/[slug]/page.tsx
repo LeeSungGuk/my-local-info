@@ -16,8 +16,9 @@ import { serializeJsonLd } from "@/lib/json-ld";
 import { getDistrictFoodHref, getFoodIntentsByDistrict } from "@/lib/food";
 import { getAllPosts, type Post } from "@/lib/posts";
 import { SITE_URL } from "@/lib/site-config";
-import { getEventsIndex, type SeoulEventSummary } from "@/lib/seoul-events";
-import { getBenefitsIndex, type PublicBenefitSummary } from "@/lib/public-benefits";
+import { getEventsIndex } from "@/lib/seoul-events";
+import { getBenefitsIndex } from "@/lib/public-benefits";
+import { filterByDistrict, isSeoulWideBenefit, SEOUL_WIDE_DISTRICT } from "@/lib/district-map";
 
 interface PageProps {
   params: Promise<{
@@ -70,13 +71,12 @@ export default async function DistrictDetailPage({ params }: PageProps) {
   const visibleEvents = sortEventsByStartDate(
     filterVisibleEvents(eventsIndex.items, today)
   );
-  const districtEvents = visibleEvents
-    .filter((event) => matchesDistrictEvent(district, event))
-    .slice(0, 6);
-  const freeEvents = districtEvents.filter((event) => event.isFree).slice(0, 3);
-  const districtBenefits = sortBenefits(
-    benefitsIndex.items.filter((benefit) => matchesDistrictBenefit(district, benefit))
-  ).slice(0, 4);
+  const allDistrictEvents = filterByDistrict(visibleEvents, district.name);
+  const districtEvents = allDistrictEvents.slice(0, 6);
+  const freeEventCount = allDistrictEvents.filter((event) => event.isFree).length;
+  const allDistrictBenefits = sortBenefits(filterByDistrict(benefitsIndex.items, district.name));
+  const districtBenefits = allDistrictBenefits.slice(0, 4);
+  const seoulWideBenefitCount = benefitsIndex.items.filter(isSeoulWideBenefit).length;
   const relatedPosts = getRelatedPosts(district, posts);
   const foodIntents = getFoodIntentsByDistrict(district.slug).slice(0, 2);
   const otherDistricts = getAllDistricts()
@@ -127,9 +127,13 @@ export default async function DistrictDetailPage({ params }: PageProps) {
           </div>
 
           <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-1">
-            <HeroStat label="진행 예정 행사" value={`${districtEvents.length}건`} />
-            <HeroStat label="무료 행사" value={`${freeEvents.length}건`} />
-            <HeroStat label="연결 혜택" value={`${districtBenefits.length}건`} />
+            <HeroStat label="진행 예정 행사" value={`${allDistrictEvents.length}건`} />
+            <HeroStat label="무료 행사" value={`${freeEventCount}건`} />
+            <HeroStat
+              label="구 혜택"
+              value={`${allDistrictBenefits.length}건`}
+              note={`서울 전체 대상 ${seoulWideBenefitCount}건 별도`}
+            />
           </div>
         </section>
 
@@ -245,14 +249,14 @@ export default async function DistrictDetailPage({ params }: PageProps) {
                   Benefits
                 </p>
                 <h2 className="mt-2 text-2xl font-extrabold text-slate-950">
-                  서울 생활 혜택 같이 보기
+                  {district.name} 생활 혜택
                 </h2>
               </div>
               <Link
-                href="/benefits"
+                href={`/benefits?district=${encodeURIComponent(district.name)}`}
                 className="inline-flex min-h-11 items-center rounded-xl border border-blue-200 px-4 text-sm font-bold text-blue-700 transition-colors hover:bg-blue-50"
               >
-                전체 혜택 보기
+                전체 혜택에서 찾기
               </Link>
             </div>
 
@@ -268,6 +272,16 @@ export default async function DistrictDetailPage({ params }: PageProps) {
                 text="공공데이터포털 혜택 데이터가 갱신되면 이 영역도 함께 바뀝니다."
               />
             )}
+
+            <p className="mt-6 text-sm leading-6 text-slate-600">
+              서울 전체를 대상으로 하는 혜택 {seoulWideBenefitCount}건은 따로 모았습니다.{" "}
+              <Link
+                href={`/benefits?district=${encodeURIComponent(SEOUL_WIDE_DISTRICT)}`}
+                className="inline-flex min-h-11 items-center font-bold text-blue-700 underline underline-offset-4"
+              >
+                서울 전체 대상 혜택 보기
+              </Link>
+            </p>
           </div>
         </section>
 
@@ -410,11 +424,12 @@ export default async function DistrictDetailPage({ params }: PageProps) {
   );
 }
 
-function HeroStat({ label, value }: { label: string; value: string }) {
+function HeroStat({ label, value, note }: { label: string; value: string; note?: string }) {
   return (
     <div className="rounded-2xl border border-slate-100 bg-slate-50 p-5">
       <p className="text-sm font-semibold text-slate-500">{label}</p>
       <p className="mt-2 text-2xl font-extrabold text-slate-950">{value}</p>
+      {note ? <p className="mt-1 text-xs font-medium text-slate-500">{note}</p> : null}
     </div>
   );
 }
@@ -426,36 +441,6 @@ function EmptyState({ title, text }: { title: string; text: string }) {
       <p className="mt-2 text-sm leading-6 text-slate-600">{text}</p>
     </div>
   );
-}
-
-function matchesDistrictEvent(district: DistrictGuide, event: SeoulEventSummary) {
-  const haystack = normalizeText(
-    [event.district, event.venue, event.title, event.summary].join(" ")
-  );
-  return getDistrictTerms(district).some((term) => haystack.includes(term));
-}
-
-function matchesDistrictBenefit(district: DistrictGuide, benefit: PublicBenefitSummary) {
-  const haystack = normalizeText(
-    [
-      benefit.district,
-      benefit.provider,
-      benefit.receptionAgency,
-      benefit.title,
-      benefit.summary,
-      benefit.targetSummary,
-      benefit.supportSummary,
-    ].join(" ")
-  );
-  const districtMatch = getDistrictTerms(district).some((term) =>
-    haystack.includes(term)
-  );
-  const cityWideMatch =
-    haystack.includes("서울특별시") ||
-    haystack.includes("서울시") ||
-    haystack.includes("서울");
-
-  return districtMatch || cityWideMatch;
 }
 
 function getRelatedPosts(district: DistrictGuide, posts: Post[]) {

@@ -19,7 +19,7 @@ export default function HomeHero({ situations }: { situations: SituationGuide[] 
         <p className="hero-description">아이와, 비 오는 날, 무료·저비용까지.<br />지금 나에게 맞는 서울 나들이를 찾아보세요.</p>
         <HomeUnifiedSearch />
         <nav className="hero-shortcuts" aria-label="상황별 코스 바로가기">
-          {situations.map((situation) => <Link key={situation.slug} href={`/search?q=${encodeURIComponent(situation.searchIntent)}`}>{situation.eyebrow}<span aria-hidden="true" className="ml-2">↗</span></Link>)}
+          {situations.map((situation) => <Link key={situation.slug} href={situation.href}>{situation.eyebrow}<span aria-hidden="true" className="ml-2">→</span></Link>)}
         </nav>
       </div>
       <div className="hero-flyers">

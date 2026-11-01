@@ -1,5 +1,16 @@
 import type { SearchFilters, SearchIndexItem, SearchItemType } from "@/lib/search-types";
 
+export type SearchMatchMode = "all" | "partial";
+export type ScoredSearchItem = SearchIndexItem & { _score: number };
+
+export interface SearchResult {
+  items: ScoredSearchItem[];
+  matchMode: SearchMatchMode;
+}
+
+// 거의 모든 항목에 들어 있거나 뜻을 좁히지 않는 말이라, 남겨 두면 결과만 막는다
+const FILLER_TOKENS = new Set(["서울", "서울시", "서울특별시", "곳", "갈만한", "가볼만한"]);
+
 function normalizeText(value: string) {
   return value
     .toLowerCase()
@@ -9,10 +20,13 @@ function normalizeText(value: string) {
 }
 
 function splitQuery(query: string) {
-  return normalizeText(query)
+  const tokens = normalizeText(query)
     .split(" ")
     .map((token) => token.trim())
     .filter(Boolean);
+  const meaningfulTokens = tokens.filter((token) => !FILLER_TOKENS.has(token));
+
+  return meaningfulTokens.length > 0 ? meaningfulTokens : tokens;
 }
 
 function fieldIncludes(field: string, token: string) {
@@ -23,12 +37,9 @@ function arrayIncludes(fields: string[], token: string) {
   return fields.some((field) => fieldIncludes(field, token));
 }
 
-function scoreItem(item: SearchIndexItem, tokens: string[]) {
-  if (tokens.length === 0) {
-    return 0;
-  }
-
+function matchItem(item: SearchIndexItem, tokens: string[]) {
   let score = 0;
+  let matchedCount = 0;
 
   for (const token of tokens) {
     let matched = false;
@@ -68,9 +79,13 @@ function scoreItem(item: SearchIndexItem, tokens: string[]) {
       matched = true;
     }
 
-    if (!matched) {
-      return -1;
+    if (matched) {
+      matchedCount += 1;
     }
+  }
+
+  if (matchedCount === 0) {
+    return { score, matchedCount };
   }
 
   if (item.isActive) {
@@ -81,10 +96,10 @@ function scoreItem(item: SearchIndexItem, tokens: string[]) {
     score += 2;
   }
 
-  return score;
+  return { score, matchedCount };
 }
 
-function compareItems(a: SearchIndexItem & { _score: number }, b: SearchIndexItem & { _score: number }) {
+function compareItems(a: ScoredSearchItem, b: ScoredSearchItem) {
   if (b._score !== a._score) {
     return b._score - a._score;
   }
@@ -103,34 +118,56 @@ function compareItems(a: SearchIndexItem & { _score: number }, b: SearchIndexIte
   return bDate.localeCompare(aDate);
 }
 
-export function filterSearchItems(items: SearchIndexItem[], filters: SearchFilters) {
+function passesFilters(item: SearchIndexItem, filters: SearchFilters) {
+  if (filters.type !== "all" && item.type !== filters.type) {
+    return false;
+  }
+
+  if (filters.district !== "전체 지역" && item.district !== filters.district) {
+    return false;
+  }
+
+  if (filters.activeOnly && !item.isActive) {
+    return false;
+  }
+
+  return true;
+}
+
+export function searchItems(items: SearchIndexItem[], filters: SearchFilters): SearchResult {
   const tokens = splitQuery(filters.query);
-  const filtered = items.filter((item) => {
-    if (filters.type !== "all" && item.type !== filters.type) {
-      return false;
-    }
+  const candidates = items.filter((item) => passesFilters(item, filters));
 
-    if (filters.district !== "전체 지역" && item.district !== filters.district) {
-      return false;
-    }
+  if (tokens.length === 0) {
+    return {
+      items: candidates.map((item) => ({ ...item, _score: item.isActive ? 1 : 0 })).sort(compareItems),
+      matchMode: "all",
+    };
+  }
 
-    if (filters.activeOnly && !item.isActive) {
-      return false;
-    }
-
-    if (tokens.length === 0) {
-      return true;
-    }
-
-    return scoreItem(item, tokens) >= 0;
+  const matches = candidates.map((item) => {
+    const { score, matchedCount } = matchItem(item, tokens);
+    return { item: { ...item, _score: score }, matchedCount };
   });
+  const fullMatches = matches.filter((match) => match.matchedCount === tokens.length);
 
-  return filtered
-    .map((item) => ({
-      ...item,
-      _score: tokens.length === 0 ? (item.isActive ? 1 : 0) : scoreItem(item, tokens),
-    }))
-    .sort(compareItems);
+  if (fullMatches.length > 0 || tokens.length === 1) {
+    return { items: fullMatches.map((match) => match.item).sort(compareItems), matchMode: "all" };
+  }
+
+  // 모든 단어가 맞는 결과가 없을 때만, 많이 맞은 결과부터 보여준다
+  const partialMatches = matches
+    .filter((match) => match.matchedCount > 0)
+    .sort((a, b) => b.matchedCount - a.matchedCount || compareItems(a.item, b.item));
+
+  return {
+    items: partialMatches.map((match) => match.item),
+    matchMode: partialMatches.length > 0 ? "partial" : "all",
+  };
+}
+
+export function filterSearchItems(items: SearchIndexItem[], filters: SearchFilters) {
+  return searchItems(items, filters).items;
 }
 
 export function getSuggestionItems(items: SearchIndexItem[], query: string, limit = 6) {

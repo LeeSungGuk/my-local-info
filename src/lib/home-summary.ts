@@ -40,6 +40,22 @@ export function getEndOfWeekInSeoul(today = getTodayInSeoul()) {
   return addDays(today, daysUntilSunday);
 }
 
+export function isBenefitClosingThisWeek(
+  benefit: Pick<PublicBenefitSummary, "isAlwaysOpen" | "deadlineSortKey">,
+  today: string,
+  weekEnd: string
+) {
+  if (benefit.isAlwaysOpen) {
+    return false;
+  }
+
+  if (!benefit.deadlineSortKey || benefit.deadlineSortKey === "9999-12-31") {
+    return false;
+  }
+
+  return benefit.deadlineSortKey >= today && benefit.deadlineSortKey <= weekEnd;
+}
+
 export function isOngoingEvent(event: Pick<SeoulEventSummary, "startDate" | "endDate">, today = getTodayInSeoul()) {
   const effectiveStartDate = event.startDate || event.endDate;
   const effectiveEndDate = event.endDate || event.startDate;
@@ -73,17 +89,9 @@ export function getHomeSummaryMetrics(
     today,
     weekEnd,
     ongoingEventsCount: events.filter((event) => isOngoingEvent(event, today)).length,
-    closingBenefitsThisWeekCount: benefits.filter((benefit) => {
-      if (benefit.isAlwaysOpen) {
-        return false;
-      }
-
-      if (!benefit.deadlineSortKey || benefit.deadlineSortKey === "9999-12-31") {
-        return false;
-      }
-
-      return benefit.deadlineSortKey >= today && benefit.deadlineSortKey <= weekEnd;
-    }).length,
+    closingBenefitsThisWeekCount: benefits.filter((benefit) =>
+      isBenefitClosingThisWeek(benefit, today, weekEnd)
+    ).length,
     freeEventsCount: visibleEvents.filter((event) => event.isFree).length,
     indoorRecommendationsCount: visibleEvents.filter((event) => isIndoorEvent(event)).length,
   };

@@ -2,13 +2,16 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import {
   buildDistrictMapEntries,
+  filterByDistrict,
   getDistrictLinks,
   getMetricStep,
+  isSeoulWideBenefit,
   SEOUL_DISTRICT_TILES,
   summarizeEventsByDistrict,
   type DistrictMapEntry,
   type DistrictMapEvent,
 } from "./district-map.ts";
+import { filterVisibleEvents } from "./event-visibility.ts";
 import { getFoodDistrictOverviews } from "./food.ts";
 
 function makeEvent(overrides: Partial<DistrictMapEvent>): DistrictMapEvent {
@@ -176,4 +179,35 @@ test("districts without a guide or events lead with benefits and drop the event 
 
   assert.deepEqual(links.primary, { kind: "benefits", href: `/benefits?district=${encodeURIComponent("관악구")}` });
   assert.equal(links.events, null);
+});
+
+test("district content keeps only items whose district is exactly that district", () => {
+  const items = [
+    { id: "jung", district: "중구" },
+    { id: "jungnang", district: "중랑구" },
+    { id: "seoul", district: "서울특별시" },
+  ];
+
+  assert.deepEqual(filterByDistrict(items, "중구").map((item) => item.id), ["jung"]);
+});
+
+test("district pages count benefits and events the same way as the tile map", async () => {
+  const benefits = [{ district: "마포구" }, { district: "마포구" }, { district: "서울특별시" }, { district: "강북구" }];
+  const entries = buildDistrictMapEntries({ guides: [], benefits, foodOverviews: await getFoodDistrictOverviews() });
+  const today = "2026-11-02";
+  const events = [
+    makeEvent({ id: "jung-1", district: "중구", startDate: "2026-11-01", endDate: "2026-11-30", isFree: true }),
+    makeEvent({ id: "jung-2", district: "중구", startDate: "2026-11-10", endDate: "2026-11-10" }),
+    makeEvent({ id: "jung-ended", district: "중구", startDate: "2026-10-01", endDate: "2026-10-02" }),
+    makeEvent({ id: "jungnang", district: "중랑구", startDate: "2026-11-05", endDate: "2026-11-05" }),
+  ];
+  const jungEvents = filterByDistrict(filterVisibleEvents(events, today), "중구");
+  const jungSummary = summarizeEventsByDistrict(events, today).get("중구");
+
+  assert.equal(filterByDistrict(benefits, "마포구").length, 2);
+  assert.equal(entries.find((entry) => entry.name === "마포구")?.benefitCount, 2);
+  assert.equal(benefits.filter(isSeoulWideBenefit).length, 1);
+  assert.deepEqual(jungEvents.map((event) => event.id), ["jung-1", "jung-2"]);
+  assert.equal(jungSummary?.visibleCount, jungEvents.length);
+  assert.equal(jungSummary?.freeCount, jungEvents.filter((event) => event.isFree).length);
 });

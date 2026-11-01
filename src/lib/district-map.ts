@@ -161,6 +161,17 @@ export function summarizeEventsByDistrict(
   return summaries;
 }
 
+export const SEOUL_WIDE_DISTRICT = "서울특별시";
+
+// 구 페이지·홈 지도·목록 필터가 같은 수를 내도록, 글자 포함이 아니라 구 이름 일치로 고른다
+export function filterByDistrict<T extends { district: string }>(items: T[], districtName: string) {
+  return items.filter((item) => item.district === districtName);
+}
+
+export function isSeoulWideBenefit(benefit: Pick<PublicBenefitSummary, "district">) {
+  return benefit.district === SEOUL_WIDE_DISTRICT;
+}
+
 export interface DistrictLinks {
   primary: { kind: "guide" | "events" | "benefits"; href: string };
   events: string | null;

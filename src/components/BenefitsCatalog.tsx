@@ -6,7 +6,7 @@ import { useState } from "react";
 import type { PublicBenefitSummary } from "@/lib/public-benefits";
 import { formatBenefitDeadline } from "@/lib/benefit-utils";
 import { getTodayInSeoul } from "@/lib/event-visibility";
-import { getEndOfWeekInSeoul } from "@/lib/home-summary";
+import { getEndOfWeekInSeoul, isBenefitClosingThisWeek } from "@/lib/home-summary";
 
 const ALL_FIELDS = "전체 분야";
 const ALL_DISTRICTS = "전체 지역";
@@ -26,15 +26,7 @@ export default function BenefitsCatalog({ benefits }: { benefits: PublicBenefitS
 
   const baseBenefits = benefits.filter((benefit) => {
     if (selectedView === "closing-this-week") {
-      if (benefit.isAlwaysOpen) {
-        return false;
-      }
-
-      if (!benefit.deadlineSortKey || benefit.deadlineSortKey === "9999-12-31") {
-        return false;
-      }
-
-      return benefit.deadlineSortKey >= today && benefit.deadlineSortKey <= weekEnd;
+      return isBenefitClosingThisWeek(benefit, today, weekEnd);
     }
 
     return true;
@@ -216,7 +208,20 @@ export default function BenefitsCatalog({ benefits }: { benefits: PublicBenefitS
           <p className="text-sm text-slate-500">{filteredBenefits.length}건</p>
         </div>
 
-        {filteredBenefits.length === 0 ? (
+        {filteredBenefits.length === 0 && selectedView === "closing-this-week" && baseBenefits.length === 0 ? (
+          <div className="rounded-2xl border border-dashed border-blue-200 bg-white p-10 text-center">
+            <p className="text-lg font-semibold text-gray-900">이번 주({weekEnd}까지) 마감되는 혜택이 없습니다.</p>
+            <p className="mt-2 text-sm text-gray-600">
+              마감일이 정해진 혜택이 많지 않습니다. 전체 혜택에서 상시 신청할 수 있는 혜택을 확인해 보세요.
+            </p>
+            <Link
+              href="/benefits"
+              className="mt-6 inline-flex min-h-11 items-center rounded-full border border-blue-200 bg-white px-4 text-sm font-semibold text-blue-700 transition-colors hover:border-blue-300 hover:bg-blue-50"
+            >
+              전체 혜택 보기
+            </Link>
+          </div>
+        ) : filteredBenefits.length === 0 ? (
           <div className="rounded-2xl border border-dashed border-blue-200 bg-white p-10 text-center">
             <p className="text-lg font-semibold text-gray-900">선택한 조건에 맞는 혜택이 없습니다.</p>
             <p className="mt-2 text-sm text-gray-600">다른 분야나 지역을 선택해 주세요.</p>

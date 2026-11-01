@@ -3,8 +3,11 @@
 import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
-import { filterSearchItems, getSearchDistricts } from "@/lib/search-utils";
+import { filterSearchItems, getSearchDistricts, searchItems } from "@/lib/search-utils";
 import type { SearchFilters, SearchIndexData, SearchIndexItem } from "@/lib/search-types";
+import { getAllSituations } from "@/lib/situations";
+
+const SITUATIONS = getAllSituations();
 
 const EMPTY_INDEX: SearchIndexData = {
   generatedAt: "",
@@ -86,7 +89,7 @@ export default function SearchResultsView() {
     activeOnly: searchParams.get("active") !== "0",
   };
 
-  const results = filterSearchItems(index.items, filters);
+  const { items: results, matchMode } = searchItems(index.items, filters);
   const districtBaseItems = filterSearchItems(index.items, {
     ...filters,
     district: "전체 지역",
@@ -336,6 +339,12 @@ export default function SearchResultsView() {
               </span>
             ))}
           </div>
+
+          {hasQuery && matchMode === "partial" ? (
+            <p className="mt-4 text-sm leading-relaxed text-slate-600">
+              모든 단어가 들어간 결과가 없어, 일부 단어가 맞는 결과를 많이 맞은 순서로 보여드립니다.
+            </p>
+          ) : null}
         </div>
 
         {!filters.query.trim() ? (
@@ -351,6 +360,18 @@ export default function SearchResultsView() {
             <p className="mt-2 text-sm text-slate-600">
               검색어를 조금 더 넓게 쓰거나 지역/유형 필터를 풀어보세요.
             </p>
+            <p className="mt-6 text-sm font-semibold text-slate-700">상황별 가이드에서 찾아보기</p>
+            <div className="mt-3 flex flex-wrap justify-center gap-2">
+              {SITUATIONS.map((situation) => (
+                <Link
+                  key={situation.slug}
+                  href={situation.href}
+                  className="inline-flex min-h-11 items-center rounded-full border border-slate-200 bg-white px-4 text-sm font-semibold text-slate-700 transition-colors hover:border-sky-200 hover:text-sky-700"
+                >
+                  {situation.title}
+                </Link>
+              ))}
+            </div>
           </div>
         ) : (
           <div className="mt-5 grid gap-4 md:grid-cols-2 md:gap-6">
