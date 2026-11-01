@@ -56,6 +56,9 @@
   - `summary`
   - `category`
   - `tags`
+  - `region`
+  - `sourceType`
+- Posts appear on the site and in search only when `region` is `서울` and `sourceType` is `정보글`. `src/lib/posts.ts` and `scripts/build-search-index.js` hide other posts.
 - New blog posts must use the `.md` extension. `src/lib/posts.ts` currently loads only files ending in `.md`, so `.mdx` files will not appear unless the loader is updated too.
 - Post filenames act as slugs. Do not rename existing post files unless the task explicitly requires slug changes.
 - Keep date strings stable and sortable, ideally in `YYYY-MM-DD` format.
