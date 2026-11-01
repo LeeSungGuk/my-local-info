@@ -11,17 +11,23 @@ export default function Footer() {
         <div className="grid gap-12 pb-12 md:grid-cols-[1.5fr_1fr_1fr]">
           <div>
             <Link href="/" className="inline-flex min-h-11 items-center gap-2.5 text-sm font-extrabold text-slate-950">
-              <span aria-hidden="true" className="flex h-8 w-8 items-center justify-center rounded-lg bg-slate-950 text-white">✳</span> 서울시티
+              <span aria-hidden="true" className="flex h-8 w-8 items-center justify-center rounded-lg bg-slate-950 text-white">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 3v4m-2-1h4m-2 2-2 9h4l-2-9Zm-5 12h10M5 22h14" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="m18 5 .5 1.5L20 7l-1.5.5L18 9l-.5-1.5L16 7l1.5-.5Z" fill="currentColor" />
+                </svg>
+              </span>{" "}
+              서울시티
             </Link>
             <p className="mt-6 font-serif text-xl leading-relaxed tracking-tight text-slate-600">익숙한 서울에서,<br />새로운 하루를 발견하는 시간.</p>
             <p className="mt-5 max-w-xs text-xs leading-6 text-slate-500">서울의 행사, 혜택, 생활형 정보글을 공공데이터 중심으로 정리하는 서울 로컬 정보 서비스입니다.</p>
           </div>
           <div>
-            <p className="eyebrow mb-4">EXPLORE</p>
+            <p className="eyebrow mb-4">둘러보기</p>
             <ul className="grid grid-cols-2 gap-x-4">{quickLinks.map(([href, label]) => <li key={href}><Link href={href} className={linkClass}>{label}</Link></li>)}</ul>
           </div>
           <div>
-            <p className="eyebrow mb-4">INFORMATION</p>
+            <p className="eyebrow mb-4">안내</p>
             <ul>{notices.map(([href, label]) => <li key={href}><Link href={href} className={linkClass}>{label}</Link></li>)}</ul>
             <a href="mailto:jin3137@gmail.com" className={linkClass}>jin3137@gmail.com</a><br />
             <a href="https://github.com/LeeSungGuk/my-local-info/issues" target="_blank" rel="noopener noreferrer" className={linkClass}>GitHub Issues ↗</a>

@@ -7,7 +7,6 @@ export default function HomeSituationSection({ situations }: { situations: Situa
     <section id="situations" className="home-section">
       <div className="home-section-top">
         <div>
-          <p className="eyebrow">A DAY FOR EVERY MOMENT</p>
           <h2 className="section-heading">어떤 하루를 보내고 싶나요?</h2>
           <p className="mt-3 text-sm leading-6 text-slate-500">지금 내 상황에 가까운 서울부터 만나보세요.</p>
         </div>
@@ -22,7 +21,7 @@ export default function HomeSituationSection({ situations }: { situations: Situa
               <h3 className="mt-2 text-base font-bold tracking-tight sm:text-lg"><Link href={situation.href} className="hover:text-sky-700">{situation.cardTitle}</Link></h3>
               <p className="mt-3 line-clamp-3 text-xs leading-6 text-slate-500 sm:text-sm sm:leading-7">{situation.summary}</p>
               <div className="mt-5 flex flex-wrap items-center justify-between gap-x-2 border-t border-slate-200 pt-2">
-                <Link href={situation.href} className="section-link">기준 읽기 <span aria-hidden="true">↗</span></Link>
+                <Link href={situation.href} className="section-link">자세히 보기 <span aria-hidden="true">→</span></Link>
                 <Link href={"/search?q=" + encodeURIComponent(situation.searchIntent)} className="section-link">통합 검색 보기 <span aria-hidden="true">→</span></Link>
               </div>
             </div>

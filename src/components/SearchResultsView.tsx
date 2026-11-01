@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import LineIcon from "@/components/design/LineIcon";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { filterSearchItems, getSearchDistricts, searchItems } from "@/lib/search-utils";
@@ -201,7 +202,7 @@ export default function SearchResultsView() {
                   onClick={() => updateParams({ type: option.value as SearchFilters["type"] })}
                   className={`rounded-full border px-4 py-2 text-sm font-semibold transition-colors ${
                     isActive
-                      ? "border-sky-500 bg-sky-500 text-white"
+                      ? "border-slate-950 bg-slate-950 text-white"
                       : "border-slate-200 bg-white text-slate-600 hover:border-sky-200 hover:bg-sky-50 hover:text-sky-700"
                   }`}
                 >
@@ -225,7 +226,7 @@ export default function SearchResultsView() {
                   onClick={() => updateParams({ district })}
                   className={`rounded-full border px-4 py-2 text-sm font-semibold transition-colors ${
                     isActive
-                      ? "border-blue-500 bg-blue-500 text-white"
+                      ? "border-slate-950 bg-slate-950 text-white"
                       : "border-slate-200 bg-white text-slate-600 hover:border-blue-200 hover:bg-blue-50 hover:text-blue-700"
                   }`}
                 >
@@ -403,18 +404,22 @@ export default function SearchResultsView() {
                   <h3 className="mt-4 text-xl font-bold leading-snug text-slate-900">{item.title}</h3>
                   <p className="mt-3 line-clamp-3 text-sm leading-relaxed text-slate-600">{item.summary}</p>
 
-                  <div className="mt-5 rounded-xl border border-slate-200 bg-slate-50 p-4 text-sm text-slate-600">
-                    <div className="flex items-start gap-2">
-                      <span className="text-sky-500">🗂️</span>
-                      <span>{item.provider || item.venue || item.dateLabel || "추가 정보 없음"}</span>
-                    </div>
-                    {item.dateLabel ? (
-                      <div className="mt-2 flex items-start gap-2">
-                        <span className="text-sky-500">📅</span>
-                        <span>{item.dateLabel}</span>
-                      </div>
-                    ) : null}
-                  </div>
+                  {item.provider || item.venue || item.dateLabel ? (
+                    <ul className="mt-5 space-y-2 border-t border-slate-200 pt-4 text-sm text-slate-600">
+                      {item.provider || item.venue ? (
+                        <li className="flex items-start gap-2">
+                          <LineIcon name="building" className="mt-0.5 h-4 w-4 text-sky-600" />
+                          <span>{item.provider || item.venue}</span>
+                        </li>
+                      ) : null}
+                      {item.dateLabel ? (
+                        <li className="flex items-start gap-2">
+                          <LineIcon name="calendar" className="mt-0.5 h-4 w-4 text-sky-600" />
+                          <span>{item.dateLabel}</span>
+                        </li>
+                      ) : null}
+                    </ul>
+                  ) : null}
 
                   <div className="mt-6 flex items-center justify-between gap-3">
                     <div className="flex flex-wrap gap-2">

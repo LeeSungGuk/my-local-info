@@ -146,7 +146,7 @@ button:not(:disabled), summary { cursor: pointer; }
 .home-hero { position: relative; isolation: isolate; padding: 76px 20px 56px; }
 .hero-content { position: relative; z-index: 2; max-width: 640px; margin-inline: auto; text-align: center; }
 .hero-title { margin: 24px 0; font-size: clamp(2.5rem, 5.2vw, 4.6rem); font-weight: 850; letter-spacing: -.075em; line-height: 1.2; }
-.hero-gradient { background: linear-gradient(100deg, #8f6b91, #b37562 52%, #9e703c); background-clip: text; -webkit-text-fill-color: transparent; }
+.hero-gradient { color: #80573c; }
 .hero-description { max-width: 470px; margin: 0 auto 30px; color: #716b63; font-size: .95rem; line-height: 1.9; word-break: keep-all; }
 .hero-flyers { display: flex; max-width: 640px; justify-content: center; gap: 14px; margin: 42px auto 0; }
 .hero-flyer { display: block; width: 23%; flex-shrink: 0; transform: rotate(var(--tilt)); transition: transform .3s; }

@@ -14,7 +14,7 @@ export default function HomeHero({ situations }: { situations: SituationGuide[] 
   return (
     <section className="home-hero" aria-labelledby="home-title">
       <div className="hero-content">
-        <p className="eyebrow"><span aria-hidden="true" className="mr-2 text-base">✳</span> 서울 상황별 나들이 가이드</p>
+        <p className="eyebrow">서울 상황별 나들이 가이드</p>
         <h1 id="home-title" className="hero-title">오늘의 서울,<br /><span className="hero-gradient">나만의 속도로.</span></h1>
         <p className="hero-description">아이와, 비 오는 날, 무료·저비용까지.<br />지금 나에게 맞는 서울 나들이를 찾아보세요.</p>
         <HomeUnifiedSearch />

@@ -21,7 +21,7 @@ const shouldLoadAdSenseScript = shouldRenderAdSenseScript({
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "서울 상황별 나들이 가이드",
+  name: "서울시티",
   url: siteUrl,
   description:
     "아이와 갈 곳, 비 오는 날, 무료·저비용 코스처럼 상황별로 서울 나들이 장소와 공식 정보를 정리합니다.",
@@ -39,15 +39,15 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "서울 상황별 나들이 가이드 | 무료·가족·비 오는 날 코스",
+  title: "서울시티 | 서울 상황별 나들이 가이드",
   description:
     "아이와 갈 곳, 비 오는 날, 무료·저비용 코스처럼 상황별로 서울 나들이 장소와 공식 정보를 정리합니다.",
   openGraph: {
-    title: "서울 상황별 나들이 가이드 | 무료·가족·비 오는 날 코스",
+    title: "서울시티 | 서울 상황별 나들이 가이드",
     description:
       "아이와 갈 곳, 비 오는 날, 무료·저비용 코스처럼 상황별로 서울 나들이 장소와 공식 정보를 정리합니다.",
     url: siteUrl,
-    siteName: "서울 상황별 나들이 가이드",
+    siteName: "서울시티",
     locale: "ko_KR",
     type: "website",
   },

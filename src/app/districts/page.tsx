@@ -57,9 +57,6 @@ export default async function DistrictsPage() {
         <section>
           <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
             <div>
-              <p className="text-sm font-bold uppercase tracking-[0.16em] text-sky-600">
-                Districts
-              </p>
               <h2 className="mt-2 text-2xl font-extrabold text-slate-950 sm:text-3xl">
                 먼저 볼 구를 선택하세요
               </h2>

@@ -74,11 +74,11 @@ export default function Header() {
             aria-label="메뉴 배경 닫기" onClick={() => setIsMenuOpen(false)} tabIndex={-1} />
           <nav id="mobile-navigation" aria-label="모바일 메뉴"
             className="absolute inset-x-4 top-[84px] max-h-[calc(100dvh-100px)] overflow-y-auto rounded-2xl border border-slate-200 bg-background p-4 shadow-xl">
-            <p className="eyebrow px-3 py-3">EXPLORE SEOUL</p>
+            <p className="eyebrow px-3 py-3">서울 둘러보기</p>
             {navigation.map(([href, label]) => (
               <Link key={href} href={href} aria-current={isCurrent(href) ? "page" : undefined} onClick={() => setIsMenuOpen(false)}
                 className="flex min-h-12 items-center justify-between rounded-xl px-3 text-sm font-semibold text-slate-700 hover:bg-slate-100">
-                {label}<span aria-hidden="true" className="text-slate-400">↗</span>
+                {label}<span aria-hidden="true" className="text-slate-400">→</span>
               </Link>
             ))}
           </nav>

@@ -108,7 +108,6 @@ export default async function Home() {
       <section className="home-section">
         <div className="home-section-top">
           <div>
-            <p className="eyebrow">WHAT’S ON IN SEOUL</p>
             <h2 className="section-heading">
               서울시 행사·축제
             </h2>
@@ -120,7 +119,7 @@ export default async function Home() {
             href="/events"
             className="section-link hidden sm:inline-flex"
           >
-            전체 행사 보기 <span aria-hidden="true">↗</span>
+            전체 행사 보기 <span aria-hidden="true">→</span>
           </Link>
         </div>
 
@@ -131,7 +130,7 @@ export default async function Home() {
             href="/events"
             className="inline-flex min-h-11 items-center rounded-full border border-sky-200 bg-sky-50 px-4 text-sm font-semibold text-sky-700 transition-colors hover:bg-sky-100"
           >
-            전체 행사 보기 <span aria-hidden="true">↗</span>
+            전체 행사 보기 <span aria-hidden="true">→</span>
           </Link>
         </div>
       </section>
@@ -144,7 +143,6 @@ export default async function Home() {
         <div className="home-section">
           <div className="home-section-top">
             <div>
-              <p className="eyebrow">A LITTLE HELP FOR YOUR DAY</p>
               <h2 className="section-heading">
                 놓치면 아쉬운 혜택
               </h2>
@@ -156,7 +154,7 @@ export default async function Home() {
               href="/benefits"
               className="section-link hidden sm:inline-flex"
             >
-              전체 혜택 보기 <span aria-hidden="true">↗</span>
+              전체 혜택 보기 <span aria-hidden="true">→</span>
             </Link>
           </div>
 
@@ -167,7 +165,7 @@ export default async function Home() {
               href="/benefits"
               className="inline-flex min-h-11 items-center rounded-full border border-cyan-200 bg-cyan-50 px-4 text-sm font-semibold text-cyan-700 transition-colors hover:bg-cyan-100"
             >
-              전체 혜택 보기 <span aria-hidden="true">↗</span>
+              전체 혜택 보기 <span aria-hidden="true">→</span>
             </Link>
           </div>
         </div>
