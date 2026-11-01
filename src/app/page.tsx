@@ -10,7 +10,7 @@ import HomeHero from "@/components/HomeHero";
 import HomeDistrictMapSection from "@/components/HomeDistrictMapSection";
 import { getAllPosts } from "@/lib/posts";
 import { getAllDistricts } from "@/lib/districts";
-import { buildDistrictMapEntries } from "@/lib/district-map";
+import { buildDistrictMapEntries, isSeoulWideBenefit } from "@/lib/district-map";
 import { getFoodDistrictOverviews } from "@/lib/food";
 import { getAllSituations } from "@/lib/situations";
 import { getBenefitsIndex, getAllBenefits } from "@/lib/public-benefits";
@@ -97,7 +97,7 @@ export default async function Home() {
         entries={districtMapEntries}
         events={districtMapEvents}
         totalBenefitCount={allBenefits.length}
-        seoulWideBenefitCount={allBenefits.filter((benefit) => benefit.district === "서울특별시").length}
+        seoulWideBenefitCount={allBenefits.filter(isSeoulWideBenefit).length}
       />
 
       <HomeRecommendedPostsSection posts={recommendedPosts} />

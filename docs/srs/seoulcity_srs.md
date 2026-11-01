@@ -130,7 +130,7 @@
 | ID | Requirement statement | Source PRD section | Priority | Verification method | Acceptance criteria |
 | --- | --- | --- | --- | --- | --- |
 | REQ-FUNC-017 | 구별 가이드는 주요 권역과 반나절 코스 예시를 제공해야 한다. | 8.5, 6.3 | Must | Inspection | 구별 상세에서 권역 설명과 코스 예시를 확인할 수 있다. |
-| REQ-FUNC-018 | 구별 가이드는 해당 구와 연결되는 행사, 혜택, 블로그 글, 먹거리 정보를 함께 제공해야 한다. | 8.5, 6.3 | Must | Inspection | 구별 상세에서 관련 정보 묶음이 함께 표시된다. |
+| REQ-FUNC-018 | 구별 가이드는 해당 구와 연결되는 행사, 혜택, 블로그 글, 먹거리 정보를 함께 제공해야 한다. | 8.5, 6.3 | Must | Inspection | 구별 상세에서 관련 정보 묶음이 함께 표시된다. 행사·혜택은 `district`가 해당 구와 같은 항목만 보여주고, 상단 수치는 전체 개수이며, 서울 전체 대상 혜택은 수와 목록 링크를 따로 안내한다([디자인 검사 후속 개선 명세](../works/design_critique_fixes/spec.md)). |
 | REQ-FUNC-019 | 구별 가이드는 구별 공식 확인 링크를 제공해야 한다. | 8.5, 6.5 | Must | Inspection | 구별 상세에서 공식 확인 링크가 보인다. |
 | REQ-FUNC-020 | 상황별 가이드는 아이와, 비 오는 날, 무료·저비용 같은 상황별 페이지를 제공해야 한다. | 8.6, 6.2 | Must | Test | 각 상황별 페이지가 접근 가능하다. |
 | REQ-FUNC-021 | 상황별 페이지는 판단 기준, 체크리스트, 관련 글, 통합 검색 링크를 포함해야 한다. | 8.6 | Must | Inspection | 상황별 상세에서 네 요소가 모두 표시된다. |
@@ -150,6 +150,7 @@
 | REQ-FUNC-025 | 사용자는 하나의 검색어로 행사, 혜택, 먹거리, 블로그 정보글을 함께 찾을 수 있어야 한다. | 8.8, 6.4 | Must | Test | 하나의 검색 결과 화면에서 네 콘텐츠 유형의 결과를 확인할 수 있다. |
 | REQ-FUNC-026 | 검색 결과는 유형, 지역, 현재 참고 가능 여부로 필터링할 수 있어야 한다. | 8.8 | Must | Test | 검색 결과에서 유형·지역·참고 가능 여부 필터가 동작한다. |
 | REQ-FUNC-027 | 먹거리 결과처럼 외부로 이동하는 검색 결과는 외부 링크임을 안전하게 처리해야 한다. | 8.8 | Must | Inspection | 외부 이동 링크는 외부 링크 속성과 안전한 새 창 처리를 갖춘다. |
+| REQ-FUNC-034 | 검색은 뜻을 좁히지 않는 말(서울, 곳, 갈만한 등)을 검색 단어에서 빼고, 모든 단어가 맞는 결과가 없으면 일부 단어가 맞는 결과를 많이 맞은 순서로 보여주며 그 사실을 알려야 한다. | 8.8, 6.4 | Should | Test | `서울 아이와 갈만한 곳`·`성동구 무료 전시` 검색 결과가 1건 이상이고, 일부 단어 결과일 때 검색 화면에 안내가 표시된다([디자인 검사 후속 개선 명세](../works/design_critique_fixes/spec.md)). |
 
 ### 6.8 운영 고지와 정정 요청
 
@@ -410,7 +411,7 @@ erDiagram
 | REQ-FUNC-015 | 카카오맵 검색 연결 | 8.4 | PRD | 외부 검색 연결 | Must | Test |  |
 | REQ-FUNC-016 | 먹거리 후보 안내 | 8.4, 9, 10 | PRD | 신뢰 표현 | Must | Review |  |
 | REQ-FUNC-017 | 구별 권역·코스 | 8.5, 6.3 | PRD | 구별 탐색 | Must | Inspection |  |
-| REQ-FUNC-018 | 구별 연결 정보 | 8.5, 6.3 | PRD | 정보 비교 | Must | Inspection |  |
+| REQ-FUNC-018 | 구별 연결 정보 | 8.5, 6.3 | PRD, works `design_critique_fixes` | 정보 비교 | Must | Inspection | 2026-11-02 구 이름 일치·전체 개수 기준 추가, 로컬 구현 |
 | REQ-FUNC-019 | 구별 공식 링크 | 8.5, 6.5 | PRD | 공식 확인 | Must | Inspection |  |
 | REQ-FUNC-020 | 상황별 페이지 | 8.6, 6.2 | PRD | 상황별 코스 | Must | Test |  |
 | REQ-FUNC-021 | 상황별 판단 기준 | 8.6 | PRD | 상황별 코스 | Must | Inspection |  |
@@ -426,6 +427,7 @@ erDiagram
 | REQ-FUNC-031 | 챗봇 공식 확인 보존 | 7, 10 | PRD | 안전 안내 | Must | Review |  |
 | REQ-FUNC-032 | 홈 구별 타일 지도 | 8.1, 6.3 | PRD, works `home_district_tile_map` | 구 기준 탐색 | Should | Test | 2026-10-30 추가, PR #8 병합·운영 배포 |
 | REQ-FUNC-033 | 혜택 목록 지역 주소 필터 | 8.3, 8.1 | PRD, works `home_district_tile_map` | 구 기준 탐색 | Should | Test | 2026-10-30 추가, PR #8 병합·운영 배포 |
+| REQ-FUNC-034 | 검색 군더더기 단어 제외·일부 단어 결과 | 8.8, 6.4 | PRD, works `design_critique_fixes` | 통합 검색 | Should | Test | 2026-11-02 추가, 로컬 구현 |
 | REQ-NF-001 | 정적 배포 유지 | 4, 12 | PRD | 안정 운영 | Must | Analysis |  |
 | REQ-NF-002 | 검색 인덱스 선행 생성 | 12 | PRD | 검색 운영 | Must | Test |  |
 | REQ-NF-003 | API 키 없는 일반 확인 | 12 | PRD | 개발 가능성 | Must | Test |  |

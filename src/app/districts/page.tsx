@@ -3,6 +3,7 @@ import Link from "next/link";
 import DistrictCard from "@/components/districts/DistrictCard";
 import DistrictSourceNotice from "@/components/districts/DistrictSourceNotice";
 import { getAllDistricts } from "@/lib/districts";
+import { filterVisibleEvents, getTodayInSeoul } from "@/lib/event-visibility";
 import { getEventsIndex } from "@/lib/seoul-events";
 import { getBenefitsIndex } from "@/lib/public-benefits";
 
@@ -18,6 +19,7 @@ export default async function DistrictsPage() {
     getBenefitsIndex(),
   ]);
   const districts = getAllDistricts();
+  const visibleEventCount = filterVisibleEvents(eventsIndex.items, getTodayInSeoul()).length;
 
   return (
     <div className="site-page min-h-screen">
@@ -41,7 +43,7 @@ export default async function DistrictsPage() {
             <SummaryStat label="가이드 구" value={`${districts.length}개`} />
             <SummaryStat
               label="행사 데이터"
-              value={`${eventsIndex.items.length.toLocaleString("ko-KR")}건`}
+              value={`${visibleEventCount.toLocaleString("ko-KR")}건`}
             />
             <SummaryStat
               label="혜택 데이터"

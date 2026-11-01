@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { Suspense } from "react";
 import BenefitsCatalog from "@/components/BenefitsCatalog";
+import { getTodayInSeoul } from "@/lib/event-visibility";
+import { getEndOfWeekInSeoul, isBenefitClosingThisWeek } from "@/lib/home-summary";
 import { getAllBenefits } from "@/lib/public-benefits";
 
 export const metadata = {
@@ -11,6 +13,9 @@ export const metadata = {
 
 export default async function BenefitsPage() {
   const benefits = await getAllBenefits();
+  const today = getTodayInSeoul();
+  const weekEnd = getEndOfWeekInSeoul(today);
+  const hasClosingBenefits = benefits.some((benefit) => isBenefitClosingThisWeek(benefit, today, weekEnd));
 
   return (
     <div className="site-page min-h-screen">
@@ -31,7 +36,9 @@ export default async function BenefitsPage() {
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
-            <QuickLink href="/benefits?view=closing-this-week" label="이번 주 마감 혜택" />
+            {hasClosingBenefits ? (
+              <QuickLink href="/benefits?view=closing-this-week" label="이번 주 마감 혜택" />
+            ) : null}
             <QuickLink href="/benefits" label="서울 전체 혜택 보기" />
           </div>
         </div>
@@ -40,13 +47,14 @@ export default async function BenefitsPage() {
       <section className="mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-16">
         {benefits.length === 0 ? (
           <div className="rounded-3xl border border-dashed border-blue-200 bg-white p-10 text-center">
-            <h2 className="text-xl font-bold text-gray-900">혜택 데이터가 아직 없습니다.</h2>
+            <h2 className="text-xl font-bold text-gray-900">혜택 정보를 준비하고 있습니다.</h2>
             <p className="mt-3 text-gray-600">
-              <code className="rounded bg-blue-50 px-1.5 py-0.5 text-sm text-blue-700">
-                node scripts/fetch-public-benefits.js
-              </code>
-              를 실행해 공공데이터포털 혜택 데이터를 먼저 생성해 주세요.
+              공공데이터포털 혜택 정보를 다시 받아오면 이곳에 표시됩니다. 그동안 서울 행사나 블로그 글을 둘러보세요.
             </p>
+            <div className="mt-6 flex flex-wrap justify-center gap-3">
+              <QuickLink href="/events" label="서울 행사 보기" />
+              <QuickLink href="/blog" label="블로그 보기" />
+            </div>
           </div>
         ) : (
           <Suspense fallback={<CatalogFallback message="혜택 목록을 불러오는 중입니다." />}>
