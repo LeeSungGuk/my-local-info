@@ -33,6 +33,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+.dev.vars*
 
 # vercel
 .vercel
@@ -49,10 +50,11 @@ next-env.d.ts
 .antigravitycli/
 .idea/
 .junie/
-.next/
-out/
-output/
+.cursor/
 .omx/
 knowledge/
 /design-templates/
 /.codex/plugins/
+/artifacts/
+/tmp-*.md
+/home-page-analysis.png

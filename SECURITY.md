@@ -45,7 +45,7 @@
 | 비공개 | `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID` | GitHub Actions secrets |
 | 공개 가능 | `NEXT_PUBLIC_GA_ID`, `NEXT_PUBLIC_ADSENSE_*`, `NEXT_PUBLIC_COUPANG_PARTNER_ID` | `.env.local`, GitHub Actions secrets |
 
-- 비밀값은 Git에 커밋하지 않습니다. `.env*`는 `.gitignore`로 추적에서 제외합니다.
+- 비밀값은 Git에 커밋하지 않습니다. `.env*`와 Cloudflare 로컬 비밀값 파일 `.dev.vars*`는 `.gitignore`로 추적에서 제외합니다.
 - `NEXT_PUBLIC_*`는 빌드 결과물에 포함되어 브라우저에 노출됩니다. 공개되어도 되는 측정 ID와 광고 슬롯만 둡니다. 토큰, 비공개 키, 관리자용 값은 `NEXT_PUBLIC_*`로 만들지 않습니다.
 - GitHub Actions secrets는 필요한 step에만 `env`로 전달합니다.
 - 문서에는 변수 이름과 주입 경로만 적고 값은 적지 않습니다.
