@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-10-31T10:46:01+09:00",
+  "lastGeneratedAt": "2026-11-01T10:39:46+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -4149,9 +4149,9 @@
         "힐링명소"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-10-24T09:58:45+09:00",
-      "usedAt": null
+      "usedAt": "2026-11-01T10:39:46+09:00"
     },
     {
       "id": "seoul-korean-traditional-liquor-galleries",
@@ -4256,6 +4256,183 @@
       "origin": "ai",
       "status": "pending",
       "createdAt": "2026-10-24T09:58:45+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-public-greenhouse-botanical-gardens",
+      "titleHint": "날씨에 구애받지 않고 누리는 푸르름, 사계절 울창한 서울 도심 속 공공 온실 식물원",
+      "topicCategory": "실내대안",
+      "angle": "미세먼지나 날씨 제약 없이 이국적인 열대 식물과 수목을 무료 또는 저렴하게 관람할 수 있는 실내 온실 쉼터",
+      "places": [
+        "강서구 서울식물원 주제원 온실",
+        "동대문구 홍릉수목원 어반오아시스 온실",
+        "관악구 서울대학교 관악수목원 온실",
+        "중랑구 중랑캠핑숲 자생식물원 온실"
+      ],
+      "tags": [
+        "실내온실",
+        "식물원",
+        "실내데이트",
+        "도심휴식",
+        "초록 힐링"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-11-01T10:39:46+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-photo-book-and-zine-shops",
+      "titleHint": "한 장의 프레임이 전하는 깊은 시선, 국내외 시각 예술과 독창적인 앨범을 모은 서울 사진집 전문 서점",
+      "topicCategory": "생활취향",
+      "angle": "일반 서점에서 찾기 힘든 국내외 작가들의 사진집, 아트북, 독립 출판물을 전문적으로 다루는 취향형 공간",
+      "places": [
+        "마포구 연남동 이라선",
+        "종로구 통의동 더북소사이어티",
+        "용산구 한남동 포토북클럽"
+      ],
+      "tags": [
+        "사진집서점",
+        "독립서점",
+        "아트북",
+        "사진갤러리",
+        "취향탐색"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-11-01T10:39:46+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-public-maker-spaces",
+      "titleHint": "장비 없이 몸만 가도 펼쳐지는 창작의 재미, 누구나 아이디어를 실현하는 서울 공공 메이커 스페이스",
+      "topicCategory": "실내대안",
+      "angle": "3D 프린터, 레이저 가공기, 재봉틀 등 고가의 공구를 무료 혹은 저렴한 비용으로 활용해 DIY 제작을 경험하는 체험 공간",
+      "places": [
+        "금천구 서울시립금천청소년센터 메이커스페이스",
+        "성북구 성북 메이커스페이스",
+        "마포구 서울창업허브 메이커스페이스"
+      ],
+      "tags": [
+        "메이커스페이스",
+        "DIY체험",
+        "공공공방",
+        "창작공간",
+        "취미생활"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-11-01T10:39:46+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-modern-traditional-k-dessert-shops",
+      "titleHint": "정성스러운 다과에 담긴 정갈한 멋, 약과와 개성주악을 다정하게 내어주는 서울 K-디저트 숍",
+      "topicCategory": "생활취향",
+      "angle": "전통 한과, 약과, 강정, 주악 등을 현대적인 감각과 정갈한 인테리어 속에서 차와 함께 즐길 수 있는 프리미엄 한과점",
+      "places": [
+        "종로구 안국동 연경당",
+        "서대문구 연희동 올되다공방",
+        "강남구 압구정 강정이넘치는집"
+      ],
+      "tags": [
+        "K디저트",
+        "전통다과",
+        "개성주악",
+        "약과맛집",
+        "디저트카페"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-11-01T10:39:46+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-urban-stream-waterfront-walks",
+      "titleHint": "잔잔한 물소리 따라 부담 없이 걷는 휴식, 카페거리와 물길이 어우러진 서울 도심 하천 산책로",
+      "topicCategory": "짧은코스",
+      "angle": "한강처럼 거대하지는 않지만 동네 주민들이 일상 속에서 부담 없이 수변 테라스와 정취를 즐기기 좋은 소형 하천 산책 코스",
+      "places": [
+        "은평구 불광천 수변산책로",
+        "서대문구 홍제천 인공폭포 수변테라스",
+        "성북구 성북천 산책로"
+      ],
+      "tags": [
+        "수변산책로",
+        "하천 산책",
+        "도심 산책",
+        "동네산책",
+        "가벼운 걷기"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-11-01T10:39:46+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-classical-music-listening-salons",
+      "titleHint": "웅장한 스피커가 전하는 깊은 울림, 고품질 오디오로 클래식과 LP를 감상하는 서울 청음 살롱",
+      "topicCategory": "문화생활",
+      "angle": "하이엔드 음향 시스템과 대형 스피커를 갖추고 조용하게 고전 음악이나 아날로그 소리에 집중할 수 있는 청음 공간",
+      "places": [
+        "서초구 예술의전당 음악도서관 청음실",
+        "종로구 혜화동 이강구 클래식청음실",
+        "마포구 연남동 풍류"
+      ],
+      "tags": [
+        "클래식청음실",
+        "음악살롱",
+        "하이엔드오디오",
+        "음악감상",
+        "힐링공간"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-11-01T10:39:46+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-wooden-forest-libraries",
+      "titleHint": "나무 향 그득한 문장 속으로, 숲의 풍경과 친환경 건축이 어우러진 서울 숲속 작은 도서관",
+      "topicCategory": "휴식공간",
+      "angle": "자연 목재 건축과 큰 유리창을 통해 숲의 사계절을 바라보며 한적하게 책을 읽을 수 있는 도심 공원 속 숲속 도서관",
+      "places": [
+        "양천구 목동 파리공원 숲속도서관",
+        "동작구 까치산 숲속도서관",
+        "성북구 오동숲속도서관"
+      ],
+      "tags": [
+        "숲속도서관",
+        "목조건축",
+        "공원도서관",
+        "독서휴식",
+        "자연친화"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-11-01T10:39:46+09:00",
+      "usedAt": null
+    },
+    {
+      "id": "seoul-multicultural-neighborhood-streets",
+      "titleHint": "서울 한복판에서 경험하는 낯선 풍경, 이주민 문화와 개성 있는 식문화가 어우러진 이색 골목",
+      "topicCategory": "구별분위기",
+      "angle": "특정 국가의 문화나 커뮤니티가 오랜 기간 형성되어 이국적인 간판, 현지 식재료, 독특한 동네 분위기를 느낄 수 있는 구별 골목",
+      "places": [
+        "용산구 동부이촌동 재팬타운 골목",
+        "영등포구 대림동 다문화 음식거리",
+        "광진구 자양동 양꼬치 거리"
+      ],
+      "tags": [
+        "이색골목",
+        "다문화거리",
+        "구별분위기",
+        "골목탐방",
+        "이국적풍경"
+      ],
+      "origin": "ai",
+      "status": "pending",
+      "createdAt": "2026-11-01T10:39:46+09:00",
       "usedAt": null
     }
   ]

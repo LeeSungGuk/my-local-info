@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cover-title cover-desc" data-cover-generator="seoulcity" data-cover-version="2" data-cover-subject="hanok" data-cover-scene="palace-colonnade" data-cover-palette="sea">
+  <title id="cover-title">도심 한복판에서 찾은 고요함, 마음을 정돈하는 서울 사찰 산책 3곳</title>
+  <desc id="cover-desc">반복되는 궁궐 기둥과 회랑. 분류: 휴식공간. 추천 장소: 성북구 길상사, 강남구 봉은사, 은평구 진관사</desc>
+  <rect width="1600" height="900" fill="#F7F3EB"/>
+  <rect x="120" y="65" width="1360" height="770" rx="54" fill="#DCE8E2"/>
+  <ellipse cx="800" cy="763" rx="420" ry="18" fill="#303A33" opacity=".06"/>
+  <g transform="translate(280 130) scale(1.04)" stroke="#303A33" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M130 130L230 66H785L870 130Z" fill="#303A33" /><rect x="190" y="132" width="30" height="290" rx="2" fill="#67948B"/><rect x="170" y="420" width="70" height="30" rx="2" fill="#F7F3EB"/><rect x="380" y="132" width="30" height="290" rx="2" fill="#67948B"/><rect x="360" y="420" width="70" height="30" rx="2" fill="#F7F3EB"/><rect x="570" y="132" width="30" height="290" rx="2" fill="#67948B"/><rect x="550" y="420" width="70" height="30" rx="2" fill="#F7F3EB"/><rect x="760" y="132" width="30" height="290" rx="2" fill="#67948B"/><rect x="740" y="420" width="70" height="30" rx="2" fill="#F7F3EB"/><path d="M140 456H870L890 510H110Z" fill="#DCE8E2" /><path d="M150 176L850 176" fill="none" /></g>
+</svg>
