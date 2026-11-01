@@ -35,7 +35,7 @@ export default function DistrictMiniEventCard({
         href={`/events/${event.id}`}
         className="mt-4 inline-flex min-h-11 items-center text-sm font-bold text-sky-700 transition-colors hover:text-sky-900"
       >
-        상세 보기
+        자세히 보기
         <span aria-hidden="true" className="ml-1">
           →
         </span>

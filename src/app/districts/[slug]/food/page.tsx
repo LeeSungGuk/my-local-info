@@ -65,13 +65,12 @@ export default async function DistrictFoodPage({ params }: PageProps) {
       <div className="mx-auto max-w-6xl px-5 pt-8 sm:px-6">
         <nav aria-label="먹거리 가이드 탐색" className="flex flex-wrap items-center gap-x-5">
           <Link href="/food" className="section-link"><span aria-hidden="true">←</span> 전체 먹거리 가이드</Link>
-          <Link href={`/districts/${district.slug}`} className="section-link">{district.name} 나들이 가이드 <span aria-hidden="true">↗</span></Link>
+          <Link href={`/districts/${district.slug}`} className="section-link">{district.name} 나들이 가이드 <span aria-hidden="true">→</span></Link>
         </nav>
       </div>
 
       <section className="food-district-hero" aria-labelledby="district-food-title">
         <div>
-          <p className="eyebrow">Seoul table · {district.name}</p>
           <h1 id="district-food-title" className="food-district-title">
             {district.name}에서,<br /><span className="hero-gradient">산책과 한 끼.</span>
           </h1>
@@ -94,7 +93,6 @@ export default async function DistrictFoodPage({ params }: PageProps) {
         <section className="home-section" aria-labelledby="district-editorial-title">
           <div className="food-editorial-note">
             <div>
-              <p className="eyebrow">A note for your walk</p>
               <p className="mt-3 text-lg font-bold tracking-tight">식사 동선 메모</p>
             </div>
             <div>
@@ -111,7 +109,6 @@ export default async function DistrictFoodPage({ params }: PageProps) {
       <section id="district-food-places" className="home-section" aria-labelledby="district-places-title">
         <div className="home-section-top">
           <div>
-            <p className="eyebrow">From open data</p>
             <h2 id="district-places-title" className="section-heading">{district.name} 음식점 후보</h2>
             <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-500">
               서울 열린데이터 일반음식점 인허가 정보에서 영업 상태로 확인된 가게입니다.
@@ -135,7 +132,6 @@ export default async function DistrictFoodPage({ params }: PageProps) {
       <section id="district-food-intents" className="home-section" aria-labelledby="district-intents-title">
         <div className="home-section-top">
           <div>
-            <p className="eyebrow">Follow your day</p>
             <h2 id="district-intents-title" className="section-heading">동선별 식사 검색</h2>
             <p className="mt-3 text-sm leading-7 text-slate-500">나들이 일정에 맞는 식사 권역을 카카오맵에서 살펴보세요.</p>
           </div>
@@ -157,7 +153,6 @@ export default async function DistrictFoodPage({ params }: PageProps) {
       <section className="home-section" aria-labelledby="other-food-districts-title">
         <div className="home-section-top">
           <div>
-            <p className="eyebrow">Your next neighborhood</p>
             <h2 id="other-food-districts-title" className="section-heading">다른 구 먹거리 보기</h2>
           </div>
           <Link href="/food#district-guides" className="section-link">전체 가이드 <span aria-hidden="true">→</span></Link>
@@ -167,7 +162,7 @@ export default async function DistrictFoodPage({ params }: PageProps) {
             <Link key={item.slug} href={`/districts/${item.slug}/food`} className="editorial-card group">
               <FoodGuideCover districtSlug={item.slug} districtName={item.name} area={item.nearbyAreas[0]} />
               <div className="mt-4 flex min-h-11 items-center justify-between text-sm font-bold text-slate-700 group-hover:text-sky-800">
-                {item.name}<span aria-hidden="true">↗</span>
+                {item.name}<span aria-hidden="true">→</span>
               </div>
             </Link>
           ))}

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import LineIcon from "@/components/design/LineIcon";
 import EventPoster from "./design/EventPoster";
 import { useMemo, useState, useSyncExternalStore } from "react";
 import { isIndoorEvent, isOngoingEvent } from "@/lib/home-summary";
@@ -294,26 +295,26 @@ export default function EventsCatalog({
                       {event.summary}
                     </p>
 
-                    <div className="mt-5 space-y-2 rounded-xl border border-slate-200 bg-slate-50 px-4 py-4 text-sm text-slate-700">
-                      <div className="flex items-start gap-2">
-                        <span className="text-sky-500">📅</span>
-                        <span>{formatEventPeriod(event)}</span>
-                      </div>
-                      <div className="flex items-start gap-2">
-                        <span className="text-sky-500">📍</span>
-                        <span>{event.venue}</span>
-                      </div>
-                      <div className="flex items-start gap-2">
-                        <span className="text-sky-500">💸</span>
-                        <span>{event.isFree ? "무료" : event.fee}</span>
-                      </div>
-                    </div>
+                    <ul className="mt-5 space-y-2 border-t border-slate-200 pt-4 text-sm text-slate-700">
+                      <li className="flex items-start gap-2">
+                        <LineIcon name="calendar" className="mt-0.5 h-4 w-4 text-sky-600" />
+                        <span><span className="sr-only">일정 </span>{formatEventPeriod(event)}</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <LineIcon name="pin" className="mt-0.5 h-4 w-4 text-sky-600" />
+                        <span><span className="sr-only">장소 </span>{event.venue}</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <LineIcon name="ticket" className="mt-0.5 h-4 w-4 text-sky-600" />
+                        <span><span className="sr-only">요금 </span>{event.isFree ? "무료" : event.fee}</span>
+                      </li>
+                    </ul>
 
                     <Link
                       href={`/events/${event.id}`}
                       className="mt-6 inline-flex items-center text-sm font-semibold text-sky-700 transition-colors hover:text-sky-800"
                     >
-                      상세 보기
+                      자세히 보기
                       <svg className="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>

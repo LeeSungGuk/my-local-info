@@ -170,7 +170,9 @@ GitHub Actions는 다음 흐름으로 동작합니다.
 
 ## 문서와 작업 기록
 
+- [디자인 시스템](DESIGN.md): 색·글꼴·버튼·칩·아이콘 등 화면 디자인 규칙
 - [디자인 템플릿 사용법](docs/DESIGN_TEMPLATES.md): 템플릿 보관과 폴더 이름으로 디자인 적용 요청
+- 디자인 검사 후속 개선: [의도](docs/works/design_critique_fixes/intent.md), [명세](docs/works/design_critique_fixes/spec.md), [구현 계획](docs/works/design_critique_fixes/plan.md)
 - 블로그 표지 다양화: [의도](docs/works/blog_cover_diversity/intent.md), [명세](docs/works/blog_cover_diversity/spec.md), [구현 계획](docs/works/blog_cover_diversity/plan.md)
 - `history/`: 날짜별 작업 기록
 - `change_log.md`: 주요 변경 기록

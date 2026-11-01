@@ -4,7 +4,7 @@ import { getAllPosts } from "@/lib/posts";
 import { getBlogCardTitle } from "@/lib/blog-card-title";
 
 export const metadata = {
-  title: "서울 생활 정보 블로그 | Seoul City",
+  title: "서울 생활 정보 블로그 | 서울시티",
   description: "서울에서 가볼만한 곳, 동네별 추천 코스, 취향별 서울 정보를 정리한 서울 전용 정보글을 확인하세요.",
 };
 
@@ -14,7 +14,6 @@ export default function BlogListPage() {
     <div className="site-page min-h-screen pb-20">
       <header className="page-intro">
         <div className="mx-auto max-w-6xl px-5 sm:px-6">
-          <p className="eyebrow">STORIES FROM SEOUL</p>
           <h1 className="mt-5 font-extrabold text-slate-950">서울을 읽는 시간</h1>
           <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-500">서울에서 가볼만한 곳과 취향별 추천 코스를 정보글로 정리합니다.</p>
           <p className="mt-6 text-xs text-slate-500">서울 생활 정보 블로그 · {posts.length.toLocaleString("ko-KR")}개의 이야기</p>
@@ -46,7 +45,7 @@ export default function BlogListPage() {
                     <h2 className="blog-card-title mt-3 transition-colors group-hover:text-sky-700">{getBlogCardTitle(post)}</h2>
                     <p className="mt-3 line-clamp-2 text-sm leading-7 text-slate-500">{post.summary}</p>
                     <div className="mt-4 flex flex-wrap gap-x-3 gap-y-1 text-xs text-slate-500">{post.tags.map((tag) => <span key={tag}>#{tag}</span>)}</div>
-                    <span className="section-link mt-3">자세히 읽기 <span aria-hidden="true">↗</span></span>
+                    <span className="section-link mt-3">자세히 읽기 <span aria-hidden="true">→</span></span>
                   </div>
                 </Link>
               </article>

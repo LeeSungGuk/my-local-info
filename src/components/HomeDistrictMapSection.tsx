@@ -82,7 +82,6 @@ export default function HomeDistrictMapSection({
     <section className="home-section" aria-labelledby="district-map-title">
       <div className="home-section-top">
         <div>
-          <p className="eyebrow">EXPLORE BY DISTRICT</p>
           <h2 id="district-map-title" className="section-heading">어느 구를 둘러볼까요?</h2>
           <p className="mt-3 text-sm leading-6 text-slate-500">
             구를 누르면 그 구의 행사, 혜택, 먹거리를 한 번에 보여드려요. 색이 진할수록 많아요.
@@ -293,7 +292,7 @@ function DistrictPanel({
           href={links.primary.href}
           className="flex min-h-12 items-center justify-between rounded-full bg-slate-950 px-5 text-sm font-bold text-white transition-colors hover:bg-slate-800"
         >
-          {PRIMARY_LABELS[links.primary.kind](entry.name)} <span aria-hidden="true">↗</span>
+          {PRIMARY_LABELS[links.primary.kind](entry.name)} <span aria-hidden="true">→</span>
         </Link>
         <div className="flex flex-wrap gap-2">
           {secondaryLinks.map((link) => (
@@ -302,7 +301,7 @@ function DistrictPanel({
               href={link.href}
               className={SECONDARY_LINK_CLASS}
             >
-              {link.label} <span aria-hidden="true">↗</span>
+              {link.label} <span aria-hidden="true">→</span>
             </Link>
           ))}
           {links.food.isExternal ? (
@@ -320,7 +319,7 @@ function DistrictPanel({
               href={links.food.href}
               className={SECONDARY_LINK_CLASS}
             >
-              먹거리 후보 {entry.food.placeCount}곳 <span aria-hidden="true">↗</span>
+              먹거리 후보 {entry.food.placeCount}곳 <span aria-hidden="true">→</span>
             </Link>
           )}
         </div>

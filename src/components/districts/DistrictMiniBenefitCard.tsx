@@ -34,7 +34,7 @@ export default function DistrictMiniBenefitCard({
         href={`/benefits/${benefit.id}`}
         className="mt-4 inline-flex min-h-11 items-center text-sm font-bold text-blue-700 transition-colors hover:text-blue-900"
       >
-        신청 정보 보기
+        자세히 보기
         <span aria-hidden="true" className="ml-1">
           →
         </span>

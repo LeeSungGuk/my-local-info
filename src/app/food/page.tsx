@@ -64,7 +64,6 @@ export default async function FoodPage() {
       <section id="district-guides" className="home-section" aria-labelledby="district-guides-title">
         <div className="home-section-top">
           <div>
-            <p className="eyebrow">A table for every walk</p>
             <h2 id="district-guides-title" className="section-heading">어느 동네에서 먹을까요?</h2>
             <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-500">
               구별 먹거리 해설에서 식사하기 좋은 권역부터 살펴보세요.{" "}<br className="hidden sm:block" />
@@ -84,7 +83,7 @@ export default async function FoodPage() {
                 {editorial.routeHints.map((hint) => <span key={hint}>{hint}</span>)}
               </div>
               <div className="mt-auto flex min-h-12 items-center justify-between border-t border-slate-200 pt-3 text-xs font-semibold text-slate-700">
-                <span>동선과 식사 권역 보기</span><span aria-hidden="true">↗</span>
+                <span>동선과 식사 권역 보기</span><span aria-hidden="true">→</span>
               </div>
             </Link>
           ))}
@@ -94,7 +93,6 @@ export default async function FoodPage() {
       <section id="food-districts" className="home-section" aria-labelledby="food-districts-title">
         <div className="home-section-top">
           <div>
-            <p className="eyebrow">Across Seoul</p>
             <h2 id="food-districts-title" className="section-heading">서울 곳곳의 한 끼</h2>
             <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-500">
               서울 25개 구의 공공데이터 수집 현황입니다. 상세 가이드가 있는 구는 내부 페이지로,
@@ -129,7 +127,6 @@ export default async function FoodPage() {
       <section id="food-places" className="home-section" aria-labelledby="food-places-title">
         <div className="home-section-top">
           <div>
-            <p className="eyebrow">From open data</p>
             <h2 id="food-places-title" className="section-heading">공공데이터로 살펴보는 음식점</h2>
             <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-500">
               최근 인허가 음식점 중 영업 상태인 가게를 보여줍니다. 방문 추천 순위가 아니라
@@ -153,7 +150,6 @@ export default async function FoodPage() {
       <section id="food-intents" className="home-section" aria-labelledby="food-intents-title">
         <div className="home-section-top">
           <div>
-            <p className="eyebrow">Follow your day</p>
             <h2 id="food-intents-title" className="section-heading">오늘의 동선에 한 끼 더하기</h2>
             <p className="mt-3 text-sm leading-7 text-slate-500">함께하는 사람과 나들이 일정에 맞춰 카카오맵에서 식사할 곳을 찾아보세요.</p>
           </div>

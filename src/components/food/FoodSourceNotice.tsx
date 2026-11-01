@@ -6,7 +6,6 @@ export default function FoodSourceNotice({ source }: { source?: FoodSource }) {
   return (
     <aside className="food-source-notice">
       <div>
-        <p className="eyebrow">Before you go</p>
         <h2 className="mt-3 text-lg font-bold text-slate-900">먹거리 정보 안내</h2>
       </div>
       <div className="text-sm leading-7 text-slate-600">

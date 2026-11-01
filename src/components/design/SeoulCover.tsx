@@ -13,7 +13,7 @@ export default function SeoulCover({ kind, title }: { kind: CoverKind; title?: s
   const cover = covers[kind];
   return (
     <div className={`seoul-cover cover-${kind}`} aria-hidden="true">
-      <div className="seoul-cover-meta"><span>SEOUL CITY</span><span>NO. {cover.number}</span></div>
+      <div className="seoul-cover-meta"><span>서울시티</span><span>NO. {cover.number}</span></div>
       <svg className="seoul-cover-art" viewBox="0 0 200 160" fill="none">
         {kind === "kids" ? (
           <>

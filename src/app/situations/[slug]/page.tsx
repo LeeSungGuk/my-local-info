@@ -160,9 +160,7 @@ export default async function SituationPage({ params }: PageProps) {
           </div>
 
           <aside className={`rounded-[2rem] border p-6 shadow-soft ${accent.panel}`}>
-            <p className="text-sm font-bold tracking-[0.18em] text-slate-500">
-              SEARCH INTENT
-            </p>
+            <p className="text-sm font-bold text-slate-500">통합 검색어</p>
             <p className="mt-3 text-2xl font-bold text-slate-950">
               {situation.searchIntent}
             </p>

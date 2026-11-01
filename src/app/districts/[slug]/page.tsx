@@ -141,9 +141,6 @@ export default async function DistrictDetailPage({ params }: PageProps) {
           <div className="rounded-3xl border border-sky-100 bg-white p-6 shadow-soft sm:p-8">
             <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
               <div>
-                <p className="text-sm font-bold uppercase tracking-[0.16em] text-sky-600">
-                  Live Events
-                </p>
                 <h2 className="mt-2 text-2xl font-extrabold text-slate-950">
                   {district.name}에서 볼 만한 최신 행사
                 </h2>
@@ -172,9 +169,6 @@ export default async function DistrictDetailPage({ params }: PageProps) {
 
           <div className="space-y-6">
             <section className="rounded-3xl border border-slate-100 bg-white p-6 shadow-soft">
-              <p className="text-sm font-bold uppercase tracking-[0.16em] text-slate-500">
-                Areas
-              </p>
               <h2 className="mt-2 text-xl font-extrabold text-slate-950">
                 함께 묶기 좋은 권역
               </h2>
@@ -192,9 +186,6 @@ export default async function DistrictDetailPage({ params }: PageProps) {
             </section>
 
             <section className="rounded-3xl border border-slate-100 bg-white p-6 shadow-soft">
-              <p className="text-sm font-bold uppercase tracking-[0.16em] text-slate-500">
-                Situations
-              </p>
               <h2 className="mt-2 text-xl font-extrabold text-slate-950">
                 상황별로 바로 보기
               </h2>
@@ -245,9 +236,6 @@ export default async function DistrictDetailPage({ params }: PageProps) {
           <div className="rounded-3xl border border-blue-100 bg-white p-6 shadow-soft sm:p-8">
             <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
               <div>
-                <p className="text-sm font-bold uppercase tracking-[0.16em] text-blue-600">
-                  Benefits
-                </p>
                 <h2 className="mt-2 text-2xl font-extrabold text-slate-950">
                   {district.name} 생활 혜택
                 </h2>
@@ -287,9 +275,6 @@ export default async function DistrictDetailPage({ params }: PageProps) {
 
         <section className="mt-10 grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="rounded-3xl border border-sky-100 bg-white p-6 shadow-soft sm:p-8">
-            <p className="text-sm font-bold uppercase tracking-[0.16em] text-sky-600">
-              Articles
-            </p>
             <h2 className="mt-2 text-2xl font-extrabold text-slate-950">
               같이 읽기 좋은 서울 정보글
             </h2>
@@ -352,9 +337,6 @@ export default async function DistrictDetailPage({ params }: PageProps) {
         <section className="mt-10 rounded-3xl border border-emerald-100 bg-white p-6 shadow-soft sm:p-8">
           <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
             <div>
-              <p className="text-sm font-bold uppercase tracking-[0.16em] text-emerald-600">
-                Food
-              </p>
               <h2 className="mt-2 text-2xl font-extrabold text-slate-950">
                 나들이 전후 식사도 같이 보기
               </h2>
@@ -390,9 +372,6 @@ export default async function DistrictDetailPage({ params }: PageProps) {
         <section className="mt-10 rounded-3xl border border-slate-100 bg-white p-6 shadow-soft sm:p-8">
           <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
             <div>
-              <p className="text-sm font-bold uppercase tracking-[0.16em] text-slate-500">
-                More Districts
-              </p>
               <h2 className="mt-2 text-2xl font-extrabold text-slate-950">
                 다른 구도 이어서 보기
               </h2>

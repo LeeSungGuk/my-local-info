@@ -47,7 +47,7 @@ export default function HomeEventsSection({ events }: { events: SeoulEventSummar
             <p className="mt-2 text-xs leading-6 text-slate-500">{formatEventPeriod(event)}</p>
             <p className="truncate text-xs leading-6 text-slate-500">{event.venue}</p>
             {!event.isFree && <p className="mt-1 line-clamp-2 text-xs leading-6 text-slate-500">{event.fee || "요금은 공식 안내 확인"}</p>}
-            <Link href={"/events/" + event.id} className="section-link mt-1">자세히 보기 <span aria-hidden="true">↗</span></Link>
+            <Link href={"/events/" + event.id} className="section-link mt-1">자세히 보기 <span aria-hidden="true">→</span></Link>
           </div>
         </article>
       ))}
