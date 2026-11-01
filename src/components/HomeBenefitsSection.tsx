@@ -12,7 +12,7 @@ export default function HomeBenefitsSection({ benefits }: { benefits: PublicBene
         <article key={benefit.id} className="group flex min-w-0 gap-5 border-t border-slate-200 py-6">
           <span aria-hidden="true" className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-slate-200 font-serif text-sm text-sky-600">0{index + 1}</span>
           <div className="min-w-0 flex-1">
-            <p className="text-[11px] font-semibold text-blue-700">{benefit.field} <span className="mx-1 text-slate-300">/</span> {benefit.district}</p>
+            <p className="text-xs font-semibold text-blue-700">{benefit.field} <span className="mx-1 text-slate-300">/</span> {benefit.district}</p>
             <h3 className="mt-2 text-base font-bold leading-7 tracking-tight"><Link href={"/benefits/" + benefit.id} className="hover:text-blue-700">{benefit.title}</Link></h3>
             <p className="mt-2 text-xs text-slate-500">{benefit.provider}</p>
             <p className="mt-3 line-clamp-2 text-sm leading-7 text-slate-600">{benefit.targetSummary}</p>

@@ -35,7 +35,7 @@ export default function HomeEventsSection({ events }: { events: SeoulEventSummar
             <EventPoster imageUrl={event.imageUrl} title={event.title} />
           </Link>
           <div className="px-1 pt-4">
-            <div className="flex flex-wrap items-center gap-2 text-[11px] text-slate-500">
+            <div className="flex flex-wrap items-center gap-2 text-xs text-slate-500">
               <span className="font-semibold text-sky-700">{event.category}</span>
               <span aria-hidden="true">·</span><span>{event.district}</span>
               {event.isFree && <span className="ml-auto rounded-full bg-cyan-50 px-2 py-1 font-medium text-cyan-700">무료</span>}

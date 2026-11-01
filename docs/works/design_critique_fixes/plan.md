@@ -1,6 +1,6 @@
 # 디자인 검사 후속 개선 1단계 구현 계획
 
-- 상태: 1단계 로컬 구현·검증 완료, 커밋 전
+- 상태: 1단계 운영 배포 완료, 2단계 진행 중
 - 작성일: 2026-11-02
 - 상위 목록: [works 현황](../README.md)
 - 입력: [intent.md](intent.md) · [spec.md](spec.md)
@@ -18,8 +18,8 @@
 
 남은 작업:
 
-- [ ] 커밋·푸시·PR·배포 (사용자 확인 후)
-- [ ] 운영 화면 확인
+- [x] [PR #13](https://github.com/LeeSungGuk/my-local-info/pull/13) squash 병합(`2a43e5793`), [자동 배포 41324397157](https://github.com/LeeSungGuk/my-local-info/actions/runs/41324397157) 성공
+- [x] 운영 확인: 홈 바로가기 `/situations/*`, 마포구 ‘구 혜택’·“서울 전체 대상 118건 별도”
 
 ## 1. 변경 파일
 
@@ -104,3 +104,10 @@
 - 화면 확인: `out/` 정적 결과를 로컬 서버로 열어 브라우저 패널 기본 폭(약 690px)과 375px 모바일 폭에서 검색 빈 결과, 홈 요약 카드, 마포구 페이지를 확인했다. 가로 넘침은 없었다.
 - 빌드가 `public/data/search/index.json`의 `isActive` 4줄을 오늘 날짜 기준으로 다시 썼다. 이번 작업과 무관한 생성 결과라 되돌렸다.
 - 확인하지 않은 것: 운영 사이트 반영, 데스크톱 넓은 폭(1280px 이상) 화면, 실제 화면낭독기.
+
+## 6. 2단계 구현과 검증
+
+- 변경 파일: `src/app/globals.css`(줄바꿈·소제목 크기·회색 대비·버튼 줄바꿈·표지 글자 대비·세리프 글꼴), `src/components/Header.tsx`(8px ‘SEOUL LOCAL GUIDE’ 제거), `src/app/blog/[slug]/page.tsx`(모바일 여백), `text-[11px]`를 쓰던 컴포넌트 11개(`text-xs`로 변경)
+- 표지 ‘아이와’ 잉크색을 `#633c27`로 진하게 하고 표지 설명 글의 투명도를 없앴다(대비 4.38 → 5.2).
+- 검증: `npm test` 124개, `tsc --noEmit`, 바꾼 파일 린트, `npm run build` 통과. 375px에서 `/events`·`/districts/mapo` 제목과 블로그 본문 확인, 가로 넘침 없음.
+- 남긴 것: 블로그 Markdown의 제목 단계 건너뜀(`###`)은 글 내용 문제라 이번 범위에서 제외했다.

@@ -384,17 +384,17 @@ export default function SearchResultsView() {
                 <div className="p-6">
                   <div className="flex flex-wrap items-center gap-2">
                     <span
-                      className={`rounded-full px-3 py-1 text-[11px] font-semibold ${typeClassName(item.type)}`}
+                      className={`rounded-full px-3 py-1 text-xs font-semibold ${typeClassName(item.type)}`}
                     >
                       {item.typeLabel}
                     </span>
                     {item.category ? (
-                      <span className="rounded-full bg-slate-100 px-3 py-1 text-[11px] font-semibold text-slate-600">
+                      <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-600">
                         {item.category}
                       </span>
                     ) : null}
                     {item.district ? (
-                      <span className="rounded-full bg-slate-100 px-3 py-1 text-[11px] font-semibold text-slate-600">
+                      <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-600">
                         {item.district}
                       </span>
                     ) : null}

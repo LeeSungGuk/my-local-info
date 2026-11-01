@@ -18,7 +18,7 @@ export default function HomeSituationSection({ situations }: { situations: Situa
           <article key={situation.slug} className="editorial-card">
             <Link href={situation.href} className="block" aria-label={situation.title + " 가이드 보기"}><SeoulCover kind={situation.slug} /></Link>
             <div className="px-1 pt-5">
-              <p className="text-[11px] font-semibold text-sky-700">{situation.eyebrow}</p>
+              <p className="text-xs font-semibold text-sky-700">{situation.eyebrow}</p>
               <h3 className="mt-2 text-base font-bold tracking-tight sm:text-lg"><Link href={situation.href} className="hover:text-sky-700">{situation.cardTitle}</Link></h3>
               <p className="mt-3 line-clamp-3 text-xs leading-6 text-slate-500 sm:text-sm sm:leading-7">{situation.summary}</p>
               <div className="mt-5 flex flex-wrap items-center justify-between gap-x-2 border-t border-slate-200 pt-2">

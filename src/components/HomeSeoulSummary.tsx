@@ -75,7 +75,7 @@ export default function HomeSeoulSummary({ summary }: HomeSeoulSummaryProps) {
               className="group block bg-background px-4 py-5 transition-colors hover:bg-slate-50 sm:px-7"
             >
               <article>
-                <div className={`inline-flex text-[11px] font-semibold ${card.accentClassName}`}>
+                <div className={`inline-flex text-xs font-semibold ${card.accentClassName}`}>
                   {card.label}
                 </div>
                 <p className="mt-3 font-serif text-4xl tracking-tight text-slate-950">

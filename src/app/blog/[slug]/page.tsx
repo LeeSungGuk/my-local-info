@@ -119,7 +119,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: serializeJsonLd(blogStructuredData) }}
       />
-      <div className="mx-auto max-w-3xl px-6">
+      <div className="mx-auto max-w-3xl px-4 sm:px-6">
         <div className="mb-12">
           <Link
             href="/blog"
@@ -196,7 +196,7 @@ export default async function BlogPostPage({ params }: PageProps) {
           ) : null}
           
           {/* 본문 콘텐츠 */}
-          <div className="prose prose-lg max-w-none rounded-[2rem] border border-sky-100 bg-white/90 p-8 shadow-soft backdrop-blur-sm prose-headings:text-slate-900 prose-a:text-sky-600 hover:prose-a:text-sky-700 md:p-12">
+          <div className="prose prose-lg max-w-none rounded-[2rem] border border-sky-100 bg-white/90 p-5 shadow-soft sm:p-8 backdrop-blur-sm prose-headings:text-slate-900 prose-a:text-sky-600 hover:prose-a:text-sky-700 md:p-12">
             <ReactMarkdown remarkPlugins={[remarkGfm]}>
               {post.content}
             </ReactMarkdown>
