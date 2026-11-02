@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-11-01T10:39:46+09:00",
+  "lastGeneratedAt": "2026-11-02T10:44:15+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -4170,9 +4170,9 @@
         "술취향"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-10-24T09:58:45+09:00",
-      "usedAt": null
+      "usedAt": "2026-11-02T10:44:15+09:00"
     },
     {
       "id": "seoul-modern-heritage-building-walks",

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cover-title cover-desc" data-cover-generator="seoulcity" data-cover-version="2" data-cover-subject="art" data-cover-scene="sculpture-room" data-cover-palette="lilac">
+  <title id="cover-title">우리 술의 다채로운 매력, 서울 전통주 갤러리와 바 추천 코스</title>
+  <desc id="cover-desc">전시대 위의 추상 조각. 분류: 생활취향. 추천 장소: 종로구 북촌 전통주갤러리, 마포구 홍대 산울림1992, 성동구 성수동 뚝도시장 전통주 바</desc>
+  <rect width="1600" height="900" fill="#F7F3EB"/>
+  <rect x="120" y="65" width="1360" height="770" rx="54" fill="#E5DFEA"/>
+  <ellipse cx="800" cy="763" rx="420" ry="18" fill="#303A33" opacity=".06"/>
+  <g transform="translate(280 130) scale(1.04)" stroke="#303A33" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><rect x="330" y="340" width="350" height="160" rx="2" fill="#F7F3EB"/><path d="M389 340Q241 128 482 92Q660 69 583 254Q540 349 389 340Z" fill="#95839E" /><circle cx="483" cy="201" r="56" fill="#E5DFEA"/><g transform="translate(802 405) scale(0.6)"><circle cx="0" cy="-170" r="27" fill="#F7F3EB"/><path d="M-32-130Q0-145 32-130L48-30H-48Z" fill="#95839E" /><path d="M-25-28L-40 70M25-28L40 70M-30-115L-68-53M30-115L68-53" fill="none" /></g><path d="M130 510H880" fill="none" /></g>
+</svg>
