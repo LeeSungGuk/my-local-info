@@ -60,7 +60,7 @@ function cleanBenefitText(value: string) {
 }
 
 export function getBenefitHighlight(benefit: BenefitHighlightShape) {
-  const summary = benefit.summary.replace(TEMPLATE_SENTENCE, "").trim();
+  const summary = cleanBenefitText(benefit.summary.replace(TEMPLATE_SENTENCE, ""));
 
   return summary || cleanBenefitText(benefit.supportSummary);
 }
