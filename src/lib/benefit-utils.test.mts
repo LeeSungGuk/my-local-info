@@ -48,6 +48,13 @@ test("strips source bullets left in the summary after the template sentence", ()
   assert.equal(getBenefitHighlight(benefit), "장애인 이동보조기기 수리비를 지원합니다. 연 1회 한정");
 });
 
+test("keeps dates and numbered names at the start of the summary", () => {
+  const highlight = (summary: string) => getBenefitHighlight(makeBenefit({ summary: `강남구에서 제공하는 생활안정 혜택입니다. ${summary}` }));
+
+  assert.equal(highlight("6.25 참전유공자 위문금 지급"), "6.25 참전유공자 위문금 지급");
+  assert.equal(highlight("2025. 1. 1.이후 출생아, 1년 뒤 첫돌축하금 신청."), "2025. 1. 1.이후 출생아, 1년 뒤 첫돌축하금 신청.");
+});
+
 test("featured benefits spread across districts and fields and skip statute-heavy eligibility", () => {
   const benefits = [
     makeBenefit({ id: "a", district: "강북구", field: "문화·환경", updatedAt: "2026-10-30", targetSummary: "「국가유공자 등 예우 및 지원에 관한 법률 시행령」 제86조" }),

@@ -54,7 +54,7 @@ const STATUTE_PATTERN = /「|제\d+조/;
 function cleanBenefitText(value: string) {
   return value
     .replace(/[○※□■▶•]\s*/g, "")
-    .replace(/(^|\n)\s*(\d+[.)]|-)\s*/g, "$1")
+    .replace(/(^|\n)\s*(\d{1,2}[.)](?=\s+\D)|-)\s*/g, "$1")
     .replace(/\s+/g, " ")
     .trim();
 }
