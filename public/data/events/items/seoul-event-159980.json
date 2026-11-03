@@ -8,13 +8,13 @@
   "startDate": "2026-11-13",
   "endDate": "2026-11-13",
   "dateText": "2026-11-13~2026-11-13",
-  "timeText": "19:30",
+  "timeText": "19:30~21:10",
   "target": "초등학생 이상",
   "fee": "무료",
   "isFree": true,
   "organizer": "서울시립교향악단",
   "inquiry": "서울시립교향악단 1588-1210 ",
-  "imageUrl": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=36080658b4d245ffb90b1a881a91b864&thumb=Y",
+  "imageUrl": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=3df56f704a324b6085c92328ca55613b&thumb=Y",
   "detailUrl": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159980&menuNo=200008",
   "summary": "서초구 · 예술의전당 IBK기업은행챔버홀에서 열리는 클래식 행사입니다. 무료로 참여할 수 있는 행사입니다.",
   "organizerUrl": "https://www.seoulphil.or.kr/perf/view?perfNo=7795",
@@ -25,5 +25,5 @@
   "latitude": 37.4802401962069,
   "longitude": 127.014215239186,
   "registeredAt": "2026-10-26",
-  "collectedAt": "2026-11-02T01:43:51.362Z"
+  "collectedAt": "2026-11-03T03:39:38.449Z"
 }

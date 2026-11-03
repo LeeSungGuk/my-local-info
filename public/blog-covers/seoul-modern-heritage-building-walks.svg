@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cover-title cover-desc" data-cover-generator="seoulcity" data-cover-version="2" data-cover-subject="architecture" data-cover-scene="modern-facade" data-cover-palette="sea">
+  <title id="cover-title">붉은 벽돌과 아치형 창문의 멋, 서울 레트로 근대유산 건축물 산책</title>
+  <desc id="cover-desc">입면과 구조가 드러나는 현대 건축. 분류: 구별분위기. 추천 장소: 중구 정동길 배재학당역사박물관, 관악구 남서울미술관 (구 벨기에공사관), 성북구 최순우 옛집</desc>
+  <rect width="1600" height="900" fill="#F7F3EB"/>
+  <rect x="120" y="65" width="1360" height="770" rx="54" fill="#DCE8E2"/>
+  <ellipse cx="800" cy="763" rx="420" ry="18" fill="#303A33" opacity=".06"/>
+  <g transform="translate(280 130) scale(1.04)" stroke="#303A33" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><rect x="160" y="180" width="440" height="300" rx="2" fill="#F7F3EB"/><rect x="520" y="75" width="300" height="405" rx="2" fill="#B48365"/><path d="M180 240L590 240" fill="none" /><path d="M180 330L590 330" fill="none" /><path d="M180 420L590 420" fill="none" /><rect x="570" y="120" width="35" height="270" rx="2" fill="#DCE8E2"/><rect x="650" y="120" width="35" height="270" rx="2" fill="#DCE8E2"/><rect x="730" y="120" width="35" height="270" rx="2" fill="#DCE8E2"/><g transform="translate(365 405) scale(0.5)"><circle cx="0" cy="-170" r="27" fill="#F7F3EB"/><path d="M-32-130Q0-145 32-130L48-30H-48Z" fill="#67948B" /><path d="M-25-28L-40 70M25-28L40 70M-30-115L-68-53M30-115L68-53" fill="none" /></g></g>
+</svg>
