@@ -1,6 +1,6 @@
 # 검색 색인 설정 바로잡기 구현 계획
 
-- 상태: 운영 배포 및 확인 완료(PR #20), 네이버 서치어드바이저 소유확인 진행 중
+- 상태: 운영 배포 및 확인 완료(PR #20·#21), Google·네이버 검색 등록 완료
 - 작성일: 2026-11-05
 - 상위 목록: [works 현황](../README.md)
 - 입력: 운영 사이트 SEO 분석 결과(2026-11-05, 대화로 전달), [PRD 11절](../../prd/seoulcity_prd.md#11-seo와-신뢰-요구사항), [SRS](../../srs/seoulcity_srs.md) `REQ-NF-007`·`REQ-NF-010`
@@ -23,7 +23,8 @@
 - [x] `https://seoulcities.net/sitemap.xml` 제출, 상태 ‘성공’, 발견된 페이지 1,450개 (2026-11-05, 배포 전 기존 사이트맵 기준)
 - [x] 네이버 서치어드바이저에 `https://seoulcities.net` 등록 (2026-11-05, 운영자 약관 동의 후 진행)
 - [x] 소유확인용 HTML 태그를 `src/app/layout.tsx`의 `verification.other`에 추가. 파일 업로드 방식은 Cloudflare Pages가 `.html` 주소를 308로 리다이렉트해서(`/404.html` → `/404`) 쓰지 않음
-- [ ] 태그 배포 후 네이버 소유확인, 사이트맵(`https://seoulcities.net/sitemap.xml`)과 robots.txt 제출
+- [x] [PR #21](https://github.com/LeeSungGuk/my-local-info/pull/21) Cursor 검사 3개 통과, squash 병합(`d9b6a2d3f`), [자동 배포 41998498823](https://github.com/LeeSungGuk/my-local-info/actions/runs/41998498823) 성공. 운영 홈 HTML과 네이버 검색봇(Yeti) 요청에서 태그 확인
+- [x] 네이버 소유확인 완료(HTML 태그, 운영자가 보안문자 입력). 사이트맵 `https://seoulcities.net/sitemap.xml` 제출(26.11.05 18:04). robots.txt는 네이버가 이미 수집한 내용(2026.11.05 00:53 기준)이 운영 파일과 같아 수집요청은 하지 않음
 - [ ] (운영자) 배포 2~4주 뒤 Search Console ‘페이지 색인 생성’ 보고서에서 색인 수와 ‘크롤링됨 - 현재 색인 생성되지 않음’ 수 확인
 
 ## 1. 확인 결과
