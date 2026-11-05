@@ -1,6 +1,6 @@
 # 검색 색인 설정 바로잡기 구현 계획
 
-- 상태: 로컬 구현·검증 완료, 커밋·PR·배포 전
+- 상태: 운영 배포 및 확인 완료(PR #20), 네이버 서치어드바이저 소유확인 진행 중
 - 작성일: 2026-11-05
 - 상위 목록: [works 현황](../README.md)
 - 입력: 운영 사이트 SEO 분석 결과(2026-11-05, 대화로 전달), [PRD 11절](../../prd/seoulcity_prd.md#11-seo와-신뢰-요구사항), [SRS](../../srs/seoulcity_srs.md) `REQ-NF-007`·`REQ-NF-010`
@@ -17,11 +17,13 @@
 
 남은 작업:
 
-- [ ] 커밋·PR·병합·배포
-- [ ] 운영 확인: 사이트맵 주소가 308 없이 200 응답, 페이지별 canonical·og:url, 혜택 상세 `noindex, follow`
+- [x] [PR #20](https://github.com/LeeSungGuk/my-local-info/pull/20) Cursor 검사 3개 통과, squash 병합(`3dd9d7e99`), [자동 배포 41997194125](https://github.com/LeeSungGuk/my-local-info/actions/runs/41997194125) 성공
+- [x] 운영 확인(2026-11-05): 사이트맵 347개 주소 모두 끝 슬래시, 혜택 상세 0개, 시각형 lastmod 0개. `/blog/` 200 응답. `/`, `/blog/`, `/situations/kids/`의 canonical·`og:url`이 자기 주소이고 `/events/?view=ongoing`은 `/events/`를 가리킴. 혜택 상세는 `noindex, follow`, 혜택 목록은 색인 대상 유지
 - [x] Google Search Console 도메인 속성 `seoulcities.net` 등록. Cloudflare DNS에 TXT 레코드(`@`, `google-site-verification=…`) 추가 후 소유권 확인 (2026-11-05, 운영자 승인·로그인 후 진행). 공용 DNS 1.1.1.1·8.8.8.8 조회로 반영 확인, 기존 CNAME과 사이트 200 응답 유지. 확인을 유지하려면 이 TXT 레코드를 지우지 않는다
 - [x] `https://seoulcities.net/sitemap.xml` 제출, 상태 ‘성공’, 발견된 페이지 1,450개 (2026-11-05, 배포 전 기존 사이트맵 기준)
-- [ ] (운영자) 네이버 서치어드바이저 등록과 사이트맵 제출. HTML 태그 인증을 쓰면 코드를 받아 `src/app/layout.tsx`의 `verification`에 반영
+- [x] 네이버 서치어드바이저에 `https://seoulcities.net` 등록 (2026-11-05, 운영자 약관 동의 후 진행)
+- [x] 소유확인용 HTML 태그를 `src/app/layout.tsx`의 `verification.other`에 추가. 파일 업로드 방식은 Cloudflare Pages가 `.html` 주소를 308로 리다이렉트해서(`/404.html` → `/404`) 쓰지 않음
+- [ ] 태그 배포 후 네이버 소유확인, 사이트맵(`https://seoulcities.net/sitemap.xml`)과 robots.txt 제출
 - [ ] (운영자) 배포 2~4주 뒤 Search Console ‘페이지 색인 생성’ 보고서에서 색인 수와 ‘크롤링됨 - 현재 색인 생성되지 않음’ 수 확인
 
 ## 1. 확인 결과

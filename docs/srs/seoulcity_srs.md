@@ -443,9 +443,9 @@ erDiagram
 | REQ-NF-010 | 검색 URL 색인 정책 | 11, 15 | PRD | SEO | Should | Review | 열린 질문과 연결. 필터 쿼리 URL은 canonical로 원래 주소 지정(2026-11-05, works `seo_indexing_fixes`) |
 | REQ-NF-011 | 한국어 UI | 10 | PRD | 콘텐츠 톤 | Must | Review |  |
 | REQ-NF-012 | 공공정보 참고 표현 | 10 | PRD | 안전 표현 | Must | Review |  |
-| REQ-NF-013 | 페이지별 canonical·og:url | 11 | PRD, works `seo_indexing_fixes` | SEO | Must | Inspection | 2026-11-05 추가, 로컬 구현 |
-| REQ-NF-014 | 실제 날짜 lastmod | 11 | PRD, works `seo_indexing_fixes` | SEO | Must | Inspection | 2026-11-05 추가, 로컬 구현 |
-| REQ-NF-015 | 혜택 상세 색인 제외 | 11 | PRD, works `seo_indexing_fixes` | SEO | Must | Inspection | 2026-11-05 추가, 로컬 구현 |
+| REQ-NF-013 | 페이지별 canonical·og:url | 11 | PRD, works `seo_indexing_fixes` | SEO | Must | Inspection | 2026-11-05 추가, PR #20 병합·운영 배포 |
+| REQ-NF-014 | 실제 날짜 lastmod | 11 | PRD, works `seo_indexing_fixes` | SEO | Must | Inspection | 2026-11-05 추가, PR #20 병합·운영 배포 |
+| REQ-NF-015 | 혜택 상세 색인 제외 | 11 | PRD, works `seo_indexing_fixes` | SEO | Must | Inspection | 2026-11-05 추가, PR #20 병합·운영 배포 |
 | REQ-IF-001 | 주요 웹 UI | 7, 8 | PRD | 탐색 | Must | Test |  |
 | REQ-IF-002 | 공식 링크 인터페이스 | 6.5, 8.2, 8.3 | PRD | 공식 확인 | Must | Inspection |  |
 | REQ-IF-003 | 카카오맵 외부 연결 | 8.4 | PRD | 먹거리 탐색 | Must | Test |  |
