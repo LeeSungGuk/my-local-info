@@ -176,12 +176,15 @@
 | REQ-NF-004 | 데이터 수집 스크립트는 API 키와 네트워크 실패를 운영자가 진단할 수 있게 해야 한다. | 12 | Should | Review | 수집 실패 시 원인 범주를 파악할 수 있는 메시지나 로그가 제공된다. |
 | REQ-NF-005 | 민감한 값은 코드와 문서에 노출하지 않아야 한다. | 12 | Must | Inspection | 문서와 예시 출력에 실제 API 키 또는 `.env.local` 값이 없다. |
 | REQ-NF-006 | 주요 페이지는 고유한 title과 description을 가져야 한다. | 11 | Must | Inspection | 홈, 주요 목록, 상세, 가이드, 블로그 페이지의 메타데이터가 중복 없이 설정된다. |
-| REQ-NF-007 | 사이트맵은 검색에 노출할 canonical URL만 포함해야 한다. | 11 | Must | Inspection | sitemap 항목이 색인 대상 URL로 제한된다. |
+| REQ-NF-007 | 사이트맵은 검색에 노출할 canonical URL만 포함해야 한다. | 11 | Must | Inspection | sitemap 항목이 색인 대상 URL로 제한되고, 모든 주소가 끝 슬래시를 포함해 리다이렉트 없이 응답한다. |
 | REQ-NF-008 | `robots.txt`는 sitemap 위치를 제공해야 한다. | 11 | Must | Inspection | robots 응답 또는 파일에서 sitemap 위치를 확인할 수 있다. |
 | REQ-NF-009 | 블로그 상세, 홈, 주요 가이드 페이지의 JSON-LD는 화면에 실제로 보이는 정보와 일치해야 한다. | 11 | Must | Review | 구조화 데이터가 보이는 콘텐츠와 충돌하지 않는다. |
 | REQ-NF-010 | 검색 결과 URL과 필터 쿼리 URL은 별도 색인 정책을 가져야 한다. | 11, 15 | Should | Review | 색인 여부가 문서 또는 구현 정책으로 확인 가능하다. |
 | REQ-NF-011 | UI 문구는 한국어를 기본으로 유지해야 한다. | 10 | Must | Review | 사용자에게 보이는 핵심 UI 문구가 자연스러운 한국어로 제공된다. |
 | REQ-NF-012 | 공공정보는 과장하지 않고 참고용 안내로 표현해야 한다. | 10 | Must | Review | 공공 데이터 기반 정보가 확정적 추천이나 법적 안내처럼 표현되지 않는다. |
+| REQ-NF-013 | 모든 페이지는 자기 주소를 가리키는 canonical과 `og:url`을 가져야 한다. | 11 | Must | Inspection | 빌드 산출물의 페이지 canonical과 `og:url`이 끝 슬래시를 포함한 자기 주소이고, 필터 쿼리 URL은 원래 목록 주소를 가리킨다. |
+| REQ-NF-014 | 사이트맵 lastmod는 실제 콘텐츠 날짜만 사용해야 한다. | 11 | Must | Inspection | 수집 시각이나 빌드 시각이 lastmod로 쓰이지 않고, 근거 날짜가 없는 페이지는 lastmod가 생략된다. |
+| REQ-NF-015 | 공공데이터 원문을 옮긴 혜택 상세 페이지는 색인 대상에서 제외해야 한다. | 11 | Must | Inspection | 혜택 상세가 `noindex, follow`이고 sitemap에 없으며, 혜택 목록은 색인 대상으로 남는다. |
 
 ## 8. Interface Requirements
 
@@ -437,9 +440,12 @@ erDiagram
 | REQ-NF-007 | canonical sitemap | 11 | PRD | SEO | Must | Inspection |  |
 | REQ-NF-008 | robots sitemap 위치 | 11 | PRD | SEO | Must | Inspection |  |
 | REQ-NF-009 | JSON-LD 표시 정보 일치 | 11 | PRD | 신뢰 | Must | Review |  |
-| REQ-NF-010 | 검색 URL 색인 정책 | 11, 15 | PRD | SEO | Should | Review | 열린 질문과 연결 |
+| REQ-NF-010 | 검색 URL 색인 정책 | 11, 15 | PRD | SEO | Should | Review | 열린 질문과 연결. 필터 쿼리 URL은 canonical로 원래 주소 지정(2026-11-05, works `seo_indexing_fixes`) |
 | REQ-NF-011 | 한국어 UI | 10 | PRD | 콘텐츠 톤 | Must | Review |  |
 | REQ-NF-012 | 공공정보 참고 표현 | 10 | PRD | 안전 표현 | Must | Review |  |
+| REQ-NF-013 | 페이지별 canonical·og:url | 11 | PRD, works `seo_indexing_fixes` | SEO | Must | Inspection | 2026-11-05 추가, 로컬 구현 |
+| REQ-NF-014 | 실제 날짜 lastmod | 11 | PRD, works `seo_indexing_fixes` | SEO | Must | Inspection | 2026-11-05 추가, 로컬 구현 |
+| REQ-NF-015 | 혜택 상세 색인 제외 | 11 | PRD, works `seo_indexing_fixes` | SEO | Must | Inspection | 2026-11-05 추가, 로컬 구현 |
 | REQ-IF-001 | 주요 웹 UI | 7, 8 | PRD | 탐색 | Must | Test |  |
 | REQ-IF-002 | 공식 링크 인터페이스 | 6.5, 8.2, 8.3 | PRD | 공식 확인 | Must | Inspection |  |
 | REQ-IF-003 | 카카오맵 외부 연결 | 8.4 | PRD | 먹거리 탐색 | Must | Test |  |

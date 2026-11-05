@@ -42,11 +42,15 @@ export const metadata: Metadata = {
   title: "서울시티 | 서울 상황별 나들이 가이드",
   description:
     "아이와 갈 곳, 비 오는 날, 무료·저비용 코스처럼 상황별로 서울 나들이 장소와 공식 정보를 정리합니다.",
+  // "./"는 Next.js가 각 페이지 경로로 풀고 trailingSlash를 붙인다. 쿼리 주소(?view=)도 원래 주소를 가리킨다.
+  alternates: {
+    canonical: "./",
+  },
   openGraph: {
     title: "서울시티 | 서울 상황별 나들이 가이드",
     description:
       "아이와 갈 곳, 비 오는 날, 무료·저비용 코스처럼 상황별로 서울 나들이 장소와 공식 정보를 정리합니다.",
-    url: siteUrl,
+    url: "./",
     siteName: "서울시티",
     locale: "ko_KR",
     type: "website",

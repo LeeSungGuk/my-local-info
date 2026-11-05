@@ -49,6 +49,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     openGraph: {
       title: `${district.name} 가이드 | 서울시티`,
       description: district.summary,
+      url: "./",
       type: "website",
     },
   };
