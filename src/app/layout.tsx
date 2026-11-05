@@ -59,6 +59,12 @@ export const metadata: Metadata = {
     icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
     shortcut: ["/favicon.svg"],
   },
+  // 네이버 서치어드바이저 소유확인용 공개 값. Google은 DNS TXT로 인증해 여기 넣지 않는다.
+  verification: {
+    other: {
+      "naver-site-verification": "7d1c151c39a2c38541f87ebb3edc97d14e3ac30a",
+    },
+  },
 };
 
 export default function RootLayout({
