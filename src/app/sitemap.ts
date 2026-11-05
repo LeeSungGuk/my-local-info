@@ -3,105 +3,69 @@ import { getAllDistricts } from "@/lib/districts";
 import { getAllSituations } from "@/lib/situations";
 import { getAllPosts } from "@/lib/posts";
 import { getBenefitsIndex } from "@/lib/public-benefits";
-import { getEventsIndex } from "@/lib/seoul-events";
+import { getEventById, getEventsIndex } from "@/lib/seoul-events";
 import { SITE_URL } from "@/lib/site-config";
 
-const siteUrl = SITE_URL;
 export const dynamic = "force-static";
 
-function getLatestLastModified(values: Array<string | Date | undefined>) {
-  return (
-    values
-      .map((value) => {
-        if (value instanceof Date) {
-          return value.toISOString();
-        }
-
-        return value || "";
-      })
-      .filter(Boolean)
-      .sort()
-      .at(-1) || new Date().toISOString()
-  );
+interface SitemapPage {
+  path: string;
+  lastModified?: string;
 }
 
+// next.config.ts의 trailingSlash: true와 같은 주소여야 308 없이 canonical과 일치한다
+function toSitemapEntry({ path, lastModified }: SitemapPage): MetadataRoute.Sitemap[number] {
+  const url = `${SITE_URL}${path.endsWith("/") ? path : `${path}/`}`;
+  return lastModified ? { url, lastModified } : { url };
+}
+
+function getLatestDate(values: Array<string | undefined>) {
+  return values.filter((value): value is string => Boolean(value)).sort().at(-1);
+}
+
+// lastmod는 실제 콘텐츠 날짜만 쓰고, 근거 날짜가 없는 페이지는 생략한다.
+// 혜택 상세는 공공데이터 원문 위주라 noindex로 두고 사이트맵에서 뺀다 (docs/works/seo_indexing_fixes/plan.md).
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [eventsIndex, benefitsIndex] = await Promise.all([
     getEventsIndex(),
     getBenefitsIndex(),
   ]);
   const posts = getAllPosts();
-  const siteLastModified = getLatestLastModified([
-    eventsIndex.source.collectedAt,
-    benefitsIndex.source.collectedAt,
-    ...posts.map((post) => post.updatedAt || post.date),
-  ]);
-  const staticRoutes: MetadataRoute.Sitemap = [
+  const events = await Promise.all(
+    eventsIndex.items.map(async (event) => ({
+      id: event.id,
+      registeredAt: (await getEventById(event.id))?.registeredAt,
+    })),
+  );
+
+  const blogLastModified = getLatestDate(posts.map((post) => post.updatedAt || post.date));
+  const eventsLastModified = getLatestDate(events.map((event) => event.registeredAt));
+  const benefitsLastModified = getLatestDate(
+    benefitsIndex.items.map((benefit) => benefit.updatedAt || benefit.registeredAt),
+  );
+
+  const pages: SitemapPage[] = [
     {
-      url: `${siteUrl}/`,
-      lastModified: siteLastModified,
+      path: "/",
+      lastModified: getLatestDate([blogLastModified, eventsLastModified, benefitsLastModified]),
     },
-    {
-      url: `${siteUrl}/blog`,
-      lastModified: siteLastModified,
-    },
-    {
-      url: `${siteUrl}/events`,
-      lastModified: eventsIndex.source.collectedAt || siteLastModified,
-    },
-    {
-      url: `${siteUrl}/benefits`,
-      lastModified: benefitsIndex.source.collectedAt || siteLastModified,
-    },
-    {
-      url: `${siteUrl}/districts`,
-      lastModified: siteLastModified,
-    },
-    {
-      url: `${siteUrl}/food`,
-      lastModified: siteLastModified,
-    },
+    { path: "/blog", lastModified: blogLastModified },
+    { path: "/events", lastModified: eventsLastModified },
+    { path: "/benefits", lastModified: benefitsLastModified },
+    { path: "/districts" },
+    { path: "/food" },
+    ...getAllDistricts().map((district) => ({ path: `/districts/${district.slug}` })),
+    ...getAllDistricts().map((district) => ({ path: `/districts/${district.slug}/food` })),
+    ...getAllSituations().map((situation) => ({ path: situation.href })),
+    ...events.map((event) => ({
+      path: `/events/${event.id}`,
+      lastModified: event.registeredAt,
+    })),
+    ...posts.map((post) => ({
+      path: `/blog/${post.slug}`,
+      lastModified: post.updatedAt || post.date,
+    })),
   ];
-  const districtRoutes: MetadataRoute.Sitemap = getAllDistricts().map((district) => ({
-    url: `${siteUrl}/districts/${district.slug}`,
-    lastModified: siteLastModified,
-  }));
-  const districtFoodRoutes: MetadataRoute.Sitemap = getAllDistricts().map((district) => ({
-    url: `${siteUrl}/districts/${district.slug}/food`,
-    lastModified: siteLastModified,
-  }));
 
-  const situationRoutes: MetadataRoute.Sitemap = getAllSituations().map((situation) => ({
-    url: `${siteUrl}${situation.href}`,
-    lastModified: siteLastModified,
-  }));
-
-  const eventRoutes: MetadataRoute.Sitemap = eventsIndex.items.map((event) => ({
-    url: `${siteUrl}/events/${event.id}`,
-    lastModified: eventsIndex.source.collectedAt || event.startDate || siteLastModified,
-  }));
-
-  const benefitRoutes: MetadataRoute.Sitemap = benefitsIndex.items.map((benefit) => ({
-    url: `${siteUrl}/benefits/${benefit.id}`,
-    lastModified:
-      benefit.updatedAt ||
-      benefit.registeredAt ||
-      benefitsIndex.source.collectedAt ||
-      siteLastModified,
-  }));
-
-  const blogRoutes: MetadataRoute.Sitemap = posts.map((post) => ({
-    url: `${siteUrl}/blog/${post.slug}`,
-    lastModified: post.updatedAt || post.date || siteLastModified,
-  }));
-
-  return [
-    ...staticRoutes,
-    ...districtRoutes,
-    ...districtFoodRoutes,
-    ...situationRoutes,
-    ...eventRoutes,
-    ...benefitRoutes,
-    ...blogRoutes,
-  ];
+  return pages.map(toSitemapEntry);
 }

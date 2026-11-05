@@ -29,6 +29,8 @@ export async function generateMetadata({
   return {
     title: `${benefit.title} | 서울시티`,
     description: getBenefitHighlight(benefit) || benefit.summary,
+    // 공공데이터 원문 위주의 대량 페이지라 색인하지 않는다. 사이트 안 이동과 링크 전달은 유지한다.
+    robots: { index: false, follow: true },
   };
 }
 

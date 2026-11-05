@@ -70,6 +70,7 @@ export async function generateMetadata({
     openGraph: {
       title: `${situation.title} | 서울시티`,
       description: situation.summary,
+      url: "./",
       type: "website",
     },
   };
