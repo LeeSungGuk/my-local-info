@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-11-05T11:42:30+09:00",
+  "lastGeneratedAt": "2026-11-06T11:45:49+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -4254,9 +4254,9 @@
         "고요한서점"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-10-24T09:58:45+09:00",
-      "usedAt": null
+      "usedAt": "2026-11-06T11:45:49+09:00"
     },
     {
       "id": "seoul-public-greenhouse-botanical-gardens",
