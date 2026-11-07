@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-11-06T11:45:49+09:00",
+  "lastGeneratedAt": "2026-11-07T11:15:13+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -4277,9 +4277,9 @@
         "초록 힐링"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-11-01T10:39:46+09:00",
-      "usedAt": null
+      "usedAt": "2026-11-07T11:15:13+09:00"
     },
     {
       "id": "seoul-photo-book-and-zine-shops",
