@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-11-07T11:15:13+09:00",
+  "lastGeneratedAt": "2026-11-08T10:45:14+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -4299,9 +4299,9 @@
         "취향탐색"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-11-01T10:39:46+09:00",
-      "usedAt": null
+      "usedAt": "2026-11-08T10:45:14+09:00"
     },
     {
       "id": "seoul-public-maker-spaces",
