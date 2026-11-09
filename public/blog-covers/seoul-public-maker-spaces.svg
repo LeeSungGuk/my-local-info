@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cover-title cover-desc" data-cover-generator="seoulcity" data-cover-version="2" data-cover-subject="craft" data-cover-scene="pottery-wheel" data-cover-palette="ochre">
+  <title id="cover-title">장비 없이 떠나는 창작 여행, 서울 공공 메이커 스페이스 3곳 추천</title>
+  <desc id="cover-desc">물레와 도자기가 있는 공방 작업대. 분류: 실내대안. 추천 장소: 금천구 서울시립금천청소년센터 메이커스페이스, 성북구 성북 메이커스페이스, 마포구 서울창업허브 메이커스페이스</desc>
+  <rect width="1600" height="900" fill="#F7F3EB"/>
+  <rect x="120" y="65" width="1360" height="770" rx="54" fill="#EEE4CA"/>
+  <ellipse cx="800" cy="763" rx="420" ry="18" fill="#303A33" opacity=".06"/>
+  <g transform="translate(280 130) scale(1.04)" stroke="#303A33" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><rect x="130" y="390" width="740" height="23" rx="7" fill="#F7F3EB"/><path d="M160 415L150 550" fill="none" /><path d="M840 415L850 550" fill="none" /><ellipse cx="450" cy="368" rx="145" ry="30" fill="#6D806D"/><path d="M380 230H520L502 270Q560 327 510 353H390Q340 327 398 270Z" fill="#F7F3EB" /><g transform="translate(740 340) scale(0.55)"><path d="M-110-25H110Q95 89 0 89Q-95 89-110-25Z" fill="#F7F3EB" /><ellipse cx="0" cy="-25" rx="110" ry="21" fill="#B49455"/><path d="M-25-70Q-43-92-24-116M15-70Q-3-92 16-116" fill="none" /></g><rect x="160" y="308" width="65" height="78" rx="8" fill="#B49455"/><path d="M175 309L160 205M198 309L228 219" fill="none" /></g>
+</svg>
