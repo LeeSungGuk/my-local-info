@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-11-09T10:52:54+09:00",
+  "lastGeneratedAt": "2026-11-10T13:16:30+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -4343,9 +4343,9 @@
         "디저트카페"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-11-01T10:39:46+09:00",
-      "usedAt": null
+      "usedAt": "2026-11-10T13:16:30+09:00"
     },
     {
       "id": "seoul-urban-stream-waterfront-walks",

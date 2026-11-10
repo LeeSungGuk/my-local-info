@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cover-title cover-desc" data-cover-generator="seoulcity" data-cover-version="2" data-cover-subject="bakery" data-cover-scene="bakery-case" data-cover-palette="ochre">
+  <title id="cover-title">🍵 정갈한 다과와 차 한 잔, 약과와 개성주악이 있는 서울 K-디저트 숍 3곳</title>
+  <desc id="cover-desc">선반에 빵이 진열된 베이커리. 분류: 생활취향. 추천 장소: 종로구 안국동 연경당, 서대문구 연희동 올되다공방, 강남구 압구정 강정이넘치는집</desc>
+  <rect width="1600" height="900" fill="#F7F3EB"/>
+  <rect x="120" y="65" width="1360" height="770" rx="54" fill="#EEE4CA"/>
+  <ellipse cx="800" cy="763" rx="420" ry="18" fill="#303A33" opacity=".06"/>
+  <g transform="translate(280 130) scale(1.04)" stroke="#303A33" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><rect x="180" y="105" width="640" height="360" rx="8" fill="#F7F3EB"/><rect x="205" y="130" width="590" height="205" rx="2" fill="#EEE4CA"/><ellipse cx="280" cy="253" rx="67" ry="45" fill="#B49455"/><path d="M255 225L287 280" fill="none" /><ellipse cx="480" cy="253" rx="67" ry="45" fill="#B49455"/><path d="M455 225L487 280" fill="none" /><ellipse cx="680" cy="253" rx="67" ry="45" fill="#B49455"/><path d="M655 225L687 280" fill="none" /><path d="M180 350L820 350" fill="none" /><rect x="215" y="380" width="570" height="45" rx="2" fill="#6D806D"/></g>
+</svg>
