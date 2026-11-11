@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cover-title cover-desc" data-cover-generator="seoulcity" data-cover-version="2" data-cover-subject="river" data-cover-scene="riverside-rest" data-cover-palette="lilac">
+  <title id="cover-title">잔잔한 물소리 따라 걷는 휴식, 서울 도심 하천 산책로 3곳</title>
+  <desc id="cover-desc">강변 벤치와 물결이 있는 쉼터. 분류: 짧은코스. 추천 장소: 은평구 불광천 수변산책로, 서대문구 홍제천 인공폭포 수변테라스, 성북구 성북천 산책로</desc>
+  <rect width="1600" height="900" fill="#F7F3EB"/>
+  <rect x="120" y="65" width="1360" height="770" rx="54" fill="#E5DFEA"/>
+  <ellipse cx="800" cy="763" rx="420" ry="18" fill="#303A33" opacity=".06"/>
+  <g transform="translate(280 130) scale(1.04)" stroke="#303A33" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M110 285Q300 237 500 285T890 285V490H110Z" fill="#E5DFEA" /><path d="M170 329H336M570 371H798M220 424H463" fill="none" /><g transform="translate(480 379) scale(1)"><rect x="0" y="-60" width="250" height="24" rx="3" fill="#6B7D70"/><rect x="0" y="-27" width="250" height="25" rx="3" fill="#F7F3EB"/><path d="M23 -2L13 75" fill="none" /><path d="M225 -2L237 75" fill="none" /><path d="M30 -60L30 -27" fill="none" /><path d="M220 -60L220 -27" fill="none" /></g><g transform="translate(219 194) scale(0.85)"><circle cx="0" cy="-105" r="70" fill="#6B7D70"/><circle cx="-45" cy="-65" r="53" fill="#6B7D70"/><circle cx="43" cy="-60" r="55" fill="#6B7D70"/><path d="M0 -110L0 80" fill="none" /><path d="M0 -10L-32 -43" fill="none" /><path d="M0 9L33 -20" fill="none" /></g><circle cx="775" cy="141" r="48" fill="#95839E"/></g>
+</svg>

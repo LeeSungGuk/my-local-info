@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-11-10T13:16:30+09:00",
+  "lastGeneratedAt": "2026-11-11T11:08:31+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -4365,9 +4365,9 @@
         "가벼운 걷기"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-11-01T10:39:46+09:00",
-      "usedAt": null
+      "usedAt": "2026-11-11T11:08:31+09:00"
     },
     {
       "id": "seoul-classical-music-listening-salons",
