@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-11-12T12:17:30+09:00",
+  "lastGeneratedAt": "2026-11-13T11:50:56+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -4409,9 +4409,9 @@
         "자연친화"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-11-01T10:39:46+09:00",
-      "usedAt": null
+      "usedAt": "2026-11-13T11:50:56+09:00"
     },
     {
       "id": "seoul-multicultural-neighborhood-streets",
