@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-11-13T11:50:56+09:00",
+  "lastGeneratedAt": "2026-11-14T11:38:44+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -4431,9 +4431,9 @@
         "이국적풍경"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-11-01T10:39:46+09:00",
-      "usedAt": null
+      "usedAt": "2026-11-14T11:38:44+09:00"
     },
     {
       "id": "seoul-foot-bath-herbal-relaxation-spots",
