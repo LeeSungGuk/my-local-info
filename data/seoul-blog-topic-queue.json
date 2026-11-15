@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-11-14T11:38:44+09:00",
+  "lastGeneratedAt": "2026-11-15T11:04:45+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -4452,9 +4452,9 @@
         "#휴식공간"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-11-09T10:52:54+09:00",
-      "usedAt": null
+      "usedAt": "2026-11-15T11:04:45+09:00"
     },
     {
       "id": "seoul-traditional-archery-ranges",

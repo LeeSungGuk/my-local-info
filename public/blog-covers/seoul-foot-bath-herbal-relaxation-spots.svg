@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cover-title cover-desc" data-cover-generator="seoulcity" data-cover-version="2" data-cover-subject="wellness" data-cover-scene="spa-room" data-cover-palette="sea">
+  <title id="cover-title">발끝부터 전해지는 따스함, 서울 도심 한방 &amp; 족욕 쉼터 추천</title>
+  <desc id="cover-desc">수건과 돌이 놓인 조용한 스파. 분류: 휴식공간. 추천 장소: 동대문구 서울한방진흥센터 족욕장, 종로구 서촌 솔가헌, 노원구 중랑천 공원 족욕체험장</desc>
+  <rect width="1600" height="900" fill="#F7F3EB"/>
+  <rect x="120" y="65" width="1360" height="770" rx="54" fill="#DCE8E2"/>
+  <ellipse cx="800" cy="763" rx="420" ry="18" fill="#303A33" opacity=".06"/>
+  <g transform="translate(280 130) scale(1.04)" stroke="#303A33" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><rect x="150" y="370" width="700" height="110" rx="18" fill="#B48365"/><rect x="230" y="259" width="325" height="109" rx="30" fill="#F7F3EB"/><rect x="250" y="216" width="285" height="42" rx="15" fill="#DCE8E2"/><ellipse cx="715" cy="340" rx="70" ry="29" fill="#67948B"/><ellipse cx="715" cy="294" rx="56" ry="25" fill="#F7F3EB"/><ellipse cx="715" cy="254" rx="40" ry="19" fill="#67948B"/><g transform="translate(792 183) scale(0.55)"><path d="M0 0C-65-75-70-140-20-166C45-130 35-55 0 0Z" fill="#B48365" /><path d="M0 0C70-15 110-64 88-102C30-105-2-56 0 0Z" fill="#67948B" /><path d="M0 10L-14 -130" fill="none" /></g></g>
+</svg>
