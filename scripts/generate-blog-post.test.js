@@ -13,7 +13,12 @@ const {
   selectNextPendingTopic,
   shouldReplenishTopics,
 } = require("./blog-topic-queue");
-const { parseTopicCandidatesText } = require("./blog-topic-generator");
+const {
+  buildThinkingConfig,
+  extractCandidateText,
+  generateTopicCandidates,
+  parseTopicCandidatesText,
+} = require("./blog-topic-generator");
 const {
   appendOfficialSourceLinks,
   createGeneratedPostMarkdown,
@@ -325,6 +330,9 @@ test("generateBlogPost sends a JSON schema and rejects truncated Gemini response
   );
 
   assert.equal(requestBody.generationConfig.responseMimeType, "application/json");
+  assert.deepEqual(requestBody.generationConfig.thinkingConfig, {
+    thinkingLevel: "medium",
+  });
   assert.deepEqual(requestBody.generationConfig.responseSchema.required, [
     "title",
     "summary",
@@ -567,4 +575,74 @@ test("createGeneratedPostMarkdown appends official links and source note from to
   assert.match(parsed.content, /서울도서관 이용안내/);
   assert.match(parsed.content, /청계천 공식 안내/);
   assert.equal(parsed.content.includes("없는 장소"), false);
+});
+
+test("buildThinkingConfig and extractCandidateText handle Gemini 4 thinking responses", () => {
+  assert.deepEqual(buildThinkingConfig("gemini-4-hydrogen", "medium"), {
+    thinkingLevel: "medium",
+  });
+  assert.equal(buildThinkingConfig("gemini-3.5-flash-lite", "medium"), null);
+  assert.equal(
+    extractCandidateText({
+      content: {
+        parts: [
+          { thought: true, text: "internal reasoning" },
+          { text: '{"title":"서울 산책"}' },
+        ],
+      },
+    }),
+    '{"title":"서울 산책"}'
+  );
+});
+
+test("generateTopicCandidates sends thinkingConfig for gemini-4-hydrogen", async () => {
+  let requestedUrl = "";
+  let requestedBody = null;
+
+  const candidates = await generateTopicCandidates({
+    apiKey: "test-key",
+    model: "gemini-4-hydrogen",
+    count: 1,
+    existingTopics: [],
+    thinkingLevel: "medium",
+    async fetchImpl(url, init) {
+      requestedUrl = url;
+      requestedBody = JSON.parse(init.body);
+      return {
+        ok: true,
+        async json() {
+          return {
+            candidates: [
+              {
+                content: {
+                  parts: [
+                    { thought: true, text: "thinking..." },
+                    {
+                      text: JSON.stringify([
+                        {
+                          id: "seoul-quiet-park",
+                          titleHint: "서울 조용한 공원 산책",
+                          topicCategory: "산책",
+                          angle: "평일 오전",
+                          places: ["서울숲"],
+                          tags: ["서울산책"],
+                        },
+                      ]),
+                    },
+                  ],
+                },
+              },
+            ],
+          };
+        },
+      };
+    },
+  });
+
+  assert.match(requestedUrl, /\/models\/gemini-4-hydrogen:generateContent/);
+  assert.deepEqual(requestedBody.generationConfig.thinkingConfig, {
+    thinkingLevel: "medium",
+  });
+  assert.equal(candidates.length, 1);
+  assert.equal(candidates[0].id, "seoul-quiet-park");
 });

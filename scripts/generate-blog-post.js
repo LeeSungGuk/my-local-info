@@ -4,7 +4,12 @@ const path = require("path");
 const matter = require("gray-matter");
 const SEOUL_BLOG_TOPICS = require("./seoul-blog-topics");
 const { ensureTopicCoverAsset } = require("./generate-blog-cover");
-const { generateTopicCandidates } = require("./blog-topic-generator");
+const {
+  buildThinkingConfig,
+  extractCandidateText,
+  generateTopicCandidates,
+  resolveThinkingLevel,
+} = require("./blog-topic-generator");
 const {
   countPendingTopics,
   filterGeneratedTopics,
@@ -56,8 +61,14 @@ function loadEnvFile(filePath) {
 
 loadEnvFile(ENV_FILE_PATH);
 
-const BLOG_GENERATION_MODEL = "gemini-3.5-flash";
+const DEFAULT_BLOG_GENERATION_MODEL = "gemini-4-hydrogen";
+const BLOG_GENERATION_MODEL = process.env.GEMINI_BLOG_MODEL || DEFAULT_BLOG_GENERATION_MODEL;
 const TOPIC_GENERATION_MODEL = process.env.GEMINI_BLOG_TOPIC_MODEL || BLOG_GENERATION_MODEL;
+const BLOG_THINKING_LEVEL = resolveThinkingLevel(process.env.GEMINI_BLOG_THINKING_LEVEL, "medium");
+const TOPIC_THINKING_LEVEL = resolveThinkingLevel(
+  process.env.GEMINI_BLOG_TOPIC_THINKING_LEVEL,
+  BLOG_THINKING_LEVEL
+);
 const MINIMUM_PENDING_TOPICS = Number(process.env.BLOG_TOPIC_MIN_PENDING || 7);
 const TARGET_PENDING_TOPICS = Number(process.env.BLOG_TOPIC_TARGET_PENDING || 15);
 const MAX_TOPIC_GENERATION_BATCH = Number(process.env.BLOG_TOPIC_MAX_BATCH || 10);
@@ -592,6 +603,7 @@ async function maybeReplenishTopicQueue(queue, posts, nowIso) {
       count: requestedCount,
       existingTopics: queue.topics,
       fetchImpl: fetch,
+      thinkingLevel: TOPIC_THINKING_LEVEL,
     });
     const filteredTopics = filterGeneratedTopics({
       candidates,
@@ -653,9 +665,12 @@ ${JSON.stringify(topic, null, 2)}
   "filename": "${today}-example-slug"
 }`;
 
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/${BLOG_GENERATION_MODEL}:generateContent?key=${process.env.GEMINI_API_KEY}`;
+  const model = options.model || BLOG_GENERATION_MODEL;
+  const thinkingLevel = resolveThinkingLevel(options.thinkingLevel, BLOG_THINKING_LEVEL);
+  const thinkingConfig = buildThinkingConfig(model, thinkingLevel);
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${process.env.GEMINI_API_KEY}`;
 
-  console.log(`🤖 Gemini AI로 서울 정보글 생성 중... (${topic.id}, ${BLOG_GENERATION_MODEL})`);
+  console.log(`🤖 Gemini AI로 서울 정보글 생성 중... (${topic.id}, ${model})`);
   const json = await fetchGeminiJson(
     url,
     {
@@ -664,6 +679,7 @@ ${JSON.stringify(topic, null, 2)}
       body: JSON.stringify({
         contents: [{ parts: [{ text: prompt }] }],
         generationConfig: {
+          ...(thinkingConfig ? { thinkingConfig } : {}),
           responseMimeType: "application/json",
           responseSchema: {
             type: "OBJECT",
@@ -694,7 +710,7 @@ ${JSON.stringify(topic, null, 2)}
     throw new Error(`Gemini 응답이 정상 종료되지 않았습니다: ${finishReason}`);
   }
 
-  const text = candidate?.content?.parts?.[0]?.text || "";
+  const text = extractCandidateText(candidate);
 
   if (!text) {
     throw new Error("Gemini 응답이 비어있습니다.");

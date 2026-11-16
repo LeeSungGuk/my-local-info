@@ -1,3 +1,30 @@
+const VALID_THINKING_LEVELS = new Set(["low", "medium", "high", "xhigh"]);
+
+function resolveThinkingLevel(value, fallback = "medium") {
+  const normalized = String(value || "").trim().toLowerCase();
+  return VALID_THINKING_LEVELS.has(normalized) ? normalized : fallback;
+}
+
+function buildThinkingConfig(model, thinkingLevel) {
+  if (!/^gemini-4(?:[.-]|$)/i.test(String(model || "").trim())) {
+    return null;
+  }
+
+  const normalizedLevel = resolveThinkingLevel(thinkingLevel, "");
+  return normalizedLevel ? { thinkingLevel: normalizedLevel } : null;
+}
+
+function extractCandidateText(candidate) {
+  const parts = candidate?.content?.parts;
+
+  if (!Array.isArray(parts)) {
+    return "";
+  }
+
+  const textPart = parts.find((part) => typeof part?.text === "string" && !part.thought);
+  return textPart ? textPart.text : "";
+}
+
 function stripMarkdownCodeFence(value) {
   return String(value || "")
     .trim()
@@ -62,16 +89,20 @@ async function generateTopicCandidates({
   count,
   existingTopics,
   fetchImpl,
+  thinkingLevel = "medium",
 }) {
   const prompt = buildTopicCandidatesPrompt({ count, existingTopics });
+  const thinkingConfig = buildThinkingConfig(model, thinkingLevel);
+  const requestBody = {
+    contents: [{ parts: [{ text: prompt }] }],
+    ...(thinkingConfig ? { generationConfig: { thinkingConfig } } : {}),
+  };
   const response = await fetchImpl(
     `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
     {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        contents: [{ parts: [{ text: prompt }] }],
-      }),
+      body: JSON.stringify(requestBody),
     }
   );
 
@@ -80,7 +111,7 @@ async function generateTopicCandidates({
   }
 
   const json = await response.json();
-  const text = json.candidates?.[0]?.content?.parts?.[0]?.text || "";
+  const text = extractCandidateText(json.candidates?.[0]);
 
   if (!text) {
     throw new Error("Gemini 주제 응답이 비어있습니다.");
@@ -90,7 +121,10 @@ async function generateTopicCandidates({
 }
 
 module.exports = {
+  buildThinkingConfig,
   buildTopicCandidatesPrompt,
+  extractCandidateText,
   generateTopicCandidates,
   parseTopicCandidatesText,
+  resolveThinkingLevel,
 };
