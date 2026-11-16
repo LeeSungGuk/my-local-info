@@ -84,7 +84,7 @@ export default function HomeSeoulSummary({ summary }: HomeSeoulSummaryProps) {
                 <p className="mt-2 text-xs leading-6 text-slate-500">{card.note}</p>
                 <p className="mt-4 inline-flex items-center text-sm font-semibold text-slate-700 transition-colors group-hover:text-sky-700">
                   {card.ctaLabel ?? "바로 보기"}
-                  <svg className="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg aria-hidden="true" className="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
                 </p>

@@ -74,7 +74,7 @@ export default async function EventDetailPage({
           href="/events"
           className="inline-flex items-center gap-1 text-sm font-medium text-gray-500 transition-colors hover:text-sky-700"
         >
-          <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg aria-hidden="true" className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
           </svg>
           행사 목록으로 돌아가기
@@ -142,7 +142,7 @@ export default async function EventDetailPage({
               ) : null}
             </div>
 
-            <EventPoster imageUrl={event.imageUrl} title={event.title} className="mt-8" />
+            <EventPoster imageUrl={event.imageUrl} title={event.title} className="mt-8" preload />
 
             <DetailFacts
               className="mt-8"

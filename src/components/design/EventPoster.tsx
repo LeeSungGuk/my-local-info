@@ -4,10 +4,11 @@ import Image from "next/image";
 import { useState } from "react";
 import SeoulCover from "./SeoulCover";
 
-export default function EventPoster({ imageUrl, title, className = "" }: {
+export default function EventPoster({ imageUrl, title, className = "", preload = false }: {
   imageUrl?: string;
   title: string;
   className?: string;
+  preload?: boolean;
 }) {
   const [failedUrl, setFailedUrl] = useState<string | null>(null);
   let safeUrl = "";
@@ -21,7 +22,7 @@ export default function EventPoster({ imageUrl, title, className = "" }: {
   return (
     <div className={`event-poster ${className}`}>
       {safeUrl && safeUrl !== failedUrl ? (
-        <Image src={safeUrl} alt={`${title} 포스터`} fill sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 380px" className="object-contain p-3 transition-transform duration-300 group-hover:scale-[1.03]" onError={() => setFailedUrl(safeUrl)} />
+        <Image src={safeUrl} alt={`${title} 포스터`} fill preload={preload} fetchPriority={preload ? "high" : undefined} sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 380px" className="object-contain p-3 transition-transform duration-300 group-hover:scale-[1.03]" onError={() => setFailedUrl(safeUrl)} />
       ) : <SeoulCover kind="events" />}
     </div>
   );

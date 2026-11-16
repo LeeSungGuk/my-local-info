@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useRef, useState } from "react";
+import { type PointerEvent, useEffect, useRef, useState } from "react";
 
 const navigation = [
   ["/", "홈"], ["/#situations", "상황별 코스"], ["/districts", "구별 가이드"],
@@ -13,28 +13,46 @@ const navigation = [
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const pathname = usePathname();
-  const menuButton = useRef<HTMLButtonElement>(null);
+  const dialogRef = useRef<HTMLDialogElement>(null);
+  const pressedBackdrop = useRef(false);
 
   useEffect(() => {
-    if (!isMenuOpen) return;
-    const previousOverflow = document.body.style.overflow;
-    document.body.style.overflow = "hidden";
-    function onKeyDown(event: KeyboardEvent) {
-      if (event.key === "Escape") {
-        setIsMenuOpen(false);
-        menuButton.current?.focus();
-      }
-    }
-    document.addEventListener("keydown", onKeyDown);
     const desktop = window.matchMedia("(min-width: 1024px)");
-    const closeOnDesktop = () => { if (desktop.matches) setIsMenuOpen(false); };
+    const closeOnDesktop = () => {
+      if (desktop.matches && dialogRef.current?.open) {
+        dialogRef.current.close();
+      }
+    };
     desktop.addEventListener("change", closeOnDesktop);
     return () => {
-      document.body.style.overflow = previousOverflow;
-      document.removeEventListener("keydown", onKeyDown);
       desktop.removeEventListener("change", closeOnDesktop);
     };
-  }, [isMenuOpen]);
+  }, []);
+
+  function openMenu() {
+    const dialog = dialogRef.current;
+    if (!dialog || dialog.open) return;
+    dialog.showModal();
+    setIsMenuOpen(true);
+  }
+
+  function closeMenu() {
+    const dialog = dialogRef.current;
+    if (!dialog || !dialog.open) return;
+    dialog.close();
+  }
+
+  function isPointerOutsideDialog(event: PointerEvent<HTMLDialogElement>) {
+    const dialog = dialogRef.current;
+    if (!dialog) return false;
+    const rect = dialog.getBoundingClientRect();
+    return (
+      event.clientX < rect.left ||
+      event.clientX > rect.right ||
+      event.clientY < rect.top ||
+      event.clientY > rect.bottom
+    );
+  }
 
   function isCurrent(href: string) {
     return !href.includes("#") && (href === "/" ? pathname === "/" : pathname === href || pathname.startsWith(href + "/"));
@@ -60,7 +78,7 @@ export default function Header() {
             </Link>
           ))}
         </nav>
-        <button ref={menuButton} type="button" onClick={() => setIsMenuOpen(!isMenuOpen)}
+        <button type="button" onClick={() => (isMenuOpen ? closeMenu() : openMenu())}
           aria-label={isMenuOpen ? "메뉴 닫기" : "메뉴 열기"} aria-expanded={isMenuOpen} aria-controls="mobile-navigation"
           className="inline-flex min-h-11 min-w-11 items-center justify-center rounded-full text-slate-800 hover:bg-slate-100 lg:hidden">
           <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
@@ -68,22 +86,48 @@ export default function Header() {
           </svg>
         </button>
       </div>
-      {isMenuOpen && (
-        <div className="lg:hidden">
-          <button type="button" className="fixed inset-0 top-[72px] h-[calc(100dvh-72px)] bg-slate-950/20 backdrop-blur-sm"
-            aria-label="메뉴 배경 닫기" onClick={() => setIsMenuOpen(false)} tabIndex={-1} />
-          <nav id="mobile-navigation" aria-label="모바일 메뉴"
-            className="absolute inset-x-4 top-[84px] max-h-[calc(100dvh-100px)] overflow-y-auto rounded-2xl border border-slate-200 bg-background p-4 shadow-xl">
-            <p className="eyebrow px-3 py-3">서울 둘러보기</p>
-            {navigation.map(([href, label]) => (
-              <Link key={href} href={href} aria-current={isCurrent(href) ? "page" : undefined} onClick={() => setIsMenuOpen(false)}
-                className="flex min-h-12 items-center justify-between rounded-xl px-3 text-sm font-semibold text-slate-700 hover:bg-slate-100">
-                {label}<span aria-hidden="true" className="text-slate-400">→</span>
-              </Link>
-            ))}
-          </nav>
+      <dialog
+        ref={dialogRef}
+        id="mobile-navigation"
+        aria-labelledby="mobile-navigation-title"
+        {...({ closedby: "any" } as Record<string, string>)}
+        onClose={() => setIsMenuOpen(false)}
+        onPointerDown={(event) => {
+          if ("closedBy" in event.currentTarget) return;
+          pressedBackdrop.current = isPointerOutsideDialog(event);
+        }}
+        onPointerUp={(event) => {
+          if ("closedBy" in event.currentTarget) return;
+          if (pressedBackdrop.current && isPointerOutsideDialog(event)) {
+            closeMenu();
+          }
+          pressedBackdrop.current = false;
+        }}
+        className="mobile-nav-dialog overflow-y-auto rounded-2xl border border-slate-200 bg-background p-4 text-foreground shadow-xl lg:hidden"
+      >
+        <div className="flex items-center justify-between px-3 py-1">
+          <p id="mobile-navigation-title" className="eyebrow">서울 둘러보기</p>
+          <button
+            type="button"
+            autoFocus
+            onClick={closeMenu}
+            aria-label="메뉴 닫기"
+            className="inline-flex min-h-11 min-w-11 items-center justify-center rounded-full text-slate-700 hover:bg-slate-100"
+          >
+            <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round">
+              <path d="M6 6l12 12M6 18 18 6" />
+            </svg>
+          </button>
         </div>
-      )}
+        <nav aria-label="모바일 메뉴" className="mt-1">
+          {navigation.map(([href, label]) => (
+            <Link key={href} href={href} aria-current={isCurrent(href) ? "page" : undefined} onClick={closeMenu}
+              className="flex min-h-12 items-center justify-between rounded-xl px-3 text-sm font-semibold text-slate-700 hover:bg-slate-100">
+              {label}<span aria-hidden="true" className="text-slate-400">→</span>
+            </Link>
+          ))}
+        </nav>
+      </dialog>
     </header>
   );
 }

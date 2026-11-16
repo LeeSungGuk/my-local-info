@@ -230,10 +230,10 @@ export default function BenefitsCatalog({ benefits }: { benefits: PublicBenefitS
         ) : (
           <>
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-2">
-              {visibleBenefits.map((benefit) => (
+              {visibleBenefits.map((benefit, index) => (
                 <article
                   key={benefit.id}
-                  className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-[0_8px_24px_rgba(15,23,42,0.04)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_14px_32px_rgba(64,48,31,0.08)]"
+                  className={`${index >= 4 ? "deferred-card " : ""}overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-[0_8px_24px_rgba(15,23,42,0.04)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_14px_32px_rgba(64,48,31,0.08)]`}
                 >
                   <div className="h-px bg-slate-200" />
                   <div className="p-6">
@@ -274,7 +274,7 @@ export default function BenefitsCatalog({ benefits }: { benefits: PublicBenefitS
                       className="mt-6 inline-flex items-center text-sm font-semibold text-blue-700 transition-colors hover:text-blue-800"
                     >
                       자세히 보기
-                      <svg className="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg aria-hidden="true" className="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
                     </Link>

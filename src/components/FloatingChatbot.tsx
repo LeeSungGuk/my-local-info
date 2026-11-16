@@ -25,10 +25,80 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
   const [isSuggestionOpen, setIsSuggestionOpen] = useState(false);
   const nextId = useRef(1);
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
+  const dialogRef = useRef<HTMLDialogElement | null>(null);
+  const openButtonRef = useRef<HTMLButtonElement | null>(null);
+  const inputRef = useRef<HTMLInputElement | null>(null);
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
+
+  const closeChatbot = () => {
+    const dialog = dialogRef.current;
+    if (dialog) {
+      if (typeof dialog.hidePopover === "function" && dialog.matches(":popover-open")) {
+        dialog.hidePopover();
+      } else if (dialog.open) {
+        dialog.close();
+      }
+    }
+    setIsOpen(false);
+    requestAnimationFrame(() => {
+      openButtonRef.current?.focus();
+    });
+  };
+
+  const openChatbot = () => {
+    const dialog = dialogRef.current;
+    if (dialog) {
+      if (typeof dialog.showPopover === "function") {
+        if (!dialog.matches(":popover-open")) {
+          dialog.showPopover();
+        }
+      } else if (!dialog.open) {
+        dialog.show();
+      }
+    }
+    setIsOpen(true);
+    requestAnimationFrame(() => {
+      inputRef.current?.focus({ preventScroll: true });
+    });
+  };
+
+  useEffect(() => {
+    if (!isOpen) return;
+
+    function onKeyDown(event: KeyboardEvent) {
+      if (event.key === "Escape") {
+        event.preventDefault();
+        closeChatbot();
+      }
+    }
+
+    const mobileQuery = window.matchMedia("(max-width: 639px)");
+    const landmarks = Array.from(
+      document.querySelectorAll<HTMLElement>("body > header, body > main, body > footer"),
+    );
+
+    const syncMobileInert = () => {
+      const shouldInert = mobileQuery.matches;
+      for (const element of landmarks) {
+        element.inert = shouldInert;
+      }
+    };
+
+    syncMobileInert();
+    document.addEventListener("keydown", onKeyDown);
+    mobileQuery.addEventListener("change", syncMobileInert);
+
+    return () => {
+      for (const element of landmarks) {
+        element.inert = false;
+      }
+      document.removeEventListener("keydown", onKeyDown);
+      mobileQuery.removeEventListener("change", syncMobileInert);
+    };
+  }, [isOpen]);
 
   const handleQuestionClick = (item: ChatItem) => {
     const userMessage: ChatMessage = {
@@ -108,27 +178,29 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
 
   return (
     <div className="fixed inset-x-4 bottom-4 z-[70] sm:inset-x-auto sm:right-6 sm:bottom-6">
-      {isOpen ? (
-        <section
-          aria-label="서울 정보 도우미 채팅창"
-          className="animate-fade-in fixed inset-0 flex h-dvh w-screen flex-col overflow-hidden bg-white shadow-2xl sm:inset-auto sm:right-6 sm:bottom-4 sm:h-[456px] sm:w-[332px] sm:rounded-2xl sm:border sm:border-sky-100"
-        >
-          <header className="flex items-center justify-between border-b border-sky-100 bg-white px-5 py-4">
-            <div>
-              <h2 className="text-base font-bold text-slate-950">
-                서울 정보 도우미
-              </h2>
-              <p className="mt-0.5 flex items-center gap-1.5 text-xs font-medium text-slate-500">
-                <span className="h-2 w-2 rounded-full bg-cyan-500" />
-                공식 정보 기준 안내
-              </p>
-            </div>
-            <button
-              type="button"
-              aria-label="채팅창 닫기"
-              onClick={() => setIsOpen(false)}
-              className="inline-flex h-10 w-10 items-center justify-center rounded-full text-slate-500 transition-colors hover:bg-sky-50 hover:text-slate-900"
-            >
+      <dialog
+        ref={dialogRef}
+        id="chatbot-dialog"
+        {...({ popover: "manual" } as Record<string, string>)}
+        aria-labelledby="chatbot-title"
+        className="animate-fade-in fixed inset-0 m-0 h-dvh max-h-none w-screen max-w-none flex-col overflow-hidden border-0 bg-white p-0 shadow-2xl open:flex [&:popover-open]:flex sm:inset-auto sm:right-6 sm:bottom-4 sm:h-[456px] sm:w-[332px] sm:rounded-2xl sm:border sm:border-sky-100"
+      >
+        <header className="flex items-center justify-between border-b border-sky-100 bg-white px-5 py-4">
+          <div>
+            <h2 id="chatbot-title" className="text-base font-bold text-slate-950">
+              서울 정보 도우미
+            </h2>
+            <p className="mt-0.5 flex items-center gap-1.5 text-xs font-medium text-slate-500">
+              <span className="h-2 w-2 rounded-full bg-cyan-500" />
+              공식 정보 기준 안내
+            </p>
+          </div>
+          <button
+            type="button"
+            aria-label="채팅창 닫기"
+            onClick={closeChatbot}
+            className="inline-flex h-10 w-10 items-center justify-center rounded-full text-slate-500 transition-colors hover:bg-sky-50 hover:text-slate-900"
+          >
               <svg
                 aria-hidden="true"
                 className="h-5 w-5"
@@ -208,6 +280,7 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
                   type="button"
                   onClick={() => setIsSuggestionOpen((current) => !current)}
                   aria-expanded={isSuggestionOpen}
+                  aria-controls="chatbot-suggestions"
                   className="flex w-full items-center justify-between px-3 py-2.5 text-left text-sm font-semibold text-slate-700"
                 >
                   <span>추천 질문</span>
@@ -231,12 +304,9 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
                   </span>
                 </button>
                 <div
-                  className={[
-                    "grid gap-2 overflow-y-auto px-3 transition-all duration-200",
-                    isSuggestionOpen
-                      ? "max-h-44 pb-3 opacity-100"
-                      : "max-h-0 opacity-0",
-                  ].join(" ")}
+                  id="chatbot-suggestions"
+                  hidden={!isSuggestionOpen}
+                  className="chatbot-suggestions grid max-h-44 gap-2 overflow-y-auto px-3 pb-3"
                 >
                   {items.map((item) => (
                     <button
@@ -252,12 +322,17 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
               </div>
             )}
             <form onSubmit={handleSubmit} className="mt-3 flex gap-2">
+              <label htmlFor="chatbot-question-input" className="sr-only">
+                서울 정보 질문 입력
+              </label>
               <input
+                ref={inputRef}
+                id="chatbot-question-input"
                 type="text"
                 value={inputValue}
                 onChange={(event) => setInputValue(event.target.value)}
                 placeholder="서울 정보에 대해 질문하세요"
-                className="min-w-0 flex-1 rounded-xl border border-sky-100 bg-slate-50 px-3 py-2.5 text-sm text-slate-900 outline-none transition-colors placeholder:text-slate-400 focus:border-sky-300 focus:bg-white focus:ring-2 focus:ring-sky-100"
+                className="min-w-0 flex-1 rounded-xl border border-sky-100 bg-slate-50 px-3 py-2.5 text-sm text-slate-900 placeholder:text-slate-400 focus:border-sky-300 focus:bg-white focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-[#80573c]"
                 disabled={isLoading}
               />
               <button
@@ -282,16 +357,17 @@ export default function FloatingChatbot({ items }: FloatingChatbotProps) {
               </button>
             </form>
           </div>
-        </section>
-      ) : null}
+      </dialog>
 
       {!isOpen ? (
         <button
+          ref={openButtonRef}
           type="button"
           aria-label="서울 정보 도우미 열기"
           aria-expanded={isOpen}
-          onClick={() => setIsOpen(true)}
-          className="ml-auto flex h-14 w-14 items-center justify-center rounded-full bg-slate-950 text-white shadow-lg shadow-slate-950/15 transition-all duration-200 hover:-translate-y-0.5 hover:bg-sky-700 focus:outline-none focus:ring-4 focus:ring-sky-200"
+          aria-controls="chatbot-dialog"
+          onClick={openChatbot}
+          className="ml-auto flex h-14 w-14 items-center justify-center rounded-full bg-slate-950 text-white shadow-lg shadow-slate-950/15 transition-all duration-200 hover:-translate-y-0.5 hover:bg-sky-700 focus-visible:outline-2 focus-visible:outline-offset-3 focus-visible:outline-[#80573c]"
         >
           <svg
             aria-hidden="true"

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Noto_Sans_KR, Noto_Serif_KR } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -35,6 +35,20 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const notoSansKr = Noto_Sans_KR({
+  weight: ["300", "400", "500", "600", "700", "800"],
+  variable: "--font-noto-sans-kr",
+  display: "swap",
+  preload: false,
+});
+
+const notoSerifKr = Noto_Serif_KR({
+  weight: "500",
+  variable: "--font-noto-serif-kr",
+  display: "swap",
+  preload: false,
 });
 
 export const metadata: Metadata = {
@@ -103,7 +117,7 @@ gtag("config", ${JSON.stringify(gaId)});
       </head>
       <body
         data-design-template="luma"
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${notoSansKr.variable} ${notoSerifKr.variable} antialiased`}
       >
         <script
           type="application/ld+json"

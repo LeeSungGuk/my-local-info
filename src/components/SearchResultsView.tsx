@@ -158,12 +158,12 @@ export default function SearchResultsView() {
             updateParams({ query: String(formData.get("query") || "").trim() });
           }}
         >
-          <label className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">
+          <label htmlFor="search-results-query" className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">
             검색어
           </label>
           <div className="mt-3 rounded-2xl border border-slate-200 bg-slate-50 p-3">
-            <div className="flex items-center gap-3 rounded-xl bg-white px-3 py-3 text-slate-400 shadow-sm ring-1 ring-slate-200/70">
-              <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="flex items-center gap-3 rounded-xl bg-white px-3 py-3 text-slate-400 shadow-sm ring-1 ring-slate-200/70 focus-within:outline-2 focus-within:outline-offset-2 focus-within:outline-[#80573c]">
+              <svg aria-hidden="true" className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -172,6 +172,7 @@ export default function SearchResultsView() {
                 />
               </svg>
               <input
+                id="search-results-query"
                 key={filters.query}
                 name="query"
                 type="search"

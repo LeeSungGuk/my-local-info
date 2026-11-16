@@ -120,6 +120,7 @@ export default async function SituationPage({ params }: PageProps) {
           className="mb-8 inline-flex items-center text-sm font-bold text-sky-700 transition-transform hover:-translate-x-1"
         >
           <svg
+            aria-hidden="true"
             className="mr-1 h-4 w-4"
             fill="none"
             stroke="currentColor"

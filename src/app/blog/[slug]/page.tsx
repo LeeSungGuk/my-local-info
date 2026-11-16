@@ -127,6 +127,7 @@ export default async function BlogPostPage({ params }: PageProps) {
             className="group mb-8 flex items-center font-bold text-sky-700 transition-transform hover:-translate-x-1"
           >
             <svg
+              aria-hidden="true"
               className="mr-1 h-5 w-5"
               fill="none"
               stroke="currentColor"
@@ -152,6 +153,7 @@ export default async function BlogPostPage({ params }: PageProps) {
             <div className="flex flex-wrap items-center justify-center gap-4 font-medium text-sky-600 md:justify-start">
               <time className="flex items-center">
                 <svg
+                  aria-hidden="true"
                   className="mr-1.5 h-4 w-4"
                   fill="none"
                   stroke="currentColor"
@@ -189,6 +191,8 @@ export default async function BlogPostPage({ params }: PageProps) {
                   src={post.coverImage}
                   alt={post.coverAlt || post.title}
                   fill
+                  preload
+                  fetchPriority="high"
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 768px"
                 />
@@ -229,7 +233,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                   className="mt-2 inline-flex items-center text-sm font-semibold text-sky-700 hover:text-sky-800"
                 >
                   {sourceHostLabel || "원문 링크"} 바로가기
-                  <svg className="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg aria-hidden="true" className="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5h5v5m-1-4L10 14M5 9v10h10" />
                   </svg>
                 </a>
