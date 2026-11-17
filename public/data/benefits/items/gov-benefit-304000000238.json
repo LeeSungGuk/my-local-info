@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-304000000238",
+  "sourceId": "304000000238",
+  "title": "임신부 운동교실 지원 서비스",
+  "field": "임신·출산",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "상하반기 2기 운영(기수별 8~10회차 운영)",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "광진구민 임신부(교육시작일 기준 16주~28주)",
+  "summary": "서울특별시 광진구에서 제공하는 임신·출산 혜택입니다. 임신 기간 중 발생할 수 있는 신체적.정신적 불편을 완화하고, 안전한 출산과 빠른 산후회복을 돕는데 목적",
+  "supportType": "서비스(의료)",
+  "supportSummary": "- 매트,소도구를 이용한 스트레칭 및 저강도 근력 운동\n- 임신주기별 운동방법, 임신부 운동의 필요성,운동효과\n- 임신부가 피해야 할 운동 및 주의사항",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2186917&bnefType=all&svcId=304000000238",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 건강관리과/02-450-1774"
+  ],
+  "updatedAt": "2026-11-10",
+  "registeredAt": "2026-08-06",
+  "viewCount": 4,
+  "collectedAt": "2026-11-17T04:43:23.662Z",
+  "purpose": "임신 기간 중 발생할 수 있는 신체적.정신적 불편을 완화하고, 안전한 출산과 빠른 산후회복을 돕는데 목적",
+  "target": "광진구민 임신부(교육시작일 기준 16주~28주)",
+  "selectionCriteria": "",
+  "supportContent": "- 매트,소도구를 이용한 스트레칭 및 저강도 근력 운동\n- 임신주기별 운동방법, 임신부 운동의 필요성,운동효과\n- 임신부가 피해야 할 운동 및 주의사항",
+  "applicationMethod": "보건소 홈페이지 새소식란 모집 공고 ->  구글폼 통해 신청 접수",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "모자보건법(제10조)"
+  ],
+  "ordinance": "",
+  "inquiryText": "광진구 건강관리과/02-450-1774",
+  "ageMin": 18,
+  "ageMax": 45
+}

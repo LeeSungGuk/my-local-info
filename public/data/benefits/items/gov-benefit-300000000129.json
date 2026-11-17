@@ -21,12 +21,12 @@
   "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=809998&bnefType=all&svcId=300000000129",
   "onlineUrl": "",
   "inquiry": [
-    "사회복지과/02-2148-2584"
+    "사회복지과/02-2148-2582"
   ],
-  "updatedAt": "2026-08-11",
+  "updatedAt": "2026-11-09",
   "registeredAt": "2022-07-15",
-  "viewCount": 818,
-  "collectedAt": "2026-10-31T01:45:43.071Z",
+  "viewCount": 864,
+  "collectedAt": "2026-11-17T04:43:23.662Z",
   "purpose": "관내 등록 장애인 중 전동 보장구를 이용하시는 분들의 경제적 어려움을 해소하기 위해 지원",
   "target": "기초생활수급자 및 차상위계층의 등록장애인 수리비용 300천원이내 지원\n일반장애인 수리비용 100천원이내 지원",
   "selectionCriteria": "",
@@ -39,7 +39,7 @@
     "장애인복지법(제18조)"
   ],
   "ordinance": "",
-  "inquiryText": "사회복지과/02-2148-2584",
+  "inquiryText": "사회복지과/02-2148-2582",
   "ageMin": 0,
   "ageMax": 120
 }

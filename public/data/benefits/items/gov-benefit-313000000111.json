@@ -21,12 +21,12 @@
   "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1004123&bnefType=all&svcId=313000000111",
   "onlineUrl": "",
   "inquiry": [
-    "실뿌리복지과/02-3153-6456"
+    "생활보장과/02-3153-6456"
   ],
-  "updatedAt": "2026-07-30",
+  "updatedAt": "2026-11-12",
   "registeredAt": "2021-09-23",
-  "viewCount": 4607,
-  "collectedAt": "2026-10-31T01:45:43.071Z",
+  "viewCount": 4663,
+  "collectedAt": "2026-11-17T04:43:23.662Z",
   "purpose": "맞춤형 생계급여 및 의료급여 수급자에게 명절위문금 지원",
   "target": "○ 맞춤형 생계급여 및 의료급여 수급자",
   "selectionCriteria": "",
@@ -37,7 +37,7 @@
   "identityDocuments": "해당없음",
   "legalBasis": [],
   "ordinance": "서울특별시 마포구 저소득 주민의 복지증진에 관한 조례",
-  "inquiryText": "실뿌리복지과/02-3153-6456",
+  "inquiryText": "생활보장과/02-3153-6456",
   "ageMin": 0,
   "ageMax": 120
 }

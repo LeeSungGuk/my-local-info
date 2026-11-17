@@ -11,7 +11,7 @@
   "deadlineSortKey": "9999-12-31",
   "isAlwaysOpen": false,
   "targetSummary": "모집 공고일 현재 광진구에 주민등록이 되어있는 청년\n ※ 청년고용촉진특별법 준용 19세~29세\n ※ 특별선발 : 국민기초생활수급권자, 차상위계층, 저소득 한부모 가족, 등록장애인, 북한이탈주민, 국가유공자 및 자녀",
-  "summary": "서울특별시 광진구에서 제공하는 고용·창업 혜택입니다. 청년 행정체험 일자리 제공",
+  "summary": "서울특별시 광진구에서 제공하는 고용·창업 혜택입니다. 청년 지원 확대를 위한 청년행정 아르바이트 사업 추진",
   "supportType": "서비스(일자리)",
   "supportSummary": "관내 주민등록 되어있는 청년 대상으로 행정체험 기회 제공\n  - 청년 기준: 청년고용촉진특별법 준용 19세~29세\n  - 주5일, 1일 4시간 근무에 대해 광진구 생활임금을 기준으로 임금지급",
   "receptionAgency": "접수기관 정보 없음",
@@ -21,13 +21,13 @@
   "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=803612&bnefType=all&svcId=304000000162",
   "onlineUrl": "",
   "inquiry": [
-    "광진구 자치행정과/02-450-7144"
+    "광진구 청년정책과/02-450-7248"
   ],
-  "updatedAt": "2026-08-06",
+  "updatedAt": "2026-11-10",
   "registeredAt": "2021-11-03",
-  "viewCount": 1845,
-  "collectedAt": "2026-10-31T01:45:43.071Z",
-  "purpose": "청년 행정체험 일자리 제공",
+  "viewCount": 1899,
+  "collectedAt": "2026-11-17T04:43:23.662Z",
+  "purpose": "청년 지원 확대를 위한 청년행정 아르바이트 사업 추진",
   "target": "모집 공고일 현재 광진구에 주민등록이 되어있는 청년\n ※ 청년고용촉진특별법 준용 19세~29세\n ※ 특별선발 : 국민기초생활수급권자, 차상위계층, 저소득 한부모 가족, 등록장애인, 북한이탈주민, 국가유공자 및 자녀",
   "selectionCriteria": "",
   "supportContent": "관내 주민등록 되어있는 청년 대상으로 행정체험 기회 제공\n  - 청년 기준: 청년고용촉진특별법 준용 19세~29세\n  - 주5일, 1일 4시간 근무에 대해 광진구 생활임금을 기준으로 임금지급",
@@ -37,7 +37,7 @@
   "identityDocuments": "해당없음",
   "legalBasis": [],
   "ordinance": "",
-  "inquiryText": "광진구 자치행정과/02-450-7144",
+  "inquiryText": "광진구 청년정책과/02-450-7248",
   "ageMin": 19,
   "ageMax": 29
 }

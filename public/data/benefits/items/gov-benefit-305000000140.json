@@ -12,7 +12,7 @@
   "isAlwaysOpen": true,
   "targetSummary": "소득인정액이 기준중위소득 47% 이하인 가구",
   "summary": "서울특별시 동대문구에서 제공하는 주거·자립 혜택입니다. 저소득층 주거급여(임차, 수선유지) 지원",
-  "supportType": "현금||현물",
+  "supportType": "현금",
   "supportSummary": "O 임차급여\n - 주거급여 수급자 중 타인의 주택 등에 임차로 거주하는 가구에 임차급여 지원\n - 기준임대료에 의거 지원\nO 수선유지급여\n - 주거급여 수급자 중 주택을 소유하고 그 주택에 거주하는 가구에 수선유지급여 지원\n - 주택 노후도에 따른 현물(주택 수선)…",
   "receptionAgency": "접수기관 정보 없음",
   "applicationMethodTypes": [
@@ -24,10 +24,10 @@
   "inquiry": [
     "사회복지과/02-2127-4238"
   ],
-  "updatedAt": "2026-08-14",
+  "updatedAt": "2026-11-12",
   "registeredAt": "2022-07-05",
-  "viewCount": 2786,
-  "collectedAt": "2026-10-31T01:45:43.071Z",
+  "viewCount": 2865,
+  "collectedAt": "2026-11-17T04:43:23.662Z",
   "purpose": "저소득층 주거급여(임차, 수선유지) 지원",
   "target": "소득인정액이 기준중위소득 47% 이하인 가구",
   "selectionCriteria": "",

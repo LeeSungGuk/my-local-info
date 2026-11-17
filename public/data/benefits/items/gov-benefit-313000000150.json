@@ -11,9 +11,9 @@
   "deadlineSortKey": "9999-12-31",
   "isAlwaysOpen": true,
   "targetSummary": "사회적 고립가구 약 4,000명\n- 1인 가구 중 경제적인 어려움이나 정신 및 신체 건강의 이상으로 인하여 고독사 위험에 노출된 사람\n- 재가복지서비스를 받지 않는 1인 가구 중 건강상태, 경제상태, 사회적관계 접촉빈도 등이 취약한 사람\n- 그 밖에 지원이 필요하다고…",
-  "summary": "서울특별시 마포구에서 제공하는 보호·돌봄 혜택입니다. 1인 가구 등 사회적 고립가구의 안전과 고독사 예방을 위한 모니터링 체계 구축",
+  "summary": "서울특별시 마포구에서 제공하는 보호·돌봄 혜택입니다. 사회적 고립 위기가구의 안전 확보 및 고독사 예방 안전망 구축",
   "supportType": "서비스(돌봄)",
-  "supportSummary": "사회적 고립가구 대상 모니터링, 안부확인, 긴급신고 3단계 통합플랫폼 운영을 통한 고독사 예방",
+  "supportSummary": "- 휴대전화 수/발신 이력 및 자동 안부전화를 활용한 안부확인\n- 모바일 앱 및 IoT 기기(문열림센서, 스마트플러그 등)를 활용한 대상자 모니터링\n- 사용자 위급상황 감지, SOS 응급호출 등 위기대응 체계 운영\n- 주말·휴일 관제서비스 운영을 통한 상시 안전망 구축",
   "receptionAgency": "접수기관 정보 없음",
   "applicationMethodTypes": [
     "정부24온라인신청",
@@ -23,23 +23,23 @@
   "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2147896&bnefType=all&svcId=313000000150",
   "onlineUrl": "https://www.mapo.go.kr/site/main/onlineReq/14/online_mst_list",
   "inquiry": [
-    "마포구 실뿌리복지과/02-3153-6334"
+    "마포구 생활보장과/02-3153-6334"
   ],
-  "updatedAt": "2026-07-30",
+  "updatedAt": "2026-11-12",
   "registeredAt": "2025-07-08",
-  "viewCount": 564,
-  "collectedAt": "2026-10-31T01:45:43.071Z",
-  "purpose": "1인 가구 등 사회적 고립가구의 안전과 고독사 예방을 위한 모니터링 체계 구축",
+  "viewCount": 616,
+  "collectedAt": "2026-11-17T04:43:23.662Z",
+  "purpose": "사회적 고립 위기가구의 안전 확보 및 고독사 예방 안전망 구축",
   "target": "사회적 고립가구 약 4,000명\n- 1인 가구 중 경제적인 어려움이나 정신 및 신체 건강의 이상으로 인하여 고독사 위험에 노출된 사람\n- 재가복지서비스를 받지 않는 1인 가구 중 건강상태, 경제상태, 사회적관계 접촉빈도 등이 취약한 사람\n- 그 밖에 지원이 필요하다고 판단되는 사람",
   "selectionCriteria": "",
-  "supportContent": "사회적 고립가구 대상 모니터링, 안부확인, 긴급신고 3단계 통합플랫폼 운영을 통한 고독사 예방",
+  "supportContent": "- 휴대전화 수/발신 이력 및 자동 안부전화를 활용한 안부확인\n- 모바일 앱 및 IoT 기기(문열림센서, 스마트플러그 등)를 활용한 대상자 모니터링\n- 사용자 위급상황 감지, SOS 응급호출 등 위기대응 체계 운영\n- 주말·휴일 관제서비스 운영을 통한 상시 안전망 구축",
   "applicationMethod": "관할 주민센터 및 구청 홈페이지를 통한 서비스 신청",
   "documents": "서비스 신청서(개인정보동의 포함)",
   "officialDocuments": "-",
   "identityDocuments": "-",
   "legalBasis": [],
   "ordinance": "서울특별시 마포구 고독사 예방 및 사회적 고립가구 안전망 확충을 위한 조례",
-  "inquiryText": "마포구 실뿌리복지과/02-3153-6334",
+  "inquiryText": "마포구 생활보장과/02-3153-6334",
   "ageMin": 0,
   "ageMax": 120
 }

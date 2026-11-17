@@ -11,9 +11,9 @@
   "deadlineSortKey": "9999-12-31",
   "isAlwaysOpen": true,
   "targetSummary": "국민기초생활보장(생계·의료)수급자 중 광진구로 가구원 전체 전입가구\n※ 시설수급자(공동생활가정,보장시설 입소자)는 제외",
-  "summary": "서울특별시 광진구에서 제공하는 생활안정 혜택입니다. 기초생활수급자 이사비용 지원(광진구 전입 가구당 40만원 한도 실비 지원)",
+  "summary": "서울특별시 광진구에서 제공하는 생활안정 혜택입니다. 기초생활수급자 이사비용 지원(광진구 전입 가구당 30만원 한도 실비 지원)",
   "supportType": "현금",
-  "supportSummary": "국민기초생활보장(생계,의료) 수급자구 중 가구원 전체가 전입가구에 이사비용 지원\n- 가구당 40만원 이내 이사비용(실비) 지원",
+  "supportSummary": "국민기초생활보장(생계,의료) 수급자구 중 가구원 전체가 전입가구에 이사비용 지원\n- 가구당 30만원 이내 이사비용(실비) 지원",
   "receptionAgency": "접수기관 정보 없음",
   "applicationMethodTypes": [
     "방문신청"
@@ -21,23 +21,23 @@
   "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=809713&bnefType=all&svcId=304000000198",
   "onlineUrl": "",
   "inquiry": [
-    "사회복지장애인과/02-450-7514"
+    "사회복지과/02-450-7121"
   ],
-  "updatedAt": "2026-08-05",
+  "updatedAt": "2026-11-10",
   "registeredAt": "2022-07-04",
-  "viewCount": 1957,
-  "collectedAt": "2026-10-31T01:45:43.071Z",
-  "purpose": "기초생활수급자 이사비용 지원(광진구 전입 가구당 40만원 한도 실비 지원)",
+  "viewCount": 2004,
+  "collectedAt": "2026-11-17T04:43:23.662Z",
+  "purpose": "기초생활수급자 이사비용 지원(광진구 전입 가구당 30만원 한도 실비 지원)",
   "target": "국민기초생활보장(생계·의료)수급자 중 광진구로 가구원 전체 전입가구\n※ 시설수급자(공동생활가정,보장시설 입소자)는 제외",
   "selectionCriteria": "",
-  "supportContent": "국민기초생활보장(생계,의료) 수급자구 중 가구원 전체가 전입가구에 이사비용 지원\n- 가구당 40만원 이내 이사비용(실비) 지원",
+  "supportContent": "국민기초생활보장(생계,의료) 수급자구 중 가구원 전체가 전입가구에 이사비용 지원\n- 가구당 30만원 이내 이사비용(실비) 지원",
   "applicationMethod": "동주민센터 방문 신청",
   "documents": "이사비용지원 신청서, 임대차계약서, 이사비용지출 영수증, 통장사본",
   "officialDocuments": "해당없음",
   "identityDocuments": "해당없음",
   "legalBasis": [],
   "ordinance": "서울특별시 광진구 저소득주민의 생활안정 지원에 관한 조례",
-  "inquiryText": "사회복지장애인과/02-450-7514",
+  "inquiryText": "사회복지과/02-450-7121",
   "ageMin": 0,
   "ageMax": 120
 }

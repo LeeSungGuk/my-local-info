@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-316000000165",
+  "sourceId": "316000000165",
+  "title": "아동·청소년 정서발달지원서비스",
+  "field": "보육·교육",
+  "provider": "서울특별시 구로구",
+  "providerType": "자치구",
+  "district": "구로구",
+  "userType": "개인",
+  "deadlineText": "정기모집 연 1회, 수시모집 연 1~2회",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": false,
+  "targetSummary": "○ 소득인정액이 기준 중위소득 140%이하 가정의 만 6세 ~ 18세 이하 아동·청소년 또는 고등학교에 재학중인 청소년",
+  "summary": "서울특별시 구로구에서 제공하는 보육·교육 혜택입니다. 아동·청소년들이 겪고 있는 심리적·정서적 문제 해결을 위한 맞춤형 악기치료(관현악기), 예술심리치료를 지원하여, 아동과 청소년의 건강한 성장을 도모하고자 함",
+  "supportType": "이용권",
+  "supportSummary": "○ 서비스내용 : 악기교육(관현악기), 정서프로그램\n○ 서비스금액 (월20만원) \n - 정부지원금(1인/월) : 1등급 180,000원 / 2등급 160,000원 / \n - 본인부담금(1인/월) : 1등급 20,000원   / 2등급 40,000원   /  \n\n○ 제…",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2191020&bnefType=all&svcId=316000000165",
+  "onlineUrl": "",
+  "inquiry": [
+    "아동청소년과/02-860-2916"
+  ],
+  "updatedAt": "2026-11-09",
+  "registeredAt": "2026-11-03",
+  "viewCount": 0,
+  "collectedAt": "2026-11-17T04:43:23.662Z",
+  "purpose": "아동·청소년들이 겪고 있는 심리적·정서적 문제 해결을 위한 맞춤형 악기치료(관현악기), 예술심리치료를 지원하여, 아동과 청소년의 건강한 성장을 도모하고자 함",
+  "target": "○ 소득인정액이 기준 중위소득 140%이하 가정의 만 6세 ~ 18세 이하 아동·청소년 또는 고등학교에 재학중인 청소년",
+  "selectionCriteria": "",
+  "supportContent": "○ 서비스내용 : 악기교육(관현악기), 정서프로그램\n○ 서비스금액 (월20만원) \n - 정부지원금(1인/월) : 1등급 180,000원 / 2등급 160,000원 / \n - 본인부담금(1인/월) : 1등급 20,000원   / 2등급 40,000원   /  \n\n○ 제공기간 : 12개월 \n○ 악기*이론 및 실기, 정서프로그램, 향상음악회 참여, 전문음악회 관란, 무상악기대여 또는 제공\n\n ※ 보건복지부 지침에 의거 지원대상 및 지원금액 변동 가능",
+  "applicationMethod": "○ 방문 신청  \n - 주민센터 : 관할 동주민센터 방문 신청",
+  "documents": "아동청소년정서발달지원 신청서",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "사회서비스 이용 및 이용권 관리에 관한 법률(제4조, 제1항)"
+  ],
+  "ordinance": "",
+  "inquiryText": "아동청소년과/02-860-2916",
+  "ageMin": 6,
+  "ageMax": 18
+}

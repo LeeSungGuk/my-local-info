@@ -1,0 +1,45 @@
+{
+  "id": "gov-benefit-304000000148",
+  "sourceId": "304000000148",
+  "title": "건강취약자 인플루엔자 예방접종 지원",
+  "field": "보건·의료",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "2026.10.6.(화) ~ 2026.11.30.(월)",
+  "deadlineSortKey": "2026-11-30",
+  "isAlwaysOpen": false,
+  "targetSummary": "광진구민 15 ~ 64세(1962.1.1. ~ 2011.12.31.) 중 심한장애(1~3급), 의료급여수급권자(기초생활보장법)",
+  "summary": "서울특별시 광진구에서 제공하는 보건·의료 혜택입니다. 예방접종을 적기에 실시하여 감염병 발생을 효과적으로 예방하고 인공 면역 획득으로 개인의 건강 및 지역사회를 감염병으로부터 보호하고자 함",
+  "supportType": "서비스(의료)",
+  "supportSummary": "건강취약자(심한장애, 의료급여수급자) 인플루엔자 예방접종 1회 지원",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "방문신청"
+  ],
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=803596&bnefType=all&svcId=304000000148",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 건강관리과/02-450-6639"
+  ],
+  "updatedAt": "2026-11-04",
+  "registeredAt": "2021-11-02",
+  "viewCount": 1215,
+  "collectedAt": "2026-11-17T04:43:23.662Z",
+  "purpose": "예방접종을 적기에 실시하여 감염병 발생을 효과적으로 예방하고 인공 면역 획득으로 개인의 건강 및 지역사회를 감염병으로부터 보호하고자 함",
+  "target": "광진구민 15 ~ 64세(1962.1.1. ~ 2011.12.31.) 중 심한장애(1~3급), 의료급여수급권자(기초생활보장법)",
+  "selectionCriteria": "",
+  "supportContent": "건강취약자(심한장애, 의료급여수급자) 인플루엔자 예방접종 1회 지원",
+  "applicationMethod": "건강취약자 인플루엔자 위탁의료기관 방문 신청",
+  "documents": "장애인등록증 또는 수급자증명서",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [
+    "감염병의 예방 및 관리에 관한 법률"
+  ],
+  "ordinance": "서울특별시 광진구 감염병의 예방 및 관리 등에 관한 조례",
+  "inquiryText": "광진구 건강관리과/02-450-6639",
+  "ageMin": 15,
+  "ageMax": 64
+}

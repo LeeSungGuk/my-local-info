@@ -1,7 +1,7 @@
 {
   "id": "gov-benefit-310000000105",
   "sourceId": "310000000105",
-  "title": "미니태양광 설치 지원",
+  "title": "2026년 베란다 태양광 보급사업",
   "field": "문화·환경",
   "provider": "서울특별시 노원구",
   "providerType": "자치구",
@@ -23,10 +23,10 @@
   "inquiry": [
     "탄소중립도시과/02-2116-3217"
   ],
-  "updatedAt": "2026-07-30",
+  "updatedAt": "2026-11-02",
   "registeredAt": "2021-09-23",
-  "viewCount": 1415,
-  "collectedAt": "2026-10-31T01:45:43.071Z",
+  "viewCount": 1469,
+  "collectedAt": "2026-11-17T04:43:23.662Z",
   "purpose": "베란다형 태양광 설치 시 설치비 지원",
   "target": "○ 노원구 거주 미니태양광 설치 신청자(예산범위 내)",
   "selectionCriteria": "",

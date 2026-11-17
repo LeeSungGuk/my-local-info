@@ -16,6 +16,7 @@
   "supportSummary": "-착한가격업소 지원 및 관리",
   "receptionAgency": "접수기관 정보 없음",
   "applicationMethodTypes": [
+    "정부24온라인신청",
     "방문신청"
   ],
   "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2113517&bnefType=all&svcId=319000000149",
@@ -23,10 +24,10 @@
   "inquiry": [
     "동작구청 상권활성화과/02-820-9331"
   ],
-  "updatedAt": "2026-09-16",
+  "updatedAt": "2026-11-13",
   "registeredAt": "2023-11-14",
-  "viewCount": 1622,
-  "collectedAt": "2026-10-31T01:45:43.071Z",
+  "viewCount": 1683,
+  "collectedAt": "2026-11-17T04:43:23.662Z",
   "purpose": "착한가격업소 운영 및 지원을 통한 서민경제생활 부담 완화 및 물가안정 분위기 확산",
   "target": "동작구 소재지의 상시근로자 5인 미만의 소상공인 개인서비스업 자영업자",
   "selectionCriteria": "",

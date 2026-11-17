@@ -16,19 +16,18 @@
   "supportSummary": "○ 동작구 입학준비금 지원\n - 사업기간 : 2026. 2~12월\n - 대       상 : 초,중,고등학교 1학년 입학생\n - 지원금액 : 1인당 초등학생 200천원, 중, 고등학생 300천원\n - 지원내용 : 학교 입학을 준비하며 학생들에게 '입학에 필요한 물품'…",
   "receptionAgency": "접수기관 정보 없음",
   "applicationMethodTypes": [
-    "기타 온라인신청",
-    "방문신청",
-    "직접입력"
+    "정부24온라인신청",
+    "방문신청"
   ],
   "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=809962&bnefType=all&svcId=319000000138",
-  "onlineUrl": "https://start.sen.go.kr/",
+  "onlineUrl": "",
   "inquiry": [
     "동작구청 교육정책과/02-820-9189"
   ],
-  "updatedAt": "2026-09-10",
+  "updatedAt": "2026-11-12",
   "registeredAt": "2022-07-12",
-  "viewCount": 1567,
-  "collectedAt": "2026-10-31T01:45:43.071Z",
+  "viewCount": 1614,
+  "collectedAt": "2026-11-17T04:43:23.662Z",
   "purpose": "학교 입학을 준비하며 학생들에게 '입학에 필요한 물품' 구입을 위한 비용 지원(제로페이 모바일 포인트 지급)",
   "target": "○ 초,중,고등학교 1학년 입학생\n - 동작구 소재 학교 입학생\n - 동작구민 중 서울시 외 타 시도 학교 입학생",
   "selectionCriteria": "",

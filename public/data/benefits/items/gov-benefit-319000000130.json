@@ -22,12 +22,12 @@
   "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=806444&bnefType=all&svcId=319000000130",
   "onlineUrl": "https://www.bokjiro.go.kr/ssis-teu/index.do",
   "inquiry": [
-    "영유아보육과/02-820-9234"
+    "가족지원과/02-820-9234"
   ],
-  "updatedAt": "2026-09-10",
+  "updatedAt": "2026-11-10",
   "registeredAt": "2022-02-09",
-  "viewCount": 2033,
-  "collectedAt": "2026-10-31T01:45:43.071Z",
+  "viewCount": 2108,
+  "collectedAt": "2026-11-17T04:43:23.662Z",
   "purpose": "주민등록번호를 부여받은 출생아에게 첫째아 200만원, 둘째아 이상 300만원 첫만남이용권",
   "target": "'22.1.1.일 이후 출생아로서 출생신고되어 주민등록번호를 부여받은 아동",
   "selectionCriteria": "",
@@ -37,10 +37,10 @@
   "officialDocuments": "해당없음",
   "identityDocuments": "해당없음",
   "legalBasis": [
-    "저출산ㆍ고령사회기본법 시행령"
+    "인구전략기본법 시행령"
   ],
   "ordinance": "",
-  "inquiryText": "영유아보육과/02-820-9234",
+  "inquiryText": "가족지원과/02-820-9234",
   "ageMin": 0,
   "ageMax": 1
 }

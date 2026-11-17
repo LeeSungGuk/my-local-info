@@ -21,12 +21,12 @@
   "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2120202&bnefType=all&svcId=319000000161",
   "onlineUrl": "",
   "inquiry": [
-    "동작구청 영유아보육과/02-820-9234"
+    "동작구청 가족지원과/02-820-9234"
   ],
-  "updatedAt": "2026-09-10",
+  "updatedAt": "2026-11-10",
   "registeredAt": "2024-05-07",
-  "viewCount": 404,
-  "collectedAt": "2026-10-31T01:45:43.071Z",
+  "viewCount": 456,
+  "collectedAt": "2026-11-17T04:43:23.662Z",
   "purpose": "동작구에 거주하는 백일을 맞은 영아 가정에 백일 축하용품 대여",
   "target": "- 동작구에 주민등록이 되어 있는 4개월 이하 영아 가정",
   "selectionCriteria": "",
@@ -37,7 +37,7 @@
   "identityDocuments": "해당없음",
   "legalBasis": [],
   "ordinance": "서울특별시 동작구 출산지원금 지급에 관한 조례",
-  "inquiryText": "동작구청 영유아보육과/02-820-9234",
+  "inquiryText": "동작구청 가족지원과/02-820-9234",
   "ageMin": 0,
   "ageMax": 120
 }

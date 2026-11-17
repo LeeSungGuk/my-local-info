@@ -21,12 +21,12 @@
   "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1000905&bnefType=all&svcId=303000000103",
   "onlineUrl": "",
   "inquiry": [
-    "장애인복지과/02-2286-5438"
+    "장애인복지과/02-2286-5439"
   ],
-  "updatedAt": "2026-08-12",
+  "updatedAt": "2026-10-30",
   "registeredAt": "2021-09-23",
-  "viewCount": 1192,
-  "collectedAt": "2026-10-31T01:45:43.071Z",
+  "viewCount": 1274,
+  "collectedAt": "2026-11-17T04:43:23.662Z",
   "purpose": "활동지원사를 통한 신체, 가사활동 및 이동보조 등 지원",
   "target": "○ 국고보조대상자 중 시간이 부족한 한부모, 맞벌이 가구 등 실제 가족 지원이 어려운 대상자 등",
   "selectionCriteria": "",
@@ -39,7 +39,7 @@
     "장애인활동 지원에 관한 법률"
   ],
   "ordinance": "",
-  "inquiryText": "장애인복지과/02-2286-5438",
+  "inquiryText": "장애인복지과/02-2286-5439",
   "ageMin": 0,
   "ageMax": 120
 }

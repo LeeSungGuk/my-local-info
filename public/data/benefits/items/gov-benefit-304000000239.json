@@ -1,0 +1,43 @@
+{
+  "id": "gov-benefit-304000000239",
+  "sourceId": "304000000239",
+  "title": "1인가구 자기돌봄 역량강화(상담)지원",
+  "field": "보호·돌봄",
+  "provider": "서울특별시 광진구",
+  "providerType": "자치구",
+  "district": "광진구",
+  "userType": "개인",
+  "deadlineText": "상시신청",
+  "deadlineSortKey": "9999-12-31",
+  "isAlwaysOpen": true,
+  "targetSummary": "서울 생활권 1인가구",
+  "summary": "서울특별시 광진구에서 제공하는 보호·돌봄 혜택입니다. 상담과 심리검사를 통해 자기효능감을 높임",
+  "supportType": "기타(상담)",
+  "supportSummary": "-개인상담: 개인별 전문 맞춤형 심리상담 '마음산책'\n-심리검사: 심리,성격 검사 및 해석 상담 '마음건강검진'\n-집단상담: 대인관계 증진을 위한 집단상담 '나다움 너다움'\n-온라인상담: 사회적 고립감 해소를 위한 '히어포유'",
+  "receptionAgency": "접수기관 정보 없음",
+  "applicationMethodTypes": [
+    "직접입력"
+  ],
+  "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2186918&bnefType=all&svcId=304000000239",
+  "onlineUrl": "",
+  "inquiry": [
+    "광진구 1인가구지원센터/02-465-0336"
+  ],
+  "updatedAt": "2026-11-11",
+  "registeredAt": "2026-08-06",
+  "viewCount": 5,
+  "collectedAt": "2026-11-17T04:43:23.662Z",
+  "purpose": "상담과 심리검사를 통해 자기효능감을 높임",
+  "target": "서울 생활권 1인가구",
+  "selectionCriteria": "",
+  "supportContent": "-개인상담: 개인별 전문 맞춤형 심리상담 '마음산책'\n-심리검사: 심리,성격 검사 및 해석 상담 '마음건강검진'\n-집단상담: 대인관계 증진을 위한 집단상담 '나다움 너다움'\n-온라인상담: 사회적 고립감 해소를 위한 '히어포유'",
+  "applicationMethod": "현장방문 및 온라인신청",
+  "documents": "해당없음",
+  "officialDocuments": "해당없음",
+  "identityDocuments": "해당없음",
+  "legalBasis": [],
+  "ordinance": "서울특별시 광진구 1인가구 지원에 관한 조례",
+  "inquiryText": "광진구 1인가구지원센터/02-465-0336",
+  "ageMin": 0,
+  "ageMax": 120
+}
