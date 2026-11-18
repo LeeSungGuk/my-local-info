@@ -10,7 +10,7 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-11-17T04:43:23.662Z",
+    "collectedAt": "2026-11-18T03:49:01.016Z",
     "syncSchedule": "매일 오전 7시 30분",
     "availableCount": 10887,
     "fetchedCount": 1143,
@@ -21,6 +21,64 @@
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-O00022300005",
+      "sourceId": "O00022300005",
+      "title": "강북구 공영주차장 감면",
+      "field": "행정·안전",
+      "provider": "강북구도시관리공단",
+      "providerType": "자치구",
+      "district": "강북구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "공영주차장 이용 고객",
+      "summary": "강북구도시관리공단에서 제공하는 행정·안전 혜택입니다. 공영주차장 감면",
+      "supportType": "현금(감면)",
+      "supportSummary": "○ 공영주차장 감면\n - 국가유공자 및 장애인(80%)\n - 경형차량(50%)\n - 전통시장 이용 2시간 무료\n - 자원봉사증 소지자(20%)\n - 전기자동차 1시간 면제(이후 50%)\n - 친환경자동차(50%)\n - 성실납세(100%)\n - 다둥이(50%)\n - 한…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청",
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2101416&bnefType=all&svcId=O00022300005",
+      "onlineUrl": "https://www.gbcmc.or.kr/gbpm/main/main.do",
+      "inquiry": [
+        "주차사업팀/02-944-3021"
+      ],
+      "updatedAt": "2026-11-17",
+      "registeredAt": "2022-11-10"
+    },
+    {
+      "id": "gov-benefit-319000000122",
+      "sourceId": "319000000122",
+      "title": "자체 예방접종",
+      "field": "보건·의료",
+      "provider": "서울특별시 동작구",
+      "providerType": "자치구",
+      "district": "동작구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 유료 예방접종\n - B형간염 : B형간염 항원.항체 검사결과 모두 음성이 확인되었을 경우\n\n○ 구 자체 인플루엔자 접종\n - 동작구민 중 14~64세 기초생활수급자 중 의료 또는 생계 또는 주거급여 수급자, 장애정도가 심한 장애인(기존 장애 1,2,3급), 국가유…",
+      "summary": "서울특별시 동작구에서 제공하는 보건·의료 혜택입니다. 보건소 유료 예방접종, 동작구 기초생활수급자 등 취약계층 무료 인플루엔자 접종",
+      "supportType": "서비스(의료)",
+      "supportSummary": "○ 보건소 유료 예방접종: 성인B형간염 백신\n\n○ 구 자체 인플루엔자 예방접종: 인플루엔자 백신",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "신청불필요"
+      ],
+      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1005243&bnefType=all&svcId=319000000122",
+      "onlineUrl": "",
+      "inquiry": [
+        "예방관리과/02-820-9508"
+      ],
+      "updatedAt": "2026-11-17",
+      "registeredAt": "2021-09-23"
+    },
     {
       "id": "gov-benefit-315000000104",
       "sourceId": "315000000104",
@@ -4537,34 +4595,6 @@
       "onlineUrl": "",
       "inquiry": [
         "동작구청 아동청소년과/02-820-9265"
-      ],
-      "updatedAt": "2026-11-12",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-319000000122",
-      "sourceId": "319000000122",
-      "title": "자체 예방접종",
-      "field": "보건·의료",
-      "provider": "서울특별시 동작구",
-      "providerType": "자치구",
-      "district": "동작구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 유료 예방접종\n - B형간염 : B형간염 항원.항체 검사결과 모두 음성이 확인되었을 경우\n\n○ 구 자체 인플루엔자 접종\n - 동작구민 중 14~64세 기초생활수급자 중 의료 또는 생계 또는 주거급여 수급자, 장애정도가 심한 장애인(기존 장애 1,2,3급), 국가유…",
-      "summary": "서울특별시 동작구에서 제공하는 보건·의료 혜택입니다. 보건소 유료 예방접종, 동작구 기초생활수급자 등 취약계층 무료 인플루엔자 접종",
-      "supportType": "서비스(의료)",
-      "supportSummary": "○ 보건소 유료 예방접종: 성인B형간염 백신\n\n○ 구 자체 인플루엔자 예방접종: 인플루엔자 백신",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "신청불필요"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1005243&bnefType=all&svcId=319000000122",
-      "onlineUrl": "",
-      "inquiry": [
-        "감염병관리과/02-820-9508"
       ],
       "updatedAt": "2026-11-12",
       "registeredAt": "2021-09-23"
@@ -22650,36 +22680,6 @@
       ],
       "updatedAt": "2026-10-22",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-O00022300005",
-      "sourceId": "O00022300005",
-      "title": "강북구 공영주차장 감면",
-      "field": "행정·안전",
-      "provider": "강북구도시관리공단",
-      "providerType": "자치구",
-      "district": "강북구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "공영주차장 이용 고객",
-      "summary": "강북구도시관리공단에서 제공하는 행정·안전 혜택입니다. 공영주차장 감면",
-      "supportType": "현금(감면)",
-      "supportSummary": "○ 공영주차장 감면\n - 국가유공자 및 장애인(80%)\n - 경형차량(50%)\n - 전통시장 이용 2시간 무료\n - 자원봉사증 소지자(20%)\n - 전기자동차 1시간 면제(이후 50%)\n - 친환경자동차(50%)\n - 성실납세(100%)\n - 다둥이(50%)\n - 한…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청",
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2101416&bnefType=all&svcId=O00022300005",
-      "onlineUrl": "https://www.gbcmc.or.kr/gbpm/main/main.do",
-      "inquiry": [
-        "주차사업팀/02-944-3021"
-      ],
-      "updatedAt": "2026-10-22",
-      "registeredAt": "2022-11-10"
     },
     {
       "id": "gov-benefit-316000000148",
