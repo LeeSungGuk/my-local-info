@@ -10,7 +10,7 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-11-18T03:49:01.016Z",
+    "collectedAt": "2026-11-19T03:46:54.714Z",
     "syncSchedule": "매일 오전 7시 30분",
     "availableCount": 10887,
     "fetchedCount": 1143,
@@ -21,6 +21,294 @@
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-322000000125",
+      "sourceId": "322000000125",
+      "title": "아빠 육아휴직장려금 지원",
+      "field": "보육·교육",
+      "provider": "서울특별시 강남구",
+      "providerType": "자치구",
+      "district": "강남구",
+      "userType": "개인",
+      "deadlineText": "2026.01.01~2026.12.31",
+      "deadlineSortKey": "2026-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 신청일 기준 1년 이상 계속하여 강남구에 주민등록이 되어있는 남성 육아휴직자(대상 자녀는 강남구에 주민등록이 된 경우)\n - 고용보험 가입자로 육아휴직급여 수급자(공무원, 교사 등 연금 수급자 제외)\n - 동일한 육아휴직기간으로 고용노동부 6+6 부모육아휴직제 지…",
+      "summary": "서울특별시 강남구에서 제공하는 보육·교육 혜택입니다. 아빠들의 육아 참여를 촉진하기 위해 아빠 육아휴직자에 대한 장려금을 지급, 함께 돌보는 가족친화적 사회환경을 조성하고자 합니다.",
+      "supportType": "현금",
+      "supportSummary": "○ 아빠 육아휴직 장려금\n - 신청일 기준 1년 이상 계속하여 강남구에 주민등록이 되어있는 남성 육아휴직자(대상 자녀는 강남구에 주민등록이 된 경우)\n - 고용보험 가입자로 육아휴직급여 수급자(공무원, 교사 등 연금 수급자 제외)\n - 2026. 1. 1. 이후 육아…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2163816&bnefType=all&svcId=322000000125",
+      "onlineUrl": "",
+      "inquiry": [
+        "보육지원과/02-3423-5855"
+      ],
+      "updatedAt": "2026-11-18",
+      "registeredAt": "2025-11-03"
+    },
+    {
+      "id": "gov-benefit-322000000108",
+      "sourceId": "322000000108",
+      "title": "남성 난임 지원",
+      "field": "임신·출산",
+      "provider": "서울특별시 강남구",
+      "providerType": "자치구",
+      "district": "강남구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 주민등록상 강남구 거주 난임부부 중 정액검사상 이상소견이 있는 남성",
+      "summary": "서울특별시 강남구에서 제공하는 임신·출산 혜택입니다. 난임부부 중 남성에게 검진 비용 지원",
+      "supportType": "서비스(의료)",
+      "supportSummary": "○ 남성 난임 검진 상담 및 비용(일부본인부담금 및 비급여) 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001751&bnefType=all&svcId=322000000108",
+      "onlineUrl": "",
+      "inquiry": [
+        "건강관리과/02-3423-7278"
+      ],
+      "updatedAt": "2026-11-18",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-315000000288",
+      "sourceId": "315000000288",
+      "title": "(강서구)난임부부 지원(시술 후 원외약제비 청구)",
+      "field": "보건·의료",
+      "provider": "서울특별시 강서구",
+      "providerType": "자치구",
+      "district": "강서구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "난임부부 시술비 지원사업 대상자 중 해당지원회차의 정부지원금 잔액이 남은 자",
+      "summary": "서울특별시 강서구에서 제공하는 보건·의료 혜택입니다. 난임시술관련 약제비 지원",
+      "supportType": "현금",
+      "supportSummary": "난임시술과 직접적 관련 있는 원외약처방 약제비 지원 \n※ 일부 본인부담금, 전액본인부담금 및 비급여 약제비 지원(지원비율 상이함) \n※ 해당 회차의 정부지원금액 한도 내에서 지급 가능 \n※ 의료기관 시술비 청구 후 개인지급(개인지급까지 다소 시간 소요됨)",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2169516&bnefType=all&svcId=315000000288",
+      "onlineUrl": "",
+      "inquiry": [
+        "강서구보건소/02-2600-5986"
+      ],
+      "updatedAt": "2026-11-18",
+      "registeredAt": "2025-12-09"
+    },
+    {
+      "id": "gov-benefit-316000000124",
+      "sourceId": "316000000124",
+      "title": "(구로구)난임부부 지원(시술 후 원외약제비 청구)",
+      "field": "보건·의료",
+      "provider": "서울특별시 구로구",
+      "providerType": "자치구",
+      "district": "구로구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "난임부부 시술비 지원사업 대상자 중 해당지원회차의 정부지원금 잔액이 남은 자(구로구민만 가능)",
+      "summary": "서울특별시 구로구에서 제공하는 보건·의료 혜택입니다. 난임시술관련 약제비 지원",
+      "supportType": "현금",
+      "supportSummary": "★구로구민만 가능★\n난임시술과 직접적 관련 있는 원외약처방 약제비 지원\n※ 일부 본인부담금, 전액본인부담금 및 비급여 약제비 지원(지원비율 상이함)\n※ 해당 회차의 정부지원금액 한도 내에서 지급 가능\n※ 의료기관의 시술비 청구금액 확인 후 지급(개인지급까지 다소 시간…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2101303&bnefType=all&svcId=316000000124",
+      "onlineUrl": "",
+      "inquiry": [
+        "구로구보건소 모성실/02-860-2275"
+      ],
+      "updatedAt": "2026-11-18",
+      "registeredAt": "2022-11-08"
+    },
+    {
+      "id": "gov-benefit-313000000131",
+      "sourceId": "313000000131",
+      "title": "(마포구)난임부부 시술비 약제비 지원(시술 후 원외약제비 청구)",
+      "field": "보건·의료",
+      "provider": "서울특별시 마포구",
+      "providerType": "자치구",
+      "district": "마포구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "난임부부 시술비 지원사업 대상자 중 해당지원회차의 정부지원금 잔액이 남은 자(마포구민만 가능)",
+      "summary": "서울특별시 마포구에서 제공하는 보건·의료 혜택입니다. 보조생식술을 받는 난임부부에게 건강보험 본인부담 및 비급여 일부를 보충적으로 지원하여 경제적 부담을 경감시킴으로써 난임부부가 희망하는 자녀를 갖도록 지원",
+      "supportType": "현금",
+      "supportSummary": "★난임시술과 직접적 관련 있는 원외약처방 약제비 지원★\n\n※ 일부 본인부담금, 전액본인부담금 및 비급여 약제비 지원(지원비율 상이함)\n※ 해당 회차의 정부지원금액 한도 내에서 지급 가능\n※ 의료기관의 시술비 청구금액 확인 후 지급(개인지급까지 다소 시간 소요됨)",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2147216&bnefType=all&svcId=313000000131",
+      "onlineUrl": "",
+      "inquiry": [
+        "건강동행과/02-3153-9075"
+      ],
+      "updatedAt": "2026-11-18",
+      "registeredAt": "2025-06-24"
+    },
+    {
+      "id": "gov-benefit-313000000168",
+      "sourceId": "313000000168",
+      "title": "2026년 마포구 구민안전보험",
+      "field": "행정·안전",
+      "provider": "서울특별시 마포구",
+      "providerType": "자치구",
+      "district": "마포구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "서울특별시 마포구에 주민등록을 둔 모든 구민(등록 외국인, 거소등록동포 포함)",
+      "summary": "서울특별시 마포구에서 제공하는 행정·안전 혜택입니다. 일상생활에서 발생할 수 있는 우발적 사고 및 재난으로부터 인적 피해 등을 지원",
+      "supportType": "현금(보험)",
+      "supportSummary": "º상해사고로 장례비가 발생한 경우 1인당 1천만원   한도로 보장(공제없음) \nº상해사고로 의료비가 발생한 경우 1인당 40만원 한도로 보장(매 청구건당 3만원 공제) \n※실손의료보험 가입 시 중복 지급 불가\n    (단, 입원의료비 발생시 1인당 20만원 한도 보장)",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2184616&bnefType=all&svcId=313000000168",
+      "onlineUrl": "",
+      "inquiry": [
+        "하나손해보험/02-6714-6835"
+      ],
+      "updatedAt": "2026-11-18",
+      "registeredAt": "2026-06-25"
+    },
+    {
+      "id": "gov-benefit-611000000159",
+      "sourceId": "611000000159",
+      "title": "서울시 난임부부 시술비 지원",
+      "field": "임신·출산",
+      "provider": "서울특별시",
+      "providerType": "서울시",
+      "district": "서울특별시",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 지원자격\n -  법적 혼인상태에 있거나, 신청일 기준 1년 이상 사실상 혼인 관계를 유지하였다고 관할 보건소로부터 확인된 난임부부(지원신청 접수일 기준)\n -  신청일 기준 서울시 거주(여성기준)가 확인된 자\n -  부부 중 최소한 한 명은 주민등록이 되어 있는…",
+      "summary": "서울특별시에서 제공하는 임신·출산 혜택입니다. - 난임부부의 난임시술비 지원을 추가 확대하여 경제적 부담을 실효성 있게 경감\n- 효과적인 난임치료를 받도록 하여 희망하는 소중한 생명의 임신과 출산을 적극 지원",
+      "supportType": "서비스(의료)",
+      "supportSummary": "○ 난임부부(사실혼 포함)의 난임시술비 출산당 총 25회 지원(누적)\n    ※ 보조생식술시작일이 '24.11.1. 부터 출산당 총 25회 지원으로 변경\n  - 시술별 횟수제한 없이 출산당 25회 범위 내 지원\n  - 신청일 기준 서울시 거주\n  - [1회 지원 상한…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1005917&bnefType=all&svcId=611000000159",
+      "onlineUrl": "",
+      "inquiry": [
+        "거주지 보건소/02-120"
+      ],
+      "updatedAt": "2026-11-18",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-611000000123",
+      "sourceId": "611000000123",
+      "title": "서울시한의약난임치료지원",
+      "field": "임신·출산",
+      "provider": "서울특별시",
+      "providerType": "서울시",
+      "district": "서울특별시",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 지원자격\n - 법적 혼인상태에 있거나, 신청일 기준 최근 1년간 사실상 혼인관계를 유지하였다고 관할 보건소로부터 확인된 난임부부\n ※ 다만, 원인불명의 난임진단이 확인되어야 하고, 한의약 난임치료 신청 전 사전선별 검사 결과 지원 제한 요소가 없어야 함\n - 신청…",
+      "summary": "서울특별시에서 제공하는 임신·출산 혜택입니다. ○ 저출산·고령화에 대응하기 위한 출산장려 및 난임극복에 대한 사회적 분위기 확산",
+      "supportType": "서비스(의료)",
+      "supportSummary": "○ 서울시 지정 한의원의 한의약 난임치료 첩약비용(3개월)의 본인부담금 90% 지원(최대 1,200천원)\n     ※ 기초생활수급자 및 차상위의 경우, 본인부담금 100% 지원\n\n○ 1인 최대 2회(연 1회)",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청"
+      ],
+      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001732&bnefType=all&svcId=611000000123",
+      "onlineUrl": "https://seoul-agi.seoul.go.kr/infertility-treatment-support-application",
+      "inquiry": [
+        "관할보건소/02-120"
+      ],
+      "updatedAt": "2026-11-18",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-321000000107",
+      "sourceId": "321000000107",
+      "title": "아빠육아 휴직 장려금 지원",
+      "field": "보육·교육",
+      "provider": "서울특별시 서초구",
+      "providerType": "자치구",
+      "district": "서초구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 서초구 1년이상 거주, 고용보험 가입한 남성 육아휴직근로자",
+      "summary": "서울특별시 서초구에서 제공하는 보육·교육 혜택입니다. 맞벌이가구 증가 및 자녀 맞돌봄 문화 확산 등 양육환경이 변함에 따라 자녀양육을 위한 남성근로자의 육아휴직을 장려하고 이에 따른 경제적 부담을 완하함으로써 일과 가정생활의 양립 및 아이 키우기 좋은 환경을 만들고자 함",
+      "supportType": "현금",
+      "supportSummary": "○ 육아휴직 중인 남성근로자에게 육아휴직장려금 지원",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001753&bnefType=all&svcId=321000000107",
+      "onlineUrl": "https://www.seocho.go.kr/site/seocho/ex/parental/ParentalLeaveFList.do",
+      "inquiry": [
+        "여성보육과/02-2155-6687"
+      ],
+      "updatedAt": "2026-11-18",
+      "registeredAt": "2021-09-23"
+    },
+    {
+      "id": "gov-benefit-303000000311",
+      "sourceId": "303000000311",
+      "title": "(성동구) 난임부부 시술비 약제비 지원",
+      "field": "임신·출산",
+      "provider": "서울특별시 성동구",
+      "providerType": "자치구",
+      "district": "성동구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "난임부부 시술비 지원 대상자 중 시술기관에서 시술과 직접적 관련 있는 원외약처방을 받은 경우\n약제비에 대해서 지원금 한도내에서 지급",
+      "summary": "서울특별시 성동구에서 제공하는 임신·출산 혜택입니다. 난임시술비 지원으로 난임부부에게 경제적 부감 경감 및 원하는 자녀를 갖도록 지원하여 저출산 극복에 기여",
+      "supportType": "현금",
+      "supportSummary": "난임시술 원외약제비 지원\n- 대상: 난임부부 시술비 지원 대상자\n- 지원조건: 지원조건금액 한도내 지급",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "정부24온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2118901&bnefType=all&svcId=303000000311",
+      "onlineUrl": "",
+      "inquiry": [
+        "성동구보건소 건강관리과/0222867089"
+      ],
+      "updatedAt": "2026-11-18",
+      "registeredAt": "2024-04-04"
+    },
     {
       "id": "gov-benefit-O00022300005",
       "sourceId": "O00022300005",
@@ -963,34 +1251,6 @@
       ],
       "updatedAt": "2026-11-13",
       "registeredAt": "2025-11-18"
-    },
-    {
-      "id": "gov-benefit-313000000168",
-      "sourceId": "313000000168",
-      "title": "2026년 마포구 구민안전보험",
-      "field": "행정·안전",
-      "provider": "서울특별시 마포구",
-      "providerType": "자치구",
-      "district": "마포구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "서울특별시 마포구에 주민등록을 둔 모든 구민(등록 외국인, 거소등록동포 포함)",
-      "summary": "서울특별시 마포구에서 제공하는 행정·안전 혜택입니다. 일상생활에서 발생할 수 있는 우발적 사고 및 재난으로부터 인적 피해 등을 지원",
-      "supportType": "현금(보험)",
-      "supportSummary": "º상해사고로 장례비가 발생한 경우 1인당 1천만원   한도로 보장(공제없음) \nº상해사고로 의료비가 발생한 경우 1인당 40만원 한도로 보장(매 청구건당 3만원 공제) \n※실손의료보험 가입 시 중복 지급 불가\n    (단, 입원의료비 발생시 1인당 20만원 한도 보장)",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2184616&bnefType=all&svcId=313000000168",
-      "onlineUrl": "",
-      "inquiry": [
-        "하나손해보험/02-6714-6835"
-      ],
-      "updatedAt": "2026-11-13",
-      "registeredAt": "2026-06-25"
     },
     {
       "id": "gov-benefit-313000000166",
@@ -5729,35 +5989,6 @@
       "registeredAt": "2025-09-05"
     },
     {
-      "id": "gov-benefit-322000000125",
-      "sourceId": "322000000125",
-      "title": "아빠 육아휴직장려금 지원",
-      "field": "보육·교육",
-      "provider": "서울특별시 강남구",
-      "providerType": "자치구",
-      "district": "강남구",
-      "userType": "개인",
-      "deadlineText": "2026.01.01~2026.12.31",
-      "deadlineSortKey": "2026-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 신청일 기준 1년 이상 계속하여 강남구에 주민등록이 되어있는 남성 육아휴직자(대상 자녀는 강남구에 주민등록이 된 경우)\n - 고용보험 가입자로 육아휴직급여 수급자(공무원, 교사 등 연금 수급자 제외)\n - 동일한 육아휴직기간으로 고용노동부 6+6 부모육아휴직제 지…",
-      "summary": "서울특별시 강남구에서 제공하는 보육·교육 혜택입니다. 아빠들의 육아 참여를 촉진하기 위해 아빠 육아휴직자에 대한 장려금을 지급, 함께 돌보는 가족친화적 사회환경을 조성하고자 합니다.",
-      "supportType": "현금",
-      "supportSummary": "○ 아빠 육아휴직 장려금\n - 신청일 기준 1년 이상 계속하여 강남구에 주민등록이 되어있는 남성 육아휴직자(대상 자녀는 강남구에 주민등록이 된 경우)\n - 고용보험 가입자로 육아휴직급여 수급자(공무원, 교사 등 연금 수급자 제외)\n - 2026. 1. 1. 이후 육아…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2163816&bnefType=all&svcId=322000000125",
-      "onlineUrl": "",
-      "inquiry": [
-        "보육지원과/02-3423-5855"
-      ],
-      "updatedAt": "2026-11-11",
-      "registeredAt": "2025-11-03"
-    },
-    {
       "id": "gov-benefit-322000000113",
       "sourceId": "322000000113",
       "title": "입양 및 가정위탁아동 지원",
@@ -6440,36 +6671,6 @@
       "registeredAt": "2023-11-13"
     },
     {
-      "id": "gov-benefit-313000000131",
-      "sourceId": "313000000131",
-      "title": "(마포구)난임부부 시술비 약제비 지원(시술 후 원외약제비 청구)",
-      "field": "보건·의료",
-      "provider": "서울특별시 마포구",
-      "providerType": "자치구",
-      "district": "마포구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "난임부부 시술비 지원사업 대상자 중 해당지원회차의 정부지원금 잔액이 남은 자(마포구민만 가능)",
-      "summary": "서울특별시 마포구에서 제공하는 보건·의료 혜택입니다. 보조생식술을 받는 난임부부에게 건강보험 본인부담 및 비급여 일부를 보충적으로 지원하여 경제적 부담을 경감시킴으로써 난임부부가 희망하는 자녀를 갖도록 지원",
-      "supportType": "현금",
-      "supportSummary": "★난임시술과 직접적 관련 있는 원외약처방 약제비 지원★\n\n※ 일부 본인부담금, 전액본인부담금 및 비급여 약제비 지원(지원비율 상이함)\n※ 해당 회차의 정부지원금액 한도 내에서 지급 가능\n※ 의료기관의 시술비 청구금액 확인 후 지급(개인지급까지 다소 시간 소요됨)",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2147216&bnefType=all&svcId=313000000131",
-      "onlineUrl": "",
-      "inquiry": [
-        "건강동행과/02-3153-9075"
-      ],
-      "updatedAt": "2026-11-11",
-      "registeredAt": "2025-06-24"
-    },
-    {
       "id": "gov-benefit-313000000155",
       "sourceId": "313000000155",
       "title": "(마포구)청년 면접정장 대여사업",
@@ -6778,62 +6979,6 @@
       "onlineUrl": "",
       "inquiry": [
         "관할 보건소/02-120"
-      ],
-      "updatedAt": "2026-11-11",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-611000000159",
-      "sourceId": "611000000159",
-      "title": "서울시 난임부부 시술비 지원",
-      "field": "임신·출산",
-      "provider": "서울특별시",
-      "providerType": "서울시",
-      "district": "서울특별시",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 지원자격\n -  법적 혼인상태에 있거나, 신청일 기준 1년 이상 사실상 혼인 관계를 유지하였다고 관할 보건소로부터 확인된 난임부부(지원신청 접수일 기준)\n -  신청일 기준 서울시 거주(여성기준)가 확인된 자\n -  부부 중 최소한 한 명은 주민등록이 되어 있는…",
-      "summary": "서울특별시에서 제공하는 임신·출산 혜택입니다. - 난임부부의 난임시술비 지원을 추가 확대하여 경제적 부담을 실효성 있게 경감\n- 효과적인 난임치료를 받도록 하여 희망하는 소중한 생명의 임신과 출산을 적극 지원",
-      "supportType": "서비스(의료)",
-      "supportSummary": "○ 난임부부(사실혼 포함)의 난임시술비 출산당 총 25회 지원(누적)\n    ※ 보조생식술시작일이 '24.11.1. 부터 출산당 총 25회 지원으로 변경\n  - 시술별 횟수제한 없이 출산당 25회 범위 내 지원\n  - 신청일 기준 서울시 거주\n  - [1회 지원 상한…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1005917&bnefType=all&svcId=611000000159",
-      "onlineUrl": "",
-      "inquiry": [
-        "거주지 보건소/02-120"
-      ],
-      "updatedAt": "2026-11-11",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-611000000123",
-      "sourceId": "611000000123",
-      "title": "서울시한의약난임치료지원",
-      "field": "임신·출산",
-      "provider": "서울특별시",
-      "providerType": "서울시",
-      "district": "서울특별시",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 지원자격\n - 법적 혼인상태에 있거나, 신청일 기준 최근 1년간 사실상 혼인관계를 유지하였다고 관할 보건소로부터 확인된 난임부부\n ※ 다만, 원인불명의 난임진단이 확인되어야 하고, 한의약 난임치료 신청 전 사전선별 검사 결과 지원 제한 요소가 없어야 함\n - 신청…",
-      "summary": "서울특별시에서 제공하는 임신·출산 혜택입니다. ○ 저출산·고령화에 대응하기 위한 출산장려 및 난임극복에 대한 사회적 분위기 확산",
-      "supportType": "서비스(의료)",
-      "supportSummary": "○ 서울시 지정 한의원의 한의약 난임치료 첩약비용(3개월)의 본인부담금 90% 지원(최대 1,200천원)\n     ※ 기초생활수급자 및 차상위의 경우, 본인부담금 100% 지원\n\n○ 1인 최대 2회(연 1회)",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001732&bnefType=all&svcId=611000000123",
-      "onlineUrl": "https://seoul-agi.seoul.go.kr/infertility-treatment-support-application",
-      "inquiry": [
-        "관할보건소/02-120"
       ],
       "updatedAt": "2026-11-11",
       "registeredAt": "2021-09-23"
@@ -7429,35 +7574,6 @@
       ],
       "updatedAt": "2026-11-10",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-315000000288",
-      "sourceId": "315000000288",
-      "title": "(강서구)난임부부 지원(시술 후 원외약제비 청구)",
-      "field": "보건·의료",
-      "provider": "서울특별시 강서구",
-      "providerType": "자치구",
-      "district": "강서구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "난임부부 시술비 지원사업 대상자 중 해당지원회차의 정부지원금 잔액이 남은 자",
-      "summary": "서울특별시 강서구에서 제공하는 보건·의료 혜택입니다. 난임시술관련 약제비 지원",
-      "supportType": "현금",
-      "supportSummary": "난임시술과 직접적 관련 있는 원외약처방 약제비 지원 \n※ 일부 본인부담금, 전액본인부담금 및 비급여 약제비 지원(지원비율 상이함) \n※ 해당 회차의 정부지원금액 한도 내에서 지급 가능 \n※ 의료기관 시술비 청구 후 개인지급(개인지급까지 다소 시간 소요됨)",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2169516&bnefType=all&svcId=315000000288",
-      "onlineUrl": "",
-      "inquiry": [
-        "강서구보건소/02-2600-5986"
-      ],
-      "updatedAt": "2026-11-10",
-      "registeredAt": "2025-12-09"
     },
     {
       "id": "gov-benefit-315000000291",
@@ -8628,35 +8744,6 @@
       "onlineUrl": "https://www.seochofamily.com/",
       "inquiry": [
         "여성보육과/02-2155-6685"
-      ],
-      "updatedAt": "2026-11-10",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-321000000107",
-      "sourceId": "321000000107",
-      "title": "아빠육아 휴직 장려금 지원",
-      "field": "보육·교육",
-      "provider": "서울특별시 서초구",
-      "providerType": "자치구",
-      "district": "서초구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 서초구 1년이상 거주, 고용보험 가입한 남성 육아휴직근로자",
-      "summary": "서울특별시 서초구에서 제공하는 보육·교육 혜택입니다. 맞벌이가구 증가 및 자녀 맞돌봄 문화 확산 등 양육환경이 변함에 따라 자녀양육을 위한 남성근로자의 육아휴직을 장려하고 이에 따른 경제적 부담을 완하함으로써 일과 가정생활의 양립 및 아이 키우기 좋은 환경을 만들고자 함",
-      "supportType": "현금",
-      "supportSummary": "○ 육아휴직 중인 남성근로자에게 육아휴직장려금 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001753&bnefType=all&svcId=321000000107",
-      "onlineUrl": "https://www.seocho.go.kr/site/seocho/ex/parental/ParentalLeaveFList.do",
-      "inquiry": [
-        "여성보육과/02-2155-6687"
       ],
       "updatedAt": "2026-11-10",
       "registeredAt": "2021-09-23"
@@ -14415,35 +14502,6 @@
       "registeredAt": "2026-02-05"
     },
     {
-      "id": "gov-benefit-322000000108",
-      "sourceId": "322000000108",
-      "title": "남성 난임 지원",
-      "field": "임신·출산",
-      "provider": "서울특별시 강남구",
-      "providerType": "자치구",
-      "district": "강남구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 주민등록상 강남구 거주 난임부부 중 정액검사상 이상소견이 있는 남성",
-      "summary": "서울특별시 강남구에서 제공하는 임신·출산 혜택입니다. 난임부부 중 남성에게 검진 비용 지원",
-      "supportType": "서비스(의료)",
-      "supportSummary": "○ 남성 난임 검진 상담 및 비용(일부본인부담금 및 비급여) 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001751&bnefType=all&svcId=322000000108",
-      "onlineUrl": "",
-      "inquiry": [
-        "건강관리과/02-3423-7278"
-      ],
-      "updatedAt": "2026-11-04",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-324000000109",
       "sourceId": "324000000109",
       "title": "노인 성인용 보행기 지원",
@@ -14725,35 +14783,6 @@
       ],
       "updatedAt": "2026-11-04",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-316000000124",
-      "sourceId": "316000000124",
-      "title": "(구로구)난임부부 지원(시술 후 원외약제비 청구)",
-      "field": "보건·의료",
-      "provider": "서울특별시 구로구",
-      "providerType": "자치구",
-      "district": "구로구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "난임부부 시술비 지원사업 대상자 중 해당지원회차의 정부지원금 잔액이 남은 자(구로구민만 가능)",
-      "summary": "서울특별시 구로구에서 제공하는 보건·의료 혜택입니다. 난임시술관련 약제비 지원",
-      "supportType": "현금",
-      "supportSummary": "★구로구민만 가능★\n난임시술과 직접적 관련 있는 원외약처방 약제비 지원\n※ 일부 본인부담금, 전액본인부담금 및 비급여 약제비 지원(지원비율 상이함)\n※ 해당 회차의 정부지원금액 한도 내에서 지급 가능\n※ 의료기관의 시술비 청구금액 확인 후 지급(개인지급까지 다소 시간…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2101303&bnefType=all&svcId=316000000124",
-      "onlineUrl": "",
-      "inquiry": [
-        "구로구보건소 모성실/02-860-2275"
-      ],
-      "updatedAt": "2026-11-04",
-      "registeredAt": "2022-11-08"
     },
     {
       "id": "gov-benefit-316000000129",
@@ -16626,35 +16655,6 @@
       ],
       "updatedAt": "2026-11-02",
       "registeredAt": "2025-11-28"
-    },
-    {
-      "id": "gov-benefit-303000000311",
-      "sourceId": "303000000311",
-      "title": "(성동구) 난임부부 시술비 약제비 지원",
-      "field": "임신·출산",
-      "provider": "서울특별시 성동구",
-      "providerType": "자치구",
-      "district": "성동구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "난임부부 시술비 지원 대상자 중 시술기관에서 시술과 직접적 관련 있는 원외약처방을 받은 경우\n약제비에 대해서 지원금 한도내에서 지급",
-      "summary": "서울특별시 성동구에서 제공하는 임신·출산 혜택입니다. 난임시술비 지원으로 난임부부에게 경제적 부감 경감 및 원하는 자녀를 갖도록 지원하여 저출산 극복에 기여",
-      "supportType": "현금",
-      "supportSummary": "난임시술 원외약제비 지원\n- 대상: 난임부부 시술비 지원 대상자\n- 지원조건: 지원조건금액 한도내 지급",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2118901&bnefType=all&svcId=303000000311",
-      "onlineUrl": "",
-      "inquiry": [
-        "성동구보건소 건강관리과/0222867089"
-      ],
-      "updatedAt": "2026-11-02",
-      "registeredAt": "2024-04-04"
     },
     {
       "id": "gov-benefit-303000000111",

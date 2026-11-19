@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cover-title cover-desc" data-cover-generator="seoulcity" data-cover-version="2" data-cover-subject="craft" data-cover-scene="leather-tools" data-cover-palette="clay">
+  <title id="cover-title">양조 탭에서 바로 따르는 신선한 한 잔, 서울 로컬 브루어리 탭룸 3선</title>
+  <desc id="cover-desc">가죽 조각과 송곳이 있는 작업대. 분류: 생활취향. 추천 장소: 성동구 성수동 어메이징브루잉컴퍼니, 마포구 합정동 서울브루어리, 노원구 공릉동 바몬드브루어리</desc>
+  <rect width="1600" height="900" fill="#F7F3EB"/>
+  <rect x="120" y="65" width="1360" height="770" rx="54" fill="#EEDDD0"/>
+  <ellipse cx="800" cy="763" rx="420" ry="18" fill="#303A33" opacity=".06"/>
+  <g transform="translate(280 130) scale(1.04)" stroke="#303A33" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><rect x="150" y="120" width="700" height="370" rx="25" fill="#F7F3EB"/><path d="M260 200L490 175L570 375L335 420Z" fill="#B77658" /><path d="M278 221L470 199L543 356L350 393Z" fill="none" stroke-dasharray="7 13"/><rect x="653" y="225" width="30" height="163" rx="10" fill="#68765D"/><path d="M668 225L687 150" fill="none" /><path d="M730 223V371M707 223H753" fill="none" /></g>
+</svg>
