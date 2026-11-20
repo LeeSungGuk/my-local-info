@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-11-19T12:47:06+09:00",
+  "lastGeneratedAt": "2026-11-20T12:41:27+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -4557,9 +4557,9 @@
         "#주말나들이"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-11-09T10:52:54+09:00",
-      "usedAt": null
+      "usedAt": "2026-11-20T12:41:27+09:00"
     },
     {
       "id": "seoul-specialty-single-origin-roasteries",
