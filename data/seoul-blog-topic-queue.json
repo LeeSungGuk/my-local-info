@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastGeneratedAt": "2026-11-20T12:41:27+09:00",
+  "lastGeneratedAt": "2026-11-21T12:24:42+09:00",
   "topics": [
     {
       "id": "seoul-night-walk-route",
@@ -4578,9 +4578,9 @@
         "#서울커피투어"
       ],
       "origin": "ai",
-      "status": "pending",
+      "status": "used",
       "createdAt": "2026-11-09T10:52:54+09:00",
-      "usedAt": null
+      "usedAt": "2026-11-21T12:24:42+09:00"
     },
     {
       "id": "seoul-immersive-media-art-galleries",

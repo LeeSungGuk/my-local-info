@@ -10,9 +10,9 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-11-20T03:41:15.936Z",
+    "collectedAt": "2026-11-21T03:24:31.347Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10891,
+    "availableCount": 10892,
     "fetchedCount": 1143,
     "activeCount": 1108,
     "expiredCount": 35,
@@ -21,6 +21,36 @@
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-B37003100017",
+      "sourceId": "B37003100017",
+      "title": "국민체력100",
+      "field": "보건·의료",
+      "provider": "서울올림픽기념국민체육진흥공단",
+      "providerType": "서울 공공기관",
+      "district": "서울특별시",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 만4~6세, 11세이상 전국민\n - 유소년, 청소년, 성인, 노인(단, 측정종목 모두 측정이 가능하여야 함)",
+      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 보건·의료 혜택입니다. 국민의 체력 및 건강증진에 목적을 두고 과학적 방법에 의해\n측정ㆍ평가를 하여 운동 상담 및 운동 처방을 해주는 대국민 무상 스포츠 복지 서비스입니다.",
+      "supportType": "기타",
+      "supportSummary": "○ 국민의 과학적 체력관리 지원과 생활체육참여율 증진\n\n○ 전국 체력인증센터의 체력측정 예약 - 체력측정, 운동처방, 체력인증, 체력증진교실, 온라인 운동동영상서비스 제공",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청",
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2001194&bnefType=all&svcId=B37003100017",
+      "onlineUrl": "https://nfa.kspo.or.kr",
+      "inquiry": [
+        "KSPO체력인증센터/1644-7110"
+      ],
+      "updatedAt": "2026-11-20",
+      "registeredAt": "2022-07-15"
+    },
     {
       "id": "gov-benefit-312000000318",
       "sourceId": "312000000318",
@@ -8637,36 +8667,6 @@
       ],
       "updatedAt": "2026-11-10",
       "registeredAt": "2024-12-22"
-    },
-    {
-      "id": "gov-benefit-B37003100017",
-      "sourceId": "B37003100017",
-      "title": "국민체력100",
-      "field": "보건·의료",
-      "provider": "서울올림픽기념국민체육진흥공단",
-      "providerType": "서울 공공기관",
-      "district": "서울특별시",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 만4~6세, 11세이상 전국민\n - 유소년, 청소년, 성인, 노인(단, 측정종목 모두 측정이 가능하여야 함)",
-      "summary": "서울올림픽기념국민체육진흥공단에서 제공하는 보건·의료 혜택입니다. 국민의 체력 및 건강증진에 목적을 두고 과학적 방법에 의해\n측정ㆍ평가를 하여 운동 상담 및 운동 처방을 해주는 대국민 무상 스포츠 복지 서비스입니다.",
-      "supportType": "기타",
-      "supportSummary": "○ 국민의 과학적 체력관리 지원과 생활체육참여율 증진\n\n○ 전국 체력인증센터의 체력측정 예약 - 체력측정, 운동처방, 체력인증, 체력증진교실, 온라인 운동동영상서비스 제공",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청",
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2001194&bnefType=all&svcId=B37003100017",
-      "onlineUrl": "https://nfa.kspo.or.kr",
-      "inquiry": [
-        "KSPO체력인증센터/1644-7110"
-      ],
-      "updatedAt": "2026-11-10",
-      "registeredAt": "2022-07-15"
     },
     {
       "id": "gov-benefit-B37003100018",
