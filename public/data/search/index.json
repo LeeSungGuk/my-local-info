@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-21T03:24:31.347Z",
+  "generatedAt": "2026-11-22T00:00:00.000Z",
   "counts": {
     "event": 146,
     "benefit": 1108,
     "food": 300,
-    "blog": 212
+    "blog": 213
   },
   "items": [
     {
@@ -192,7 +192,7 @@
       "startDate": "2026-11-20",
       "endDate": "2026-11-21",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false,
       "isExternal": false
     },
@@ -489,7 +489,7 @@
       "startDate": "2026-11-21",
       "endDate": "2026-11-21",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -526,7 +526,7 @@
       "startDate": "2026-11-21",
       "endDate": "2026-11-21",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -563,7 +563,7 @@
       "startDate": "2026-11-21",
       "endDate": "2026-11-21",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -600,7 +600,7 @@
       "startDate": "2026-11-21",
       "endDate": "2026-11-21",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -637,7 +637,7 @@
       "startDate": "2026-11-21",
       "endDate": "2026-11-21",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -674,7 +674,7 @@
       "startDate": "2026-11-21",
       "endDate": "2026-11-21",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -711,7 +711,7 @@
       "startDate": "2026-11-21",
       "endDate": "2026-11-21",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -748,7 +748,7 @@
       "startDate": "2026-11-21",
       "endDate": "2026-11-21",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -786,7 +786,7 @@
       "startDate": "2026-11-21",
       "endDate": "2026-11-21",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false,
       "isExternal": false
     },
@@ -823,7 +823,7 @@
       "startDate": "2026-11-21",
       "endDate": "2026-11-21",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -860,7 +860,7 @@
       "startDate": "2026-11-21",
       "endDate": "2026-11-21",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -897,7 +897,7 @@
       "startDate": "2026-11-21",
       "endDate": "2026-11-21",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -935,7 +935,7 @@
       "startDate": "2026-11-21",
       "endDate": "2026-11-21",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false,
       "isExternal": false
     },
@@ -972,7 +972,7 @@
       "startDate": "2026-11-21",
       "endDate": "2026-11-21",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -1009,7 +1009,7 @@
       "startDate": "2026-11-21",
       "endDate": "2026-11-21",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": true,
       "isExternal": false
     },
@@ -1047,7 +1047,7 @@
       "startDate": "2026-11-21",
       "endDate": "2026-11-21",
       "updatedAt": "",
-      "isActive": true,
+      "isActive": false,
       "isFree": false,
       "isExternal": false
     },
@@ -73478,6 +73478,43 @@
       "startDate": "",
       "endDate": "",
       "updatedAt": "2026-11-21",
+      "isActive": true,
+      "isFree": false,
+      "isExternal": false
+    },
+    {
+      "id": "2026-11-22-seoul-media-art-galleries",
+      "type": "blog",
+      "typeLabel": "블로그",
+      "title": "빛과 영상이 만드는 환상적인 몰입감, 비 오는 날 가기 좋은 서울 미디어아트 전시장 3곳",
+      "summary": "비 오는 날이나 실내 데이트가 필요한 날, 압도적인 프로젝션과 인터랙티브 기술로 색다른 휴식을 선사하는 서울 도심 속 미디어아트 전시 공간들을 소개합니다.",
+      "category": "정보",
+      "district": "",
+      "tags": [
+        "미디어아트",
+        "실내전시",
+        "몰입형전시",
+        "서울실내데이트"
+      ],
+      "keywords": [
+        "블로그",
+        "서울",
+        "빛과 영상이 만드는 환상적인 몰입감, 비 오는 날 가기 좋은 서울 미디어아트 전시장 3곳",
+        "비 오는 날이나 실내 데이트가 필요한 날, 압도적인 프로젝션과 인터랙티브 기술로 색다른 휴식을 선사하는 서울 도심 속 미디어아트 전시 공간들을 소개합니다.",
+        "정보",
+        "미디어아트",
+        "실내전시",
+        "몰입형전시",
+        "서울실내데이트",
+        "비가 내리거나 날씨가 변덕스러운 날에는 야외 활동보다 쾌적한 실내 공간을 찾게 됩니다. 서울 도심에는 단순한 관람을 넘어 빛과 영상, 사운드가 공간을 가득 채우며 온몸으로 작품을 느끼게 해주는 미디어아트 전용 공간들이 자리하고 있습니다. 날씨에 구애받지 않고 감각적인 시간을 보낼 수 있는 서울의 대표적인 몰입형 전시 공간 세 곳을 정리해 보았습니다. 🌧️ 비 오는 날 서울, 미디어아트 전시장이 좋은 이유 3가지 첫째, 계절과 날씨의 영향을 전혀 받지 않습니다. 궂은 날씨에도 쾌적한 실내 온도 속에서 온전히 전시에만 집중하며 여유로운 시간을 보낼 수 있습니다. 둘째, 시각과 청각을 동시에 자극하는 높은 몰입감을 제공합니다. 벽면과 바닥을 가득 채우는 대형 프로젝션과 입체적인 사운드가 어우러져 일상에서 잠시 벗어난 듯한 기분을 느낄 수 있습니다. 셋째, 직접 참여하고 기록하는 재미가 있습니다. 관람객의 움직임에 반응하는 인터랙티브 요소가 많고, 공간 자체가 화려한 빛으로 채워져 있어 자연스럽게 인상적인 사진과 영상을 남기기에 좋습니다. 🎨 도심 속 몰입형 미디어아트 공간 3곳 광진구 워커힐 빛의 시어터 아차산 자락의 워커힐 내에 자리한 이곳은 거대한 공간 전체를 캔버스로 활용하는 대표적인 몰입형 예술 공간입니다. 높은 층고와 넓은 면적을 가득 메우는 프로젝션 맵핑과 웅장한 사운드가 어우러져, 마치 작품 속으로 걸어 들어간 듯한 압도적"
+      ],
+      "href": "/blog/2026-11-22-seoul-media-art-galleries",
+      "provider": "서울시티",
+      "venue": "",
+      "dateLabel": "2026-11-22",
+      "startDate": "",
+      "endDate": "",
+      "updatedAt": "2026-11-22",
       "isActive": true,
       "isFree": false,
       "isExternal": false

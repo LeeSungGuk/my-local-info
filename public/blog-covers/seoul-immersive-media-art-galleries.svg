@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cover-title cover-desc" data-cover-generator="seoulcity" data-cover-version="2" data-cover-subject="art" data-cover-scene="gallery-wall" data-cover-palette="sea">
+  <title id="cover-title">빛과 영상이 만드는 환상적인 몰입감, 비 오는 날 가기 좋은 서울 미디어아트 전시장 3곳</title>
+  <desc id="cover-desc">큰 그림과 작은 작품이 걸린 전시 벽. 분류: 실내대안. 추천 장소: 광진구 워커힐 빛의 시어터, 중구 하이커 그라운드, 중구 딜라이트 서울 전시장</desc>
+  <rect width="1600" height="900" fill="#F7F3EB"/>
+  <rect x="120" y="65" width="1360" height="770" rx="54" fill="#DCE8E2"/>
+  <ellipse cx="800" cy="763" rx="420" ry="18" fill="#303A33" opacity=".06"/>
+  <g transform="translate(280 130) scale(1.04)" stroke="#303A33" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><rect x="200" y="90" width="360" height="330" rx="3" fill="#F7F3EB"/><rect x="218" y="108" width="324" height="294" rx="1" fill="#DCE8E2"/><circle cx="441.20000000000005" cy="195.60000000000002" r="36" fill="#67948B"/><path d="M219 400L354.8 222L437.6 321L541 255V401Z" fill="#B48365" /><rect x="650" y="140" width="170" height="210" rx="3" fill="#F7F3EB"/><rect x="668" y="158" width="134" height="174" rx="1" fill="#DCE8E2"/><circle cx="763.9" cy="207.2" r="17" fill="#67948B"/><path d="M669 330L723.1 224L762.2 287L801 245V331Z" fill="#B48365" /><g transform="translate(350 476) scale(1)"><rect x="0" y="-60" width="250" height="24" rx="3" fill="#B48365"/><rect x="0" y="-27" width="250" height="25" rx="3" fill="#F7F3EB"/><path d="M23 -2L13 75" fill="none" /><path d="M225 -2L237 75" fill="none" /><path d="M30 -60L30 -27" fill="none" /><path d="M220 -60L220 -27" fill="none" /></g><path d="M120 510H880" fill="none" /></g>
+</svg>
