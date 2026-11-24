@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cover-title cover-desc" data-cover-generator="seoulcity" data-cover-version="2" data-cover-subject="cinema" data-cover-scene="arcade-room" data-cover-palette="clay">
+  <title id="cover-title">상업 영화관과는 다른 깊은 여운, 서울 독립·예술영화관 4곳과 산책 코스</title>
+  <desc id="cover-desc">게임기와 스툴이 있는 레트로 오락 공간. 분류: 실내대안. 추천 장소: 마포구 KT&amp;G 상상마당 시네마, 서대문구 아트하우스 모모, 종로구 에무시네마</desc>
+  <rect width="1600" height="900" fill="#F7F3EB"/>
+  <rect x="120" y="65" width="1360" height="770" rx="54" fill="#EEDDD0"/>
+  <ellipse cx="800" cy="763" rx="420" ry="18" fill="#303A33" opacity=".06"/>
+  <g transform="translate(280 130) scale(1.04)" stroke="#303A33" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M260 83H610L660 178L604 326V490H255V305L220 170Z" fill="#B77658" /><rect x="282" y="125" width="283" height="140" rx="10" fill="#303A33"/><path d="M310 302H575L620 357H265Z" fill="#F7F3EB" /><circle cx="506" cy="331" r="12" fill="#68765D"/><path d="M355 327L355 290" fill="none" /><circle cx="355" cy="281" r="15" fill="#303A33"/><g transform="translate(765 413) scale(0.65)"><rect x="-53" y="-125" width="106" height="105" rx="22" fill="#B77658"/><rect x="-65" y="-25" width="130" height="28" rx="8" fill="#F7F3EB"/><path d="M-45 3L-56 100" fill="none" /><path d="M45 3L56 100" fill="none" /></g></g>
+</svg>

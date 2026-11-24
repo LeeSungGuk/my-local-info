@@ -10,9 +10,9 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-11-21T03:24:31.347Z",
+    "collectedAt": "2026-11-24T06:17:53.552Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10892,
+    "availableCount": 10895,
     "fetchedCount": 1143,
     "activeCount": 1108,
     "expiredCount": 35,
@@ -21,6 +21,34 @@
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-312000000105",
+      "sourceId": "312000000105",
+      "title": "입양가정 입양축하금 지급",
+      "field": "임신·출산",
+      "provider": "서울특별시 서대문구",
+      "providerType": "자치구",
+      "district": "서대문구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 입양일 기준 6개월 이상 서대문구에 주민등록을 두고 실제 거주한 가정",
+      "summary": "서울특별시 서대문구에서 제공하는 임신·출산 혜택입니다. 아동을 국내입양한 가정 중 가정법원 입양 확정일이 26. 1.1. 이후인 가정",
+      "supportType": "현금",
+      "supportSummary": "○ 입양가정 입양축하금 지급 \n\n○ 장애아동 200만원, 일반아동 100만원 1가정 1회",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1000532&bnefType=all&svcId=312000000105",
+      "onlineUrl": "",
+      "inquiry": [
+        "아동청소년과/02-330-4923"
+      ],
+      "updatedAt": "2026-11-23",
+      "registeredAt": "2021-09-23"
+    },
     {
       "id": "gov-benefit-B37003100017",
       "sourceId": "B37003100017",
@@ -1427,34 +1455,6 @@
       "onlineUrl": "",
       "inquiry": [
         "가족정책과/02-330-1388"
-      ],
-      "updatedAt": "2026-11-13",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-312000000105",
-      "sourceId": "312000000105",
-      "title": "입양가정 입양축하금 지급",
-      "field": "임신·출산",
-      "provider": "서울특별시 서대문구",
-      "providerType": "자치구",
-      "district": "서대문구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 입양일 기준 6개월 이상 서대문구에 주민등록을 두고 실제 거주한 가정",
-      "summary": "서울특별시 서대문구에서 제공하는 임신·출산 혜택입니다. 아동을 국내입양한 가정 중 가정법원 입양 확정일이 22. 1.1. 이후인 가정",
-      "supportType": "현금",
-      "supportSummary": "○ 입양가정 입양축하금 지급 \n\n○ 장애아동 200만원, 일반아동 100만원 1가정 1회",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1000532&bnefType=all&svcId=312000000105",
-      "onlineUrl": "",
-      "inquiry": [
-        "아동청소년과/02-330-4923"
       ],
       "updatedAt": "2026-11-13",
       "registeredAt": "2021-09-23"
