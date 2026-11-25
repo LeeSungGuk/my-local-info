@@ -10,7 +10,7 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-11-24T06:17:53.552Z",
+    "collectedAt": "2026-11-25T05:00:28.219Z",
     "syncSchedule": "매일 오전 7시 30분",
     "availableCount": 10895,
     "fetchedCount": 1143,
@@ -21,6 +21,63 @@
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-315000000297",
+      "sourceId": "315000000297",
+      "title": "자치회관 프로그램 신청/감면",
+      "field": "생활안정",
+      "provider": "서울특별시 강서구",
+      "providerType": "자치구",
+      "district": "강서구",
+      "userType": "개인",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "○ 자치회관 프로그램 수강료 감면\n  -「국민기초생활 보장법」제2조에 따른 국민기초생활보장수급자\n  -「장애인복지법」제32조에 따른 등록장애인\n  -「국가유공자 등 예우 및 지원에 관한 법률 」에 따라 등록된 국가유공자와 그 유족 또는 가족\n  -「서울특별시 강서구…",
+      "summary": "서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 자치회관 프로그램 운영 활성화",
+      "supportType": "현금(감면)",
+      "supportSummary": "○ 자치회관 프로그램 신청\n  - 동주민센터 방문 신청\n\n○ 자치회관 프로그램 수강료 감면\n  -「국민기초생활 보장법」제2조에 따른 국민기초생활보장수급자\n  -「장애인복지법」제32조에 따른 등록장애인\n  -「국가유공자 등 예우 및 지원에 관한 법률 」에 따라 등록된…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2169628&bnefType=all&svcId=315000000297",
+      "onlineUrl": "",
+      "inquiry": [
+        "자치행정과/02-2600-6158"
+      ],
+      "updatedAt": "2026-11-24",
+      "registeredAt": "2025-12-12"
+    },
+    {
+      "id": "gov-benefit-314000000272",
+      "sourceId": "314000000272",
+      "title": "양천형 밤샘 긴급돌봄 어린이집 운영",
+      "field": "생활안정",
+      "provider": "서울특별시 양천구",
+      "providerType": "자치구",
+      "district": "양천구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "양천구 거주 12개월 ~ 6세 미만 영유아",
+      "summary": "서울특별시 양천구에서 제공하는 생활안정 혜택입니다. 야간에도 긴급하게  보육수요 발생시 공백 없는 보육서비스 제공",
+      "supportType": "서비스(돌봄)",
+      "supportSummary": "야간에도 긴급하게  보육수요 발생시 공백 없는 보육서비스 제공\n\n(영유아)\n- 이용대상 :  양천구 거주 12개월 ~ 6세 미만 영유아\n- 추진기관 : 관내 국공립어린이집 23개소\n- 운영시간 : 19:00 ~ 익일 07:30 (아동당 최대 월 80시간)\n- 보 육…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2165716&bnefType=all&svcId=314000000272",
+      "onlineUrl": "https://www.yangcheon.go.kr/site/yangcheon/05/10503021201002023042509.jsp",
+      "inquiry": [
+        "보육정책과/0226204839"
+      ],
+      "updatedAt": "2026-11-24",
+      "registeredAt": "2025-11-11"
+    },
     {
       "id": "gov-benefit-312000000105",
       "sourceId": "312000000105",
@@ -881,34 +938,6 @@
       "onlineUrl": "https://sports.gangseo.seoul.kr/fmcs/1",
       "inquiry": [
         "강서구청 체육관광과/02-2600-6412"
-      ],
-      "updatedAt": "2026-11-13",
-      "registeredAt": "2025-12-12"
-    },
-    {
-      "id": "gov-benefit-315000000297",
-      "sourceId": "315000000297",
-      "title": "자치회관 프로그램 신청/감면",
-      "field": "생활안정",
-      "provider": "서울특별시 강서구",
-      "providerType": "자치구",
-      "district": "강서구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 자치회관 프로그램 수강료 감면\n  -「국민기초생활 보장법」제2조에 따른 국민기초생활보장수급자\n  -「장애인복지법」제32조에 따른 등록장애인\n  -「국가유공자 등 예우 및 지원에 관한 법률 」에 따라 등록된 국가유공자와 그 유족 또는 가족\n  -「서울특별시 강서구…",
-      "summary": "서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 자치회관 프로그램 운영 활성화",
-      "supportType": "현금(감면)",
-      "supportSummary": "○ 자치회관 프로그램 신청\n  - 동주민센터 방문 신청\n\n○ 자치회관 프로그램 수강료 감면\n  -「국민기초생활 보장법」제2조에 따른 국민기초생활보장수급자\n  -「장애인복지법」제32조에 따른 등록장애인\n  -「국가유공자 등 예우 및 지원에 관한 법률 」에 따라 등록된…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2169628&bnefType=all&svcId=315000000297",
-      "onlineUrl": "",
-      "inquiry": [
-        "자치행정과/02-2600-6441"
       ],
       "updatedAt": "2026-11-13",
       "registeredAt": "2025-12-12"
@@ -18052,35 +18081,6 @@
       ],
       "updatedAt": "2026-10-30",
       "registeredAt": "2025-11-07"
-    },
-    {
-      "id": "gov-benefit-314000000272",
-      "sourceId": "314000000272",
-      "title": "양천형 밤샘 긴급돌봄 어린이집 운영",
-      "field": "생활안정",
-      "provider": "서울특별시 양천구",
-      "providerType": "자치구",
-      "district": "양천구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "양천구 거주 12개월 ~ 6세 미만 영유아",
-      "summary": "서울특별시 양천구에서 제공하는 생활안정 혜택입니다. 야간에도 긴급하게  보육수요 발생시 공백 없는 보육서비스 제공",
-      "supportType": "서비스(돌봄)",
-      "supportSummary": "야간에도 긴급하게  보육수요 발생시 공백 없는 보육서비스 제공\n\n(영유아)\n- 이용대상 :  양천구 거주 12개월 ~ 6세 미만 영유아\n- 추진기관 : 관내 국공립어린이집 23개소\n- 운영시간 : 19:00 ~ 익일 07:30 (아동당 최대 월 80시간)\n- 보 육…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2165716&bnefType=all&svcId=314000000272",
-      "onlineUrl": "https://www.yangcheon.go.kr/site/yangcheon/05/10503021201002023042509.jsp",
-      "inquiry": [
-        "보육정책과/0226204839"
-      ],
-      "updatedAt": "2026-10-30",
-      "registeredAt": "2025-11-11"
     },
     {
       "id": "gov-benefit-314000000116",

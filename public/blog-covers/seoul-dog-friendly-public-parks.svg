@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cover-title cover-desc" data-cover-generator="seoulcity" data-cover-version="2" data-cover-subject="pet" data-cover-scene="dog-playground" data-cover-palette="clay">
+  <title id="cover-title">반려견과 목줄 없이 뛰노는 시간, 접근성 좋은 서울 공공 반려견 놀이터 4곳</title>
+  <desc id="cover-desc">반려견과 놀이 터널이 있는 공원. 분류: 생활취향. 추천 장소: 광진구 어린이대공원 반려견놀이터, 마포구 월드컵공원 반려견놀이터, 동작구 보라매공원 반려견놀이터</desc>
+  <rect width="1600" height="900" fill="#F7F3EB"/>
+  <rect x="120" y="65" width="1360" height="770" rx="54" fill="#EEDDD0"/>
+  <ellipse cx="800" cy="763" rx="420" ry="18" fill="#303A33" opacity=".06"/>
+  <g transform="translate(280 130) scale(1.04)" stroke="#303A33" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M130 470V280Q130 95 333 95Q535 95 535 280V470Z" fill="#68765D" /><path d="M201 470V280Q201 169 333 169Q464 169 464 280V470Z" fill="#EEDDD0" /><g transform="translate(688 374) scale(0.95)"><path d="M-80-90Q-120-160-144-120Q-155-84-106-58M-80-90H20L60-160L92-110L137-90V-52L76-40L58 24H-51L-75-25Z" fill="#F7F3EB" /><path d="M-51 24L-60 80" fill="none" /><path d="M40 24L52 80" fill="none" /><circle cx="92" cy="-95" r="5" fill="#303A33"/></g><circle cx="810" cy="449" r="35" fill="#B77658"/></g>
+</svg>
