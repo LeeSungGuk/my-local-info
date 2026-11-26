@@ -10,9 +10,9 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-11-25T05:00:28.219Z",
+    "collectedAt": "2026-11-26T04:18:34.035Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10895,
+    "availableCount": 10898,
     "fetchedCount": 1143,
     "activeCount": 1108,
     "expiredCount": 35,
@@ -21,6 +21,63 @@
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-315000000291",
+      "sourceId": "315000000291",
+      "title": "안심장비 지원",
+      "field": "생활안정",
+      "provider": "서울특별시 강서구",
+      "providerType": "자치구",
+      "district": "강서구",
+      "userType": "개인||가구",
+      "deadlineText": "접수기관 별 상이",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "1인거주가구\n스토킹범죄피해자\n주거안전취약가구 (주거침입범죄 피해자, 여성, 노인, 아동 등)",
+      "summary": "서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 안심장비 지원을 통해 안전한 주거환경 조성",
+      "supportType": "현물",
+      "supportSummary": "안심장비 지원\n-스마트홈카메라\n-도어락지문방지필름\n-스마트문열림센서\n-창문잠금장치 등",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2168596&bnefType=all&svcId=315000000291",
+      "onlineUrl": "",
+      "inquiry": [
+        "강서구청 출산보육과/02-2600-6039"
+      ],
+      "updatedAt": "2026-11-25",
+      "registeredAt": "2025-12-09"
+    },
+    {
+      "id": "gov-benefit-311000000146",
+      "sourceId": "311000000146",
+      "title": "은평구 무료법률상담서비스 제공",
+      "field": "생활안정",
+      "provider": "서울특별시 은평구",
+      "providerType": "자치구",
+      "district": "은평구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "법률서비스 접근이 취약한 구민 누구나",
+      "summary": "서울특별시 은평구에서 제공하는 생활안정 혜택입니다. 주민을 대상으로 민사, 형사, 가사, 행정 및 생활관련 법률상담 제공",
+      "supportType": "기타(상담)",
+      "supportSummary": "주민생활에서 발생하는 각종 법률문제에 있어 주민의 이익과 권리를 보호하기 위하여 법률상담을 무료로 제공하는 서비스입니다.\n\n민사, 가사, 행정, 형사, 그 밖의 생활법률에 대하여 변호사가 상담서비스를 제공합니다.",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2100998&bnefType=all&svcId=311000000146",
+      "onlineUrl": "",
+      "inquiry": [
+        "기획예산과/02-351-6285"
+      ],
+      "updatedAt": "2026-11-25",
+      "registeredAt": "2022-11-04"
+    },
     {
       "id": "gov-benefit-315000000297",
       "sourceId": "315000000297",
@@ -7694,34 +7751,6 @@
       ],
       "updatedAt": "2026-11-10",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-315000000291",
-      "sourceId": "315000000291",
-      "title": "안심장비 지원",
-      "field": "생활안정",
-      "provider": "서울특별시 강서구",
-      "providerType": "자치구",
-      "district": "강서구",
-      "userType": "개인||가구",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "1인거주가구\n스토킹범죄피해자\n주거안전취약가구 (주거침입범죄 피해자, 여성, 노인, 아동 등)",
-      "summary": "서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 안심장비 지원을 통해 안전한 주거환경 조성",
-      "supportType": "현물",
-      "supportSummary": "안심장비 지원\n-스마트홈카메라\n-도어락지문방지필름\n-스마트문열림센서\n-창문잠금장치 등",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2168596&bnefType=all&svcId=315000000291",
-      "onlineUrl": "",
-      "inquiry": [
-        "강서구청 출산보육과/02-2600-6039"
-      ],
-      "updatedAt": "2026-11-10",
-      "registeredAt": "2025-12-09"
     },
     {
       "id": "gov-benefit-315000000108",
@@ -16859,36 +16888,6 @@
       ],
       "updatedAt": "2026-11-02",
       "registeredAt": "2025-11-24"
-    },
-    {
-      "id": "gov-benefit-311000000146",
-      "sourceId": "311000000146",
-      "title": "은평구 무료법률상담서비스 제공",
-      "field": "생활안정",
-      "provider": "서울특별시 은평구",
-      "providerType": "자치구",
-      "district": "은평구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "법률서비스 접근이 취약한 구민 누구나",
-      "summary": "서울특별시 은평구에서 제공하는 생활안정 혜택입니다. 주민을 대상으로 민사, 형사, 가사, 행정 및 생활관련 법률상담 제공",
-      "supportType": "기타(상담)",
-      "supportSummary": "주민생활에서 발생하는 각종 법률문제에 있어 주민의 이익과 권리를 보호하기 위하여 법률상담을 무료로 제공하는 서비스입니다.\n\n민사, 가사, 행정, 형사, 그 밖의 생활법률에 대하여 변호사가 상담서비스를 제공합니다.",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2100998&bnefType=all&svcId=311000000146",
-      "onlineUrl": "",
-      "inquiry": [
-        "기획예산과/02-351-6285"
-      ],
-      "updatedAt": "2026-11-02",
-      "registeredAt": "2022-11-04"
     },
     {
       "id": "gov-benefit-310000000114",

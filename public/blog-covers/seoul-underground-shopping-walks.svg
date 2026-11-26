@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cover-title cover-desc" data-cover-generator="seoulcity" data-cover-version="2" data-cover-subject="citywalk" data-cover-scene="neighborhood-street" data-cover-palette="clay">
+  <title id="cover-title">비와 한파에도 끄떡없는 서울 지하철 직결 쇼핑·실내 산책로 4곳</title>
+  <desc id="cover-desc">가로등과 낮은 주택이 있는 동네 길. 분류: 실내대안. 추천 장소: 강남구 코엑스 스타필드 지하연결통로, 서초구 고속터미널 고투몰, 영등포구 타임스퀘어 지하연결통로</desc>
+  <rect width="1600" height="900" fill="#F7F3EB"/>
+  <rect x="120" y="65" width="1360" height="770" rx="54" fill="#EEDDD0"/>
+  <ellipse cx="800" cy="763" rx="420" ry="18" fill="#303A33" opacity=".06"/>
+  <g transform="translate(280 130) scale(1.04)" stroke="#303A33" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M140 485L480 220L860 485Z" fill="#EEDDD0" /><rect x="140" y="245" width="210" height="160" rx="2" fill="#F7F3EB"/><path d="M115 245L245 135L376 245Z" fill="#68765D" /><rect x="660" y="170" width="195" height="225" rx="2" fill="#F7F3EB"/><path d="M635 170L757 85L880 170Z" fill="#B77658" /><path d="M475 340V105H544" fill="none" /><circle cx="544" cy="126" r="26" fill="#B77658"/></g>
+</svg>
