@@ -10,17 +10,74 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-11-26T04:18:34.035Z",
+    "collectedAt": "2026-11-27T04:28:10.833Z",
     "syncSchedule": "매일 오전 7시 30분",
     "availableCount": 10898,
-    "fetchedCount": 1143,
+    "fetchedCount": 1141,
     "activeCount": 1108,
-    "expiredCount": 35,
+    "expiredCount": 33,
     "deduplicatedCount": 0,
     "filterMode": "서울 소관기관",
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-315000000263",
+      "sourceId": "315000000263",
+      "title": "강서 생활민원기동대 서비스",
+      "field": "주거·자립",
+      "provider": "서울특별시 강서구",
+      "providerType": "자치구",
+      "district": "강서구",
+      "userType": "개인||가구",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 지원대상: 사회적 취약계층 지원\n\n    - 재료비 지원대상자: 국민기초생활보장법에 따른 수급자. 법정차상위계층, 장애정도가 심한 장애인, 한부모가족 지원법에 의한 한부모가족,\n                                      65세이상 독거노인…",
+      "summary": "서울특별시 강서구에서 제공하는 주거·자립 혜택입니다. 사회적 취약계층을 대상으로 혼자서는 해결하기 어려운 생활 속 소규모 주거 불편 사항을 신속하게 해결하기 위한 서비스 지원",
+      "supportType": "현물",
+      "supportSummary": "○ 지원대상: 사회적 취약계층 지원\n\n    - 재료비 지원대상자: 국민기초생활보장법에 따른 수급자. 법정차상위계층, 장애정도가 심한 장애인, 한부모가족 지원법에 의한 한부모가족,\n                                      65세이상 독거노인…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청",
+        "직접입력"
+      ],
+      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2112702&bnefType=all&svcId=315000000263",
+      "onlineUrl": "https://www.gangseo.seoul.kr",
+      "inquiry": [
+        "02-2600-1104/02-2600-6695"
+      ],
+      "updatedAt": "2026-11-26",
+      "registeredAt": "2023-10-23"
+    },
+    {
+      "id": "gov-benefit-300000000108",
+      "sourceId": "300000000108",
+      "title": "출산장려 건강보험 가입지원",
+      "field": "임신·출산",
+      "provider": "서울특별시 종로구",
+      "providerType": "자치구",
+      "district": "종로구",
+      "userType": "개인||가구",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 출산장려 건강보험료 지원\n - 지원대상 : 부 또는 모와 함께 종로구에 주민등록을 두고 거주하고 있는 둘째 이상의 영유아\n - 지원자격 : 부 또는 모의 거주기간은 10개월 이상\n  ㆍ 거주기간 10개원 이상인 경우 : 신청월 다음달에 지원\n  ㆍ 거주기간 10개…",
+      "summary": "서울특별시 종로구에서 제공하는 임신·출산 혜택입니다. 아이가 안심하고 건강하게 자랄 수 있도록 출산장려 건강보험료 지원",
+      "supportType": "현금(보험)",
+      "supportSummary": "○ 출산장려 건강보험료 지원\n - 지원대상 : 둘째아 이상 출생아동\n - 지원자격 : 부 또는 모와 함께 종로구에 주민등록을 두고 거주하고 있는 둘째 이상의 영유아\n  ㆍ거주기간 10개월 이상인 경우 : 신청월 다음달에 지원\n  ㆍ거주기간 10개월 미만인 경우 : 1…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "방문신청"
+      ],
+      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1004282&bnefType=all&svcId=300000000108",
+      "onlineUrl": "",
+      "inquiry": [
+        "아동복지과/02-2148-2995"
+      ],
+      "updatedAt": "2026-11-26",
+      "registeredAt": "2021-09-23"
+    },
     {
       "id": "gov-benefit-315000000291",
       "sourceId": "315000000291",
@@ -12314,35 +12371,6 @@
       "registeredAt": "2022-07-15"
     },
     {
-      "id": "gov-benefit-300000000108",
-      "sourceId": "300000000108",
-      "title": "출산장려 건강보험 가입지원",
-      "field": "임신·출산",
-      "provider": "서울특별시 종로구",
-      "providerType": "자치구",
-      "district": "종로구",
-      "userType": "개인||가구",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 출산장려 건강보험료 지원\n - 지원대상 : 부 또는 모와 함께 종로구에 주민등록을 두고 거주하고 있는 둘째 이상의 영유아\n - 지원자격 : 부 또는 모의 거주기간은 10개월 이상\n  ㆍ 거주기간 10개원 이상인 경우 : 신청월 다음달에 지원\n  ㆍ 거주기간 10개…",
-      "summary": "서울특별시 종로구에서 제공하는 임신·출산 혜택입니다. 아이가 안심하고 건강하게 자랄 수 있도록 출산장려 건강보험료 지원",
-      "supportType": "현금(보험)",
-      "supportSummary": "○ 출산장려 건강보험료 지원\n - 지원대상 : 둘째아 이상 출생아동\n - 지원자격 : 부 또는 모와 함께 종로구에 주민등록을 두고 거주하고 있는 둘째 이상의 영유아\n  ㆍ거주기간 10개월 이상인 경우 : 신청월 다음달에 지원\n  ㆍ거주기간 10개월 미만인 경우 : 1…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "정부24온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1004282&bnefType=all&svcId=300000000108",
-      "onlineUrl": "",
-      "inquiry": [
-        "아동복지과/02-2148-2995"
-      ],
-      "updatedAt": "2026-11-09",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-324000000110",
       "sourceId": "324000000110",
       "title": "명절맞이 위문물품 지원(양로시설)",
@@ -20971,35 +20999,6 @@
       ],
       "updatedAt": "2026-10-26",
       "registeredAt": "2025-12-08"
-    },
-    {
-      "id": "gov-benefit-315000000263",
-      "sourceId": "315000000263",
-      "title": "강서 생활민원기동대 서비스",
-      "field": "주거·자립",
-      "provider": "서울특별시 강서구",
-      "providerType": "자치구",
-      "district": "강서구",
-      "userType": "개인||가구",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 지원대상: 사회적 취약계층 지원\n\n    - 재료비 지원대상자: 국민기초생활보장법에 따른 수급자. 법정차상위계층, 장애정도가 심한 장애인, 한부모가족 지원법에 의한 한부모가족,\n                                      65세이상 독거노인…",
-      "summary": "서울특별시 강서구에서 제공하는 주거·자립 혜택입니다. 사회적 취약계층을 대상으로 혼자서는 해결하기 어려운 생활 속 소규모 주거 불편 사항을 신속하게 해결하기 위한 서비스 지원",
-      "supportType": "현물",
-      "supportSummary": "○ 지원대상: 사회적 취약계층 지원\n\n    - 재료비 지원대상자: 국민기초생활보장법에 따른 수급자. 법정차상위계층, 장애정도가 심한 장애인, 한부모가족 지원법에 의한 한부모가족,\n                                      65세이상 독거노인…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2112702&bnefType=all&svcId=315000000263",
-      "onlineUrl": "https://www.gangseo.seoul.kr",
-      "inquiry": [
-        "02-2600-1104/02-2600-6695"
-      ],
-      "updatedAt": "2026-10-26",
-      "registeredAt": "2023-10-23"
     },
     {
       "id": "gov-benefit-315000000264",
