@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cover-title cover-desc" data-cover-generator="seoulcity" data-cover-version="2" data-cover-subject="bakery" data-cover-scene="dessert-plate" data-cover-palette="clay">
+  <title id="cover-title">세월의 흔적이 담긴 공간, 서울 노포 다방과 오래된 빵집 산책</title>
+  <desc id="cover-desc">접시 위의 케이크와 디저트 포크. 분류: 구별분위기. 추천 장소: 종로구 대학로 학림다방, 중구 을지로 을지다방, 중구 장충동 태극당</desc>
+  <rect width="1600" height="900" fill="#F7F3EB"/>
+  <rect x="120" y="65" width="1360" height="770" rx="54" fill="#EEDDD0"/>
+  <ellipse cx="800" cy="763" rx="420" ry="18" fill="#303A33" opacity=".06"/>
+  <g transform="translate(280 130) scale(1.04)" stroke="#303A33" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="490" cy="380" rx="260" ry="62" fill="#F7F3EB"/><path d="M340 335V190L594 245V390Z" fill="#B77658" /><path d="M340 190L471 123L594 245Z" fill="#F7F3EB" /><path d="M342 263L591 316M342 300L591 353" fill="none" /><circle cx="474" cy="150" r="20" fill="#68765D"/><path d="M780 206V413M748 173V238Q780 269 811 238V173M779 173V238" fill="none" /></g>
+</svg>

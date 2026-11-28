@@ -10,17 +10,102 @@
     "region": "서울특별시",
     "officialUrl": "https://www.data.go.kr/data/15113968/openapi.do",
     "apiBase": "https://api.odcloud.kr/api/gov24/v3",
-    "collectedAt": "2026-11-27T04:28:10.833Z",
+    "collectedAt": "2026-11-28T04:08:52.164Z",
     "syncSchedule": "매일 오전 7시 30분",
-    "availableCount": 10898,
-    "fetchedCount": 1141,
-    "activeCount": 1108,
-    "expiredCount": 33,
+    "availableCount": 10891,
+    "fetchedCount": 1131,
+    "activeCount": 1100,
+    "expiredCount": 31,
     "deduplicatedCount": 0,
     "filterMode": "서울 소관기관",
     "pageSize": 1000
   },
   "items": [
+    {
+      "id": "gov-benefit-O00022200004",
+      "sourceId": "O00022200004",
+      "title": "강동구 공영주차장 차량 즉시감면",
+      "field": "생활안정",
+      "provider": "서울특별시강동구도시관리공단",
+      "providerType": "서울시",
+      "district": "강동구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 성실납세자\n○ 장애인\n○ 국가유공자\n○ 고엽제후유증 환자\n○ 서울시 다둥이 행복카드 소지차량 중 2자녀이상 (막내 만 18세 이하)\n○ 5.18 민주유공자증서 소지자\n○ 장기기증자\n○ 임산부 탑승 자동차\n○ 병역명문가 예우대상자",
+      "summary": "서울특별시강동구도시관리공단에서 제공하는 생활안정 혜택입니다. 고객 편의, 감면서비스 적극 개시",
+      "supportType": "현금(감면)",
+      "supportSummary": "주차요금 감면\n\n○ 면제 : 긴급자동차, 성실납세자(스티커 부착차량)\n○ 80% 할인 : 장애인, 국가유공자, 고엽제후유증 환자\n○ 50% 할인 : 경형자동차(1,000cc미만,), 저공해차량, 서울시 다둥이 행복카드 소지차량 중 2자녀이상(막내 만 18세 이하),…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "신청불필요"
+      ],
+      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2127908&bnefType=all&svcId=O00022200004",
+      "onlineUrl": "",
+      "inquiry": [
+        "공영주차팀/02-478-6147"
+      ],
+      "updatedAt": "2026-11-27",
+      "registeredAt": "2024-12-13"
+    },
+    {
+      "id": "gov-benefit-O00023200002",
+      "sourceId": "O00023200002",
+      "title": "공영 및 거주자주차장 이용요금 감면",
+      "field": "생활안정",
+      "provider": "동작구시설관리공단",
+      "providerType": "자치구",
+      "district": "동작구",
+      "userType": "개인",
+      "deadlineText": "상시신청",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": true,
+      "targetSummary": "○ 80% 감면\n - 장애인 : 장애인자동차표지를 부착하고 장애인등록증을 제시\n - 국가유공상이자 : 국가유공자등예우 및 지원에관한법률에 따른 상이자로서 국가유공자 증서를 제시한 경우(국가유공자 유족은 할인 대상 제외)\n - 고엽제후유증 : 국가 또는 지방보훈청장이…",
+      "summary": "동작구시설관리공단에서 제공하는 생활안정 혜택입니다. 공영 및 거주자주차장 요금 감면(대상별 상이)",
+      "supportType": "현금(감면)",
+      "supportSummary": "○ 공영주차장 \n - 감면대상에게 사용요금 및 면제\n - 노외 : 빗물펌프장, 생태, 구릉, 서광, 도화, 주차공원, 동작구청, 빙수골장미, 남성사계, 남성역, 노량진역, 노량진청사, 청석, 노들나루, 한누리\n - 노상 : 보라매병원앞, 반려견공원앞\n\n○ 관내 거주자…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "기타 온라인신청",
+        "방문신청"
+      ],
+      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2000494&bnefType=all&svcId=O00023200002",
+      "onlineUrl": "https://park.idongjak.or.kr",
+      "inquiry": [
+        "동작구시설관리공단/070-7204-3962"
+      ],
+      "updatedAt": "2026-11-27",
+      "registeredAt": "2022-07-15"
+    },
+    {
+      "id": "gov-benefit-306000000224",
+      "sourceId": "306000000224",
+      "title": "중랑 미취업 청년 자격증 응시료 지원",
+      "field": "고용·창업",
+      "provider": "서울특별시 중랑구",
+      "providerType": "자치구",
+      "district": "중랑구",
+      "userType": "개인",
+      "deadlineText": "매월 20일까지(예산소진시 조기 마감)",
+      "deadlineSortKey": "9999-12-31",
+      "isAlwaysOpen": false,
+      "targetSummary": "중랑구 거주 19~39세 미취업 청년(1986년∼2006년생)",
+      "summary": "서울특별시 중랑구에서 제공하는 고용·창업 혜택입니다. 구직 청년들의 경제적 부담 완화와 구직활동 촉진",
+      "supportType": "현금",
+      "supportSummary": "○ 사업기간: 2025년 2월 ~ 11월 (예산소진시까지) \n○ 신청기간: 매월 20일까지 신청 접수\n○ 지원대상: 중랑구 거주 19~39세(1986년∼2006년생) 미취업 청년 \n       - 신청일 기준 중랑구 거주 청년 \n       -  응시일부터 신청일까지…",
+      "receptionAgency": "접수기관 정보 없음",
+      "applicationMethodTypes": [
+        "직접입력"
+      ],
+      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2152931&bnefType=all&svcId=306000000224",
+      "onlineUrl": "",
+      "inquiry": [
+        "지역경제과/02-2094-2273"
+      ],
+      "updatedAt": "2026-11-27",
+      "registeredAt": "2025-08-27"
+    },
     {
       "id": "gov-benefit-315000000263",
       "sourceId": "315000000263",
@@ -77,34 +162,6 @@
       ],
       "updatedAt": "2026-11-26",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-315000000291",
-      "sourceId": "315000000291",
-      "title": "안심장비 지원",
-      "field": "생활안정",
-      "provider": "서울특별시 강서구",
-      "providerType": "자치구",
-      "district": "강서구",
-      "userType": "개인||가구",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "1인거주가구\n스토킹범죄피해자\n주거안전취약가구 (주거침입범죄 피해자, 여성, 노인, 아동 등)",
-      "summary": "서울특별시 강서구에서 제공하는 생활안정 혜택입니다. 안심장비 지원을 통해 안전한 주거환경 조성",
-      "supportType": "현물",
-      "supportSummary": "안심장비 지원\n-스마트홈카메라\n-도어락지문방지필름\n-스마트문열림센서\n-창문잠금장치 등",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2168596&bnefType=all&svcId=315000000291",
-      "onlineUrl": "",
-      "inquiry": [
-        "강서구청 출산보육과/02-2600-6039"
-      ],
-      "updatedAt": "2026-11-25",
-      "registeredAt": "2025-12-09"
     },
     {
       "id": "gov-benefit-311000000146",
@@ -5122,36 +5179,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-O00023200001",
-      "sourceId": "O00023200001",
-      "title": "동작구 핫둘핫둘서울 유아 스포츠단",
-      "field": "보육·교육",
-      "provider": "동작구시설관리공단",
-      "providerType": "자치구",
-      "district": "동작구",
-      "userType": "법인/시설/단체",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "유아스포츠단에 참여를 희망하는 관내 어린이집(만3세~5세)",
-      "summary": "동작구시설관리공단에서 제공하는 보육·교육 혜택입니다. 유아스포츠단을 지속 운영하여 성인 대비 스포츠 활동에 취약한 유아들이 건강하게 자랄 수 있도록 평생 생활체육 기반을 마련하고자 함",
-      "supportType": "기타(교육)",
-      "supportSummary": "○ 관내 어린이집(만3세~5세) 대상 유아스포츠단 프로그램 제공\n\n○ 프로그램 내용\n - 체육시설과 어린이집을 연계하여 유아의 정기적 체육활동 프로세서를 구축‧운영하는 유아 스포츠단 운영",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청",
-        "직접입력"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2000467&bnefType=all&svcId=O00023200001",
-      "onlineUrl": "",
-      "inquiry": [
-        "동작구청 체육정책과 생활체육팀/02-820-9439",
-        "동작구시설관리공단 체육사업팀/070-7204-3974"
-      ],
-      "updatedAt": "2026-11-12",
-      "registeredAt": "2022-07-15"
-    },
-    {
       "id": "gov-benefit-319000000121",
       "sourceId": "319000000121",
       "title": "아동·청소년 심리지원서비스",
@@ -5206,35 +5233,6 @@
       ],
       "updatedAt": "2026-11-12",
       "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-O00023200002",
-      "sourceId": "O00023200002",
-      "title": "공영 및 거주자주차장 이용요금 감면",
-      "field": "생활안정",
-      "provider": "동작구시설관리공단",
-      "providerType": "자치구",
-      "district": "동작구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 80% 감면\n - 장애인 : 장애인자동차표지를 부착하고 장애인등록증을 제시\n - 국가유공상이자 : 국가유공자등예우 및 지원에관한법률에 따른 상이자로서 국가유공자 증서를 제시한 경우(국가유공자 유족은 할인 대상 제외)\n - 고엽제후유증 : 국가 또는 지방보훈청장이…",
-      "summary": "동작구시설관리공단에서 제공하는 생활안정 혜택입니다. 공영 및 거주자주차장 요금 감면(대상별 상이)",
-      "supportType": "시설이용",
-      "supportSummary": "○ 공영주차장 \n - 감면대상에게 사용요금 및 면제\n - 노외 : 빗물펌프장, 생태, 구릉, 서광, 도화, 주차공원, 보라매동문, 동작구청, 빙수골장미, 남성사계\n - 노상 : 보라매병원앞, 갯마을\n\n○ 관내 거주자주차장\n - 관내 이용자\n\n○ 80% 감면 \n - 장…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "기타 온라인신청",
-        "방문신청"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2000494&bnefType=all&svcId=O00023200002",
-      "onlineUrl": "https://park.idongjak.or.kr",
-      "inquiry": [
-        "동작구시설관리공단/070-7204-3963"
-      ],
-      "updatedAt": "2026-11-12",
-      "registeredAt": "2022-07-15"
     },
     {
       "id": "gov-benefit-319000000138",
@@ -12371,34 +12369,6 @@
       "registeredAt": "2022-07-15"
     },
     {
-      "id": "gov-benefit-324000000110",
-      "sourceId": "324000000110",
-      "title": "명절맞이 위문물품 지원(양로시설)",
-      "field": "보호·돌봄",
-      "provider": "서울특별시 강동구",
-      "providerType": "자치구",
-      "district": "강동구",
-      "userType": "개인",
-      "deadlineText": "별도 신청절차 없음(설/추석 명절 지원)",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 양로시설 입소어르신",
-      "summary": "서울특별시 강동구에서 제공하는 보호·돌봄 혜택입니다. 양로시설 입소 어르신에게 명절맞이 위문물품 지원",
-      "supportType": "현물",
-      "supportSummary": "○ 양로시설 입소 어르신에게 명절맞이 위문물품 지원\n   - 70만원 / 연 2회",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "신청불필요"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1004269&bnefType=all&svcId=324000000110",
-      "onlineUrl": "",
-      "inquiry": [
-        "어르신복지과/02-3425-5743"
-      ],
-      "updatedAt": "2026-11-08",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-304000000125",
       "sourceId": "304000000125",
       "title": "저소득 장애인 등 명절위문비 지급",
@@ -14649,34 +14619,6 @@
       "registeredAt": "2026-02-05"
     },
     {
-      "id": "gov-benefit-324000000109",
-      "sourceId": "324000000109",
-      "title": "노인 성인용 보행기 지원",
-      "field": "보건·의료",
-      "provider": "서울특별시 강동구",
-      "providerType": "자치구",
-      "district": "강동구",
-      "userType": "개인",
-      "deadlineText": "상반기:2~3월    /        하반기:8~9월",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 장기요양등급 외 A, B 판정자 중 기초생활수급자, 차상위계층 기초생활수급자, \n\n○ 그 밖에 노인장기요양보험법에 따라 장기요양인정 신청을 하지 않았으나, 신체활동이 불편하여 성인용 보행기가 필요하다고 인정하는 어르신",
-      "summary": "서울특별시 강동구에서 제공하는 보건·의료 혜택입니다. 장기요양 등급외 판정을 받은 저소득 어르신에게 보행기 지원",
-      "supportType": "현물",
-      "supportSummary": "○ 노인장기요양급여 사각지대 어르신의 보행불편 해소 및 편의 증진을 위해 예산 범위내에서 노인 성인용 보행기 지원",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "방문신청"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1003353&bnefType=all&svcId=324000000109",
-      "onlineUrl": "",
-      "inquiry": [
-        "어르신복지과/02-3425-5715"
-      ],
-      "updatedAt": "2026-11-04",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-O00022300004",
       "sourceId": "O00022300004",
       "title": "독서장애인을 위한 컴퓨터 보조 기기 제공(강북문화정보도서관)",
@@ -15528,34 +15470,6 @@
       "registeredAt": "2021-09-23"
     },
     {
-      "id": "gov-benefit-324000000101",
-      "sourceId": "324000000101",
-      "title": "지역화폐(강동사랑상품권)",
-      "field": "행정·안전",
-      "provider": "서울특별시 강동구",
-      "providerType": "자치구",
-      "district": "강동구",
-      "userType": "개인||소상공인",
-      "deadlineText": "상품권 할인발행시 구매 가능(명절 전)",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 만 14세 이상의 은행과 금융거래가 가능한 본인 명의의 스마트폰 소지자",
-      "summary": "서울특별시 강동구에서 제공하는 행정·안전 혜택입니다. 소비자에게 할인 및 소득공제 혜택, 가맹점에 수수료 절감 혜택 등 제공",
-      "supportType": "이용권",
-      "supportSummary": "○ 소비자\n - 구입 충전 시 할인 5%, 연말정산 시 소득공제 30%\n\n○ 가맹점 \n - 가맹점 결제수수료 0%, 가맹점 매출증대",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1000838&bnefType=all&svcId=324000000101",
-      "onlineUrl": "",
-      "inquiry": [
-        "지역경제과/02-3425-8724"
-      ],
-      "updatedAt": "2026-11-03",
-      "registeredAt": "2021-09-23"
-    },
-    {
       "id": "gov-benefit-320000000295",
       "sourceId": "320000000295",
       "title": "(관악구) 난임부부시술 약제비 지원 (시술 후 원외 약제비 신청)",
@@ -16150,62 +16064,6 @@
       ],
       "updatedAt": "2026-11-03",
       "registeredAt": "2022-10-31"
-    },
-    {
-      "id": "gov-benefit-324000000102",
-      "sourceId": "324000000102",
-      "title": "명절맞이 위문물품 지원(경로당)",
-      "field": "보호·돌봄",
-      "provider": "서울특별시 강동구",
-      "providerType": "자치구",
-      "district": "강동구",
-      "userType": "법인/시설/단체",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 경로당 이용 어르신",
-      "summary": "서울특별시 강동구에서 제공하는 보호·돌봄 혜택입니다. 경로당 이용 어르신에게 명절맞이 위문금 지원",
-      "supportType": "현금||현물",
-      "supportSummary": "○ 명절맞이 경로당 위문금(위문품) 지원\n - 10만원 상당 / 연 2회",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "신청불필요"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001025&bnefType=all&svcId=324000000102",
-      "onlineUrl": "",
-      "inquiry": [
-        "어르신복지과/02-3425-5717"
-      ],
-      "updatedAt": "2026-11-02",
-      "registeredAt": "2021-09-23"
-    },
-    {
-      "id": "gov-benefit-324000000104",
-      "sourceId": "324000000104",
-      "title": "반려식물 보급",
-      "field": "보호·돌봄",
-      "provider": "서울특별시 강동구",
-      "providerType": "자치구",
-      "district": "강동구",
-      "userType": "개인",
-      "deadlineText": "접수기관 별 상이",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 노인맞춤돌봄서비스 지원 대상 구민",
-      "summary": "서울특별시 강동구에서 제공하는 보호·돌봄 혜택입니다. 노인맞춤돌봄서비스 대상 구민 반려식물 보급 및 원예치유프로그램 진행, 전시회 개최 등",
-      "supportType": "현물",
-      "supportSummary": "○ 노인맞춤돌봄서비스 대상 구민 반려식물 보급 및 원예치유 프로그램 운영, 전시회 개최 등",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001533&bnefType=all&svcId=324000000104",
-      "onlineUrl": "",
-      "inquiry": [
-        "푸른도시과/02-3425-6554"
-      ],
-      "updatedAt": "2026-11-02",
-      "registeredAt": "2021-09-23"
     },
     {
       "id": "gov-benefit-O00083800001",
@@ -25707,34 +25565,6 @@
       "registeredAt": "2022-07-15"
     },
     {
-      "id": "gov-benefit-324000000121",
-      "sourceId": "324000000121",
-      "title": "강동야간학교 운영 지원",
-      "field": "보육·교육",
-      "provider": "서울특별시 강동구",
-      "providerType": "자치구",
-      "district": "강동구",
-      "userType": "개인",
-      "deadlineText": "상시신청",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": true,
-      "targetSummary": "○ 문해교육 및 기초학습이 필요한 강동구민",
-      "summary": "서울특별시 강동구에서 제공하는 보육·교육 혜택입니다. 배움의 기회를 놓친 구민에게 기초학습권 보장과 평등한 배움의 기회 제공하여, 지역공동체 강화에 기여할 수 있는 주민으로 성장",
-      "supportType": "기타(교육)",
-      "supportSummary": "○ 운영목적: 배움의 기회를 놓친 구민에게 기초학습권 보장과 평등한 배움의 기회 제공하여, 지역공동체 강화에 기여할 수 있는 주민으로 성장\n○ 운영기간: 1년 (2025. 11. 24. ~ 2026. 11. 23.)\n○ 교육내용: 3개 과목(한글,한문,영어) 3개반…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2102007&bnefType=all&svcId=324000000121",
-      "onlineUrl": "",
-      "inquiry": [
-        "서울특별시 강동구/02-3425-5765"
-      ],
-      "updatedAt": "2026-10-19",
-      "registeredAt": "2022-11-25"
-    },
-    {
       "id": "gov-benefit-O00022200005",
       "sourceId": "O00022200005",
       "title": "강동구  거주자우선주차 주차요금 감면 서비스",
@@ -25758,34 +25588,6 @@
       "onlineUrl": "https://www.igangdong.or.kr/page/pf/pf_0201.asp",
       "inquiry": [
         "거주자주차팀/02-428-1717"
-      ],
-      "updatedAt": "2026-10-19",
-      "registeredAt": "2024-12-13"
-    },
-    {
-      "id": "gov-benefit-O00022200004",
-      "sourceId": "O00022200004",
-      "title": "강동구 공영주차장 차량 즉시감면",
-      "field": "생활안정",
-      "provider": "서울특별시강동구도시관리공단",
-      "providerType": "서울시",
-      "district": "강동구",
-      "userType": "개인",
-      "deadlineText": "없음",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "○ 성실납세자\n○ 장애인\n○ 국가유공자\n○ 고엽제후유증 환자\n○ 서울시 다둥이 행복카드 소지차량 중 2자녀이상 (막내 만 18세 이하)\n○ 5.18 민주유공자증서 소지자\n○ 장기기증자\n○ 임산부 탑승 자동차\n○ 병역명문가 예우대상자",
-      "summary": "서울특별시강동구도시관리공단에서 제공하는 생활안정 혜택입니다. 고객 편의, 감면서비스 적극 개시",
-      "supportType": "현금(감면)",
-      "supportSummary": "주차요금 감면\n\n○ 면제 : 긴급자동차, 성실납세자(스티커 부착차량)\n○ 80% 할인 : 장애인, 국가유공자, 고엽제후유증 환자\n○ 50% 할인 : 경형자동차(1,000cc미만,), 저공해차량, 서울시 다둥이 행복카드 소지차량 중 2자녀이상(막내 만 18세 이하),…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "신청불필요"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2127908&bnefType=all&svcId=O00022200004",
-      "onlineUrl": "",
-      "inquiry": [
-        "공영주차팀/02-478-6147"
       ],
       "updatedAt": "2026-10-19",
       "registeredAt": "2024-12-13"
@@ -26885,34 +26687,6 @@
       ],
       "updatedAt": "2026-08-18",
       "registeredAt": "2025-12-09"
-    },
-    {
-      "id": "gov-benefit-306000000224",
-      "sourceId": "306000000224",
-      "title": "중랑 미취업 청년 자격증 응시료 지원",
-      "field": "고용·창업",
-      "provider": "서울특별시 중랑구",
-      "providerType": "자치구",
-      "district": "중랑구",
-      "userType": "개인",
-      "deadlineText": "매월 20일까지(예산소진시 조기 마감)",
-      "deadlineSortKey": "9999-12-31",
-      "isAlwaysOpen": false,
-      "targetSummary": "중랑구 거주 19~39세 미취업 청년(1986년∼2006년생)",
-      "summary": "서울특별시 중랑구에서 제공하는 고용·창업 혜택입니다. 구직 청년들의 경제적 부담 완화와 구직활동 촉진",
-      "supportType": "현금",
-      "supportSummary": "○ 사업기간: 2025년 2월 ~ 11월 (예산소진시까지) \n○ 신청기간: 매월 20일까지 신청 접수\n○ 지원대상: 중랑구 거주 19~39세(1986년∼2006년생) 미취업 청년 \n       - 신청일 기준 중랑구 거주 청년 \n       -  응시일부터 신청일까지…",
-      "receptionAgency": "접수기관 정보 없음",
-      "applicationMethodTypes": [
-        "직접입력"
-      ],
-      "detailUrl": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2152931&bnefType=all&svcId=306000000224",
-      "onlineUrl": "",
-      "inquiry": [
-        "지역경제과/02-2094-2273"
-      ],
-      "updatedAt": "2026-08-14",
-      "registeredAt": "2025-08-27"
     },
     {
       "id": "gov-benefit-306000000106",
